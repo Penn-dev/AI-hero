@@ -1,0 +1,71 @@
+{
+  "policy": "Chinese learning destinations only; original English source retained in source metadata",
+  "targets": [
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "planned-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-only"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "state": "available-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-and-chinese-page"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "planned-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-only"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "planned-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-only"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "planned-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-only"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "state": "planned-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-only"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "planned-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-only"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "planned-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-only"
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "state": "available-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-and-chinese-page"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "planned-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-only"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "planned-chinese",
+      "reason": "本词条引用的基础概念，保留中文释义并纳入中文词条范围",
+      "currentBehavior": "local-definition-only"
+    }
+  ]
+}

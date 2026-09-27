@@ -1,0 +1,294 @@
+{
+  "browser": {
+    "name": "Google Chrome",
+    "version": "154.0.8037.57",
+    "executablePath": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  },
+  "preview": {
+    "baseUrl": "http://127.0.0.1:4322",
+    "route": "/a-complete-guide-to-agents-md",
+    "url": "http://127.0.0.1:4322/a-complete-guide-to-agents-md",
+    "processId": 28948
+  },
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "related": [
+      "/ai-coding-dictionary/agent",
+      "/ai-coding-dictionary/progressive-disclosure"
+    ],
+    "arrows": [
+      "/ai-coding-dictionary/agent",
+      "/ai-coding-dictionary/system-prompt",
+      "/ai-coding-dictionary/progressive-disclosure"
+    ],
+    "examplesAdjacent": 2,
+    "cardColumns": 2,
+    "tailCardColumn": "-1",
+    "horizontalOverflow": false,
+    "glossarySearch": "symlink -> 符号链接",
+    "contentsNavigation": "#缩减庞大的-agents-md-文件",
+    "contentsTarget": {
+      "id": "缩减庞大的-agents-md-文件",
+      "hash": "#缩减庞大的-agents-md-文件",
+      "rect": {
+        "top": 30,
+        "right": 920,
+        "bottom": 97.296875,
+        "left": 160,
+        "width": 760,
+        "height": 67.296875
+      },
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": 1,
+        "transform": "none"
+      },
+      "intersectsViewport": true,
+      "fullyInViewport": true,
+      "hitTest": {
+        "tag": "H2",
+        "id": "缩减庞大的-agents-md-文件",
+        "className": "",
+        "withinTarget": true
+      },
+      "sheetClosed": null
+    },
+    "chineseLinkNavigation": "/ai-coding-dictionary/system-prompt"
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "related": [
+      "/ai-coding-dictionary/agent",
+      "/ai-coding-dictionary/progressive-disclosure"
+    ],
+    "arrows": [
+      "/ai-coding-dictionary/agent",
+      "/ai-coding-dictionary/system-prompt",
+      "/ai-coding-dictionary/progressive-disclosure"
+    ],
+    "examplesAdjacent": 2,
+    "cardColumns": 1,
+    "horizontalOverflow": false,
+    "glossary": {
+      "openedFromBodyTerm": "term-system-prompt",
+      "replacementTerm": "term-token",
+      "replacementConfirmed": true,
+      "search": "Token",
+      "systemPromptSheet": {
+        "rect": {
+          "top": 520.421875,
+          "right": 390,
+          "bottom": 844,
+          "left": 0,
+          "width": 390,
+          "height": 323.578125
+        },
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "style": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": 1,
+          "transform": "none"
+        },
+        "intersectsViewport": true,
+        "fullyInViewport": true,
+        "hitTest": {
+          "tag": "DIV",
+          "id": null,
+          "className": "gap-0.5 p-4 flex flex-col",
+          "withinTarget": true
+        }
+      },
+      "systemPromptResult": {
+        "rect": {
+          "top": 699.984375,
+          "right": 366,
+          "bottom": 812,
+          "left": 24,
+          "width": 342,
+          "height": 112.015625
+        },
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "style": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": 1,
+          "transform": "none"
+        },
+        "intersectsViewport": true,
+        "fullyInViewport": true,
+        "hitTest": {
+          "tag": "DIV",
+          "id": null,
+          "className": "",
+          "withinTarget": true
+        }
+      },
+      "tokenResult": {
+        "rect": {
+          "top": 564.171875,
+          "right": 366,
+          "bottom": 676.1875,
+          "left": 24,
+          "width": 342,
+          "height": 112.015625
+        },
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "style": {
+          "display": "block",
+          "visibility": "visible",
+          "opacity": 1,
+          "transform": "none"
+        },
+        "intersectsViewport": true,
+        "fullyInViewport": true,
+        "hitTest": {
+          "tag": "DIV",
+          "id": null,
+          "className": "",
+          "withinTarget": true
+        }
+      },
+      "stableSearchSheet": {
+        "rect": {
+          "top": 377.171875,
+          "right": 390,
+          "bottom": 844,
+          "left": 0,
+          "width": 390,
+          "height": 466.828125
+        },
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "style": {
+          "display": "flex",
+          "visibility": "visible",
+          "opacity": 1,
+          "transform": "none"
+        },
+        "intersectsViewport": true,
+        "fullyInViewport": true,
+        "hitTest": {
+          "tag": "DIV",
+          "id": null,
+          "className": "gap-0.5 p-4 flex flex-col",
+          "withinTarget": true
+        }
+      },
+      "firstClose": {
+        "before": 1492,
+        "after": 1492,
+        "restored": true
+      },
+      "finalClose": {
+        "before": 1492,
+        "after": 1492,
+        "restored": true
+      }
+    },
+    "contentsNavigation": "#别让-agents-md-变成难以维护的-大杂烩",
+    "contentsTarget": {
+      "id": "别让-agents-md-变成难以维护的-大杂烩",
+      "hash": "#别让-agents-md-变成难以维护的-大杂烩",
+      "rect": {
+        "top": 29.609375,
+        "right": 376,
+        "bottom": 126.796875,
+        "left": 14,
+        "width": 362,
+        "height": 97.1875
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "style": {
+        "display": "block",
+        "visibility": "visible",
+        "opacity": 1,
+        "transform": "none"
+      },
+      "intersectsViewport": true,
+      "fullyInViewport": true,
+      "hitTest": {
+        "tag": "H2",
+        "id": "别让-agents-md-变成难以维护的-大杂烩",
+        "className": "",
+        "withinTarget": true
+      },
+      "sheetClosed": true
+    }
+  },
+  "screenshots": [
+    {
+      "file": "desktop-top.png",
+      "viewport": "desktop",
+      "state": "page top",
+      "bytes": 102017,
+      "sha256": "a8a079f4abb2f9424b0b2fcaa0dea99e5a9b9057486d1feeccc271507d967e12"
+    },
+    {
+      "file": "desktop-glossary.png",
+      "viewport": "desktop",
+      "state": "stable glossary search result",
+      "bytes": 126609,
+      "sha256": "c97482ae1c5eca8dc474a35b83039b06c9e31602e52f84e50862b6ca35a5ed12"
+    },
+    {
+      "file": "desktop-related.png",
+      "viewport": "desktop",
+      "state": "related reading",
+      "bytes": 89972,
+      "sha256": "1206104ec1ccfeaa4f7b29288679720428add562d81db75d40234eeceeeb35a9"
+    },
+    {
+      "file": "mobile-top.png",
+      "viewport": "mobile",
+      "state": "page top",
+      "bytes": 48407,
+      "sha256": "175e9fd65f053c409e979189550a1851ce971c6fc8916c67003aa5df7e04cc03"
+    },
+    {
+      "file": "mobile-glossary.png",
+      "viewport": "mobile",
+      "state": "stable visible Token search result",
+      "bytes": 77542,
+      "sha256": "cbf8365f9d6a3c3b2be5808721bc0a56c96f16c21c0a49b94bd50b694c54c3a4"
+    },
+    {
+      "file": "mobile-related.png",
+      "viewport": "mobile",
+      "state": "related reading",
+      "bytes": 30403,
+      "sha256": "a33b6205e090e97f94a92df8e0bc19e51c574ed88138d9aadc461e196b98578e"
+    }
+  ],
+  "nonTargetBaselineEvidence": {
+    "scope": "Values were captured in the prior task console and copied into the acceptance report; no separate pre-change baseline artifact was saved.",
+    "indexOtherRoutes": "383327b83fbbfdd6f5a1ad2fd47e69f0fde3544e31ebd82f9161c3afc606b571",
+    "profileOtherRoutes": "89d4f89a6d605bedb3341f36cc9369385a0119545b0da0523fc7e83d34c0ba16",
+    "manifestOtherRoutes": "98d0b1e8c21092fef22a3794a25d1c164654d1ba2c4849d404185de4c92c2848"
+  }
+}

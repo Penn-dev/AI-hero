@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "scope": "in-memory bookkeeping and structure tests only; no translated sample or result files generated",
+  "realCompletedTurns": [
+    {
+      "turnId": "01a0c8af-4405-76e1-b0a8-09aba7771858",
+      "stage": "knowledge-foundation-production",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "usage": {
+        "input_tokens": 1253757,
+        "cached_input_tokens": 1151360,
+        "output_tokens": 23057,
+        "reasoning_output_tokens": 3223,
+        "total_tokens": 1276814
+      },
+      "requestCount": 17
+    },
+    {
+      "turnId": "01a0c8be-0139-7003-a982-cfb8c7033115",
+      "stage": "knowledge-foundation-acceptance-revision",
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "usage": {
+        "input_tokens": 909971,
+        "cached_input_tokens": 786432,
+        "output_tokens": 10361,
+        "reasoning_output_tokens": 1699,
+        "total_tokens": 920332
+      },
+      "requestCount": 8
+    }
+  ],
+  "tests": [
+    "duplicate response not double counted",
+    "missing usage record fails closed",
+    "invalid/reset cumulative record fails closed",
+    "in-memory unchanged English fixture accepted",
+    "changed TODO/fence rejected",
+    "missing original natural example rejected",
+    "missing learning link rejected",
+    "missing required aid fields rejected"
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "route": "B",
+  "stage": "edited",
+  "taskId": "01a0c8e7-0c75-7be2-8767-f8a48cb5290c",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "startedAt": "2026-09-22T19:37:44.2954158+08:00",
+  "finishedAt": "2026-09-22T19:42:11.7614381+08:00",
+  "inputHashes": {
+    "content/pilots/flow-validation/inputs/B/edited.md": "5a3b0b604ecaf50d1e74585ea07d852c1e77b237acb2cb1d0a4dc4c608bca6da",
+    "content/pilots/flow-validation/inputs/common/contract.json": "356353c67605c08e93c68d09c6aa93b6e7f50ce60f07167e13a63f95eb7434f6",
+    "content/pilots/flow-validation/inputs/common/issues.json": "2184956954412a0b39bfb66acc70ebd09a215308112ab8caa628a817f6e62f9b",
+    "content/pilots/flow-validation/inputs/common/learning.schema.json": "b1160e7cd9aa4b28d4eec2b255966061045f677e9a5772e42f9aa22b97107c8c",
+    "content/pilots/flow-validation/inputs/common/stage.schema.json": "b810ba8016b335bceb6f56de75fccfdeea887f3512abc4be0657934c6f40363a",
+    "content/pilots/flow-validation/inputs/common/dictionary.md": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+    "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md": "e329b72a34915933438a1b5cf8e9ed0a3a6f489487e3aad0d48a62b7c21fde9d",
+    "content/pilots/flow-validation/inputs/common/glossary.json": "4154945dfb1eb15c862bfccc4466e9cf096f5c46ef96e33c954dce31001f45e7",
+    "scripts/flow-validation/validate.mjs": "fb7dcefd1df4c288b95a6811513c38975222580161532da77a6c2dd40acf9ddb",
+    "content/pilots/flow-validation/inputs/B/dictionary.json": "0045fc5c8c1684e3925c1ff1b9245386186f7ac5ff2c5c92597b38ca45c00074",
+    "content/pilots/flow-validation/B/draft/dictionary.md": "c3784621185e30f48db1761933c923f6e4d40a7e33216263b7f5e84201a6b7f8",
+    "content/pilots/flow-validation/B/draft/dictionary.learning.json": "4ee220182996dd1c548633ca22d29710bf4c90bc3073e9e300573f7fb35d37f6",
+    "content/pilots/flow-validation/B/draft/stage.json": "f601f3f4b24d3d4a8c3051a24bf7d6de1625853795cbe3f373c9180337e5e3c8"
+  },
+  "articles": [
+    {
+      "key": "dictionary",
+      "status": "PARTIAL",
+      "startedAt": "2026-09-22T19:37:44.2954158+08:00",
+      "finishedAt": "2026-09-22T19:39:58.6827002+08:00",
+      "quality": [
+        {
+          "dimension": "忠实度：事实、条件、语气",
+          "status": "PASS",
+          "evidence": "逐段对照冻结英文原文；补回初译遗漏的输入 Token 计费含义，并保留供应商编写、部分框架可自定义、缓存只是保持稳定的原因之一等条件。"
+        },
+        {
+          "dimension": "完整性与结构",
+          "status": "PASS",
+          "evidence": "保留 frontmatter、四段正文、用法标签、两句英文原例及原有顺序；正文无实质删减。"
+        },
+        {
+          "dimension": "中文自然度",
+          "status": "PASS",
+          "evidence": "逐段复核中文语序与指代；将优先级句改为更直接的“优先遵循”，其余表达自然且无须重写。"
+        },
+        {
+          "dimension": "零基础可理解性",
+          "status": "PASS",
+          "evidence": "一句话理解、概念区别卡、术语定义与两句原例中文理解共同覆盖首次接触该概念所需信息。"
+        },
+        {
+          "dimension": "教学组织",
+          "status": "PASS",
+          "evidence": "按词典类型组织为 summary、必要区别、术语、关联阅读和原例解释；check 保持 null，未强加练习或项目准备。"
+        },
+        {
+          "dimension": "原始示例保真",
+          "status": "PASS",
+          "evidence": "两句英文用法原句逐字保留，顺序未变；中文理解仅存在 learning JSON。"
+        },
+        {
+          "dimension": "示例解释与练习边界",
+          "status": "PASS",
+          "evidence": "两项中文理解分别锚定冻结原文第 18、20 行，只解释句意；词典样本未新增练习。"
+        },
+        {
+          "dimension": "术语一致性与可用性",
+          "status": "PASS",
+          "evidence": "正文及辅助统一使用智能体执行框架、系统提示词、模型提供商请求、输入 Token 等冻结术语；相关链接保持可装配格式。"
+        },
+        {
+          "dimension": "内容清洗与来源边界",
+          "status": "PASS",
+          "evidence": "只读取并记录治理允许的词典相关冻结输入及校验脚本；未读取另一条路线、旧译稿、金标准、历史聊天、外部资料或 Workshop 内容。"
+        },
+        {
+          "dimension": "页面阅读体验",
+          "status": "PARTIAL",
+          "evidence": "正文与学习辅助已具备装配所需结构，但本阶段禁止页面装配、构建与浏览器验收，不能据此最终放行。"
+        },
+        {
+          "dimension": "内容类型适配",
+          "status": "PASS",
+          "evidence": "dictionary 的 check 为 null；辅助聚焦一句话定义、必要区别、术语与相关概念，没有套用课程版式。"
+        },
+        {
+          "dimension": "辅助内容准确性",
+          "status": "PASS",
+          "evidence": "逐项复核 summary、三张 cards、13 个术语、三项关联阅读与两处示例解释；修正用户提示词范围和供应商来源限定，不承诺缓存命中、有效期或折扣。"
+        }
+      ],
+      "changes": [
+        "正文补回英文 all paid as input tokens on every turn 的计费含义，并将模型优先级句改为更自然、明确的中文。",
+        "学习卡将泛称“提示词”收窄为“用户提示词”，避免把所有 prompt 都等同于本轮任务输入。",
+        "AGENTS.md 区别卡补充“本文所说”和“有些框架可查看、修改系统提示词”的范围限制，避免把供应商来源泛化为所有实现的绝对规则。"
+      ],
+      "cleaning": [
+        "未删除冻结原文内容；中文学习辅助继续与正文分离，未混入原始英文用法。"
+      ],
+      "unknowns": [
+        "learning JSON 尚未由页面适配器装配，页面阅读体验未验收。",
+        "尚未经过治理的冻结金标准 G2 评估，当前 PARTIAL 不代表最终质量放行。"
+      ]
+    },
+    {
+      "key": "workshop",
+      "status": "HOLD",
+      "startedAt": null,
+      "finishedAt": null,
+      "quality": [
+        {
+          "dimension": "忠实度：事实、条件、语气",
+          "status": "HOLD",
+          "evidence": "治理交接与冻结 contract、issues 明确 Workshop 为 HOLD，本阶段未读取或翻译其内容。"
+        },
+        {
+          "dimension": "完整性与结构",
+          "status": "HOLD",
+          "evidence": "HOLD 样本未生成正文或学习辅助。"
+        },
+        {
+          "dimension": "中文自然度",
+          "status": "HOLD",
+          "evidence": "未生成译文。"
+        },
+        {
+          "dimension": "零基础可理解性",
+          "status": "HOLD",
+          "evidence": "未生成学习辅助。"
+        },
+        {
+          "dimension": "教学组织",
+          "status": "HOLD",
+          "evidence": "未进入课程内容编校。"
+        },
+        {
+          "dimension": "原始示例保真",
+          "status": "HOLD",
+          "evidence": "未处理 Workshop 原始示例。"
+        },
+        {
+          "dimension": "示例解释与练习边界",
+          "status": "HOLD",
+          "evidence": "未解释、补写或运行 Workshop 示例与练习。"
+        },
+        {
+          "dimension": "术语一致性与可用性",
+          "status": "HOLD",
+          "evidence": "未生成 Workshop 术语内容。"
+        },
+        {
+          "dimension": "内容清洗与来源边界",
+          "status": "HOLD",
+          "evidence": "入口通用白名单列有 Workshop 文件，但治理交接更具体地限定本轮只用词典相关输入；因此未读取这些文件，也未查网。"
+        },
+        {
+          "dimension": "页面阅读体验",
+          "status": "HOLD",
+          "evidence": "未生成可装配内容。"
+        },
+        {
+          "dimension": "内容类型适配",
+          "status": "HOLD",
+          "evidence": "未进入 workshop-lesson 类型处理。"
+        },
+        {
+          "dimension": "辅助内容准确性",
+          "status": "HOLD",
+          "evidence": "未生成辅助内容。"
+        }
+      ],
+      "changes": [],
+      "cleaning": [],
+      "unknowns": [
+        "等待治理解除 HOLD；本阶段未核实课程历史版本、依赖范围或空 Video Transcript。"
+      ]
+    }
+  ],
+  "usage": {
+    "basis": "B 路单次 Sol/medium 编校任务；精确 token 与请求 ID 不可得，保持 null，由治理遥测后补且不作估算。",
+    "turnIds": [
+      "01a0c8e7-0c75-7be2-8767-f8a48cb5290c"
+    ],
+    "responseIds": [],
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "reasoning": null,
+    "total": null,
+    "failures": null,
+    "retries": null
+  }
+}

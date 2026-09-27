@@ -1,0 +1,189 @@
+{
+  "route": "B",
+  "stage": "draft",
+  "taskId": "01a0c8e1-9232-79c3-aaf1-68319e3b827e",
+  "model": "gpt-5.6-terra",
+  "effort": "medium",
+  "startedAt": "2026-09-22T19:30:43.3196744+08:00",
+  "finishedAt": "2026-09-22T19:33:10.0671673+08:00",
+  "inputHashes": {
+    "inputs/B/draft.md": "42F343E43169EE45241A49DF8EAC1FA5C0911EAD7DA92311950E74A526BA789E",
+    "inputs/B/dictionary.json": "0045FC5C8C1684E3925C1FF1B9245386186F7AC5FF2C5C92597B38CA45C00074",
+    "inputs/B/workshop.json": "AB3350C6FA237678ABA53FEAA72F012B01147CEF8D999C640BE3D8CDAF28073F",
+    "inputs/common/contract.json": "356353C67605C08E93C68D09C6AA93B6E7F50CE60F07167E13A63F95EB7434F6",
+    "inputs/common/issues.json": "2184956954412A0B39BFB66ACC70EBD09A215308112AB8CAA628A817F6E62F9B",
+    "inputs/common/learning.schema.json": "B1160E7CD9AA4B28D4EEC2B255966061045F677E9A5772E42F9AA22B97107C8C",
+    "inputs/common/stage.schema.json": "B810BA8016B335BCEB6F56DE75FCCFDEEA887F3512ABC4BE0657934C6F40363A",
+    "inputs/common/dictionary.md": "3AFE0EE860B06C6CCB0531BEC7DBC5B5B3F1A8FCC723A9B40BC80D1B437A07F0",
+    "inputs/common/workshop.md": "DF70B6E09DDCC802B545AD14E7DF6F0BCB22C703B8CCA5486EE3B9EAC5565E54",
+    "inputs/common/TRANSLATION_SPEC.md": "E329B72A34915933438A1B5CF8E9ED0A3A6F489487E3AAD0D48A62B7C21FDE9D",
+    "inputs/common/glossary.json": "4154945DFB1EB15C862BFCCC4466E9CF096F5C46EF96E33C954DCE31001F45E7",
+    "scripts/flow-validation/validate.mjs": "FB7DCEFD1DF4C288B95A6811513C38975222580161532DA77A6C2DD40ACF9DDB"
+  },
+  "articles": [
+    {
+      "key": "dictionary",
+      "status": "PARTIAL",
+      "startedAt": "2026-09-22T19:30:43.3196744+08:00",
+      "finishedAt": "2026-09-22T19:33:10.0671673+08:00",
+      "quality": [
+        {
+          "dimension": "忠实度：事实、条件、语气",
+          "status": "PASS",
+          "evidence": "逐段依据冻结英文原文翻译；保留供应商编写、部分框架可自定义和缓存仅为原因之一等条件。"
+        },
+        {
+          "dimension": "完整性与结构",
+          "status": "PASS",
+          "evidence": "保留 frontmatter、四段正文、用法标签与两句原始用法的顺序。"
+        },
+        {
+          "dimension": "中文自然度",
+          "status": "PASS",
+          "evidence": "正文按中文语序重写，保留必要英文术语和产品文件名。"
+        },
+        {
+          "dimension": "零基础可理解性",
+          "status": "PASS",
+          "evidence": "学习辅助提供一句话理解、三个区别卡片和术语定义。"
+        },
+        {
+          "dimension": "教学组织",
+          "status": "PASS",
+          "evidence": "词典类型使用 summary、cards、术语和关联阅读；未强加练习。"
+        },
+        {
+          "dimension": "原始示例保真",
+          "status": "PASS",
+          "evidence": "两句英文原始用法逐字保留在正文，未在正文添加中文改写。"
+        },
+        {
+          "dimension": "示例解释与练习边界",
+          "status": "PASS",
+          "evidence": "两项中文理解仅在 learning JSON 中按原始用法行号锚定；词典无需练习。"
+        },
+        {
+          "dimension": "术语一致性与可用性",
+          "status": "PASS",
+          "evidence": "采用冻结 glossary 与 B 知识输入中的智能体执行框架、提示词和 Token 等名称。"
+        },
+        {
+          "dimension": "内容清洗与来源边界",
+          "status": "PASS",
+          "evidence": "只使用入口列明的 B 与 common 白名单；未写入旧译文、审计结论或页面辅助。"
+        },
+        {
+          "dimension": "页面阅读体验",
+          "status": "PARTIAL",
+          "evidence": "页面适配器尚未装配 learning JSON，未做浏览器或成页验收。"
+        },
+        {
+          "dimension": "内容类型适配",
+          "status": "PASS",
+          "evidence": "dictionary 的 check 为 null，辅助采用 start.summary 和 cards。"
+        },
+        {
+          "dimension": "辅助内容准确性",
+          "status": "PASS",
+          "evidence": "术语定义、边界和示例解释均依据 inputs/B/dictionary.json 与冻结原文；不承诺缓存命中或费用。"
+        }
+      ],
+      "changes": [
+        "完成 dictionary 中文正文，翻译 title 与 description，保留 slug、type、updatedAt、链接与两句英文原始用法。",
+        "新增独立 dictionary.learning.json，提供中文学习辅助、13 个术语条目、关联阅读及两处原例解释。"
+      ],
+      "cleaning": [
+        "未清洗或删减冻结英文原文；按试验合同将中文学习辅助从正文分离到 learning JSON。"
+      ],
+      "unknowns": [
+        "learning JSON 尚未由页面适配器装配，页面阅读体验未验收。",
+        "尚未经过治理安排的 Sol 编校与冻结金标准 G2 评估。"
+      ]
+    },
+    {
+      "key": "workshop",
+      "status": "HOLD",
+      "startedAt": null,
+      "finishedAt": null,
+      "quality": [
+        {
+          "dimension": "忠实度：事实、条件、语气",
+          "status": "HOLD",
+          "evidence": "冻结 contract 与 issues 将 workshop 标为 HOLD，未执行翻译。"
+        },
+        {
+          "dimension": "完整性与结构",
+          "status": "HOLD",
+          "evidence": "HOLD 样本不生成正文或学习辅助。"
+        },
+        {
+          "dimension": "中文自然度",
+          "status": "HOLD",
+          "evidence": "未生成译文。"
+        },
+        {
+          "dimension": "零基础可理解性",
+          "status": "HOLD",
+          "evidence": "未生成学习辅助。"
+        },
+        {
+          "dimension": "教学组织",
+          "status": "HOLD",
+          "evidence": "未进入课程翻译阶段。"
+        },
+        {
+          "dimension": "原始示例保真",
+          "status": "HOLD",
+          "evidence": "未处理原始代码或示例。"
+        },
+        {
+          "dimension": "示例解释与练习边界",
+          "status": "HOLD",
+          "evidence": "未解释 TODO 或运行步骤。"
+        },
+        {
+          "dimension": "术语一致性与可用性",
+          "status": "HOLD",
+          "evidence": "未生成课程术语辅助。"
+        },
+        {
+          "dimension": "内容清洗与来源边界",
+          "status": "HOLD",
+          "evidence": "遵循冻结 HOLD 边界，未核实、翻译或访问外部资料。"
+        },
+        {
+          "dimension": "页面阅读体验",
+          "status": "HOLD",
+          "evidence": "未生成可装配内容。"
+        },
+        {
+          "dimension": "内容类型适配",
+          "status": "HOLD",
+          "evidence": "未进入 workshop-lesson 类型处理。"
+        },
+        {
+          "dimension": "辅助内容准确性",
+          "status": "HOLD",
+          "evidence": "未生成辅助内容。"
+        }
+      ],
+      "changes": [],
+      "cleaning": [],
+      "unknowns": [
+        "等待治理解除 HOLD；课程历史版本、依赖范围和空 Video Transcript 均未在本任务核实。"
+      ]
+    }
+  ],
+  "usage": {
+    "basis": "单一路初译任务；精确 token 计量由治理的已验证遥测采集器后续补齐，未估算。",
+    "turnIds": [],
+    "responseIds": [],
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "reasoning": null,
+    "total": null,
+    "failures": null,
+    "retries": null
+  }
+}

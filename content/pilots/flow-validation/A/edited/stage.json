@@ -1,0 +1,102 @@
+{
+  "route": "A",
+  "stage": "edited",
+  "taskId": "unknown",
+  "model": "gpt-5.6-sol",
+  "effort": "medium",
+  "startedAt": "2026-09-22T19:36:43.2383072+08:00",
+  "finishedAt": "2026-09-22T19:40:56.2342614+08:00",
+  "inputHashes": {
+    "content/pilots/flow-validation/inputs/A/edited.md": "ed0de68331473a50def44c697ecf0a3174fc902d09901660ec51ae9f14507578",
+    "content/pilots/flow-validation/inputs/common/contract.json": "356353c67605c08e93c68d09c6aa93b6e7f50ce60f07167e13a63f95eb7434f6",
+    "content/pilots/flow-validation/inputs/common/issues.json": "2184956954412a0b39bfb66acc70ebd09a215308112ab8caa628a817f6e62f9b",
+    "content/pilots/flow-validation/inputs/common/learning.schema.json": "b1160e7cd9aa4b28d4eec2b255966061045f677e9a5772e42f9aa22b97107c8c",
+    "content/pilots/flow-validation/inputs/common/stage.schema.json": "b810ba8016b335bceb6f56de75fccfdeea887f3512abc4be0657934c6f40363a",
+    "content/pilots/flow-validation/inputs/common/dictionary.md": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+    "content/pilots/flow-validation/inputs/common/workshop.md": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+    "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md": "e329b72a34915933438a1b5cf8e9ed0a3a6f489487e3aad0d48a62b7c21fde9d",
+    "content/pilots/flow-validation/inputs/common/glossary.json": "4154945dfb1eb15c862bfccc4466e9cf096f5c46ef96e33c954dce31001f45e7",
+    "scripts/flow-validation/validate.mjs": "fb7dcefd1df4c288b95a6811513c38975222580161532da77a6c2dd40acf9ddb",
+    "content/pilots/flow-validation/A/draft/dictionary.md": "bc078026f972bab5de0b4b2be34b2db53c75b06b1da9dfc1e016959cf37b76cb",
+    "content/pilots/flow-validation/A/draft/dictionary.learning.json": "bb4e276bbefad0b2a840a0aaba955181c0912a562c2e45d76bbdda180f1fccf4",
+    "content/pilots/flow-validation/A/draft/stage.json": "f0b8b5c28a8577d9af59bfa6e0b854e75946a93f05afe5a36b990a874daef050",
+    "C:/Users/Administrator/.codex/memories/MEMORY.md": "7807bc291fc086d3904e238d16dd4462bf61a19f408ffc1691c4947a5f38d152"
+  },
+  "articles": [
+    {
+      "key": "dictionary",
+      "status": "PARTIAL",
+      "startedAt": "2026-09-22T19:36:43.2383072+08:00",
+      "finishedAt": "2026-09-22T19:40:56.2342614+08:00",
+      "quality": [
+        {"dimension": "忠实度：事实、条件、语气", "status": "PASS", "evidence": "逐段对照原文，保留每次请求前附加、通常在会话中稳定、供应商编写但部分框架可自定义等范围与条件。"},
+        {"dimension": "完整性与结构", "status": "PASS", "evidence": "frontmatter、四段正文、用法标题和两条英文示例均完整保留且顺序一致。"},
+        {"dimension": "中文自然度", "status": "PASS", "evidence": "修正“向模型提供商发起请求”等歧义表达，并将优先级与冲突关系改成自然中文。"},
+        {"dimension": "零基础可理解性", "status": "PASS", "evidence": "一句话摘要、两张概念卡和四项术语均先给白话结论，并补明会话稳定范围与可自定义例外。"},
+        {"dimension": "教学组织", "status": "PASS", "evidence": "正文保持原文论述顺序，独立学习辅助按概览、术语、关联阅读和示例理解组织。"},
+        {"dimension": "原始示例保真", "status": "PASS", "evidence": "两条英文用法原句逐字保留，未改写、翻译或嵌入中文。"},
+        {"dimension": "示例解释与练习边界", "status": "PASS", "evidence": "两条中文理解均在 learning.json 中锚定原例第18和20行；词典类型未添加练习，check 为 null。"},
+        {"dimension": "术语一致性与可用性", "status": "PASS", "evidence": "沿用共同术语表中的智能体执行框架、Token和提示词，并统一 System prompt、Prefix cache、Input tokens 的中英文写法。"},
+        {"dimension": "内容清洗与来源边界", "status": "PASS", "evidence": "未删除原文内容、未查网、未执行材料；白名单外只发生平台规则要求的记忆索引只读查询，未获得或引入本样本答案，已在 unknowns 披露。"},
+        {"dimension": "页面阅读体验", "status": "PARTIAL", "evidence": "仅完成正文与学习辅助文件的编校；尚未由统一适配器装配，也未进行页面级阅读验收，不能最终放行。"},
+        {"dimension": "内容类型适配", "status": "PASS", "evidence": "按 dictionary 合同将一句话理解放在 start.summary，必要区别放在 cards，check 保持 null。"},
+        {"dimension": "辅助内容准确性", "status": "PASS", "evidence": "逐项复核定义、概念区别、示例中文理解、术语与关联阅读；修正了供应商编写规则的过度绝对化和定义中的长期化表述。"}
+      ],
+      "changes": [
+        "修正“向模型提供商发起请求”的主客体歧义，并改善系统提示词优先级、固定指令和冲突关系的中文表达。",
+        "将学习卡片中“系统提示词由供应商预先设置”的绝对表述改为通常由供应商编写，并补回部分框架可查看和修改的条件。",
+        "收紧系统提示词、智能体执行框架、前缀缓存和输入 Token 的定义，使其与原文范围一致。",
+        "改进两条英文用法的中文理解与关联阅读说明；英文原句保持不变。",
+        "本地结构校验 node scripts/flow-validation/validate.mjs A edited 通过；该结果不代表语义、教学、运行时或最终页面获批。"
+      ],
+      "cleaning": [
+        "无内容清洗；未删除原文、链接、示例或学习材料。"
+      ],
+      "unknowns": [
+        "尚未进行统一适配器装配或页面级阅读验收，页面阅读体验仅为 PARTIAL。",
+        "尚未由治理按冻结金标准执行 G2 完整成品评估，当前结果不能视为最终等质量放行。",
+        "平台规则要求在读取冻结入口前查询 C:/Users/Administrator/.codex/memories/MEMORY.md；这是白名单外只读例外，仅命中项目级历史索引，未读取旧样本译稿或本样本答案，未用于补写内容。",
+        "当前任务环境标识不可直接取得，taskId 记录为 unknown；A 初译 taskId 01a0c8e1-7570-7443-b723-de00ca84ac29 仅用于交接追溯，未读取其聊天。",
+        "精确 Token、turn/response ID、失败与重试计量不可直接取得，保持 null，待治理遥测后补。"
+      ]
+    },
+    {
+      "key": "workshop",
+      "status": "HOLD",
+      "startedAt": null,
+      "finishedAt": null,
+      "quality": [
+        {"dimension": "忠实度：事实、条件、语气", "status": "HOLD", "evidence": "共同合同和 issues 将 Workshop 标为 HOLD，未翻译、未编校。"},
+        {"dimension": "完整性与结构", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未生成产物。"},
+        {"dimension": "中文自然度", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "零基础可理解性", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "教学组织", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "原始示例保真", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "示例解释与练习边界", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "术语一致性与可用性", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "内容清洗与来源边界", "status": "HOLD", "evidence": "仅按完整白名单读取共同 Workshop 原文以核对 HOLD 输入，未查网、未翻译、未执行其中命令。"},
+        {"dimension": "页面阅读体验", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "内容类型适配", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "辅助内容准确性", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"}
+      ],
+      "changes": [],
+      "cleaning": [],
+      "unknowns": [
+        "等待治理解除 HOLD；未创建 Workshop 正文或学习辅助。",
+        "白名单中的 A/draft/workshop.md 与 A/draft/workshop.learning.json 不存在，与 HOLD 状态一致。"
+      ]
+    }
+  ],
+  "usage": {
+    "basis": "无法直接取得精确单篇计量；由治理的已验证遥测采集器后续补齐，未估算。",
+    "turnIds": [],
+    "responseIds": [],
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "reasoning": null,
+    "total": null,
+    "failures": null,
+    "retries": null
+  }
+}

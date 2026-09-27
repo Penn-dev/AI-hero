@@ -1,0 +1,30 @@
+{
+  "method": "Browser-produced JPEG viewport/document-coordinate clips; no image editing.",
+  "files": [
+    {
+      "path": "reports/flow-validation/acceptance/screenshots/X-desktop-1280-top.jpg",
+      "sha256": "1735b4d0d1e16627124f970296e02064703c75882af5bcc08bd5e44afde4ed86"
+    },
+    {
+      "path": "reports/flow-validation/acceptance/screenshots/X-desktop-1280-body.jpg",
+      "sha256": "527840d31abf6ec1424bcf5b9e510637b924dd7603fd57df97b99b0700e32ed2"
+    },
+    {
+      "path": "reports/flow-validation/acceptance/screenshots/Y-desktop-1280-top.jpg",
+      "sha256": "272351ae83cedf4e98e985f65b6e6f3564257a2b04ca92c06be6a35776abbeda"
+    },
+    {
+      "path": "reports/flow-validation/acceptance/screenshots/X-mobile-390-top.jpg",
+      "sha256": "6887aa4130a1943d3a16b35f4d72d5ffee892ee817908c6338eaaced7532d6de"
+    },
+    {
+      "path": "reports/flow-validation/acceptance/screenshots/X-mobile-390-term.jpg",
+      "sha256": "1f94bbe85f9d165a458e6106d0efd679bc7d4327d61acb0e523a854bce4be25f"
+    },
+    {
+      "path": "reports/flow-validation/acceptance/screenshots/Y-mobile-390-search.jpg",
+      "sha256": "73933928c091b76cd9c95c894bad423635a32f6acf9f57587df35835cc938609"
+    }
+  ],
+  "limitation": "Not complete full-page raster captures. Full rendered DOM records supplement key-area images. Sticky element position reflects actual scroll position during capture."
+}

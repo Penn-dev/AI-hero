@@ -1,0 +1,1464 @@
+{
+  "version": 1,
+  "status": "minimum-production-foundation; independent-semantic-acceptance-pending",
+  "sources": {
+    "guide-source": {
+      "path": "content/source/a-complete-guide-to-agents-md.md",
+      "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+    },
+    "workshop-source": {
+      "path": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sha256": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54"
+    },
+    "dictionary-source": {
+      "path": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0"
+    },
+    "guide-translation": {
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1"
+    },
+    "workshop-translation": {
+      "path": "content/pilots/estimate-special/sol-medium/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sha256": "16ee8dcba4363b5950861cc317a0d671137ed535dd2d19b6d9081e0861257548"
+    },
+    "dictionary-translation": {
+      "path": "content/pilots/estimate-special/sol-medium/ai-coding-dictionary/system-prompt.md",
+      "sha256": "62fae0df896f51c954bfa75d5046994cf78582d77cc70fb6d8c387c93d1533af"
+    },
+    "dict-agent": {
+      "path": "content/source/ai-coding-dictionary/agent.md",
+      "sha256": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d"
+    },
+    "dict-harness": {
+      "path": "content/source/ai-coding-dictionary/harness.md",
+      "sha256": "e014e536122ce287a7bfeae40b84cb6100d5c575a9bccc3afc7e8d1e9ae08284"
+    },
+    "dict-token": {
+      "path": "content/source/ai-coding-dictionary/token.md",
+      "sha256": "c7c2a3f083ea1f42b7c8c7938e386d8805b44b00889be34371aee05213c1a278"
+    },
+    "dict-prefix-cache": {
+      "path": "content/source/ai-coding-dictionary/prefix-cache.md",
+      "sha256": "1b3aa55261ba6fa24279cef97d89074f7b9fdec0f9851077b8978bef63198e4f"
+    },
+    "dict-model": {
+      "path": "content/source/ai-coding-dictionary/model.md",
+      "sha256": "2f8764a5e8a7a1c851edb9552d2b6a0c2b2bf8cd2a88e5cffa364a6d775f70c8"
+    },
+    "dict-tool": {
+      "path": "content/source/ai-coding-dictionary/tool.md",
+      "sha256": "1b69ae4744e6ad5ca5c6d5b76d990b6ce7ec0b1f57fa74c81e8414b8a6ad20a0"
+    },
+    "dict-session": {
+      "path": "content/source/ai-coding-dictionary/session.md",
+      "sha256": "5dfd296079bcb4f7f0e197961e6efecadeec44f5445d463889f23654aa2609cf"
+    },
+    "dict-model-provider-request": {
+      "path": "content/source/ai-coding-dictionary/model-provider-request.md",
+      "sha256": "fb70131368732072e77ca0c0694665e2248606ea691dbfe4070d40e5e90acc0d"
+    },
+    "dict-input-tokens": {
+      "path": "content/source/ai-coding-dictionary/input-tokens.md",
+      "sha256": "55df0f6aad4431ace13fa43f988ad20da700dc70cc4ab461a8a4045ed542aa78"
+    },
+    "dict-turn": {
+      "path": "content/source/ai-coding-dictionary/turn.md",
+      "sha256": "74da036a4d34a90f85b9814d39605717baf3d92929cf1bf88fde9cbd8a6af0e1"
+    },
+    "dict-agents-md": {
+      "path": "content/source/ai-coding-dictionary/agents-md.md",
+      "sha256": "52271f2f39ef3f962623edc2049f53619de3678134e897b2408d026cea5598de"
+    },
+    "dict-progressive-disclosure": {
+      "path": "content/source/ai-coding-dictionary/progressive-disclosure.md",
+      "sha256": "572e1cc2312329cd09712c5649c08d41af96c27523965f75932dccba0ebcec45"
+    },
+    "dict-skill": {
+      "path": "content/source/ai-coding-dictionary/skill.md",
+      "sha256": "82cffeb315f28f9f2e6e22238901b13a8fa6b77104db54ad1e9085b3a978abfb"
+    },
+    "dict-context-window": {
+      "path": "content/source/ai-coding-dictionary/context-window.md",
+      "sha256": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0"
+    },
+    "learning-readme": {
+      "path": "content/learning/README.md",
+      "sha256": "2f65d3c398af9e8df7fc214c0522232c81a7ede10d0ae98f8608baefbf059968"
+    }
+  },
+  "reviews": [
+    {
+      "sourceId": "guide-source",
+      "start": 1,
+      "end": 260,
+      "coverage": "full-body-read-for-foundation; not line-by-line translation approval",
+      "purpose": "核对样本类型、概念依据、辅助边界与已知风险",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-local-evidence"
+    },
+    {
+      "sourceId": "guide-translation",
+      "start": 1,
+      "end": 323,
+      "coverage": "full-body-read-for-foundation; not line-by-line translation approval",
+      "purpose": "核对样本类型、概念依据、辅助边界与已知风险",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-local-evidence"
+    },
+    {
+      "sourceId": "workshop-source",
+      "start": 1,
+      "end": 93,
+      "coverage": "full-body-read-for-foundation; not line-by-line translation approval",
+      "purpose": "核对样本类型、概念依据、辅助边界与已知风险",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-local-evidence"
+    },
+    {
+      "sourceId": "workshop-translation",
+      "start": 1,
+      "end": 111,
+      "coverage": "full-body-read-for-foundation; not line-by-line translation approval",
+      "purpose": "核对样本类型、概念依据、辅助边界与已知风险",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-local-evidence"
+    },
+    {
+      "sourceId": "dictionary-source",
+      "start": 1,
+      "end": 20,
+      "coverage": "full-body-read-for-foundation; not line-by-line translation approval",
+      "purpose": "核对样本类型、概念依据、辅助边界与已知风险",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-local-evidence"
+    },
+    {
+      "sourceId": "dictionary-translation",
+      "start": 1,
+      "end": 27,
+      "coverage": "full-body-read-for-foundation; not line-by-line translation approval",
+      "purpose": "核对样本类型、概念依据、辅助边界与已知风险",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-local-evidence"
+    },
+    {
+      "sourceId": "dict-agent",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-harness",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-token",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-prefix-cache",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-model",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-tool",
+      "start": 8,
+      "end": 19,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-session",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-model-provider-request",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-input-tokens",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-turn",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-agents-md",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-progressive-disclosure",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-skill",
+      "start": 8,
+      "end": 20,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "dict-context-window",
+      "start": 8,
+      "end": 12,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对跨文概念定义，不审计该词条的所有事实或链接",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-scoped-definition"
+    },
+    {
+      "sourceId": "learning-readme",
+      "start": 23,
+      "end": 36,
+      "coverage": "selected-body-excerpt",
+      "purpose": "核对新增辅助归属",
+      "reviewer": "production Astra/medium",
+      "confidence": "high-for-recorded-ownership"
+    }
+  ],
+  "concepts": {
+    "model": {
+      "zh": "模型",
+      "en": "model",
+      "aliases": [
+        "AI 模型"
+      ],
+      "definition": "根据输入产生预测或回答的计算模型；在本文本模型语境中，它接收文字片段并预测后续片段。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-model",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "llm": {
+      "zh": "大语言模型",
+      "en": "LLM",
+      "aliases": [
+        "Large Language Model"
+      ],
+      "definition": "一类能够处理和生成文字的 AI 模型。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model"
+      ],
+      "dependencyRationale": "先认识模型，再说明这里聚焦处理语言的模型。",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 307,
+          "end": 308
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "prompt": {
+      "zh": "提示词",
+      "en": "prompt",
+      "aliases": [
+        "Prompt 文本"
+      ],
+      "definition": "交给 AI 的任务说明、指令或输入文本。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 319,
+          "end": 319
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "tool": {
+      "zh": "工具",
+      "en": "tool",
+      "aliases": [
+        "工具函数"
+      ],
+      "definition": "供 AI 助手请求调用、由软件执行的功能，例如读取文件或运行命令。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-tool",
+          "start": 8,
+          "end": 19
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "harness": {
+      "zh": "智能体执行框架",
+      "en": "harness",
+      "aliases": [
+        "执行框架"
+      ],
+      "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "tool"
+      ],
+      "dependencyRationale": "先区分模型与实际执行的工具，才能理解框架负责组织与执行。",
+      "evidence": [
+        {
+          "sourceId": "dict-harness",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "agent": {
+      "zh": "智能体",
+      "en": "agent",
+      "aliases": [
+        "AI 编码智能体",
+        "AI coding agent"
+      ],
+      "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "harness"
+      ],
+      "dependencyRationale": "先认出模型与框架，再把组合看作接受任务的一个助手。",
+      "evidence": [
+        {
+          "sourceId": "dict-agent",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "token": {
+      "zh": "Token",
+      "en": "token",
+      "aliases": [
+        "词元"
+      ],
+      "definition": "模型读取和生成文本时使用的基本单位，不等同于一个汉字或一个英文单词。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-token",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "model-provider-request": {
+      "zh": "模型提供商请求",
+      "en": "model provider request",
+      "aliases": [
+        "模型请求"
+      ],
+      "definition": "执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "harness"
+      ],
+      "dependencyRationale": "先认出模型和组织输入的软件，再解释一次发送与返回。",
+      "evidence": [
+        {
+          "sourceId": "dict-model-provider-request",
+          "start": 8,
+          "end": 8
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "system-prompt": {
+      "zh": "系统提示词",
+      "en": "system prompt",
+      "aliases": [],
+      "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。",
+      "scope": "通用解释不规定是谁编写、是否可修改或所有产品中的具体优先级；这些条件留在文章语境",
+      "dependsOn": [
+        "prompt",
+        "model-provider-request"
+      ],
+      "dependencyRationale": "先认识任务文本和一次请求，再区分随请求提供的基础指令。",
+      "evidence": [
+        {
+          "sourceId": "dictionary-source",
+          "start": 8,
+          "end": 14
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "prefix-cache": {
+      "zh": "前缀缓存",
+      "en": "prefix cache",
+      "aliases": [],
+      "definition": "模型服务复用请求开头相同部分的已处理结果的机制。",
+      "scope": "不保证命中、固定有效期或固定折扣；系统提示词只是可共享前缀的一部分",
+      "dependsOn": [
+        "token",
+        "model-provider-request"
+      ],
+      "dependencyRationale": "先知道文本计量单位和重复请求，再理解相同开头可复用；系统提示词仅是例子。",
+      "evidence": [
+        {
+          "sourceId": "dict-prefix-cache",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "session": {
+      "zh": "会话",
+      "en": "session",
+      "aliases": [],
+      "definition": "与 AI 助手进行的一段有边界的交互，期间积累消息与工作记录。",
+      "scope": "不同产品的会话结束、压缩和记忆机制不同，不把本地文章描述泛化为产品保证",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-session",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "turn": {
+      "zh": "工作轮次",
+      "en": "turn",
+      "aliases": [
+        "轮次"
+      ],
+      "definition": "从用户发来一条消息，到助手完成本次响应并交回控制权的一轮交互，可包含多次模型请求。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "session",
+        "model-provider-request"
+      ],
+      "dependencyRationale": "先认识会话和请求，再区分用户一轮交互与其中多次请求。",
+      "evidence": [
+        {
+          "sourceId": "dict-turn",
+          "start": 8,
+          "end": 8
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "input-tokens": {
+      "zh": "输入 Token",
+      "en": "input tokens",
+      "aliases": [],
+      "definition": "一次模型请求中交给模型读取的 Token，包括指令、消息及提供的工具结果等。",
+      "scope": "仅定义输入量，不推广具体服务的计费价格",
+      "dependsOn": [
+        "token",
+        "model-provider-request"
+      ],
+      "dependencyRationale": "先知道 Token 与请求，再识别一次请求中输入部分的计量。",
+      "evidence": [
+        {
+          "sourceId": "dict-input-tokens",
+          "start": 8,
+          "end": 8
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "context-window": {
+      "zh": "上下文窗口",
+      "en": "context window",
+      "aliases": [],
+      "definition": "模型一次处理时可以使用的输入与工作上下文范围，有容量限制。",
+      "scope": "此处作理解窗口容量与上下文的入门解释；不承诺具体容量，也不等同于跨会话记忆",
+      "dependsOn": [
+        "model",
+        "token"
+      ],
+      "dependencyRationale": "先认识模型和 Token，再理解模型一次可用上下文及其容量限制。",
+      "evidence": [
+        {
+          "sourceId": "dict-context-window",
+          "start": 8,
+          "end": 12
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "stream": {
+      "zh": "流式输出",
+      "en": "stream",
+      "aliases": [
+        "streaming"
+      ],
+      "definition": "结果生成一部分就交付一部分，无需等待全部完成。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "workshop-source",
+          "start": 19,
+          "end": 35
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "terminal": {
+      "zh": "终端",
+      "en": "terminal",
+      "aliases": [],
+      "definition": "输入文字命令并查看程序输出的窗口。",
+      "scope": "课程命令行语境",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "start": 106,
+          "end": 106
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "object": {
+      "zh": "对象",
+      "en": "object",
+      "aliases": [],
+      "definition": "在本课程的数据语境中，把数据按字段名称组织在一起的形式。",
+      "scope": "JavaScript/TypeScript 数据对象；不是所有编程范式对对象的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "workshop-source",
+          "start": 55,
+          "end": 68
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "string": {
+      "zh": "字符串",
+      "en": "string",
+      "aliases": [],
+      "definition": "程序中表示文字的数据类型。",
+      "scope": "编程数据类型",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "start": 109,
+          "end": 109
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "array": {
+      "zh": "数组",
+      "en": "array",
+      "aliases": [],
+      "definition": "把多项数据按顺序组织在一起的形式。",
+      "scope": "通用数组不要求元素都是字符串；字符串数组另见本文说明",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "start": 108,
+          "end": 108
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "schema": {
+      "zh": "数据结构规则",
+      "en": "schema",
+      "aliases": [
+        "模式定义"
+      ],
+      "definition": "规定数据有哪些字段以及字段允许的数据类型等约束。",
+      "scope": "结构化数据的 schema；本样本的数组要求不属于通用定义",
+      "dependsOn": [
+        "object"
+      ],
+      "dependencyRationale": "先理解按字段组织的数据，再解释字段类型约束；数组只是某些规则使用的数据形式。",
+      "evidence": [
+        {
+          "sourceId": "workshop-source",
+          "start": 55,
+          "end": 68
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "structured-output": {
+      "zh": "结构化输出",
+      "en": "structured output",
+      "aliases": [],
+      "definition": "让模型按规定的数据结构返回信息，以便程序读取。",
+      "scope": "格式符合要求不等于内容事实正确或必定成功",
+      "dependsOn": [
+        "schema"
+      ],
+      "dependencyRationale": "先理解结果格式规则，再理解模型按规则组织返回值。",
+      "evidence": [
+        {
+          "sourceId": "workshop-source",
+          "start": 11,
+          "end": 15
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "zod": {
+      "zh": "Zod",
+      "en": "Zod",
+      "aliases": [],
+      "definition": "用于描述并验证数据是否符合规则的库。",
+      "scope": "本地课程所用验证库；不承诺当前版本的 API 行为",
+      "dependsOn": [
+        "schema"
+      ],
+      "dependencyRationale": "先理解规则，再认识描述和检查规则的库。",
+      "evidence": [
+        {
+          "sourceId": "workshop-source",
+          "start": 13,
+          "end": 13
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "markdown": {
+      "zh": "Markdown",
+      "en": "Markdown",
+      "aliases": [],
+      "definition": "用简单文字标记表示标题、列表和链接等格式的写法。",
+      "scope": "文档格式",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 309,
+          "end": 309
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "git": {
+      "zh": "Git",
+      "en": "Git",
+      "aliases": [],
+      "definition": "记录和管理文件版本变化的工具。",
+      "scope": "版本管理入门定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 310,
+          "end": 310
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "package-manager": {
+      "zh": "包管理器",
+      "en": "package manager",
+      "aliases": [],
+      "definition": "帮助项目安装和管理所依赖软件包的工具。",
+      "scope": "npm、pnpm 是实例；corepack 是管理包管理器的工具，不与它们混为一类",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 311,
+          "end": 313
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "agents-md": {
+      "zh": "AGENTS.md",
+      "en": "AGENTS.md",
+      "aliases": [],
+      "definition": "供支持这一约定的 AI 编码工具读取的项目说明文件，用来提供项目规则与工作指引。",
+      "scope": "自动加载时机、文件合并顺序与支持程度取决于工具；不能把作者叙述作为所有实现的保证",
+      "dependsOn": [
+        "markdown",
+        "agent"
+      ],
+      "dependencyRationale": "先知道文档写法与 AI 助手，再解释项目规则文件的作用。",
+      "evidence": [
+        {
+          "sourceId": "guide-source",
+          "start": 20,
+          "end": 27
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "monorepo": {
+      "zh": "多项目单仓库",
+      "en": "monorepo",
+      "aliases": [],
+      "definition": "在同一个代码仓库中管理多个相关项目或软件包的组织方式。",
+      "scope": "仓库组织方式",
+      "dependsOn": [
+        "git"
+      ],
+      "dependencyRationale": "先理解版本仓库，再理解多个项目共享一个仓库。",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 320,
+          "end": 320
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "progressive-disclosure": {
+      "zh": "渐进式披露",
+      "en": "progressive disclosure",
+      "aliases": [
+        "按需展开信息"
+      ],
+      "definition": "先提供当前需要的信息，并留下通向更多细节的入口，在需要时再读取。",
+      "scope": "适用于文档和智能体知识组织；不保证工具必然会按链接加载",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-source",
+          "start": 119,
+          "end": 149
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "skill": {
+      "zh": "Skill",
+      "en": "skill",
+      "aliases": [
+        "智能体技能",
+        "Agent Skill"
+      ],
+      "definition": "把完成某类任务的指令和资料组织成一个可按需读取的单元。",
+      "scope": "Skill 是读取的指导；tool 是调用的功能，二者不合并",
+      "dependsOn": [
+        "progressive-disclosure"
+      ],
+      "dependencyRationale": "先理解按需提供信息，再认识按任务打包的指导单元。",
+      "evidence": [
+        {
+          "sourceId": "dict-skill",
+          "start": 8,
+          "end": 20
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    }
+  },
+  "articles": {
+    "/a-complete-guide-to-agents-md": {
+      "kind": "guide",
+      "translationSourceId": "guide-translation",
+      "conceptIds": [
+        "agents-md",
+        "agent",
+        "prompt",
+        "token",
+        "context-window",
+        "progressive-disclosure",
+        "skill",
+        "monorepo",
+        "package-manager",
+        "git",
+        "markdown"
+      ],
+      "prerequisiteIds": [
+        "markdown",
+        "agent"
+      ],
+      "prerequisiteRationale": "需要先认出文档文件和 AI 助手；Git/包管理器按出现处解释，React/Prisma/GraphQL 只在示例中识别，不作为整篇先修。",
+      "learningGoal": "能判断规则该放在根文件还是按需文档，并解释理由。",
+      "completionCheck": [
+        "能指出与每项任务相关的根规则",
+        "能将专用规则移到按需入口并保持可发现"
+      ],
+      "sourceReading": {
+        "sourceId": "guide-source",
+        "start": 1,
+        "end": 260
+      },
+      "articleSpecific": [
+        {
+          "conceptId": "agents-md",
+          "text": "正文关于加载、子目录合并和 CLAUDE.md 的描述保留作者范围；未经实现核验不能变成通用产品承诺。",
+          "sourceId": "guide-source",
+          "start": 18,
+          "end": 39
+        },
+        {
+          "conceptId": "token",
+          "text": "约150–200条指令是作者引用中的估计，不作为质量门或成本预算。",
+          "sourceId": "guide-source",
+          "start": 54,
+          "end": 68
+        },
+        {
+          "conceptId": "package-manager",
+          "text": "npm、pnpm workspaces、corepack 只按原文示例解释；其工具可用性未验证。",
+          "sourceId": "guide-source",
+          "start": 104,
+          "end": 117
+        }
+      ],
+      "reviewFocus": [
+        "金标准也需要分离后来新增解释与原文事实",
+        "检查促销删除是否误删有价值的学习入口",
+        "英文自然语言 Prompt 逐字保留并附中文理解"
+      ],
+      "relatedNotPrerequisite": [
+        "/ai-coding-dictionary/system-prompt",
+        "/ai-coding-dictionary/skill"
+      ]
+    },
+    "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k": {
+      "kind": "workshop-lesson",
+      "translationSourceId": "workshop-translation",
+      "conceptIds": [
+        "llm",
+        "prompt",
+        "stream",
+        "structured-output",
+        "zod",
+        "object",
+        "array",
+        "string",
+        "schema",
+        "terminal"
+      ],
+      "prerequisiteIds": [
+        "terminal",
+        "object",
+        "array",
+        "string",
+        "schema"
+      ],
+      "prerequisiteRationale": "读懂终端与数据容器即可追踪输入到输出；schema 依赖 object，字符串数组由 array 与 string 组合解释；课程项目属于运行准备而不是术语依赖。",
+      "learningGoal": "理解生成星球故事、保存全文、再按格式提取信息的流程。",
+      "environmentBoundary": "原文提供片段和 pnpm run dev，但没有完整安装、导入、model 配置；本包不证明能独立运行。",
+      "exerciseBoundary": "TODO 是学员任务；解释作用和输入输出，不填写答案。",
+      "completionCheck": [
+        "故事流式显示在终端",
+        "返回含 facts 字符串数组的结构化对象",
+        "信息采用对虚构星球作科学描述的口吻"
+      ],
+      "sourceReading": {
+        "sourceId": "workshop-source",
+        "start": 1,
+        "end": 93
+      },
+      "articleSpecific": [
+        {
+          "conceptId": "object",
+          "text": "本例用 facts 字段存储从虚构故事提取的信息，不是现实科学事实。",
+          "sourceId": "workshop-source",
+          "start": 11,
+          "end": 11
+        },
+        {
+          "conceptId": "array",
+          "text": "facts 是字符串数组；数组的通用定义不限定为字符串。",
+          "sourceId": "workshop-source",
+          "start": 55,
+          "end": 68
+        },
+        {
+          "conceptId": "schema",
+          "text": "规则由 z.object 与 z.array(z.string()) 描述；此处不是新的完成代码。",
+          "sourceId": "workshop-source",
+          "start": 59,
+          "end": 69
+        }
+      ],
+      "reviewFocus": [
+        "版本5/6与新旧模式关系待核对，保留原文而不擅改",
+        "所有代码和 TODO 保真",
+        "空 Video Transcript 明示缺失"
+      ],
+      "relatedNotPrerequisite": [
+        "https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data"
+      ]
+    },
+    "/ai-coding-dictionary/system-prompt": {
+      "kind": "dictionary",
+      "translationSourceId": "dictionary-translation",
+      "conceptIds": [
+        "system-prompt",
+        "harness",
+        "prompt",
+        "token",
+        "prefix-cache",
+        "agent",
+        "model",
+        "tool",
+        "session",
+        "turn",
+        "input-tokens",
+        "model-provider-request",
+        "agents-md"
+      ],
+      "prerequisiteIds": [
+        "prompt",
+        "harness",
+        "model-provider-request"
+      ],
+      "prerequisiteRationale": "理解基础指令、组织请求的软件和一次请求，才能区分系统提示词与用户消息；其余词按正文查阅，链接不自动成为先修。",
+      "oneSentenceDefinition": "使用 system-prompt 的共享定义；框架厂商编写、会话内稳定等放在原文语境。",
+      "distinctions": [
+        "system prompt 与用户 prompt 不应混同",
+        "系统提示词与 AGENTS.md 是不同来源的规则",
+        "稳定前缀可用于缓存，但不保证命中或具体费用"
+      ],
+      "originalExampleRefs": [
+        {
+          "sourceId": "dictionary-source",
+          "start": 18,
+          "end": 18
+        },
+        {
+          "sourceId": "dictionary-source",
+          "start": 20,
+          "end": 20
+        }
+      ],
+      "sourceReading": {
+        "sourceId": "dictionary-source",
+        "start": 1,
+        "end": 20
+      },
+      "articleSpecific": [
+        {
+          "conceptId": "system-prompt",
+          "text": "本文讨论执行框架通常提供的长期指令；同文也说某些框架允许用户自定义。不能泛化成“永远只能厂商编写”。",
+          "sourceId": "dictionary-source",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "conceptId": "prefix-cache",
+          "text": "本文把保持稳定的系统提示词作为共享前缀开头；通用缓存概念不依赖系统提示词才能成立。",
+          "sourceId": "dictionary-source",
+          "start": 12,
+          "end": 12
+        }
+      ],
+      "reviewFocus": [
+        "英文两句对话需与中文理解同时保留",
+        "新增最高优先级等绝对措辞须复查来源边界",
+        "缓存解释不能承诺所有请求都更省钱"
+      ],
+      "relatedNotPrerequisite": [
+        "/a-complete-guide-to-agents-md"
+      ]
+    }
+  },
+  "templates": {
+    "guide": {
+      "required": [
+        "conceptIds",
+        "prerequisiteIds",
+        "prerequisiteRationale",
+        "sourceReading",
+        "articleSpecific",
+        "reviewFocus",
+        "translationSourceId",
+        "learningGoal",
+        "completionCheck"
+      ],
+      "guidance": "先说明读完能作出的判断，解释必要背景，围绕原文论证安排自检。已有清楚正文不重复增设卡片。",
+      "omit": "不强制给每段加练习；不将建议改写成工具通用事实。"
+    },
+    "workshop-lesson": {
+      "required": [
+        "conceptIds",
+        "prerequisiteIds",
+        "prerequisiteRationale",
+        "sourceReading",
+        "articleSpecific",
+        "reviewFocus",
+        "translationSourceId",
+        "learningGoal",
+        "environmentBoundary",
+        "completionCheck",
+        "exerciseBoundary"
+      ],
+      "guidance": "交代目标、先备概念、已有项目/环境边界、每个原代码片段的作用及原文完成条件。",
+      "omit": "不补 TODO 答案、不新增安装命令或凭据、不虚构空文字稿；缺少环境只能认定阅读版就绪。"
+    },
+    "dictionary": {
+      "required": [
+        "conceptIds",
+        "prerequisiteIds",
+        "prerequisiteRationale",
+        "sourceReading",
+        "articleSpecific",
+        "reviewFocus",
+        "translationSourceId",
+        "oneSentenceDefinition",
+        "distinctions",
+        "originalExampleRefs"
+      ],
+      "guidance": "一句话定义、必要区别、原始用法及少量相关概念。原例与中文理解相邻。",
+      "omit": "不强加项目准备、学习目标卡、动手作业和运行自检；无原始示例时不为凑模板编造。"
+    }
+  },
+  "qualityDimensions": [
+    "忠实度：事实、条件、语气",
+    "完整性与结构",
+    "中文自然度",
+    "零基础可理解性",
+    "教学组织",
+    "原始示例保真",
+    "示例解释与练习边界",
+    "术语一致性与可用性",
+    "内容清洗与来源边界",
+    "页面阅读体验",
+    "内容类型适配",
+    "辅助内容准确性"
+  ],
+  "gates": [
+    {
+      "id": "G0",
+      "name": "输入与共享依据就绪",
+      "owner": "资产生产者/任务装配者",
+      "dimensions": [
+        "完整性与结构",
+        "术语一致性与可用性",
+        "内容清洗与来源边界",
+        "内容类型适配"
+      ],
+      "minimum": [
+        "来源哈希与文章ID有效",
+        "类型已确认且必要先备有依据",
+        "源缺失、版本冲突和未决事实显式入包"
+      ],
+      "stop": "可装配输入；未决项只能在保留标注的阅读/审核任务中流转，不能据此批准发布。"
+    },
+    {
+      "id": "G1",
+      "name": "正文与新增辅助语义审查",
+      "owner": "初翻负责正文完整；编校对照原文；辅助作者与语义审核者对新增内容负责",
+      "dimensions": [
+        "忠实度：事实、条件、语气",
+        "完整性与结构",
+        "中文自然度",
+        "零基础可理解性",
+        "教学组织",
+        "原始示例保真",
+        "示例解释与练习边界",
+        "术语一致性与可用性",
+        "内容清洗与来源边界",
+        "内容类型适配",
+        "辅助内容准确性"
+      ],
+      "minimum": [
+        "事实、条件、语气、有效内容与结构无实质遗漏或改变",
+        "原始代码/Prompt/配置/输入输出完整保留；中文理解明确分层",
+        "术语定义与本篇使用一致，必要背景足够，不增编任务答案",
+        "每段新增辅助有来源与修改后审核记录；翻译已审不能覆盖后来新增内容"
+      ],
+      "stop": "不存在改变事实/操作/学习结论的未解决问题时，可按“自然度不妨碍理解”结束本轮中间处理并转交G2；此条件只代表中间阶段可停止，不代表最终等质量通过。最终中文自然度和零基础可理解性仍须按冻结金标准质量水平审查。非阻断问题登记，复用未受影响证据，只处理实质差距，不展开逐维度模型链或无限润色。"
+    },
+    {
+      "id": "G2",
+      "name": "最终整页验收",
+      "owner": "页面实现者与验收者；治理决定放行",
+      "dimensions": [
+        "忠实度：事实、条件、语气",
+        "完整性与结构",
+        "中文自然度",
+        "零基础可理解性",
+        "教学组织",
+        "原始示例保真",
+        "示例解释与练习边界",
+        "术语一致性与可用性",
+        "内容清洗与来源边界",
+        "页面阅读体验",
+        "内容类型适配",
+        "辅助内容准确性"
+      ],
+      "minimum": [
+        "整页对照来源、正文、辅助版本确认内容未丢失/重复/错挂",
+        "桌面与窄屏验证目录、链接、术语入口、搜索/切换、代码可读及空内容说明",
+        "零基础读者能区分原例、中文理解、TODO和完成条件",
+        "有运行要求的课程须另有环境与运行证据；阅读版与可运行版分别结论",
+        "以冻结的金标准质量水平和同一12维度评判完整成品；中文自然度与零基础可理解性不能仅因机械检查通过或不妨碍基本理解自动PASS。",
+        "金标准是质量参照，不保证其中每条事实正确；来源疑点分别核对。不同内容类型采用对应教学结构，不机械套用指南版式。"
+      ],
+      "stop": "只有完整成品在同一12维度达到冻结金标准相应质量水平并有适用的验收证据，才可最终等质量放行。中文自然度、零基础可理解性须基于成品实际表现判断；机械通过或仅能基本看懂不足以PASS。适用而未验证或存在实质差距的维度保持PARTIAL/HOLD；不适用项说明理由。复用未受影响证据，仅处理实质差距，不要求逐维度新增模型或无限润色。",
+      "qualityReference": {
+        "sourceId": "guide-translation",
+        "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+        "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+        "role": "frozen quality-level reference, not factual authority or universal layout"
+      }
+    }
+  ],
+  "productionRules": {
+    "layers": {
+      "source": "原文事实、观点、条件、顺序和原例是保真基准；发现源错误登记，不暗改。",
+      "translation": "完整翻译并自然表达；保留 frontmatter slug/type/tags/updatedAt、有效链接、表格、MDX语义；清除纯促销需留下理由。",
+      "learningAid": "中文新增定义、提示、比较、自检单独标注并追溯证据；不冒充原文，不填练习答案，新增即纳入语义审核。",
+      "presentation": "装配正确版本并保证可读、可达、无重复；页面行为测试不能证明内容事实正确。"
+    },
+    "reuse": "先按文章ID取得 profile、共享概念依赖闭包、类型模板、完整本篇原文及必要证据片段。无人工确认 profile 的文章只可生成候选索引，不自动投入翻译。",
+    "stopPolicy": "G0→G1→G2为三个阶段，12维度作为同一份检查记录的标签。G1的基本可理解条件仅用于中间交接，不是最终放行标准；G2按冻结金标准质量水平判完整成品。复用未受影响证据，只修实质差距，不为各维度另加模型或无限润色。",
+    "changeReview": {
+      "localWording": "只改变措辞且语义、ID、引用未变：复核改动句及上下文；页面显示变更再复核实际区域。",
+      "sharedMeaning": "共享定义、别名、依赖变化：查 concepts.dependsOn 与 articles.conceptIds/prerequisiteIds 的反向传递引用；复核受影响文章和任务包，重生成。全站词法命中仅用于发现潜在遗漏。",
+      "sourceChange": "源哈希变化先审差异，复核引用该 sourceId 的定义、片段、正文与辅助；不能只更新哈希。",
+      "templateOrRenderer": "模板改变检查使用该模板的文章；渲染公共能力变化检查所有受影响页面与代表视口，不因一页通过而泛化。"
+    },
+    "compatibility": "本资产尚未接入 lib/article-learning.ts，后者仍读取旧 pilot-knowledge.json。新增规则与旧 TRANSLATION_SPEC 的固定 Terra→Sol 不一致之处由治理在试验时明确选择；本轮不修改旧规则。"
+  },
+  "riskPolicy": {
+    "status": "proposed-routing; not authorized execution",
+    "basis": [
+      "源文完整性和内部矛盾",
+      "版本/API及运行环境依赖",
+      "原例/MDX结构复杂性",
+      "新增辅助量与跨文定义影响",
+      "短文也可能有术语密度和范围风险"
+    ],
+    "levels": {
+      "low": "已确认类型、来源完整、少量已审术语且无新事实：候选单次生产加统一语义检查；是否足够须等质量试验。",
+      "medium": "密集新术语、原例/清洗边界或新增辅助：安排对照编校，模型组合由试验确定。",
+      "high": "版本冲突、缺源、运行环境或共享定义语义变更：先核实具体疑点，未解则保持HOLD，不盲目追加模型。"
+    },
+    "sampleAssignments": {
+      "/a-complete-guide-to-agents-md": "medium: 金标准需单独审后加辅助与工具范围",
+      "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k": "high: 版本疑点+TODO+环境缺口",
+      "/ai-coding-dictionary/system-prompt": "medium: 短文但系统指令/缓存范围敏感"
+    }
+  },
+  "findings": [
+    {
+      "id": "F-version",
+      "status": "unresolved",
+      "confidence": "high-for-ambiguity; API-validity-unknown",
+      "articleIds": [
+        "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+      ],
+      "evidence": [
+        {
+          "sourceId": "workshop-source",
+          "start": 15,
+          "end": 15
+        },
+        {
+          "sourceId": "workshop-source",
+          "start": 89,
+          "end": 93
+        }
+      ],
+      "observation": "原文一处区分5/6用法，结尾又将 generateObject 称作 version 6 solution，且未明确哪种较新；当前本地材料不足以判定应如何修正。",
+      "action": "后续若要求可运行/版本准确，治理批准定向官方版本核验；当前保留作者表述并显式标疑。"
+    },
+    {
+      "id": "F-transcript",
+      "status": "known-source-gap",
+      "confidence": "high",
+      "articleIds": [
+        "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+      ],
+      "evidence": [
+        {
+          "sourceId": "workshop-source",
+          "start": 93,
+          "end": 93
+        }
+      ],
+      "observation": "原文最后仅有 Video Transcript 标题，没有文字稿。",
+      "action": "页面说明缺失，不生成替代文字稿。"
+    },
+    {
+      "id": "F-system-scope",
+      "status": "scoped-in-new-asset; existing-pages-unmodified",
+      "confidence": "high",
+      "articleIds": [
+        "/a-complete-guide-to-agents-md",
+        "/ai-coding-dictionary/system-prompt"
+      ],
+      "evidence": [
+        {
+          "sourceId": "dictionary-source",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "sourceId": "guide-translation",
+          "start": 20,
+          "end": 20
+        }
+      ],
+      "observation": "指南译文增加“最高优先级基础说明”；词条原文只明确相对用户消息的优先级，且说明部分框架可自定义。",
+      "action": "共享定义不沿用最高优先级/只能厂商编写等绝对表述；旧金标准及页面差异交治理决定是否安排局部复核。"
+    },
+    {
+      "id": "F-aid-ownership",
+      "status": "review-boundary-recorded",
+      "confidence": "high",
+      "articleIds": [
+        "/a-complete-guide-to-agents-md",
+        "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+        "/ai-coding-dictionary/system-prompt"
+      ],
+      "evidence": [
+        {
+          "sourceId": "learning-readme",
+          "start": 23,
+          "end": 36
+        }
+      ],
+      "observation": "既有辅助由来源任务 Astra/xhigh 后加，不在之前 Sol 编校范围；本轮生产者核对不等于独立语义验收。",
+      "action": "后续审核包含正文与当时实际装配的所有新增辅助，按资产哈希锁定。"
+    }
+  ],
+  "namingDecisions": [
+    {
+      "issue": "旧 agent/object/prefix-cache 夹带单篇场景",
+      "resolution": "通用定义去掉“本文”；场景移入 articles.articleSpecific，并按本地原文收窄适用范围。"
+    },
+    {
+      "issue": "array→string 与 schema→array 被当作通用依赖",
+      "resolution": "数组不必是字符串数组，schema 不必使用数组；移除这两个通用依赖，在 workshop 的先备集合中同时提供。"
+    },
+    {
+      "issue": "prefix-cache→system-prompt 被当作必要先修",
+      "resolution": "缓存针对相同前缀，可由其他内容构成；通用依赖改为 token 与模型请求。"
+    },
+    {
+      "issue": "名称、大小写、中英文形式重复",
+      "resolution": "沿用 glossary 的提示词、智能体执行框架、上下文窗口、Token、Skill；大小写归一匹配同一ID，额外别名不覆盖同名不同义词。"
+    },
+    {
+      "issue": "不同范围的 model 与 LLM，tool 与 Skill",
+      "resolution": "保持不同ID，明确语境和差别；不按词面相近合并。"
+    }
+  ],
+  "outputContract": {
+    "required": [
+      "articleId + sourceSha256 + knowledgeSha256",
+      "正文、中文辅助分开的可审查产物",
+      "保留的原例及清洗记录",
+      "新增/冲突术语及证据",
+      "G0/G1/G2统一12维度状态与未决项",
+      "实际使用量及累计/增量口径"
+    ],
+    "statusValues": [
+      "PASS",
+      "PARTIAL",
+      "HOLD",
+      "NOT_APPLICABLE_WITH_REASON"
+    ],
+    "staticPackageGuarantees": [
+      "完整本篇原文按哈希固定",
+      "概念依赖闭包、类型必需字段、来源片段可确定性装配"
+    ],
+    "notImplemented": [
+      "自动生产调度",
+      "模型调用",
+      "页面资产适配",
+      "语义自动批准",
+      "逐请求成本采集"
+    ]
+  },
+  "packageIds": [
+    "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+    "/ai-coding-dictionary/system-prompt"
+  ],
+  "readonlyInputs": [
+    {
+      "path": "content/learning/README.md",
+      "sha256": "2f65d3c398af9e8df7fc214c0522232c81a7ede10d0ae98f8608baefbf059968"
+    },
+    {
+      "path": "content/learning/pilot-knowledge.json",
+      "sha256": "f4543b1d1c18489735a393021a5079c5222c750c17bfdb45c68529aab9a58fa2"
+    },
+    {
+      "path": "content/pilots/estimate/TRANSLATION_SPEC.md",
+      "sha256": "e329b72a34915933438a1b5cf8e9ed0a3a6f489487e3aad0d48a62b7c21fde9d"
+    },
+    {
+      "path": "content/glossary.json",
+      "sha256": "4154945dfb1eb15c862bfccc4466e9cf096f5c46ef96e33c954dce31001f45e7"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "d5e618ecd46d45cf9f72b21a0d39841543e0dc36dfd43787c62fe6d22bf58cad"
+    },
+    {
+      "path": "lib/article-learning.ts",
+      "sha256": "8286f80642e7b57a572ece77460a0fe58fce8d91810eafcab0fb7f5575e47bf4"
+    },
+    {
+      "path": "lib/article-structure.ts",
+      "sha256": "bd30685d21587cff63ad56f8436aa9c7d86df8c150ea70b90aa4e91ac7e5ec75"
+    },
+    {
+      "path": "scripts/plan-translation-batches.mjs",
+      "sha256": "7b3f03ead837c0ee9960b1946dbbd789ed2e88b1d6f61a5d7627928b025d4cb6"
+    },
+    {
+      "path": "reports/learning-step1-acceptance.md",
+      "sha256": "634e0bccfbc56bfc040a7d4b64800ae262555f43167b760077619910eb367e6e"
+    },
+    {
+      "path": "reports/special-agent-token-usage.json",
+      "sha256": "728c0d1814f003d06022ae70b0dd24fdf381a0e714de246937a185899bd1c662"
+    }
+  ]
+}

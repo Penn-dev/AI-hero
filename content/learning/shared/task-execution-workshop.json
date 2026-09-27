@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "articleId": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+  "stage": "G1",
+  "status": "static execution view; no production run",
+  "audit": {
+    "path": "content/learning/shared/task-input-workshop.json",
+    "sha256": "c16df9f23ac3afa1a65c4c38cddc3043e53e3cec43cb6491f650c900db023f36"
+  },
+  "source": {
+    "path": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+    "sha256": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+    "text": "---\ntitle: \"Generating Objects via Output\"\nslug: \"generating-objects-via-output~dkm2k\"\ntype: \"workshop-lesson\"\ndescription: \"Structured outputs with AI SDK. Generate typed objects using Zod schemas, validate LLM responses, and extract data reliably.\"\nupdatedAt: \"2025-09-09T14:47:27.928Z\"\n---\n\n# Generating Objects via Output\n\nMost of the time, you don't just want text back from an LLM—you want that text in a structured format. Imagine generating a story about an imaginary planet, then extracting facts from it as a clean array of strings.\n\nThe [AI SDK](https://ai-sdk.dev/docs/introduction) makes this incredibly easy. Instead of asking the model for text and then parsing it yourself (or validating it with a library like [Zod](https://zod.dev)), you can use structured output support built right into the framework.\n\nThere are actually two ways to do this in the AI SDK. One approach is more aligned with version 5, the other with version 6—but both work in version 6. Your task is to implement the structured output generation.\n\n## [Steps To Complete](#steps-to-complete)\n\n- Stream text to the terminal using [`streamText()`](https://ai-sdk.dev/docs/reference/ai-sdk-core/stream-text)\n\nStart by streaming a paragraph of a story about an imaginary planet to the terminal.\n\n```typescript\nconst stream = streamText({\n  model,\n  prompt:\n    'Give me the first paragraph of a story about an imaginary planet.',\n});\n\nfor await (const chunk of stream.textStream) {\n  process.stdout.write(chunk);\n}\n\nconst finalText = await stream.text;\n```\n\n- Call [`generateText()`](https://ai-sdk.dev/docs/reference/ai-sdk-core/generate-text) with structured output support\n\nAfter the text finishes streaming, call `generateText()` with a prompt asking for facts about the planet. Pass in the `finalText` from the previous step.\n\n```typescript\n// TODO: Replace this with a call to generateText, passing:\n// - The model, same as above\n// - The prompt, asking for facts about the imaginary planet,\n//   passing in the finalText as the story\n// - The output, which should be Output.object({}), passing\n//   the schema: z.object({\n//     facts: z.array(z.string()).describe('The facts about the imaginary planet. Write as if you are a scientist.'),\n//   })\nconst factsResult = TODO;\n```\n\nYou'll need to import [`Output`](https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data) from the AI SDK alongside `generateText`.\n\n- Use the [`Output.object()`](https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data) method to define structured output\n\nPass an object with a `schema` property. The schema should be a [Zod](https://zod.dev) object with a `facts` field containing an array of strings.\n\n```typescript\noutput: Output.object({\n  schema: z.object({\n    facts: z\n      .array(z.string())\n      .describe(\n        'The facts about the imaginary planet. Write as if you are a scientist.',\n      ),\n  }),\n});\n```\n\nRemember to use [`.describe()`](https://zod.dev/metadata) on your fields to guide the model toward better outputs.\n\n- Log the structured result\n\nAccess the output from your result object and log it to the terminal.\n\n```typescript\nconsole.log(factsResult.output);\n```\n\n- Run your solution\n\nExecute your code with `pnpm run dev` and verify that:\n\n1. The planet story streams to the terminal\n2. The facts are returned as a structured object with an array of strings\n3. The facts sound like they're written by a scientist\n\n- (Optional) Try the alternative approach\n\nOnce you've completed the exercise, check if you can implement the version 6 solution using [`generateObject()`](https://ai-sdk.dev/docs/reference/ai-sdk-core/generate-object) instead of `generateText()` with `Output.object()`. Both approaches work, but one is the newer pattern.\n\n### Video Transcript\n"
+  },
+  "referenceTranslation": {
+    "path": "content/pilots/estimate-special/sol-medium/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+    "sha256": "16ee8dcba4363b5950861cc317a0d671137ed535dd2d19b6d9081e0861257548"
+  },
+  "profile": {
+    "kind": "workshop-lesson",
+    "translationSourceId": "workshop-translation",
+    "conceptIds": [
+      "llm",
+      "prompt",
+      "stream",
+      "structured-output",
+      "zod",
+      "object",
+      "array",
+      "string",
+      "schema",
+      "terminal"
+    ],
+    "prerequisiteIds": [
+      "terminal",
+      "object",
+      "array",
+      "string",
+      "schema"
+    ],
+    "prerequisiteRationale": "读懂终端与数据容器即可追踪输入到输出；schema 依赖 object，字符串数组由 array 与 string 组合解释；课程项目属于运行准备而不是术语依赖。",
+    "learningGoal": "理解生成星球故事、保存全文、再按格式提取信息的流程。",
+    "environmentBoundary": "原文提供片段和 pnpm run dev，但没有完整安装、导入、model 配置；本包不证明能独立运行。",
+    "exerciseBoundary": "TODO 是学员任务；解释作用和输入输出，不填写答案。",
+    "completionCheck": [
+      "故事流式显示在终端",
+      "返回含 facts 字符串数组的结构化对象",
+      "信息采用对虚构星球作科学描述的口吻"
+    ],
+    "sourceReading": {
+      "within": "source.text",
+      "start": 1,
+      "end": 93
+    },
+    "articleSpecific": [
+      {
+        "conceptId": "object",
+        "text": "本例用 facts 字段存储从虚构故事提取的信息，不是现实科学事实。",
+        "evidence": {
+          "within": "source.text",
+          "start": 11,
+          "end": 11
+        }
+      },
+      {
+        "conceptId": "array",
+        "text": "facts 是字符串数组；数组的通用定义不限定为字符串。",
+        "evidence": {
+          "within": "source.text",
+          "start": 55,
+          "end": 68
+        }
+      },
+      {
+        "conceptId": "schema",
+        "text": "规则由 z.object 与 z.array(z.string()) 描述；此处不是新的完成代码。",
+        "evidence": {
+          "within": "source.text",
+          "start": 59,
+          "end": 69
+        }
+      }
+    ],
+    "reviewFocus": [
+      "版本5/6与新旧模式关系待核对，保留原文而不擅改",
+      "所有代码和 TODO 保真",
+      "空 Video Transcript 明示缺失"
+    ],
+    "relatedNotPrerequisite": [
+      "https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data"
+    ]
+  },
+  "concepts": {
+    "array": {
+      "zh": "数组",
+      "en": "array",
+      "aliases": [],
+      "definition": "把多项数据按顺序组织在一起的形式。",
+      "scope": "通用数组不要求元素都是字符串；字符串数组另见本文说明",
+      "dependsOn": [],
+      "confidence": "medium",
+      "auditRef": "/concepts/array"
+    },
+    "llm": {
+      "zh": "大语言模型",
+      "en": "LLM",
+      "aliases": [
+        "Large Language Model"
+      ],
+      "definition": "一类能够处理和生成文字的 AI 模型。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model"
+      ],
+      "confidence": "medium",
+      "auditRef": "/concepts/llm"
+    },
+    "model": {
+      "zh": "模型",
+      "en": "model",
+      "aliases": [
+        "AI 模型"
+      ],
+      "definition": "根据输入产生预测或回答的计算模型；在本文本模型语境中，它接收文字片段并预测后续片段。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "confidence": "high",
+      "auditRef": "/concepts/model"
+    },
+    "object": {
+      "zh": "对象",
+      "en": "object",
+      "aliases": [],
+      "definition": "在本课程的数据语境中，把数据按字段名称组织在一起的形式。",
+      "scope": "JavaScript/TypeScript 数据对象；不是所有编程范式对对象的完整定义",
+      "dependsOn": [],
+      "confidence": "high",
+      "auditRef": "/concepts/object"
+    },
+    "prompt": {
+      "zh": "提示词",
+      "en": "prompt",
+      "aliases": [
+        "Prompt 文本"
+      ],
+      "definition": "交给 AI 的任务说明、指令或输入文本。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "confidence": "medium",
+      "auditRef": "/concepts/prompt"
+    },
+    "schema": {
+      "zh": "数据结构规则",
+      "en": "schema",
+      "aliases": [
+        "模式定义"
+      ],
+      "definition": "规定数据有哪些字段以及字段允许的数据类型等约束。",
+      "scope": "结构化数据的 schema；本样本的数组要求不属于通用定义",
+      "dependsOn": [
+        "object"
+      ],
+      "confidence": "high",
+      "auditRef": "/concepts/schema"
+    },
+    "stream": {
+      "zh": "流式输出",
+      "en": "stream",
+      "aliases": [
+        "streaming"
+      ],
+      "definition": "结果生成一部分就交付一部分，无需等待全部完成。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "confidence": "high",
+      "auditRef": "/concepts/stream"
+    },
+    "string": {
+      "zh": "字符串",
+      "en": "string",
+      "aliases": [],
+      "definition": "程序中表示文字的数据类型。",
+      "scope": "编程数据类型",
+      "dependsOn": [],
+      "confidence": "medium",
+      "auditRef": "/concepts/string"
+    },
+    "structured-output": {
+      "zh": "结构化输出",
+      "en": "structured output",
+      "aliases": [],
+      "definition": "让模型按规定的数据结构返回信息，以便程序读取。",
+      "scope": "格式符合要求不等于内容事实正确或必定成功",
+      "dependsOn": [
+        "schema"
+      ],
+      "confidence": "high",
+      "auditRef": "/concepts/structured-output"
+    },
+    "terminal": {
+      "zh": "终端",
+      "en": "terminal",
+      "aliases": [],
+      "definition": "输入文字命令并查看程序输出的窗口。",
+      "scope": "课程命令行语境",
+      "dependsOn": [],
+      "confidence": "medium",
+      "auditRef": "/concepts/terminal"
+    },
+    "zod": {
+      "zh": "Zod",
+      "en": "Zod",
+      "aliases": [],
+      "definition": "用于描述并验证数据是否符合规则的库。",
+      "scope": "本地课程所用验证库；不承诺当前版本的 API 行为",
+      "dependsOn": [
+        "schema"
+      ],
+      "confidence": "high",
+      "auditRef": "/concepts/zod"
+    }
+  },
+  "template": {
+    "required": [
+      "conceptIds",
+      "prerequisiteIds",
+      "prerequisiteRationale",
+      "sourceReading",
+      "articleSpecific",
+      "reviewFocus",
+      "translationSourceId",
+      "learningGoal",
+      "environmentBoundary",
+      "completionCheck",
+      "exerciseBoundary"
+    ],
+    "guidance": "交代目标、先备概念、已有项目/环境边界、每个原代码片段的作用及原文完成条件。",
+    "omit": "不补 TODO 答案、不新增安装命令或凭据、不虚构空文字稿；缺少环境只能认定阅读版就绪。"
+  },
+  "qualityDimensions": [
+    "忠实度：事实、条件、语气",
+    "完整性与结构",
+    "中文自然度",
+    "零基础可理解性",
+    "教学组织",
+    "原始示例保真",
+    "示例解释与练习边界",
+    "术语一致性与可用性",
+    "内容清洗与来源边界",
+    "页面阅读体验",
+    "内容类型适配",
+    "辅助内容准确性"
+  ],
+  "stageGate": {
+    "id": "G1",
+    "name": "正文与新增辅助语义审查",
+    "owner": "初翻负责正文完整；编校对照原文；辅助作者与语义审核者对新增内容负责",
+    "dimensions": [
+      "忠实度：事实、条件、语气",
+      "完整性与结构",
+      "中文自然度",
+      "零基础可理解性",
+      "教学组织",
+      "原始示例保真",
+      "示例解释与练习边界",
+      "术语一致性与可用性",
+      "内容清洗与来源边界",
+      "内容类型适配",
+      "辅助内容准确性"
+    ],
+    "minimum": [
+      "事实、条件、语气、有效内容与结构无实质遗漏或改变",
+      "原始代码/Prompt/配置/输入输出完整保留；中文理解明确分层",
+      "术语定义与本篇使用一致，必要背景足够，不增编任务答案",
+      "每段新增辅助有来源与修改后审核记录；翻译已审不能覆盖后来新增内容"
+    ],
+    "stop": "不存在改变事实/操作/学习结论的未解决问题时，可按“自然度不妨碍理解”结束本轮中间处理并转交G2；此条件只代表中间阶段可停止，不代表最终等质量通过。最终中文自然度和零基础可理解性仍须按冻结金标准质量水平审查。非阻断问题登记，复用未受影响证据，只处理实质差距，不展开逐维度模型链或无限润色。"
+  },
+  "finalRelease": {
+    "stop": "只有完整成品在同一12维度达到冻结金标准相应质量水平并有适用的验收证据，才可最终等质量放行。中文自然度、零基础可理解性须基于成品实际表现判断；机械通过或仅能基本看懂不足以PASS。适用而未验证或存在实质差距的维度保持PARTIAL/HOLD；不适用项说明理由。复用未受影响证据，仅处理实质差距，不要求逐维度新增模型或无限润色。",
+    "qualityReference": {
+      "sourceId": "guide-translation",
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+      "role": "frozen quality-level reference, not factual authority or universal layout"
+    },
+    "typeBoundary": "金标准是质量参照，不保证其中每条事实正确；来源疑点分别核对。不同内容类型采用对应教学结构，不机械套用指南版式。",
+    "auditRef": "/gates/2"
+  },
+  "writingLayers": {
+    "source": "原文事实、观点、条件、顺序和原例是保真基准；发现源错误登记，不暗改。",
+    "translation": "完整翻译并自然表达；保留 frontmatter slug/type/tags/updatedAt、有效链接、表格、MDX语义；清除纯促销需留下理由。",
+    "learningAid": "中文新增定义、提示、比较、自检单独标注并追溯证据；不冒充原文，不填练习答案，新增即纳入语义审核。",
+    "presentation": "装配正确版本并保证可读、可达、无重复；页面行为测试不能证明内容事实正确。"
+  },
+  "unresolved": [
+    {
+      "id": "F-version",
+      "status": "unresolved",
+      "observation": "原文一处区分5/6用法，结尾又将 generateObject 称作 version 6 solution，且未明确哪种较新；当前本地材料不足以判定应如何修正。",
+      "action": "后续若要求可运行/版本准确，治理批准定向官方版本核验；当前保留作者表述并显式标疑。",
+      "evidence": [
+        {
+          "within": "source.text",
+          "start": 15,
+          "end": 15
+        },
+        {
+          "within": "source.text",
+          "start": 89,
+          "end": 93
+        }
+      ],
+      "auditRef": "/unresolved/0"
+    },
+    {
+      "id": "F-transcript",
+      "status": "known-source-gap",
+      "observation": "原文最后仅有 Video Transcript 标题，没有文字稿。",
+      "action": "页面说明缺失，不生成替代文字稿。",
+      "evidence": [
+        {
+          "within": "source.text",
+          "start": 93,
+          "end": 93
+        }
+      ],
+      "auditRef": "/unresolved/1"
+    },
+    {
+      "id": "F-aid-ownership",
+      "status": "review-boundary-recorded",
+      "observation": "既有辅助由来源任务 Astra/xhigh 后加，不在之前 Sol 编校范围；本轮生产者核对不等于独立语义验收。",
+      "action": "后续审核包含正文与当时实际装配的所有新增辅助，按资产哈希锁定。",
+      "evidence": [
+        {
+          "path": "content/learning/README.md",
+          "sha256": "2f65d3c398af9e8df7fc214c0522232c81a7ede10d0ae98f8608baefbf059968",
+          "start": 23,
+          "end": 36
+        }
+      ],
+      "auditRef": "/unresolved/2"
+    }
+  ],
+  "outputRequired": [
+    "articleId + sourceSha256 + knowledgeSha256",
+    "正文、中文辅助分开的可审查产物",
+    "保留的原例及清洗记录",
+    "新增/冲突术语及证据",
+    "G0/G1/G2统一12维度状态与未决项",
+    "实际使用量及累计/增量口径"
+  ],
+  "onDemand": {
+    "inputGate": "/gates/0",
+    "fullEvidence": "/evidence",
+    "governance": "/productionRules",
+    "riskPolicy": "/riskPolicy",
+    "outputContract": "/outputContract"
+  },
+  "readingRule": "auditRef/onDemand 是 audit.path 中的 JSON Pointer；定义的依赖理由、来源行号与完整上下文按需读取。within 指本包完整原文行号；外部证据按路径/哈希/行号定位。已嵌入的未决语义证据须直接审读。概念仅生产者核对，非独立语义批准。"
+}

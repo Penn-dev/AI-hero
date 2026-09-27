@@ -1,0 +1,30 @@
+{
+  "status": "DISCLOSED_LIMITATIONS",
+  "strictIndependence": false,
+  "producerReports": [
+    {
+      "stage": "A-draft",
+      "report": "No exception reported; input hash manifest only includes entry file."
+    },
+    {
+      "stage": "B-draft",
+      "report": "Handoff disclosed MEMORY.md keyword search. Original stage.json did not include this disclosure; preserved unchanged."
+    },
+    {
+      "stage": "A-edited",
+      "report": "stage.json discloses project-history memory-index search and reported memory hash. Claimed no old sample translation or answer read/used."
+    },
+    {
+      "stage": "B-edited",
+      "report": "stage.json reports no off-whitelist reads."
+    }
+  ],
+  "assessment": "Self-reports and telemetry do not independently prove absence of influence. Do not describe the experiment as strictly independent.",
+  "pageFindings": [
+    "X has 4 supplied glossary terms but 0 inline body term buttons; Y has 13 supplied terms and 1 inline body term button. Generic identical own-term entry sections retain access to supplied definitions.",
+    "Mobile TOC hash updates, but actual scroll landing remained outside viewport in observed X/Y runs; PARTIAL, root cause not established.",
+    "Captured browser errors report [vinext] RSC prefetch setup error: TypeError: f is not a function. Direct page loads and tested glossary interactions worked; prefetch behavior is not accepted.",
+    "Full-page and one body screenshot timed out; only listed clear clips count as screenshot evidence."
+  ],
+  "authority": "Final semantic and teaching evaluation remains with governance; Workshop HOLD unchanged."
+}

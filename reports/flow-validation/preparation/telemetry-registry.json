@@ -1,0 +1,101 @@
+{
+  "registrations": [
+    {
+      "threadId": "01a0c8af-4072-7ce2-ae61-8d7510c98934",
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/22/rollout-2026-09-22T18-35-23-01a0c8af-4072-7ce2-ae61-8d7510c98934.jsonl",
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      },
+      "turns": {
+        "01a0c8af-4405-76e1-b0a8-09aba7771858": {
+          "stage": "knowledge-foundation-production",
+          "batch": "shared-assets; historical one-time input",
+          "sourceAssetSnapshot": {
+            "path": "reports/knowledge-foundation/view-revision-baseline.json",
+            "sha256": "19f9021fa43a179d87a7cb04d1f7da2f018a37b79493a75cb763ec4bae2da964",
+            "scope": "contains pre-revision knowledge hash; not a complete per-request historical snapshot"
+          }
+        },
+        "01a0c8be-0139-7003-a982-cfb8c7033115": {
+          "stage": "knowledge-foundation-acceptance-revision",
+          "batch": "shared-assets; historical one-time input",
+          "sourceAssetSnapshot": {
+            "path": "reports/knowledge-foundation/validation.json",
+            "sha256": "959d70ae624e8dfe50dcef35b2ffb7cdc30f137044bf8eebec8eccd234387862",
+            "scope": "completed view revision evidence; retrospective association"
+          }
+        },
+        "01a0c8d0-57ca-71d0-bfc0-f803f87bd734": {
+          "stage": "flow-validation-common-preparation",
+          "batch": "dictionary+workshop; current new investment"
+        },
+        "01a0c8ef-53f9-7ea0-8a94-191b99dea809": {
+          "stage": "shared-page-assembly-and-browser-acceptance",
+          "batch": "dictionary X/Y; shared new investment"
+        }
+      }
+    },
+    {
+      "threadId": "01a0c8e1-7570-7443-b723-de00ca84ac29",
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/22/rollout-2026-09-22T19-30-14-01a0c8e1-7570-7443-b723-de00ca84ac29.jsonl",
+      "turns": {
+        "01a0c8e1-782e-7653-9dd8-d9f907c237c1": {
+          "stage": "A-draft",
+          "batch": "dictionary executed; workshop HOLD",
+          "route": "A"
+        }
+      },
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      }
+    },
+    {
+      "threadId": "01a0c8e1-9232-79c3-aaf1-68319e3b827e",
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/22/rollout-2026-09-22T19-30-21-01a0c8e1-9232-79c3-aaf1-68319e3b827e.jsonl",
+      "turns": {
+        "01a0c8e1-9459-7890-87d7-31fe5ad2d4ca": {
+          "stage": "B-draft",
+          "batch": "dictionary executed; workshop HOLD",
+          "route": "B"
+        }
+      },
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      }
+    },
+    {
+      "threadId": "01a0c8e5-6a32-7321-952e-14e0429695a4",
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/22/rollout-2026-09-22T19-34-33-01a0c8e5-6a32-7321-952e-14e0429695a4.jsonl",
+      "turns": {
+        "01a0c8e5-6d91-7483-b5d2-7e7718229e32": {
+          "stage": "A-edited",
+          "batch": "dictionary executed; workshop HOLD",
+          "route": "A"
+        }
+      },
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      }
+    },
+    {
+      "threadId": "01a0c8e7-0c75-7be2-8767-f8a48cb5290c",
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/22/rollout-2026-09-22T19-36-20-01a0c8e7-0c75-7be2-8767-f8a48cb5290c.jsonl",
+      "turns": {
+        "01a0c8e7-0e4b-7e71-8434-154c0c6dce20": {
+          "stage": "B-edited",
+          "batch": "dictionary executed; workshop HOLD",
+          "route": "B"
+        }
+      },
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      }
+    }
+  ],
+  "futureRegistration": "Only preparation owner adds four governance-created task IDs and exact rollout paths after creation; no full-session search or unapproved task reads."
+}

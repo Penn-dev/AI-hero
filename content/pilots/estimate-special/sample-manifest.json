@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "workflow": "Terra/medium initial translation; Sol/medium editorial review",
+  "samples": [
+    {
+      "kind": "dictionary-batch",
+      "route": "/ai-coding-dictionary/system-prompt",
+      "sourcePath": "content/source/ai-coding-dictionary/system-prompt.md"
+    },
+    {
+      "kind": "dictionary-batch",
+      "route": "/ai-coding-dictionary/agent",
+      "sourcePath": "content/source/ai-coding-dictionary/agent.md"
+    },
+    {
+      "kind": "dictionary-batch",
+      "route": "/ai-coding-dictionary/context-window",
+      "sourcePath": "content/source/ai-coding-dictionary/context-window.md"
+    },
+    {
+      "kind": "dictionary-batch",
+      "route": "/ai-coding-dictionary/tool-call",
+      "sourcePath": "content/source/ai-coding-dictionary/tool-call.md"
+    },
+    {
+      "kind": "dictionary-batch",
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "sourcePath": "content/source/ai-coding-dictionary/prefix-cache.md"
+    },
+    {
+      "kind": "dictionary-batch",
+      "route": "/ai-coding-dictionary/memory-system",
+      "sourcePath": "content/source/ai-coding-dictionary/memory-system.md"
+    },
+    {
+      "kind": "dictionary-batch",
+      "route": "/ai-coding-dictionary/hallucination",
+      "sourcePath": "content/source/ai-coding-dictionary/hallucination.md"
+    },
+    {
+      "kind": "dictionary-batch",
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "sourcePath": "content/source/ai-coding-dictionary/progressive-disclosure.md"
+    },
+    {
+      "kind": "workshop-lesson",
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "sourcePath": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md"
+    }
+  ]
+}

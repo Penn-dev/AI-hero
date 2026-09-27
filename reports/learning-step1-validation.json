@@ -1,0 +1,188 @@
+{
+  "latestBrowserRecheck": {
+    "checkedOn": "2026-09-22",
+    "passed": true,
+    "scope": "Two sample pages; user-reported glossary, link styling and completion checklist changes only",
+    "desktopWidths": [1280, 931],
+    "mobileWidth": 390,
+    "checks": ["Single selected term and replacement", "Search cleared by article term click", "All-terms entry", "Mobile single-term dialogs and toolbar reset", "Normal-weight inline links with compact English-source marker", "Numbered completion checklist and inline facts code", "No document horizontal overflow", "No captured page console errors"],
+    "viewportOverridesReset": true,
+    "translationQualityApproved": false
+  },
+  "checkedAt": "2026-09-15T19:05:30.137Z",
+  "scope": "Local step 1; public templates and two new sample pages",
+  "unchangedInputFiles": 7,
+  "qualityContract": {
+    "command": "npm run learning:validate",
+    "passed": true,
+    "sourceFiles": 6,
+    "concepts": 15,
+    "pages": 3
+  },
+  "typecheck": {
+    "command": "node node_modules/typescript/bin/tsc --noEmit --incremental false",
+    "exitCode": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0
+  },
+  "browserQA": {
+    "pages": [
+      "/ai-coding-dictionary/system-prompt",
+      "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+    ],
+    "desktopViewport": 1280,
+    "mobileViewport": 390,
+    "checks": [
+      "Chinese terminology buttons",
+      "English alias search",
+      "Mobile glossary dialog and term positioning",
+      "Mobile contents navigation",
+      "Code scroll confined to code blocks",
+      "No horizontal document overflow",
+      "English fallback labels",
+      "No captured page console errors"
+    ],
+    "viewportOverridesReset": true
+  },
+  "pageChecks": [
+    {
+      "route": "/a-complete-guide-to-agents-md",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 15,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 1,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/what-is-the-context-window",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 2,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/what-is-an-llm",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 7,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 3,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/5-agent-skills-i-use-every-day",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 6,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/skills-codebase-design",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 7,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 39,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 4,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 1,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 1,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-call",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 1,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 1,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/memory-system",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 1,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 1,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 1,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "httpStatus": 200,
+      "mainTitles": 1,
+      "outlineEntries": 4,
+      "brokenOutlineTargets": 0,
+      "missingLocalContentLinks": 0
+    }
+  ],
+  "acceptance": "Technical checks passed; beginner learning experience awaits user review; no token-saving claim"
+}

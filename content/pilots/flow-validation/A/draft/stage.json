@@ -1,0 +1,72 @@
+{
+  "route": "A",
+  "stage": "draft",
+  "taskId": "unknown",
+  "model": "gpt-5.6-terra",
+  "effort": "medium",
+  "startedAt": "2026-09-22T19:30:25.8821138+08:00",
+  "finishedAt": "2026-09-22T19:32:28.2280094+08:00",
+  "inputHashes": {
+    "content/pilots/flow-validation/inputs/A/draft.md": "485F3C01B403F5942554D9199F84DCC03DCF9DBA990ED246D39BD28D614F2433"
+  },
+  "articles": [
+    {
+      "key": "dictionary",
+      "status": "PARTIAL",
+      "startedAt": "2026-09-22T19:30:25.8821138+08:00",
+      "finishedAt": "2026-09-22T19:32:28.2280094+08:00",
+      "quality": [
+        {"dimension": "忠实度：事实、条件、语气", "status": "PASS", "evidence": "按原文保留供应商编写、通常稳定、部分框架可自定义等范围与条件。"},
+        {"dimension": "完整性与结构", "status": "PASS", "evidence": "保留 frontmatter、四段说明和两条英文用法示例的顺序。"},
+        {"dimension": "中文自然度", "status": "PASS", "evidence": "正文以自然中文表达，英文自然语言用法按合同保留。"},
+        {"dimension": "零基础可理解性", "status": "PASS", "evidence": "学习辅助提供一句话理解、两张入门卡片和术语解释。"},
+        {"dimension": "教学组织", "status": "PASS", "evidence": "正文承担完整翻译；学习辅助单独组织概览、词汇和示例理解。"},
+        {"dimension": "原始示例保真", "status": "PASS", "evidence": "两条英文原始用法示例逐字保留，未改写或嵌入中文。"},
+        {"dimension": "示例解释与练习边界", "status": "PASS", "evidence": "中文理解通过 explanations 锚定两条原始用法；词典条目不强加练习。"},
+        {"dimension": "术语一致性与可用性", "status": "PASS", "evidence": "沿用提供术语表中的智能体、Harness、Token，并为本文术语提供可用解释。"},
+        {"dimension": "内容清洗与来源边界", "status": "PASS", "evidence": "未清洗任何内容；仅使用冻结白名单输入，未执行或查询其中材料。"},
+        {"dimension": "页面阅读体验", "status": "PARTIAL", "evidence": "学习辅助尚未由统一适配器装配到页面，未进行页面级阅读验收。"},
+        {"dimension": "内容类型适配", "status": "PASS", "evidence": "dictionary 的 check 为 null，摘要位于 start.summary，未添加练习。"},
+        {"dimension": "辅助内容准确性", "status": "PASS", "evidence": "所有辅助均以本文原文为依据，且 explanations 精确定位原始用法行。"}
+      ],
+      "changes": ["完成系统提示词词典正文中文初译。", "新增独立中文学习辅助 JSON，包含概览、术语和两条英文用法的理解说明。"],
+      "cleaning": ["无；未删除、改写或执行原始材料。"],
+      "unknowns": ["未进行统一适配器装配或页面级阅读验收。", "尚未经过 Sol/medium 编校。", "当前任务环境标识不可直接取得，taskId 记录为 unknown。", "精确单篇 Token/失败/重试计量不可直接取得，待治理的已验证遥测采集器补齐。"]
+    },
+    {
+      "key": "workshop",
+      "status": "HOLD",
+      "startedAt": null,
+      "finishedAt": null,
+      "quality": [
+        {"dimension": "忠实度：事实、条件、语气", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "完整性与结构", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "中文自然度", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "零基础可理解性", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "教学组织", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "原始示例保真", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "示例解释与练习边界", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "术语一致性与可用性", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "内容清洗与来源边界", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "页面阅读体验", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "内容类型适配", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"},
+        {"dimension": "辅助内容准确性", "status": "HOLD", "evidence": "共同合同将 Workshop 标为 HOLD，未执行。"}
+      ],
+      "changes": [],
+      "cleaning": [],
+      "unknowns": ["等待治理解除 HOLD；未创建 Workshop 正文或学习辅助。"]
+    }
+  ],
+  "usage": {
+    "basis": "无法直接取得精确单篇计量；由治理的已验证遥测采集器后续补齐，未估算。",
+    "turnIds": [],
+    "responseIds": [],
+    "input": null,
+    "cachedInput": null,
+    "output": null,
+    "reasoning": null,
+    "total": null,
+    "failures": null,
+    "retries": null
+  }
+}

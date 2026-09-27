@@ -1,0 +1,100 @@
+{
+  "generatedAt": "2026-09-14T16:26:06.805Z",
+  "pricingPerMillionTokens": {
+    "terra-medium": {
+      "input": 2,
+      "cached": 0.2,
+      "output": 12
+    },
+    "sol-medium": {
+      "input": 4,
+      "cached": 0.4,
+      "output": 20
+    }
+  },
+  "rows": [
+    {
+      "sample": "dictionary-batch-8",
+      "kind": "dictionary-batch",
+      "stage": "terra-medium",
+      "id": "01a0a0af-5d92-7b52-b1ee-cefcfbb0f3e4",
+      "freshContext": true,
+      "status": "measured",
+      "usage": {
+        "input_tokens": 632468,
+        "cached_input_tokens": 602880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 15209,
+        "reasoning_output_tokens": 1647,
+        "total_tokens": 647677
+      },
+      "uncachedInputTokens": 29588,
+      "apiUsdEquivalent": 0.36226,
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/15/rollout-2026-09-15T00-10-42-01a0a0af-5d92-7b52-b1ee-cefcfbb0f3e4.jsonl"
+    },
+    {
+      "sample": "workshop-generating-objects",
+      "kind": "workshop-lesson",
+      "stage": "terra-medium",
+      "id": "01a0a0af-5e23-72e2-ab1a-0a3e9ecce451",
+      "freshContext": true,
+      "status": "measured",
+      "usage": {
+        "input_tokens": 644709,
+        "cached_input_tokens": 585216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10110,
+        "reasoning_output_tokens": 2696,
+        "total_tokens": 654819
+      },
+      "uncachedInputTokens": 59493,
+      "apiUsdEquivalent": 0.35734920000000003,
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/15/rollout-2026-09-15T00-10-42-01a0a0af-5e23-72e2-ab1a-0a3e9ecce451.jsonl"
+    },
+    {
+      "sample": "dictionary-batch-8",
+      "kind": "dictionary-batch",
+      "stage": "sol-medium",
+      "id": "01a0a0b4-f4ca-7352-a9bd-b73cb4138231",
+      "freshContext": true,
+      "status": "measured",
+      "usage": {
+        "input_tokens": 1602743,
+        "cached_input_tokens": 1538816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 21578,
+        "reasoning_output_tokens": 5527,
+        "total_tokens": 1624321
+      },
+      "uncachedInputTokens": 63927,
+      "apiUsdEquivalent": 1.3027943999999998,
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/15/rollout-2026-09-15T00-16-48-01a0a0b4-f4ca-7352-a9bd-b73cb4138231.jsonl"
+    },
+    {
+      "sample": "workshop-generating-objects",
+      "kind": "workshop-lesson",
+      "stage": "sol-medium",
+      "id": "01a0a0b4-f588-7981-9275-462c4c29e735",
+      "freshContext": true,
+      "status": "measured",
+      "usage": {
+        "input_tokens": 675160,
+        "cached_input_tokens": 644608,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9808,
+        "reasoning_output_tokens": 3385,
+        "total_tokens": 684968
+      },
+      "uncachedInputTokens": 30552,
+      "apiUsdEquivalent": 0.5762111999999999,
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/15/rollout-2026-09-15T00-16-49-01a0a0b4-f588-7981-9275-462c4c29e735.jsonl"
+    }
+  ],
+  "totals": {
+    "inputTokens": 3555080,
+    "cachedInputTokens": 3371520,
+    "outputTokens": 56705,
+    "reasoningOutputTokens": 13255,
+    "apiUsdEquivalent": 2.5986147999999996
+  }
+}

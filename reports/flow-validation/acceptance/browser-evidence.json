@@ -1,0 +1,254 @@
+{
+  "checkedAt": "2026-09-22T12:04:34.047Z",
+  "records": [
+    {
+      "page": "Y",
+      "mode": "desktop",
+      "viewport": {
+        "height": 900,
+        "width": 1280
+      },
+      "first": "查看全部术语\n系统提示词（system prompt）\n随模型请求提供的基础指令，用来约定角色和行为等要求。",
+      "second": "查看全部术语\n模型提供商请求（model provider request）\n执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。",
+      "singleCount": 1
+    },
+    {
+      "page": "Y",
+      "action": "search",
+      "result": "点击正文中的术语，右侧只显示这个词的解释。\n\n搜索术语\n前缀缓存（prefix cache）\n模型服务复用请求开头相同部分的已处理结果的机制。"
+    },
+    {
+      "page": "Y",
+      "action": "search-to-selected",
+      "result": "查看全部术语\n系统提示词（system prompt）\n随模型请求提供的基础指令，用来约定角色和行为等要求。"
+    },
+    {
+      "page": "Y",
+      "mode": "mobile-first",
+      "viewport": {
+        "height": 844,
+        "scrollWidth": 375,
+        "width": 390
+      },
+      "text": "术语解释\n\n这里显示你刚才点击的词及其解释。\n\n查看全部术语\n系统提示词（system prompt）\n随模型请求提供的基础指令，用来约定角色和行为等要求。\n关闭"
+    },
+    {
+      "page": "Y",
+      "mode": "mobile-second",
+      "text": "术语解释\n\n这里显示你刚才点击的词及其解释。\n\n查看全部术语\n模型提供商请求（model provider request）\n执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。\n关闭",
+      "count": 1
+    },
+    {
+      "page": "Y",
+      "mode": "mobile-search",
+      "text": "术语速查\n\n搜索本文中的术语和解释。\n\n搜索术语\n前缀缓存（prefix cache）\n模型服务复用请求开头相同部分的已处理结果的机制。\n关闭"
+    },
+    {
+      "page": "Y",
+      "mode": "mobile-all-reset",
+      "count": 13
+    },
+    {
+      "page": "Y",
+      "mode": "mobile-toc",
+      "hash": "#article-terms"
+    },
+    {
+      "page": "Y",
+      "mode": "mobile-toc-recheck",
+      "observed": {
+        "bodyTop": -1469.296875,
+        "hash": "#reading-body"
+      }
+    },
+    {
+      "page": "X",
+      "mode": "mobile-layout",
+      "height": 844,
+      "scrollHeight": 3506,
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "page": "X",
+      "mode": "mobile-first",
+      "text": "术语解释\n\n这里显示你刚才点击的词及其解释。\n\n查看全部术语\n系统提示词（System prompt）\n执行框架在每次模型请求前附加的一套工作规则，用来规定智能体的身份、行为、可用工具和约定，通常在一次会话中保持稳定。\n关闭"
+    },
+    {
+      "page": "X",
+      "viewport": "390x844",
+      "test": "second-term",
+      "snapshot": "- main:\n  - generic: 审核 X\n  - text: 系统提示词 · 完整页面\n  - link:\n    - /url: /review/flow-validation\n    - text: AIHero\n  - navigation:\n    - link:\n      - /url: /review/flow-validation\n      - text: 对照入口\n    - link:\n      - /url: \"#learning-start\"\n      - text: 开始阅读\n    - link:\n      - /url: /review/flow-validation/y\n      - text: 另一页面\n  - paragraph: 页面 X · 待治理验收\n  - heading [level=1]: 系统提示词\n  - paragraph: 执行框架会在每次向模型提供商发送请求前附加的指令——也就是智能体持续遵循的工作说明。它通常会在一次会话中保持稳定。\n  - generic: 作者：Matt Pocock\n  - generic: ·原文更新：2026-07-01\n  - article:\n    - region:\n      - paragraph: 中文学习辅助\n      - heading [level=2]: 先用一句话理解\n      - paragraph: 系统提示词是执行框架在每次请求前交给模型的一套工作规则；它会影响智能体的身份、行为、可用工具和输出习惯，并且通常在一次会话中保持不变。\n      - strong: 它不是你在聊天框输入的要求\n      - paragraph: 系统提示词通常由执行框架供应商编写。你的消息也会被模型阅读，但原文说明模型会优先遵循系统提示词；部分执行框架允许你查看和修改这套规则。\n      - strong: 为什么会影响输入量与成本\n      - paragraph: 这套规则可能很长，而且会随每一轮请求作为输入 Token 一起发送；由于开头重复不变，它也可以构成前缀缓存的开头。\n    - heading [level=2]: 系统提示词\n    - paragraph: ↗ 表示英文原文链接。\n    - paragraph:\n      - text: 执行框架（\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/harness\n        - text: harness\n        - generic: ⁠↗\n      - text: ）会在每次向\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/model-provider-request\n        - text: 模型提供商发送请求\n        - generic: ⁠↗\n      - text: 前附加这组指令；它是\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/agent\n        - text: 智能体\n        - generic: ⁠↗\n      - text: 持续遵循的工作说明：智能体是谁、应如何行动、可以调用哪些\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/tool\n        - text: 工具\n        - generic: ⁠↗\n      - text: ，以及要遵守什么约定。它通常会在一次\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/session\n        - text: 会话\n        - generic: ⁠↗\n      - text: 中保持稳定。\n    - paragraph:\n      - text: 系统提示词由执行框架的供应商编写，而不是由你编写。对于编码执行框架来说，它往往很长——常常包含数万\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/token\n        - text: Token\n        - generic: ⁠↗\n      - text: 的行为规则、工具说明和边缘情况处理；在每个\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/turn\n        - text: 轮次\n        - generic: ⁠↗\n      - text: 中，这些内容都会作为\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/input-tokens\n        - text: 输入 Token\n        - generic: ⁠↗\n      - text: 计费。你自己的固定指令也会一同送入模型：会话开始时，像\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/agents-md\n        - text: AGENTS.md\n        - generic: ⁠↗\n      - text: 这样的文件会和系统提示词一起加载。因此，\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/model\n        - text: 模型\n        - generic: ⁠↗\n      - text: 在看到你的消息之前，会同时读到供应商的工作说明和你的工作说明。\n    - paragraph:\n      - text: 由于系统提示词在每次请求中都完全相同，它会成为\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prefix-cache\n        - text: 前缀缓存\n        - generic: ⁠↗\n      - text: 的开头。这也是执行框架通常会让它在整个会话中保持不变、而不是在过程中不断修改的原因之一。\n    - paragraph: 模型经训练会优先遵循系统提示词，而不是用户消息。因此，如果智能体坚持遵循你从未要求过的约定，或者总是以你怎么要求也改变不了的方式排版输出，通常是因为它正在服从系统提示词——发生冲突时，你的消息没有占上风。一些执行框架可以自定义：它们会让你完整查看系统提示词，因此你能读到智能体实际收到的指令，也可以修改它。\n    - paragraph:\n      - emphasis: 用法：\n    - paragraph: \"\\\"Two harnesses, same model, totally different behavior on the same prompt.\\\"\"\n    - paragraph:\n      - strong: 中文理解版（学习辅助）\n      - text: ：即使底层使用同一个模型，两个执行框架的系统提示词不同，模型面对同一条提示词时也可能表现得完全不同。\n    - paragraph: \"\\\"Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives.\\\"\"\n    - paragraph:\n      - strong: 中文理解版（学习辅助）\n      - text: ：差异来自系统提示词：一个侧重简短地修改代码，另一个侧重解释。模型在读到你的消息前，这种差异就已经存在。\n    - heading [level=2]: 本文术语\n    - paragraph: 中文学习辅助 · 点击查看本页提供的解释\n    - button: 系统提示词（System prompt）\n    - button: 智能体执行框架（Harness）\n    - button: 前缀缓存（Prefix cache）\n    - button: 输入 Token（Input tokens）\n    - region:\n      - heading [level=2]: 相关概念\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/harness\n        - generic: 词典条目\n        - strong: 智能体执行框架\n        - paragraph: 了解负责在请求前附加系统提示词的软件环境。\n        - emphasis: 打开英文原文 ↗\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prefix-cache\n        - generic: 词典条目\n        - strong: 前缀缓存\n        - paragraph: 了解重复的请求开头为何可以被缓存。\n        - emphasis: 打开英文原文 ↗\n  - button:\n    - text: 目录\n  - button [expanded]:\n    - text: 术语\n  - generic: 83%\n- dialog \"术语解释\":\n  - heading \"术语解释\" [level=2]\n  - paragraph: 这里显示你刚才点击的词及其解释。\n  - button \"查看全部术语\" [active]\n  - term: 智能体执行框架（Harness）\n  - definition: 围绕模型组织请求、工具和约定的软件环境；本文说它会在每次请求前附加系统提示词。\n  - button \"关闭\":\n    - generic: 关闭"
+    },
+    {
+      "page": "X",
+      "viewport": "390x844",
+      "test": "search-prefix",
+      "snapshot": "- main:\n  - generic: 审核 X\n  - text: 系统提示词 · 完整页面\n  - link:\n    - /url: /review/flow-validation\n    - text: AIHero\n  - navigation:\n    - link:\n      - /url: /review/flow-validation\n      - text: 对照入口\n    - link:\n      - /url: \"#learning-start\"\n      - text: 开始阅读\n    - link:\n      - /url: /review/flow-validation/y\n      - text: 另一页面\n  - paragraph: 页面 X · 待治理验收\n  - heading [level=1]: 系统提示词\n  - paragraph: 执行框架会在每次向模型提供商发送请求前附加的指令——也就是智能体持续遵循的工作说明。它通常会在一次会话中保持稳定。\n  - generic: 作者：Matt Pocock\n  - generic: ·原文更新：2026-07-01\n  - article:\n    - region:\n      - paragraph: 中文学习辅助\n      - heading [level=2]: 先用一句话理解\n      - paragraph: 系统提示词是执行框架在每次请求前交给模型的一套工作规则；它会影响智能体的身份、行为、可用工具和输出习惯，并且通常在一次会话中保持不变。\n      - strong: 它不是你在聊天框输入的要求\n      - paragraph: 系统提示词通常由执行框架供应商编写。你的消息也会被模型阅读，但原文说明模型会优先遵循系统提示词；部分执行框架允许你查看和修改这套规则。\n      - strong: 为什么会影响输入量与成本\n      - paragraph: 这套规则可能很长，而且会随每一轮请求作为输入 Token 一起发送；由于开头重复不变，它也可以构成前缀缓存的开头。\n    - heading [level=2]: 系统提示词\n    - paragraph: ↗ 表示英文原文链接。\n    - paragraph:\n      - text: 执行框架（\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/harness\n        - text: harness\n        - generic: ⁠↗\n      - text: ）会在每次向\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/model-provider-request\n        - text: 模型提供商发送请求\n        - generic: ⁠↗\n      - text: 前附加这组指令；它是\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/agent\n        - text: 智能体\n        - generic: ⁠↗\n      - text: 持续遵循的工作说明：智能体是谁、应如何行动、可以调用哪些\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/tool\n        - text: 工具\n        - generic: ⁠↗\n      - text: ，以及要遵守什么约定。它通常会在一次\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/session\n        - text: 会话\n        - generic: ⁠↗\n      - text: 中保持稳定。\n    - paragraph:\n      - text: 系统提示词由执行框架的供应商编写，而不是由你编写。对于编码执行框架来说，它往往很长——常常包含数万\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/token\n        - text: Token\n        - generic: ⁠↗\n      - text: 的行为规则、工具说明和边缘情况处理；在每个\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/turn\n        - text: 轮次\n        - generic: ⁠↗\n      - text: 中，这些内容都会作为\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/input-tokens\n        - text: 输入 Token\n        - generic: ⁠↗\n      - text: 计费。你自己的固定指令也会一同送入模型：会话开始时，像\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/agents-md\n        - text: AGENTS.md\n        - generic: ⁠↗\n      - text: 这样的文件会和系统提示词一起加载。因此，\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/model\n        - text: 模型\n        - generic: ⁠↗\n      - text: 在看到你的消息之前，会同时读到供应商的工作说明和你的工作说明。\n    - paragraph:\n      - text: 由于系统提示词在每次请求中都完全相同，它会成为\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prefix-cache\n        - text: 前缀缓存\n        - generic: ⁠↗\n      - text: 的开头。这也是执行框架通常会让它在整个会话中保持不变、而不是在过程中不断修改的原因之一。\n    - paragraph: 模型经训练会优先遵循系统提示词，而不是用户消息。因此，如果智能体坚持遵循你从未要求过的约定，或者总是以你怎么要求也改变不了的方式排版输出，通常是因为它正在服从系统提示词——发生冲突时，你的消息没有占上风。一些执行框架可以自定义：它们会让你完整查看系统提示词，因此你能读到智能体实际收到的指令，也可以修改它。\n    - paragraph:\n      - emphasis: 用法：\n    - paragraph: \"\\\"Two harnesses, same model, totally different behavior on the same prompt.\\\"\"\n    - paragraph:\n      - strong: 中文理解版（学习辅助）\n      - text: ：即使底层使用同一个模型，两个执行框架的系统提示词不同，模型面对同一条提示词时也可能表现得完全不同。\n    - paragraph: \"\\\"Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives.\\\"\"\n    - paragraph:\n      - strong: 中文理解版（学习辅助）\n      - text: ：差异来自系统提示词：一个侧重简短地修改代码，另一个侧重解释。模型在读到你的消息前，这种差异就已经存在。\n    - heading [level=2]: 本文术语\n    - paragraph: 中文学习辅助 · 点击查看本页提供的解释\n    - button: 系统提示词（System prompt）\n    - button: 智能体执行框架（Harness）\n    - button: 前缀缓存（Prefix cache）\n    - button: 输入 Token（Input tokens）\n    - region:\n      - heading [level=2]: 相关概念\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/harness\n        - generic: 词典条目\n        - strong: 智能体执行框架\n        - paragraph: 了解负责在请求前附加系统提示词的软件环境。\n        - emphasis: 打开英文原文 ↗\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prefix-cache\n        - generic: 词典条目\n        - strong: 前缀缓存\n        - paragraph: 了解重复的请求开头为何可以被缓存。\n        - emphasis: 打开英文原文 ↗\n  - button:\n    - text: 目录\n  - button [expanded]:\n    - text: 术语\n  - generic: 83%\n- dialog \"术语速查\":\n  - heading \"术语速查\" [level=2]\n  - paragraph: 搜索本文中的术语和解释。\n  - generic: 搜索术语\n  - textbox \"搜索术语 清空术语搜索\" [active]:\n    - /placeholder: 搜索术语或解释\n    - text: prefix\n  - button \"清空术语搜索\":\n  - term: 前缀缓存（Prefix cache）\n  - definition: 用于复用多次请求中相同开头内容的缓存；本文指出固定的系统提示词会构成它的开头。\n  - button \"关闭\":\n    - generic: 关闭"
+    },
+    {
+      "page": "X",
+      "viewport": "390x844",
+      "test": "bottom-reopen-all",
+      "snapshot": "- main:\n  - generic: 审核 X\n  - text: 系统提示词 · 完整页面\n  - link:\n    - /url: /review/flow-validation\n    - text: AIHero\n  - navigation:\n    - link:\n      - /url: /review/flow-validation\n      - text: 对照入口\n    - link:\n      - /url: \"#learning-start\"\n      - text: 开始阅读\n    - link:\n      - /url: /review/flow-validation/y\n      - text: 另一页面\n  - paragraph: 页面 X · 待治理验收\n  - heading [level=1]: 系统提示词\n  - paragraph: 执行框架会在每次向模型提供商发送请求前附加的指令——也就是智能体持续遵循的工作说明。它通常会在一次会话中保持稳定。\n  - generic: 作者：Matt Pocock\n  - generic: ·原文更新：2026-07-01\n  - article:\n    - region:\n      - paragraph: 中文学习辅助\n      - heading [level=2]: 先用一句话理解\n      - paragraph: 系统提示词是执行框架在每次请求前交给模型的一套工作规则；它会影响智能体的身份、行为、可用工具和输出习惯，并且通常在一次会话中保持不变。\n      - strong: 它不是你在聊天框输入的要求\n      - paragraph: 系统提示词通常由执行框架供应商编写。你的消息也会被模型阅读，但原文说明模型会优先遵循系统提示词；部分执行框架允许你查看和修改这套规则。\n      - strong: 为什么会影响输入量与成本\n      - paragraph: 这套规则可能很长，而且会随每一轮请求作为输入 Token 一起发送；由于开头重复不变，它也可以构成前缀缓存的开头。\n    - heading [level=2]: 系统提示词\n    - paragraph: ↗ 表示英文原文链接。\n    - paragraph:\n      - text: 执行框架（\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/harness\n        - text: harness\n        - generic: ⁠↗\n      - text: ）会在每次向\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/model-provider-request\n        - text: 模型提供商发送请求\n        - generic: ⁠↗\n      - text: 前附加这组指令；它是\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/agent\n        - text: 智能体\n        - generic: ⁠↗\n      - text: 持续遵循的工作说明：智能体是谁、应如何行动、可以调用哪些\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/tool\n        - text: 工具\n        - generic: ⁠↗\n      - text: ，以及要遵守什么约定。它通常会在一次\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/session\n        - text: 会话\n        - generic: ⁠↗\n      - text: 中保持稳定。\n    - paragraph:\n      - text: 系统提示词由执行框架的供应商编写，而不是由你编写。对于编码执行框架来说，它往往很长——常常包含数万\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/token\n        - text: Token\n        - generic: ⁠↗\n      - text: 的行为规则、工具说明和边缘情况处理；在每个\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/turn\n        - text: 轮次\n        - generic: ⁠↗\n      - text: 中，这些内容都会作为\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/input-tokens\n        - text: 输入 Token\n        - generic: ⁠↗\n      - text: 计费。你自己的固定指令也会一同送入模型：会话开始时，像\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/agents-md\n        - text: AGENTS.md\n        - generic: ⁠↗\n      - text: 这样的文件会和系统提示词一起加载。因此，\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/model\n        - text: 模型\n        - generic: ⁠↗\n      - text: 在看到你的消息之前，会同时读到供应商的工作说明和你的工作说明。\n    - paragraph:\n      - text: 由于系统提示词在每次请求中都完全相同，它会成为\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prefix-cache\n        - text: 前缀缓存\n        - generic: ⁠↗\n      - text: 的开头。这也是执行框架通常会让它在整个会话中保持不变、而不是在过程中不断修改的原因之一。\n    - paragraph: 模型经训练会优先遵循系统提示词，而不是用户消息。因此，如果智能体坚持遵循你从未要求过的约定，或者总是以你怎么要求也改变不了的方式排版输出，通常是因为它正在服从系统提示词——发生冲突时，你的消息没有占上风。一些执行框架可以自定义：它们会让你完整查看系统提示词，因此你能读到智能体实际收到的指令，也可以修改它。\n    - paragraph:\n      - emphasis: 用法：\n    - paragraph: \"\\\"Two harnesses, same model, totally different behavior on the same prompt.\\\"\"\n    - paragraph:\n      - strong: 中文理解版（学习辅助）\n      - text: ：即使底层使用同一个模型，两个执行框架的系统提示词不同，模型面对同一条提示词时也可能表现得完全不同。\n    - paragraph: \"\\\"Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives.\\\"\"\n    - paragraph:\n      - strong: 中文理解版（学习辅助）\n      - text: ：差异来自系统提示词：一个侧重简短地修改代码，另一个侧重解释。模型在读到你的消息前，这种差异就已经存在。\n    - heading [level=2]: 本文术语\n    - paragraph: 中文学习辅助 · 点击查看本页提供的解释\n    - button: 系统提示词（System prompt）\n    - button: 智能体执行框架（Harness）\n    - button: 前缀缓存（Prefix cache）\n    - button: 输入 Token（Input tokens）\n    - region:\n      - heading [level=2]: 相关概念\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/harness\n        - generic: 词典条目\n        - strong: 智能体执行框架\n        - paragraph: 了解负责在请求前附加系统提示词的软件环境。\n        - emphasis: 打开英文原文 ↗\n      - link:\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prefix-cache\n        - generic: 词典条目\n        - strong: 前缀缓存\n        - paragraph: 了解重复的请求开头为何可以被缓存。\n        - emphasis: 打开英文原文 ↗\n  - button:\n    - text: 目录\n  - button [expanded]:\n    - text: 术语\n  - generic: 83%\n- dialog \"术语速查\":\n  - heading \"术语速查\" [level=2]\n  - paragraph: 搜索本文中的术语和解释。\n  - generic: 搜索术语\n  - textbox \"搜索术语\" [active]:\n    - /placeholder: 搜索术语或解释\n  - term: 系统提示词（System prompt）\n  - definition: 执行框架在每次模型请求前附加的一套工作规则，用来规定智能体的身份、行为、可用工具和约定，通常在一次会话中保持稳定。\n  - term: 智能体执行框架（Harness）\n  - definition: 围绕模型组织请求、工具和约定的软件环境；本文说它会在每次请求前附加系统提示词。\n  - term: 前缀缓存（Prefix cache）\n  - definition: 用于复用多次请求中相同开头内容的缓存；本文指出固定的系统提示词会构成它的开头。\n  - term: 输入 Token（Input tokens）\n  - definition: 随请求一起送入模型、并计入输入量的文本单位；本文用它说明系统提示词也会产生输入成本。\n  - button \"关闭\":\n    - generic: 关闭"
+    },
+    {
+      "page": "X",
+      "viewport": "390x844",
+      "test": "mobile-toc",
+      "observed": {
+        "bodyTop": -1108.796875,
+        "hash": "#reading-body",
+        "scrollWidth": 390,
+        "scrollY": 2160,
+        "width": 390
+      }
+    },
+    {
+      "page": "X",
+      "test": "final-desktop",
+      "viewport": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "snapshot": "- main:\n  - generic: 审核 X\n  - text: 系统提示词 · 完整页面\n  - link \"AIHero\":\n    - /url: /review/flow-validation\n  - navigation \"对照导航\":\n    - link \"对照入口\":\n      - /url: /review/flow-validation\n    - link \"开始阅读\":\n      - /url: \"#learning-start\"\n    - link \"另一页面\":\n      - /url: /review/flow-validation/y\n  - paragraph: 页面 X · 待治理验收\n  - heading \"系统提示词\" [level=1]\n  - paragraph: 执行框架会在每次向模型提供商发送请求前附加的指令——也就是智能体持续遵循的工作说明。它通常会在一次会话中保持稳定。\n  - generic: 作者：Matt Pocock\n  - generic: ·原文更新：2026-07-01\n  - article:\n    - region \"先用一句话理解\":\n      - paragraph: 中文学习辅助\n      - heading \"先用一句话理解\" [level=2]\n      - paragraph: 系统提示词是执行框架在每次请求前交给模型的一套工作规则；它会影响智能体的身份、行为、可用工具和输出习惯，并且通常在一次会话中保持不变。\n      - strong: 它不是你在聊天框输入的要求\n      - paragraph: 系统提示词通常由执行框架供应商编写。你的消息也会被模型阅读，但原文说明模型会优先遵循系统提示词；部分执行框架允许你查看和修改这套规则。\n      - strong: 为什么会影响输入量与成本\n      - paragraph: 这套规则可能很长，而且会随每一轮请求作为输入 Token 一起发送；由于开头重复不变，它也可以构成前缀缓存的开头。\n    - heading \"系统提示词\" [level=2]\n    - paragraph: ↗ 表示英文原文链接。\n    - paragraph:\n      - text: 执行框架（\n      - link \"harness（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/harness\n        - text: harness\n        - generic: ⁠↗\n      - text: ）会在每次向\n      - link \"模型提供商发送请求（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/model-provider-request\n        - text: 模型提供商发送请求\n        - generic: ⁠↗\n      - text: 前附加这组指令；它是\n      - link \"智能体（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/agent\n        - text: 智能体\n        - generic: ⁠↗\n      - text: 持续遵循的工作说明：智能体是谁、应如何行动、可以调用哪些\n      - link \"工具（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/tool\n        - text: 工具\n        - generic: ⁠↗\n      - text: ，以及要遵守什么约定。它通常会在一次\n      - link \"会话（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/session\n        - text: 会话\n        - generic: ⁠↗\n      - text: 中保持稳定。\n    - paragraph:\n      - text: 系统提示词由执行框架的供应商编写，而不是由你编写。对于编码执行框架来说，它往往很长——常常包含数万\n      - link \"Token（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/token\n        - text: Token\n        - generic: ⁠↗\n      - text: 的行为规则、工具说明和边缘情况处理；在每个\n      - link \"轮次（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/turn\n        - text: 轮次\n        - generic: ⁠↗\n      - text: 中，这些内容都会作为\n      - link \"输入 Token（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/input-tokens\n        - text: 输入 Token\n        - generic: ⁠↗\n      - text: 计费。你自己的固定指令也会一同送入模型：会话开始时，像\n      - link \"AGENTS.md（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/agents-md\n        - text: AGENTS.md\n        - generic: ⁠↗\n      - text: 这样的文件会和系统提示词一起加载。因此，\n      - link \"模型（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/model\n        - text: 模型\n        - generic: ⁠↗\n      - text: 在看到你的消息之前，会同时读到供应商的工作说明和你的工作说明。\n    - paragraph:\n      - text: 由于系统提示词在每次请求中都完全相同，它会成为\n      - link \"前缀缓存（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prefix-cache\n        - text: 前缀缓存\n        - generic: ⁠↗\n      - text: 的开头。这也是执行框架通常会让它在整个会话中保持不变、而不是在过程中不断修改的原因之一。\n    - paragraph: 模型经训练会优先遵循系统提示词，而不是用户消息。因此，如果智能体坚持遵循你从未要求过的约定，或者总是以你怎么要求也改变不了的方式排版输出，通常是因为它正在服从系统提示词——发生冲突时，你的消息没有占上风。一些执行框架可以自定义：它们会让你完整查看系统提示词，因此你能读到智能体实际收到的指令，也可以修改它。\n    - paragraph:\n      - emphasis: 用法：\n    - paragraph: \"\\\"Two harnesses, same model, totally different behavior on the same prompt.\\\"\"\n    - paragraph:\n      - strong: 中文理解版（学习辅助）\n      - text: ：即使底层使用同一个模型，两个执行框架的系统提示词不同，模型面对同一条提示词时也可能表现得完全不同。\n    - paragraph: \"\\\"Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives.\\\"\"\n    - paragraph:\n      - strong: 中文理解版（学习辅助）\n      - text: ：差异来自系统提示词：一个侧重简短地修改代码，另一个侧重解释。模型在读到你的消息前，这种差异就已经存在。\n    - heading \"本文术语\" [level=2]\n    - paragraph: 中文学习辅助 · 点击查看本页提供的解释\n    - button \"系统提示词（System prompt）\"\n    - button \"智能体执行框架（Harness）\"\n    - button \"前缀缓存（Prefix cache）\"\n    - button \"输入 Token（Input tokens）\"\n    - region \"相关概念\":\n      - heading \"相关概念\" [level=2]\n      - link \"词典条目 智能体执行框架 了解负责在请求前附加系统提示词的软件环境。 打开英文原文 ↗\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/harness\n        - generic: 词典条目\n        - strong: 智能体执行框架\n        - paragraph: 了解负责在请求前附加系统提示词的软件环境。\n        - emphasis: 打开英文原文 ↗\n      - link \"词典条目 前缀缓存 了解重复的请求开头为何可以被缓存。 打开英文原文 ↗\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prefix-cache\n        - generic: 词典条目\n        - strong: 前缀缓存\n        - paragraph: 了解重复的请求开头为何可以被缓存。\n        - emphasis: 打开英文原文 ↗\n  - complementary \"学习工具\":\n    - button \"术语速查 · 4\":\n      - text: 术语速查 · 4\n    - paragraph: 本文目录\n    - navigation \"本文目录\":\n      - link \"先用一句话理解\":\n        - /url: \"#learning-start\"\n      - link \"系统提示词\":\n        - /url: \"#reading-body\"\n      - link \"本文术语\":\n        - /url: \"#article-terms\"\n      - link \"相关概念\":\n        - /url: \"#related-reading-title\""
+    },
+    {
+      "page": "Y",
+      "test": "final-desktop",
+      "viewport": {
+        "height": 900,
+        "scrollWidth": 1280,
+        "width": 1280
+      },
+      "snapshot": "- main:\n  - generic: 审核 Y\n  - text: 系统提示词 · 完整页面\n  - link \"AIHero\":\n    - /url: /review/flow-validation\n  - navigation \"对照导航\":\n    - link \"对照入口\":\n      - /url: /review/flow-validation\n    - link \"开始阅读\":\n      - /url: \"#learning-start\"\n    - link \"另一页面\":\n      - /url: /review/flow-validation/x\n  - paragraph: 页面 Y · 待治理验收\n  - heading \"系统提示词\" [level=1]\n  - paragraph: 智能体执行框架在每次模型提供商请求前附加的指令，是智能体持续遵循的工作简报；通常会在一次会话中保持稳定。\n  - generic: 作者：Matt Pocock\n  - generic: ·原文更新：2026-07-01\n  - article:\n    - region \"先用一句话理解\":\n      - paragraph: 中文学习辅助\n      - heading \"先用一句话理解\" [level=2]\n      - paragraph: 系统提示词是执行框架在你发言前交给模型的长期规则；它说明智能体应如何工作，但不同产品是否可查看或修改，要看各自的实现。\n      - strong: 它和用户提示词不同\n      - paragraph: 这里的用户提示词，是你这次交给 AI 的任务说明；系统提示词则是执行框架预先附带的基础规则。本文说模型会优先遵循后者，因此两者发生冲突时，用户消息未必能改变结果。\n      - strong: 它和 AGENTS.md 也不同\n      - paragraph: 本文所说的系统提示词由执行框架供应商提供；AGENTS.md 则是会在会话开始时与它一同加载的另一类长期指令。它们会一起被模型读取，但不是同一个文件或同一种来源；有些执行框架也允许用户查看和修改系统提示词。\n      - strong: 稳定不等于必然省钱\n      - paragraph: 稳定的开头可以成为前缀缓存的一部分；这不保证一定命中缓存，也不保证固定的有效期或费用折扣。\n      - paragraph: 先认识这几个词 点击即可查看解释\n      - button \"智能体执行框架（harness）\"\n      - button \"提示词（prompt）\"\n      - button \"模型提供商请求（model provider request）\"\n    - heading \"系统提示词\" [level=2]\n    - paragraph: ↗ 表示英文原文链接。\n    - paragraph:\n      - link \"智能体执行框架（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/harness\n        - text: 智能体执行框架\n        - generic: ⁠↗\n      - text: 会在每次\n      - link \"模型提供商请求（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/model-provider-request\n        - text: 模型提供商请求\n        - generic: ⁠↗\n      - text: 前附加的一组指令，就是\n      - link \"智能体（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/agent\n        - text: 智能体\n        - generic: ⁠↗\n      - text: 的长期工作简报：它是谁、该如何行动、能调用哪些\n      - link \"工具（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/tool\n        - text: 工具\n        - generic: ⁠↗\n      - text: ，以及要遵循什么约定。它通常会在一次\n      - link \"会话（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/session\n        - text: 会话\n        - generic: ⁠↗\n      - text: 中保持稳定。\n    - paragraph:\n      - text: 系统提示词由\n      - button \"查看“智能体执行框架（harness）”的术语解释\": 执行框架\n      - text: 的供应商编写，不是由你编写。在编程智能体执行框架里，它的篇幅很大，常常包含数万\n      - link \"Token（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/token\n        - text: Token\n        - generic: ⁠↗\n      - text: 的行为规则、工具说明和边界情况处理；这些内容会在每个\n      - link \"工作轮次（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/turn\n        - text: 工作轮次\n        - generic: ⁠↗\n      - text: 中作为\n      - link \"输入 Token（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/input-tokens\n        - text: 输入 Token\n        - generic: ⁠↗\n      - text: 计费。你自己的长期指令也会随它一起提供：像\n      - link \"AGENTS.md（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/agents-md\n        - text: AGENTS.md\n        - generic: ⁠↗\n      - text: 这样的文件会在会话开始时与系统提示词一同加载，因此\n      - link \"模型（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/model\n        - text: 模型\n        - generic: ⁠↗\n      - text: 会在看到你的消息之前，同时读取供应商的工作简报和你的工作简报。\n    - paragraph:\n      - text: 因为系统提示词在每次请求中都相同，它会构成\n      - link \"前缀缓存（英文原文，新窗口打开）\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prefix-cache\n        - text: 前缀缓存\n        - generic: ⁠↗\n      - text: 的开头。这也是执行框架往往让它在整个会话中保持不变、而不是边进行边修改的原因之一。\n    - paragraph: 模型经过训练，会优先遵循系统提示词，而不是用户消息。因此，当智能体坚持某个你从未提出的约定，或反复用你难以改变的方式排版输出时，它通常是在遵循自己的系统提示词——而你的消息在这场分歧中处于下风。一些执行框架可以自定义：它们会让你完整查看系统提示词，从而了解智能体实际收到的指令，并对其进行修改。\n    - paragraph:\n      - emphasis: 用法：\n    - paragraph: \"\\\"Two harnesses, same model, totally different behavior on the same prompt.\\\"\"\n    - paragraph:\n      - strong: 中文理解版（学习辅助）：\n      - text: 两个执行框架使用同一个模型、面对同一条提示词，却表现得完全不同。\n    - paragraph: \"\\\"Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives.\\\"\"\n    - paragraph:\n      - strong: 中文理解版（学习辅助）：\n      - text: 原因是系统提示词不同：一个偏向简洁地修改代码，另一个偏向解释；差异在你的消息到达前就已经产生。\n    - heading \"本文术语\" [level=2]\n    - paragraph: 中文学习辅助 · 点击查看本页提供的解释\n    - button \"系统提示词（system prompt）\"\n    - button \"智能体执行框架（harness）\"\n    - button \"提示词（prompt）\"\n    - button \"Token\"\n    - button \"前缀缓存（prefix cache）\"\n    - button \"智能体（agent）\"\n    - button \"模型（model）\"\n    - button \"工具（tool）\"\n    - button \"会话（session）\"\n    - button \"工作轮次（turn）\"\n    - button \"输入 Token（input tokens）\"\n    - button \"模型提供商请求（model provider request）\"\n    - button \"AGENTS.md\"\n    - region \"相关概念\":\n      - heading \"相关概念\" [level=2]\n      - link \"词典 智能体执行框架 了解组织输入、工具与模型调用的软件层。 打开英文原文 ↗\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/harness\n        - generic: 词典\n        - strong: 智能体执行框架\n        - paragraph: 了解组织输入、工具与模型调用的软件层。\n        - emphasis: 打开英文原文 ↗\n      - link \"词典 提示词 区分用户给出的任务说明与系统提示词。 打开英文原文 ↗\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prompt\n        - generic: 词典\n        - strong: 提示词\n        - paragraph: 区分用户给出的任务说明与系统提示词。\n        - emphasis: 打开英文原文 ↗\n      - link \"词典 前缀缓存 了解为何重复的请求开头可能被复用。 打开英文原文 ↗\":\n        - /url: https://www.aihero.dev/ai-coding-dictionary/prefix-cache\n        - generic: 词典\n        - strong: 前缀缓存\n        - paragraph: 了解为何重复的请求开头可能被复用。\n        - emphasis: 打开英文原文 ↗\n  - complementary \"学习工具\":\n    - button \"术语速查 · 13\":\n      - text: 术语速查 · 13\n    - paragraph: 本文目录\n    - navigation \"本文目录\":\n      - link \"先用一句话理解\":\n        - /url: \"#learning-start\"\n      - link \"系统提示词\":\n        - /url: \"#reading-body\"\n      - link \"本文术语\":\n        - /url: \"#article-terms\"\n      - link \"相关概念\":\n        - /url: \"#related-reading-title\""
+    }
+  ],
+  "consoleLogs": [
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:53:51.722Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:53:51.726Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:54:00.712Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:54:00.712Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:54:00.720Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:54:55.898Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:54:55.898Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:54:55.899Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:58:42.653Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:58:42.653Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:58:42.653Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:59:07.397Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:59:07.397Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:59:27.524Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T11:59:27.525Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T12:04:03.484Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T12:04:03.484Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T12:04:03.484Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T12:04:17.859Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    },
+    {
+      "level": "error",
+      "message": "[vinext] RSC prefetch setup error: TypeError: f is not a function\n    at http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js:2:4425",
+      "timestamp": "2026-09-22T12:04:17.860Z",
+      "url": "http://127.0.0.1:4327/_next/static/chunks/link-B-E-KlYl.js"
+    }
+  ],
+  "limitations": [
+    "Full-page and one Y body screenshot timeouts: use only verified viewport clips.",
+    "Mobile TOC hash changed but scroll landing is PARTIAL; modal closing animation affects immediate snapshots."
+  ]
+}

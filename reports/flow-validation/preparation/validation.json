@@ -1,0 +1,22 @@
+{
+  "status": "HOLD",
+  "preparationMechanics": "PASS",
+  "dictionary": "READY",
+  "workshop": "HOLD",
+  "twoArticleTrial": "HOLD until workshop version scope resolved",
+  "checks": [
+    "frozen hashes and exact source copies",
+    "A/B common contract identical",
+    "separate output ownership and white lists",
+    "B allowlist projection removes existing translation/audit evidence access",
+    "B definitions and scope retained",
+    "request-level usage and completed-turn method verified"
+  ],
+  "limits": [
+    "No OS-level isolation",
+    "B reuses knowledge derived partly from old sample translations",
+    "No actual translation/render/build/browser/course test",
+    "Workshop historical version unresolved"
+  ],
+  "frozenManifestSha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+}

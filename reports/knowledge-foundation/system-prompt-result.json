@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-22",
+  "route": "/ai-coding-dictionary/system-prompt",
+  "preview": "http://127.0.0.1:4322/ai-coding-dictionary/system-prompt",
+  "G0": "PASS-input-assembled",
+  "G1": "PASS-editor-self-review",
+  "G2": "PARTIAL-real-beginner-and-final-quality-acceptance-pending",
+  "validation": {
+    "learning": true,
+    "systemPrompt": true,
+    "content": true,
+    "typecheck": true,
+    "build": true,
+    "browserDesktop": true,
+    "browserNarrow": true
+  },
+  "artifacts": [
+    {
+      "path": "content/learning/system-prompt/input.json",
+      "sha256": "5280e0abf7d3b61e6d7af211184f6055707f2756d4f71d55f1972d915800df42"
+    },
+    {
+      "path": "content/learning/system-prompt/article.md",
+      "sha256": "fc4a6abf24d7c9a83ba2c9860108074c4edba13c924f506aa335869b2bf83e76"
+    },
+    {
+      "path": "content/learning/pilot-knowledge.json",
+      "sha256": "a278f34b1a6f27d1d4a7c3be4ee1e2349ce1dce3826e0a6f394f650a6388589b"
+    },
+    {
+      "path": "components/localized-markdown.tsx",
+      "sha256": "10e7be5968820d6411ccae7a9c00e4bf790c2ec1bb18c051ac81d9b4e9cffbe5"
+    },
+    {
+      "path": "components/localized-article.tsx",
+      "sha256": "0ce6af1404b0dee85b5738f4fda01e51e42f7e2850f54eeb0e2a1d997987949b"
+    },
+    {
+      "path": "lib/article-learning.ts",
+      "sha256": "1a28214900f9999b88f268ab85db19353b35a7bbddf13134be3b7d6ab96d8c0c"
+    },
+    {
+      "path": "app/globals.css",
+      "sha256": "816d9a5c953c4f142f5e1445a3597ba0538edcffa1344662318199d314b09677"
+    }
+  ],
+  "knownLimitations": [
+    "No independent semantic review or real beginner test",
+    "No equal-quality token-saving result",
+    "Old B experiment remains historical; it was not repaired in place"
+  ],
+  "incrementalTokens": null,
+  "displayRevision": {
+    "feedback": "three-card gap, detached examples, inconsistent term display",
+    "status": "term-click-opens-definition; separate-source-arrow; structured-question-answer; browser-checked",
+    "conventions": "content/learning/shared/display-conventions.md"
+  },
+  "linkRevision": {
+    "externalLinks": 0,
+    "availableChineseConceptTargets": 2,
+    "plannedChineseConceptTargets": 9,
+    "verified": "browser DOM"
+  },
+  "assignmentPrinciple": "Use Astra only where its knowledge synthesis, design judgement or rule decisions materially improve quality; no independence experiment required"
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-22",
+  "outlineSha256": "c0b1395a6d145fb840ed299435a562ff5cba50de504c627c46862a9edcb1a048",
+  "checks": {
+    "status": "PASS-mechanical-only",
+    "articles": 186,
+    "originalUnclassifiedLocated": 108,
+    "baseConcepts": 29,
+    "addedConcepts": 7,
+    "stages": 7,
+    "firstBatch": [
+      {
+        "id": "/a-complete-guide-to-agents-md",
+        "status": "PARTIAL"
+      },
+      {
+        "id": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+        "status": "HOLD"
+      },
+      {
+        "id": "/ai-coding-dictionary/system-prompt",
+        "status": "PARTIAL"
+      }
+    ],
+    "checkedFiles": 190,
+    "semanticAcceptance": "producer-scoped; not independent or beginner acceptance"
+  },
+  "negativeCases": [
+    {
+      "case": "missing-article",
+      "status": "rejected-as-expected",
+      "reason": "Incomplete article coverage"
+    },
+    {
+      "case": "stale-source",
+      "status": "rejected-as-expected",
+      "reason": "Wrong evidence source: /llm-fundamentals"
+    },
+    {
+      "case": "cyclic-concept",
+      "status": "rejected-as-expected",
+      "reason": "Cyclic concept: context"
+    },
+    {
+      "case": "lost-finding",
+      "status": "rejected-as-expected",
+      "reason": "Lost unresolved finding: /a-complete-guide-to-agents-md"
+    },
+    {
+      "case": "false-version-clearance",
+      "status": "rejected-as-expected",
+      "reason": "Version blocker lost HOLD"
+    }
+  ],
+  "limits": [
+    "机械检查不验证定义事实或中文零基础理解",
+    "既有正文、译文和页面未改动，未运行网站构建或浏览器",
+    "未进行新的模型组合实验，未测得新增Token节省"
+  ]
+}

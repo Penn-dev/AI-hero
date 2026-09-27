@@ -1,0 +1,2508 @@
+{
+  "version": 1,
+  "checkedAt": "2026-09-22T12:08:12.880Z",
+  "method": "Extends existing measure-special-agent-usage.mjs final snapshot logic with per-response IDs and turn-boundary reconciliation.",
+  "sessions": [
+    {
+      "threadId": "01a0c8af-4072-7ce2-ae61-8d7510c98934",
+      "status": "PASS",
+      "errors": [],
+      "rows": [
+        {
+          "turnId": "01a0c8af-4405-76e1-b0a8-09aba7771858",
+          "requests": [
+            {
+              "responseId": "resp_0a95d44f249fb199016ab259ef286887d0b2e6db690af4b308",
+              "line": 12,
+              "timestamp": "2026-09-22T10:35:34.313Z",
+              "usage": {
+                "input_tokens": 31843,
+                "cached_input_tokens": 0,
+                "output_tokens": 175,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 32018
+              },
+              "recordSha256": "b6d0d8b8e289ad951c0dc266c8683f7af230045472a5bf3329d6d2f21fc69849"
+            },
+            {
+              "responseId": "resp_0e9177c9955e8ad8016ab259f80ff087d09f93f688a14c4eb4",
+              "line": 17,
+              "timestamp": "2026-09-22T10:35:42.599Z",
+              "usage": {
+                "input_tokens": 33873,
+                "cached_input_tokens": 31616,
+                "output_tokens": 103,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 33976
+              },
+              "recordSha256": "0874a012b053687eac37cda2e36160df2fcb2e5d708db6669c1680f79507a9ca"
+            },
+            {
+              "responseId": "resp_0db80991c3f1b632016ab25a002c5087d0bab9887838f72c56",
+              "line": 22,
+              "timestamp": "2026-09-22T10:35:49.419Z",
+              "usage": {
+                "input_tokens": 41168,
+                "cached_input_tokens": 33664,
+                "output_tokens": 102,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 41270
+              },
+              "recordSha256": "2069239851eade81ff1645d32acf16fb4731417eab22ed0548366f3d0560e8f9"
+            },
+            {
+              "responseId": "resp_03029f3becab7c3d016ab25a06aaac87d0890047b5ff66d0dd",
+              "line": 29,
+              "timestamp": "2026-09-22T10:36:01.672Z",
+              "usage": {
+                "input_tokens": 46449,
+                "cached_input_tokens": 40960,
+                "output_tokens": 245,
+                "reasoning_output_tokens": 38,
+                "total_tokens": 46694
+              },
+              "recordSha256": "98d143f577312807d18c441a1c15f8cfc88d6d45f33cf21f183344fdd6f43def"
+            },
+            {
+              "responseId": "resp_0ccf2d9e1f6ac575016ab25a12e93487d081dd19c65e6d9a36",
+              "line": 38,
+              "timestamp": "2026-09-22T10:36:16.437Z",
+              "usage": {
+                "input_tokens": 57836,
+                "cached_input_tokens": 46208,
+                "output_tokens": 272,
+                "reasoning_output_tokens": 24,
+                "total_tokens": 58108
+              },
+              "recordSha256": "b6b90084262baf57670335bb94c215e476bd99b7787553f3923ae6f7a674a545"
+            },
+            {
+              "responseId": "resp_0dccf7f4705882d3016ab25a21d53887d0ad291cb22d86ddd2",
+              "line": 47,
+              "timestamp": "2026-09-22T10:36:30.304Z",
+              "usage": {
+                "input_tokens": 63244,
+                "cached_input_tokens": 57600,
+                "output_tokens": 242,
+                "reasoning_output_tokens": 15,
+                "total_tokens": 63486
+              },
+              "recordSha256": "4b0cd5de8e587ddc8317c10bc31a533a65473ddd793bf87d9c153d193f9dc562"
+            },
+            {
+              "responseId": "resp_0746cc4480fce8cd016ab25a2f8ebc87d0a26c4bf35953be66",
+              "line": 54,
+              "timestamp": "2026-09-22T10:38:42.135Z",
+              "usage": {
+                "input_tokens": 71780,
+                "cached_input_tokens": 63104,
+                "output_tokens": 4273,
+                "reasoning_output_tokens": 125,
+                "total_tokens": 76053
+              },
+              "recordSha256": "ca4f79fb238803024ed090f020fee9883665c524eec39e6dcda5b964bcaa4e1f"
+            },
+            {
+              "responseId": "resp_0799423305fb4b1a016ab25ab73a0c87d08ddef66b37343a70",
+              "line": 62,
+              "timestamp": "2026-09-22T10:39:09.666Z",
+              "usage": {
+                "input_tokens": 76177,
+                "cached_input_tokens": 71552,
+                "output_tokens": 446,
+                "reasoning_output_tokens": 285,
+                "total_tokens": 76623
+              },
+              "recordSha256": "b30ee1d1235d426bba166cd1a05338df0d95678a8a01bfee149278c50efd0950"
+            },
+            {
+              "responseId": "resp_07cf7d47819da199016ab25acf226487d08775fe71396f2c9e",
+              "line": 71,
+              "timestamp": "2026-09-22T10:42:44.452Z",
+              "usage": {
+                "input_tokens": 80742,
+                "cached_input_tokens": 76032,
+                "output_tokens": 6823,
+                "reasoning_output_tokens": 515,
+                "total_tokens": 87565
+              },
+              "recordSha256": "945468e39a1b68a76eaa063ea579cf7b6be91b6e0a85b720111a749e91057f0c"
+            },
+            {
+              "responseId": "resp_0af8d5693b4bec6d016ab25ba6644087d0908fb904f4012c43",
+              "line": 78,
+              "timestamp": "2026-09-22T10:43:04.927Z",
+              "usage": {
+                "input_tokens": 87635,
+                "cached_input_tokens": 80512,
+                "output_tokens": 443,
+                "reasoning_output_tokens": 331,
+                "total_tokens": 88078
+              },
+              "recordSha256": "b4e703873234f2aa100562db181192c207aa6dcece191d9de5ff54ed118700ab"
+            },
+            {
+              "responseId": "resp_0dbbdefd4f94b40a016ab25bba952887d0b16e8217247f22e2",
+              "line": 85,
+              "timestamp": "2026-09-22T10:43:59.526Z",
+              "usage": {
+                "input_tokens": 88564,
+                "cached_input_tokens": 87424,
+                "output_tokens": 1465,
+                "reasoning_output_tokens": 255,
+                "total_tokens": 90029
+              },
+              "recordSha256": "a0d9d0ef08fd933898df9d6edfb64f7b422aa4472a83742ce2ce81e171381a05"
+            },
+            {
+              "responseId": "resp_08d99ae3fbeac5db016ab25bf4689887d0a075433840b31a3f",
+              "line": 94,
+              "timestamp": "2026-09-22T10:45:14.241Z",
+              "usage": {
+                "input_tokens": 90053,
+                "cached_input_tokens": 88448,
+                "output_tokens": 2198,
+                "reasoning_output_tokens": 457,
+                "total_tokens": 92251
+              },
+              "recordSha256": "fefed8d957239d55464605fe971429f8f285b1fcd32870e5a31e6217a3951095"
+            },
+            {
+              "responseId": "resp_0c92aded3b27ae67016ab25c3fcf2487d0bf380faf6d6eac44",
+              "line": 103,
+              "timestamp": "2026-09-22T10:47:30.869Z",
+              "usage": {
+                "input_tokens": 92393,
+                "cached_input_tokens": 89856,
+                "output_tokens": 4214,
+                "reasoning_output_tokens": 352,
+                "total_tokens": 96607
+              },
+              "recordSha256": "8f0142a1e4a9ef9f48fa46a0468876e31a8c6356e507dd489ca02a075e631f82"
+            },
+            {
+              "responseId": "resp_0bcd07905a7f5c70016ab25cc7d9fc87d096bc238d89bc8fe0",
+              "line": 111,
+              "timestamp": "2026-09-22T10:47:43.366Z",
+              "usage": {
+                "input_tokens": 96799,
+                "cached_input_tokens": 92160,
+                "output_tokens": 126,
+                "reasoning_output_tokens": 65,
+                "total_tokens": 96925
+              },
+              "recordSha256": "8198b0dad7bef83a22b382a5213c37c83b650e89afd0598d78c2c9310aee1b96"
+            },
+            {
+              "responseId": "resp_07fbb133fb9b8a37016ab25cd4979887d0a4daee1412b35c56",
+              "line": 123,
+              "timestamp": "2026-09-22T10:48:24.791Z",
+              "usage": {
+                "input_tokens": 97279,
+                "cached_input_tokens": 96640,
+                "output_tokens": 1022,
+                "reasoning_output_tokens": 731,
+                "total_tokens": 98301
+              },
+              "recordSha256": "9fde628ff0ea8e7136fe970bc5f0522a89a64e1b915d1559678d531ff81f3769"
+            },
+            {
+              "responseId": "resp_0ef77a927cb1ffff016ab25cfa108487d096e6800a91d8cd2e",
+              "line": 130,
+              "timestamp": "2026-09-22T10:48:50.378Z",
+              "usage": {
+                "input_tokens": 98599,
+                "cached_input_tokens": 97152,
+                "output_tokens": 653,
+                "reasoning_output_tokens": 30,
+                "total_tokens": 99252
+              },
+              "recordSha256": "ed96a2bffbca460090d7a40676e2f067c77b8eb097184a7366f7b40cb8445a28"
+            },
+            {
+              "responseId": "resp_0080978ca8199eb5016ab25d192f1087d087441a53e56e28a3",
+              "line": 136,
+              "timestamp": "2026-09-22T10:49:09.617Z",
+              "usage": {
+                "input_tokens": 99323,
+                "cached_input_tokens": 98432,
+                "output_tokens": 255,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 99578
+              },
+              "recordSha256": "d8292ff28d756c4ec9489cbdcc07a647e363ed7e2a6e134d855e8470f3c9fafa"
+            }
+          ],
+          "usage": {
+            "input_tokens": 1253757,
+            "cached_input_tokens": 1151360,
+            "output_tokens": 23057,
+            "reasoning_output_tokens": 3223,
+            "total_tokens": 1276814
+          },
+          "started": {
+            "line": 2,
+            "timestamp": "2026-09-22T10:35:25.215Z"
+          },
+          "completed": {
+            "line": 138,
+            "timestamp": "2026-09-22T10:49:09.636Z"
+          },
+          "model": "gpt-6-astra",
+          "effort": "medium",
+          "issues": [],
+          "stage": "knowledge-foundation-production",
+          "batch": "shared-assets; historical one-time input",
+          "sourceAssetSnapshot": {
+            "path": "reports/knowledge-foundation/view-revision-baseline.json",
+            "sha256": "19f9021fa43a179d87a7cb04d1f7da2f018a37b79493a75cb763ec4bae2da964",
+            "scope": "contains pre-revision knowledge hash; not a complete per-request historical snapshot"
+          },
+          "threadId": "01a0c8af-4072-7ce2-ae61-8d7510c98934",
+          "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+          "articleAllocation": "batch only unless explicitly separated into distinct turns",
+          "failures": null,
+          "retries": null,
+          "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+          "status": "MEASURED_COMPLETED_TURN",
+          "modelEffortVerified": true,
+          "acceptanceStatus": "usage verified only; content acceptance recorded separately"
+        },
+        {
+          "turnId": "01a0c8be-0139-7003-a982-cfb8c7033115",
+          "requests": [
+            {
+              "responseId": "resp_0a61dcb8c777945c016ab25db68c3487d083b1af8f9fa66e5d",
+              "line": 147,
+              "timestamp": "2026-09-22T10:51:45.556Z",
+              "usage": {
+                "input_tokens": 100356,
+                "cached_input_tokens": 0,
+                "output_tokens": 134,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 100490
+              },
+              "recordSha256": "87160b7ef8bfc5e2c58dfc6549587202c5e1262df342d3fc7fc5350ace997041"
+            },
+            {
+              "responseId": "resp_03473eca7692620e016ab25dc3fa5087d0b6d72c251249974b",
+              "line": 154,
+              "timestamp": "2026-09-22T10:52:36.929Z",
+              "usage": {
+                "input_tokens": 109092,
+                "cached_input_tokens": 100224,
+                "output_tokens": 1302,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 110394
+              },
+              "recordSha256": "873d38e993caf31d846f61cfdd450d5721dfda0b94ca462dbac444183e08308f"
+            },
+            {
+              "responseId": "resp_04e6fabcf0b8270b016ab25df67e0887d081c39e5f6ac54ff4",
+              "line": 159,
+              "timestamp": "2026-09-22T10:53:52.525Z",
+              "usage": {
+                "input_tokens": 110449,
+                "cached_input_tokens": 108928,
+                "output_tokens": 1995,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 112444
+              },
+              "recordSha256": "29be92f723e91102d89959ca8f885cb35d050fb1ae76341efbf56a89de41afc2"
+            },
+            {
+              "responseId": "resp_01fcbffc901df3c9016ab25e45a82487d097fdb4a932d57738",
+              "line": 166,
+              "timestamp": "2026-09-22T10:54:48.037Z",
+              "usage": {
+                "input_tokens": 112468,
+                "cached_input_tokens": 110208,
+                "output_tokens": 1451,
+                "reasoning_output_tokens": 101,
+                "total_tokens": 113919
+              },
+              "recordSha256": "4c77884ce90cdbbda6299bfbaf4f5aea87c2bebd0466447aedee343fc963fa29"
+            },
+            {
+              "responseId": "resp_04e9b49fcd5f233c016ab25e881a8487d0a5777059d015e07c",
+              "line": 177,
+              "timestamp": "2026-09-22T10:56:57.058Z",
+              "usage": {
+                "input_tokens": 114751,
+                "cached_input_tokens": 112256,
+                "output_tokens": 3666,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 118417
+              },
+              "recordSha256": "1647d9e43a17bf8e3ac546ab1ade459d5bce9c149140c2ff681dcefd04f9d3ba"
+            },
+            {
+              "responseId": "resp_0636851d0e5144e9016ab25f08a44887d0979795d1019cd25c",
+              "line": 186,
+              "timestamp": "2026-09-22T10:57:39.795Z",
+              "usage": {
+                "input_tokens": 119189,
+                "cached_input_tokens": 114560,
+                "output_tokens": 744,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 119933
+              },
+              "recordSha256": "6d90e7b664ce739f4464a7bb6505889ef15a6eacf87ac24f27b0570bfc015eea"
+            },
+            {
+              "responseId": "resp_0bdadd15ef8ded8e016ab25f263a9c87d0a1e65c169581a9ae",
+              "line": 195,
+              "timestamp": "2026-09-22T10:58:12.137Z",
+              "usage": {
+                "input_tokens": 121348,
+                "cached_input_tokens": 119040,
+                "output_tokens": 899,
+                "reasoning_output_tokens": 50,
+                "total_tokens": 122247
+              },
+              "recordSha256": "4b59e5c0a5e5283b5def3354d058fcf295bdea14a778216914315b07fe92722a"
+            },
+            {
+              "responseId": "resp_08219830d95932b5016ab25f4c036887d08b87c49fe176415d",
+              "line": 201,
+              "timestamp": "2026-09-22T10:58:27.896Z",
+              "usage": {
+                "input_tokens": 122318,
+                "cached_input_tokens": 121216,
+                "output_tokens": 170,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 122488
+              },
+              "recordSha256": "5601eb9c90bae1276eca7a1d8ae5b56c59ae165b20eea5ecb4fc578e6ccf6207"
+            }
+          ],
+          "usage": {
+            "input_tokens": 909971,
+            "cached_input_tokens": 786432,
+            "output_tokens": 10361,
+            "reasoning_output_tokens": 1699,
+            "total_tokens": 920332
+          },
+          "started": {
+            "line": 140,
+            "timestamp": "2026-09-22T10:51:30.514Z"
+          },
+          "completed": {
+            "line": 203,
+            "timestamp": "2026-09-22T10:58:27.918Z"
+          },
+          "model": "gpt-6-astra",
+          "effort": "medium",
+          "issues": [],
+          "stage": "knowledge-foundation-acceptance-revision",
+          "batch": "shared-assets; historical one-time input",
+          "sourceAssetSnapshot": {
+            "path": "reports/knowledge-foundation/validation.json",
+            "sha256": "959d70ae624e8dfe50dcef35b2ffb7cdc30f137044bf8eebec8eccd234387862",
+            "scope": "completed view revision evidence; retrospective association"
+          },
+          "threadId": "01a0c8af-4072-7ce2-ae61-8d7510c98934",
+          "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+          "articleAllocation": "batch only unless explicitly separated into distinct turns",
+          "failures": null,
+          "retries": null,
+          "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+          "status": "MEASURED_COMPLETED_TURN",
+          "modelEffortVerified": true,
+          "acceptanceStatus": "usage verified only; content acceptance recorded separately"
+        },
+        {
+          "turnId": "01a0c8d0-57ca-71d0-bfc0-f803f87bd734",
+          "requests": [
+            {
+              "responseId": "resp_031c9e59e6ed6686016ab26265b6a887d09497f68431620e0e",
+              "line": 213,
+              "timestamp": "2026-09-22T11:11:42.881Z",
+              "usage": {
+                "input_tokens": 124241,
+                "cached_input_tokens": 122112,
+                "output_tokens": 208,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 124449
+              },
+              "recordSha256": "76b501ff91a416c87fa3c72b7fb9f81083ec0b30d46ef8f5cea36acc6f154846"
+            },
+            {
+              "responseId": "resp_0d22ea912a5a5d3e016ab262721c7087d0b870ac145cba04e9",
+              "line": 220,
+              "timestamp": "2026-09-22T11:11:57.326Z",
+              "usage": {
+                "input_tokens": 127763,
+                "cached_input_tokens": 124032,
+                "output_tokens": 268,
+                "reasoning_output_tokens": 61,
+                "total_tokens": 128031
+              },
+              "recordSha256": "fa580f4b357b81d6e4689bb9949e7ebe3fdc261b068ff83df7113d2a89e1bea2"
+            },
+            {
+              "responseId": "resp_07cbc8eda62fac57016ab26280e96487d09ea37a94d3659351",
+              "line": 228,
+              "timestamp": "2026-09-22T11:12:27.381Z",
+              "usage": {
+                "input_tokens": 140464,
+                "cached_input_tokens": 0,
+                "output_tokens": 540,
+                "reasoning_output_tokens": 110,
+                "total_tokens": 141004
+              },
+              "recordSha256": "dd66130cdd816aaf03fb3258c72ffc86ef55255a8194a725c8f0180f74f6bc74"
+            },
+            {
+              "responseId": "resp_072a75de76134c0a016ab2629ee5d487d09b452ec54fe881a7",
+              "line": 236,
+              "timestamp": "2026-09-22T11:12:46.479Z",
+              "usage": {
+                "input_tokens": 146830,
+                "cached_input_tokens": 140288,
+                "output_tokens": 277,
+                "reasoning_output_tokens": 20,
+                "total_tokens": 147107
+              },
+              "recordSha256": "ed4bbd5cbf58c550b3985c037830dbe790298de21779ce9693509a84bc802d36"
+            },
+            {
+              "responseId": "resp_0415e5720bbc4411016ab262b1a2d887d09c87f43ba32a091f",
+              "line": 248,
+              "timestamp": "2026-09-22T11:13:27.580Z",
+              "usage": {
+                "input_tokens": 150424,
+                "cached_input_tokens": 146688,
+                "output_tokens": 998,
+                "reasoning_output_tokens": 801,
+                "total_tokens": 151422
+              },
+              "recordSha256": "5590a3df098a03e76f711792fab8610b85211a9f49e32f7a89e6955304a957fb"
+            },
+            {
+              "responseId": "resp_01dc8394e1188a88016ab262d93eb087d097b8fa9e784c0393",
+              "line": 255,
+              "timestamp": "2026-09-22T11:14:41.685Z",
+              "usage": {
+                "input_tokens": 152917,
+                "cached_input_tokens": 150272,
+                "output_tokens": 2134,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 155051
+              },
+              "recordSha256": "800f1d5911d2da49171bd5b0d46eee4ee090ea55ae7c033b3607561c81a775e1"
+            },
+            {
+              "responseId": "resp_0766191364867c59016ab2632cfd0887d0ba60ce7efcad41fc",
+              "line": 263,
+              "timestamp": "2026-09-22T11:15:29.042Z",
+              "usage": {
+                "input_tokens": 155075,
+                "cached_input_tokens": 152704,
+                "output_tokens": 910,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 155985
+              },
+              "recordSha256": "257a7e5575534f5b3cf8daba12004582f84a7b5d616bae9173d8ef87bca07806"
+            },
+            {
+              "responseId": "resp_0817bba57cadc790016ab26355067887d0ac57ec5dfccd1359",
+              "line": 270,
+              "timestamp": "2026-09-22T11:18:20.512Z",
+              "usage": {
+                "input_tokens": 157281,
+                "cached_input_tokens": 154880,
+                "output_tokens": 5234,
+                "reasoning_output_tokens": 313,
+                "total_tokens": 162515
+              },
+              "recordSha256": "837447b20c62b187e62f9cddba0bfd311014b8c20929926d781de4842f526358"
+            },
+            {
+              "responseId": "resp_0e99c2b6ab43019d016ab264001d2c87d0a73ba917d124379c",
+              "line": 278,
+              "timestamp": "2026-09-22T11:19:50.518Z",
+              "usage": {
+                "input_tokens": 162574,
+                "cached_input_tokens": 157056,
+                "output_tokens": 2361,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 164935
+              },
+              "recordSha256": "21559024063e393107ac3d75c6bfc3fa743183ca2c592045212fdf807d4c9243"
+            },
+            {
+              "responseId": "resp_0400156a4fc9c33a016ab2645dd6d087d09d3f8c9fe890b42e",
+              "line": 286,
+              "timestamp": "2026-09-22T11:20:34.892Z",
+              "usage": {
+                "input_tokens": 165156,
+                "cached_input_tokens": 162432,
+                "output_tokens": 650,
+                "reasoning_output_tokens": 93,
+                "total_tokens": 165806
+              },
+              "recordSha256": "e8e5f540e8cfb6db03d0324a1e52c8fde93d11d29176db58127097e20d0ee496"
+            },
+            {
+              "responseId": "resp_0e18b8804e2764c3016ab26488257887d0910bd9247026f658",
+              "line": 301,
+              "timestamp": "2026-09-22T11:21:44.022Z",
+              "usage": {
+                "input_tokens": 166163,
+                "cached_input_tokens": 164992,
+                "output_tokens": 1800,
+                "reasoning_output_tokens": 1297,
+                "total_tokens": 167963
+              },
+              "recordSha256": "4d4d3286309a10685c48bfc220878f5200dc3cb4493e7ca0e628b80875deaa3e"
+            },
+            {
+              "responseId": "resp_056666bca978d08d016ab264ce6af887d090af481ff7a8e876",
+              "line": 309,
+              "timestamp": "2026-09-22T11:22:44.848Z",
+              "usage": {
+                "input_tokens": 168653,
+                "cached_input_tokens": 166016,
+                "output_tokens": 1381,
+                "reasoning_output_tokens": 499,
+                "total_tokens": 170034
+              },
+              "recordSha256": "b277538f779ac7b1c9b82e69dc1aa500956d4d4296ce5893398b7cd565f45835"
+            },
+            {
+              "responseId": "resp_07127376dcf479c7016ab2650804bc87d0b77f2553663bc1b1",
+              "line": 317,
+              "timestamp": "2026-09-22T11:23:34.934Z",
+              "usage": {
+                "input_tokens": 170508,
+                "cached_input_tokens": 168448,
+                "output_tokens": 1379,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 171887
+              },
+              "recordSha256": "771e4f53204bdf66b09bf98def933e19a97fe2b8869b94075a0649699cf46619"
+            },
+            {
+              "responseId": "resp_0c990523d9c94114016ab2653a39d087d0a066391bef465e28",
+              "line": 325,
+              "timestamp": "2026-09-22T11:25:24.429Z",
+              "usage": {
+                "input_tokens": 172195,
+                "cached_input_tokens": 170368,
+                "output_tokens": 3098,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 175293
+              },
+              "recordSha256": "fbdf59b42d1394d7001b8317fb432aa124399099181700b15774194556cbd814"
+            },
+            {
+              "responseId": "resp_052c4343058bd471016ab265a7dccc87d0aa156c183c29d42c",
+              "line": 332,
+              "timestamp": "2026-09-22T11:26:22.264Z",
+              "usage": {
+                "input_tokens": 175317,
+                "cached_input_tokens": 172032,
+                "output_tokens": 1651,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 176968
+              },
+              "recordSha256": "538581b6740720c81e13a2db6cae3713302c8fe03e14133301735322c86175ea"
+            },
+            {
+              "responseId": "resp_00227723b79fe2a4016ab265e53f7887d0b5be38c7ad4efd9e",
+              "line": 340,
+              "timestamp": "2026-09-22T11:27:01.661Z",
+              "usage": {
+                "input_tokens": 177275,
+                "cached_input_tokens": 175104,
+                "output_tokens": 902,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 178177
+              },
+              "recordSha256": "ee9eb6c3393bed86686878f401aa005f00f0ac64962c234d7b6ce5d9b026281c"
+            },
+            {
+              "responseId": "resp_07600841531e2d43016ab26607900887d0bf3e1bdf6dd5b406",
+              "line": 349,
+              "timestamp": "2026-09-22T11:27:36.002Z",
+              "usage": {
+                "input_tokens": 178267,
+                "cached_input_tokens": 177152,
+                "output_tokens": 966,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 179233
+              },
+              "recordSha256": "3b7c648f1f6deaf2d7941046ae66bc74f0e9f49f3ddaecbd4a15807c82ddae33"
+            },
+            {
+              "responseId": "resp_0b31891c0b1d1683016ab2662aca1887d0a96e0c07a57eadc8",
+              "line": 357,
+              "timestamp": "2026-09-22T11:28:16.983Z",
+              "usage": {
+                "input_tokens": 179586,
+                "cached_input_tokens": 178048,
+                "output_tokens": 1148,
+                "reasoning_output_tokens": 209,
+                "total_tokens": 180734
+              },
+              "recordSha256": "6b11ec51d852bce62ee9d4ad1fe46a10be9b3db8c662c84f6fe221476fafd749"
+            },
+            {
+              "responseId": "resp_03770149e5c75d77016ab26657262487d088ccc94850427aaf",
+              "line": 363,
+              "timestamp": "2026-09-22T11:28:29.196Z",
+              "usage": {
+                "input_tokens": 180805,
+                "cached_input_tokens": 179456,
+                "output_tokens": 107,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 180912
+              },
+              "recordSha256": "186227ef32dfa602835527fa6523367925e505162e982786789756dfa3c1d7cd"
+            }
+          ],
+          "usage": {
+            "input_tokens": 3051494,
+            "cached_input_tokens": 2862080,
+            "output_tokens": 26012,
+            "reasoning_output_tokens": 7531,
+            "total_tokens": 3077506
+          },
+          "started": {
+            "line": 206,
+            "timestamp": "2026-09-22T11:11:32.332Z"
+          },
+          "completed": {
+            "line": 365,
+            "timestamp": "2026-09-22T11:28:29.218Z"
+          },
+          "model": "gpt-6-astra",
+          "effort": "medium",
+          "issues": [],
+          "stage": "flow-validation-common-preparation",
+          "batch": "dictionary+workshop; current new investment",
+          "threadId": "01a0c8af-4072-7ce2-ae61-8d7510c98934",
+          "sourceAssetSnapshot": {
+            "path": "reports/flow-validation/preparation/frozen-inputs.json",
+            "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+          },
+          "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+          "articleAllocation": "batch only unless explicitly separated into distinct turns",
+          "failures": null,
+          "retries": null,
+          "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+          "status": "MEASURED_COMPLETED_TURN",
+          "modelEffortVerified": true,
+          "acceptanceStatus": "usage verified only; content acceptance recorded separately"
+        },
+        {
+          "turnId": "01a0c8ef-53f9-7ea0-8a94-191b99dea809",
+          "requests": [
+            {
+              "responseId": "resp_0f54162802593b96016ab26a54975087d090c7959ee6742e37",
+              "line": 375,
+              "timestamp": "2026-09-22T11:45:35.183Z",
+              "usage": {
+                "input_tokens": 182783,
+                "cached_input_tokens": 0,
+                "output_tokens": 202,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 182985
+              },
+              "recordSha256": "91eafa769501f7d171395af2061c156c9c9f200bb945224d9ce713055d55f591"
+            },
+            {
+              "responseId": "resp_04891284b5553187016ab26a60f37087d0bcf6cc2fd3e26c05",
+              "line": 382,
+              "timestamp": "2026-09-22T11:45:40.945Z",
+              "usage": {
+                "input_tokens": 190148,
+                "cached_input_tokens": 182656,
+                "output_tokens": 60,
+                "reasoning_output_tokens": 20,
+                "total_tokens": 190208
+              },
+              "recordSha256": "ed03141e6c6fb5ff63020b85a162cfef1b0a3912a2ac91b37fac43b236f6b070"
+            },
+            {
+              "responseId": "resp_07cb4b39a732df48016ab26a688b8887d0bcdf484f8196c0f2",
+              "line": 389,
+              "timestamp": "2026-09-22T11:45:49.107Z",
+              "usage": {
+                "input_tokens": 195843,
+                "cached_input_tokens": 189952,
+                "output_tokens": 61,
+                "reasoning_output_tokens": 16,
+                "total_tokens": 195904
+              },
+              "recordSha256": "e5b83a5b8a6b7991afd3180ac711833485d0ec09686b1d37fd580a146095dc04"
+            },
+            {
+              "responseId": "resp_010d248e2f6e26be016ab26a781c5c87d092bc7a2344589d32",
+              "line": 396,
+              "timestamp": "2026-09-22T11:46:06.580Z",
+              "usage": {
+                "input_tokens": 201926,
+                "cached_input_tokens": 195712,
+                "output_tokens": 116,
+                "reasoning_output_tokens": 25,
+                "total_tokens": 202042
+              },
+              "recordSha256": "c9f39c8294008f66951ee9e21bf6f669348ec1214d61927c991d318e975a9054"
+            },
+            {
+              "responseId": "resp_013f4c8a0bc3c626016ab26a7f90c887d0aa4dc2d6d9a88d5c",
+              "line": 403,
+              "timestamp": "2026-09-22T11:46:21.490Z",
+              "usage": {
+                "input_tokens": 202455,
+                "cached_input_tokens": 201728,
+                "output_tokens": 292,
+                "reasoning_output_tokens": 122,
+                "total_tokens": 202747
+              },
+              "recordSha256": "88ccbe87f5102cbb2a8709e5b6c4d26c43fbe1de7e82a4585d8702e5aae1d650"
+            },
+            {
+              "responseId": "resp_0f1082b18b5836a6016ab26a8f73e887d09c35a72bd35cc255",
+              "line": 410,
+              "timestamp": "2026-09-22T11:46:38.143Z",
+              "usage": {
+                "input_tokens": 205446,
+                "cached_input_tokens": 202240,
+                "output_tokens": 413,
+                "reasoning_output_tokens": 320,
+                "total_tokens": 205859
+              },
+              "recordSha256": "888cd1efa0a89458d0d75aacb8f496c0481b2fd970670b4258f3a35b3d1f08a2"
+            },
+            {
+              "responseId": "resp_0ce044075d8f7f17016ab26a9fa7b087d091bf0b8da2561d1a",
+              "line": 417,
+              "timestamp": "2026-09-22T11:48:10.315Z",
+              "usage": {
+                "input_tokens": 208035,
+                "cached_input_tokens": 205312,
+                "output_tokens": 2893,
+                "reasoning_output_tokens": 321,
+                "total_tokens": 210928
+              },
+              "recordSha256": "f6c128f02b9d6a0089a8bfc3a651223f6b382906684ec976a0c5c2303280057a"
+            },
+            {
+              "responseId": "resp_058bbcc9d163fff2016ab26b0cd85887d0aa941ecb60e4e95a",
+              "line": 427,
+              "timestamp": "2026-09-22T11:49:15.620Z",
+              "usage": {
+                "input_tokens": 210999,
+                "cached_input_tokens": 207872,
+                "output_tokens": 1443,
+                "reasoning_output_tokens": 516,
+                "total_tokens": 212442
+              },
+              "recordSha256": "4aee8edb969c62d58257ec1fc32f7b800797337b761fe424d2cc48914ad77306"
+            },
+            {
+              "responseId": "resp_0b7c882b4e4d2440016ab26b464a2087d09b543c96753e5030",
+              "line": 434,
+              "timestamp": "2026-09-22T11:49:42.045Z",
+              "usage": {
+                "input_tokens": 213024,
+                "cached_input_tokens": 210816,
+                "output_tokens": 432,
+                "reasoning_output_tokens": 82,
+                "total_tokens": 213456
+              },
+              "recordSha256": "0801382eaa95dbb1efb24828a594503b3ba15f8541eff32d8773f8b5a698dbfa"
+            },
+            {
+              "responseId": "resp_0b27f16d583bc861016ab26b67ccb487d091cdbf164769d6d3",
+              "line": 441,
+              "timestamp": "2026-09-22T11:50:07.536Z",
+              "usage": {
+                "input_tokens": 213726,
+                "cached_input_tokens": 212864,
+                "output_tokens": 95,
+                "reasoning_output_tokens": 8,
+                "total_tokens": 213821
+              },
+              "recordSha256": "f3ce309f66dd8ef0975d2e106851997ea1a8c2297bad0b86721cad6b91033fae"
+            },
+            {
+              "responseId": "resp_0569ce865f7bcb11016ab26b7e16b487d0b3a0157be32d3048",
+              "line": 448,
+              "timestamp": "2026-09-22T11:50:33.466Z",
+              "usage": {
+                "input_tokens": 215958,
+                "cached_input_tokens": 213504,
+                "output_tokens": 272,
+                "reasoning_output_tokens": 43,
+                "total_tokens": 216230
+              },
+              "recordSha256": "98734020a924b3a281ffe5ce9f0305bc4865eea72350caf78a7b76d8f90b770c"
+            },
+            {
+              "responseId": "resp_0885253c4e29e678016ab26b98390887d08a7834a490939741",
+              "line": 456,
+              "timestamp": "2026-09-22T11:50:56.094Z",
+              "usage": {
+                "input_tokens": 216274,
+                "cached_input_tokens": 215808,
+                "output_tokens": 63,
+                "reasoning_output_tokens": 17,
+                "total_tokens": 216337
+              },
+              "recordSha256": "7842cde383373ef2fcb83a9d34fa768164f8181e90fe9294fd38e9f49e2ffc09"
+            },
+            {
+              "responseId": "resp_0d6d0f136a2250c3016ab26ba0ebe087d0985322bca2d76da5",
+              "line": 462,
+              "timestamp": "2026-09-22T11:51:08.086Z",
+              "usage": {
+                "input_tokens": 216533,
+                "cached_input_tokens": 216064,
+                "output_tokens": 188,
+                "reasoning_output_tokens": 40,
+                "total_tokens": 216721
+              },
+              "recordSha256": "e27af97b6c06aecf75f1640d480145871ec2acad4f4a6027c728f336ae925db4"
+            },
+            {
+              "responseId": "resp_030f4fb585fae8c2016ab26bb22b7487d0a02bd1d771e3b0d0",
+              "line": 469,
+              "timestamp": "2026-09-22T11:51:41.963Z",
+              "usage": {
+                "input_tokens": 217849,
+                "cached_input_tokens": 216320,
+                "output_tokens": 664,
+                "reasoning_output_tokens": 403,
+                "total_tokens": 218513
+              },
+              "recordSha256": "cf6f4f1fce105948484b60a9c7c42123aadf0dcb139b7c96b9f88a86687f55b3"
+            },
+            {
+              "responseId": "resp_08dcd25d96d2e13e016ab26bd87dc087d081582fd2c69d92a2",
+              "line": 476,
+              "timestamp": "2026-09-22T11:52:07.675Z",
+              "usage": {
+                "input_tokens": 218745,
+                "cached_input_tokens": 217600,
+                "output_tokens": 321,
+                "reasoning_output_tokens": 120,
+                "total_tokens": 219066
+              },
+              "recordSha256": "df24a14ed7e7cdf53f87b7e9e01bce85b077d61e3c465ade4bb3fcb295873583"
+            },
+            {
+              "responseId": "resp_07e3bc034528e4b1016ab26becff5c87d08ed392d39f8cc7a8",
+              "line": 483,
+              "timestamp": "2026-09-22T11:52:26.498Z",
+              "usage": {
+                "input_tokens": 221748,
+                "cached_input_tokens": 218624,
+                "output_tokens": 361,
+                "reasoning_output_tokens": 43,
+                "total_tokens": 222109
+              },
+              "recordSha256": "8189a715ddd955d3d2aa40d6495116fec2bd741d7135a62e812f84e37917923b"
+            },
+            {
+              "responseId": "resp_02e56bd2ed6c333e016ab26bffdc7087d0a50e4ae528f83699",
+              "line": 490,
+              "timestamp": "2026-09-22T11:52:50.604Z",
+              "usage": {
+                "input_tokens": 222153,
+                "cached_input_tokens": 221568,
+                "output_tokens": 524,
+                "reasoning_output_tokens": 205,
+                "total_tokens": 222677
+              },
+              "recordSha256": "a805551c8234fc5375396c043850e6084415ed9ecd73c81eebc6452117582b0b"
+            },
+            {
+              "responseId": "resp_0c0838faba893ffa016ab26c1b949c87d0aecf9a1d454d6517",
+              "line": 497,
+              "timestamp": "2026-09-22T11:53:14.146Z",
+              "usage": {
+                "input_tokens": 223431,
+                "cached_input_tokens": 221952,
+                "output_tokens": 366,
+                "reasoning_output_tokens": 117,
+                "total_tokens": 223797
+              },
+              "recordSha256": "f60d5f4759984badf77afc167e3285ce37ddfdf6de8f8f11ee1ce8a29e375005"
+            },
+            {
+              "responseId": "resp_0f652597c7a58424016ab26c34824487d0917318507f87ccb8",
+              "line": 507,
+              "timestamp": "2026-09-22T11:53:52.150Z",
+              "usage": {
+                "input_tokens": 226190,
+                "cached_input_tokens": 223232,
+                "output_tokens": 756,
+                "reasoning_output_tokens": 614,
+                "total_tokens": 226946
+              },
+              "recordSha256": "9e5b61bc6c831efe975a3b8b6e07d87c83a9e996e654c03f674f87b9b3bd62ab"
+            },
+            {
+              "responseId": "resp_086502b1946d970a016ab26c50f1c087d0ada98e6c33b9f05a",
+              "line": 513,
+              "timestamp": "2026-09-22T11:54:00.766Z",
+              "usage": {
+                "input_tokens": 228344,
+                "cached_input_tokens": 226048,
+                "output_tokens": 178,
+                "reasoning_output_tokens": 113,
+                "total_tokens": 228522
+              },
+              "recordSha256": "2c6c99cfcc992ace6dc463d51450f3afee369bd195cd5fc53de82e451b417f2f"
+            },
+            {
+              "responseId": "resp_04fa3495ab6a61dc016ab26c59dbb087d099bbd528bfcba6e4",
+              "line": 521,
+              "timestamp": "2026-09-22T11:54:10.154Z",
+              "usage": {
+                "input_tokens": 230946,
+                "cached_input_tokens": 227968,
+                "output_tokens": 127,
+                "reasoning_output_tokens": 14,
+                "total_tokens": 231073
+              },
+              "recordSha256": "910701160780871d2752c2d040b1d4e8a02ed0c3b8b47a70a72652f9cb263449"
+            },
+            {
+              "responseId": "resp_06a74ea5191062c3016ab26c63737887d0a23fe81b09e271de",
+              "line": 527,
+              "timestamp": "2026-09-22T11:54:38.946Z",
+              "usage": {
+                "input_tokens": 232054,
+                "cached_input_tokens": 230912,
+                "output_tokens": 781,
+                "reasoning_output_tokens": 368,
+                "total_tokens": 232835
+              },
+              "recordSha256": "4eac01cd716ddc08f8140c2c64e40a1538582ce74fc44828928759491b2f84eb"
+            },
+            {
+              "responseId": "resp_0d5c9c4188b0e28e016ab26c84932487d0baec1855d8c97386",
+              "line": 534,
+              "timestamp": "2026-09-22T11:54:55.054Z",
+              "usage": {
+                "input_tokens": 232879,
+                "cached_input_tokens": 231808,
+                "output_tokens": 233,
+                "reasoning_output_tokens": 154,
+                "total_tokens": 233112
+              },
+              "recordSha256": "e21e4f3e603dddcf56d6c34c304923ff2f84a4a923126527bad21f74d676f10a"
+            },
+            {
+              "responseId": "resp_0ba49478a060862c016ab26c90a27487d0beaf271ef57ea66d",
+              "line": 541,
+              "timestamp": "2026-09-22T11:55:14.074Z",
+              "usage": {
+                "input_tokens": 233163,
+                "cached_input_tokens": 232832,
+                "output_tokens": 460,
+                "reasoning_output_tokens": 382,
+                "total_tokens": 233623
+              },
+              "recordSha256": "c64a9f73c6f11d517c458697dde83bfaa0133e816485ecf8230fcbc444f64f8b"
+            },
+            {
+              "responseId": "resp_0f872d64eee69612016ab26ca36c1c87d09595580c85148a90",
+              "line": 548,
+              "timestamp": "2026-09-22T11:55:34.643Z",
+              "usage": {
+                "input_tokens": 235782,
+                "cached_input_tokens": 233088,
+                "output_tokens": 480,
+                "reasoning_output_tokens": 15,
+                "total_tokens": 236262
+              },
+              "recordSha256": "54f33185f0be877b668a250b3579de1b5cadd915832168beb1960326b222d466"
+            },
+            {
+              "responseId": "resp_0032fa59f5fe6fa4016ab26cc681fc87d099d0d950ddb83b12",
+              "line": 555,
+              "timestamp": "2026-09-22T11:55:57.054Z",
+              "usage": {
+                "input_tokens": 236295,
+                "cached_input_tokens": 235648,
+                "output_tokens": 65,
+                "reasoning_output_tokens": 14,
+                "total_tokens": 236360
+              },
+              "recordSha256": "5a3f7bb8f8440660cbdf30b049646fc1a846dbcbbd60e9bc43de8a2379c5769b"
+            },
+            {
+              "responseId": "resp_0f066f11af6f9ed9016ab26cce147c87d0aa2878718f3e4e33",
+              "line": 562,
+              "timestamp": "2026-09-22T11:56:11.302Z",
+              "usage": {
+                "input_tokens": 237172,
+                "cached_input_tokens": 236160,
+                "output_tokens": 272,
+                "reasoning_output_tokens": 223,
+                "total_tokens": 237444
+              },
+              "recordSha256": "fdbce68338c6a5cd059a6499700c28b68b3a47e69defde93fe98f71b6686a561"
+            },
+            {
+              "responseId": "resp_0e5ea5e6e9a47072016ab26cdd155c87d0b406c1faa15eeb46",
+              "line": 569,
+              "timestamp": "2026-09-22T11:56:22.980Z",
+              "usage": {
+                "input_tokens": 237686,
+                "cached_input_tokens": 237056,
+                "output_tokens": 209,
+                "reasoning_output_tokens": 9,
+                "total_tokens": 237895
+              },
+              "recordSha256": "f4cdb257da2236c155ed22332b0884f77720dfc7b0eb1d2f8a014a31860c9ccf"
+            },
+            {
+              "responseId": "resp_0962d90b99e5b511016ab26ceec3e087d09aa77ce791da63e2",
+              "line": 576,
+              "timestamp": "2026-09-22T11:56:50.107Z",
+              "usage": {
+                "input_tokens": 238201,
+                "cached_input_tokens": 237568,
+                "output_tokens": 474,
+                "reasoning_output_tokens": 353,
+                "total_tokens": 238675
+              },
+              "recordSha256": "686a9e7a49ae628f701203af3a14a017863d70586d8753455c47b9584d3db5a7"
+            },
+            {
+              "responseId": "resp_082350fa252d9df0016ab26d0473d887d0a7ef05ac61cbd1af",
+              "line": 583,
+              "timestamp": "2026-09-22T11:57:07.085Z",
+              "usage": {
+                "input_tokens": 239141,
+                "cached_input_tokens": 238080,
+                "output_tokens": 300,
+                "reasoning_output_tokens": 188,
+                "total_tokens": 239441
+              },
+              "recordSha256": "ea7c0edffa576003957e0ccff95d77e5a6069749946c91e7398d965032f45580"
+            },
+            {
+              "responseId": "resp_03810e2f46d63cb3016ab26d161d2087d086333d10998f2eb4",
+              "line": 590,
+              "timestamp": "2026-09-22T11:57:34.072Z",
+              "usage": {
+                "input_tokens": 239878,
+                "cached_input_tokens": 238976,
+                "output_tokens": 582,
+                "reasoning_output_tokens": 346,
+                "total_tokens": 240460
+              },
+              "recordSha256": "6cef5e7921a7bd5f275402f9b54fb53dadd4c35bb88e3d932bac1d2e7f134e58"
+            },
+            {
+              "responseId": "resp_08c639598fc52c63016ab26d3cacbc87d09274ccdfbf71f759",
+              "line": 597,
+              "timestamp": "2026-09-22T11:57:59.547Z",
+              "usage": {
+                "input_tokens": 240564,
+                "cached_input_tokens": 239616,
+                "output_tokens": 235,
+                "reasoning_output_tokens": 93,
+                "total_tokens": 240799
+              },
+              "recordSha256": "5661fb8522a093fcd1d210a91224156b64c055ba97ecbb7b0a8cfec48f017870"
+            },
+            {
+              "responseId": "resp_07f22bf15cfbec65016ab26d4895bc87d0a9773a6211810c96",
+              "line": 608,
+              "timestamp": "2026-09-22T11:58:31.058Z",
+              "usage": {
+                "input_tokens": 240884,
+                "cached_input_tokens": 240384,
+                "output_tokens": 757,
+                "reasoning_output_tokens": 616,
+                "total_tokens": 241641
+              },
+              "recordSha256": "38c7e9ffb40eed171dc1ff1b8d53cecac87863922856c70ce01233154211944b"
+            },
+            {
+              "responseId": "resp_04b49cb573cdcefc016ab26d6a096087d08782c3bc5af438ba",
+              "line": 613,
+              "timestamp": "2026-09-22T11:58:41.251Z",
+              "usage": {
+                "input_tokens": 242065,
+                "cached_input_tokens": 240768,
+                "output_tokens": 161,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 242226
+              },
+              "recordSha256": "641be6a6501dd423d815af2d6fefcf96728dd4db623e1529580416efbc593ee2"
+            },
+            {
+              "responseId": "resp_013acad8b014366a016ab26d743d2887d0ad3914b99a776c5a",
+              "line": 620,
+              "timestamp": "2026-09-22T11:59:07.466Z",
+              "usage": {
+                "input_tokens": 242312,
+                "cached_input_tokens": 241920,
+                "output_tokens": 690,
+                "reasoning_output_tokens": 466,
+                "total_tokens": 243002
+              },
+              "recordSha256": "5fd8004374c9ae3753f80394ea4cb668844e6ef0583fdd9bdb4c7a828de3decc"
+            },
+            {
+              "responseId": "resp_0a26b48eda0cf63f016ab26d91282c87d0bc57fead290c7271",
+              "line": 627,
+              "timestamp": "2026-09-22T11:59:27.642Z",
+              "usage": {
+                "input_tokens": 243046,
+                "cached_input_tokens": 242176,
+                "output_tokens": 332,
+                "reasoning_output_tokens": 134,
+                "total_tokens": 243378
+              },
+              "recordSha256": "0a4f31a5918772f532b345bf99c50f145b7938222ddb3990b3cf35b935e14eca"
+            },
+            {
+              "responseId": "resp_02fa338a6f436743016ab26da5a2fc87d084a230588679cfff",
+              "line": 634,
+              "timestamp": "2026-09-22T11:59:54.814Z",
+              "usage": {
+                "input_tokens": 243661,
+                "cached_input_tokens": 0,
+                "output_tokens": 493,
+                "reasoning_output_tokens": 118,
+                "total_tokens": 244154
+              },
+              "recordSha256": "a9b20a141cb383fb27ddd3cfa214ac5a70959241975efd96ba755aac5e476f5e"
+            },
+            {
+              "responseId": "resp_0321e49f5bba4eb8016ab26dbe831087d08c60ee68de3cdb94",
+              "line": 641,
+              "timestamp": "2026-09-22T12:00:05.299Z",
+              "usage": {
+                "input_tokens": 244342,
+                "cached_input_tokens": 243584,
+                "output_tokens": 91,
+                "reasoning_output_tokens": 40,
+                "total_tokens": 244433
+              },
+              "recordSha256": "c2f4a5e7cf2de65a2382a9c162681e8d21c841fdc6ac3df577b8e42d7f5459c6"
+            },
+            {
+              "responseId": "resp_09a3dff4d96a5b46016ab26dc6c09087d0a8dd3ef8dd79a9c4",
+              "line": 645,
+              "timestamp": "2026-09-22T12:02:16.594Z",
+              "usage": {
+                "input_tokens": 247036,
+                "cached_input_tokens": 182656,
+                "output_tokens": 4078,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 251114
+              },
+              "recordSha256": "47aedf301221fc44854c578ad9c7aaa66aeb06a80d80320e9df27909d4abdd95"
+            },
+            {
+              "responseId": "resp_08ffae9a69b4cf3e016ab26e4b47d087d09b800b2d66c0719c",
+              "line": 654,
+              "timestamp": "2026-09-22T12:02:23.208Z",
+              "usage": {
+                "input_tokens": 34014,
+                "cached_input_tokens": 27520,
+                "output_tokens": 37,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 34051
+              },
+              "recordSha256": "0dfef7c9230032b2bae5952cef137d365674ebbad6c5a14d032ede34dc531d70"
+            },
+            {
+              "responseId": "resp_05052f587e4ee726016ab26e4fd79887d080b6fbb0aafeeaaa",
+              "line": 660,
+              "timestamp": "2026-09-22T12:02:31.605Z",
+              "usage": {
+                "input_tokens": 45154,
+                "cached_input_tokens": 33792,
+                "output_tokens": 114,
+                "reasoning_output_tokens": 27,
+                "total_tokens": 45268
+              },
+              "recordSha256": "6adf084906c89626b14eb59e3b76cfb417651d0b4fd8e66afe6a4f3e5b3194dc"
+            },
+            {
+              "responseId": "resp_0deb28e901042ac8016ab26e58c69c87d0bc3cd158be16a44e",
+              "line": 665,
+              "timestamp": "2026-09-22T12:02:36.300Z",
+              "usage": {
+                "input_tokens": 46798,
+                "cached_input_tokens": 44928,
+                "output_tokens": 38,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 46836
+              },
+              "recordSha256": "38172f709aadc7c17f98e80234d261f606664729b1b0b9c02e79d444ed14bd73"
+            },
+            {
+              "responseId": "resp_0c54fac6c8e1e78f016ab26e637d8487d08d9927ca3db202ef",
+              "line": 670,
+              "timestamp": "2026-09-22T12:02:47.271Z",
+              "usage": {
+                "input_tokens": 46959,
+                "cached_input_tokens": 46592,
+                "output_tokens": 44,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 47003
+              },
+              "recordSha256": "dc351502015daeab7cf38b42c2d2b344902deef98694e857cffda8638c9dcc57"
+            },
+            {
+              "responseId": "resp_03d041b6b7ee8095016ab26e67e3c087d0ad250685f2f61284",
+              "line": 676,
+              "timestamp": "2026-09-22T12:02:55.589Z",
+              "usage": {
+                "input_tokens": 47253,
+                "cached_input_tokens": 46720,
+                "output_tokens": 137,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 47390
+              },
+              "recordSha256": "5fad9b676167a0a6cfc9fdeda8399483fbd69e337e6ad9fbec2214fa201da41d"
+            },
+            {
+              "responseId": "resp_0a5a73e3f7c24918016ab26e70275887d0a583fae5e75f4355",
+              "line": 680,
+              "timestamp": "2026-09-22T12:03:03.147Z",
+              "usage": {
+                "input_tokens": 47843,
+                "cached_input_tokens": 47104,
+                "output_tokens": 109,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 47952
+              },
+              "recordSha256": "6dc7b21e77b2b17d53e38fc700582d0727789cc13587e1e7700efc91cd6f5a0f"
+            },
+            {
+              "responseId": "resp_0cbed1da89adada6016ab26e78b8f487d096d2151373ffe40a",
+              "line": 685,
+              "timestamp": "2026-09-22T12:03:11.356Z",
+              "usage": {
+                "input_tokens": 60333,
+                "cached_input_tokens": 47616,
+                "output_tokens": 111,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 60444
+              },
+              "recordSha256": "72fab317c3de220554b3c34aa7e3622f218f9364adf56ba1dfd688aa89f3a577"
+            },
+            {
+              "responseId": "resp_0ffcc5a7167ff682016ab26e81156487d0a5d3bab39a2157ff",
+              "line": 694,
+              "timestamp": "2026-09-22T12:03:22.208Z",
+              "usage": {
+                "input_tokens": 62722,
+                "cached_input_tokens": 60160,
+                "output_tokens": 186,
+                "reasoning_output_tokens": 10,
+                "total_tokens": 62908
+              },
+              "recordSha256": "192677927d7b4b1f154ca879254eb44b9cd0df1e1fd6ba1f018a9610a1b97272"
+            },
+            {
+              "responseId": "resp_08cc4e00a5057ed7016ab26e8cee0087d0ab0d9ef956a0a3b3",
+              "line": 699,
+              "timestamp": "2026-09-22T12:03:31.858Z",
+              "usage": {
+                "input_tokens": 65679,
+                "cached_input_tokens": 62592,
+                "output_tokens": 99,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 65778
+              },
+              "recordSha256": "1f0f9c0552ae0c621b79fd9c8d4aca9ca94f6be5d35c7534cc8c2981af19ba18"
+            },
+            {
+              "responseId": "resp_00f3365edfce1e70016ab26e951f1087d0aab2f27bf71c3f7c",
+              "line": 704,
+              "timestamp": "2026-09-22T12:03:37.363Z",
+              "usage": {
+                "input_tokens": 69359,
+                "cached_input_tokens": 65536,
+                "output_tokens": 53,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 69412
+              },
+              "recordSha256": "ce81a10789b5b43926d3b47ccb56db7eb84b18e5f07964ecfdcaa040abb9c059"
+            },
+            {
+              "responseId": "resp_04d4fefa0129ef75016ab26e9c2e0887d0a832681f84faaab1",
+              "line": 709,
+              "timestamp": "2026-09-22T12:03:48.468Z",
+              "usage": {
+                "input_tokens": 69755,
+                "cached_input_tokens": 69120,
+                "output_tokens": 138,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 69893
+              },
+              "recordSha256": "fc720124aa9d59b3584c349f8e036584b649a0d6821b4ec0f322fab687d9fd1b"
+            },
+            {
+              "responseId": "resp_0e684325d704422f016ab26ea6e41487d0ae160520e0a1c96c",
+              "line": 716,
+              "timestamp": "2026-09-22T12:04:02.103Z",
+              "usage": {
+                "input_tokens": 72133,
+                "cached_input_tokens": 69632,
+                "output_tokens": 313,
+                "reasoning_output_tokens": 34,
+                "total_tokens": 72446
+              },
+              "recordSha256": "0cc967f27fd674b407626551e45d233696fe372aa25d9c0cf507f355e24fa92f"
+            },
+            {
+              "responseId": "resp_0a2d9ce367d5e9fb016ab26eb45afc87d0bcff9a5408fe892e",
+              "line": 723,
+              "timestamp": "2026-09-22T12:04:18.006Z",
+              "usage": {
+                "input_tokens": 73884,
+                "cached_input_tokens": 71936,
+                "output_tokens": 315,
+                "reasoning_output_tokens": 21,
+                "total_tokens": 74199
+              },
+              "recordSha256": "15f3412d089557529f36c24db432285586452a91483f67a2134462f43f4f0403"
+            },
+            {
+              "responseId": "resp_087c00ac4337ffae016ab26ec77ca487d0acd82ac4e14e26ba",
+              "line": 731,
+              "timestamp": "2026-09-22T12:04:35.324Z",
+              "usage": {
+                "input_tokens": 74243,
+                "cached_input_tokens": 73472,
+                "output_tokens": 247,
+                "reasoning_output_tokens": 16,
+                "total_tokens": 74490
+              },
+              "recordSha256": "d2cc84fdc5b85c09d313577a411174e9946ab090517f2524a5ead52801aa02bb"
+            },
+            {
+              "responseId": "resp_09d8e35809ce292e016ab26ed4187887d0a7b2ca2113f12943",
+              "line": 735,
+              "timestamp": "2026-09-22T12:04:41.685Z",
+              "usage": {
+                "input_tokens": 74857,
+                "cached_input_tokens": 74112,
+                "output_tokens": 88,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 74945
+              },
+              "recordSha256": "ef3b6a49de0ac829580f76648adaec73cece862bdfae077e260244d5d76cb68f"
+            },
+            {
+              "responseId": "resp_090d273687f7180c016ab26edbd53087d0acde7a43a71c5f7b",
+              "line": 742,
+              "timestamp": "2026-09-22T12:04:49.195Z",
+              "usage": {
+                "input_tokens": 76953,
+                "cached_input_tokens": 74752,
+                "output_tokens": 117,
+                "reasoning_output_tokens": 32,
+                "total_tokens": 77070
+              },
+              "recordSha256": "66e52305bbfa41b6d68ab9128db0e2e8a05a2014b12b5a281f488f7979e8bbef"
+            },
+            {
+              "responseId": "resp_0f0a5d2f334b8113016ab26eea626887d0baae8f97033f8924",
+              "line": 752,
+              "timestamp": "2026-09-22T12:05:08.458Z",
+              "usage": {
+                "input_tokens": 80170,
+                "cached_input_tokens": 76800,
+                "output_tokens": 248,
+                "reasoning_output_tokens": 170,
+                "total_tokens": 80418
+              },
+              "recordSha256": "05a115bad6f273a510fc489bee67eeef2e271a400748a47edba1dcdb02379a1e"
+            },
+            {
+              "responseId": "resp_0d0f7461cd18ef17016ab26ef8e5b887d0b12a0f97cc2203b3",
+              "line": 761,
+              "timestamp": "2026-09-22T12:06:10.862Z",
+              "usage": {
+                "input_tokens": 81965,
+                "cached_input_tokens": 80000,
+                "output_tokens": 1850,
+                "reasoning_output_tokens": 32,
+                "total_tokens": 83815
+              },
+              "recordSha256": "8c790566a8247bb527fa9237c3d6762744c9412eda5aff9c1ac1abc929dcb9f9"
+            },
+            {
+              "responseId": "resp_098ccd9b1653efb7016ab26f3a139487d0b44998ce0989d335",
+              "line": 769,
+              "timestamp": "2026-09-22T12:06:26.193Z",
+              "usage": {
+                "input_tokens": 84307,
+                "cached_input_tokens": 81792,
+                "output_tokens": 198,
+                "reasoning_output_tokens": 102,
+                "total_tokens": 84505
+              },
+              "recordSha256": "1cc7783eb60e9189897f9fccf12c33750b29537571495e3f24bc255498764d58"
+            },
+            {
+              "responseId": "resp_01facfab708de90b016ab26f44da2887d0993b3d2027ab780a",
+              "line": 776,
+              "timestamp": "2026-09-22T12:07:37.944Z",
+              "usage": {
+                "input_tokens": 87533,
+                "cached_input_tokens": 84096,
+                "output_tokens": 2221,
+                "reasoning_output_tokens": 65,
+                "total_tokens": 89754
+              },
+              "recordSha256": "d63a6c53b4754806cd4e116bd49aeb8af2feeaf4432c188d608a876a7879f411"
+            },
+            {
+              "responseId": "resp_013dccb90ffaa8c0016ab26f93b88887d0b9e77f62951a8fa4",
+              "line": 784,
+              "timestamp": "2026-09-22T12:07:55.640Z",
+              "usage": {
+                "input_tokens": 90272,
+                "cached_input_tokens": 87424,
+                "output_tokens": 143,
+                "reasoning_output_tokens": 26,
+                "total_tokens": 90415
+              },
+              "recordSha256": "43976976390b48e972e454d4a849e559910b001b63eb5df50d0b6ac4c6bb110e"
+            },
+            {
+              "responseId": "resp_080cb4989b04d206016ab26f9e29c487d0b8316b0835fba4f5",
+              "line": 793,
+              "timestamp": "2026-09-22T12:08:12.145Z",
+              "usage": {
+                "input_tokens": 90506,
+                "cached_input_tokens": 90112,
+                "output_tokens": 349,
+                "reasoning_output_tokens": 177,
+                "total_tokens": 90855
+              },
+              "recordSha256": "16659051a7c4aa09768e1bec3291f0c709c2b6d931ea80d49b459a35f0ed9810"
+            }
+          ],
+          "usage": {
+            "input_tokens": 10251409,
+            "cached_input_tokens": 9626880,
+            "output_tokens": 27675,
+            "reasoning_output_tokens": 7390,
+            "total_tokens": 10279084
+          },
+          "started": {
+            "line": 368,
+            "timestamp": "2026-09-22T11:45:22.956Z"
+          },
+          "completed": null,
+          "model": "gpt-6-astra",
+          "effort": "medium",
+          "issues": [],
+          "stage": "shared-page-assembly-and-browser-acceptance",
+          "batch": "dictionary X/Y; shared new investment",
+          "threadId": "01a0c8af-4072-7ce2-ae61-8d7510c98934",
+          "sourceAssetSnapshot": {
+            "path": "reports/flow-validation/preparation/frozen-inputs.json",
+            "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+          },
+          "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+          "articleAllocation": "batch only unless explicitly separated into distinct turns",
+          "failures": null,
+          "retries": null,
+          "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+          "status": "PARTIAL_ACTIVE_TURN",
+          "modelEffortVerified": true,
+          "acceptanceStatus": "usage verified only; content acceptance recorded separately"
+        }
+      ],
+      "recordCount": 105,
+      "lastObservedThreadUsage": {
+        "input_tokens": 15466631,
+        "cached_input_tokens": 14426752,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 87105,
+        "reasoning_output_tokens": 19843,
+        "total_tokens": 15553736
+      },
+      "method": "deduplicated response usage; each running sum checked against turn cumulative, final sum checked against thread cumulative; cumulative snapshots never added",
+      "scope": "Local recorded usage, not billing reconciliation. No per-article split within a turn; no cross-reset subtraction.",
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/22/rollout-2026-09-22T18-35-23-01a0c8af-4072-7ce2-ae61-8d7510c98934.jsonl",
+      "observedFileSha256": "26acc7ce1710e68b30fbb09dba720f2f6df2a635157b072f5442701aab803a95"
+    },
+    {
+      "threadId": "01a0c8e1-7570-7443-b723-de00ca84ac29",
+      "status": "PASS",
+      "errors": [],
+      "rows": [
+        {
+          "turnId": "01a0c8e1-782e-7653-9dd8-d9f907c237c1",
+          "requests": [
+            {
+              "responseId": "resp_08cb260e5e3c0aed016ab266c8956c87d0a265ee37600d5da6",
+              "line": 14,
+              "timestamp": "2026-09-22T11:30:25.160Z",
+              "usage": {
+                "input_tokens": 31797,
+                "cached_input_tokens": 0,
+                "output_tokens": 291,
+                "reasoning_output_tokens": 94,
+                "total_tokens": 32088
+              },
+              "recordSha256": "cb331bfa384df3ccf3ab0b8f44cf6d36c690ea700a1c216e17512f051a571b8b"
+            },
+            {
+              "responseId": "resp_0a29d19b269d9a28016ab266d2821087d0a90c5a76291e9253",
+              "line": 21,
+              "timestamp": "2026-09-22T11:30:35.789Z",
+              "usage": {
+                "input_tokens": 32790,
+                "cached_input_tokens": 31488,
+                "output_tokens": 368,
+                "reasoning_output_tokens": 41,
+                "total_tokens": 33158
+              },
+              "recordSha256": "c0c81113e4516880d34bb7f2f6622de7a90428dc9d09c0b23234ceb86d899e0c"
+            },
+            {
+              "responseId": "resp_0e16d4e6a37fc170016ab266dd373c87d090cb03bd489e4b85",
+              "line": 28,
+              "timestamp": "2026-09-22T11:30:49.589Z",
+              "usage": {
+                "input_tokens": 41052,
+                "cached_input_tokens": 32512,
+                "output_tokens": 547,
+                "reasoning_output_tokens": 444,
+                "total_tokens": 41599
+              },
+              "recordSha256": "ee203b82b80eea6bcadee551d77f844d8e8254f8b1c991e5103183285375d4c8"
+            },
+            {
+              "responseId": "resp_0b106d7eb26b6267016ab266ecce1c87d09b2a0ad0b25b9a9f",
+              "line": 33,
+              "timestamp": "2026-09-22T11:32:00.007Z",
+              "usage": {
+                "input_tokens": 41679,
+                "cached_input_tokens": 40704,
+                "output_tokens": 3628,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 45307
+              },
+              "recordSha256": "fbbfe0c495d8e11558392b22236c59e609582fb703f42326e1a452a2c28c5d3a"
+            },
+            {
+              "responseId": "resp_0dead204533e2961016ab26738dff487d08d0ace53167f4ec2",
+              "line": 42,
+              "timestamp": "2026-09-22T11:32:13.801Z",
+              "usage": {
+                "input_tokens": 45331,
+                "cached_input_tokens": 40704,
+                "output_tokens": 160,
+                "reasoning_output_tokens": 57,
+                "total_tokens": 45491
+              },
+              "recordSha256": "b06a42cfab3f3afd0e0991ee6d50be149b22985de03d5f0af12d85dba51f8c01"
+            },
+            {
+              "responseId": "resp_08cd60c327b5a30a016ab26740b60c87d0967691ef799942b5",
+              "line": 49,
+              "timestamp": "2026-09-22T11:32:22.578Z",
+              "usage": {
+                "input_tokens": 45652,
+                "cached_input_tokens": 44800,
+                "output_tokens": 179,
+                "reasoning_output_tokens": 58,
+                "total_tokens": 45831
+              },
+              "recordSha256": "6d596e7106af3ae96132c5d46fa15560fc866b8ec3f16226e3d1c7f37a89e313"
+            },
+            {
+              "responseId": "resp_0fe96f917f7931fe016ab2674864e887d09fca05ca19a228e9",
+              "line": 56,
+              "timestamp": "2026-09-22T11:32:27.231Z",
+              "usage": {
+                "input_tokens": 46399,
+                "cached_input_tokens": 44800,
+                "output_tokens": 78,
+                "reasoning_output_tokens": 20,
+                "total_tokens": 46477
+              },
+              "recordSha256": "c07c8b21888a5a15107a9bccd09d7cfdafeb48250d3acdb1b461146a09e79ee1"
+            },
+            {
+              "responseId": "resp_07e450fb421c84d9016ab2674d095087d0b79b5e3bbdeea03b",
+              "line": 61,
+              "timestamp": "2026-09-22T11:32:36.898Z",
+              "usage": {
+                "input_tokens": 46521,
+                "cached_input_tokens": 45824,
+                "output_tokens": 298,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 46819
+              },
+              "recordSha256": "43c4cc8ee8a144a2138ef106d3ce291d1b3a3a0d8876a62737ed75c41dc846f6"
+            },
+            {
+              "responseId": "resp_03645bc3895c1475016ab2675b880887d08256c709760ae705",
+              "line": 66,
+              "timestamp": "2026-09-22T11:32:45.932Z",
+              "usage": {
+                "input_tokens": 46843,
+                "cached_input_tokens": 45824,
+                "output_tokens": 62,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 46905
+              },
+              "recordSha256": "294a2849c161a678b211632a8b8b55b6ff150286eb58277b5fe80fa3f4192a49"
+            },
+            {
+              "responseId": "resp_04e6dfbd2fc22de3016ab2675fa62887d093b2043b20014719",
+              "line": 75,
+              "timestamp": "2026-09-22T11:33:01.475Z",
+              "usage": {
+                "input_tokens": 46988,
+                "cached_input_tokens": 45824,
+                "output_tokens": 527,
+                "reasoning_output_tokens": 88,
+                "total_tokens": 47515
+              },
+              "recordSha256": "3f42a90d95796961d1435817c9880f24bee5f9820bfa4c9a3aa4736290ec0659"
+            },
+            {
+              "responseId": "resp_03879b3db32f26b1016ab26774f4b087d098602818ce1f95d0",
+              "line": 81,
+              "timestamp": "2026-09-22T11:33:13.064Z",
+              "usage": {
+                "input_tokens": 47568,
+                "cached_input_tokens": 46848,
+                "output_tokens": 154,
+                "reasoning_output_tokens": 0,
+                "total_tokens": 47722
+              },
+              "recordSha256": "776322eab2983389a4f1c6fb97204f4b75c172544e69a6fda314a93d330b3a20"
+            }
+          ],
+          "usage": {
+            "input_tokens": 472620,
+            "cached_input_tokens": 419328,
+            "output_tokens": 6292,
+            "reasoning_output_tokens": 802,
+            "total_tokens": 478912
+          },
+          "started": {
+            "line": 2,
+            "timestamp": "2026-09-22T11:30:14.723Z"
+          },
+          "completed": {
+            "line": 83,
+            "timestamp": "2026-09-22T11:33:13.090Z"
+          },
+          "model": "gpt-5.6-terra",
+          "effort": "medium",
+          "issues": [],
+          "stage": "A-draft",
+          "batch": "dictionary executed; workshop HOLD",
+          "route": "A",
+          "threadId": "01a0c8e1-7570-7443-b723-de00ca84ac29",
+          "sourceAssetSnapshot": {
+            "path": "reports/flow-validation/preparation/frozen-inputs.json",
+            "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+          },
+          "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+          "articleAllocation": "batch only unless explicitly separated into distinct turns",
+          "failures": null,
+          "retries": null,
+          "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+          "status": "MEASURED_COMPLETED_TURN",
+          "modelEffortVerified": true,
+          "acceptanceStatus": "usage verified only; content acceptance recorded separately"
+        }
+      ],
+      "recordCount": 11,
+      "lastObservedThreadUsage": {
+        "input_tokens": 472620,
+        "cached_input_tokens": 419328,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6292,
+        "reasoning_output_tokens": 802,
+        "total_tokens": 478912
+      },
+      "method": "deduplicated response usage; each running sum checked against turn cumulative, final sum checked against thread cumulative; cumulative snapshots never added",
+      "scope": "Local recorded usage, not billing reconciliation. No per-article split within a turn; no cross-reset subtraction.",
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/22/rollout-2026-09-22T19-30-14-01a0c8e1-7570-7443-b723-de00ca84ac29.jsonl",
+      "observedFileSha256": "fae9678f58af4c17ed843fd80b4cf95b0390d4ce54a0996700b59988e7e696d3"
+    },
+    {
+      "threadId": "01a0c8e1-9232-79c3-aaf1-68319e3b827e",
+      "status": "PASS",
+      "errors": [],
+      "rows": [
+        {
+          "turnId": "01a0c8e1-9459-7890-87d7-31fe5ad2d4ca",
+          "requests": [
+            {
+              "responseId": "resp_0b659d8505015951016ab266cfdb5487d09463c3ab63f5b178",
+              "line": 14,
+              "timestamp": "2026-09-22T11:30:29.694Z",
+              "usage": {
+                "input_tokens": 31826,
+                "cached_input_tokens": 0,
+                "output_tokens": 267,
+                "reasoning_output_tokens": 110,
+                "total_tokens": 32093
+              },
+              "recordSha256": "dce9f9165b2d922378e8ff5f7a33c6f8c9ca4dd4a56525cfa0376a371e2a314a"
+            },
+            {
+              "responseId": "resp_019079ec8f6a8b88016ab266d81f8487d0ba34887d5bdce2ce",
+              "line": 21,
+              "timestamp": "2026-09-22T11:30:42.359Z",
+              "usage": {
+                "input_tokens": 33299,
+                "cached_input_tokens": 31488,
+                "output_tokens": 405,
+                "reasoning_output_tokens": 182,
+                "total_tokens": 33704
+              },
+              "recordSha256": "78e21abd920321f2493971e41fb04e3b25626e85a1af78ba8146ade6996c7b37"
+            },
+            {
+              "responseId": "resp_077212fe173e14df016ab266e5f21487d0ad696b485d7f21e8",
+              "line": 28,
+              "timestamp": "2026-09-22T11:30:54.808Z",
+              "usage": {
+                "input_tokens": 36652,
+                "cached_input_tokens": 32512,
+                "output_tokens": 410,
+                "reasoning_output_tokens": 51,
+                "total_tokens": 37062
+              },
+              "recordSha256": "38f0c869304728bfed2e7bb9cfb7e169803c563546d89f4ba3e23d30f023b64a"
+            },
+            {
+              "responseId": "resp_0f9deb456f431f05016ab266f1e5f087d09f42d6e21649a8af",
+              "line": 35,
+              "timestamp": "2026-09-22T11:31:07.397Z",
+              "usage": {
+                "input_tokens": 46660,
+                "cached_input_tokens": 35584,
+                "output_tokens": 392,
+                "reasoning_output_tokens": 265,
+                "total_tokens": 47052
+              },
+              "recordSha256": "3c281a3b151c2b2f1441552aca41b8e55b2dc6e848ed21bed518a93733b8df40"
+            },
+            {
+              "responseId": "resp_037f0796cba02fb4016ab266fd8e9c87d0a5716804de46329d",
+              "line": 44,
+              "timestamp": "2026-09-22T11:32:48.545Z",
+              "usage": {
+                "input_tokens": 47620,
+                "cached_input_tokens": 45824,
+                "output_tokens": 5414,
+                "reasoning_output_tokens": 315,
+                "total_tokens": 53034
+              },
+              "recordSha256": "65fd4026161d1dcc4e9208532049773099f7e189c17117beb66b215025ab895a"
+            },
+            {
+              "responseId": "resp_0e6512eb15736888016ab26769936487d08533896290080110",
+              "line": 51,
+              "timestamp": "2026-09-22T11:33:09.017Z",
+              "usage": {
+                "input_tokens": 53058,
+                "cached_input_tokens": 46848,
+                "output_tokens": 532,
+                "reasoning_output_tokens": 105,
+                "total_tokens": 53590
+              },
+              "recordSha256": "241b51d16b59839639e42ec97eca6752e7b29c84f483b089872763d4b664e27b"
+            },
+            {
+              "responseId": "resp_02a63fa8ca5aed7e016ab26776bca487d08317ac5e94e727b0",
+              "line": 58,
+              "timestamp": "2026-09-22T11:33:27.758Z",
+              "usage": {
+                "input_tokens": 54450,
+                "cached_input_tokens": 51968,
+                "output_tokens": 891,
+                "reasoning_output_tokens": 43,
+                "total_tokens": 55341
+              },
+              "recordSha256": "faf750ccecf26dc4467b8c7b98a76b7302d1fbc891ce2094355e5ca6688b3dde"
+            },
+            {
+              "responseId": "resp_0de6d00226c3a371016ab2678d010c87d08ac95020b8f2c296",
+              "line": 65,
+              "timestamp": "2026-09-22T11:33:36.465Z",
+              "usage": {
+                "input_tokens": 55365,
+                "cached_input_tokens": 54016,
+                "output_tokens": 72,
+                "reasoning_output_tokens": 8,
+                "total_tokens": 55437
+              },
+              "recordSha256": "4d7e2385947c1cf6de37651b356b8f5b2d4f26ad6294766e33f3727c09d57e0c"
+            },
+            {
+              "responseId": "resp_075518cbcddd56ff016ab26791f6d887d0be88cc8419783502",
+              "line": 74,
+              "timestamp": "2026-09-22T11:33:48.019Z",
+              "usage": {
+                "input_tokens": 55520,
+                "cached_input_tokens": 55040,
+                "output_tokens": 495,
+                "reasoning_output_tokens": 71,
+                "total_tokens": 56015
+              },
+              "recordSha256": "1b08c873f6c57c6eaf321db784fe17fc72c3a4f292f1935cb327a860e9fab362"
+            },
+            {
+              "responseId": "resp_03c0179eb40099ae016ab267a1f70087d0862f60bdb626b75f",
+              "line": 82,
+              "timestamp": "2026-09-22T11:34:00.218Z",
+              "usage": {
+                "input_tokens": 56068,
+                "cached_input_tokens": 55040,
+                "output_tokens": 276,
+                "reasoning_output_tokens": 40,
+                "total_tokens": 56344
+              },
+              "recordSha256": "f5891e37ba14fa21ea0500eb03a9706ac5058a44820f5bd12471dae2492d2d69"
+            }
+          ],
+          "usage": {
+            "input_tokens": 470518,
+            "cached_input_tokens": 408320,
+            "output_tokens": 9154,
+            "reasoning_output_tokens": 1190,
+            "total_tokens": 479672
+          },
+          "started": {
+            "line": 2,
+            "timestamp": "2026-09-22T11:30:21.934Z"
+          },
+          "completed": {
+            "line": 84,
+            "timestamp": "2026-09-22T11:34:00.239Z"
+          },
+          "model": "gpt-5.6-terra",
+          "effort": "medium",
+          "issues": [],
+          "stage": "B-draft",
+          "batch": "dictionary executed; workshop HOLD",
+          "route": "B",
+          "threadId": "01a0c8e1-9232-79c3-aaf1-68319e3b827e",
+          "sourceAssetSnapshot": {
+            "path": "reports/flow-validation/preparation/frozen-inputs.json",
+            "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+          },
+          "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+          "articleAllocation": "batch only unless explicitly separated into distinct turns",
+          "failures": null,
+          "retries": null,
+          "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+          "status": "MEASURED_COMPLETED_TURN",
+          "modelEffortVerified": true,
+          "acceptanceStatus": "usage verified only; content acceptance recorded separately"
+        }
+      ],
+      "recordCount": 10,
+      "lastObservedThreadUsage": {
+        "input_tokens": 470518,
+        "cached_input_tokens": 408320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9154,
+        "reasoning_output_tokens": 1190,
+        "total_tokens": 479672
+      },
+      "method": "deduplicated response usage; each running sum checked against turn cumulative, final sum checked against thread cumulative; cumulative snapshots never added",
+      "scope": "Local recorded usage, not billing reconciliation. No per-article split within a turn; no cross-reset subtraction.",
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/22/rollout-2026-09-22T19-30-21-01a0c8e1-9232-79c3-aaf1-68319e3b827e.jsonl",
+      "observedFileSha256": "f345986f2d0e3d77dfbd5feb5cdad07950dea3dfda5697f114f43ca2761391d2"
+    },
+    {
+      "threadId": "01a0c8e5-6a32-7321-952e-14e0429695a4",
+      "status": "PASS",
+      "errors": [],
+      "rows": [
+        {
+          "turnId": "01a0c8e5-6d91-7483-b5d2-7e7718229e32",
+          "requests": [
+            {
+              "responseId": "resp_0c9cbf2aa0d75e9a016ab267cbf3ec87d08c498d0041876c63",
+              "line": 14,
+              "timestamp": "2026-09-22T11:34:45.662Z",
+              "usage": {
+                "input_tokens": 32043,
+                "cached_input_tokens": 0,
+                "output_tokens": 256,
+                "reasoning_output_tokens": 60,
+                "total_tokens": 32299
+              },
+              "recordSha256": "70acf9218026e51e6d329ba2bc855348fa8187472720c9ae30a9e6224e58b731"
+            },
+            {
+              "responseId": "resp_0fd5245b4e0fe177016ab267d739e087d0ab64173107d5c62b",
+              "line": 21,
+              "timestamp": "2026-09-22T11:34:53.098Z",
+              "usage": {
+                "input_tokens": 33160,
+                "cached_input_tokens": 31872,
+                "output_tokens": 139,
+                "reasoning_output_tokens": 22,
+                "total_tokens": 33299
+              },
+              "recordSha256": "f5ed3681934f6f89e9118da39c3b648fa2e4a7d920d3f268b4a5a4742f8f8a72"
+            },
+            {
+              "responseId": "resp_0325852d7fd14ff6016ab267dea76887d08fc4870e49db87db",
+              "line": 28,
+              "timestamp": "2026-09-22T11:35:01.446Z",
+              "usage": {
+                "input_tokens": 34605,
+                "cached_input_tokens": 33024,
+                "output_tokens": 165,
+                "reasoning_output_tokens": 84,
+                "total_tokens": 34770
+              },
+              "recordSha256": "3e34ad24fab99c42b5a04dcb5c74b1c2c4d929b231d3652b33fdd71b861d4340"
+            },
+            {
+              "responseId": "resp_020e6ec784f17322016ab267e6aa6887d0a9345831105e1ac8",
+              "line": 35,
+              "timestamp": "2026-09-22T11:35:12.224Z",
+              "usage": {
+                "input_tokens": 35491,
+                "cached_input_tokens": 34432,
+                "output_tokens": 226,
+                "reasoning_output_tokens": 104,
+                "total_tokens": 35717
+              },
+              "recordSha256": "01a3421568b82d0016f425e287303f04623073db483fac2f3a2196d352b25055"
+            },
+            {
+              "responseId": "resp_098c3ea48e46084d016ab267f1870487d0864982b50d2f9b79",
+              "line": 44,
+              "timestamp": "2026-09-22T11:35:30.227Z",
+              "usage": {
+                "input_tokens": 35944,
+                "cached_input_tokens": 35328,
+                "output_tokens": 433,
+                "reasoning_output_tokens": 39,
+                "total_tokens": 36377
+              },
+              "recordSha256": "f11c884cd7d87a5519a5400bfb82e7be61ddca95691b068d4480cb6bcd7195e3"
+            },
+            {
+              "responseId": "resp_08c046d5b719c876016ab26804016487d0886226add4e63978",
+              "line": 51,
+              "timestamp": "2026-09-22T11:35:39.119Z",
+              "usage": {
+                "input_tokens": 36809,
+                "cached_input_tokens": 35712,
+                "output_tokens": 165,
+                "reasoning_output_tokens": 17,
+                "total_tokens": 36974
+              },
+              "recordSha256": "b7bb549d9eafa02d54659b02839dd0b20d95063df66f6950ed6db20e48f03baf"
+            },
+            {
+              "responseId": "resp_0a913ea4c96dce50016ab2680da6b887d0a78a5aa0c2e9d88b",
+              "line": 58,
+              "timestamp": "2026-09-22T11:35:49.676Z",
+              "usage": {
+                "input_tokens": 40614,
+                "cached_input_tokens": 36608,
+                "output_tokens": 169,
+                "reasoning_output_tokens": 17,
+                "total_tokens": 40783
+              },
+              "recordSha256": "a1e9142dd404105542fb2a7087877f598ec4eb8bb363189372bfcc8802e9ea46"
+            },
+            {
+              "responseId": "resp_040ad4375b27ee31016ab26816ff8487d0aa45ea9d7ec7be3b",
+              "line": 65,
+              "timestamp": "2026-09-22T11:35:55.740Z",
+              "usage": {
+                "input_tokens": 43404,
+                "cached_input_tokens": 40448,
+                "output_tokens": 89,
+                "reasoning_output_tokens": 14,
+                "total_tokens": 43493
+              },
+              "recordSha256": "9da24355cdf6d31c6d73b023680310f18e00e2b382cf1ade331a274aa3e7d51e"
+            },
+            {
+              "responseId": "resp_0be63062acbf5bf2016ab2681d3fac87d08257035bd31e8165",
+              "line": 72,
+              "timestamp": "2026-09-22T11:36:06.652Z",
+              "usage": {
+                "input_tokens": 45079,
+                "cached_input_tokens": 43264,
+                "output_tokens": 200,
+                "reasoning_output_tokens": 7,
+                "total_tokens": 45279
+              },
+              "recordSha256": "048c799c7b1623096dadf08489deee88f0f6d0230febf909efb3974feab8425a"
+            },
+            {
+              "responseId": "resp_0cb95d776c6f6a2c016ab2682808a087d09428379647da36cf",
+              "line": 79,
+              "timestamp": "2026-09-22T11:36:15.004Z",
+              "usage": {
+                "input_tokens": 48406,
+                "cached_input_tokens": 44928,
+                "output_tokens": 168,
+                "reasoning_output_tokens": 29,
+                "total_tokens": 48574
+              },
+              "recordSha256": "7f4d00ad1f07ba454fdf4bc90379e5b602f70ede147e8148b7ee914213167664"
+            },
+            {
+              "responseId": "resp_0fa84d1ce2428bad016ab2683039d887d09ac7feda4ccecbb9",
+              "line": 88,
+              "timestamp": "2026-09-22T11:36:42.614Z",
+              "usage": {
+                "input_tokens": 49895,
+                "cached_input_tokens": 48256,
+                "output_tokens": 742,
+                "reasoning_output_tokens": 573,
+                "total_tokens": 50637
+              },
+              "recordSha256": "e9733b48c8c68022737d28d3d6f21a39da9eae0acf95dceca537a1dd9567b401"
+            },
+            {
+              "responseId": "resp_08b3dc1581167dd9016ab2684c102487d0b923e2a4a981ff47",
+              "line": 95,
+              "timestamp": "2026-09-22T11:37:09.748Z",
+              "usage": {
+                "input_tokens": 50765,
+                "cached_input_tokens": 49664,
+                "output_tokens": 674,
+                "reasoning_output_tokens": 350,
+                "total_tokens": 51439
+              },
+              "recordSha256": "6e0dbcba1b7a3ada039c989f9ac6b2f2f3103f9f6adc64e349bb11900b646bb0"
+            },
+            {
+              "responseId": "resp_06d52fb94795cae5016ab2686767fc87d0b884a984bfc57bf7",
+              "line": 102,
+              "timestamp": "2026-09-22T11:37:33.043Z",
+              "usage": {
+                "input_tokens": 52288,
+                "cached_input_tokens": 50560,
+                "output_tokens": 366,
+                "reasoning_output_tokens": 43,
+                "total_tokens": 52654
+              },
+              "recordSha256": "0671084a59cc890a8d1561dd5ccfbb015619efb6b38c046653250ada58bf7dae"
+            },
+            {
+              "responseId": "resp_0fed436d93364377016ab2687ea5f887d08f693d48f9f01017",
+              "line": 109,
+              "timestamp": "2026-09-22T11:37:52.820Z",
+              "usage": {
+                "input_tokens": 53435,
+                "cached_input_tokens": 52096,
+                "output_tokens": 127,
+                "reasoning_output_tokens": 69,
+                "total_tokens": 53562
+              },
+              "recordSha256": "281272962d48d6326036dd632b60c5d5dec2a2783a5673765c2ae6e74910f480"
+            },
+            {
+              "responseId": "resp_0d7a601277ef839c016ab268922b2487d0ad96345f1382a12e",
+              "line": 116,
+              "timestamp": "2026-09-22T11:40:32.331Z",
+              "usage": {
+                "input_tokens": 53606,
+                "cached_input_tokens": 53248,
+                "output_tokens": 4897,
+                "reasoning_output_tokens": 6,
+                "total_tokens": 58503
+              },
+              "recordSha256": "ce79d363e33e6371e9106fae71014f36572d9af7d305842274a1182966574b6c"
+            },
+            {
+              "responseId": "resp_05994e91c7dbbfaf016ab269366a4887d0aa5e709136a61d17",
+              "line": 125,
+              "timestamp": "2026-09-22T11:40:47.808Z",
+              "usage": {
+                "input_tokens": 58527,
+                "cached_input_tokens": 53376,
+                "output_tokens": 229,
+                "reasoning_output_tokens": 55,
+                "total_tokens": 58756
+              },
+              "recordSha256": "b6d45123dfd47bafc4ede98cf2f9a31619bcd9f239f2ae08c3affb635e47e23c"
+            },
+            {
+              "responseId": "resp_0a05c0b67236009d016ab26940b35c87d0a37ef42a05691984",
+              "line": 132,
+              "timestamp": "2026-09-22T11:40:55.799Z",
+              "usage": {
+                "input_tokens": 58839,
+                "cached_input_tokens": 58368,
+                "output_tokens": 169,
+                "reasoning_output_tokens": 111,
+                "total_tokens": 59008
+              },
+              "recordSha256": "766252676c92d01f838cab2f01f42f0d57fe94c6144c6cceaca72a50520bd57c"
+            },
+            {
+              "responseId": "resp_0e11342416618e62016ab26948daa087d0a030ddae1f5d0692",
+              "line": 139,
+              "timestamp": "2026-09-22T11:41:08.880Z",
+              "usage": {
+                "input_tokens": 59052,
+                "cached_input_tokens": 58624,
+                "output_tokens": 328,
+                "reasoning_output_tokens": 16,
+                "total_tokens": 59380
+              },
+              "recordSha256": "8fc67e40236795fbeb9468db1e578296613bf1a313d648e7ffecfbd94e314df1"
+            },
+            {
+              "responseId": "resp_0a94f3d0af85d686016ab2695a18c087d0a8cd30901b524894",
+              "line": 146,
+              "timestamp": "2026-09-22T11:41:17.971Z",
+              "usage": {
+                "input_tokens": 59404,
+                "cached_input_tokens": 58880,
+                "output_tokens": 74,
+                "reasoning_output_tokens": 10,
+                "total_tokens": 59478
+              },
+              "recordSha256": "507a5413b218d6eb70d8e7346531582cbad19e5d797fb8081a6479a923f4959f"
+            },
+            {
+              "responseId": "resp_0eb3d34b38aca630016ab269605c0087d0abf04bf37f9dbb8d",
+              "line": 153,
+              "timestamp": "2026-09-22T11:41:32.360Z",
+              "usage": {
+                "input_tokens": 59561,
+                "cached_input_tokens": 59264,
+                "output_tokens": 324,
+                "reasoning_output_tokens": 141,
+                "total_tokens": 59885
+              },
+              "recordSha256": "1ee778c8891600027b5fd5adfc1edf3cb6718178011e2f3012c97918014915ed"
+            },
+            {
+              "responseId": "resp_0cdb4873710d9a15016ab2696d7d1487d0b90a8226050c0df8",
+              "line": 160,
+              "timestamp": "2026-09-22T11:42:02.328Z",
+              "usage": {
+                "input_tokens": 60143,
+                "cached_input_tokens": 59392,
+                "output_tokens": 828,
+                "reasoning_output_tokens": 6,
+                "total_tokens": 60971
+              },
+              "recordSha256": "0a14468e5758a2b347c08b79cc04d9c486dca08ff2ded9cb76f6595c9f6167f1"
+            },
+            {
+              "responseId": "resp_01cea96e4aefff6d016ab26994b2f487d09b8e7e835f9b0373",
+              "line": 168,
+              "timestamp": "2026-09-22T11:42:25.866Z",
+              "usage": {
+                "input_tokens": 61024,
+                "cached_input_tokens": 59904,
+                "output_tokens": 361,
+                "reasoning_output_tokens": 110,
+                "total_tokens": 61385
+              },
+              "recordSha256": "e77836279015e92cf9c54d3ce74ca5c013395fd2e82200e7ccdd38e3718bf9cd"
+            }
+          ],
+          "usage": {
+            "input_tokens": 1062094,
+            "cached_input_tokens": 997248,
+            "output_tokens": 11129,
+            "reasoning_output_tokens": 1883,
+            "total_tokens": 1073223
+          },
+          "started": {
+            "line": 2,
+            "timestamp": "2026-09-22T11:34:34.164Z"
+          },
+          "completed": {
+            "line": 170,
+            "timestamp": "2026-09-22T11:42:25.889Z"
+          },
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "issues": [],
+          "stage": "A-edited",
+          "batch": "dictionary executed; workshop HOLD",
+          "route": "A",
+          "threadId": "01a0c8e5-6a32-7321-952e-14e0429695a4",
+          "sourceAssetSnapshot": {
+            "path": "reports/flow-validation/preparation/frozen-inputs.json",
+            "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+          },
+          "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+          "articleAllocation": "batch only unless explicitly separated into distinct turns",
+          "failures": null,
+          "retries": null,
+          "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+          "status": "MEASURED_COMPLETED_TURN",
+          "modelEffortVerified": true,
+          "acceptanceStatus": "usage verified only; content acceptance recorded separately"
+        }
+      ],
+      "recordCount": 22,
+      "lastObservedThreadUsage": {
+        "input_tokens": 1062094,
+        "cached_input_tokens": 997248,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 11129,
+        "reasoning_output_tokens": 1883,
+        "total_tokens": 1073223
+      },
+      "method": "deduplicated response usage; each running sum checked against turn cumulative, final sum checked against thread cumulative; cumulative snapshots never added",
+      "scope": "Local recorded usage, not billing reconciliation. No per-article split within a turn; no cross-reset subtraction.",
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/22/rollout-2026-09-22T19-34-33-01a0c8e5-6a32-7321-952e-14e0429695a4.jsonl",
+      "observedFileSha256": "65d324791bfb1d13dae769f4b8ca55cf75f61c8972b688d7d34b474d8d41a728"
+    },
+    {
+      "threadId": "01a0c8e7-0c75-7be2-8767-f8a48cb5290c",
+      "status": "PASS",
+      "errors": [],
+      "rows": [
+        {
+          "turnId": "01a0c8e7-0e4b-7e71-8434-154c0c6dce20",
+          "requests": [
+            {
+              "responseId": "resp_0f89e46218eef6c2016ab268399bbc87d084f4a44ed11950ce",
+              "line": 14,
+              "timestamp": "2026-09-22T11:36:38.092Z",
+              "usage": {
+                "input_tokens": 32111,
+                "cached_input_tokens": 17920,
+                "output_tokens": 303,
+                "reasoning_output_tokens": 120,
+                "total_tokens": 32414
+              },
+              "recordSha256": "b4aaf265aeae2445c55e1db99ecffd6ec9bd69e3335c9966822168a559152b09"
+            },
+            {
+              "responseId": "resp_0b688a65d36ce9eb016ab26847470487d0b9e43717f4b7945e",
+              "line": 23,
+              "timestamp": "2026-09-22T11:37:04.394Z",
+              "usage": {
+                "input_tokens": 33171,
+                "cached_input_tokens": 31872,
+                "output_tokens": 641,
+                "reasoning_output_tokens": 253,
+                "total_tokens": 33812
+              },
+              "recordSha256": "1cc4db39ac7e840943a5614b8428268e70ca5b53545e0d920c78693c94f259bc"
+            },
+            {
+              "responseId": "resp_04ef2967c08fbaad016ab26861760487d0b09ebc67886b529b",
+              "line": 41,
+              "timestamp": "2026-09-22T11:37:16.101Z",
+              "usage": {
+                "input_tokens": 44205,
+                "cached_input_tokens": 33024,
+                "output_tokens": 251,
+                "reasoning_output_tokens": 78,
+                "total_tokens": 44456
+              },
+              "recordSha256": "6b5e3d67422d1e21e8ab9cb1afeef067721472ce9d7fdb9109754f7e1a2f6fc4"
+            },
+            {
+              "responseId": "resp_03a40254a62cfa23016ab2686d260087d0a13a3fc1a809a76d",
+              "line": 51,
+              "timestamp": "2026-09-22T11:37:43.450Z",
+              "usage": {
+                "input_tokens": 49406,
+                "cached_input_tokens": 44032,
+                "output_tokens": 789,
+                "reasoning_output_tokens": 423,
+                "total_tokens": 50195
+              },
+              "recordSha256": "c513f0e2fbd674c2508012d5845efc68bbb1afaaeb39b561b2b6757934c6f5c5"
+            },
+            {
+              "responseId": "resp_08dd540a6192fa0d016ab2688b1bfc87d08e254dd6ef9af6fa",
+              "line": 62,
+              "timestamp": "2026-09-22T11:39:47.421Z",
+              "usage": {
+                "input_tokens": 51538,
+                "cached_input_tokens": 49280,
+                "output_tokens": 3626,
+                "reasoning_output_tokens": 691,
+                "total_tokens": 55164
+              },
+              "recordSha256": "9f65f363c78d14031cfe3d5fcce08b5703b2b625e0a5db01731a49d1803d88a7"
+            },
+            {
+              "responseId": "resp_0649a148b95922f7016ab269078f2487d085e3dedfdb68beb9",
+              "line": 69,
+              "timestamp": "2026-09-22T11:39:58.072Z",
+              "usage": {
+                "input_tokens": 55188,
+                "cached_input_tokens": 51328,
+                "output_tokens": 93,
+                "reasoning_output_tokens": 26,
+                "total_tokens": 55281
+              },
+              "recordSha256": "ea5fe3e1fa9e01fd2af96b527f41300e7f5670caba45930cece0c29ae41ea5f9"
+            },
+            {
+              "responseId": "resp_0e4213d493a8092e016ab2690f395c87d0834756268522049a",
+              "line": 76,
+              "timestamp": "2026-09-22T11:41:49.574Z",
+              "usage": {
+                "input_tokens": 55325,
+                "cached_input_tokens": 55040,
+                "output_tokens": 3395,
+                "reasoning_output_tokens": 231,
+                "total_tokens": 58720
+              },
+              "recordSha256": "95cbf002369554136c3e95a48cb3ee52117984cab3e421cb1ab440f8e139cc0a"
+            },
+            {
+              "responseId": "resp_0c32fee416bb8bc8016ab2698087e087d09a048d1ea786bdc3",
+              "line": 83,
+              "timestamp": "2026-09-22T11:41:57.026Z",
+              "usage": {
+                "input_tokens": 58744,
+                "cached_input_tokens": 55168,
+                "output_tokens": 112,
+                "reasoning_output_tokens": 21,
+                "total_tokens": 58856
+              },
+              "recordSha256": "42c22b4ec4530815d2fc6543dff7f9f6b6a8d8fdccb40c99470d24489298b182"
+            },
+            {
+              "responseId": "resp_0895c522d692aba4016ab269868b2c87d0a7d38be0983abfef",
+              "line": 92,
+              "timestamp": "2026-09-22T11:42:11.053Z",
+              "usage": {
+                "input_tokens": 58939,
+                "cached_input_tokens": 58624,
+                "output_tokens": 328,
+                "reasoning_output_tokens": 188,
+                "total_tokens": 59267
+              },
+              "recordSha256": "67956083b3bea1bac13f15f2db5ce5fae55aa61d34b7544491cb29a8b27b0438"
+            },
+            {
+              "responseId": "resp_0ee04c5eaed67891016ab26994a11087d0a7ee40d690cb34d4",
+              "line": 99,
+              "timestamp": "2026-09-22T11:42:18.839Z",
+              "usage": {
+                "input_tokens": 59311,
+                "cached_input_tokens": 58752,
+                "output_tokens": 148,
+                "reasoning_output_tokens": 23,
+                "total_tokens": 59459
+              },
+              "recordSha256": "3d49eb192ca86a4df2f2d9e99d9857d936908687f663565a8155e922bfd4b154"
+            },
+            {
+              "responseId": "resp_06d5f71513938801016ab269a1050487d0b7aedacc4fd5cf10",
+              "line": 106,
+              "timestamp": "2026-09-22T11:42:35.539Z",
+              "usage": {
+                "input_tokens": 59483,
+                "cached_input_tokens": 59136,
+                "output_tokens": 286,
+                "reasoning_output_tokens": 77,
+                "total_tokens": 59769
+              },
+              "recordSha256": "511cdeed3ce921e5716ba15c8be667ff45c4c067e722d34d004ad25c1f7a3ba2"
+            },
+            {
+              "responseId": "resp_00c59d9f1714b446016ab269af2dd087d0b229f67c925b7d95",
+              "line": 113,
+              "timestamp": "2026-09-22T11:43:05.469Z",
+              "usage": {
+                "input_tokens": 60038,
+                "cached_input_tokens": 59264,
+                "output_tokens": 763,
+                "reasoning_output_tokens": 35,
+                "total_tokens": 60801
+              },
+              "recordSha256": "97f0a9c20361627e156456742e0728aec07c9a25a6e3d2282fb6e58136d6130f"
+            },
+            {
+              "responseId": "resp_031211f36b3c1612016ab269cfae1487d0b679a391cce7e9d0",
+              "line": 121,
+              "timestamp": "2026-09-22T11:43:19.931Z",
+              "usage": {
+                "input_tokens": 60854,
+                "cached_input_tokens": 59904,
+                "output_tokens": 178,
+                "reasoning_output_tokens": 21,
+                "total_tokens": 61032
+              },
+              "recordSha256": "3b1355d88a20c9e90e7b90d6dfb531956377c68242ac36deff4d7545125bef93"
+            }
+          ],
+          "usage": {
+            "input_tokens": 678313,
+            "cached_input_tokens": 633344,
+            "output_tokens": 10913,
+            "reasoning_output_tokens": 2187,
+            "total_tokens": 689226
+          },
+          "started": {
+            "line": 2,
+            "timestamp": "2026-09-22T11:36:20.830Z"
+          },
+          "completed": {
+            "line": 123,
+            "timestamp": "2026-09-22T11:43:19.951Z"
+          },
+          "model": "gpt-5.6-sol",
+          "effort": "medium",
+          "issues": [],
+          "stage": "B-edited",
+          "batch": "dictionary executed; workshop HOLD",
+          "route": "B",
+          "threadId": "01a0c8e7-0c75-7be2-8767-f8a48cb5290c",
+          "sourceAssetSnapshot": {
+            "path": "reports/flow-validation/preparation/frozen-inputs.json",
+            "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+          },
+          "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+          "articleAllocation": "batch only unless explicitly separated into distinct turns",
+          "failures": null,
+          "retries": null,
+          "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+          "status": "MEASURED_COMPLETED_TURN",
+          "modelEffortVerified": true,
+          "acceptanceStatus": "usage verified only; content acceptance recorded separately"
+        }
+      ],
+      "recordCount": 13,
+      "lastObservedThreadUsage": {
+        "input_tokens": 678313,
+        "cached_input_tokens": 633344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10913,
+        "reasoning_output_tokens": 2187,
+        "total_tokens": 689226
+      },
+      "method": "deduplicated response usage; each running sum checked against turn cumulative, final sum checked against thread cumulative; cumulative snapshots never added",
+      "scope": "Local recorded usage, not billing reconciliation. No per-article split within a turn; no cross-reset subtraction.",
+      "rolloutPath": "C:/Users/Administrator/.codex/sessions/2026/09/22/rollout-2026-09-22T19-36-20-01a0c8e7-0c75-7be2-8767-f8a48cb5290c.jsonl",
+      "observedFileSha256": "f8a5c990ff895103fde5f90fb92c0af94f9b82a793a8ae722ff323902160d5b4"
+    }
+  ],
+  "status": "PASS"
+}

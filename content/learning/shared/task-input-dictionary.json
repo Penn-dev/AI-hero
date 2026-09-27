@@ -1,0 +1,808 @@
+{
+  "version": 1,
+  "articleId": "/ai-coding-dictionary/system-prompt",
+  "integrationStatus": "static-input-only; not connected to translation or UI",
+  "knowledgeSha256": "62600bf7767c530f687e89f28da0c882e32d7217ce3464787efbe8b0bc8ce6c0",
+  "mapSha256": "d03b52ee70b32bf9221927e3fc3556a438e99b0a09a60afe5d7f722fe535db95",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/system-prompt.md",
+    "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+    "text": "---\ntitle: \"System prompt\"\nslug: \"system-prompt\"\ntype: \"dictionary\"\ndescription: \"The instructions the harness prepends to every model provider request — the agent's standing brief. Usually stable across a session.\"\nupdatedAt: \"2026-07-01T08:46:18.000Z\"\n---\nThe instructions the [harness](/ai-coding-dictionary/harness) prepends to every [model provider request](/ai-coding-dictionary/model-provider-request) — the [agent](/ai-coding-dictionary/agent)'s standing brief: who it is, how to behave, which [tools](/ai-coding-dictionary/tool) it can call, what conventions to follow. Usually stable across a [session](/ai-coding-dictionary/session).\n\nThe system prompt is written by the harness vendor, not by you, and in coding harnesses it's big — often tens of thousands of [tokens](/ai-coding-dictionary/token) of behavioural rules, tool descriptions, and edge-case handling, all paid as [input tokens](/ai-coding-dictionary/input-tokens) on every [turn](/ai-coding-dictionary/turn). Your own standing instructions ride along with it: files like [AGENTS.md](/ai-coding-dictionary/agents-md) are loaded next to the system prompt at the start of the session, so the [model](/ai-coding-dictionary/model) reads the vendor's brief and yours together before it ever sees your message.\n\nBecause it's identical on every request, it forms the start of the [prefix cache](/ai-coding-dictionary/prefix-cache) — which is part of why harnesses keep it fixed for a whole session rather than editing it as they go.\n\nModels are trained to prioritise the system prompt over user messages. So when an agent insists on a convention you never asked for, or formats output in a way you can't shake, it's usually obeying its system prompt — and your message is losing the argument. Some harnesses are customisable: they give you full access to the system prompt, so you can read what the agent is actually being told and change it.\n\n_Usage:_\n\n\"Two harnesses, same model, totally different behavior on the same prompt.\"\n\n\"Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives.\"\n"
+  },
+  "referenceTranslation": {
+    "path": "content/pilots/estimate-special/sol-medium/ai-coding-dictionary/system-prompt.md",
+    "sha256": "62fae0df896f51c954bfa75d5046994cf78582d77cc70fb6d8c387c93d1533af"
+  },
+  "profile": {
+    "kind": "dictionary",
+    "translationSourceId": "dictionary-translation",
+    "conceptIds": [
+      "system-prompt",
+      "harness",
+      "prompt",
+      "token",
+      "prefix-cache",
+      "agent",
+      "model",
+      "tool",
+      "session",
+      "turn",
+      "input-tokens",
+      "model-provider-request",
+      "agents-md"
+    ],
+    "prerequisiteIds": [
+      "prompt",
+      "harness",
+      "model-provider-request"
+    ],
+    "prerequisiteRationale": "理解基础指令、组织请求的软件和一次请求，才能区分系统提示词与用户消息；其余词按正文查阅，链接不自动成为先修。",
+    "oneSentenceDefinition": "使用 system-prompt 的共享定义；框架厂商编写、会话内稳定等放在原文语境。",
+    "distinctions": [
+      "system prompt 与用户 prompt 不应混同",
+      "系统提示词与 AGENTS.md 是不同来源的规则",
+      "稳定前缀可用于缓存，但不保证命中或具体费用"
+    ],
+    "originalExampleRefs": [
+      {
+        "sourceId": "dictionary-source",
+        "start": 18,
+        "end": 18
+      },
+      {
+        "sourceId": "dictionary-source",
+        "start": 20,
+        "end": 20
+      }
+    ],
+    "sourceReading": {
+      "sourceId": "dictionary-source",
+      "start": 1,
+      "end": 20
+    },
+    "articleSpecific": [
+      {
+        "conceptId": "system-prompt",
+        "text": "本文讨论执行框架通常提供的长期指令；同文也说某些框架允许用户自定义。不能泛化成“永远只能厂商编写”。",
+        "sourceId": "dictionary-source",
+        "start": 8,
+        "end": 14
+      },
+      {
+        "conceptId": "prefix-cache",
+        "text": "本文把保持稳定的系统提示词作为共享前缀开头；通用缓存概念不依赖系统提示词才能成立。",
+        "sourceId": "dictionary-source",
+        "start": 12,
+        "end": 12
+      }
+    ],
+    "reviewFocus": [
+      "英文两句对话需与中文理解同时保留",
+      "新增最高优先级等绝对措辞须复查来源边界",
+      "缓存解释不能承诺所有请求都更省钱"
+    ],
+    "relatedNotPrerequisite": [
+      "/a-complete-guide-to-agents-md"
+    ]
+  },
+  "concepts": {
+    "agent": {
+      "zh": "智能体",
+      "en": "agent",
+      "aliases": [
+        "AI 编码智能体",
+        "AI coding agent"
+      ],
+      "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "harness"
+      ],
+      "dependencyRationale": "先认出模型与框架，再把组合看作接受任务的一个助手。",
+      "evidence": [
+        {
+          "sourceId": "dict-agent",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "agents-md": {
+      "zh": "AGENTS.md",
+      "en": "AGENTS.md",
+      "aliases": [],
+      "definition": "供支持这一约定的 AI 编码工具读取的项目说明文件，用来提供项目规则与工作指引。",
+      "scope": "自动加载时机、文件合并顺序与支持程度取决于工具；不能把作者叙述作为所有实现的保证",
+      "dependsOn": [
+        "markdown",
+        "agent"
+      ],
+      "dependencyRationale": "先知道文档写法与 AI 助手，再解释项目规则文件的作用。",
+      "evidence": [
+        {
+          "sourceId": "guide-source",
+          "start": 20,
+          "end": 27
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "harness": {
+      "zh": "智能体执行框架",
+      "en": "harness",
+      "aliases": [
+        "执行框架"
+      ],
+      "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "tool"
+      ],
+      "dependencyRationale": "先区分模型与实际执行的工具，才能理解框架负责组织与执行。",
+      "evidence": [
+        {
+          "sourceId": "dict-harness",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "input-tokens": {
+      "zh": "输入 Token",
+      "en": "input tokens",
+      "aliases": [],
+      "definition": "一次模型请求中交给模型读取的 Token，包括指令、消息及提供的工具结果等。",
+      "scope": "仅定义输入量，不推广具体服务的计费价格",
+      "dependsOn": [
+        "token",
+        "model-provider-request"
+      ],
+      "dependencyRationale": "先知道 Token 与请求，再识别一次请求中输入部分的计量。",
+      "evidence": [
+        {
+          "sourceId": "dict-input-tokens",
+          "start": 8,
+          "end": 8
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "markdown": {
+      "zh": "Markdown",
+      "en": "Markdown",
+      "aliases": [],
+      "definition": "用简单文字标记表示标题、列表和链接等格式的写法。",
+      "scope": "文档格式",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 309,
+          "end": 309
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "model": {
+      "zh": "模型",
+      "en": "model",
+      "aliases": [
+        "AI 模型"
+      ],
+      "definition": "根据输入产生预测或回答的计算模型；在本文本模型语境中，它接收文字片段并预测后续片段。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-model",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "model-provider-request": {
+      "zh": "模型提供商请求",
+      "en": "model provider request",
+      "aliases": [
+        "模型请求"
+      ],
+      "definition": "执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "harness"
+      ],
+      "dependencyRationale": "先认出模型和组织输入的软件，再解释一次发送与返回。",
+      "evidence": [
+        {
+          "sourceId": "dict-model-provider-request",
+          "start": 8,
+          "end": 8
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "prefix-cache": {
+      "zh": "前缀缓存",
+      "en": "prefix cache",
+      "aliases": [],
+      "definition": "模型服务复用请求开头相同部分的已处理结果的机制。",
+      "scope": "不保证命中、固定有效期或固定折扣；系统提示词只是可共享前缀的一部分",
+      "dependsOn": [
+        "token",
+        "model-provider-request"
+      ],
+      "dependencyRationale": "先知道文本计量单位和重复请求，再理解相同开头可复用；系统提示词仅是例子。",
+      "evidence": [
+        {
+          "sourceId": "dict-prefix-cache",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "prompt": {
+      "zh": "提示词",
+      "en": "prompt",
+      "aliases": [
+        "Prompt 文本"
+      ],
+      "definition": "交给 AI 的任务说明、指令或输入文本。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 319,
+          "end": 319
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "session": {
+      "zh": "会话",
+      "en": "session",
+      "aliases": [],
+      "definition": "与 AI 助手进行的一段有边界的交互，期间积累消息与工作记录。",
+      "scope": "不同产品的会话结束、压缩和记忆机制不同，不把本地文章描述泛化为产品保证",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-session",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "system-prompt": {
+      "zh": "系统提示词",
+      "en": "system prompt",
+      "aliases": [],
+      "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。",
+      "scope": "通用解释不规定是谁编写、是否可修改或所有产品中的具体优先级；这些条件留在文章语境",
+      "dependsOn": [
+        "prompt",
+        "model-provider-request"
+      ],
+      "dependencyRationale": "先认识任务文本和一次请求，再区分随请求提供的基础指令。",
+      "evidence": [
+        {
+          "sourceId": "dictionary-source",
+          "start": 8,
+          "end": 14
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "token": {
+      "zh": "Token",
+      "en": "token",
+      "aliases": [
+        "词元"
+      ],
+      "definition": "模型读取和生成文本时使用的基本单位，不等同于一个汉字或一个英文单词。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-token",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "tool": {
+      "zh": "工具",
+      "en": "tool",
+      "aliases": [
+        "工具函数"
+      ],
+      "definition": "供 AI 助手请求调用、由软件执行的功能，例如读取文件或运行命令。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-tool",
+          "start": 8,
+          "end": 19
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "turn": {
+      "zh": "工作轮次",
+      "en": "turn",
+      "aliases": [
+        "轮次"
+      ],
+      "definition": "从用户发来一条消息，到助手完成本次响应并交回控制权的一轮交互，可包含多次模型请求。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "session",
+        "model-provider-request"
+      ],
+      "dependencyRationale": "先认识会话和请求，再区分用户一轮交互与其中多次请求。",
+      "evidence": [
+        {
+          "sourceId": "dict-turn",
+          "start": 8,
+          "end": 8
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    }
+  },
+  "evidence": [
+    {
+      "sourceId": "dict-agent",
+      "path": "content/source/ai-coding-dictionary/agent.md",
+      "sha256": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "A [model](/ai-coding-dictionary/model) [harnessed](/ai-coding-dictionary/harness) with [tools](/ai-coding-dictionary/tool), a [system prompt](/ai-coding-dictionary/system-prompt), and a [context window](/ai-coding-dictionary/context-window), that takes [turns](/ai-coding-dictionary/turn) with a user. _Claude Code is an agent. Cursor is an agent. Claude.ai is an agent._ An agent is what you actually talk to — it's the model in motion, configured for a purpose.\n\nUnlike most terms in this dictionary, \"agent\" doesn't name a mechanical part. The model is a file of [parameters](/ai-coding-dictionary/parameters); the harness is software you can point at. The agent is neither — it's the unit you're speaking to. People anthropomorphize [AI](/ai-coding-dictionary/ai) constantly, and the agent is the anthropomorphized unit: the thing you delegate to, the thing that reads your message and answers, the \"it\" in \"it broke the build again\". When you say the agent did something, you mean the model-plus-harness did it, but you're addressing the combination as a single actor."
+        }
+      ]
+    },
+    {
+      "sourceId": "dict-harness",
+      "path": "content/source/ai-coding-dictionary/harness.md",
+      "sha256": "e014e536122ce287a7bfeae40b84cb6100d5c575a9bccc3afc7e8d1e9ae08284",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "Everything around the [model](/ai-coding-dictionary/model) that turns it into an [agent](/ai-coding-dictionary/agent): [tools](/ai-coding-dictionary/tool), [system prompt](/ai-coding-dictionary/system-prompt), [context-window management](/ai-coding-dictionary/context-window), permissions, hooks. **Claude.ai** and **Claude Code** run on the same model but behave differently because their harnesses differ.\n\nThe model itself only does one thing: take text in, produce text out. It can't read a file, run a command, or remember the last [turn](/ai-coding-dictionary/turn). The harness supplies all of that. It assembles the [context](/ai-coding-dictionary/context) for each [model provider request](/ai-coding-dictionary/model-provider-request), executes the [tool calls](/ai-coding-dictionary/tool-call) the model asks for, feeds the [tool results](/ai-coding-dictionary/tool-result) back in, stores the [session](/ai-coding-dictionary/session) history, asks you for permission before risky actions, and decides when to [compact](/ai-coding-dictionary/compaction). The agent loop — model proposes, harness executes, repeat — is run by the harness."
+        }
+      ]
+    },
+    {
+      "sourceId": "dict-input-tokens",
+      "path": "content/source/ai-coding-dictionary/input-tokens.md",
+      "sha256": "55df0f6aad4431ace13fa43f988ad20da700dc70cc4ab461a8a4045ed542aa78",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "[Tokens](/ai-coding-dictionary/token) the [harness](/ai-coding-dictionary/harness) sends on each [model provider request](/ai-coding-dictionary/model-provider-request) — the [system prompt](/ai-coding-dictionary/system-prompt), the conversation history, [tool results](/ai-coding-dictionary/tool-result), everything the [model](/ai-coding-dictionary/model) reads before it writes. Billed at a lower rate than [output tokens](/ai-coding-dictionary/output-tokens), because they are less expensive to process than output tokens."
+        }
+      ]
+    },
+    {
+      "sourceId": "dict-model",
+      "path": "content/source/ai-coding-dictionary/model.md",
+      "sha256": "2f8764a5e8a7a1c851edb9552d2b6a0c2b2bf8cd2a88e5cffa364a6d775f70c8",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "The [parameters](/ai-coding-dictionary/parameters). [Stateless](/ai-coding-dictionary/stateless) — does [next-token prediction](/ai-coding-dictionary/next-token-prediction) and nothing else. \"Claude Opus 4.x\" and \"GPT-5.x\" are models. On its own a model can't do anything agentic; it has to be [harnessed](/ai-coding-dictionary/harness).\n\nModels can't read files, run commands, browse the web, or remember yesterday — it takes [tokens](/ai-coding-dictionary/token) in and predicts tokens out, once per [model provider request](/ai-coding-dictionary/model-provider-request). Everything that feels like an [agent](/ai-coding-dictionary/agent) working — choosing [tools](/ai-coding-dictionary/tool), reading results, looping until the task is done — is the harness orchestrating many of those predictions in a row."
+        }
+      ]
+    },
+    {
+      "sourceId": "dict-model-provider-request",
+      "path": "content/source/ai-coding-dictionary/model-provider-request.md",
+      "sha256": "fb70131368732072e77ca0c0694665e2248606ea691dbfe4070d40e5e90acc0d",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "One round-trip from the [harness](/ai-coding-dictionary/harness) to the [model provider](/ai-coding-dictionary/model-provider). The harness sends the current [context](/ai-coding-dictionary/context); the provider returns one response (a [tool call](/ai-coding-dictionary/tool-call) or a final answer). A single user message can spawn many model provider requests if the [agent](/ai-coding-dictionary/agent) calls [tools](/ai-coding-dictionary/tool) — each [tool result](/ai-coding-dictionary/tool-result) triggers another request."
+        }
+      ]
+    },
+    {
+      "sourceId": "dict-prefix-cache",
+      "path": "content/source/ai-coding-dictionary/prefix-cache.md",
+      "sha256": "1b3aa55261ba6fa24279cef97d89074f7b9fdec0f9851077b8978bef63198e4f",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "The [provider](/ai-coding-dictionary/model-provider)-side store that lets consecutive [model provider requests](/ai-coding-dictionary/model-provider-request) skip re-processing a shared prefix. When the start of a request matches the start of a recent one — same [system prompt](/ai-coding-dictionary/system-prompt), same history up to some point — the provider reuses its prior work and bills those [tokens](/ai-coding-dictionary/token) as [cache tokens](/ai-coding-dictionary/cache-tokens) at a much lower rate.\n\nThe cache pays off because sessions grow append-only. Every request re-sends the whole history as [input tokens](/ai-coding-dictionary/input-tokens) (see that entry for why), and in a normal [session](/ai-coding-dictionary/session) the history only changes at the end — each request is the previous one plus a few new messages. The provider processes the long shared beginning once, stores the result, and picks up from where the prefix ends. Without the cache, a 50-[turn](/ai-coding-dictionary/turn) session would pay to re-process turn one fifty times."
+        }
+      ]
+    },
+    {
+      "sourceId": "dict-session",
+      "path": "content/source/ai-coding-dictionary/session.md",
+      "sha256": "5dfd296079bcb4f7f0e197961e6efecadeec44f5445d463889f23654aa2609cf",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "One bounded run of interaction with an [agent](/ai-coding-dictionary/agent). Starts empty, accumulates messages, [tool results](/ai-coding-dictionary/tool-result), and files read, and ends when [cleared](/ai-coding-dictionary/clearing), closed, or [compacted](/ai-coding-dictionary/compaction) into a fresh session. The session is what _fills_ the [context window](/ai-coding-dictionary/context-window): if the context window is the box, the session is the stuff slowly filling it up. Work too large for a single context window must be split across sessions.\n\nThe session's message history is the agent's working memory. The [model](/ai-coding-dictionary/model) is [stateless](/ai-coding-dictionary/stateless), so everything it appears to remember — what you asked for, what the tests said, what it decided three turns ago — is in the message history, re-sent with every [model provider request](/ai-coding-dictionary/model-provider-request). Whatever isn't in the session doesn't exist for the agent."
+        }
+      ]
+    },
+    {
+      "sourceId": "dict-token",
+      "path": "content/source/ai-coding-dictionary/token.md",
+      "sha256": "c7c2a3f083ea1f42b7c8c7938e386d8805b44b00889be34371aee05213c1a278",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 10,
+          "text": "The atomic unit a [model](/ai-coding-dictionary/model) reads and writes. Roughly word-sized but not exactly — common words are one token, rare or long ones split into several. [Context window](/ai-coding-dictionary/context-window) size, cost, and latency are all counted in tokens.\n\nText becomes tokens via a tokenizer: a fixed vocabulary of tens of thousands of fragments, learned before [training](/ai-coding-dictionary/training), that splits any input into a sequence of vocabulary entries. The model never sees characters or words — every piece of text is converted to tokens on the way in, and [next-token prediction](/ai-coding-dictionary/next-token-prediction) produces output one token at a time on the way out."
+        }
+      ]
+    },
+    {
+      "sourceId": "dict-tool",
+      "path": "content/source/ai-coding-dictionary/tool.md",
+      "sha256": "1b69ae4744e6ad5ca5c6d5b76d990b6ce7ec0b1f57fa74c81e8414b8a6ad20a0",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 19,
+          "text": "A function the [harness](/ai-coding-dictionary/harness) exposes for the [agent](/ai-coding-dictionary/agent) to call — Read, Write, Bash, Search. Tools are how an agent perceives and acts on the [environment](/ai-coding-dictionary/environment): it can't see the environment except through [tool results](/ai-coding-dictionary/tool-result), and can't change it except through [tool calls](/ai-coding-dictionary/tool-call). Each tool call costs an extra [model provider request](/ai-coding-dictionary/model-provider-request), since the result has to go back to the model before it can decide what to do next.\n\nTools most coding agents ship with:\n\n| Tool | What it does |\n| --- | --- |\n| Read | Returns a file's contents as a tool result |\n| Write | Creates or edits a file in the [filesystem](/ai-coding-dictionary/filesystem) |\n| Bash | Runs a shell command and returns its output |\n| Search | Finds files or text matching a pattern across the codebase |\n\nA tool is defined by three things: a name, a description of what it does, and a schema for its parameters. The harness sends these definitions to the [model](/ai-coding-dictionary/model) with every request, and the model chooses a tool the same way it produces everything else — by writing [tokens](/ai-coding-dictionary/token), in this case a structured call with arguments. The model never executes anything itself; the harness reads the call, runs the function, and sends back the result."
+        }
+      ]
+    },
+    {
+      "sourceId": "dict-turn",
+      "path": "content/source/ai-coding-dictionary/turn.md",
+      "sha256": "74da036a4d34a90f85b9814d39605717baf3d92929cf1bf88fde9cbd8a6af0e1",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 8,
+          "text": "One user message plus everything the [agent](/ai-coding-dictionary/agent) does in response, up until it yields back to the user. Contains one or more [model provider requests](/ai-coding-dictionary/model-provider-request) — many, if the agent calls [tools](/ai-coding-dictionary/tool). A clarifying question closes the turn; your reply opens the next one. The hierarchy is [session](/ai-coding-dictionary/session) **> Turn > Model provider request**."
+        }
+      ]
+    },
+    {
+      "sourceId": "dictionary-source",
+      "path": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+      "excerpts": [
+        {
+          "start": 8,
+          "end": 14,
+          "text": "The instructions the [harness](/ai-coding-dictionary/harness) prepends to every [model provider request](/ai-coding-dictionary/model-provider-request) — the [agent](/ai-coding-dictionary/agent)'s standing brief: who it is, how to behave, which [tools](/ai-coding-dictionary/tool) it can call, what conventions to follow. Usually stable across a [session](/ai-coding-dictionary/session).\n\nThe system prompt is written by the harness vendor, not by you, and in coding harnesses it's big — often tens of thousands of [tokens](/ai-coding-dictionary/token) of behavioural rules, tool descriptions, and edge-case handling, all paid as [input tokens](/ai-coding-dictionary/input-tokens) on every [turn](/ai-coding-dictionary/turn). Your own standing instructions ride along with it: files like [AGENTS.md](/ai-coding-dictionary/agents-md) are loaded next to the system prompt at the start of the session, so the [model](/ai-coding-dictionary/model) reads the vendor's brief and yours together before it ever sees your message.\n\nBecause it's identical on every request, it forms the start of the [prefix cache](/ai-coding-dictionary/prefix-cache) — which is part of why harnesses keep it fixed for a whole session rather than editing it as they go.\n\nModels are trained to prioritise the system prompt over user messages. So when an agent insists on a convention you never asked for, or formats output in a way you can't shake, it's usually obeying its system prompt — and your message is losing the argument. Some harnesses are customisable: they give you full access to the system prompt, so you can read what the agent is actually being told and change it."
+        },
+        {
+          "start": 12,
+          "end": 12,
+          "text": "Because it's identical on every request, it forms the start of the [prefix cache](/ai-coding-dictionary/prefix-cache) — which is part of why harnesses keep it fixed for a whole session rather than editing it as they go."
+        },
+        {
+          "start": 18,
+          "end": 18,
+          "text": "\"Two harnesses, same model, totally different behavior on the same prompt.\""
+        },
+        {
+          "start": 20,
+          "end": 20,
+          "text": "\"Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives.\""
+        }
+      ]
+    },
+    {
+      "sourceId": "guide-source",
+      "path": "content/source/a-complete-guide-to-agents-md.md",
+      "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "excerpts": [
+        {
+          "start": 20,
+          "end": 27,
+          "text": "An `AGENTS.md` file is a markdown file you check into Git that customizes how AI coding agents behave in your repository. It sits at the top of the conversation history, right below the system prompt.\n\nThink of it as a configuration layer between the agent's base instructions and your actual codebase. The file can contain two types of guidance:\n\n- **Personal scope**: Your commit style preferences, coding patterns you prefer\n- **Project scope**: What the project does, which package manager you use, your architecture decisions\n\nThe `AGENTS.md` file is an open standard supported by many - though not all - tools."
+        }
+      ]
+    },
+    {
+      "sourceId": "guide-translation",
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+      "excerpts": [
+        {
+          "start": 309,
+          "end": 309,
+          "text": "- **Markdown**：一种轻量级标记语言，可以用简单符号表示标题、列表、链接等格式。"
+        },
+        {
+          "start": 319,
+          "end": 319,
+          "text": "- **Prompt**：你交给 AI 的任务说明或指令文本，中文常译为“提示词”。"
+        },
+        {
+          "start": 20,
+          "end": 20,
+          "text": "`AGENTS.md` 是一个提交到 Git 仓库的 Markdown 文件，用来定制 AI 编码智能体在代码库中的行为。它位于对话历史的开头，紧接在[系统提示词](https://www.aihero.dev/ai-coding-dictionary/system-prompt)之后。系统提示词可以理解为工具在每次对话开始前，自动交给 AI 的最高优先级基础说明。"
+        }
+      ]
+    },
+    {
+      "sourceId": "learning-readme",
+      "path": "content/learning/README.md",
+      "sha256": "2f65d3c398af9e8df7fc214c0522232c81a7ede10d0ae98f8608baefbf059968",
+      "excerpts": [
+        {
+          "start": 23,
+          "end": 36,
+          "text": "### 当前两篇新样本的制作归属\n\n| 页面内容或能力 | 制作步骤及责任 |\n| --- | --- |\n| 标题、摘要、正文、正文中的中文理解版、原译稿的小词典 | Terra / medium 初译，Sol / medium 编辑后形成当前译稿。流程记录见 `reports/special-agent-token-usage.json`。没有逐句修改记录时，不能将某句错误单独归给 Terra 或 Sol。 |\n| 页首学习目标、准备条件、完成检查、相关阅读说明、词典页的一句话理解 | 当前任务的 GPT-6 Astra / xhigh 在“第一步”中新增；尚未经过另一次独立模型审核。任务记录为 `01a0a64d-34d3-7b60-8559-f70d4eadd91f`。 |\n| 当前右栏的共享术语定义、别名和概念依赖 | Astra / xhigh 根据原文及已有译稿整理；共享定义优先覆盖原词典，同义词未覆盖的条目仍来自原译稿。 |\n| 原始代码、TODO、英文对话 | 来源作者提供；代码按原样保留，Astra 在第一步中补回词典页的英文对话，校验脚本比对出处。 |\n| 目录、术语点击、抽屉、代码片段标签、页面布局 | 当前组件由 Astra / xhigh 在第一步中实现或调整；运行时由代码执行，不再调用翻译模型。交互是否符合用户要求由实现与验收负责。 |\n\n以上是两篇新样本的归属，不能把经过反复人工打磨的金标准页面整体归给某一次 Sol 调用。Sol 对原译稿的审核不覆盖后来由 Astra 新增的模块。\n\n2026-09-22：术语点击改为只显示所选词的名称与解释；再次点击其他词时替换解释，完整词典通过“查看全部术语”进入。学习提示“先看懂也可以”改为“先了解练习流程”。内容校验、类型检查及构建通过。浏览器连接恢复后，已补完桌面与手机的实际点击和截图复核；单项解释、搜索切换、完整词典入口、正文链接样式及编号检查卡片通过，详见 `reports/learning-step1-acceptance.md`。这些结果仅覆盖本轮修正，不代表整篇翻译或零基础教学质量整体通过。\n"
+        }
+      ]
+    }
+  ],
+  "template": {
+    "required": [
+      "conceptIds",
+      "prerequisiteIds",
+      "prerequisiteRationale",
+      "sourceReading",
+      "articleSpecific",
+      "reviewFocus",
+      "translationSourceId",
+      "oneSentenceDefinition",
+      "distinctions",
+      "originalExampleRefs"
+    ],
+    "guidance": "一句话定义、必要区别、原始用法及少量相关概念。原例与中文理解相邻。",
+    "omit": "不强加项目准备、学习目标卡、动手作业和运行自检；无原始示例时不为凑模板编造。"
+  },
+  "gates": [
+    {
+      "id": "G0",
+      "name": "输入与共享依据就绪",
+      "owner": "资产生产者/任务装配者",
+      "dimensions": [
+        "完整性与结构",
+        "术语一致性与可用性",
+        "内容清洗与来源边界",
+        "内容类型适配"
+      ],
+      "minimum": [
+        "来源哈希与文章ID有效",
+        "类型已确认且必要先备有依据",
+        "源缺失、版本冲突和未决事实显式入包"
+      ],
+      "stop": "可装配输入；未决项只能在保留标注的阅读/审核任务中流转，不能据此批准发布。"
+    },
+    {
+      "id": "G1",
+      "name": "正文与新增辅助语义审查",
+      "owner": "初翻负责正文完整；编校对照原文；辅助作者与语义审核者对新增内容负责",
+      "dimensions": [
+        "忠实度：事实、条件、语气",
+        "完整性与结构",
+        "中文自然度",
+        "零基础可理解性",
+        "教学组织",
+        "原始示例保真",
+        "示例解释与练习边界",
+        "术语一致性与可用性",
+        "内容清洗与来源边界",
+        "内容类型适配",
+        "辅助内容准确性"
+      ],
+      "minimum": [
+        "事实、条件、语气、有效内容与结构无实质遗漏或改变",
+        "原始代码/Prompt/配置/输入输出完整保留；中文理解明确分层",
+        "术语定义与本篇使用一致，必要背景足够，不增编任务答案",
+        "每段新增辅助有来源与修改后审核记录；翻译已审不能覆盖后来新增内容"
+      ],
+      "stop": "不存在改变事实/操作/学习结论的未解决问题时，可按“自然度不妨碍理解”结束本轮中间处理并转交G2；此条件只代表中间阶段可停止，不代表最终等质量通过。最终中文自然度和零基础可理解性仍须按冻结金标准质量水平审查。非阻断问题登记，复用未受影响证据，只处理实质差距，不展开逐维度模型链或无限润色。"
+    },
+    {
+      "id": "G2",
+      "name": "最终整页验收",
+      "owner": "页面实现者与验收者；治理决定放行",
+      "dimensions": [
+        "忠实度：事实、条件、语气",
+        "完整性与结构",
+        "中文自然度",
+        "零基础可理解性",
+        "教学组织",
+        "原始示例保真",
+        "示例解释与练习边界",
+        "术语一致性与可用性",
+        "内容清洗与来源边界",
+        "页面阅读体验",
+        "内容类型适配",
+        "辅助内容准确性"
+      ],
+      "minimum": [
+        "整页对照来源、正文、辅助版本确认内容未丢失/重复/错挂",
+        "桌面与窄屏验证目录、链接、术语入口、搜索/切换、代码可读及空内容说明",
+        "零基础读者能区分原例、中文理解、TODO和完成条件",
+        "有运行要求的课程须另有环境与运行证据；阅读版与可运行版分别结论",
+        "以冻结的金标准质量水平和同一12维度评判完整成品；中文自然度与零基础可理解性不能仅因机械检查通过或不妨碍基本理解自动PASS。",
+        "金标准是质量参照，不保证其中每条事实正确；来源疑点分别核对。不同内容类型采用对应教学结构，不机械套用指南版式。"
+      ],
+      "stop": "只有完整成品在同一12维度达到冻结金标准相应质量水平并有适用的验收证据，才可最终等质量放行。中文自然度、零基础可理解性须基于成品实际表现判断；机械通过或仅能基本看懂不足以PASS。适用而未验证或存在实质差距的维度保持PARTIAL/HOLD；不适用项说明理由。复用未受影响证据，仅处理实质差距，不要求逐维度新增模型或无限润色。",
+      "qualityReference": {
+        "sourceId": "guide-translation",
+        "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+        "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+        "role": "frozen quality-level reference, not factual authority or universal layout"
+      }
+    }
+  ],
+  "qualityDimensions": [
+    "忠实度：事实、条件、语气",
+    "完整性与结构",
+    "中文自然度",
+    "零基础可理解性",
+    "教学组织",
+    "原始示例保真",
+    "示例解释与练习边界",
+    "术语一致性与可用性",
+    "内容清洗与来源边界",
+    "页面阅读体验",
+    "内容类型适配",
+    "辅助内容准确性"
+  ],
+  "productionRules": {
+    "layers": {
+      "source": "原文事实、观点、条件、顺序和原例是保真基准；发现源错误登记，不暗改。",
+      "translation": "完整翻译并自然表达；保留 frontmatter slug/type/tags/updatedAt、有效链接、表格、MDX语义；清除纯促销需留下理由。",
+      "learningAid": "中文新增定义、提示、比较、自检单独标注并追溯证据；不冒充原文，不填练习答案，新增即纳入语义审核。",
+      "presentation": "装配正确版本并保证可读、可达、无重复；页面行为测试不能证明内容事实正确。"
+    },
+    "reuse": "先按文章ID取得 profile、共享概念依赖闭包、类型模板、完整本篇原文及必要证据片段。无人工确认 profile 的文章只可生成候选索引，不自动投入翻译。",
+    "stopPolicy": "G0→G1→G2为三个阶段，12维度作为同一份检查记录的标签。G1的基本可理解条件仅用于中间交接，不是最终放行标准；G2按冻结金标准质量水平判完整成品。复用未受影响证据，只修实质差距，不为各维度另加模型或无限润色。",
+    "changeReview": {
+      "localWording": "只改变措辞且语义、ID、引用未变：复核改动句及上下文；页面显示变更再复核实际区域。",
+      "sharedMeaning": "共享定义、别名、依赖变化：查 concepts.dependsOn 与 articles.conceptIds/prerequisiteIds 的反向传递引用；复核受影响文章和任务包，重生成。全站词法命中仅用于发现潜在遗漏。",
+      "sourceChange": "源哈希变化先审差异，复核引用该 sourceId 的定义、片段、正文与辅助；不能只更新哈希。",
+      "templateOrRenderer": "模板改变检查使用该模板的文章；渲染公共能力变化检查所有受影响页面与代表视口，不因一页通过而泛化。"
+    },
+    "compatibility": "本资产尚未接入 lib/article-learning.ts，后者仍读取旧 pilot-knowledge.json。新增规则与旧 TRANSLATION_SPEC 的固定 Terra→Sol 不一致之处由治理在试验时明确选择；本轮不修改旧规则。"
+  },
+  "riskPolicy": {
+    "status": "proposed-routing; not authorized execution",
+    "basis": [
+      "源文完整性和内部矛盾",
+      "版本/API及运行环境依赖",
+      "原例/MDX结构复杂性",
+      "新增辅助量与跨文定义影响",
+      "短文也可能有术语密度和范围风险"
+    ],
+    "levels": {
+      "low": "已确认类型、来源完整、少量已审术语且无新事实：候选单次生产加统一语义检查；是否足够须等质量试验。",
+      "medium": "密集新术语、原例/清洗边界或新增辅助：安排对照编校，模型组合由试验确定。",
+      "high": "版本冲突、缺源、运行环境或共享定义语义变更：先核实具体疑点，未解则保持HOLD，不盲目追加模型。"
+    },
+    "sampleAssignments": {
+      "/a-complete-guide-to-agents-md": "medium: 金标准需单独审后加辅助与工具范围",
+      "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k": "high: 版本疑点+TODO+环境缺口",
+      "/ai-coding-dictionary/system-prompt": "medium: 短文但系统指令/缓存范围敏感"
+    }
+  },
+  "unresolved": [
+    {
+      "id": "F-system-scope",
+      "status": "scoped-in-new-asset; existing-pages-unmodified",
+      "confidence": "high",
+      "articleIds": [
+        "/a-complete-guide-to-agents-md",
+        "/ai-coding-dictionary/system-prompt"
+      ],
+      "evidence": [
+        {
+          "sourceId": "dictionary-source",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "sourceId": "guide-translation",
+          "start": 20,
+          "end": 20
+        }
+      ],
+      "observation": "指南译文增加“最高优先级基础说明”；词条原文只明确相对用户消息的优先级，且说明部分框架可自定义。",
+      "action": "共享定义不沿用最高优先级/只能厂商编写等绝对表述；旧金标准及页面差异交治理决定是否安排局部复核。"
+    },
+    {
+      "id": "F-aid-ownership",
+      "status": "review-boundary-recorded",
+      "confidence": "high",
+      "articleIds": [
+        "/a-complete-guide-to-agents-md",
+        "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+        "/ai-coding-dictionary/system-prompt"
+      ],
+      "evidence": [
+        {
+          "sourceId": "learning-readme",
+          "start": 23,
+          "end": 36
+        }
+      ],
+      "observation": "既有辅助由来源任务 Astra/xhigh 后加，不在之前 Sol 编校范围；本轮生产者核对不等于独立语义验收。",
+      "action": "后续审核包含正文与当时实际装配的所有新增辅助，按资产哈希锁定。"
+    }
+  ],
+  "outputContract": {
+    "required": [
+      "articleId + sourceSha256 + knowledgeSha256",
+      "正文、中文辅助分开的可审查产物",
+      "保留的原例及清洗记录",
+      "新增/冲突术语及证据",
+      "G0/G1/G2统一12维度状态与未决项",
+      "实际使用量及累计/增量口径"
+    ],
+    "statusValues": [
+      "PASS",
+      "PARTIAL",
+      "HOLD",
+      "NOT_APPLICABLE_WITH_REASON"
+    ],
+    "staticPackageGuarantees": [
+      "完整本篇原文按哈希固定",
+      "概念依赖闭包、类型必需字段、来源片段可确定性装配"
+    ],
+    "notImplemented": [
+      "自动生产调度",
+      "模型调用",
+      "页面资产适配",
+      "语义自动批准",
+      "逐请求成本采集"
+    ]
+  }
+}

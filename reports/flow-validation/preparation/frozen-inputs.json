@@ -1,0 +1,410 @@
+{
+  "version": 1,
+  "records": [
+    {
+      "path": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sha256": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/pilots/estimate-special/sol-medium/ai-coding-dictionary/system-prompt.md",
+      "sha256": "62fae0df896f51c954bfa75d5046994cf78582d77cc70fb6d8c387c93d1533af",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/pilots/estimate-special/sol-medium/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sha256": "16ee8dcba4363b5950861cc317a0d671137ed535dd2d19b6d9081e0861257548",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/pilots/estimate/TRANSLATION_SPEC.md",
+      "sha256": "e329b72a34915933438a1b5cf8e9ed0a3a6f489487e3aad0d48a62b7c21fde9d",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/glossary.json",
+      "sha256": "4154945dfb1eb15c862bfccc4466e9cf096f5c46ef96e33c954dce31001f45e7",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/learning/shared/knowledge.json",
+      "sha256": "62600bf7767c530f687e89f28da0c882e32d7217ce3464787efbe8b0bc8ce6c0",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/learning/shared/task-execution-dictionary.json",
+      "sha256": "6d97383ee43b915df6b47f50e277ea5f2182330097cae66db4193a892d030825",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/learning/shared/task-execution-workshop.json",
+      "sha256": "4fe34093d69fdec20efb071accdb5286c5e6b31e488ee3b39101c352f6cfe2d2",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/learning/shared/content-map.json",
+      "sha256": "d03b52ee70b32bf9221927e3fc3556a438e99b0a09a60afe5d7f722fe535db95",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/learning/pilot-knowledge.json",
+      "sha256": "f4543b1d1c18489735a393021a5079c5222c750c17bfdb45c68529aab9a58fa2",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "d5e618ecd46d45cf9f72b21a0d39841543e0dc36dfd43787c62fe6d22bf58cad",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "scripts/measure-special-agent-usage.mjs",
+      "sha256": "0a6f5b7334e37fc751f6f095d4188f8725fb4b171b1d71aaaa972ac11efd6494",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "components/article-learning-guide.tsx",
+      "sha256": "4afa5857862e4089ac17b84f63062ca75475fef0257f88f2fac4ad68410e371d",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "components/article-learning-tools.tsx",
+      "sha256": "ea383498789c2d8e202d953d9233f16992f7c4e06bfa846df02095b2017c80e8",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "components/localized-markdown.tsx",
+      "sha256": "e85e2718b169cedd7d86485feb1d91c57dacfb5d9e89d6ffae227b4e5ecc12b2",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "components/copy-code-button.tsx",
+      "sha256": "cfdf3fe9812b73e6155ac4911de59dcfb3f09001361eedfa3643aea7fd53a81f",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "components/ui/sheet.tsx",
+      "sha256": "34aafc5aeb89041f7d342d37ec178e1539946f40b8018d8b88f62132029827e1",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "sha256": "081d2a1cb4f3aec636a6894d9eff4e90d476d5db85b82d0399c1f4d18517112e",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "lib/utils.ts",
+      "sha256": "9304a861c8673bee09e0f12de31773abbde503b02e59dfd74763ddec2e37cf05",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "lib/article-structure.ts",
+      "sha256": "bd30685d21587cff63ad56f8436aa9c7d86df8c150ea70b90aa4e91ac7e5ec75",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "lib/article-links.ts",
+      "sha256": "883a0e1b82a76cf039dcc8135601ce0c7ffa2ddcb749a1769b899f3db4a429fa",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "lib/article-learning.ts",
+      "sha256": "8286f80642e7b57a572ece77460a0fe58fce8d91810eafcab0fb7f5575e47bf4",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "components/localized-article.tsx",
+      "sha256": "45b07e72eabffe334427ac1435a77f8ec248bb0f34644c4f0e484b0b08603043",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "app/globals.css",
+      "sha256": "1be810f94b6e9f317b2c30bff41f2fdd815dc2585ceea9740a7efe016de3dc3a",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "app/layout.tsx",
+      "sha256": "6a8f46eb6ded6a7869a7120a4411ba5fc6cf3a7bd71896c17f29fab2e9c6ff98",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "package.json",
+      "sha256": "179bdd9ae069479c40cd77781dbeb975571574f14bd4e0a0ba7c7ab6befaa4c3",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "c35edb8623907be9046215c99190781c1cff9fcb045ba7d0ffb3d4d17e3f5417",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "81aca06cd76be09d9b65c7dff6a031c38664263b506ea792a28f36b17be25f2a",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "3c028e727dde6c92022197ba7241a424ccd1e3d335f1f46cc9bbf91a8a3a968c",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "d063bebef3a4878ae82f9f9547c2c9675b8b6945ab23702932dcb63a011a9fc9",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/common/contract.json",
+      "sha256": "356353c67605c08e93c68d09c6aa93b6e7f50ce60f07167e13a63f95eb7434f6",
+      "access": "both-routes"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/common/issues.json",
+      "sha256": "2184956954412a0b39bfb66acc70ebd09a215308112ab8caa628a817f6e62f9b",
+      "access": "both-routes"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/common/learning.schema.json",
+      "sha256": "b1160e7cd9aa4b28d4eec2b255966061045f677e9a5772e42f9aa22b97107c8c",
+      "access": "both-routes"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/common/stage.schema.json",
+      "sha256": "b810ba8016b335bceb6f56de75fccfdeea887f3512abc4be0657934c6f40363a",
+      "access": "both-routes"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/common/dictionary.md",
+      "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+      "access": "both-routes"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/common/workshop.md",
+      "sha256": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+      "access": "both-routes"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md",
+      "sha256": "e329b72a34915933438a1b5cf8e9ed0a3a6f489487e3aad0d48a62b7c21fde9d",
+      "access": "both-routes"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/common/glossary.json",
+      "sha256": "4154945dfb1eb15c862bfccc4466e9cf096f5c46ef96e33c954dce31001f45e7",
+      "access": "both-routes"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/B/dictionary.json",
+      "sha256": "0045fc5c8c1684e3925c1ff1b9245386186f7ac5ff2c5c92597b38ca45c00074",
+      "access": "B-only"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/B/workshop.json",
+      "sha256": "ab3350c6fa237678aba53feaa72f012b01147cef8d999c640be3d8cdaf28073f",
+      "access": "B-only"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/A/draft.md",
+      "sha256": "485f3c01b403f5942554d9199f84dcc03dcf9dba990ed246d39bd28d614f2433",
+      "access": "assigned-task-only"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/A/edited.md",
+      "sha256": "ed0de68331473a50def44c697ecf0a3174fc902d09901660ec51ae9f14507578",
+      "access": "assigned-task-only"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/B/draft.md",
+      "sha256": "42f343e43169ee45241a49df8eac1fa5c0911ead7da92311950e74a526ba789e",
+      "access": "assigned-task-only"
+    },
+    {
+      "path": "content/pilots/flow-validation/inputs/B/edited.md",
+      "sha256": "5a3b0b604ecaf50d1e74585ea07d852c1e77b237acb2cb1d0a4dc4c608bca6da",
+      "access": "assigned-task-only"
+    },
+    {
+      "path": "scripts/flow-validation/measure.mjs",
+      "sha256": "456be7e614db2cd92819ade882cb27db7b4f7702e52f00ccc7a76ea74c082fcb",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "scripts/flow-validation/validate.mjs",
+      "sha256": "fb7dcefd1df4c288b95a6811513c38975222580161532da77a6c2dd40acf9ddb",
+      "access": "both-routes-executable"
+    },
+    {
+      "path": "scripts/flow-validation/prepare.mjs",
+      "sha256": "d0a0b15f6985a772e02c193ded1666d433bcb874cbd47f8d6f3ac6d608c9bce8",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "scripts/flow-validation/self-check.mjs",
+      "sha256": "32ea11b37db39dd2606128393fbc4d15a56326dd68fd39e9bcd2a960b0951c19",
+      "access": "preparation-governance-only"
+    },
+    {
+      "path": "reports/flow-validation/preparation/official-version-evidence.json",
+      "sha256": "cb65cd88061021ebe857169a9973d0cd4fca4f20de264c4941372ecce68cd88c",
+      "access": "preparation-governance-only"
+    }
+  ],
+  "tasks": [
+    {
+      "route": "A",
+      "stage": "draft",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "instruction": "content/pilots/flow-validation/inputs/A/draft.md",
+      "readWhitelist": [
+        "content/pilots/flow-validation/inputs/A/draft.md",
+        "content/pilots/flow-validation/inputs/common/contract.json",
+        "content/pilots/flow-validation/inputs/common/issues.json",
+        "content/pilots/flow-validation/inputs/common/learning.schema.json",
+        "content/pilots/flow-validation/inputs/common/stage.schema.json",
+        "content/pilots/flow-validation/inputs/common/dictionary.md",
+        "content/pilots/flow-validation/inputs/common/workshop.md",
+        "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md",
+        "content/pilots/flow-validation/inputs/common/glossary.json",
+        "scripts/flow-validation/validate.mjs"
+      ],
+      "writeFiles": [
+        "content/pilots/flow-validation/A/draft/dictionary.md",
+        "content/pilots/flow-validation/A/draft/dictionary.learning.json",
+        "content/pilots/flow-validation/A/draft/workshop.md",
+        "content/pilots/flow-validation/A/draft/workshop.learning.json",
+        "content/pilots/flow-validation/A/draft/stage.json"
+      ],
+      "prerequisite": null
+    },
+    {
+      "route": "A",
+      "stage": "edited",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "instruction": "content/pilots/flow-validation/inputs/A/edited.md",
+      "readWhitelist": [
+        "content/pilots/flow-validation/inputs/A/edited.md",
+        "content/pilots/flow-validation/inputs/common/contract.json",
+        "content/pilots/flow-validation/inputs/common/issues.json",
+        "content/pilots/flow-validation/inputs/common/learning.schema.json",
+        "content/pilots/flow-validation/inputs/common/stage.schema.json",
+        "content/pilots/flow-validation/inputs/common/dictionary.md",
+        "content/pilots/flow-validation/inputs/common/workshop.md",
+        "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md",
+        "content/pilots/flow-validation/inputs/common/glossary.json",
+        "scripts/flow-validation/validate.mjs",
+        "content/pilots/flow-validation/A/draft/dictionary.md",
+        "content/pilots/flow-validation/A/draft/dictionary.learning.json",
+        "content/pilots/flow-validation/A/draft/workshop.md",
+        "content/pilots/flow-validation/A/draft/workshop.learning.json",
+        "content/pilots/flow-validation/A/draft/stage.json"
+      ],
+      "writeFiles": [
+        "content/pilots/flow-validation/A/edited/dictionary.md",
+        "content/pilots/flow-validation/A/edited/dictionary.learning.json",
+        "content/pilots/flow-validation/A/edited/workshop.md",
+        "content/pilots/flow-validation/A/edited/workshop.learning.json",
+        "content/pilots/flow-validation/A/edited/stage.json"
+      ],
+      "prerequisite": "A/draft completion and governance review"
+    },
+    {
+      "route": "B",
+      "stage": "draft",
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "instruction": "content/pilots/flow-validation/inputs/B/draft.md",
+      "readWhitelist": [
+        "content/pilots/flow-validation/inputs/B/draft.md",
+        "content/pilots/flow-validation/inputs/common/contract.json",
+        "content/pilots/flow-validation/inputs/common/issues.json",
+        "content/pilots/flow-validation/inputs/common/learning.schema.json",
+        "content/pilots/flow-validation/inputs/common/stage.schema.json",
+        "content/pilots/flow-validation/inputs/common/dictionary.md",
+        "content/pilots/flow-validation/inputs/common/workshop.md",
+        "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md",
+        "content/pilots/flow-validation/inputs/common/glossary.json",
+        "scripts/flow-validation/validate.mjs",
+        "content/pilots/flow-validation/inputs/B/dictionary.json",
+        "content/pilots/flow-validation/inputs/B/workshop.json"
+      ],
+      "writeFiles": [
+        "content/pilots/flow-validation/B/draft/dictionary.md",
+        "content/pilots/flow-validation/B/draft/dictionary.learning.json",
+        "content/pilots/flow-validation/B/draft/workshop.md",
+        "content/pilots/flow-validation/B/draft/workshop.learning.json",
+        "content/pilots/flow-validation/B/draft/stage.json"
+      ],
+      "prerequisite": null
+    },
+    {
+      "route": "B",
+      "stage": "edited",
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "instruction": "content/pilots/flow-validation/inputs/B/edited.md",
+      "readWhitelist": [
+        "content/pilots/flow-validation/inputs/B/edited.md",
+        "content/pilots/flow-validation/inputs/common/contract.json",
+        "content/pilots/flow-validation/inputs/common/issues.json",
+        "content/pilots/flow-validation/inputs/common/learning.schema.json",
+        "content/pilots/flow-validation/inputs/common/stage.schema.json",
+        "content/pilots/flow-validation/inputs/common/dictionary.md",
+        "content/pilots/flow-validation/inputs/common/workshop.md",
+        "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md",
+        "content/pilots/flow-validation/inputs/common/glossary.json",
+        "scripts/flow-validation/validate.mjs",
+        "content/pilots/flow-validation/inputs/B/dictionary.json",
+        "content/pilots/flow-validation/inputs/B/workshop.json",
+        "content/pilots/flow-validation/B/draft/dictionary.md",
+        "content/pilots/flow-validation/B/draft/dictionary.learning.json",
+        "content/pilots/flow-validation/B/draft/workshop.md",
+        "content/pilots/flow-validation/B/draft/workshop.learning.json",
+        "content/pilots/flow-validation/B/draft/stage.json"
+      ],
+      "writeFiles": [
+        "content/pilots/flow-validation/B/edited/dictionary.md",
+        "content/pilots/flow-validation/B/edited/dictionary.learning.json",
+        "content/pilots/flow-validation/B/edited/workshop.md",
+        "content/pilots/flow-validation/B/edited/workshop.learning.json",
+        "content/pilots/flow-validation/B/edited/stage.json"
+      ],
+      "prerequisite": "B/draft completion and governance review"
+    }
+  ],
+  "samples": [
+    {
+      "key": "dictionary",
+      "id": "/ai-coding-dictionary/system-prompt",
+      "kind": "dictionary",
+      "original": "content/source/ai-coding-dictionary/system-prompt.md",
+      "file": "content/pilots/flow-validation/inputs/common/dictionary.md",
+      "status": "READY"
+    },
+    {
+      "key": "workshop",
+      "id": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "kind": "workshop-lesson",
+      "original": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "file": "content/pilots/flow-validation/inputs/common/workshop.md",
+      "status": "HOLD"
+    }
+  ],
+  "order": "A/draft→A/edited；B/draft→B/edited。两路可独立进行；每任务同序dictionary→workshop，HOLD样本跳过并记录，不擅自增任务。",
+  "isolation": "Whitelist and separate fresh task contexts; shared filesystem is not an OS security sandbox. No claim of strict experimental independence.",
+  "goldStandard": "Frozen for governance only; never included in producer whitelist.",
+  "unknownHistoricalCosts": [
+    "prior global UI rework",
+    "governance task cost"
+  ],
+  "preparationOwner": "01a0c8af-4072-7ce2-ae61-8d7510c98934"
+}

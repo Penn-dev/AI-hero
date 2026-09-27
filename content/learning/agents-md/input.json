@@ -1,0 +1,1262 @@
+{
+  "version": 1,
+  "articleId": "/a-complete-guide-to-agents-md",
+  "readiness": {
+    "gate": "G0",
+    "status": "PASS",
+    "meaning": "Input is ready for bounded article production or review. This does not approve the translation, learning aids, rendered page, or publication."
+  },
+  "source": {
+    "path": "content/source/a-complete-guide-to-agents-md.md",
+    "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+    "text": "---\ntitle: \"A Complete Guide To AGENTS.md\"\nslug: \"a-complete-guide-to-agents-md\"\ntype: \"post\"\ndescription: \"Learn how to optimize your AGENTS.md file for AI coding agents. Master progressive disclosure, keep instructions focused, and maximize agent performance.\"\ntags:\n  - set-up-your-agent\n  - code-with-ai-agents\nupdatedAt: \"2026-01-18T15:01:44.364Z\"\n---\n\nHave you ever felt concerned about the size of your `AGENTS.md` file?\n\nMaybe you should be. A bad `AGENTS.md` file can confuse your agent, become a maintenance nightmare, and cost you tokens on every request.\n\nSo you'd better know how to fix it.\n\n## What is AGENTS.md?\n\nAn `AGENTS.md` file is a markdown file you check into Git that customizes how AI coding agents behave in your repository. It sits at the top of the conversation history, right below the system prompt.\n\nThink of it as a configuration layer between the agent's base instructions and your actual codebase. The file can contain two types of guidance:\n\n- **Personal scope**: Your commit style preferences, coding patterns you prefer\n- **Project scope**: What the project does, which package manager you use, your architecture decisions\n\nThe `AGENTS.md` file is an open standard supported by many - though not all - tools.\n\n<details>\n  <summary>CLAUDE.md</summary>\n\nNotably, Claude Code doesn't use `AGENTS.md` - it uses `CLAUDE.md` instead. You can symlink between them to keep all your tools working the same way:\n\n```bash\n# Create a symlink from AGENTS.md to CLAUDE.md\nln -s AGENTS.md CLAUDE.md\n```\n\n</details>\n\n## Why Massive `AGENTS.md` Files are a Problem\n\nThere's a natural feedback loop that causes `AGENTS.md` files to grow dangerously large:\n\n1. The agent does something you don't like\n2. You add a rule to prevent it\n3. Repeat hundreds of times over months\n4. File becomes a \"ball of mud\"\n\nDifferent developers add conflicting opinions. Nobody does a full style pass. The result? An unmaintainable mess that actually hurts agent performance.\n\nAnother culprit: auto-generated `AGENTS.md` files. Never use initialization scripts to auto-generate your `AGENTS.md`. They flood the file with things that are \"useful for most scenarios\" but would be better progressively disclosed. Generated files prioritize comprehensiveness over restraint.\n\n### The Instruction Budget\n\nKyle from Humanlayer's [article](https://www.humanlayer.dev/blog/writing-a-good-claude-md) mentions the concept of an \"instruction budget\":\n\n> Frontier thinking LLMs can follow ~ 150-200 instructions with reasonable consistency. Smaller models can attend to fewer instructions than larger models, and non-thinking models can attend to fewer instructions than thinking models.\n\nEvery token in your `AGENTS.md` file gets loaded on **every single request**, regardless of whether it's relevant. This creates a hard budget problem:\n\n| Scenario                   | Impact                                                |\n| -------------------------- | ----------------------------------------------------- |\n| Small, focused `AGENTS.md` | More tokens available for task-specific instructions  |\n| Large, bloated `AGENTS.md` | Fewer tokens for the actual work; agent gets confused |\n| Irrelevant instructions    | Token waste + agent distraction = worse performance   |\n\nTaken together, this means that **the ideal `AGENTS.md` file should be as small as possible.**\n\n### Stale Documentation Poisons Context\n\nAnother issue for large `AGENTS.md` files is staleness.\n\nDocumentation goes out of date quickly. For human developers, stale docs are annoying, but the human usually has enough built-in memory to be skeptical about bad docs. For AI agents that read documentation on every request, stale information actively _poisons_ the context.\n\nThis is especially dangerous when you document file system structure. File paths change constantly. If your `AGENTS.md` says \"authentication logic lives in `src/auth/handlers.ts`\" and that file gets renamed or moved, the agent will confidently look in the wrong place.\n\nInstead of documenting structure, describe capabilities. Give hints about where things _might_ be and the overall shape of the project. Let the agent generate its own just-in-time documentation during planning.\n\nDomain concepts (like \"organization\" vs \"group\" vs \"workspace\") are more stable than file paths, so they're safer to document. But even these can drift in fast-moving AI-assisted codebases. Keep a light touch.\n\n## Cutting Down Large `AGENTS.md` Files\n\nBe ruthless about what goes here. Consider this the absolute minimum:\n\n- **One-sentence project description** (acts like a role-based prompt)\n- **Package manager** (if not npm; or use `corepack` for warnings)\n- **Build/typecheck commands** (if non-standard)\n\nThat's honestly it. Everything else should go elsewhere.\n\n### The One-Liner Project Description\n\nThis single sentence gives the agent context about _why_ they're working in this repository. It anchors every decision they make.\n\nExample:\n\n```markdown\nThis is a React component library for accessible data visualization.\n```\n\nThat's the foundation. The agent now understands its scope.\n\n### Package Manager Specification\n\nIf you're In a JavaScript project and using anything other than npm, tell the agent explicitly:\n\n```markdown\nThis project uses pnpm workspaces.\n```\n\nWithout this, the agent might default to `npm` and generate incorrect commands.\n\n<details>\n  <summary>Corepack is also great</summary>\nYou could also use [`corepack`](https://github.com/nodejs/corepack) to let the system handle warnings automatically, saving you precious instruction budget.\n</details>\n\n### Use Progressive Disclosure\n\nInstead of cramming everything into `AGENTS.md`, use **progressive disclosure**: give the agent only what it needs right now, and point it to other resources when needed.\n\nAgents are fast at navigating documentation hierarchies. They understand context well enough to find what they need.\n\n#### Move Language-Specific Rules to Separate Files\n\nIf your `AGENTS.md` currently says:\n\n```markdown\nAlways use const instead of let.\nNever use var.\nUse interface instead of type when possible.\nUse strict null checks.\n...\n```\n\nMove that to a separate file instead. In your root `AGENTS.md`:\n\n```markdown\nFor TypeScript conventions, see docs/TYPESCRIPT.md\n```\n\nNotice the light touch, no \"always,\" no all-caps forcing. Just a conversational reference.\n\nThe benefits:\n\n- TypeScript rules only load when the agent writes TypeScript\n- Other tasks (CSS debugging, dependency management) don't waste tokens\n- File stays focused and portable across model changes\n\n#### Nest Progressive Disclosure\n\nYou can go even deeper. Your `docs/TYPESCRIPT.md` can reference `docs/TESTING.md`. Create a discoverable resource tree:\n\n```\ndocs/\n├── TYPESCRIPT.md\n│   └── references TESTING.md\n├── TESTING.md\n│   └── references specific test runners\n└── BUILD.md\n    └── references esbuild configuration\n```\n\nYou can even link to external resources, Prisma docs, Next.js docs, etc. The agent will navigate these hierarchies efficiently.\n\n#### Use Agent Skills\n\nMany tools support \"agent skills\" - commands or workflows the agent can invoke to learn how to do something specific. These are another form of progressive disclosure: the agent pulls in knowledge only when needed.\n\nWe'll cover agent skills in-depth in a separate article.\n\n\n<SkillsCta\n\theading=\"A great AGENTS.md is step one\"\n\tsubtitle=\"See the skills I run on top of mine to turn that file into shipped work.\"\n\tcta=\"See the skill set\"\n/>\n\n## `AGENTS.md` in Monorepos\n\nYou're not limited to a single `AGENTS.md` at the root. You can place `AGENTS.md` files in subdirectories, and they **merge with the root level**.\n\nThis is powerful for monorepos:\n\n### What Goes Where\n\n| Level       | Content                                                                    |\n| ----------- | -------------------------------------------------------------------------- |\n| **Root**    | Monorepo purpose, how to navigate packages, shared tools (pnpm workspaces) |\n| **Package** | Package purpose, specific tech stack, package-specific conventions         |\n\nRoot `AGENTS.md`:\n\n```markdown\nThis is a monorepo containing web services and CLI tools.\nUse pnpm workspaces to manage dependencies.\nSee each package's AGENTS.md for specific guidelines.\n```\n\nPackage-level `AGENTS.md` (in `packages/api/AGENTS.md`):\n\n```markdown\nThis package is a Node.js GraphQL API using Prisma.\nFollow docs/API_CONVENTIONS.md for API design patterns.\n```\n\n**Don't overload any level.** The agent sees all merged `AGENTS.md` files in its context. Keep each level focused on what's relevant at that scope.\n\n## Fix A Broken `AGENTS.md` With This Prompt\n\nIf you're starting to get nervous about the `AGENTS.md` file in your repo, and you want to refactor it to use progressive disclosure, try copy-pasting this prompt into your coding agent:\n\n```txt\nI want you to refactor my AGENTS.md file to follow progressive disclosure principles.\n\nFollow these steps:\n\n1. **Find contradictions**: Identify any instructions that conflict with each other. For each contradiction, ask me which version I want to keep.\n\n2. **Identify the essentials**: Extract only what belongs in the root AGENTS.md:\n   - One-sentence project description\n   - Package manager (if not npm)\n   - Non-standard build/typecheck commands\n   - Anything truly relevant to every single task\n\n3. **Group the rest**: Organize remaining instructions into logical categories (e.g., TypeScript conventions, testing patterns, API design, Git workflow). For each group, create a separate markdown file.\n\n4. **Create the file structure**: Output:\n   - A minimal root AGENTS.md with markdown links to the separate files\n   - Each separate file with its relevant instructions\n   - A suggested docs/ folder structure\n\n5. **Flag for deletion**: Identify any instructions that are:\n   - Redundant (the agent already knows this)\n   - Too vague to be actionable\n   - Overly obvious (like \"write clean code\")\n```\n\n\n<SkillsNewsletterCta\n\theading=\"Get the next AGENTS.md upgrade in your inbox\"\n\tsubtitle=\"Skill posts and changelog notes when Matt sharpens what his agents read.\"\n/>\n\n## Don't Build A Ball Of Mud\n\nWhen you're about to add something to your `AGENTS.md`, ask yourself where it belongs:\n\n| Location                  | When to use                                        |\n| ------------------------- | -------------------------------------------------- |\n| Root `AGENTS.md`          | Relevant to every single task in the repo          |\n| Separate file             | Relevant to one domain (TypeScript, testing, etc.) |\n| Nested documentation tree | Can be organized hierarchically                    |\n\nThe ideal `AGENTS.md` is small, focused, and points elsewhere. It gives the agent just enough context to start working, with breadcrumbs to more detailed guidance.\n\nEverything else lives in progressive disclosure: separate files, nested `AGENTS.md` files, or skills.\n\nThis keeps your instruction budget efficient, your agent focused, and your setup future-proof as tools and best practices evolve.\n"
+  },
+  "referenceTranslation": {
+    "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+    "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1"
+  },
+  "profile": {
+    "kind": "guide",
+    "translationSourceId": "guide-translation",
+    "conceptIds": [
+      "agents-md",
+      "agent",
+      "prompt",
+      "token",
+      "context-window",
+      "progressive-disclosure",
+      "skill",
+      "monorepo",
+      "package-manager",
+      "git",
+      "markdown"
+    ],
+    "prerequisiteIds": [
+      "markdown",
+      "agent"
+    ],
+    "prerequisiteRationale": "需要先认出文档文件和 AI 助手；Git/包管理器按出现处解释，React/Prisma/GraphQL 只在示例中识别，不作为整篇先修。",
+    "learningGoal": "能判断规则该放在根文件还是按需文档，并解释理由。",
+    "completionCheck": [
+      "能指出与每项任务相关的根规则",
+      "能将专用规则移到按需入口并保持可发现"
+    ],
+    "sourceReading": {
+      "sourceId": "guide-source",
+      "start": 1,
+      "end": 260
+    },
+    "articleSpecific": [
+      {
+        "conceptId": "agents-md",
+        "text": "正文关于加载、子目录合并和 CLAUDE.md 的描述保留作者范围；未经实现核验不能变成通用产品承诺。",
+        "sourceId": "guide-source",
+        "start": 18,
+        "end": 39
+      },
+      {
+        "conceptId": "token",
+        "text": "约150–200条指令是作者引用中的估计，不作为质量门或成本预算。",
+        "sourceId": "guide-source",
+        "start": 54,
+        "end": 68
+      },
+      {
+        "conceptId": "package-manager",
+        "text": "npm、pnpm workspaces、corepack 只按原文示例解释；其工具可用性未验证。",
+        "sourceId": "guide-source",
+        "start": 104,
+        "end": 117
+      }
+    ],
+    "reviewFocus": [
+      "金标准也需要分离后来新增解释与原文事实",
+      "检查促销删除是否误删有价值的学习入口",
+      "英文自然语言 Prompt 逐字保留并附中文理解"
+    ],
+    "relatedNotPrerequisite": [
+      "/ai-coding-dictionary/system-prompt",
+      "/ai-coding-dictionary/skill"
+    ]
+  },
+  "conceptSelection": {
+    "profileConceptIds": [
+      "agents-md",
+      "agent",
+      "prompt",
+      "token",
+      "context-window",
+      "progressive-disclosure",
+      "skill",
+      "monorepo",
+      "package-manager",
+      "git",
+      "markdown"
+    ],
+    "profilePrerequisiteIds": [
+      "markdown",
+      "agent"
+    ],
+    "articleRequiredConceptIds": [
+      "system-prompt",
+      "context"
+    ],
+    "resolvedDependencyClosure": [
+      "markdown",
+      "model",
+      "tool",
+      "harness",
+      "agent",
+      "agents-md",
+      "prompt",
+      "token",
+      "context-window",
+      "progressive-disclosure",
+      "skill",
+      "git",
+      "monorepo",
+      "package-manager",
+      "model-provider-request",
+      "system-prompt",
+      "context"
+    ],
+    "historicalSupplementalNotSelected": [
+      {
+        "conceptId": "tool-call",
+        "reason": "The source mentions skills and commands but does not teach the request/execution/result protocol; this concept is not needed to understand the article."
+      },
+      {
+        "conceptId": "tool-result",
+        "reason": "The source does not explain tool-result handling; including it would turn a historical coarse hint into an unnecessary prerequisite."
+      }
+    ]
+  },
+  "concepts": {
+    "markdown": {
+      "zh": "Markdown",
+      "en": "Markdown",
+      "aliases": [],
+      "definition": "用简单文字标记表示标题、列表和链接等格式的写法。",
+      "scope": "文档格式",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 309,
+          "end": 309
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "model": {
+      "zh": "模型",
+      "en": "model",
+      "aliases": [
+        "AI 模型"
+      ],
+      "definition": "根据输入产生预测或回答的计算模型；在本文本模型语境中，它接收文字片段并预测后续片段。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-model",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "tool": {
+      "zh": "工具",
+      "en": "tool",
+      "aliases": [
+        "工具函数"
+      ],
+      "definition": "供 AI 助手请求调用、由软件执行的功能，例如读取文件或运行命令。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-tool",
+          "start": 8,
+          "end": 19
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "harness": {
+      "zh": "智能体执行框架",
+      "en": "harness",
+      "aliases": [
+        "执行框架"
+      ],
+      "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "tool"
+      ],
+      "dependencyRationale": "先区分模型与实际执行的工具，才能理解框架负责组织与执行。",
+      "evidence": [
+        {
+          "sourceId": "dict-harness",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "agent": {
+      "zh": "智能体",
+      "en": "agent",
+      "aliases": [
+        "AI 编码智能体",
+        "AI coding agent"
+      ],
+      "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "harness"
+      ],
+      "dependencyRationale": "先认出模型与框架，再把组合看作接受任务的一个助手。",
+      "evidence": [
+        {
+          "sourceId": "dict-agent",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "agents-md": {
+      "zh": "AGENTS.md",
+      "en": "AGENTS.md",
+      "aliases": [],
+      "definition": "供支持这一约定的 AI 编码工具读取的项目说明文件，用来提供项目规则与工作指引。",
+      "scope": "自动加载时机、文件合并顺序与支持程度取决于工具；不能把作者叙述作为所有实现的保证",
+      "dependsOn": [
+        "markdown",
+        "agent"
+      ],
+      "dependencyRationale": "先知道文档写法与 AI 助手，再解释项目规则文件的作用。",
+      "evidence": [
+        {
+          "sourceId": "guide-source",
+          "start": 20,
+          "end": 27
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "prompt": {
+      "zh": "提示词",
+      "en": "prompt",
+      "aliases": [
+        "Prompt 文本"
+      ],
+      "definition": "交给 AI 的任务说明、指令或输入文本。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 319,
+          "end": 319
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "token": {
+      "zh": "Token",
+      "en": "token",
+      "aliases": [
+        "词元"
+      ],
+      "definition": "模型读取和生成文本时使用的基本单位，不等同于一个汉字或一个英文单词。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "dict-token",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "context-window": {
+      "zh": "上下文窗口",
+      "en": "context window",
+      "aliases": [],
+      "definition": "模型一次处理时可以使用的输入与工作上下文范围，有容量限制。",
+      "scope": "此处作理解窗口容量与上下文的入门解释；不承诺具体容量，也不等同于跨会话记忆",
+      "dependsOn": [
+        "model",
+        "token"
+      ],
+      "dependencyRationale": "先认识模型和 Token，再理解模型一次可用上下文及其容量限制。",
+      "evidence": [
+        {
+          "sourceId": "dict-context-window",
+          "start": 8,
+          "end": 12
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "progressive-disclosure": {
+      "zh": "渐进式披露",
+      "en": "progressive disclosure",
+      "aliases": [
+        "按需展开信息"
+      ],
+      "definition": "先提供当前需要的信息，并留下通向更多细节的入口，在需要时再读取。",
+      "scope": "适用于文档和智能体知识组织；不保证工具必然会按链接加载",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-source",
+          "start": 119,
+          "end": 149
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "skill": {
+      "zh": "Skill",
+      "en": "skill",
+      "aliases": [
+        "智能体技能",
+        "Agent Skill"
+      ],
+      "definition": "把完成某类任务的指令和资料组织成一个可按需读取的单元。",
+      "scope": "Skill 是读取的指导；tool 是调用的功能，二者不合并",
+      "dependsOn": [
+        "progressive-disclosure"
+      ],
+      "dependencyRationale": "先理解按需提供信息，再认识按任务打包的指导单元。",
+      "evidence": [
+        {
+          "sourceId": "dict-skill",
+          "start": 8,
+          "end": 20
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "git": {
+      "zh": "Git",
+      "en": "Git",
+      "aliases": [],
+      "definition": "记录和管理文件版本变化的工具。",
+      "scope": "版本管理入门定义",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 310,
+          "end": 310
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "monorepo": {
+      "zh": "多项目单仓库",
+      "en": "monorepo",
+      "aliases": [],
+      "definition": "在同一个代码仓库中管理多个相关项目或软件包的组织方式。",
+      "scope": "仓库组织方式",
+      "dependsOn": [
+        "git"
+      ],
+      "dependencyRationale": "先理解版本仓库，再理解多个项目共享一个仓库。",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 320,
+          "end": 320
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "package-manager": {
+      "zh": "包管理器",
+      "en": "package manager",
+      "aliases": [],
+      "definition": "帮助项目安装和管理所依赖软件包的工具。",
+      "scope": "npm、pnpm 是实例；corepack 是管理包管理器的工具，不与它们混为一类",
+      "dependsOn": [],
+      "dependencyRationale": "作为入门起点，用日常语言解释，不再递归展开先备概念",
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "start": 311,
+          "end": 313
+        }
+      ],
+      "evidenceKind": "existing-Chinese-aid; locally-reviewed-paraphrase",
+      "confidence": "medium",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "model-provider-request": {
+      "zh": "模型提供商请求",
+      "en": "model provider request",
+      "aliases": [
+        "模型请求"
+      ],
+      "definition": "执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "harness"
+      ],
+      "dependencyRationale": "先认出模型和组织输入的软件，再解释一次发送与返回。",
+      "evidence": [
+        {
+          "sourceId": "dict-model-provider-request",
+          "start": 8,
+          "end": 8
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "system-prompt": {
+      "zh": "系统提示词",
+      "en": "system prompt",
+      "aliases": [],
+      "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。",
+      "scope": "通用解释不规定是谁编写、是否可修改或所有产品中的具体优先级；这些条件留在文章语境",
+      "dependsOn": [
+        "prompt",
+        "model-provider-request"
+      ],
+      "dependencyRationale": "先认识任务文本和一次请求，再区分随请求提供的基础指令。",
+      "evidence": [
+        {
+          "sourceId": "dictionary-source",
+          "start": 8,
+          "end": 14
+        }
+      ],
+      "evidenceKind": "local-English-source; scoped-paraphrase",
+      "confidence": "high",
+      "reviewStatus": "producer-reviewed; independent-semantic-review-pending"
+    },
+    "context": {
+      "zh": "上下文",
+      "en": "context",
+      "aliases": [],
+      "definition": "当前任务相关、已提供给助手使用的信息。",
+      "dependsOn": [
+        "model"
+      ],
+      "dependencyRationale": "先知道模型根据输入工作，再解释哪些任务信息可用。",
+      "scope": "区分任务相关信息、单次模型窗口和会话历史；不把信息多等同于质量高。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/context",
+          "path": "content/source/ai-coding-dictionary/context.md",
+          "sha256": "4b3b19f26b14d619aebff5b1c8b3a02469b5a53a39eba205f74f48a3c9897858",
+          "start": 8,
+          "end": 18
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "producer-reviewed; independent-and-beginner-acceptance-pending"
+    }
+  },
+  "originalExamples": [
+    {
+      "id": "claude-md-symlink",
+      "kind": "shell",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+        "start": 34,
+        "end": 37
+      },
+      "text": "```bash\n# Create a symlink from AGENTS.md to CLAUDE.md\nln -s AGENTS.md CLAUDE.md\n```"
+    },
+    {
+      "id": "project-one-liner",
+      "kind": "markdown",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+        "start": 98,
+        "end": 100
+      },
+      "text": "```markdown\nThis is a React component library for accessible data visualization.\n```"
+    },
+    {
+      "id": "package-manager",
+      "kind": "markdown",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+        "start": 108,
+        "end": 110
+      },
+      "text": "```markdown\nThis project uses pnpm workspaces.\n```"
+    },
+    {
+      "id": "typescript-rules-before",
+      "kind": "markdown",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+        "start": 129,
+        "end": 135
+      },
+      "text": "```markdown\nAlways use const instead of let.\nNever use var.\nUse interface instead of type when possible.\nUse strict null checks.\n...\n```"
+    },
+    {
+      "id": "typescript-pointer-after",
+      "kind": "markdown",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+        "start": 139,
+        "end": 140
+      },
+      "text": "```markdown\nFor TypeScript conventions, see docs/TYPESCRIPT.md"
+    },
+    {
+      "id": "nested-documentation-tree",
+      "kind": "text",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+        "start": 155,
+        "end": 163
+      },
+      "text": "```\ndocs/\n├── TYPESCRIPT.md\n│   └── references TESTING.md\n├── TESTING.md\n│   └── references specific test runners\n└── BUILD.md\n    └── references esbuild configuration\n```"
+    },
+    {
+      "id": "monorepo-root-agents-md",
+      "kind": "markdown",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+        "start": 195,
+        "end": 199
+      },
+      "text": "```markdown\nThis is a monorepo containing web services and CLI tools.\nUse pnpm workspaces to manage dependencies.\nSee each package's AGENTS.md for specific guidelines.\n```"
+    },
+    {
+      "id": "package-level-agents-md",
+      "kind": "markdown",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+        "start": 203,
+        "end": 206
+      },
+      "text": "```markdown\nThis package is a Node.js GraphQL API using Prisma.\nFollow docs/API_CONVENTIONS.md for API design patterns.\n```"
+    },
+    {
+      "id": "refactor-prompt",
+      "kind": "prompt",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+        "start": 214,
+        "end": 238
+      },
+      "text": "```txt\nI want you to refactor my AGENTS.md file to follow progressive disclosure principles.\n\nFollow these steps:\n\n1. **Find contradictions**: Identify any instructions that conflict with each other. For each contradiction, ask me which version I want to keep.\n\n2. **Identify the essentials**: Extract only what belongs in the root AGENTS.md:\n   - One-sentence project description\n   - Package manager (if not npm)\n   - Non-standard build/typecheck commands\n   - Anything truly relevant to every single task\n\n3. **Group the rest**: Organize remaining instructions into logical categories (e.g., TypeScript conventions, testing patterns, API design, Git workflow). For each group, create a separate markdown file.\n\n4. **Create the file structure**: Output:\n   - A minimal root AGENTS.md with markdown links to the separate files\n   - Each separate file with its relevant instructions\n   - A suggested docs/ folder structure\n\n5. **Flag for deletion**: Identify any instructions that are:\n   - Redundant (the agent already knows this)\n   - Too vague to be actionable\n   - Overly obvious (like \"write clean code\")\n```"
+    }
+  ],
+  "evidenceLocations": [
+    {
+      "sourceId": "guide-translation",
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+      "start": 309,
+      "end": 309
+    },
+    {
+      "sourceId": "dict-model",
+      "path": "content/source/ai-coding-dictionary/model.md",
+      "sha256": "2f8764a5e8a7a1c851edb9552d2b6a0c2b2bf8cd2a88e5cffa364a6d775f70c8",
+      "start": 8,
+      "end": 10
+    },
+    {
+      "sourceId": "dict-tool",
+      "path": "content/source/ai-coding-dictionary/tool.md",
+      "sha256": "1b69ae4744e6ad5ca5c6d5b76d990b6ce7ec0b1f57fa74c81e8414b8a6ad20a0",
+      "start": 8,
+      "end": 19
+    },
+    {
+      "sourceId": "dict-harness",
+      "path": "content/source/ai-coding-dictionary/harness.md",
+      "sha256": "e014e536122ce287a7bfeae40b84cb6100d5c575a9bccc3afc7e8d1e9ae08284",
+      "start": 8,
+      "end": 10
+    },
+    {
+      "articleId": "/ai-coding-dictionary/agent",
+      "path": "content/source/ai-coding-dictionary/agent.md",
+      "sha256": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+      "start": 8,
+      "end": 10
+    },
+    {
+      "sourceId": "guide-source",
+      "path": "content/source/a-complete-guide-to-agents-md.md",
+      "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "start": 20,
+      "end": 27
+    },
+    {
+      "sourceId": "guide-translation",
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+      "start": 319,
+      "end": 319
+    },
+    {
+      "sourceId": "dict-token",
+      "path": "content/source/ai-coding-dictionary/token.md",
+      "sha256": "c7c2a3f083ea1f42b7c8c7938e386d8805b44b00889be34371aee05213c1a278",
+      "start": 8,
+      "end": 10
+    },
+    {
+      "sourceId": "dict-context-window",
+      "path": "content/source/ai-coding-dictionary/context-window.md",
+      "sha256": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0",
+      "start": 8,
+      "end": 12
+    },
+    {
+      "sourceId": "guide-source",
+      "path": "content/source/a-complete-guide-to-agents-md.md",
+      "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "start": 119,
+      "end": 149
+    },
+    {
+      "sourceId": "dict-skill",
+      "path": "content/source/ai-coding-dictionary/skill.md",
+      "sha256": "82cffeb315f28f9f2e6e22238901b13a8fa6b77104db54ad1e9085b3a978abfb",
+      "start": 8,
+      "end": 20
+    },
+    {
+      "sourceId": "guide-translation",
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+      "start": 310,
+      "end": 310
+    },
+    {
+      "sourceId": "guide-translation",
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+      "start": 320,
+      "end": 320
+    },
+    {
+      "sourceId": "guide-translation",
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+      "start": 311,
+      "end": 313
+    },
+    {
+      "sourceId": "dict-model-provider-request",
+      "path": "content/source/ai-coding-dictionary/model-provider-request.md",
+      "sha256": "fb70131368732072e77ca0c0694665e2248606ea691dbfe4070d40e5e90acc0d",
+      "start": 8,
+      "end": 8
+    },
+    {
+      "sourceId": "dictionary-source",
+      "path": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+      "start": 8,
+      "end": 14
+    },
+    {
+      "articleId": "/ai-coding-dictionary/context",
+      "path": "content/source/ai-coding-dictionary/context.md",
+      "sha256": "4b3b19f26b14d619aebff5b1c8b3a02469b5a53a39eba205f74f48a3c9897858",
+      "start": 8,
+      "end": 18
+    },
+    {
+      "sourceId": "guide-source",
+      "path": "content/source/a-complete-guide-to-agents-md.md",
+      "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "start": 1,
+      "end": 260
+    },
+    {
+      "sourceId": "guide-source",
+      "path": "content/source/a-complete-guide-to-agents-md.md",
+      "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "start": 18,
+      "end": 39
+    },
+    {
+      "sourceId": "guide-source",
+      "path": "content/source/a-complete-guide-to-agents-md.md",
+      "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "start": 54,
+      "end": 68
+    },
+    {
+      "sourceId": "guide-source",
+      "path": "content/source/a-complete-guide-to-agents-md.md",
+      "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "start": 104,
+      "end": 117
+    },
+    {
+      "sourceId": "guide-translation",
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+      "start": 20,
+      "end": 20
+    },
+    {
+      "sourceId": "learning-readme",
+      "path": "content/learning/README.md",
+      "sha256": "2f65d3c398af9e8df7fc214c0522232c81a7ede10d0ae98f8608baefbf059968",
+      "start": 23,
+      "end": 36
+    },
+    {
+      "articleId": "/what-is-an-agent",
+      "path": "content/source/what-is-an-agent.md",
+      "sha256": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
+      "start": 14,
+      "end": 42
+    },
+    {
+      "articleId": "/ai-coding-dictionary/context-window",
+      "path": "content/source/ai-coding-dictionary/context-window.md",
+      "sha256": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0",
+      "start": 8,
+      "end": 14
+    },
+    {
+      "articleId": "/what-is-the-context-window",
+      "path": "content/source/what-is-the-context-window.md",
+      "sha256": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3",
+      "start": 12,
+      "end": 22
+    }
+  ],
+  "sourceRegistry": {
+    "dict-agent": {
+      "path": "content/source/ai-coding-dictionary/agent.md",
+      "sha256": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d"
+    },
+    "dict-context-window": {
+      "path": "content/source/ai-coding-dictionary/context-window.md",
+      "sha256": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0"
+    },
+    "dict-harness": {
+      "path": "content/source/ai-coding-dictionary/harness.md",
+      "sha256": "e014e536122ce287a7bfeae40b84cb6100d5c575a9bccc3afc7e8d1e9ae08284"
+    },
+    "dict-model": {
+      "path": "content/source/ai-coding-dictionary/model.md",
+      "sha256": "2f8764a5e8a7a1c851edb9552d2b6a0c2b2bf8cd2a88e5cffa364a6d775f70c8"
+    },
+    "dict-model-provider-request": {
+      "path": "content/source/ai-coding-dictionary/model-provider-request.md",
+      "sha256": "fb70131368732072e77ca0c0694665e2248606ea691dbfe4070d40e5e90acc0d"
+    },
+    "dict-skill": {
+      "path": "content/source/ai-coding-dictionary/skill.md",
+      "sha256": "82cffeb315f28f9f2e6e22238901b13a8fa6b77104db54ad1e9085b3a978abfb"
+    },
+    "dict-token": {
+      "path": "content/source/ai-coding-dictionary/token.md",
+      "sha256": "c7c2a3f083ea1f42b7c8c7938e386d8805b44b00889be34371aee05213c1a278"
+    },
+    "dict-tool": {
+      "path": "content/source/ai-coding-dictionary/tool.md",
+      "sha256": "1b69ae4744e6ad5ca5c6d5b76d990b6ce7ec0b1f57fa74c81e8414b8a6ad20a0"
+    },
+    "dictionary-source": {
+      "path": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0"
+    },
+    "guide-source": {
+      "path": "content/source/a-complete-guide-to-agents-md.md",
+      "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+    },
+    "guide-translation": {
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1"
+    },
+    "learning-readme": {
+      "path": "content/learning/README.md",
+      "sha256": "2f65d3c398af9e8df7fc214c0522232c81a7ede10d0ae98f8608baefbf059968"
+    }
+  },
+  "currentRules": {
+    "template": {
+      "required": [
+        "conceptIds",
+        "prerequisiteIds",
+        "prerequisiteRationale",
+        "sourceReading",
+        "articleSpecific",
+        "reviewFocus",
+        "translationSourceId",
+        "learningGoal",
+        "completionCheck"
+      ],
+      "guidance": "先说明读完能作出的判断，解释必要背景，围绕原文论证安排自检。已有清楚正文不重复增设卡片。",
+      "omit": "不强制给每段加练习；不将建议改写成工具通用事实。"
+    },
+    "gates": [
+      {
+        "id": "G0",
+        "name": "输入与共享依据就绪",
+        "owner": "资产生产者/任务装配者",
+        "dimensions": [
+          "完整性与结构",
+          "术语一致性与可用性",
+          "内容清洗与来源边界",
+          "内容类型适配"
+        ],
+        "minimum": [
+          "来源哈希与文章ID有效",
+          "类型已确认且必要先备有依据",
+          "源缺失、版本冲突和未决事实显式入包"
+        ],
+        "stop": "可装配输入；未决项只能在保留标注的阅读/审核任务中流转，不能据此批准发布。"
+      },
+      {
+        "id": "G1",
+        "name": "正文与新增辅助语义审查",
+        "owner": "初翻负责正文完整；编校对照原文；辅助作者与语义审核者对新增内容负责",
+        "dimensions": [
+          "忠实度：事实、条件、语气",
+          "完整性与结构",
+          "中文自然度",
+          "零基础可理解性",
+          "教学组织",
+          "原始示例保真",
+          "示例解释与练习边界",
+          "术语一致性与可用性",
+          "内容清洗与来源边界",
+          "内容类型适配",
+          "辅助内容准确性"
+        ],
+        "minimum": [
+          "事实、条件、语气、有效内容与结构无实质遗漏或改变",
+          "原始代码/Prompt/配置/输入输出完整保留；中文理解明确分层",
+          "术语定义与本篇使用一致，必要背景足够，不增编任务答案",
+          "每段新增辅助有来源与修改后审核记录；翻译已审不能覆盖后来新增内容"
+        ],
+        "stop": "不存在改变事实/操作/学习结论的未解决问题时，可按“自然度不妨碍理解”结束本轮中间处理并转交G2；此条件只代表中间阶段可停止，不代表最终等质量通过。最终中文自然度和零基础可理解性仍须按冻结金标准质量水平审查。非阻断问题登记，复用未受影响证据，只处理实质差距，不展开逐维度模型链或无限润色。"
+      },
+      {
+        "id": "G2",
+        "name": "最终整页验收",
+        "owner": "页面实现者与验收者；治理决定放行",
+        "dimensions": [
+          "忠实度：事实、条件、语气",
+          "完整性与结构",
+          "中文自然度",
+          "零基础可理解性",
+          "教学组织",
+          "原始示例保真",
+          "示例解释与练习边界",
+          "术语一致性与可用性",
+          "内容清洗与来源边界",
+          "页面阅读体验",
+          "内容类型适配",
+          "辅助内容准确性"
+        ],
+        "minimum": [
+          "整页对照来源、正文、辅助版本确认内容未丢失/重复/错挂",
+          "桌面与窄屏验证目录、链接、术语入口、搜索/切换、代码可读及空内容说明",
+          "零基础读者能区分原例、中文理解、TODO和完成条件",
+          "有运行要求的课程须另有环境与运行证据；阅读版与可运行版分别结论",
+          "以冻结的金标准质量水平和同一12维度评判完整成品；中文自然度与零基础可理解性不能仅因机械检查通过或不妨碍基本理解自动PASS。",
+          "金标准是质量参照，不保证其中每条事实正确；来源疑点分别核对。不同内容类型采用对应教学结构，不机械套用指南版式。"
+        ],
+        "stop": "只有完整成品在同一12维度达到冻结金标准相应质量水平并有适用的验收证据，才可最终等质量放行。中文自然度、零基础可理解性须基于成品实际表现判断；机械通过或仅能基本看懂不足以PASS。适用而未验证或存在实质差距的维度保持PARTIAL/HOLD；不适用项说明理由。复用未受影响证据，仅处理实质差距，不要求逐维度新增模型或无限润色。",
+        "qualityReference": {
+          "sourceId": "guide-translation",
+          "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+          "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1",
+          "role": "frozen quality-level reference, not factual authority or universal layout"
+        }
+      }
+    ],
+    "qualityDimensions": [
+      "忠实度：事实、条件、语气",
+      "完整性与结构",
+      "中文自然度",
+      "零基础可理解性",
+      "教学组织",
+      "原始示例保真",
+      "示例解释与练习边界",
+      "术语一致性与可用性",
+      "内容清洗与来源边界",
+      "页面阅读体验",
+      "内容类型适配",
+      "辅助内容准确性"
+    ],
+    "productionRules": {
+      "layers": {
+        "source": "原文事实、观点、条件、顺序和原例是保真基准；发现源错误登记，不暗改。",
+        "translation": "完整翻译并自然表达；保留 frontmatter slug/type/tags/updatedAt、有效链接、表格、MDX语义；清除纯促销需留下理由。",
+        "learningAid": "中文新增定义、提示、比较、自检单独标注并追溯证据；不冒充原文，不填练习答案，新增即纳入语义审核。",
+        "presentation": "装配正确版本并保证可读、可达、无重复；页面行为测试不能证明内容事实正确。"
+      },
+      "reuse": "先按文章ID取得 profile、共享概念依赖闭包、类型模板、完整本篇原文及必要证据片段。无人工确认 profile 的文章只可生成候选索引，不自动投入翻译。",
+      "stopPolicy": "G0→G1→G2为三个阶段，12维度作为同一份检查记录的标签。G1的基本可理解条件仅用于中间交接，不是最终放行标准；G2按冻结金标准质量水平判完整成品。复用未受影响证据，只修实质差距，不为各维度另加模型或无限润色。",
+      "changeReview": {
+        "localWording": "只改变措辞且语义、ID、引用未变：复核改动句及上下文；页面显示变更再复核实际区域。",
+        "sharedMeaning": "共享定义、别名、依赖变化：查 concepts.dependsOn 与 articles.conceptIds/prerequisiteIds 的反向传递引用；复核受影响文章和任务包，重生成。全站词法命中仅用于发现潜在遗漏。",
+        "sourceChange": "源哈希变化先审差异，复核引用该 sourceId 的定义、片段、正文与辅助；不能只更新哈希。",
+        "templateOrRenderer": "模板改变检查使用该模板的文章；渲染公共能力变化检查所有受影响页面与代表视口，不因一页通过而泛化。"
+      },
+      "compatibility": "本资产尚未接入 lib/article-learning.ts，后者仍读取旧 pilot-knowledge.json。新增规则与旧 TRANSLATION_SPEC 的固定 Terra→Sol 不一致之处由治理在试验时明确选择；本轮不修改旧规则。"
+    },
+    "outputContract": {
+      "required": [
+        "articleId + sourceSha256 + knowledgeSha256",
+        "正文、中文辅助分开的可审查产物",
+        "保留的原例及清洗记录",
+        "新增/冲突术语及证据",
+        "G0/G1/G2统一12维度状态与未决项",
+        "实际使用量及累计/增量口径"
+      ],
+      "statusValues": [
+        "PASS",
+        "PARTIAL",
+        "HOLD",
+        "NOT_APPLICABLE_WITH_REASON"
+      ],
+      "staticPackageGuarantees": [
+        "完整本篇原文按哈希固定",
+        "概念依赖闭包、类型必需字段、来源片段可确定性装配"
+      ],
+      "notImplemented": [
+        "自动生产调度",
+        "模型调用",
+        "页面资产适配",
+        "语义自动批准",
+        "逐请求成本采集"
+      ]
+    },
+    "displayConvention": {
+      "path": "content/learning/shared/display-conventions.md",
+      "sha256": "15ae767b2e8f9d8f103d31312ecc54165e3efa6259c08e4136cc5bc1ffde592c"
+    },
+    "governance": {
+      "path": "reports/knowledge-foundation/astra-exit-plan.md",
+      "sha256": "cb3040ef2ee0c5a87a39b39437bb447da471abcace18d8c44ee2260c1c6b5c3e"
+    },
+    "chineseLinkRule": "Only existing Chinese pages may be linked for readers. Keep local explanations for worthwhile untranslated targets; do not default to English or 404 targets."
+  },
+  "applicableBoundaries": [
+    {
+      "id": "agent-scope",
+      "conceptIds": [
+        "agent",
+        "workflow"
+      ],
+      "articleIds": [
+        "/ai-coding-dictionary/agent",
+        "/what-is-an-agent",
+        "/building-effective-agents",
+        "/google-agents-whitepaper-review"
+      ],
+      "status": "resolved-by-scope-for-foundation",
+      "rule": "词典中的模型加框架定义用于指称交互对象；agent/workflow 对比文章用于说明步骤控制方式。保持语境，不能互相替换，也不能把作者的多次调用说法提升为所有智能体的必要条件。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/agent",
+          "path": "content/source/ai-coding-dictionary/agent.md",
+          "sha256": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+          "start": 8,
+          "end": 10
+        },
+        {
+          "articleId": "/what-is-an-agent",
+          "path": "content/source/what-is-an-agent.md",
+          "sha256": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
+          "start": 14,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "context-scope",
+      "conceptIds": [
+        "context",
+        "context-window",
+        "session"
+      ],
+      "articleIds": [
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/context-window",
+        "/what-is-the-context-window"
+      ],
+      "status": "resolved-by-scope-for-foundation",
+      "rule": "区分任务信息、会话存储和单次处理窗口。容量计算涉及输入输出及产品规则；不把词典的一次输入序列解释为所有服务的额度公式。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/context",
+          "path": "content/source/ai-coding-dictionary/context.md",
+          "sha256": "4b3b19f26b14d619aebff5b1c8b3a02469b5a53a39eba205f74f48a3c9897858",
+          "start": 8,
+          "end": 18
+        },
+        {
+          "articleId": "/ai-coding-dictionary/context-window",
+          "path": "content/source/ai-coding-dictionary/context-window.md",
+          "sha256": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "articleId": "/what-is-the-context-window",
+          "path": "content/source/what-is-the-context-window.md",
+          "sha256": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3",
+          "start": 12,
+          "end": 22
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "F-system-scope",
+      "status": "scoped-in-new-asset; existing-pages-unmodified",
+      "confidence": "high",
+      "articleIds": [
+        "/a-complete-guide-to-agents-md",
+        "/ai-coding-dictionary/system-prompt"
+      ],
+      "evidence": [
+        {
+          "sourceId": "dictionary-source",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "sourceId": "guide-translation",
+          "start": 20,
+          "end": 20
+        }
+      ],
+      "observation": "指南译文增加“最高优先级基础说明”；词条原文只明确相对用户消息的优先级，且说明部分框架可自定义。",
+      "action": "共享定义不沿用最高优先级/只能厂商编写等绝对表述；旧金标准及页面差异交治理决定是否安排局部复核。"
+    },
+    {
+      "id": "F-aid-ownership",
+      "status": "review-boundary-recorded",
+      "confidence": "high",
+      "articleIds": [
+        "/a-complete-guide-to-agents-md",
+        "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+        "/ai-coding-dictionary/system-prompt"
+      ],
+      "evidence": [
+        {
+          "sourceId": "learning-readme",
+          "start": 23,
+          "end": 36
+        }
+      ],
+      "observation": "既有辅助由来源任务 Astra/xhigh 后加，不在之前 Sol 编校范围；本轮生产者核对不等于独立语义验收。",
+      "action": "后续审核包含正文与当时实际装配的所有新增辅助，按资产哈希锁定。"
+    }
+  ],
+  "inheritedBlockers": [
+    "The reference translation line 20 adds an absolute \"highest priority\" explanation that the source does not establish. Production must keep this as a review item and must not reuse it as a shared fact.",
+    "Claims about file loading position, tool support, automatic per-request loading, skill invocation, and nested AGENTS.md merging remain author/tool-scope claims. Do not turn them into universal product guarantees without implementation-specific evidence.",
+    "The reference translation contains later-added learning aids outside the earlier Sol editing scope. Review the translation and every aid actually assembled for this production version together.",
+    "Final page quality, beginner comprehension, links, and desktop/narrow-screen behavior remain G2 work; G0 readiness does not establish them."
+  ],
+  "governanceDecisions": [
+    {
+      "id": "guide-system-priority",
+      "status": "decided; production-application-pending",
+      "decision": "下一轮指南编校应移除旧译文第20行新增的“最高优先级”绝对化解释；如需解释系统提示词，采用输入中的共享定义并标为中文学习辅助。原文第20行的位置描述与新增的优先级解释分开处理，不改写英文来源。",
+      "evidence": {
+        "source": {
+          "path": "content/source/a-complete-guide-to-agents-md.md",
+          "line": 20
+        },
+        "referenceTranslation": {
+          "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+          "line": 20
+        }
+      }
+    },
+    {
+      "id": "guide-tool-scope",
+      "status": "decided; production-application-pending",
+      "decision": "本轮指南按原作者语境忠实编校，并在相关段落附近明确工具和版本范围。加载顺序、每次请求加载、子目录合并、工具支持列表及符号链接命令不作为所有产品或Windows环境的通用保证。只有将某条内容变成目标工具的当前操作指导时，才定点核验其官方实现依据；不能用一句范围说明掩盖已知错误。"
+    }
+  ],
+  "scopedSourceClaims": [
+    {
+      "start": 18,
+      "end": 39,
+      "reason": "AGENTS.md loading order, tool support, CLAUDE.md behavior, and symlink advice are tool/platform scoped.",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+      }
+    },
+    {
+      "start": 54,
+      "end": 68,
+      "reason": "The 150-200 instruction figure is an attributed estimate and is not a quality gate or budget.",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+      }
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "reason": "Context poisoning and filesystem guidance are author recommendations, not universal runtime guarantees.",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+      }
+    },
+    {
+      "start": 119,
+      "end": 171,
+      "reason": "Progressive disclosure and skill behavior are teaching recommendations whose concrete loading behavior depends on the tool.",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+      }
+    },
+    {
+      "start": 180,
+      "end": 208,
+      "reason": "Subdirectory merging is implementation specific and must remain in the author/tool scope.",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+      }
+    }
+  ],
+  "contentCleaningCandidates": [
+    {
+      "start": 174,
+      "end": 178,
+      "kind": "promotional-cta",
+      "action": "Producer must record whether it is removed; removal must not erase adjacent learning content.",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+      }
+    },
+    {
+      "start": 241,
+      "end": 244,
+      "kind": "newsletter-cta",
+      "action": "Producer must record whether it is removed; removal must not erase adjacent learning content.",
+      "source": {
+        "path": "content/source/a-complete-guide-to-agents-md.md",
+        "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+      }
+    }
+  ],
+  "assembly": {
+    "date": "2026-09-24",
+    "knowledgeSha256": "62600bf7767c530f687e89f28da0c882e32d7217ce3464787efbe8b0bc8ce6c0",
+    "learningMapSha256": "fc9359d4d8275076c50f3e159f7bf37726b73a729ab842cd00127e72d4669b7c",
+    "mapArticle": {
+      "id": "/a-complete-guide-to-agents-md",
+      "title": "A Complete Guide To AGENTS.md",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/a-complete-guide-to-agents-md",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "existing-profile-scope-only",
+      "deferredChecks": []
+    },
+    "historicalFirstBatch": {
+      "articleId": "/a-complete-guide-to-agents-md",
+      "selectionReason": "沿用已存在的三种样本，核对输入缺口，不扩建试验。",
+      "status": "PARTIAL",
+      "profileRef": "/articles/~1a-complete-guide-to-agents-md",
+      "executionView": null,
+      "baseFindingIds": [
+        "F-system-scope",
+        "F-aid-ownership"
+      ],
+      "supplementalConceptIds": [
+        "context",
+        "tool-call",
+        "tool-result"
+      ],
+      "blockers": [
+        "已有 profile，但未生成本篇精简执行包；需要生产时复用装配器生成。",
+        "F-system-scope 涉及旧译文，需局部复核；不能照搬金标准事实。",
+        "正文与实际新增辅助需一并审核。"
+      ],
+      "nextInputStep": "读取本篇原文、既有 profile、概念依赖闭包、baseFindingIds、本补充层适用边界及 blockers；补齐后才能决定 G0，不能凭粗分类直接生产。"
+    },
+    "decision": "Use the current 39-concept pool but include only the article-specific dependency closure. Add system-prompt and context; do not carry historical tool-call/tool-result hints into this guide input."
+  }
+}

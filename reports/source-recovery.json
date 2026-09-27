@@ -1,0 +1,396 @@
+{
+  "generatedAt": "2026-09-14T10:10:14.811Z",
+  "recovered": [
+    {
+      "route": "/ai-coding-dictionary",
+      "sourcePath": "content/source/ai-coding-dictionary.md",
+      "sourceLength": 10654
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "sourcePath": "content/source/ai-coding-dictionary/afk.md",
+      "sourceLength": 2511
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "sourcePath": "content/source/ai-coding-dictionary/agent.md",
+      "sourceLength": 1726
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "sourcePath": "content/source/ai-coding-dictionary/agent-mode.md",
+      "sourceLength": 2373
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "sourcePath": "content/source/ai-coding-dictionary/agents-md.md",
+      "sourceLength": 2358
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "sourcePath": "content/source/ai-coding-dictionary/ai.md",
+      "sourceLength": 2590
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-budget.md",
+      "sourceLength": 2145
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-degradation.md",
+      "sourceLength": 2117
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-relationship.md",
+      "sourceLength": 2848
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "sourcePath": "content/source/ai-coding-dictionary/autocompact.md",
+      "sourceLength": 2048
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "sourcePath": "content/source/ai-coding-dictionary/automated-check.md",
+      "sourceLength": 2427
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "sourcePath": "content/source/ai-coding-dictionary/automated-review.md",
+      "sourceLength": 2364
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "sourcePath": "content/source/ai-coding-dictionary/ax.md",
+      "sourceLength": 2235
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/cache-tokens.md",
+      "sourceLength": 2865
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "sourcePath": "content/source/ai-coding-dictionary/clearing.md",
+      "sourceLength": 2024
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "sourcePath": "content/source/ai-coding-dictionary/compaction.md",
+      "sourceLength": 2221
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "sourcePath": "content/source/ai-coding-dictionary/context.md",
+      "sourceLength": 1919
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "sourcePath": "content/source/ai-coding-dictionary/context-pointer.md",
+      "sourceLength": 2632
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "sourcePath": "content/source/ai-coding-dictionary/context-window.md",
+      "sourceLength": 2095
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "sourcePath": "content/source/ai-coding-dictionary/contextual-knowledge.md",
+      "sourceLength": 2843
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "sourcePath": "content/source/ai-coding-dictionary/design-concept.md",
+      "sourceLength": 2059
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "sourcePath": "content/source/ai-coding-dictionary/dx.md",
+      "sourceLength": 2390
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "sourcePath": "content/source/ai-coding-dictionary/effort.md",
+      "sourceLength": 2255
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "sourcePath": "content/source/ai-coding-dictionary/environment.md",
+      "sourceLength": 2784
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "sourcePath": "content/source/ai-coding-dictionary/filesystem.md",
+      "sourceLength": 1828
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "sourcePath": "content/source/ai-coding-dictionary/grilling.md",
+      "sourceLength": 1602
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "sourcePath": "content/source/ai-coding-dictionary/hallucination.md",
+      "sourceLength": 2596
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "sourcePath": "content/source/ai-coding-dictionary/handoff.md",
+      "sourceLength": 2094
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "sourcePath": "content/source/ai-coding-dictionary/handoff-artifact.md",
+      "sourceLength": 2498
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "sourcePath": "content/source/ai-coding-dictionary/harness.md",
+      "sourceLength": 2314
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "sourcePath": "content/source/ai-coding-dictionary/human-in-the-loop.md",
+      "sourceLength": 2230
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "sourcePath": "content/source/ai-coding-dictionary/human-review.md",
+      "sourceLength": 1802
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "sourcePath": "content/source/ai-coding-dictionary/inference.md",
+      "sourceLength": 2430
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/input-tokens.md",
+      "sourceLength": 1910
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "sourcePath": "content/source/ai-coding-dictionary/knowledge-cutoff.md",
+      "sourceLength": 1647
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "sourcePath": "content/source/ai-coding-dictionary/mcp.md",
+      "sourceLength": 2444
+    },
+    {
+      "route": "/ai-coding-dictionary/memory-system",
+      "sourcePath": "content/source/ai-coding-dictionary/memory-system.md",
+      "sourceLength": 2147
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "sourcePath": "content/source/ai-coding-dictionary/model.md",
+      "sourceLength": 2051
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "sourcePath": "content/source/ai-coding-dictionary/model-provider.md",
+      "sourceLength": 2086
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "sourcePath": "content/source/ai-coding-dictionary/model-provider-request.md",
+      "sourceLength": 2774
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "sourcePath": "content/source/ai-coding-dictionary/next-token-prediction.md",
+      "sourceLength": 2036
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "sourcePath": "content/source/ai-coding-dictionary/non-determinism.md",
+      "sourceLength": 2653
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/output-tokens.md",
+      "sourceLength": 1489
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "sourcePath": "content/source/ai-coding-dictionary/parameters.md",
+      "sourceLength": 2096
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "sourcePath": "content/source/ai-coding-dictionary/parametric-knowledge.md",
+      "sourceLength": 2234
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "sourcePath": "content/source/ai-coding-dictionary/permission-mode.md",
+      "sourceLength": 2085
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "sourcePath": "content/source/ai-coding-dictionary/permission-request.md",
+      "sourceLength": 2442
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "sourcePath": "content/source/ai-coding-dictionary/prefix-cache.md",
+      "sourceLength": 1973
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "sourcePath": "content/source/ai-coding-dictionary/primary-source.md",
+      "sourceLength": 2073
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "sourcePath": "content/source/ai-coding-dictionary/progressive-disclosure.md",
+      "sourceLength": 2029
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "sourcePath": "content/source/ai-coding-dictionary/prototyping.md",
+      "sourceLength": 2015
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "sourcePath": "content/source/ai-coding-dictionary/sandbox.md",
+      "sourceLength": 2140
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "sourcePath": "content/source/ai-coding-dictionary/secondary-source.md",
+      "sourceLength": 2741
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "sourcePath": "content/source/ai-coding-dictionary/session.md",
+      "sourceLength": 2238
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "sourcePath": "content/source/ai-coding-dictionary/skill.md",
+      "sourceLength": 2130
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "sourcePath": "content/source/ai-coding-dictionary/smart-zone.md",
+      "sourceLength": 2630
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "sourcePath": "content/source/ai-coding-dictionary/spec.md",
+      "sourceLength": 2107
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "sourcePath": "content/source/ai-coding-dictionary/stateful.md",
+      "sourceLength": 2486
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "sourcePath": "content/source/ai-coding-dictionary/stateless.md",
+      "sourceLength": 2357
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "sourcePath": "content/source/ai-coding-dictionary/subagent.md",
+      "sourceLength": 1805
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "sourcePath": "content/source/ai-coding-dictionary/sycophancy.md",
+      "sourceLength": 1774
+    },
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "sourcePath": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sourceLength": 2155
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "sourcePath": "content/source/ai-coding-dictionary/ticket.md",
+      "sourceLength": 1739
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "sourcePath": "content/source/ai-coding-dictionary/token.md",
+      "sourceLength": 2350
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "sourcePath": "content/source/ai-coding-dictionary/tool.md",
+      "sourceLength": 2521
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-call",
+      "sourcePath": "content/source/ai-coding-dictionary/tool-call.md",
+      "sourceLength": 1947
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "sourcePath": "content/source/ai-coding-dictionary/tool-result.md",
+      "sourceLength": 2512
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "sourcePath": "content/source/ai-coding-dictionary/training.md",
+      "sourceLength": 1917
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "sourcePath": "content/source/ai-coding-dictionary/turn.md",
+      "sourceLength": 2001
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "sourcePath": "content/source/ai-coding-dictionary/vibe-coding.md",
+      "sourceLength": 2082
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sourcePath": "content/source/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+      "sourceLength": 4332
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sourcePath": "content/source/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "sourceLength": 8386
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sourcePath": "content/source/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+      "sourceLength": 13540
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "sourcePath": "content/source/skills/skills-changelog-v1-announcement.md",
+      "sourceLength": 7213
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sourcePath": "content/source/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+      "sourceLength": 15250
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "sourcePath": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sourceLength": 3771
+    }
+  ],
+  "excluded": [
+    {
+      "route": "/newsletter",
+      "reason": "纯 Newsletter 订阅推广页，不属于学习内容"
+    },
+    {
+      "route": "/skills/subscribe",
+      "reason": "纯 Skills 订阅/销售页，不属于学习内容"
+    }
+  ],
+  "pending": []
+}

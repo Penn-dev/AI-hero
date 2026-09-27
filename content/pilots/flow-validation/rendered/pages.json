@@ -1,0 +1,286 @@
+{
+  "X": {
+    "label": "X",
+    "title": "系统提示词",
+    "description": "执行框架会在每次向模型提供商发送请求前附加的指令——也就是智能体持续遵循的工作说明。它通常会在一次会话中保持稳定。",
+    "updatedAt": "2026-07-01T08:46:18.000Z",
+    "markdown": "执行框架（[harness](/ai-coding-dictionary/harness)）会在每次向[模型提供商发送请求](/ai-coding-dictionary/model-provider-request)前附加这组指令；它是[智能体](/ai-coding-dictionary/agent)持续遵循的工作说明：智能体是谁、应如何行动、可以调用哪些[工具](/ai-coding-dictionary/tool)，以及要遵守什么约定。它通常会在一次[会话](/ai-coding-dictionary/session)中保持稳定。\n\n系统提示词由执行框架的供应商编写，而不是由你编写。对于编码执行框架来说，它往往很长——常常包含数万 [Token](/ai-coding-dictionary/token) 的行为规则、工具说明和边缘情况处理；在每个[轮次](/ai-coding-dictionary/turn)中，这些内容都会作为[输入 Token](/ai-coding-dictionary/input-tokens)计费。你自己的固定指令也会一同送入模型：会话开始时，像 [AGENTS.md](/ai-coding-dictionary/agents-md) 这样的文件会和系统提示词一起加载。因此，[模型](/ai-coding-dictionary/model)在看到你的消息之前，会同时读到供应商的工作说明和你的工作说明。\n\n由于系统提示词在每次请求中都完全相同，它会成为[前缀缓存](/ai-coding-dictionary/prefix-cache)的开头。这也是执行框架通常会让它在整个会话中保持不变、而不是在过程中不断修改的原因之一。\n\n模型经训练会优先遵循系统提示词，而不是用户消息。因此，如果智能体坚持遵循你从未要求过的约定，或者总是以你怎么要求也改变不了的方式排版输出，通常是因为它正在服从系统提示词——发生冲突时，你的消息没有占上风。一些执行框架可以自定义：它们会让你完整查看系统提示词，因此你能读到智能体实际收到的指令，也可以修改它。\n\n_用法：_\n\n\"Two harnesses, same model, totally different behavior on the same prompt.\"\n\n**中文理解版（学习辅助）**：即使底层使用同一个模型，两个执行框架的系统提示词不同，模型面对同一条提示词时也可能表现得完全不同。\n\n\"Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives.\"\n\n**中文理解版（学习辅助）**：差异来自系统提示词：一个侧重简短地修改代码，另一个侧重解释。模型在读到你的消息前，这种差异就已经存在。\n",
+    "learning": {
+      "articleId": "/ai-coding-dictionary/system-prompt",
+      "kind": "dictionary",
+      "start": {
+        "title": "先用一句话理解",
+        "summary": "系统提示词是执行框架在每次请求前交给模型的一套工作规则；它会影响智能体的身份、行为、可用工具和输出习惯，并且通常在一次会话中保持不变。",
+        "cards": [
+          {
+            "title": "它不是你在聊天框输入的要求",
+            "text": "系统提示词通常由执行框架供应商编写。你的消息也会被模型阅读，但原文说明模型会优先遵循系统提示词；部分执行框架允许你查看和修改这套规则。"
+          },
+          {
+            "title": "为什么会影响输入量与成本",
+            "text": "这套规则可能很长，而且会随每一轮请求作为输入 Token 一起发送；由于开头重复不变，它也可以构成前缀缓存的开头。"
+          }
+        ]
+      },
+      "prerequisiteIds": [],
+      "glossary": [
+        {
+          "id": "system-prompt",
+          "term": "系统提示词（System prompt）",
+          "aliases": [
+            "System prompt"
+          ],
+          "definition": "执行框架在每次模型请求前附加的一套工作规则，用来规定智能体的身份、行为、可用工具和约定，通常在一次会话中保持稳定。",
+          "sourceBasis": "本文首段及关于会话内稳定性的说明。"
+        },
+        {
+          "id": "harness",
+          "term": "智能体执行框架（Harness）",
+          "aliases": [
+            "harness"
+          ],
+          "definition": "围绕模型组织请求、工具和约定的软件环境；本文说它会在每次请求前附加系统提示词。",
+          "sourceBasis": "本文首段和第二段。"
+        },
+        {
+          "id": "prefix-cache",
+          "term": "前缀缓存（Prefix cache）",
+          "aliases": [
+            "prefix cache"
+          ],
+          "definition": "用于复用多次请求中相同开头内容的缓存；本文指出固定的系统提示词会构成它的开头。",
+          "sourceBasis": "本文第三段。"
+        },
+        {
+          "id": "input-tokens",
+          "term": "输入 Token（Input tokens）",
+          "aliases": [
+            "input tokens"
+          ],
+          "definition": "随请求一起送入模型、并计入输入量的文本单位；本文用它说明系统提示词也会产生输入成本。",
+          "sourceBasis": "本文第二段。"
+        }
+      ],
+      "bodyTitle": "系统提示词",
+      "check": null,
+      "related": [
+        {
+          "title": "智能体执行框架",
+          "description": "了解负责在请求前附加系统提示词的软件环境。",
+          "href": "/ai-coding-dictionary/harness",
+          "format": "词典条目"
+        },
+        {
+          "title": "前缀缓存",
+          "description": "了解重复的请求开头为何可以被缓存。",
+          "href": "/ai-coding-dictionary/prefix-cache",
+          "format": "词典条目"
+        }
+      ],
+      "explanations": [
+        {
+          "afterSource": {
+            "start": 18,
+            "end": 18
+          },
+          "markdown": "**中文理解版（学习辅助）**：即使底层使用同一个模型，两个执行框架的系统提示词不同，模型面对同一条提示词时也可能表现得完全不同。",
+          "sourceBasis": "保留的第一条英文用法示例。"
+        },
+        {
+          "afterSource": {
+            "start": 20,
+            "end": 20
+          },
+          "markdown": "**中文理解版（学习辅助）**：差异来自系统提示词：一个侧重简短地修改代码，另一个侧重解释。模型在读到你的消息前，这种差异就已经存在。",
+          "sourceBasis": "保留的第二条英文用法示例。"
+        }
+      ],
+      "sourceGaps": []
+    }
+  },
+  "Y": {
+    "label": "Y",
+    "title": "系统提示词",
+    "description": "智能体执行框架在每次模型提供商请求前附加的指令，是智能体持续遵循的工作简报；通常会在一次会话中保持稳定。",
+    "updatedAt": "2026-07-01T08:46:18.000Z",
+    "markdown": "\n[智能体执行框架](/ai-coding-dictionary/harness)会在每次[模型提供商请求](/ai-coding-dictionary/model-provider-request)前附加的一组指令，就是[智能体](/ai-coding-dictionary/agent)的长期工作简报：它是谁、该如何行动、能调用哪些[工具](/ai-coding-dictionary/tool)，以及要遵循什么约定。它通常会在一次[会话](/ai-coding-dictionary/session)中保持稳定。\n\n系统提示词由执行框架的供应商编写，不是由你编写。在编程智能体执行框架里，它的篇幅很大，常常包含数万[Token](/ai-coding-dictionary/token)的行为规则、工具说明和边界情况处理；这些内容会在每个[工作轮次](/ai-coding-dictionary/turn)中作为[输入 Token](/ai-coding-dictionary/input-tokens)计费。你自己的长期指令也会随它一起提供：像 [AGENTS.md](/ai-coding-dictionary/agents-md) 这样的文件会在会话开始时与系统提示词一同加载，因此[模型](/ai-coding-dictionary/model)会在看到你的消息之前，同时读取供应商的工作简报和你的工作简报。\n\n因为系统提示词在每次请求中都相同，它会构成[前缀缓存](/ai-coding-dictionary/prefix-cache)的开头。这也是执行框架往往让它在整个会话中保持不变、而不是边进行边修改的原因之一。\n\n模型经过训练，会优先遵循系统提示词，而不是用户消息。因此，当智能体坚持某个你从未提出的约定，或反复用你难以改变的方式排版输出时，它通常是在遵循自己的系统提示词——而你的消息在这场分歧中处于下风。一些执行框架可以自定义：它们会让你完整查看系统提示词，从而了解智能体实际收到的指令，并对其进行修改。\n\n_用法：_\n\n\"Two harnesses, same model, totally different behavior on the same prompt.\"\n\n**中文理解版（学习辅助）：** 两个执行框架使用同一个模型、面对同一条提示词，却表现得完全不同。\n\n\"Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives.\"\n\n**中文理解版（学习辅助）：** 原因是系统提示词不同：一个偏向简洁地修改代码，另一个偏向解释；差异在你的消息到达前就已经产生。\n",
+    "learning": {
+      "articleId": "/ai-coding-dictionary/system-prompt",
+      "kind": "dictionary",
+      "start": {
+        "title": "先用一句话理解",
+        "summary": "系统提示词是执行框架在你发言前交给模型的长期规则；它说明智能体应如何工作，但不同产品是否可查看或修改，要看各自的实现。",
+        "cards": [
+          {
+            "title": "它和用户提示词不同",
+            "text": "这里的用户提示词，是你这次交给 AI 的任务说明；系统提示词则是执行框架预先附带的基础规则。本文说模型会优先遵循后者，因此两者发生冲突时，用户消息未必能改变结果。"
+          },
+          {
+            "title": "它和 AGENTS.md 也不同",
+            "text": "本文所说的系统提示词由执行框架供应商提供；AGENTS.md 则是会在会话开始时与它一同加载的另一类长期指令。它们会一起被模型读取，但不是同一个文件或同一种来源；有些执行框架也允许用户查看和修改系统提示词。"
+          },
+          {
+            "title": "稳定不等于必然省钱",
+            "text": "稳定的开头可以成为前缀缓存的一部分；这不保证一定命中缓存，也不保证固定的有效期或费用折扣。"
+          }
+        ]
+      },
+      "prerequisiteIds": [
+        "prompt",
+        "harness",
+        "model-provider-request"
+      ],
+      "glossary": [
+        {
+          "id": "system-prompt",
+          "term": "系统提示词（system prompt）",
+          "aliases": [],
+          "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。",
+          "sourceBasis": "inputs/B/dictionary.json：system-prompt"
+        },
+        {
+          "id": "harness",
+          "term": "智能体执行框架（harness）",
+          "aliases": [
+            "执行框架"
+          ],
+          "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。",
+          "sourceBasis": "inputs/B/dictionary.json：harness"
+        },
+        {
+          "id": "prompt",
+          "term": "提示词（prompt）",
+          "aliases": [
+            "Prompt 文本"
+          ],
+          "definition": "交给 AI 的任务说明、指令或输入文本。",
+          "sourceBasis": "inputs/B/dictionary.json：prompt"
+        },
+        {
+          "id": "token",
+          "term": "Token",
+          "aliases": [
+            "词元"
+          ],
+          "definition": "模型读取和生成文本时使用的基本单位，不等同于一个汉字或一个英文单词。",
+          "sourceBasis": "inputs/B/dictionary.json：token"
+        },
+        {
+          "id": "prefix-cache",
+          "term": "前缀缓存（prefix cache）",
+          "aliases": [],
+          "definition": "模型服务复用请求开头相同部分的已处理结果的机制。",
+          "sourceBasis": "inputs/B/dictionary.json：prefix-cache"
+        },
+        {
+          "id": "agent",
+          "term": "智能体（agent）",
+          "aliases": [
+            "AI 编码智能体",
+            "AI coding agent"
+          ],
+          "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。",
+          "sourceBasis": "inputs/B/dictionary.json：agent"
+        },
+        {
+          "id": "model",
+          "term": "模型（model）",
+          "aliases": [
+            "AI 模型"
+          ],
+          "definition": "根据输入产生预测或回答的计算模型；在本文的文本模型语境中，它接收文字片段并预测后续片段。",
+          "sourceBasis": "inputs/B/dictionary.json：model"
+        },
+        {
+          "id": "tool",
+          "term": "工具（tool）",
+          "aliases": [
+            "工具函数"
+          ],
+          "definition": "供 AI 助手请求调用、由软件执行的功能，例如读取文件或运行命令。",
+          "sourceBasis": "inputs/B/dictionary.json：tool"
+        },
+        {
+          "id": "session",
+          "term": "会话（session）",
+          "aliases": [],
+          "definition": "与 AI 助手进行的一段有边界的交互，期间积累消息与工作记录。",
+          "sourceBasis": "inputs/B/dictionary.json：session"
+        },
+        {
+          "id": "turn",
+          "term": "工作轮次（turn）",
+          "aliases": [
+            "轮次"
+          ],
+          "definition": "从用户发来一条消息，到助手完成本次响应并交回控制权的一轮交互，可包含多次模型请求。",
+          "sourceBasis": "inputs/B/dictionary.json：turn"
+        },
+        {
+          "id": "input-tokens",
+          "term": "输入 Token（input tokens）",
+          "aliases": [],
+          "definition": "一次模型请求中交给模型读取的 Token，包括指令、消息及提供的工具结果等。",
+          "sourceBasis": "inputs/B/dictionary.json：input-tokens"
+        },
+        {
+          "id": "model-provider-request",
+          "term": "模型提供商请求（model provider request）",
+          "aliases": [
+            "模型请求"
+          ],
+          "definition": "执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。",
+          "sourceBasis": "inputs/B/dictionary.json：model-provider-request"
+        },
+        {
+          "id": "agents-md",
+          "term": "AGENTS.md",
+          "aliases": [],
+          "definition": "供支持这一约定的 AI 编码工具读取的项目说明文件，用来提供项目规则与工作指引。",
+          "sourceBasis": "inputs/B/dictionary.json：agents-md"
+        }
+      ],
+      "bodyTitle": "系统提示词",
+      "check": null,
+      "related": [
+        {
+          "title": "智能体执行框架",
+          "description": "了解组织输入、工具与模型调用的软件层。",
+          "href": "/ai-coding-dictionary/harness",
+          "format": "词典"
+        },
+        {
+          "title": "提示词",
+          "description": "区分用户给出的任务说明与系统提示词。",
+          "href": "/ai-coding-dictionary/prompt",
+          "format": "词典"
+        },
+        {
+          "title": "前缀缓存",
+          "description": "了解为何重复的请求开头可能被复用。",
+          "href": "/ai-coding-dictionary/prefix-cache",
+          "format": "词典"
+        }
+      ],
+      "explanations": [
+        {
+          "afterSource": {
+            "start": 18,
+            "end": 18
+          },
+          "markdown": "**中文理解版（学习辅助）：** 两个执行框架使用同一个模型、面对同一条提示词，却表现得完全不同。",
+          "sourceBasis": "原始用法第 18 行；仅解释句意，不改写原例。"
+        },
+        {
+          "afterSource": {
+            "start": 20,
+            "end": 20
+          },
+          "markdown": "**中文理解版（学习辅助）：** 原因是系统提示词不同：一个偏向简洁地修改代码，另一个偏向解释；差异在你的消息到达前就已经产生。",
+          "sourceBasis": "原始用法第 20 行；仅解释句意，不改写原例。"
+        }
+      ],
+      "sourceGaps": []
+    }
+  }
+}

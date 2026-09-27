@@ -1,0 +1,84 @@
+{
+  "articleId": "/ai-coding-dictionary/system-prompt",
+  "kind": "dictionary",
+  "start": {
+    "title": "先用一句话理解",
+    "summary": "系统提示词是执行框架在每次请求前交给模型的一套固定工作规则；它会影响智能体的身份、行为、可用工具和输出习惯。",
+    "cards": [
+      {
+        "title": "它不是你在聊天框输入的要求",
+        "text": "系统提示词由执行框架供应商预先设置。你的消息也会被模型阅读，但原文说明模型会优先遵循系统提示词。"
+      },
+      {
+        "title": "为什么会影响成本",
+        "text": "这套规则可能很长，而且会随每一轮请求作为输入 Token 一起发送；原文同时说明，重复不变的开头可形成前缀缓存。"
+      }
+    ]
+  },
+  "prerequisiteIds": [],
+  "glossary": [
+    {
+      "id": "system-prompt",
+      "term": "系统提示词（System prompt）",
+      "aliases": ["System prompt"],
+      "definition": "执行框架预先交给模型的长期工作规则，用来规定智能体如何行动。",
+      "sourceBasis": "本文定义与首段列出的身份、行为、工具和约定。"
+    },
+    {
+      "id": "harness",
+      "term": "智能体执行框架（Harness）",
+      "aliases": ["harness"],
+      "definition": "围绕模型组织请求、工具和约定的软件环境；本文说它会把系统提示词附加到请求前。",
+      "sourceBasis": "本文首段和第二段。"
+    },
+    {
+      "id": "prefix-cache",
+      "term": "前缀缓存（Prefix cache）",
+      "aliases": ["prefix cache"],
+      "definition": "把每次请求中相同的开头部分复用的缓存；本文指出固定的系统提示词会构成它的开头。",
+      "sourceBasis": "本文第三段。"
+    },
+    {
+      "id": "input-tokens",
+      "term": "输入 Token（Input tokens）",
+      "aliases": ["input tokens"],
+      "definition": "随请求发送给模型、并按输入量计费的文本单位；本文用它说明系统提示词也会带来输入量。",
+      "sourceBasis": "本文第二段。"
+    }
+  ],
+  "bodyTitle": "系统提示词",
+  "check": null,
+  "related": [
+    {
+      "title": "智能体执行框架",
+      "description": "了解负责附加系统提示词的软件环境。",
+      "href": "/ai-coding-dictionary/harness",
+      "format": "词典条目"
+    },
+    {
+      "title": "前缀缓存",
+      "description": "了解重复的请求开头为何可以被缓存。",
+      "href": "/ai-coding-dictionary/prefix-cache",
+      "format": "词典条目"
+    }
+  ],
+  "explanations": [
+    {
+      "afterSource": {
+        "start": 18,
+        "end": 18
+      },
+      "markdown": "**中文理解版（学习辅助）**：即使底层使用的是同一个模型，两个执行框架预先放入的系统提示词不同，模型表现也可能完全不同。",
+      "sourceBasis": "保留的第一条英文用法示例。"
+    },
+    {
+      "afterSource": {
+        "start": 20,
+        "end": 20
+      },
+      "markdown": "**中文理解版（学习辅助）**：差异来自系统提示词：一个可能要求简短修改代码，另一个可能要求详细解释。模型在读到你的消息前，这种差异就已经存在。",
+      "sourceBasis": "保留的第二条英文用法示例。"
+    }
+  ],
+  "sourceGaps": []
+}

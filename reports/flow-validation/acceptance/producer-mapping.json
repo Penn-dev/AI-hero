@@ -1,0 +1,331 @@
+{
+  "checkedAt": "2026-09-22T12:08:13.041Z",
+  "maps": [
+    {
+      "stage": "A-draft",
+      "stagePath": "content/pilots/flow-validation/A/draft/stage.json",
+      "reportedTaskId": "unknown",
+      "threadId": "01a0c8e1-7570-7443-b723-de00ca84ac29",
+      "turnId": "01a0c8e1-782e-7653-9dd8-d9f907c237c1",
+      "reportedUsageTurnIds": [],
+      "inputHashes": [
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/A/draft.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/A/draft.md",
+          "expected": "485F3C01B403F5942554D9199F84DCC03DCF9DBA990ED246D39BD28D614F2433",
+          "actual": "485f3c01b403f5942554d9199f84dcc03dcf9dba990ed246d39bd28d614f2433",
+          "status": "PASS"
+        }
+      ],
+      "note": "Only entry hash was recorded; this does not prove a complete read manifest."
+    },
+    {
+      "stage": "B-draft",
+      "stagePath": "content/pilots/flow-validation/B/draft/stage.json",
+      "reportedTaskId": "01a0c8e1-9232-79c3-aaf1-68319e3b827e",
+      "threadId": "01a0c8e1-9232-79c3-aaf1-68319e3b827e",
+      "turnId": "01a0c8e1-9459-7890-87d7-31fe5ad2d4ca",
+      "reportedUsageTurnIds": [],
+      "inputHashes": [
+        {
+          "originalKey": "inputs/B/draft.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/B/draft.md",
+          "expected": "42F343E43169EE45241A49DF8EAC1FA5C0911EAD7DA92311950E74A526BA789E",
+          "actual": "42f343e43169ee45241a49df8eac1fa5c0911ead7da92311950e74a526ba789e",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "inputs/B/dictionary.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/B/dictionary.json",
+          "expected": "0045FC5C8C1684E3925C1FF1B9245386186F7AC5FF2C5C92597B38CA45C00074",
+          "actual": "0045fc5c8c1684e3925c1ff1b9245386186f7ac5ff2c5c92597b38ca45c00074",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "inputs/B/workshop.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/B/workshop.json",
+          "expected": "AB3350C6FA237678ABA53FEAA72F012B01147CEF8D999C640BE3D8CDAF28073F",
+          "actual": "ab3350c6fa237678aba53feaa72f012b01147cef8d999c640be3d8cdaf28073f",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "inputs/common/contract.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/contract.json",
+          "expected": "356353C67605C08E93C68D09C6AA93B6E7F50CE60F07167E13A63F95EB7434F6",
+          "actual": "356353c67605c08e93c68d09c6aa93b6e7f50ce60f07167e13a63f95eb7434f6",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "inputs/common/issues.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/issues.json",
+          "expected": "2184956954412A0B39BFB66ACC70EBD09A215308112AB8CAA628A817F6E62F9B",
+          "actual": "2184956954412a0b39bfb66acc70ebd09a215308112ab8caa628a817f6e62f9b",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "inputs/common/learning.schema.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/learning.schema.json",
+          "expected": "B1160E7CD9AA4B28D4EEC2B255966061045F677E9A5772E42F9AA22B97107C8C",
+          "actual": "b1160e7cd9aa4b28d4eec2b255966061045f677e9a5772e42f9aa22b97107c8c",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "inputs/common/stage.schema.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/stage.schema.json",
+          "expected": "B810BA8016B335BCEB6F56DE75FCCFDEEA887F3512ABC4BE0657934C6F40363A",
+          "actual": "b810ba8016b335bceb6f56de75fccfdeea887f3512abc4be0657934c6f40363a",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "inputs/common/dictionary.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/dictionary.md",
+          "expected": "3AFE0EE860B06C6CCB0531BEC7DBC5B5B3F1A8FCC723A9B40BC80D1B437A07F0",
+          "actual": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "inputs/common/workshop.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/workshop.md",
+          "expected": "DF70B6E09DDCC802B545AD14E7DF6F0BCB22C703B8CCA5486EE3B9EAC5565E54",
+          "actual": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "inputs/common/TRANSLATION_SPEC.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md",
+          "expected": "E329B72A34915933438A1B5CF8E9ED0A3A6F489487E3AAD0D48A62B7C21FDE9D",
+          "actual": "e329b72a34915933438a1b5cf8e9ed0a3a6f489487e3aad0d48a62b7c21fde9d",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "inputs/common/glossary.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/glossary.json",
+          "expected": "4154945DFB1EB15C862BFCCC4466E9CF096F5C46EF96E33C954DCE31001F45E7",
+          "actual": "4154945dfb1eb15c862bfccc4466e9cf096f5c46ef96e33c954dce31001f45e7",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "scripts/flow-validation/validate.mjs",
+          "resolvedPath": "scripts/flow-validation/validate.mjs",
+          "expected": "FB7DCEFD1DF4C288B95A6811513C38975222580161532DA77A6C2DD40ACF9DDB",
+          "actual": "fb7dcefd1df4c288b95a6811513c38975222580161532da77a6c2dd40acf9ddb",
+          "status": "PASS"
+        }
+      ],
+      "note": "inputs/* keys resolved against flow-validation root; scripts/* against project root."
+    },
+    {
+      "stage": "A-edited",
+      "stagePath": "content/pilots/flow-validation/A/edited/stage.json",
+      "reportedTaskId": "unknown",
+      "threadId": "01a0c8e5-6a32-7321-952e-14e0429695a4",
+      "turnId": "01a0c8e5-6d91-7483-b5d2-7e7718229e32",
+      "reportedUsageTurnIds": [],
+      "inputHashes": [
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/A/edited.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/A/edited.md",
+          "expected": "ed0de68331473a50def44c697ecf0a3174fc902d09901660ec51ae9f14507578",
+          "actual": "ed0de68331473a50def44c697ecf0a3174fc902d09901660ec51ae9f14507578",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/contract.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/contract.json",
+          "expected": "356353c67605c08e93c68d09c6aa93b6e7f50ce60f07167e13a63f95eb7434f6",
+          "actual": "356353c67605c08e93c68d09c6aa93b6e7f50ce60f07167e13a63f95eb7434f6",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/issues.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/issues.json",
+          "expected": "2184956954412a0b39bfb66acc70ebd09a215308112ab8caa628a817f6e62f9b",
+          "actual": "2184956954412a0b39bfb66acc70ebd09a215308112ab8caa628a817f6e62f9b",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/learning.schema.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/learning.schema.json",
+          "expected": "b1160e7cd9aa4b28d4eec2b255966061045f677e9a5772e42f9aa22b97107c8c",
+          "actual": "b1160e7cd9aa4b28d4eec2b255966061045f677e9a5772e42f9aa22b97107c8c",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/stage.schema.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/stage.schema.json",
+          "expected": "b810ba8016b335bceb6f56de75fccfdeea887f3512abc4be0657934c6f40363a",
+          "actual": "b810ba8016b335bceb6f56de75fccfdeea887f3512abc4be0657934c6f40363a",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/dictionary.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/dictionary.md",
+          "expected": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+          "actual": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/workshop.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/workshop.md",
+          "expected": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+          "actual": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md",
+          "expected": "e329b72a34915933438a1b5cf8e9ed0a3a6f489487e3aad0d48a62b7c21fde9d",
+          "actual": "e329b72a34915933438a1b5cf8e9ed0a3a6f489487e3aad0d48a62b7c21fde9d",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/glossary.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/glossary.json",
+          "expected": "4154945dfb1eb15c862bfccc4466e9cf096f5c46ef96e33c954dce31001f45e7",
+          "actual": "4154945dfb1eb15c862bfccc4466e9cf096f5c46ef96e33c954dce31001f45e7",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "scripts/flow-validation/validate.mjs",
+          "resolvedPath": "scripts/flow-validation/validate.mjs",
+          "expected": "fb7dcefd1df4c288b95a6811513c38975222580161532da77a6c2dd40acf9ddb",
+          "actual": "fb7dcefd1df4c288b95a6811513c38975222580161532da77a6c2dd40acf9ddb",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/A/draft/dictionary.md",
+          "resolvedPath": "content/pilots/flow-validation/A/draft/dictionary.md",
+          "expected": "bc078026f972bab5de0b4b2be34b2db53c75b06b1da9dfc1e016959cf37b76cb",
+          "actual": "bc078026f972bab5de0b4b2be34b2db53c75b06b1da9dfc1e016959cf37b76cb",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/A/draft/dictionary.learning.json",
+          "resolvedPath": "content/pilots/flow-validation/A/draft/dictionary.learning.json",
+          "expected": "bb4e276bbefad0b2a840a0aaba955181c0912a562c2e45d76bbdda180f1fccf4",
+          "actual": "bb4e276bbefad0b2a840a0aaba955181c0912a562c2e45d76bbdda180f1fccf4",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/A/draft/stage.json",
+          "resolvedPath": "content/pilots/flow-validation/A/draft/stage.json",
+          "expected": "f0b8b5c28a8577d9af59bfa6e0b854e75946a93f05afe5a36b990a874daef050",
+          "actual": "f0b8b5c28a8577d9af59bfa6e0b854e75946a93f05afe5a36b990a874daef050",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "C:/Users/Administrator/.codex/memories/MEMORY.md",
+          "resolvedPath": "C:/Users/Administrator/.codex/memories/MEMORY.md",
+          "expected": "7807bc291fc086d3904e238d16dd4462bf61a19f408ffc1691c4947a5f38d152",
+          "status": "SELF_REPORTED_EXTERNAL_MEMORY_HASH_NOT_REOPENED"
+        }
+      ],
+      "note": "Task ID unknown is mapped separately; producer artifact unchanged."
+    },
+    {
+      "stage": "B-edited",
+      "stagePath": "content/pilots/flow-validation/B/edited/stage.json",
+      "reportedTaskId": "01a0c8e7-0c75-7be2-8767-f8a48cb5290c",
+      "threadId": "01a0c8e7-0c75-7be2-8767-f8a48cb5290c",
+      "turnId": "01a0c8e7-0e4b-7e71-8434-154c0c6dce20",
+      "reportedUsageTurnIds": [
+        "01a0c8e7-0c75-7be2-8767-f8a48cb5290c"
+      ],
+      "inputHashes": [
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/B/edited.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/B/edited.md",
+          "expected": "5a3b0b604ecaf50d1e74585ea07d852c1e77b237acb2cb1d0a4dc4c608bca6da",
+          "actual": "5a3b0b604ecaf50d1e74585ea07d852c1e77b237acb2cb1d0a4dc4c608bca6da",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/contract.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/contract.json",
+          "expected": "356353c67605c08e93c68d09c6aa93b6e7f50ce60f07167e13a63f95eb7434f6",
+          "actual": "356353c67605c08e93c68d09c6aa93b6e7f50ce60f07167e13a63f95eb7434f6",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/issues.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/issues.json",
+          "expected": "2184956954412a0b39bfb66acc70ebd09a215308112ab8caa628a817f6e62f9b",
+          "actual": "2184956954412a0b39bfb66acc70ebd09a215308112ab8caa628a817f6e62f9b",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/learning.schema.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/learning.schema.json",
+          "expected": "b1160e7cd9aa4b28d4eec2b255966061045f677e9a5772e42f9aa22b97107c8c",
+          "actual": "b1160e7cd9aa4b28d4eec2b255966061045f677e9a5772e42f9aa22b97107c8c",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/stage.schema.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/stage.schema.json",
+          "expected": "b810ba8016b335bceb6f56de75fccfdeea887f3512abc4be0657934c6f40363a",
+          "actual": "b810ba8016b335bceb6f56de75fccfdeea887f3512abc4be0657934c6f40363a",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/dictionary.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/dictionary.md",
+          "expected": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+          "actual": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/TRANSLATION_SPEC.md",
+          "expected": "e329b72a34915933438a1b5cf8e9ed0a3a6f489487e3aad0d48a62b7c21fde9d",
+          "actual": "e329b72a34915933438a1b5cf8e9ed0a3a6f489487e3aad0d48a62b7c21fde9d",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/common/glossary.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/common/glossary.json",
+          "expected": "4154945dfb1eb15c862bfccc4466e9cf096f5c46ef96e33c954dce31001f45e7",
+          "actual": "4154945dfb1eb15c862bfccc4466e9cf096f5c46ef96e33c954dce31001f45e7",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "scripts/flow-validation/validate.mjs",
+          "resolvedPath": "scripts/flow-validation/validate.mjs",
+          "expected": "fb7dcefd1df4c288b95a6811513c38975222580161532da77a6c2dd40acf9ddb",
+          "actual": "fb7dcefd1df4c288b95a6811513c38975222580161532da77a6c2dd40acf9ddb",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/inputs/B/dictionary.json",
+          "resolvedPath": "content/pilots/flow-validation/inputs/B/dictionary.json",
+          "expected": "0045fc5c8c1684e3925c1ff1b9245386186f7ac5ff2c5c92597b38ca45c00074",
+          "actual": "0045fc5c8c1684e3925c1ff1b9245386186f7ac5ff2c5c92597b38ca45c00074",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/B/draft/dictionary.md",
+          "resolvedPath": "content/pilots/flow-validation/B/draft/dictionary.md",
+          "expected": "c3784621185e30f48db1761933c923f6e4d40a7e33216263b7f5e84201a6b7f8",
+          "actual": "c3784621185e30f48db1761933c923f6e4d40a7e33216263b7f5e84201a6b7f8",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/B/draft/dictionary.learning.json",
+          "resolvedPath": "content/pilots/flow-validation/B/draft/dictionary.learning.json",
+          "expected": "4ee220182996dd1c548633ca22d29710bf4c90bc3073e9e300573f7fb35d37f6",
+          "actual": "4ee220182996dd1c548633ca22d29710bf4c90bc3073e9e300573f7fb35d37f6",
+          "status": "PASS"
+        },
+        {
+          "originalKey": "content/pilots/flow-validation/B/draft/stage.json",
+          "resolvedPath": "content/pilots/flow-validation/B/draft/stage.json",
+          "expected": "f601f3f4b24d3d4a8c3051a24bf7d6de1625853795cbe3f373c9180337e5e3c8",
+          "actual": "f601f3f4b24d3d4a8c3051a24bf7d6de1625853795cbe3f373c9180337e5e3c8",
+          "status": "PASS"
+        }
+      ],
+      "note": "Original usage.turnIds contains thread ID; telemetry turn ID is mapped here without changing stage.json."
+    }
+  ],
+  "evidenceBoundary": "Hash matches verify current bytes, not which bytes were read by a request."
+}

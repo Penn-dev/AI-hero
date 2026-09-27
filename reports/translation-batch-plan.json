@@ -1,0 +1,1449 @@
+{
+  "generatedAt": "2026-09-14T10:23:47.356Z",
+  "policy": {
+    "concurrency": 6,
+    "agentContext": "fresh context; never fork the orchestration thread",
+    "article": "up to 14,000 source characters and 3 pages",
+    "dictionary": "up to 18,000 source characters and 8 entries",
+    "special": "one changelog, workshop, or home page per task",
+    "stages": [
+      "Terra/medium initial translation",
+      "Sol/medium editorial review"
+    ]
+  },
+  "totals": {
+    "pages": 186,
+    "sourceChars": 939064,
+    "batchesPerStage": 71,
+    "agentTasksBothStages": 142
+  },
+  "batches": [
+    {
+      "id": "batch-001",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/how-to-improve-your-llm-powered-app",
+          "sourcePath": "content/source/how-to-improve-your-llm-powered-app.md",
+          "sourceChars": 29058
+        }
+      ],
+      "sourceChars": 29058
+    },
+    {
+      "id": "batch-002",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/tips-for-ai-coding-with-ralph-wiggum",
+          "sourcePath": "content/source/tips-for-ai-coding-with-ralph-wiggum.md",
+          "sourceChars": 26509
+        }
+      ],
+      "sourceChars": 26509
+    },
+    {
+      "id": "batch-003",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-wayfinder",
+          "sourcePath": "content/source/skills-wayfinder.md",
+          "sourceChars": 16165
+        }
+      ],
+      "sourceChars": 16165
+    },
+    {
+      "id": "batch-004",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/burn-through-your-backlog-with-my-triage-skill",
+          "sourcePath": "content/source/burn-through-your-backlog-with-my-triage-skill.md",
+          "sourceChars": 13515
+        }
+      ],
+      "sourceChars": 13515
+    },
+    {
+      "id": "batch-005",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-teach",
+          "sourcePath": "content/source/skills-teach.md",
+          "sourceChars": 13443
+        }
+      ],
+      "sourceChars": 13443
+    },
+    {
+      "id": "batch-006",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-triage",
+          "sourcePath": "content/source/skills-triage.md",
+          "sourceChars": 13307
+        }
+      ],
+      "sourceChars": 13307
+    },
+    {
+      "id": "batch-007",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-codebase-design",
+          "sourcePath": "content/source/skills-codebase-design.md",
+          "sourceChars": 12555
+        },
+        {
+          "route": "/connect-claude-code-to-github",
+          "sourcePath": "content/source/connect-claude-code-to-github.md",
+          "sourceChars": 1326
+        }
+      ],
+      "sourceChars": 13881
+    },
+    {
+      "id": "batch-008",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-improve-codebase-architecture",
+          "sourcePath": "content/source/skills-improve-codebase-architecture.md",
+          "sourceChars": 12066
+        },
+        {
+          "route": "/ai-engineer-roadmap",
+          "sourcePath": "content/source/ai-engineer-roadmap.md",
+          "sourceChars": 1890
+        }
+      ],
+      "sourceChars": 13956
+    },
+    {
+      "id": "batch-009",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/what-are-evals",
+          "sourcePath": "content/source/what-are-evals.md",
+          "sourceChars": 11163
+        },
+        {
+          "route": "/streaming-text-with-vercel-ai-sdk",
+          "sourcePath": "content/source/streaming-text-with-vercel-ai-sdk.md",
+          "sourceChars": 2789
+        }
+      ],
+      "sourceChars": 13952
+    },
+    {
+      "id": "batch-010",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/a-complete-guide-to-agents-md",
+          "sourcePath": "content/source/a-complete-guide-to-agents-md.md",
+          "sourceChars": 11076
+        },
+        {
+          "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+          "sourcePath": "content/source/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+          "sourceChars": 2742
+        }
+      ],
+      "sourceChars": 13818
+    },
+    {
+      "id": "batch-011",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-to-tickets",
+          "sourcePath": "content/source/skills-to-tickets.md",
+          "sourceChars": 10942
+        },
+        {
+          "route": "/generate-enums-with-vercel-ai-sdk",
+          "sourcePath": "content/source/generate-enums-with-vercel-ai-sdk.md",
+          "sourceChars": 3025
+        }
+      ],
+      "sourceChars": 13967
+    },
+    {
+      "id": "batch-012",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-domain-modeling",
+          "sourcePath": "content/source/skills-domain-modeling.md",
+          "sourceChars": 10939
+        },
+        {
+          "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+          "sourcePath": "content/source/my-agents-md-file-for-building-plans-you-actually-read.md",
+          "sourceChars": 2944
+        }
+      ],
+      "sourceChars": 13883
+    },
+    {
+      "id": "batch-013",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-ask-matt",
+          "sourcePath": "content/source/skills-ask-matt.md",
+          "sourceChars": 10901
+        },
+        {
+          "route": "/use-local-models-with-vercel-ai-sdk",
+          "sourcePath": "content/source/use-local-models-with-vercel-ai-sdk.md",
+          "sourceChars": 3079
+        }
+      ],
+      "sourceChars": 13980
+    },
+    {
+      "id": "batch-014",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-diagnosing-bugs",
+          "sourcePath": "content/source/skills-diagnosing-bugs.md",
+          "sourceChars": 10892
+        },
+        {
+          "route": "/what-is-an-agent",
+          "sourcePath": "content/source/what-is-an-agent.md",
+          "sourceChars": 3108
+        }
+      ],
+      "sourceChars": 14000
+    },
+    {
+      "id": "batch-015",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-code-review",
+          "sourcePath": "content/source/skills-code-review.md",
+          "sourceChars": 10736
+        },
+        {
+          "route": "/the-problem-with-mcp-stateful-server",
+          "sourcePath": "content/source/the-problem-with-mcp-stateful-server.md",
+          "sourceChars": 3181
+        }
+      ],
+      "sourceChars": 13917
+    },
+    {
+      "id": "batch-016",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-tdd",
+          "sourcePath": "content/source/skills-tdd.md",
+          "sourceChars": 10659
+        },
+        {
+          "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+          "sourcePath": "content/source/2025-the-year-building-with-gen-ais-gets-boring~d53hd.md",
+          "sourceChars": 3339
+        }
+      ],
+      "sourceChars": 13998
+    },
+    {
+      "id": "batch-017",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-grilling",
+          "sourcePath": "content/source/skills-grilling.md",
+          "sourceChars": 10585
+        },
+        {
+          "route": "/my-grill-me-skill-has-gone-viral",
+          "sourcePath": "content/source/my-grill-me-skill-has-gone-viral.md",
+          "sourceChars": 3370
+        }
+      ],
+      "sourceChars": 13955
+    },
+    {
+      "id": "batch-018",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-implement",
+          "sourcePath": "content/source/skills-implement.md",
+          "sourceChars": 10424
+        },
+        {
+          "route": "/what-is-the-ai-sdk",
+          "sourcePath": "content/source/what-is-the-ai-sdk.md",
+          "sourceChars": 3550
+        }
+      ],
+      "sourceChars": 13974
+    },
+    {
+      "id": "batch-019",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/grill-with-docs",
+          "sourcePath": "content/source/grill-with-docs.md",
+          "sourceChars": 10245
+        },
+        {
+          "route": "/mcp-server-from-a-single-typescript-file",
+          "sourcePath": "content/source/mcp-server-from-a-single-typescript-file.md",
+          "sourceChars": 3715
+        }
+      ],
+      "sourceChars": 13960
+    },
+    {
+      "id": "batch-020",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-grill-with-docs",
+          "sourcePath": "content/source/skills-grill-with-docs.md",
+          "sourceChars": 10112
+        },
+        {
+          "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+          "sourcePath": "content/source/this-hook-stops-claude-code-running-dangerous-git-commands.md",
+          "sourceChars": 3837
+        }
+      ],
+      "sourceChars": 13949
+    },
+    {
+      "id": "batch-021",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-wizard",
+          "sourcePath": "content/source/skills-wizard.md",
+          "sourceChars": 10041
+        },
+        {
+          "route": "/skills-wait-what",
+          "sourcePath": "content/source/skills-wait-what.md",
+          "sourceChars": 3709
+        }
+      ],
+      "sourceChars": 13750
+    },
+    {
+      "id": "batch-022",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-prototype",
+          "sourcePath": "content/source/skills-prototype.md",
+          "sourceChars": 9856
+        },
+        {
+          "route": "/what-are-tools",
+          "sourcePath": "content/source/what-are-tools.md",
+          "sourceChars": 4136
+        }
+      ],
+      "sourceChars": 13992
+    },
+    {
+      "id": "batch-023",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-research",
+          "sourcePath": "content/source/skills-research.md",
+          "sourceChars": 9849
+        },
+        {
+          "route": "/logging-a-huge-mcp-footgun",
+          "sourcePath": "content/source/logging-a-huge-mcp-footgun.md",
+          "sourceChars": 4064
+        }
+      ],
+      "sourceChars": 13913
+    },
+    {
+      "id": "batch-024",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+          "sourcePath": "content/source/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+          "sourceChars": 9799
+        },
+        {
+          "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+          "sourcePath": "content/source/how-to-use-claude-code-hooks-to-enforce-the-right-cli.md",
+          "sourceChars": 4185
+        }
+      ],
+      "sourceChars": 13984
+    },
+    {
+      "id": "batch-025",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/5-agent-skills-i-use-every-day",
+          "sourcePath": "content/source/5-agent-skills-i-use-every-day.md",
+          "sourceChars": 9597
+        },
+        {
+          "route": "/skills",
+          "sourcePath": "content/source/skills.md",
+          "sourceChars": 4371
+        }
+      ],
+      "sourceChars": 13968
+    },
+    {
+      "id": "batch-026",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-setup-matt-pocock-skills",
+          "sourcePath": "content/source/skills-setup-matt-pocock-skills.md",
+          "sourceChars": 9574
+        },
+        {
+          "route": "/using-mcp-prompts",
+          "sourcePath": "content/source/using-mcp-prompts.md",
+          "sourceChars": 4364
+        }
+      ],
+      "sourceChars": 13938
+    },
+    {
+      "id": "batch-027",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-to-spec",
+          "sourcePath": "content/source/skills-to-spec.md",
+          "sourceChars": 8999
+        },
+        {
+          "route": "/google-agents-whitepaper-review",
+          "sourcePath": "content/source/google-agents-whitepaper-review.md",
+          "sourceChars": 4932
+        }
+      ],
+      "sourceChars": 13931
+    },
+    {
+      "id": "batch-028",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-handoff",
+          "sourcePath": "content/source/skills-handoff.md",
+          "sourceChars": 8969
+        },
+        {
+          "route": "/create-embeddings-with-vercel-ai-sdk",
+          "sourcePath": "content/source/create-embeddings-with-vercel-ai-sdk.md",
+          "sourceChars": 4841
+        }
+      ],
+      "sourceChars": 13810
+    },
+    {
+      "id": "batch-029",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/what-are-llms-used-for",
+          "sourcePath": "content/source/what-are-llms-used-for.md",
+          "sourceChars": 8922
+        },
+        {
+          "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+          "sourcePath": "content/source/heres-how-to-stream-claude-code-with-afk-ralph.md",
+          "sourceChars": 4707
+        }
+      ],
+      "sourceChars": 13629
+    },
+    {
+      "id": "batch-030",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/how-to-choose-an-llm",
+          "sourcePath": "content/source/how-to-choose-an-llm.md",
+          "sourceChars": 8819
+        },
+        {
+          "route": "/how-to-make-codebases-ai-agents-love",
+          "sourcePath": "content/source/how-to-make-codebases-ai-agents-love.md",
+          "sourceChars": 5092
+        }
+      ],
+      "sourceChars": 13911
+    },
+    {
+      "id": "batch-031",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/vercel-ai-sdk-messages-array",
+          "sourcePath": "content/source/vercel-ai-sdk-messages-array.md",
+          "sourceChars": 8693
+        },
+        {
+          "route": "/why-the-anthropic-ralph-plugin-sucks",
+          "sourcePath": "content/source/why-the-anthropic-ralph-plugin-sucks.md",
+          "sourceChars": 5222
+        }
+      ],
+      "sourceChars": 13915
+    },
+    {
+      "id": "batch-032",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+          "sourcePath": "content/source/skills-changelog-ubiquitous-language-grill-with-docs.md",
+          "sourceChars": 8585
+        },
+        {
+          "route": "/structured-outputs-with-vercel-ai-sdk",
+          "sourcePath": "content/source/structured-outputs-with-vercel-ai-sdk.md",
+          "sourceChars": 5410
+        }
+      ],
+      "sourceChars": 13995
+    },
+    {
+      "id": "batch-033",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/plan-mode-introduction",
+          "sourcePath": "content/source/plan-mode-introduction.md",
+          "sourceChars": 8541
+        },
+        {
+          "route": "/ways-ai-coding-has-rewired-my-brain",
+          "sourcePath": "content/source/ways-ai-coding-has-rewired-my-brain.md",
+          "sourceChars": 5442
+        }
+      ],
+      "sourceChars": 13983
+    },
+    {
+      "id": "batch-034",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-to-questionnaire",
+          "sourcePath": "content/source/skills-to-questionnaire.md",
+          "sourceChars": 8024
+        },
+        {
+          "route": "/what-is-an-ai-engineer",
+          "sourcePath": "content/source/what-is-an-ai-engineer.md",
+          "sourceChars": 5872
+        }
+      ],
+      "sourceChars": 13896
+    },
+    {
+      "id": "batch-035",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/getting-started-with-ralph",
+          "sourcePath": "content/source/getting-started-with-ralph.md",
+          "sourceChars": 8005
+        },
+        {
+          "route": "/creating-the-perfect-claude-code-status-line",
+          "sourcePath": "content/source/creating-the-perfect-claude-code-status-line.md",
+          "sourceChars": 5979
+        }
+      ],
+      "sourceChars": 13984
+    },
+    {
+      "id": "batch-036",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-writing-for-agents",
+          "sourcePath": "content/source/skills-writing-for-agents.md",
+          "sourceChars": 7985
+        },
+        {
+          "route": "/evalite-v1-preview",
+          "sourcePath": "content/source/evalite-v1-preview.md",
+          "sourceChars": 6010
+        }
+      ],
+      "sourceChars": 13995
+    },
+    {
+      "id": "batch-037",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/my-7-phases-of-ai-development",
+          "sourcePath": "content/source/my-7-phases-of-ai-development.md",
+          "sourceChars": 7942
+        },
+        {
+          "route": "/tracer-bullets",
+          "sourcePath": "content/source/tracer-bullets.md",
+          "sourceChars": 5739
+        }
+      ],
+      "sourceChars": 13681
+    },
+    {
+      "id": "batch-038",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/the-ai-engineer-mindset",
+          "sourcePath": "content/source/the-ai-engineer-mindset.md",
+          "sourceChars": 7596
+        },
+        {
+          "route": "/never-run-claude-init",
+          "sourcePath": "content/source/never-run-claude-init.md",
+          "sourceChars": 6365
+        }
+      ],
+      "sourceChars": 13961
+    },
+    {
+      "id": "batch-039",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skill-test-driven-development-claude-code",
+          "sourcePath": "content/source/skill-test-driven-development-claude-code.md",
+          "sourceChars": 7492
+        },
+        {
+          "route": "/tool-calls-with-vercel-ai-sdk",
+          "sourcePath": "content/source/tool-calls-with-vercel-ai-sdk.md",
+          "sourceChars": 6505
+        }
+      ],
+      "sourceChars": 13997
+    },
+    {
+      "id": "batch-040",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/what-is-an-llm",
+          "sourcePath": "content/source/what-is-an-llm.md",
+          "sourceChars": 7396
+        },
+        {
+          "route": "/how-does-the-model-context-protocol-work",
+          "sourcePath": "content/source/how-does-the-model-context-protocol-work.md",
+          "sourceChars": 6435
+        }
+      ],
+      "sourceChars": 13831
+    },
+    {
+      "id": "batch-041",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/agents-with-vercel-ai-sdk",
+          "sourcePath": "content/source/agents-with-vercel-ai-sdk.md",
+          "sourceChars": 7121
+        },
+        {
+          "route": "/skills-grill-me",
+          "sourcePath": "content/source/skills-grill-me.md",
+          "sourceChars": 6700
+        }
+      ],
+      "sourceChars": 13821
+    },
+    {
+      "id": "batch-042",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+          "sourcePath": "content/source/streaming-in-next-question-suggestions-with-the-ai-sdk.md",
+          "sourceChars": 7051
+        },
+        {
+          "route": "/vercel-ai-sdk",
+          "sourcePath": "content/source/vercel-ai-sdk.md",
+          "sourceChars": 6214
+        }
+      ],
+      "sourceChars": 13265
+    },
+    {
+      "id": "batch-043",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/publish-your-mcp-server-to-npm",
+          "sourcePath": "content/source/publish-your-mcp-server-to-npm.md",
+          "sourceChars": 6199
+        },
+        {
+          "route": "/describe-images-with-vercel-ai-sdk",
+          "sourcePath": "content/source/describe-images-with-vercel-ai-sdk.md",
+          "sourceChars": 6168
+        },
+        {
+          "route": "/llm-fundamentals",
+          "sourcePath": "content/source/llm-fundamentals.md",
+          "sourceChars": 1474
+        }
+      ],
+      "sourceChars": 13841
+    },
+    {
+      "id": "batch-044",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/my-claude-code-cohort-a-teaser",
+          "sourcePath": "content/source/my-claude-code-cohort-a-teaser.md",
+          "sourceChars": 5579
+        },
+        {
+          "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+          "sourcePath": "content/source/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+          "sourceChars": 5548
+        },
+        {
+          "route": "/generate-text-with-vercel-ai-sdk",
+          "sourcePath": "content/source/generate-text-with-vercel-ai-sdk.md",
+          "sourceChars": 2654
+        }
+      ],
+      "sourceChars": 13781
+    },
+    {
+      "id": "batch-045",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/skills-resolving-merge-conflicts",
+          "sourcePath": "content/source/skills-resolving-merge-conflicts.md",
+          "sourceChars": 5537
+        },
+        {
+          "route": "/structured-data-from-pdfs-with-vercel-ai-sdk",
+          "sourcePath": "content/source/structured-data-from-pdfs-with-vercel-ai-sdk.md",
+          "sourceChars": 5397
+        },
+        {
+          "route": "/generate-arrays-with-vercel-ai-sdk",
+          "sourcePath": "content/source/generate-arrays-with-vercel-ai-sdk.md",
+          "sourceChars": 2549
+        }
+      ],
+      "sourceChars": 13483
+    },
+    {
+      "id": "batch-046",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/learn-anything-with-my-teach-skill",
+          "sourcePath": "content/source/learn-anything-with-my-teach-skill.md",
+          "sourceChars": 4458
+        },
+        {
+          "route": "/implementing-anthropics-think-tool-in-typescript",
+          "sourcePath": "content/source/implementing-anthropics-think-tool-in-typescript.md",
+          "sourceChars": 4211
+        },
+        {
+          "route": "/what-are-tokens",
+          "sourcePath": "content/source/what-are-tokens.md",
+          "sourceChars": 4167
+        }
+      ],
+      "sourceChars": 12836
+    },
+    {
+      "id": "batch-047",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/messages-system-prompts-and-reasoning-tokens",
+          "sourcePath": "content/source/messages-system-prompts-and-reasoning-tokens.md",
+          "sourceChars": 3652
+        },
+        {
+          "route": "/securing-your-ai-app-with-guardrails",
+          "sourcePath": "content/source/securing-your-ai-app-with-guardrails.md",
+          "sourceChars": 3512
+        },
+        {
+          "route": "/streaming-objects-with-vercel-ai-sdk",
+          "sourcePath": "content/source/streaming-objects-with-vercel-ai-sdk.md",
+          "sourceChars": 3450
+        }
+      ],
+      "sourceChars": 10614
+    },
+    {
+      "id": "batch-048",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/building-effective-agents",
+          "sourcePath": "content/source/building-effective-agents.md",
+          "sourceChars": 3168
+        },
+        {
+          "route": "/what-is-the-context-window",
+          "sourcePath": "content/source/what-is-the-context-window.md",
+          "sourceChars": 3109
+        },
+        {
+          "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+          "sourcePath": "content/source/personal-software-is-insane-in-the-age-of-ai-u2hx2.md",
+          "sourceChars": 2473
+        }
+      ],
+      "sourceChars": 8750
+    },
+    {
+      "id": "batch-049",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/swap-ai-models-with-vercel-ai-sdk",
+          "sourcePath": "content/source/swap-ai-models-with-vercel-ai-sdk.md",
+          "sourceChars": 2341
+        },
+        {
+          "route": "/system-prompts-with-vercel-ai-sdk",
+          "sourcePath": "content/source/system-prompts-with-vercel-ai-sdk.md",
+          "sourceChars": 2202
+        },
+        {
+          "route": "/skills-catalog",
+          "sourcePath": "content/source/skills-catalog.md",
+          "sourceChars": 1827
+        }
+      ],
+      "sourceChars": 6370
+    },
+    {
+      "id": "batch-050",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/three-types-of-evals",
+          "sourcePath": "content/source/three-types-of-evals.md",
+          "sourceChars": 1775
+        },
+        {
+          "route": "/real-world-feature-build-with-claude-code",
+          "sourcePath": "content/source/real-world-feature-build-with-claude-code.md",
+          "sourceChars": 1712
+        },
+        {
+          "route": "/the-prompt-report",
+          "sourcePath": "content/source/the-prompt-report.md",
+          "sourceChars": 1634
+        }
+      ],
+      "sourceChars": 5121
+    },
+    {
+      "id": "batch-051",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/vercel-ai-sdk-tutorial",
+          "sourcePath": "content/source/vercel-ai-sdk-tutorial.md",
+          "sourceChars": 1463
+        },
+        {
+          "route": "/model-context-protocol-tutorial",
+          "sourcePath": "content/source/model-context-protocol-tutorial.md",
+          "sourceChars": 1242
+        },
+        {
+          "route": "/storm-generate-high-quality-articles-based-on-real-research",
+          "sourcePath": "content/source/storm-generate-high-quality-articles-based-on-real-research.md",
+          "sourceChars": 928
+        }
+      ],
+      "sourceChars": 3633
+    },
+    {
+      "id": "batch-052",
+      "category": "article",
+      "pages": [
+        {
+          "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+          "sourcePath": "content/source/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
+          "sourceChars": 810
+        },
+        {
+          "route": "/evalite-an-early-preview",
+          "sourcePath": "content/source/evalite-an-early-preview.md",
+          "sourceChars": 742
+        }
+      ],
+      "sourceChars": 1552
+    },
+    {
+      "id": "batch-053",
+      "category": "dictionary",
+      "pages": [
+        {
+          "route": "/ai-coding-dictionary",
+          "sourcePath": "content/source/ai-coding-dictionary.md",
+          "sourceChars": 10654
+        },
+        {
+          "route": "/ai-coding-dictionary/cache-tokens",
+          "sourcePath": "content/source/ai-coding-dictionary/cache-tokens.md",
+          "sourceChars": 2865
+        },
+        {
+          "route": "/ai-coding-dictionary/attention-relationship",
+          "sourcePath": "content/source/ai-coding-dictionary/attention-relationship.md",
+          "sourceChars": 2848
+        },
+        {
+          "route": "/ai-coding-dictionary/grilling",
+          "sourcePath": "content/source/ai-coding-dictionary/grilling.md",
+          "sourceChars": 1602
+        }
+      ],
+      "sourceChars": 17969
+    },
+    {
+      "id": "batch-054",
+      "category": "dictionary",
+      "pages": [
+        {
+          "route": "/ai-coding-dictionary/contextual-knowledge",
+          "sourcePath": "content/source/ai-coding-dictionary/contextual-knowledge.md",
+          "sourceChars": 2843
+        },
+        {
+          "route": "/ai-coding-dictionary/environment",
+          "sourcePath": "content/source/ai-coding-dictionary/environment.md",
+          "sourceChars": 2784
+        },
+        {
+          "route": "/ai-coding-dictionary/model-provider-request",
+          "sourcePath": "content/source/ai-coding-dictionary/model-provider-request.md",
+          "sourceChars": 2774
+        },
+        {
+          "route": "/ai-coding-dictionary/secondary-source",
+          "sourcePath": "content/source/ai-coding-dictionary/secondary-source.md",
+          "sourceChars": 2741
+        },
+        {
+          "route": "/ai-coding-dictionary/non-determinism",
+          "sourcePath": "content/source/ai-coding-dictionary/non-determinism.md",
+          "sourceChars": 2653
+        },
+        {
+          "route": "/ai-coding-dictionary/context-pointer",
+          "sourcePath": "content/source/ai-coding-dictionary/context-pointer.md",
+          "sourceChars": 2632
+        },
+        {
+          "route": "/ai-coding-dictionary/output-tokens",
+          "sourcePath": "content/source/ai-coding-dictionary/output-tokens.md",
+          "sourceChars": 1489
+        }
+      ],
+      "sourceChars": 17916
+    },
+    {
+      "id": "batch-055",
+      "category": "dictionary",
+      "pages": [
+        {
+          "route": "/ai-coding-dictionary/smart-zone",
+          "sourcePath": "content/source/ai-coding-dictionary/smart-zone.md",
+          "sourceChars": 2630
+        },
+        {
+          "route": "/ai-coding-dictionary/hallucination",
+          "sourcePath": "content/source/ai-coding-dictionary/hallucination.md",
+          "sourceChars": 2596
+        },
+        {
+          "route": "/ai-coding-dictionary/ai",
+          "sourcePath": "content/source/ai-coding-dictionary/ai.md",
+          "sourceChars": 2590
+        },
+        {
+          "route": "/ai-coding-dictionary/tool",
+          "sourcePath": "content/source/ai-coding-dictionary/tool.md",
+          "sourceChars": 2521
+        },
+        {
+          "route": "/ai-coding-dictionary/tool-result",
+          "sourcePath": "content/source/ai-coding-dictionary/tool-result.md",
+          "sourceChars": 2512
+        },
+        {
+          "route": "/ai-coding-dictionary/afk",
+          "sourcePath": "content/source/ai-coding-dictionary/afk.md",
+          "sourceChars": 2511
+        },
+        {
+          "route": "/ai-coding-dictionary/handoff-artifact",
+          "sourcePath": "content/source/ai-coding-dictionary/handoff-artifact.md",
+          "sourceChars": 2498
+        }
+      ],
+      "sourceChars": 17858
+    },
+    {
+      "id": "batch-056",
+      "category": "dictionary",
+      "pages": [
+        {
+          "route": "/ai-coding-dictionary/stateful",
+          "sourcePath": "content/source/ai-coding-dictionary/stateful.md",
+          "sourceChars": 2486
+        },
+        {
+          "route": "/ai-coding-dictionary/mcp",
+          "sourcePath": "content/source/ai-coding-dictionary/mcp.md",
+          "sourceChars": 2444
+        },
+        {
+          "route": "/ai-coding-dictionary/permission-request",
+          "sourcePath": "content/source/ai-coding-dictionary/permission-request.md",
+          "sourceChars": 2442
+        },
+        {
+          "route": "/ai-coding-dictionary/inference",
+          "sourcePath": "content/source/ai-coding-dictionary/inference.md",
+          "sourceChars": 2430
+        },
+        {
+          "route": "/ai-coding-dictionary/automated-check",
+          "sourcePath": "content/source/ai-coding-dictionary/automated-check.md",
+          "sourceChars": 2427
+        },
+        {
+          "route": "/ai-coding-dictionary/dx",
+          "sourcePath": "content/source/ai-coding-dictionary/dx.md",
+          "sourceChars": 2390
+        },
+        {
+          "route": "/ai-coding-dictionary/agent-mode",
+          "sourcePath": "content/source/ai-coding-dictionary/agent-mode.md",
+          "sourceChars": 2373
+        }
+      ],
+      "sourceChars": 16992
+    },
+    {
+      "id": "batch-057",
+      "category": "dictionary",
+      "pages": [
+        {
+          "route": "/ai-coding-dictionary/automated-review",
+          "sourcePath": "content/source/ai-coding-dictionary/automated-review.md",
+          "sourceChars": 2364
+        },
+        {
+          "route": "/ai-coding-dictionary/agents-md",
+          "sourcePath": "content/source/ai-coding-dictionary/agents-md.md",
+          "sourceChars": 2358
+        },
+        {
+          "route": "/ai-coding-dictionary/stateless",
+          "sourcePath": "content/source/ai-coding-dictionary/stateless.md",
+          "sourceChars": 2357
+        },
+        {
+          "route": "/ai-coding-dictionary/token",
+          "sourcePath": "content/source/ai-coding-dictionary/token.md",
+          "sourceChars": 2350
+        },
+        {
+          "route": "/ai-coding-dictionary/harness",
+          "sourcePath": "content/source/ai-coding-dictionary/harness.md",
+          "sourceChars": 2314
+        },
+        {
+          "route": "/ai-coding-dictionary/effort",
+          "sourcePath": "content/source/ai-coding-dictionary/effort.md",
+          "sourceChars": 2255
+        },
+        {
+          "route": "/ai-coding-dictionary/session",
+          "sourcePath": "content/source/ai-coding-dictionary/session.md",
+          "sourceChars": 2238
+        },
+        {
+          "route": "/ai-coding-dictionary/ticket",
+          "sourcePath": "content/source/ai-coding-dictionary/ticket.md",
+          "sourceChars": 1739
+        }
+      ],
+      "sourceChars": 17975
+    },
+    {
+      "id": "batch-058",
+      "category": "dictionary",
+      "pages": [
+        {
+          "route": "/ai-coding-dictionary/ax",
+          "sourcePath": "content/source/ai-coding-dictionary/ax.md",
+          "sourceChars": 2235
+        },
+        {
+          "route": "/ai-coding-dictionary/parametric-knowledge",
+          "sourcePath": "content/source/ai-coding-dictionary/parametric-knowledge.md",
+          "sourceChars": 2234
+        },
+        {
+          "route": "/ai-coding-dictionary/human-in-the-loop",
+          "sourcePath": "content/source/ai-coding-dictionary/human-in-the-loop.md",
+          "sourceChars": 2230
+        },
+        {
+          "route": "/ai-coding-dictionary/compaction",
+          "sourcePath": "content/source/ai-coding-dictionary/compaction.md",
+          "sourceChars": 2221
+        },
+        {
+          "route": "/ai-coding-dictionary/system-prompt",
+          "sourcePath": "content/source/ai-coding-dictionary/system-prompt.md",
+          "sourceChars": 2155
+        },
+        {
+          "route": "/ai-coding-dictionary/memory-system",
+          "sourcePath": "content/source/ai-coding-dictionary/memory-system.md",
+          "sourceChars": 2147
+        },
+        {
+          "route": "/ai-coding-dictionary/attention-budget",
+          "sourcePath": "content/source/ai-coding-dictionary/attention-budget.md",
+          "sourceChars": 2145
+        },
+        {
+          "route": "/ai-coding-dictionary/sandbox",
+          "sourcePath": "content/source/ai-coding-dictionary/sandbox.md",
+          "sourceChars": 2140
+        }
+      ],
+      "sourceChars": 17507
+    },
+    {
+      "id": "batch-059",
+      "category": "dictionary",
+      "pages": [
+        {
+          "route": "/ai-coding-dictionary/skill",
+          "sourcePath": "content/source/ai-coding-dictionary/skill.md",
+          "sourceChars": 2130
+        },
+        {
+          "route": "/ai-coding-dictionary/attention-degradation",
+          "sourcePath": "content/source/ai-coding-dictionary/attention-degradation.md",
+          "sourceChars": 2117
+        },
+        {
+          "route": "/ai-coding-dictionary/spec",
+          "sourcePath": "content/source/ai-coding-dictionary/spec.md",
+          "sourceChars": 2107
+        },
+        {
+          "route": "/ai-coding-dictionary/parameters",
+          "sourcePath": "content/source/ai-coding-dictionary/parameters.md",
+          "sourceChars": 2096
+        },
+        {
+          "route": "/ai-coding-dictionary/context-window",
+          "sourcePath": "content/source/ai-coding-dictionary/context-window.md",
+          "sourceChars": 2095
+        },
+        {
+          "route": "/ai-coding-dictionary/handoff",
+          "sourcePath": "content/source/ai-coding-dictionary/handoff.md",
+          "sourceChars": 2094
+        },
+        {
+          "route": "/ai-coding-dictionary/model-provider",
+          "sourcePath": "content/source/ai-coding-dictionary/model-provider.md",
+          "sourceChars": 2086
+        },
+        {
+          "route": "/ai-coding-dictionary/permission-mode",
+          "sourcePath": "content/source/ai-coding-dictionary/permission-mode.md",
+          "sourceChars": 2085
+        }
+      ],
+      "sourceChars": 16810
+    },
+    {
+      "id": "batch-060",
+      "category": "dictionary",
+      "pages": [
+        {
+          "route": "/ai-coding-dictionary/vibe-coding",
+          "sourcePath": "content/source/ai-coding-dictionary/vibe-coding.md",
+          "sourceChars": 2082
+        },
+        {
+          "route": "/ai-coding-dictionary/primary-source",
+          "sourcePath": "content/source/ai-coding-dictionary/primary-source.md",
+          "sourceChars": 2073
+        },
+        {
+          "route": "/ai-coding-dictionary/design-concept",
+          "sourcePath": "content/source/ai-coding-dictionary/design-concept.md",
+          "sourceChars": 2059
+        },
+        {
+          "route": "/ai-coding-dictionary/model",
+          "sourcePath": "content/source/ai-coding-dictionary/model.md",
+          "sourceChars": 2051
+        },
+        {
+          "route": "/ai-coding-dictionary/autocompact",
+          "sourcePath": "content/source/ai-coding-dictionary/autocompact.md",
+          "sourceChars": 2048
+        },
+        {
+          "route": "/ai-coding-dictionary/next-token-prediction",
+          "sourcePath": "content/source/ai-coding-dictionary/next-token-prediction.md",
+          "sourceChars": 2036
+        },
+        {
+          "route": "/ai-coding-dictionary/progressive-disclosure",
+          "sourcePath": "content/source/ai-coding-dictionary/progressive-disclosure.md",
+          "sourceChars": 2029
+        },
+        {
+          "route": "/ai-coding-dictionary/clearing",
+          "sourcePath": "content/source/ai-coding-dictionary/clearing.md",
+          "sourceChars": 2024
+        }
+      ],
+      "sourceChars": 16402
+    },
+    {
+      "id": "batch-061",
+      "category": "dictionary",
+      "pages": [
+        {
+          "route": "/ai-coding-dictionary/prototyping",
+          "sourcePath": "content/source/ai-coding-dictionary/prototyping.md",
+          "sourceChars": 2015
+        },
+        {
+          "route": "/ai-coding-dictionary/turn",
+          "sourcePath": "content/source/ai-coding-dictionary/turn.md",
+          "sourceChars": 2001
+        },
+        {
+          "route": "/ai-coding-dictionary/prefix-cache",
+          "sourcePath": "content/source/ai-coding-dictionary/prefix-cache.md",
+          "sourceChars": 1973
+        },
+        {
+          "route": "/ai-coding-dictionary/tool-call",
+          "sourcePath": "content/source/ai-coding-dictionary/tool-call.md",
+          "sourceChars": 1947
+        },
+        {
+          "route": "/ai-coding-dictionary/context",
+          "sourcePath": "content/source/ai-coding-dictionary/context.md",
+          "sourceChars": 1919
+        },
+        {
+          "route": "/ai-coding-dictionary/training",
+          "sourcePath": "content/source/ai-coding-dictionary/training.md",
+          "sourceChars": 1917
+        },
+        {
+          "route": "/ai-coding-dictionary/input-tokens",
+          "sourcePath": "content/source/ai-coding-dictionary/input-tokens.md",
+          "sourceChars": 1910
+        },
+        {
+          "route": "/ai-coding-dictionary/filesystem",
+          "sourcePath": "content/source/ai-coding-dictionary/filesystem.md",
+          "sourceChars": 1828
+        }
+      ],
+      "sourceChars": 15510
+    },
+    {
+      "id": "batch-062",
+      "category": "dictionary",
+      "pages": [
+        {
+          "route": "/ai-coding-dictionary/subagent",
+          "sourcePath": "content/source/ai-coding-dictionary/subagent.md",
+          "sourceChars": 1805
+        },
+        {
+          "route": "/ai-coding-dictionary/human-review",
+          "sourcePath": "content/source/ai-coding-dictionary/human-review.md",
+          "sourceChars": 1802
+        },
+        {
+          "route": "/ai-coding-dictionary/sycophancy",
+          "sourcePath": "content/source/ai-coding-dictionary/sycophancy.md",
+          "sourceChars": 1774
+        },
+        {
+          "route": "/ai-coding-dictionary/agent",
+          "sourcePath": "content/source/ai-coding-dictionary/agent.md",
+          "sourceChars": 1726
+        },
+        {
+          "route": "/ai-coding-dictionary/knowledge-cutoff",
+          "sourcePath": "content/source/ai-coding-dictionary/knowledge-cutoff.md",
+          "sourceChars": 1647
+        }
+      ],
+      "sourceChars": 8754
+    },
+    {
+      "id": "batch-063",
+      "category": "skill-changelog",
+      "sourceChars": 4332,
+      "pages": [
+        {
+          "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+          "sourcePath": "content/source/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+          "sourceChars": 4332
+        }
+      ]
+    },
+    {
+      "id": "batch-064",
+      "category": "skill-changelog",
+      "sourceChars": 8386,
+      "pages": [
+        {
+          "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+          "sourcePath": "content/source/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+          "sourceChars": 8386
+        }
+      ]
+    },
+    {
+      "id": "batch-065",
+      "category": "skill-changelog",
+      "sourceChars": 13540,
+      "pages": [
+        {
+          "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+          "sourcePath": "content/source/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+          "sourceChars": 13540
+        }
+      ]
+    },
+    {
+      "id": "batch-066",
+      "category": "skill-changelog",
+      "sourceChars": 7213,
+      "pages": [
+        {
+          "route": "/skills/skills-changelog-v1-announcement",
+          "sourcePath": "content/source/skills/skills-changelog-v1-announcement.md",
+          "sourceChars": 7213
+        }
+      ]
+    },
+    {
+      "id": "batch-067",
+      "category": "skill-changelog",
+      "sourceChars": 15250,
+      "pages": [
+        {
+          "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+          "sourcePath": "content/source/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+          "sourceChars": 15250
+        }
+      ]
+    },
+    {
+      "id": "batch-068",
+      "category": "workshop",
+      "sourceChars": 11005,
+      "pages": [
+        {
+          "route": "/workshops/ai-coding-crash-course",
+          "sourcePath": "content/source/workshops/ai-coding-crash-course.md",
+          "sourceChars": 11005
+        }
+      ]
+    },
+    {
+      "id": "batch-069",
+      "category": "workshop",
+      "sourceChars": 8888,
+      "pages": [
+        {
+          "route": "/workshops/ai-sdk-v6-crash-course",
+          "sourcePath": "content/source/workshops/ai-sdk-v6-crash-course.md",
+          "sourceChars": 8888
+        }
+      ]
+    },
+    {
+      "id": "batch-070",
+      "category": "workshop",
+      "sourceChars": 3771,
+      "pages": [
+        {
+          "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+          "sourcePath": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+          "sourceChars": 3771
+        }
+      ]
+    },
+    {
+      "id": "batch-071",
+      "category": "home",
+      "sourceChars": 668,
+      "pages": [
+        {
+          "route": "/",
+          "sourcePath": "content/source/index.md",
+          "sourceChars": 668
+        }
+      ]
+    }
+  ]
+}

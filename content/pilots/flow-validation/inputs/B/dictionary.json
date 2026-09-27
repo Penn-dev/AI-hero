@@ -1,0 +1,226 @@
+{
+  "articleId": "/ai-coding-dictionary/system-prompt",
+  "sourceFile": "content/pilots/flow-validation/inputs/common/dictionary.md",
+  "sourceSha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+  "concepts": {
+    "agent": {
+      "zh": "智能体",
+      "en": "agent",
+      "aliases": [
+        "AI 编码智能体",
+        "AI coding agent"
+      ],
+      "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "harness"
+      ],
+      "confidence": "high"
+    },
+    "agents-md": {
+      "zh": "AGENTS.md",
+      "en": "AGENTS.md",
+      "aliases": [],
+      "definition": "供支持这一约定的 AI 编码工具读取的项目说明文件，用来提供项目规则与工作指引。",
+      "scope": "自动加载时机、文件合并顺序与支持程度取决于工具；不能把作者叙述作为所有实现的保证",
+      "dependsOn": [
+        "markdown",
+        "agent"
+      ],
+      "confidence": "high"
+    },
+    "harness": {
+      "zh": "智能体执行框架",
+      "en": "harness",
+      "aliases": [
+        "执行框架"
+      ],
+      "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "tool"
+      ],
+      "confidence": "high"
+    },
+    "input-tokens": {
+      "zh": "输入 Token",
+      "en": "input tokens",
+      "aliases": [],
+      "definition": "一次模型请求中交给模型读取的 Token，包括指令、消息及提供的工具结果等。",
+      "scope": "仅定义输入量，不推广具体服务的计费价格",
+      "dependsOn": [
+        "token",
+        "model-provider-request"
+      ],
+      "confidence": "high"
+    },
+    "markdown": {
+      "zh": "Markdown",
+      "en": "Markdown",
+      "aliases": [],
+      "definition": "用简单文字标记表示标题、列表和链接等格式的写法。",
+      "scope": "文档格式",
+      "dependsOn": [],
+      "confidence": "medium"
+    },
+    "model": {
+      "zh": "模型",
+      "en": "model",
+      "aliases": [
+        "AI 模型"
+      ],
+      "definition": "根据输入产生预测或回答的计算模型；在本文本模型语境中，它接收文字片段并预测后续片段。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "confidence": "high"
+    },
+    "model-provider-request": {
+      "zh": "模型提供商请求",
+      "en": "model provider request",
+      "aliases": [
+        "模型请求"
+      ],
+      "definition": "执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "model",
+        "harness"
+      ],
+      "confidence": "high"
+    },
+    "prefix-cache": {
+      "zh": "前缀缓存",
+      "en": "prefix cache",
+      "aliases": [],
+      "definition": "模型服务复用请求开头相同部分的已处理结果的机制。",
+      "scope": "不保证命中、固定有效期或固定折扣；系统提示词只是可共享前缀的一部分",
+      "dependsOn": [
+        "token",
+        "model-provider-request"
+      ],
+      "confidence": "high"
+    },
+    "prompt": {
+      "zh": "提示词",
+      "en": "prompt",
+      "aliases": [
+        "Prompt 文本"
+      ],
+      "definition": "交给 AI 的任务说明、指令或输入文本。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "confidence": "medium"
+    },
+    "session": {
+      "zh": "会话",
+      "en": "session",
+      "aliases": [],
+      "definition": "与 AI 助手进行的一段有边界的交互，期间积累消息与工作记录。",
+      "scope": "不同产品的会话结束、压缩和记忆机制不同，不把本地文章描述泛化为产品保证",
+      "dependsOn": [],
+      "confidence": "high"
+    },
+    "system-prompt": {
+      "zh": "系统提示词",
+      "en": "system prompt",
+      "aliases": [],
+      "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。",
+      "scope": "通用解释不规定是谁编写、是否可修改或所有产品中的具体优先级；这些条件留在文章语境",
+      "dependsOn": [
+        "prompt",
+        "model-provider-request"
+      ],
+      "confidence": "high"
+    },
+    "token": {
+      "zh": "Token",
+      "en": "token",
+      "aliases": [
+        "词元"
+      ],
+      "definition": "模型读取和生成文本时使用的基本单位，不等同于一个汉字或一个英文单词。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "confidence": "high"
+    },
+    "tool": {
+      "zh": "工具",
+      "en": "tool",
+      "aliases": [
+        "工具函数"
+      ],
+      "definition": "供 AI 助手请求调用、由软件执行的功能，例如读取文件或运行命令。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [],
+      "confidence": "high"
+    },
+    "turn": {
+      "zh": "工作轮次",
+      "en": "turn",
+      "aliases": [
+        "轮次"
+      ],
+      "definition": "从用户发来一条消息，到助手完成本次响应并交回控制权的一轮交互，可包含多次模型请求。",
+      "scope": "本地 AIHero 编程与文本模型材料；不是所有 AI 系统的完整定义",
+      "dependsOn": [
+        "session",
+        "model-provider-request"
+      ],
+      "confidence": "high"
+    }
+  },
+  "profile": {
+    "kind": "dictionary",
+    "conceptIds": [
+      "system-prompt",
+      "harness",
+      "prompt",
+      "token",
+      "prefix-cache",
+      "agent",
+      "model",
+      "tool",
+      "session",
+      "turn",
+      "input-tokens",
+      "model-provider-request",
+      "agents-md"
+    ],
+    "prerequisiteIds": [
+      "prompt",
+      "harness",
+      "model-provider-request"
+    ],
+    "prerequisiteRationale": "理解基础指令、组织请求的软件和一次请求，才能区分系统提示词与用户消息；其余词按正文查阅，链接不自动成为先修。",
+    "oneSentenceDefinition": "使用 system-prompt 的共享定义；框架厂商编写、会话内稳定等放在原文语境。",
+    "distinctions": [
+      "system prompt 与用户 prompt 不应混同",
+      "系统提示词与 AGENTS.md 是不同来源的规则",
+      "稳定前缀可用于缓存，但不保证命中或具体费用"
+    ],
+    "articleSpecific": [
+      {
+        "conceptId": "system-prompt",
+        "text": "本文讨论执行框架通常提供的长期指令；同文也说某些框架允许用户自定义。不能泛化成“永远只能厂商编写”。"
+      },
+      {
+        "conceptId": "prefix-cache",
+        "text": "本文把保持稳定的系统提示词作为共享前缀开头；通用缓存概念不依赖系统提示词才能成立。"
+      }
+    ],
+    "reviewFocus": [
+      "英文两句对话需与中文理解同时保留",
+      "新增最高优先级等绝对措辞须复查来源边界",
+      "缓存解释不能承诺所有请求都更省钱"
+    ]
+  },
+  "template": {
+    "guidance": "一句话定义、必要区别、原始用法及少量相关概念。原例与中文理解相邻。",
+    "omit": "不强加项目准备、学习目标卡、动手作业和运行自检；无原始示例时不为凑模板编造。"
+  },
+  "status": "READY",
+  "scope": "只含已核对共享定义及教学profile；不携带旧译文、审计包或中文证据入口。事实疑点与质量合同只读common版本。",
+  "provenanceDisclosure": "这些共享资产曾参考本试验既有译稿，允许作为B条件；不是未知文章泛化证据。"
+}

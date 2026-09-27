@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "semanticApproval": false,
+  "counts": {
+    "sources": 186,
+    "concepts": 29,
+    "profiles": 3,
+    "packages": 2
+  },
+  "checks": [
+    "manifest and all local source hashes",
+    "local markdown/manifest coverage",
+    "source and concept IDs",
+    "evidence hashes and reviewed line ranges",
+    "case-insensitive alias collisions",
+    "dependency cycles",
+    "type/template required fields",
+    "exact 12 dimensions and stage assignment",
+    "deterministic package regeneration"
+  ],
+  "limits": [
+    "No full-site semantic review",
+    "No model or SDK execution",
+    "No browser acceptance",
+    "No measured cost advantage"
+  ],
+  "rejectedInMemoryFixtures": [
+    "dependency-cycle",
+    "alias-conflict",
+    "missing-workshop-boundary",
+    "unknown-evidence-source",
+    "source-hash-drift"
+  ],
+  "viewRevision": {
+    "status": "PASS",
+    "scope": "execution projection, audit references, affected gates and deterministic generation only; previous full inventory evidence reused",
+    "characterMetric": "JSON.stringify(value).length (UTF-16 code units); source uses exact source.text.length; no Token estimate",
+    "rows": [
+      {
+        "articleId": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+        "auditPath": "content/learning/shared/task-input-workshop.json",
+        "executionPath": "content/learning/shared/task-execution-workshop.json",
+        "auditSha256": "c16df9f23ac3afa1a65c4c38cddc3043e53e3cec43cb6491f650c900db023f36",
+        "executionSha256": "4fe34093d69fdec20efb071accdb5286c5e6b31e488ee3b39101c352f6cfe2d2",
+        "sourceCharacters": 3771,
+        "auditCompactCharacters": 22202,
+        "executionCompactCharacters": 11249,
+        "referencedFiles": 6
+      },
+      {
+        "articleId": "/ai-coding-dictionary/system-prompt",
+        "auditPath": "content/learning/shared/task-input-dictionary.json",
+        "executionPath": "content/learning/shared/task-execution-dictionary.json",
+        "auditSha256": "3222b7254e16b797a37ae5f30d85b10278b9ee3e4a985894de7861d7b20b7ca9",
+        "executionSha256": "6d97383ee43b915df6b47f50e277ea5f2182330097cae66db4193a892d030825",
+        "sourceCharacters": 2155,
+        "auditCompactCharacters": 30969,
+        "executionCompactCharacters": 10561,
+        "referencedFiles": 16
+      }
+    ],
+    "checks": [
+      "exact source text and hash",
+      "complete concept closure, definitions and scope",
+      "unchanged type requirements and all finding observations/actions/evidence",
+      "local-source line references and external unresolved scope excerpt",
+      "audit JSON Pointers, frozen file hashes and deferred evidence resolution",
+      "saved audit and execution bytes equal deterministic generation",
+      "prior audit evidence and unrelated knowledge/map sections unchanged"
+    ],
+    "gateReview": {
+      "status": "producer-reviewed wording; not final content approval",
+      "G1": "intermediate stopping only, never equal-quality release",
+      "G2": "frozen gold-standard quality and same 12 dimensions; naturalness and beginner comprehension require actual quality evidence",
+      "limits": "Gold standard is not factual authority or a universal layout. Reuse unaffected evidence, repair material gaps; no per-dimension models or endless polish."
+    },
+    "tokenUsage": null,
+    "actualDownstreamUse": "not tested",
+    "fullSiteSemanticAcceptance": false
+  }
+}

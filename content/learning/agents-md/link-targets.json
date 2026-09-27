@@ -1,0 +1,41 @@
+{
+  "policy": "Chinese learning destinations only; original English source retained in source metadata",
+  "targets": [
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "state": "available-chinese",
+      "reason": "正文解释 AGENTS.md 在作者语境中的输入位置时需要区分系统提示词",
+      "currentBehavior": "local-definition-and-chinese-page"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "state": "available-chinese",
+      "reason": "本篇基础概念已有中文页；正文无需反复加链接",
+      "currentBehavior": "local-definition-and-chinese-page"
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "state": "available-chinese",
+      "reason": "本篇核心方法已有中文页",
+      "currentBehavior": "local-definition-and-chinese-page"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "planned-chinese",
+      "reason": "理解指令预算所需，当前由本篇必要术语提供本地解释",
+      "currentBehavior": "local-definition-only"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "planned-chinese",
+      "reason": "原文承诺另文介绍 Skill，但当前没有可用中文目标",
+      "currentBehavior": "local-definition-only"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "planned-chinese",
+      "reason": "概念值得建设中文词条，当前指南正文已提供完整解释",
+      "currentBehavior": "local-definition-only"
+    }
+  ]
+}

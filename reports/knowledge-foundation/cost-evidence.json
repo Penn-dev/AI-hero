@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "source": {
+    "path": "reports/special-agent-token-usage.json",
+    "sha256": "728c0d1814f003d06022ae70b0dd24fdf381a0e714de246937a185899bd1c662",
+    "recordedAt": "2026-09-14T16:26:06.805Z"
+  },
+  "scope": "Four historical task-lifetime cumulative snapshots; dictionary is a batch of 8, workshop is one page. Not per-step deltas or cost of these two pages.",
+  "rows": [
+    {
+      "sample": "dictionary-batch-8",
+      "stage": "terra-medium",
+      "threadId": "01a0a0af-5d92-7b52-b1ee-cefcfbb0f3e4",
+      "usage": {
+        "input_tokens": 632468,
+        "cached_input_tokens": 602880,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 15209,
+        "reasoning_output_tokens": 1647,
+        "total_tokens": 647677
+      },
+      "scope": "cumulative task snapshot; not request-level",
+      "apiUsdEquivalentHistorical": 0.36226
+    },
+    {
+      "sample": "workshop-generating-objects",
+      "stage": "terra-medium",
+      "threadId": "01a0a0af-5e23-72e2-ab1a-0a3e9ecce451",
+      "usage": {
+        "input_tokens": 644709,
+        "cached_input_tokens": 585216,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 10110,
+        "reasoning_output_tokens": 2696,
+        "total_tokens": 654819
+      },
+      "scope": "cumulative task snapshot; not request-level",
+      "apiUsdEquivalentHistorical": 0.35734920000000003
+    },
+    {
+      "sample": "dictionary-batch-8",
+      "stage": "sol-medium",
+      "threadId": "01a0a0b4-f4ca-7352-a9bd-b73cb4138231",
+      "usage": {
+        "input_tokens": 1602743,
+        "cached_input_tokens": 1538816,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 21578,
+        "reasoning_output_tokens": 5527,
+        "total_tokens": 1624321
+      },
+      "scope": "cumulative task snapshot; not request-level",
+      "apiUsdEquivalentHistorical": 1.3027943999999998
+    },
+    {
+      "sample": "workshop-generating-objects",
+      "stage": "sol-medium",
+      "threadId": "01a0a0b4-f588-7981-9275-462c4c29e735",
+      "usage": {
+        "input_tokens": 675160,
+        "cached_input_tokens": 644608,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 9808,
+        "reasoning_output_tokens": 3385,
+        "total_tokens": 684968
+      },
+      "scope": "cumulative task snapshot; not request-level",
+      "apiUsdEquivalentHistorical": 0.5762111999999999
+    }
+  ],
+  "sumOfFourDistinctTasks": {
+    "input_tokens": 3555080,
+    "cached_input_tokens": 3371520,
+    "output_tokens": 56705,
+    "reasoning_output_tokens": 13255,
+    "total_tokens": 3611785
+  },
+  "checks": {
+    "totalEqualsInputPlusOutput": true,
+    "reasoningIsSubsetOfOutput": true,
+    "cachedIsSubsetOfInput": true,
+    "uniqueTaskIds": true
+  },
+  "unknowns": {
+    "currentFoundationTask": {
+      "input_tokens": null,
+      "cached_input_tokens": null,
+      "output_tokens": null,
+      "reasoning_output_tokens": null,
+      "total_tokens": null
+    },
+    "priorGlobalAidProduction": null,
+    "UIRework": null,
+    "articleLevelDictionaryAllocation": null,
+    "stepLevelAllocation": null,
+    "subscriptionCostAllocation": null
+  },
+  "interpretation": "Do not add reasoning to output or cached input to input. Historical API equivalents use the recorded tariff, not verified current prices and not subscription deductions. Asset size is not measured token usage.",
+  "nextExperiment": {
+    "status": "proposal-only; requires governance scope/model/budget choice",
+    "unit": "Same frozen guide/workshop/dictionary article versions and the same 12-dimension final-page acceptance; dictionary batch cannot be allocated to one page by division.",
+    "accounting": "One-time asset production + all per-page production/review + all anomaly investigation/rework + integration/acceptance + orchestration. Existing initial foundation usage remains unknown until task telemetry is available.",
+    "capture": "Record request IDs or task start/end counters, model/effort, articleId, source/asset hashes, stage, input/cached input/output/reasoning/total, retries/failures and final acceptance. Never sum repeated cumulative snapshots; take same-task deltas without crossing resets.",
+    "comparison": "Use equivalent accepted page outcomes for baseline and knowledge-assisted route. Existing gold standard is a quality reference, not an unmeasured low-cost baseline. Any use of a shared reference in a baseline arm must be recorded to avoid hidden transfer.",
+    "report": "Report one-time cost separately, total cost including exceptions, marginal accepted-page cost and unknowns. Amortization scenarios are projections, never proven savings. Stop after the minimal comparison, no automatic full rollout."
+  }
+}

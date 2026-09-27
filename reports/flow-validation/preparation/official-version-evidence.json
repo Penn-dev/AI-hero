@@ -1,0 +1,46 @@
+{
+  "status": "HOLD",
+  "checkedAt": "2026-09-22",
+  "question": "Output/generateText vs generateObject in SDK 5/6, with historical scope",
+  "local": {
+    "path": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+    "updatedAt": "2025-09-09T14:47:27.928Z",
+    "ranges": [
+      {
+        "start": 15,
+        "end": 15
+      },
+      {
+        "start": 89,
+        "end": 93
+      }
+    ],
+    "dateMeaning": "frontmatter timestamp, not proof the downloaded body represents that historical version"
+  },
+  "officialPages": [
+    {
+      "url": "https://vercel.com/blog/ai-sdk-6",
+      "title": "AI SDK 6",
+      "publicationDate": "2025-12-22",
+      "sections": [
+        "release date",
+        "Tool Calling with Structured Output",
+        "Output Types",
+        "Standard JSON Schema"
+      ],
+      "observed": "发布记录说明 SDK 6 将结构化输出与文本生成统一，并展示 generateText 的 output: Output.object(...)；旧式 generateObject 被作为此前组合方式提及。",
+      "limits": "此发布时点的材料不证明2025-09-09课程内容、预发布版本或课程锁定依赖。"
+    },
+    {
+      "url": "https://ai-sdk.dev/docs/migration-guides/migration-guide-6",
+      "title": "Migration guide 6",
+      "status": "unavailable-via-web-tool",
+      "attempts": 2,
+      "observed": null
+    }
+  ],
+  "conclusion": "可确认SDK 6正式发布材料的API方向，不能确认原文日期所对应版本及其结尾的版本6说法；保留原文，Workshop HOLD。",
+  "needed": "确认课程实际锁定依赖或对应历史内容/版本记录；治理决定是否授权后续定向核对。本轮不增加第三个页面或替换样本。",
+  "runtimeValidation": "NOT_RUN; no SDK/course/model requests",
+  "dictionary": "READY for preparation once mechanical isolation and telemetry pass"
+}

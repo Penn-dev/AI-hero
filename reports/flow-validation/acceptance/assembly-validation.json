@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "path": "content/pilots/flow-validation/A/edited/dictionary.md",
+      "sha256": "5a717b994fbf78fe18b1b2d2922c0767d5ffcab85883427090a1cdc781c6c09e",
+      "unchanged": true
+    },
+    {
+      "path": "content/pilots/flow-validation/A/edited/dictionary.learning.json",
+      "sha256": "65ace7fd49e410bc5b58b17331d2995c2d07a469874b50903e0908fb0ddd9479",
+      "unchanged": true
+    },
+    {
+      "path": "content/pilots/flow-validation/A/edited/stage.json",
+      "sha256": "8e1a6756878557c4bb85acb816738dfe6b68dd7cf328f6c6926d84ab119139ad",
+      "unchanged": true
+    },
+    {
+      "path": "content/pilots/flow-validation/B/edited/dictionary.md",
+      "sha256": "0886f5e2d49fbe1ba9631d7c1e74547591a2f9ed058179a028684101d02a8fec",
+      "unchanged": true
+    },
+    {
+      "path": "content/pilots/flow-validation/B/edited/dictionary.learning.json",
+      "sha256": "bac9aabc3ac716e457ced4228f45ab1472ff30facd0eaebd1d8b13c66ade8b91",
+      "unchanged": true
+    },
+    {
+      "path": "content/pilots/flow-validation/B/edited/stage.json",
+      "sha256": "a8031d13cfd6cfd99063d96067ddce70c528a3c7e55131f737a554ba85928012",
+      "unchanged": true
+    }
+  ],
+  "renderedSha256": "18152e3edc18b1465899d727c39688d9d858843af1736805d96de1f7b3f17440",
+  "anchors": "unique original ranges; inserted each explanation once; removing insertions recovers body exactly",
+  "semanticApproval": false,
+  "glossaryPolicy": "term/aliases/definition preserved without enrichment; missing aliases may limit inline discovery",
+  "workshop": "HOLD; no artifact read or produced"
+}

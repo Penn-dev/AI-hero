@@ -1,0 +1,26 @@
+{
+  "knowledgeSha256": "7b8afea741b959782a07f539a7bee5801cccbe4796b00c6d85d7b0f2b6f2d73b",
+  "unchangedSections": {
+    "concepts": "27d897e4b9fac4a055c632f2ebf8e22c2a915641e16fcce86569481cb61af9ee",
+    "sources": "d45be099cd5775b21994f0b5fc92f259325aeaff0600840f8de3bec236a835dc",
+    "reviews": "544e3081ea7460d623d885d32d48373f5ab43b2890c791c6597840a5f7bb79cd",
+    "articles": "5eeeec24f10f747873f66b4912e201e91e655bfc228bc5bc5c40477a149493b8",
+    "templates": "c56deeef7259dfe7b1fa7d111d607c45723c1b133962cf4109f8ed3c365f077b",
+    "qualityDimensions": "59f9c625404f99c9ba84b8decdf32dd30589ae5e5d022c409286011a6d641fe3",
+    "findings": "7b9b1470c76f51cda466f72dc86d224e701982a4fba76fba44ea20299ea6b0e4",
+    "readonlyInputs": "35651bdffbea114ef70b5b9743bf0262d5d1ac5b9486448a3b1de12a17a76e6a"
+  },
+  "mapSha256": "d03b52ee70b32bf9221927e3fc3556a438e99b0a09a60afe5d7f722fe535db95",
+  "auditEvidence": {
+    "workshop": {
+      "sourceSha256": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+      "evidenceSha256": "1d54e00b7274fb00be51c1ac57cd0b789adfdba951abcf324a9aeaa0778e76c0",
+      "compactCharacters": 21563
+    },
+    "dictionary": {
+      "sourceSha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+      "evidenceSha256": "d72e648e6e3f1daa63452ab8b98034696ee334dbf3a7a21d8935684ef2e201ab",
+      "compactCharacters": 30330
+    }
+  }
+}

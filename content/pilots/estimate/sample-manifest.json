@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "workflow": "Terra/medium initial translation; Sol/medium editorial review",
+  "currentSample": "a-complete-guide-to-agents-md",
+  "newSamples": [
+    "anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+    "what-is-the-context-window",
+    "what-is-an-llm",
+    "structured-data-from-pdfs-with-vercel-ai-sdk",
+    "5-agent-skills-i-use-every-day",
+    "skills-codebase-design",
+    "tips-for-ai-coding-with-ralph-wiggum"
+  ]
+}

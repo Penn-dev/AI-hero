@@ -1,0 +1,164 @@
+{
+  "generatedAt": "2026-09-14T10:35:30.036Z",
+  "basis": {
+    "samplePages": 8,
+    "sampleSourceChars": 76449,
+    "sitePages": 186,
+    "siteSourceChars": 939064,
+    "batchesPerStage": 71,
+    "agentTasksBothStages": 142,
+    "caveat": "13 of 16 measured sample tasks inherited orchestration context. Full-run plan uses fresh context, so the API-equivalent estimate is intentionally reported as a broad engineering range."
+  },
+  "observedSample": {
+    "inputTokens": 5402173,
+    "cachedInputTokens": 4875648,
+    "outputTokens": 91285,
+    "reasoningOutputTokens": 11964,
+    "apiUsdEquivalent": 4.6205092
+  },
+  "regressionModels": {
+    "inputTokens": {
+      "intercept": 181654.61164776568,
+      "perSourceChar": 51.654516171799166
+    },
+    "cachedInputTokens": {
+      "intercept": 132142.6906554902,
+      "perSourceChar": 49.94841626124708
+    },
+    "outputTokens": {
+      "intercept": 1759.4747994732152,
+      "perSourceChar": 1.0099439051421768
+    },
+    "reasoningOutputTokens": {
+      "intercept": 232.7366795486787,
+      "perSourceChar": 0.13214177508679734
+    },
+    "apiUsdEquivalent": {
+      "intercept": 0.15772712849744908,
+      "perSourceChar": 0.00004393376201154243
+    }
+  },
+  "optimizedBatchPointEstimate": {
+    "inputTokens": 61404374.00134567,
+    "cachedInputTokens": 56286890.60449157,
+    "outputTokens": 1073324.67410103,
+    "reasoningOutputTokens": 140613.88812806434,
+    "apiUsdEquivalent": 52.45524041292594,
+    "totalTokens": 62477698.675446704
+  },
+  "planningRange": {
+    "totalTokens": {
+      "low": 46858274,
+      "point": 62477699,
+      "high": 81221008
+    },
+    "apiUsdEquivalent": {
+      "low": 39.34143030969445,
+      "point": 52.45524041292594,
+      "high": 68.19181253680372
+    }
+  },
+  "samplePoints": [
+    {
+      "slug": "a-complete-guide-to-agents-md",
+      "sourceChars": 11076,
+      "inputTokens": 720320,
+      "cachedInputTokens": 645376,
+      "outputTokens": 15934,
+      "reasoningOutputTokens": 2407,
+      "apiUsdEquivalent": 0.7351056,
+      "forkedStages": []
+    },
+    {
+      "slug": "anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "sourceChars": 810,
+      "inputTokens": 374023,
+      "cachedInputTokens": 288128,
+      "outputTokens": 2874,
+      "reasoningOutputTokens": 442,
+      "apiUsdEquivalent": 0.3248864,
+      "forkedStages": [
+        "terra-medium",
+        "sol-medium"
+      ]
+    },
+    {
+      "slug": "what-is-the-context-window",
+      "sourceChars": 3109,
+      "inputTokens": 426532,
+      "cachedInputTokens": 384128,
+      "outputTokens": 4519,
+      "reasoningOutputTokens": 578,
+      "apiUsdEquivalent": 0.2988264,
+      "forkedStages": [
+        "terra-medium",
+        "sol-medium"
+      ]
+    },
+    {
+      "slug": "what-is-an-llm",
+      "sourceChars": 7396,
+      "inputTokens": 497951,
+      "cachedInputTokens": 476416,
+      "outputTokens": 8005,
+      "reasoningOutputTokens": 667,
+      "apiUsdEquivalent": 0.340472,
+      "forkedStages": [
+        "terra-medium",
+        "sol-medium"
+      ]
+    },
+    {
+      "slug": "structured-data-from-pdfs-with-vercel-ai-sdk",
+      "sourceChars": 5397,
+      "inputTokens": 443040,
+      "cachedInputTokens": 348160,
+      "outputTokens": 7672,
+      "reasoningOutputTokens": 960,
+      "apiUsdEquivalent": 0.4567448,
+      "forkedStages": [
+        "terra-medium",
+        "sol-medium"
+      ]
+    },
+    {
+      "slug": "5-agent-skills-i-use-every-day",
+      "sourceChars": 9597,
+      "inputTokens": 570429,
+      "cachedInputTokens": 513408,
+      "outputTokens": 11130,
+      "reasoningOutputTokens": 1873,
+      "apiUsdEquivalent": 0.5110972,
+      "forkedStages": [
+        "terra-medium",
+        "sol-medium"
+      ]
+    },
+    {
+      "slug": "skills-codebase-design",
+      "sourceChars": 12555,
+      "inputTokens": 694607,
+      "cachedInputTokens": 662912,
+      "outputTokens": 12594,
+      "reasoningOutputTokens": 1299,
+      "apiUsdEquivalent": 0.5428756,
+      "forkedStages": [
+        "terra-medium",
+        "sol-medium"
+      ]
+    },
+    {
+      "slug": "tips-for-ai-coding-with-ralph-wiggum",
+      "sourceChars": 26509,
+      "inputTokens": 1675271,
+      "cachedInputTokens": 1557120,
+      "outputTokens": 28557,
+      "reasoningOutputTokens": 3738,
+      "apiUsdEquivalent": 1.4105012,
+      "forkedStages": [
+        "terra-medium"
+      ]
+    }
+  ],
+  "pricingSource": "https://developers.openai.com/api/docs/models/compare"
+}

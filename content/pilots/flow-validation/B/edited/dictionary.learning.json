@@ -1,0 +1,161 @@
+{
+  "articleId": "/ai-coding-dictionary/system-prompt",
+  "kind": "dictionary",
+  "start": {
+    "title": "先用一句话理解",
+    "summary": "系统提示词是执行框架在你发言前交给模型的长期规则；它说明智能体应如何工作，但不同产品是否可查看或修改，要看各自的实现。",
+    "cards": [
+      {
+        "title": "它和用户提示词不同",
+        "text": "这里的用户提示词，是你这次交给 AI 的任务说明；系统提示词则是执行框架预先附带的基础规则。本文说模型会优先遵循后者，因此两者发生冲突时，用户消息未必能改变结果。"
+      },
+      {
+        "title": "它和 AGENTS.md 也不同",
+        "text": "本文所说的系统提示词由执行框架供应商提供；AGENTS.md 则是会在会话开始时与它一同加载的另一类长期指令。它们会一起被模型读取，但不是同一个文件或同一种来源；有些执行框架也允许用户查看和修改系统提示词。"
+      },
+      {
+        "title": "稳定不等于必然省钱",
+        "text": "稳定的开头可以成为前缀缓存的一部分；这不保证一定命中缓存，也不保证固定的有效期或费用折扣。"
+      }
+    ]
+  },
+  "prerequisiteIds": [
+    "prompt",
+    "harness",
+    "model-provider-request"
+  ],
+  "glossary": [
+    {
+      "id": "system-prompt",
+      "term": "系统提示词（system prompt）",
+      "aliases": [],
+      "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。",
+      "sourceBasis": "inputs/B/dictionary.json：system-prompt"
+    },
+    {
+      "id": "harness",
+      "term": "智能体执行框架（harness）",
+      "aliases": ["执行框架"],
+      "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。",
+      "sourceBasis": "inputs/B/dictionary.json：harness"
+    },
+    {
+      "id": "prompt",
+      "term": "提示词（prompt）",
+      "aliases": ["Prompt 文本"],
+      "definition": "交给 AI 的任务说明、指令或输入文本。",
+      "sourceBasis": "inputs/B/dictionary.json：prompt"
+    },
+    {
+      "id": "token",
+      "term": "Token",
+      "aliases": ["词元"],
+      "definition": "模型读取和生成文本时使用的基本单位，不等同于一个汉字或一个英文单词。",
+      "sourceBasis": "inputs/B/dictionary.json：token"
+    },
+    {
+      "id": "prefix-cache",
+      "term": "前缀缓存（prefix cache）",
+      "aliases": [],
+      "definition": "模型服务复用请求开头相同部分的已处理结果的机制。",
+      "sourceBasis": "inputs/B/dictionary.json：prefix-cache"
+    },
+    {
+      "id": "agent",
+      "term": "智能体（agent）",
+      "aliases": ["AI 编码智能体", "AI coding agent"],
+      "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。",
+      "sourceBasis": "inputs/B/dictionary.json：agent"
+    },
+    {
+      "id": "model",
+      "term": "模型（model）",
+      "aliases": ["AI 模型"],
+      "definition": "根据输入产生预测或回答的计算模型；在本文的文本模型语境中，它接收文字片段并预测后续片段。",
+      "sourceBasis": "inputs/B/dictionary.json：model"
+    },
+    {
+      "id": "tool",
+      "term": "工具（tool）",
+      "aliases": ["工具函数"],
+      "definition": "供 AI 助手请求调用、由软件执行的功能，例如读取文件或运行命令。",
+      "sourceBasis": "inputs/B/dictionary.json：tool"
+    },
+    {
+      "id": "session",
+      "term": "会话（session）",
+      "aliases": [],
+      "definition": "与 AI 助手进行的一段有边界的交互，期间积累消息与工作记录。",
+      "sourceBasis": "inputs/B/dictionary.json：session"
+    },
+    {
+      "id": "turn",
+      "term": "工作轮次（turn）",
+      "aliases": ["轮次"],
+      "definition": "从用户发来一条消息，到助手完成本次响应并交回控制权的一轮交互，可包含多次模型请求。",
+      "sourceBasis": "inputs/B/dictionary.json：turn"
+    },
+    {
+      "id": "input-tokens",
+      "term": "输入 Token（input tokens）",
+      "aliases": [],
+      "definition": "一次模型请求中交给模型读取的 Token，包括指令、消息及提供的工具结果等。",
+      "sourceBasis": "inputs/B/dictionary.json：input-tokens"
+    },
+    {
+      "id": "model-provider-request",
+      "term": "模型提供商请求（model provider request）",
+      "aliases": ["模型请求"],
+      "definition": "执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。",
+      "sourceBasis": "inputs/B/dictionary.json：model-provider-request"
+    },
+    {
+      "id": "agents-md",
+      "term": "AGENTS.md",
+      "aliases": [],
+      "definition": "供支持这一约定的 AI 编码工具读取的项目说明文件，用来提供项目规则与工作指引。",
+      "sourceBasis": "inputs/B/dictionary.json：agents-md"
+    }
+  ],
+  "bodyTitle": "系统提示词",
+  "check": null,
+  "related": [
+    {
+      "title": "智能体执行框架",
+      "description": "了解组织输入、工具与模型调用的软件层。",
+      "href": "/ai-coding-dictionary/harness",
+      "format": "词典"
+    },
+    {
+      "title": "提示词",
+      "description": "区分用户给出的任务说明与系统提示词。",
+      "href": "/ai-coding-dictionary/prompt",
+      "format": "词典"
+    },
+    {
+      "title": "前缀缓存",
+      "description": "了解为何重复的请求开头可能被复用。",
+      "href": "/ai-coding-dictionary/prefix-cache",
+      "format": "词典"
+    }
+  ],
+  "explanations": [
+    {
+      "afterSource": {
+        "start": 18,
+        "end": 18
+      },
+      "markdown": "**中文理解版（学习辅助）：** 两个执行框架使用同一个模型、面对同一条提示词，却表现得完全不同。",
+      "sourceBasis": "原始用法第 18 行；仅解释句意，不改写原例。"
+    },
+    {
+      "afterSource": {
+        "start": 20,
+        "end": 20
+      },
+      "markdown": "**中文理解版（学习辅助）：** 原因是系统提示词不同：一个偏向简洁地修改代码，另一个偏向解释；差异在你的消息到达前就已经产生。",
+      "sourceBasis": "原始用法第 20 行；仅解释句意，不改写原例。"
+    }
+  ],
+  "sourceGaps": []
+}

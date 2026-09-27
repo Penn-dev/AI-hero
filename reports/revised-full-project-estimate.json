@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-09-14T16:26:27.623Z",
+  "basis": {
+    "sitePages": 186,
+    "siteSourceChars": 939064,
+    "previousArticleSamples": 8,
+    "freshContextSupplement": {
+      "agentTasks": 4,
+      "dictionaryEntries": 8,
+      "dictionarySourceChars": 16668,
+      "workshopLessons": 1,
+      "workshopSourceChars": 3771
+    },
+    "method": "Keep the prior regression for articles, changelogs, and home. Replace all dictionary and workshop estimates with fresh-context, same-workflow measurements scaled by category source characters.",
+    "caveat": "One measured batch per replaced category cannot estimate fixed per-task overhead separately. The range therefore keeps broader uncertainty for workshops and the previous broad range for unchanged categories."
+  },
+  "observedFreshContextSupplement": {
+    "inputTokens": 3555080,
+    "cachedInputTokens": 3371520,
+    "outputTokens": 56705,
+    "reasoningOutputTokens": 13255,
+    "apiUsdEquivalent": 2.5986147999999996
+  },
+  "categoryProjection": {
+    "dictionary": {
+      "batches": 10,
+      "pages": 70,
+      "sourceChars": 163693,
+      "totalTokens": 22312825.09083273,
+      "apiUsdEquivalent": 16.352156821406286
+    },
+    "workshop": {
+      "batches": 3,
+      "pages": 3,
+      "sourceChars": 23664,
+      "totalTokens": 8407509.82975338,
+      "apiUsdEquivalent": 5.858332884009546
+    }
+  },
+  "revisedPointEstimate": {
+    "inputTokens": 79599095.6230152,
+    "cachedInputTokens": 73961469.72130384,
+    "outputTokens": 1347499.6025681477,
+    "reasoningOutputTokens": 221444.85056407884,
+    "apiUsdEquivalent": 64.38397959867841,
+    "totalTokens": 80946595.22558334
+  },
+  "planningRange": {
+    "totalTokens": {
+      "low": 60984837,
+      "point": 80946595,
+      "high": 103419667
+    },
+    "apiUsdEquivalent": {
+      "low": 48.519759251678174,
+      "point": 64.38397959867841,
+      "high": 82.3568744403418
+    }
+  },
+  "previousEstimate": {
+    "totalTokens": 62477698.675446704,
+    "apiUsdEquivalent": 52.45524041292594
+  },
+  "pricingSource": "https://developers.openai.com/api/docs/models/compare"
+}

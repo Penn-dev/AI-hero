@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-14T16:26:06.637Z",
+  "pages": [
+    {
+      "route": "/a-complete-guide-to-agents-md",
+      "sourceUrl": "https://www.aihero.dev/a-complete-guide-to-agents-md",
+      "sourceHash": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "translationPath": "content/learning/agents-md/article.md",
+      "translationHash": "cb1a80668e3dc15eed967e775bca4ec4612c1003ea892025d09d9d5e3ae94ac5",
+      "status": "translated-revised-learning-page",
+      "translatedAt": "2026-09-14T10:26:47.492Z",
+      "workflow": "Sol/medium edited revision; governance spot-check; deterministic page assembly and local browser acceptance",
+      "revisedAt": "2026-09-24"
+    },
+    {
+      "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "sourceUrl": "https://www.aihero.dev/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "sourceHash": "c5585ac7cfc22c4a4c40941343ac04119a28e962bb3f086dd351a95e689f64c6",
+      "translationPath": "content/zh/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
+      "translationHash": "9c6dc1734116231cceaaf9c29da3b9c1dc08e19faf0a85e3cb8c4a559f2323ec",
+      "status": "translated-estimate-sample",
+      "translatedAt": "2026-09-14T10:26:47.492Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/what-is-the-context-window",
+      "sourceUrl": "https://www.aihero.dev/what-is-the-context-window",
+      "sourceHash": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3",
+      "translationPath": "content/zh/what-is-the-context-window.md",
+      "translationHash": "59f10df12d7813ef3d7d5e28f6437074c52e1f4b09002fd49b1cb886a584df49",
+      "status": "translated-estimate-sample",
+      "translatedAt": "2026-09-14T10:26:47.492Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/what-is-an-llm",
+      "sourceUrl": "https://www.aihero.dev/what-is-an-llm",
+      "sourceHash": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
+      "translationPath": "content/zh/what-is-an-llm.md",
+      "translationHash": "681fe10a35b12c0df4316b31a9ccd3b240e560aeab92c7a1e31574f217496b15",
+      "status": "translated-estimate-sample",
+      "translatedAt": "2026-09-14T10:26:47.492Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "sourceHash": "f277e10827d20b167361744d27da8236be850b5652548b53e0ff36d3a1a73461",
+      "translationPath": "content/zh/structured-data-from-pdfs-with-vercel-ai-sdk.md",
+      "translationHash": "1dfbe53dabdf187ea7a1042052514a42b58fd939ef63f4595734d18eaa365332",
+      "status": "translated-estimate-sample",
+      "translatedAt": "2026-09-14T10:26:47.492Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/5-agent-skills-i-use-every-day",
+      "sourceUrl": "https://www.aihero.dev/5-agent-skills-i-use-every-day",
+      "sourceHash": "19cb0d155711f123378ecbe5ca2cc33a3b8704ac8399eed68e5c016cc211042b",
+      "translationPath": "content/zh/5-agent-skills-i-use-every-day.md",
+      "translationHash": "e89e8f4ac6ed513b0283106296d070a43b9d0c92410a8a49a936d5b3b7c3ea8e",
+      "status": "translated-estimate-sample",
+      "translatedAt": "2026-09-14T10:26:47.492Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/skills-codebase-design",
+      "sourceUrl": "https://www.aihero.dev/skills-codebase-design",
+      "sourceHash": "197b9aa5f43188ff8a6d5ed4c55998653b45c3d14f495a7185bb767c590bb15b",
+      "translationPath": "content/zh/skills-codebase-design.md",
+      "translationHash": "d27570a45c47a0ca50986ad8c18dc43bb35d8e8a50241dfa1ccc6db09d1baccd",
+      "status": "translated-estimate-sample",
+      "translatedAt": "2026-09-14T10:26:47.492Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "sourceUrl": "https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum",
+      "sourceHash": "6c2eac9161d4a74ab6239dfbacbde674ccfbf328486f177444fa359f59137462",
+      "translationPath": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+      "translationHash": "3b0fac1ab0ee12b87204fc2b744c9bfe6dad7465456b626a232e4cbb1ef680e7",
+      "status": "translated-estimate-sample",
+      "translatedAt": "2026-09-14T10:26:47.492Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+      "sourceHash": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+      "translationPath": "content/learning/system-prompt/article.md",
+      "translationHash": "fc4a6abf24d7c9a83ba2c9860108074c4edba13c924f506aa335869b2bf83e76",
+      "status": "translated-estimate-special-sample",
+      "translatedAt": "2026-09-14T16:26:06.637Z",
+      "workflow": "Single-page revision using shared knowledge and source review; previous Terra/Sol and A/B artifacts retained",
+      "revisedAt": "2026-09-22"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agent",
+      "sourceHash": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+      "translationPath": "content/zh/ai-coding-dictionary/agent.md",
+      "translationHash": "ed32aaa370202b4158b8e0bc9b8e4ba8bc31557cf40c2de932e1aec79b4bc5a5",
+      "status": "translated-estimate-special-sample",
+      "translatedAt": "2026-09-14T16:26:06.637Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/context-window",
+      "sourceHash": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0",
+      "translationPath": "content/zh/ai-coding-dictionary/context-window.md",
+      "translationHash": "d1757c31a88e79f64078d52e37a1efa708d226971d9a3ca35f60081855933844",
+      "status": "translated-estimate-special-sample",
+      "translatedAt": "2026-09-14T16:26:06.637Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-call",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
+      "sourceHash": "dd5366630d7a0f4590bb53294974757a8e8918d457eac986a8e92d7f0d9a65ec",
+      "translationPath": "content/zh/ai-coding-dictionary/tool-call.md",
+      "translationHash": "cb5c90492f7e7a479b926e1954ec4ccbb8a38efed52070b0aedb24b08ed5ee35",
+      "status": "translated-estimate-special-sample",
+      "translatedAt": "2026-09-14T16:26:06.637Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
+      "sourceHash": "1b3aa55261ba6fa24279cef97d89074f7b9fdec0f9851077b8978bef63198e4f",
+      "translationPath": "content/zh/ai-coding-dictionary/prefix-cache.md",
+      "translationHash": "d0ce17cc25a6213287b7c84f91c2c2dbdec1f1a93a0241eaee9374a8bae617f9",
+      "status": "translated-estimate-special-sample",
+      "translatedAt": "2026-09-14T16:26:06.637Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/ai-coding-dictionary/memory-system",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
+      "sourceHash": "44c820f44f373ae51be4edb3b45a0aafaac43ea6e7bf28feaa32d2fece3110ac",
+      "translationPath": "content/zh/ai-coding-dictionary/memory-system.md",
+      "translationHash": "8a7cf7696834bc9977873b669325735a262089dcfa60a39657ee264e877b5bd5",
+      "status": "translated-estimate-special-sample",
+      "translatedAt": "2026-09-14T16:26:06.637Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
+      "sourceHash": "da31a7a42c22c0a85709c942099e64e0f7bdb51056a02a9295601feeea97d10c",
+      "translationPath": "content/zh/ai-coding-dictionary/hallucination.md",
+      "translationHash": "1ad3529dbcbe224e3eb230db5eb4554462ea6a86a31b62c4d2e7ecc9a97440c2",
+      "status": "translated-estimate-special-sample",
+      "translatedAt": "2026-09-14T16:26:06.637Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
+      "sourceHash": "572e1cc2312329cd09712c5649c08d41af96c27523965f75932dccba0ebcec45",
+      "translationPath": "content/zh/ai-coding-dictionary/progressive-disclosure.md",
+      "translationHash": "834b5f2c69f0d25b25412d1a8a5da35c5ce928db6745998eeb7d8a92f9639a58",
+      "status": "translated-estimate-special-sample",
+      "translatedAt": "2026-09-14T16:26:06.637Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "sourceUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "sourceHash": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+      "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "translationHash": "16ee8dcba4363b5950861cc317a0d671137ed535dd2d19b6d9081e0861257548",
+      "status": "translated-estimate-special-sample",
+      "translatedAt": "2026-09-14T16:26:06.637Z",
+      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "type": "object",
+  "properties": {
+    "route": {
+      "enum": [
+        "A",
+        "B"
+      ]
+    },
+    "stage": {
+      "enum": [
+        "draft",
+        "edited"
+      ]
+    },
+    "taskId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "effort": {
+      "enum": [
+        "medium"
+      ]
+    },
+    "startedAt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "finishedAt": {
+      "type": "string",
+      "minLength": 1
+    },
+    "inputHashes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "enum": [
+              "dictionary",
+              "workshop"
+            ]
+          },
+          "status": {
+            "enum": [
+              "PASS",
+              "PARTIAL",
+              "HOLD",
+              "FAILED"
+            ]
+          },
+          "startedAt": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "finishedAt": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "quality": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "dimension": {
+                  "enum": [
+                    "忠实度：事实、条件、语气",
+                    "完整性与结构",
+                    "中文自然度",
+                    "零基础可理解性",
+                    "教学组织",
+                    "原始示例保真",
+                    "示例解释与练习边界",
+                    "术语一致性与可用性",
+                    "内容清洗与来源边界",
+                    "页面阅读体验",
+                    "内容类型适配",
+                    "辅助内容准确性"
+                  ]
+                },
+                "status": {
+                  "enum": [
+                    "PASS",
+                    "PARTIAL",
+                    "HOLD",
+                    "NOT_APPLICABLE"
+                  ]
+                },
+                "evidence": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "dimension",
+                "status",
+                "evidence"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "changes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "cleaning": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "unknowns": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "required": [
+          "key",
+          "status",
+          "startedAt",
+          "finishedAt",
+          "quality",
+          "changes",
+          "cleaning",
+          "unknowns"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "usage": {
+      "type": "object",
+      "properties": {
+        "basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "turnIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "responseIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "input": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "cachedInput": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "output": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "reasoning": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "total": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "failures": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "retries": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "basis",
+        "turnIds",
+        "responseIds",
+        "input",
+        "cachedInput",
+        "output",
+        "reasoning",
+        "total",
+        "failures",
+        "retries"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "route",
+    "stage",
+    "taskId",
+    "model",
+    "effort",
+    "startedAt",
+    "finishedAt",
+    "inputHashes",
+    "articles",
+    "usage"
+  ],
+  "additionalProperties": false
+}

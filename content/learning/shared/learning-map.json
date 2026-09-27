@@ -1,0 +1,5549 @@
+{
+  "version": 1,
+  "status": "minimum-global-outline-complete; article-production-not-cleared",
+  "asOf": "2026-09-22",
+  "scope": "全站粗定位、共享核心骨架和既有首批输入缺口；不代表全站正文语义验收。",
+  "base": {
+    "map": {
+      "path": "content/learning/shared/content-map.json",
+      "sha256": "d03b52ee70b32bf9221927e3fc3556a438e99b0a09a60afe5d7f722fe535db95"
+    },
+    "knowledge": {
+      "path": "content/learning/shared/knowledge.json",
+      "sha256": "62600bf7767c530f687e89f28da0c882e32d7217ce3464787efbe8b0bc8ce6c0"
+    }
+  },
+  "method": {
+    "classification": "对186条既有标题/类型/描述/章节作粗粒度编辑判断；歧义与入门核心定点读取正文。无关键词自动批准。",
+    "conceptResolution": "先查本文件 concepts，再查 knowledge.json concepts；已有定义不复制。所有引用取 dependsOn 闭包。",
+    "articleGate": "任何粗分类、阅读顺序或脚本通过都不改变 G0/G1/G2。firstBatch 与适用 boundaries 必须一起装入后续任务。",
+    "reviewer": "current-task assistant; no independent reviewer",
+    "coverage": "reads 仅记录本轮实际阅读区间；原3全文/14局部的历史记录保持原样，不把两轮数字直接相加。"
+  },
+  "topics": {
+    "foundations": {
+      "label": "模型与交互基础",
+      "purpose": "理解模型、消息、上下文和工具之间的关系",
+      "coreConceptIds": [
+        "model",
+        "llm",
+        "prompt",
+        "token",
+        "context",
+        "context-window",
+        "tool",
+        "harness",
+        "model-provider-request",
+        "system-prompt",
+        "tool-call",
+        "tool-result",
+        "agent",
+        "workflow",
+        "message",
+        "model-provider",
+        "input-tokens",
+        "output-tokens"
+      ],
+      "beforePractice": "先能区分模型生成消息与软件执行动作。"
+    },
+    "coding": {
+      "label": "用 AI 协作开发",
+      "purpose": "规划、规则、反馈与受控执行",
+      "coreConceptIds": [
+        "agent",
+        "session",
+        "turn",
+        "agents-md",
+        "git",
+        "terminal"
+      ],
+      "beforePractice": "操作练习前按篇补齐文件、项目、Git 与终端准备；能看懂文章不等于能安全运行。"
+    },
+    "skills": {
+      "label": "Skills 与任务方法",
+      "purpose": "把任务指导按需组织和复用",
+      "coreConceptIds": [
+        "skill",
+        "progressive-disclosure",
+        "agent"
+      ],
+      "beforePractice": "理解 Skill 是指导材料、tool 是可调用功能，再按所选 Skill 补任务背景。"
+    },
+    "sdk": {
+      "label": "用代码构建 AI 应用",
+      "purpose": "从文本生成到结构化输出与工具循环",
+      "coreConceptIds": [
+        "ai-sdk",
+        "llm",
+        "prompt",
+        "stream",
+        "object",
+        "schema",
+        "structured-output",
+        "tool-call"
+      ],
+      "beforePractice": "终端、包管理器、JavaScript/TypeScript 基础和示例项目按篇确认；旧 SDK 教程不能直接视为 v6 课程。"
+    },
+    "mcp": {
+      "label": "MCP 与外部能力连接",
+      "purpose": "理解连接角色，再按任务读实现与部署",
+      "coreConceptIds": [
+        "mcp",
+        "tool",
+        "harness",
+        "tool-call",
+        "tool-result"
+      ],
+      "beforePractice": "先区分协议、工具和执行框架；传输、认证、运行环境按篇核对版本。"
+    },
+    "evaluation": {
+      "label": "评估与改进",
+      "purpose": "用明确目标和样例判断输出质量",
+      "coreConceptIds": [
+        "eval",
+        "llm",
+        "prompt"
+      ],
+      "beforePractice": "先明确应用目标和可检查结果；评估框架不是质量本身。"
+    },
+    "perspective": {
+      "label": "应用选择与经验",
+      "purpose": "了解适用场景、取舍及作者经验",
+      "coreConceptIds": [
+        "llm",
+        "workflow"
+      ],
+      "beforePractice": "区分作者经验、时间敏感推荐与通用事实。"
+    },
+    "navigation": {
+      "label": "导航与资料入口",
+      "purpose": "查找资料，不作为必修正文",
+      "coreConceptIds": [],
+      "beforePractice": "索引或课程介绍不能替代课程内容。"
+    }
+  },
+  "kinds": {
+    "index": "资料索引",
+    "collection": "系列介绍",
+    "dictionary": "词条",
+    "explanation": "概念解释",
+    "guide": "操作或方法指南",
+    "reference": "功能参考",
+    "opinion": "经验与观点",
+    "resource": "外部资源介绍",
+    "announcement": "产品预告",
+    "changelog": "版本更新",
+    "sales": "课程销售介绍",
+    "video-summary": "视频简介",
+    "workshop-lesson": "课程练习"
+  },
+  "articles": [
+    {
+      "id": "/",
+      "title": "AI Hero",
+      "topic": "navigation",
+      "kind": "index",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "当前本地正文是机器资料入口，不能当作学习首页正文。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "title": "2025: The Year Building With GenAI's Gets Boring",
+      "topic": "perspective",
+      "kind": "opinion",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/5-agent-skills-i-use-every-day",
+      "title": "5 Agent Skills I Use Every Day",
+      "topic": "skills",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/5-agent-skills-i-use-every-day",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/a-complete-guide-to-agents-md",
+      "title": "A Complete Guide To AGENTS.md",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/a-complete-guide-to-agents-md",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "existing-profile-scope-only",
+      "deferredChecks": []
+    },
+    {
+      "id": "/agents-with-vercel-ai-sdk",
+      "title": "Build Your First Agent With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/agents-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary",
+      "title": "The vocabulary of AI coding, in plain English.",
+      "topic": "navigation",
+      "kind": "index",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/afk",
+      "title": "AFK",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/afk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/agent",
+      "title": "Agent",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/agent",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 21
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/agent-mode",
+      "title": "Agent mode",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/agent-mode",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/agents-md",
+      "title": "AGENTS.md",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/agents-md",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/ai",
+      "title": "AI",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/ai",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/attention-budget",
+      "title": "Attention budget",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/attention-budget",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/attention-degradation",
+      "title": "Attention degradation",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/attention-degradation",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/attention-relationship",
+      "title": "Attention relationship",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/attention-relationship",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/autocompact",
+      "title": "Autocompact",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/autocompact",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/automated-check",
+      "title": "Automated check",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/automated-check",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/automated-review",
+      "title": "Automated review",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/automated-review",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/ax",
+      "title": "AX",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/ax",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/cache-tokens",
+      "title": "Cache tokens",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/cache-tokens",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/clearing",
+      "title": "Clearing",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/clearing",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/compaction",
+      "title": "Compaction",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/compaction",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/context",
+      "title": "Context",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/context",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 27
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/context-pointer",
+      "title": "Context pointer",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/context-pointer",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/context-window",
+      "title": "Context window",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/context-window",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 8,
+            "end": 14
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/contextual-knowledge",
+      "title": "Contextual knowledge",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/contextual-knowledge",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/design-concept",
+      "title": "Design concept",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/design-concept",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/dx",
+      "title": "DX",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/dx",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/effort",
+      "title": "Effort",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/effort",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/environment",
+      "title": "Environment",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/environment",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/filesystem",
+      "title": "Filesystem",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/filesystem",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/grilling",
+      "title": "Grilling",
+      "topic": "skills",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/grilling",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/hallucination",
+      "title": "Hallucination",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/hallucination",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/handoff",
+      "title": "Handoff",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/handoff",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/handoff-artifact",
+      "title": "Handoff artifact",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/handoff-artifact",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/harness",
+      "title": "Harness",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/harness",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 21
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/human-in-the-loop",
+      "title": "Human-in-the-loop",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/human-in-the-loop",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/human-review",
+      "title": "Human review",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/human-review",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/inference",
+      "title": "Inference",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/inference",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/input-tokens",
+      "title": "Input tokens",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/input-tokens",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/knowledge-cutoff",
+      "title": "Knowledge cutoff",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/knowledge-cutoff",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/mcp",
+      "title": "MCP",
+      "topic": "mcp",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/mcp",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 8,
+            "end": 20
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/memory-system",
+      "title": "Memory system",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/memory-system",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/model",
+      "title": "Model",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/model",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 21
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/model-provider",
+      "title": "Model provider",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/model-provider",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/model-provider-request",
+      "title": "Model provider request",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/model-provider-request",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/next-token-prediction",
+      "title": "Next-token prediction",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/next-token-prediction",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/non-determinism",
+      "title": "Non-determinism",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/non-determinism",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/output-tokens",
+      "title": "Output tokens",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/output-tokens",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/parameters",
+      "title": "Parameters",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/parameters",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/parametric-knowledge",
+      "title": "Parametric knowledge",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/parametric-knowledge",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/permission-mode",
+      "title": "Permission mode",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/permission-mode",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/permission-request",
+      "title": "Permission request",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/permission-request",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/prefix-cache",
+      "title": "Prefix cache",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/prefix-cache",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/primary-source",
+      "title": "Primary source",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/primary-source",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/progressive-disclosure",
+      "title": "Progressive disclosure",
+      "topic": "skills",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/progressive-disclosure",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/prototyping",
+      "title": "Prototyping",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/prototyping",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/sandbox",
+      "title": "Sandbox",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/sandbox",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/secondary-source",
+      "title": "Secondary source",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/secondary-source",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/session",
+      "title": "Session",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/session",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/skill",
+      "title": "Skill",
+      "topic": "skills",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/skill",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 8,
+            "end": 20
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/smart-zone",
+      "title": "Smart zone",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/smart-zone",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/spec",
+      "title": "Spec",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/spec",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/stateful",
+      "title": "Stateful",
+      "topic": "mcp",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/stateful",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/stateless",
+      "title": "Stateless",
+      "topic": "mcp",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/stateless",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/subagent",
+      "title": "Subagent",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/subagent",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/sycophancy",
+      "title": "Sycophancy",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/sycophancy",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/system-prompt",
+      "title": "System prompt",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/system-prompt",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 8,
+            "end": 14
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "existing-profile-scope-only",
+      "deferredChecks": []
+    },
+    {
+      "id": "/ai-coding-dictionary/ticket",
+      "title": "Ticket",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/ticket",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/token",
+      "title": "Token",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/token",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 8,
+            "end": 10
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/tool",
+      "title": "Tool",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/tool",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/tool-call",
+      "title": "Tool call",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/tool-call",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 29
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/tool-result",
+      "title": "Tool result",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/tool-result",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 29
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/training",
+      "title": "Training",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/training",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/turn",
+      "title": "Turn",
+      "topic": "foundations",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/turn",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-coding-dictionary/vibe-coding",
+      "title": "Vibe coding",
+      "topic": "coding",
+      "kind": "dictionary",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-coding-dictionary/vibe-coding",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ai-engineer-roadmap",
+      "title": "The AI Engineer Roadmap",
+      "topic": "perspective",
+      "kind": "collection",
+      "learningRole": "orientation",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ai-engineer-roadmap",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 35
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "系列介绍只证明覆盖主题，具体课序及完整子课来源按需核对。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "title": "Anthropic's new Model Context Protocol In 2 Minutes",
+      "topic": "mcp",
+      "kind": "announcement",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 13
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "保留历史版本语境，不当作当前功能保证。",
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/building-effective-agents",
+      "title": "Anthropic thinks you should build agents like this",
+      "topic": "foundations",
+      "kind": "explanation",
+      "learningRole": "core-candidate",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/building-effective-agents",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/burn-through-your-backlog-with-my-triage-skill",
+      "title": "triage: Turn Backlog Mess Into Agent-Ready Work",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/burn-through-your-backlog-with-my-triage-skill",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/connect-claude-code-to-github",
+      "title": "Connect Claude Code To A GitHub MCP Server",
+      "topic": "mcp",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/connect-claude-code-to-github",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/create-embeddings-with-vercel-ai-sdk",
+      "title": "Create Embeddings With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/create-embeddings-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/creating-the-perfect-claude-code-status-line",
+      "title": "Creating The Perfect Claude Code Status Line",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/creating-the-perfect-claude-code-status-line",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/describe-images-with-vercel-ai-sdk",
+      "title": "Build an Alt Text Generator With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/describe-images-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "title": "Essential AI Coding Feedback Loops For TypeScript Projects",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/evalite-an-early-preview",
+      "title": "Evalite - an Early Preview",
+      "topic": "evaluation",
+      "kind": "announcement",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/evalite-an-early-preview",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 25
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "保留历史版本语境，不当作当前功能保证。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/evalite-v1-preview",
+      "title": "Evalite v1 Preview: Fast Evals, Built-in Scorers",
+      "topic": "evaluation",
+      "kind": "announcement",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/evalite-v1-preview",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "保留历史版本语境，不当作当前功能保证。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/generate-arrays-with-vercel-ai-sdk",
+      "title": "Generate Arrays With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/generate-arrays-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/generate-enums-with-vercel-ai-sdk",
+      "title": "Generate Enums With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/generate-enums-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/generate-text-with-vercel-ai-sdk",
+      "title": "Generate Text With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/generate-text-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/getting-started-with-ralph",
+      "title": "Getting Started With Ralph",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/getting-started-with-ralph",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/google-agents-whitepaper-review",
+      "title": "Google's Introduction To Agents Is GREAT",
+      "topic": "foundations",
+      "kind": "resource",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/google-agents-whitepaper-review",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/grill-with-docs",
+      "title": "grill-with-docs: Align Before You Build",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/grill-with-docs",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "title": "Here's How To Stream Claude Code With AFK Ralph",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/heres-how-to-stream-claude-code-with-afk-ralph",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/how-does-the-model-context-protocol-work",
+      "title": "How Does The Model Context Protocol Work?",
+      "topic": "mcp",
+      "kind": "explanation",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/how-does-the-model-context-protocol-work",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 42
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/how-to-choose-an-llm",
+      "title": "5 Questions To Ask Before Choosing An LLM",
+      "topic": "perspective",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/how-to-choose-an-llm",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/how-to-improve-your-llm-powered-app",
+      "title": "17 Techniques For Improving Your LLM-Powered App",
+      "topic": "perspective",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/how-to-improve-your-llm-powered-app",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "title": "How To Kill The Bloat In Claude Code's System Prompt",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/how-to-make-codebases-ai-agents-love",
+      "title": "How To Make Codebases AI Agents Love",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/how-to-make-codebases-ai-agents-love",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "title": "How To Use Claude Code Hooks To Enforce The Right CLI",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/implementing-anthropics-think-tool-in-typescript",
+      "title": "Implementing Anthropic's \"think\" Tool In TypeScript",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/implementing-anthropics-think-tool-in-typescript",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/learn-anything-with-my-teach-skill",
+      "title": "Learn Anything With My /teach Skill",
+      "topic": "skills",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/learn-anything-with-my-teach-skill",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/llm-fundamentals",
+      "title": "LLM Fundamentals",
+      "topic": "foundations",
+      "kind": "collection",
+      "learningRole": "orientation",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/llm-fundamentals",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 32
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "系列介绍只证明覆盖主题，具体课序及完整子课来源按需核对。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/logging-a-huge-mcp-footgun",
+      "title": "Logging: A Huge MCP Footgun",
+      "topic": "mcp",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/logging-a-huge-mcp-footgun",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/mcp-server-from-a-single-typescript-file",
+      "title": "Serving MCP Servers Over stdout",
+      "topic": "mcp",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/mcp-server-from-a-single-typescript-file",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/messages-system-prompts-and-reasoning-tokens",
+      "title": "Messages, System Prompts and Reasoning Tokens",
+      "topic": "foundations",
+      "kind": "explanation",
+      "learningRole": "core-candidate",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/messages-system-prompts-and-reasoning-tokens",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 50
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/model-context-protocol-tutorial",
+      "title": "Model Context Protocol Tutorial",
+      "topic": "mcp",
+      "kind": "collection",
+      "learningRole": "orientation",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/model-context-protocol-tutorial",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 29
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "系列介绍只证明覆盖主题，具体课序及完整子课来源按需核对。",
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/my-7-phases-of-ai-development",
+      "title": "My 7 Phases Of AI Development",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/my-7-phases-of-ai-development",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/my-agents-md-file-for-building-plans-you-actually-read",
+      "title": "My AGENTS.md file for building plans you actually read",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/my-agents-md-file-for-building-plans-you-actually-read",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/my-claude-code-cohort-a-teaser",
+      "title": "My Claude Code Cohort - A Teaser",
+      "topic": "coding",
+      "kind": "sales",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/my-claude-code-cohort-a-teaser",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "商业介绍与可用教学内容分离，价格和承诺不直接沿用。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/my-grill-me-skill-has-gone-viral",
+      "title": "My 'Grill Me' Skill Went Viral",
+      "topic": "skills",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/my-grill-me-skill-has-gone-viral",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/never-run-claude-init",
+      "title": "Never Run Claude /init",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/never-run-claude-init",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "title": "Personal software is INSANE in the age of AI",
+      "topic": "perspective",
+      "kind": "opinion",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 42
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/plan-mode-introduction",
+      "title": "An Introduction To Plan Mode",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/plan-mode-introduction",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/publish-your-mcp-server-to-npm",
+      "title": "Publish Your MCP Server To NPM",
+      "topic": "mcp",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/publish-your-mcp-server-to-npm",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/real-world-feature-build-with-claude-code",
+      "title": "Real-world feature build with Claude Code: every step explained",
+      "topic": "coding",
+      "kind": "video-summary",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/real-world-feature-build-with-claude-code",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 20
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "本地只有视频简介，制作完整步骤课前需要视频内容或文字稿。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/securing-your-ai-app-with-guardrails",
+      "title": "Securing your AI App with Guardrails",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/securing-your-ai-app-with-guardrails",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skill-test-driven-development-claude-code",
+      "title": "My Skill Makes Claude Code GREAT At TDD",
+      "topic": "skills",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skill-test-driven-development-claude-code",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills",
+      "title": "AI Skills for Real Engineers",
+      "topic": "skills",
+      "kind": "index",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-ask-matt",
+      "title": "The /ask-matt Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-ask-matt",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-catalog",
+      "title": "AI Skills for Real Engineers",
+      "topic": "skills",
+      "kind": "index",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-catalog",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-changelog-ubiquitous-language-grill-with-docs",
+      "title": "Skills Changelog: Ubiquitous Language -> /grill-with-docs",
+      "topic": "skills",
+      "kind": "changelog",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-changelog-ubiquitous-language-grill-with-docs",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "存在相似嵌套路由；合并前比较来源，不自动删除或判为同文。",
+        "保留历史版本语境，不当作当前功能保证。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-code-review",
+      "title": "The /code-review Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-code-review",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-codebase-design",
+      "title": "The /codebase-design Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-codebase-design",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-diagnosing-bugs",
+      "title": "The /diagnosing-bugs Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-diagnosing-bugs",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-domain-modeling",
+      "title": "The /domain-modeling Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-domain-modeling",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-grill-me",
+      "title": "The /grill-me Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-grill-me",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-grill-with-docs",
+      "title": "The /grill-with-docs Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-grill-with-docs",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-grilling",
+      "title": "The /grilling Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-grilling",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-handoff",
+      "title": "The /handoff Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-handoff",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-implement",
+      "title": "The /implement Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-implement",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-improve-codebase-architecture",
+      "title": "The /improve-codebase-architecture Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-improve-codebase-architecture",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-prototype",
+      "title": "The /prototype Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-prototype",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-research",
+      "title": "The /research Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-research",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-resolving-merge-conflicts",
+      "title": "The /resolving-merge-conflicts Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-resolving-merge-conflicts",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-setup-matt-pocock-skills",
+      "title": "The /setup-matt-pocock-skills Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-setup-matt-pocock-skills",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-tdd",
+      "title": "The /tdd Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-tdd",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-teach",
+      "title": "The /teach Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-teach",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-to-questionnaire",
+      "title": "The /to-questionnaire Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-to-questionnaire",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-to-spec",
+      "title": "The /to-spec Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-to-spec",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-to-tickets",
+      "title": "The /to-tickets Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-to-tickets",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-triage",
+      "title": "The /triage Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-triage",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-wait-what",
+      "title": "The /wait-what Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-wait-what",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-wayfinder",
+      "title": "The /wayfinder Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-wayfinder",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-wizard",
+      "title": "The /wizard Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-wizard",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills-writing-for-agents",
+      "title": "The /writing-for-agents Skill",
+      "topic": "skills",
+      "kind": "reference",
+      "learningRole": "lookup",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills-writing-for-agents",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "title": "Skills Changelog: /handoff, /prototype, /review and /writing",
+      "topic": "skills",
+      "kind": "changelog",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "保留历史版本语境，不当作当前功能保证。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "title": "Skills Changelog: Ubiquitous Language -> /grill-with-docs",
+      "topic": "skills",
+      "kind": "changelog",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "存在相似根路由；合并前比较来源，不自动删除或判为同文。",
+        "保留历史版本语境，不当作当前功能保证。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "title": "v1.1: /wayfinder, /to-spec, /to-tickets, /grilling improvements, and much more",
+      "topic": "skills",
+      "kind": "changelog",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "保留历史版本语境，不当作当前功能保证。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills/skills-changelog-v1-announcement",
+      "title": "v1: 63% Token Reduction, /ask-matt, /writing-great-skills",
+      "topic": "skills",
+      "kind": "changelog",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills/skills-changelog-v1-announcement",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "保留历史版本语境，不当作当前功能保证。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "title": "v1.2: /wait-what, /writing-for-agents, Claude Code Plugin, and more",
+      "topic": "skills",
+      "kind": "changelog",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "保留历史版本语境，不当作当前功能保证。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/storm-generate-high-quality-articles-based-on-real-research",
+      "title": "STORM: Generate High-Quality Articles Based On Real Research",
+      "topic": "foundations",
+      "kind": "resource",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/storm-generate-high-quality-articles-based-on-real-research",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 17
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "本地只有简短论文引介和配图，不能据此生成完整方法教程。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "title": "Streaming In 'Next Question Suggestions' With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/streaming-objects-with-vercel-ai-sdk",
+      "title": "Streaming Objects With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/streaming-objects-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/streaming-text-with-vercel-ai-sdk",
+      "title": "Streaming Text With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/streaming-text-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "title": "Extract Structured Data From PDF's With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/structured-data-from-pdfs-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/structured-outputs-with-vercel-ai-sdk",
+      "title": "Structured Outputs with Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/structured-outputs-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/swap-ai-models-with-vercel-ai-sdk",
+      "title": "Hot-Swap AI Models With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/swap-ai-models-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/system-prompts-with-vercel-ai-sdk",
+      "title": "Adding System Prompts With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/system-prompts-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/the-ai-engineer-mindset",
+      "title": "The AI Engineer Mindset",
+      "topic": "perspective",
+      "kind": "opinion",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/the-ai-engineer-mindset",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/the-problem-with-mcp-stateful-server",
+      "title": "The Problem With MCP: Stateful Servers",
+      "topic": "mcp",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/the-problem-with-mcp-stateful-server",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/the-prompt-report",
+      "title": "Here's 2024's best resource on prompt engineering",
+      "topic": "foundations",
+      "kind": "resource",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/the-prompt-report",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 45
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "外部报告引介；标题2024与描述2025不一致，按源语境核对，不能代替报告全文。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "title": "9 Things People Get Wrong With /grill-me and /grill-with-docs",
+      "topic": "skills",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "title": "This Hook Stops Claude Code Running Dangerous Git Commands",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/three-types-of-evals",
+      "title": "The Three Types Of Evals",
+      "topic": "evaluation",
+      "kind": "explanation",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/three-types-of-evals",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/tips-for-ai-coding-with-ralph-wiggum",
+      "title": "11 Tips For AI Coding With Ralph Wiggum",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/tips-for-ai-coding-with-ralph-wiggum",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/tool-calls-with-vercel-ai-sdk",
+      "title": "Tool Calling With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/tool-calls-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/tracer-bullets",
+      "title": "Tracer Bullets: Keeping AI Slop Under Control",
+      "topic": "coding",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/tracer-bullets",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/use-local-models-with-vercel-ai-sdk",
+      "title": "Use Local Models With Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/use-local-models-with-vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/using-mcp-prompts",
+      "title": "Using MCP Prompts",
+      "topic": "mcp",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/using-mcp-prompts",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/vercel-ai-sdk",
+      "title": "Vercel's AI SDK Future-proofs Your AI Stack",
+      "topic": "sdk",
+      "kind": "opinion",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/vercel-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/vercel-ai-sdk-messages-array",
+      "title": "Working With Message Histories In Vercel's AI SDK",
+      "topic": "sdk",
+      "kind": "guide",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/vercel-ai-sdk-messages-array",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/vercel-ai-sdk-tutorial",
+      "title": "Vercel AI SDK Tutorial",
+      "topic": "sdk",
+      "kind": "collection",
+      "learningRole": "orientation",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/vercel-ai-sdk-tutorial",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 37
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "系列介绍只证明覆盖主题，具体课序及完整子课来源按需核对。",
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/ways-ai-coding-has-rewired-my-brain",
+      "title": "9 Ways AI Coding Has Rewired My Brain",
+      "topic": "perspective",
+      "kind": "opinion",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/ways-ai-coding-has-rewired-my-brain",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/what-are-evals",
+      "title": "Your App Is Only As Good As Its Evals",
+      "topic": "evaluation",
+      "kind": "explanation",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/what-are-evals",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 55
+          },
+          {
+            "start": 57,
+            "end": 108
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/what-are-llms-used-for",
+      "title": "What Can You Use LLM's For?",
+      "topic": "perspective",
+      "kind": "explanation",
+      "learningRole": "orientation",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/what-are-llms-used-for",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/what-are-tokens",
+      "title": "What Are Tokens?",
+      "topic": "foundations",
+      "kind": "explanation",
+      "learningRole": "core-candidate",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/what-are-tokens",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 45
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/what-are-tools",
+      "title": "What Are Tools?",
+      "topic": "foundations",
+      "kind": "explanation",
+      "learningRole": "core-candidate",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/what-are-tools",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 75
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/what-is-an-agent",
+      "title": "What Is An Agent?",
+      "topic": "foundations",
+      "kind": "explanation",
+      "learningRole": "core-candidate",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/what-is-an-agent",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 51
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/what-is-an-ai-engineer",
+      "title": "What Is An AI Engineer?",
+      "topic": "perspective",
+      "kind": "explanation",
+      "learningRole": "orientation",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/what-is-an-ai-engineer",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/what-is-an-llm",
+      "title": "What Is An LLM?",
+      "topic": "foundations",
+      "kind": "explanation",
+      "learningRole": "core-candidate",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/what-is-an-llm",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 45
+          },
+          {
+            "start": 47,
+            "end": 76
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/what-is-the-ai-sdk",
+      "title": "What Is Vercel's AI SDK?",
+      "topic": "sdk",
+      "kind": "explanation",
+      "learningRole": "orientation",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/what-is-the-ai-sdk",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 60
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/what-is-the-context-window",
+      "title": "What Is The Context Window?",
+      "topic": "foundations",
+      "kind": "explanation",
+      "learningRole": "core-candidate",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/what-is-the-context-window",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": [
+          {
+            "start": 1,
+            "end": 51
+          }
+        ]
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/why-the-anthropic-ralph-plugin-sucks",
+      "title": "Why the Anthropic Ralph plugin sucks (use a bash loop instead)",
+      "topic": "coding",
+      "kind": "opinion",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/why-the-anthropic-ralph-plugin-sucks",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/workshops/ai-coding-crash-course",
+      "title": "AI Coding Crash Course",
+      "topic": "coding",
+      "kind": "sales",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/workshops/ai-coding-crash-course",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "商业介绍与可用教学内容分离，价格和承诺不直接沿用。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/workshops/ai-sdk-v6-crash-course",
+      "title": "AI SDK v6 Crash Course",
+      "topic": "sdk",
+      "kind": "sales",
+      "learningRole": "optional",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/workshops/ai-sdk-v6-crash-course",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "needed-before-production",
+      "deferredChecks": [
+        "商业介绍与可用教学内容分离，价格和承诺不直接沿用。",
+        "运行代码前确认版本、依赖、环境与凭据准备。",
+        "生产前阅读全文并明确学习目标、必要先修和本篇缺口。"
+      ]
+    },
+    {
+      "id": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "title": "Generating Objects via Output",
+      "topic": "sdk",
+      "kind": "workshop-lesson",
+      "learningRole": "branch",
+      "classificationStatus": "coarse-editorial-reviewed",
+      "classificationBasis": {
+        "inventoryId": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+        "fields": [
+          "title",
+          "declaredType",
+          "frontmatter",
+          "headings"
+        ],
+        "bodyRanges": []
+      },
+      "productionStatus": "not-cleared",
+      "profileStatus": "existing-profile-scope-only",
+      "deferredChecks": [
+        "F-version 与 F-transcript 沿用；练习保持 HOLD，不能作为可独立运行的入门起点。",
+        "运行代码前确认版本、依赖、环境与凭据准备。"
+      ]
+    }
+  ],
+  "concepts": {
+    "context": {
+      "zh": "上下文",
+      "en": "context",
+      "aliases": [],
+      "definition": "当前任务相关、已提供给助手使用的信息。",
+      "dependsOn": [
+        "model"
+      ],
+      "dependencyRationale": "先知道模型根据输入工作，再解释哪些任务信息可用。",
+      "scope": "区分任务相关信息、单次模型窗口和会话历史；不把信息多等同于质量高。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/context",
+          "path": "content/source/ai-coding-dictionary/context.md",
+          "sha256": "4b3b19f26b14d619aebff5b1c8b3a02469b5a53a39eba205f74f48a3c9897858",
+          "start": 8,
+          "end": 18
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "producer-reviewed; independent-and-beginner-acceptance-pending"
+    },
+    "tool-call": {
+      "zh": "工具调用请求",
+      "en": "tool call",
+      "aliases": [],
+      "definition": "模型给出的工具名称和参数等调用指令；指令本身不等于动作已经执行。",
+      "dependsOn": [
+        "model",
+        "tool"
+      ],
+      "dependencyRationale": "先认识模型和工具，才能区分提出动作与执行动作。",
+      "scope": "此处强调请求与执行的区别，不规定所有接口的消息角色或编码。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/tool-call",
+          "path": "content/source/ai-coding-dictionary/tool-call.md",
+          "sha256": "dd5366630d7a0f4590bb53294974757a8e8918d457eac986a8e92d7f0d9a65ec",
+          "start": 8,
+          "end": 18
+        },
+        {
+          "articleId": "/what-are-tools",
+          "path": "content/source/what-are-tools.md",
+          "sha256": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049",
+          "start": 31,
+          "end": 39
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "producer-reviewed; independent-and-beginner-acceptance-pending"
+    },
+    "tool-result": {
+      "zh": "工具结果",
+      "en": "tool result",
+      "aliases": [],
+      "definition": "执行工具后返回给助手的信息，例如文件内容、命令输出或错误。",
+      "dependsOn": [
+        "tool-call",
+        "harness"
+      ],
+      "dependencyRationale": "先认识请求和执行框架，再解释执行反馈。",
+      "scope": "结果是否被保留、压缩或再次送入模型取决于执行框架；错误结果不等于任务成功。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/tool-result",
+          "path": "content/source/ai-coding-dictionary/tool-result.md",
+          "sha256": "55cc54df70f1ced39ade38c288e372ab7d7972d3e9117fec6e1ec89d478f2767",
+          "start": 8,
+          "end": 18
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "producer-reviewed; independent-and-beginner-acceptance-pending"
+    },
+    "workflow": {
+      "zh": "工作流",
+      "en": "workflow",
+      "aliases": [],
+      "definition": "在本组文章中，按开发者预先安排的步骤组织多次模型调用的流程。",
+      "dependsOn": [
+        "llm"
+      ],
+      "dependencyRationale": "先知道模型的一次回应，再理解多个步骤由谁组织。",
+      "scope": "局限于原站对 agent 与 workflow 的教学对比；不泛化为所有工作流必须调用模型，也不声称智能体没有规则或停止限制。",
+      "evidence": [
+        {
+          "articleId": "/what-is-an-agent",
+          "path": "content/source/what-is-an-agent.md",
+          "sha256": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
+          "start": 14,
+          "end": 32
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "producer-reviewed; independent-and-beginner-acceptance-pending"
+    },
+    "mcp": {
+      "zh": "模型上下文协议",
+      "en": "Model Context Protocol",
+      "aliases": [],
+      "definition": "让支持这一协议的应用连接外部服务器，取得工具、资源或提示模板的一种约定。",
+      "dependsOn": [
+        "tool",
+        "harness"
+      ],
+      "dependencyRationale": "先区分工具和执行框架，再解释它们连接外部能力的共同约定。",
+      "scope": "协议不是某一个工具，也不是某一家产品；认证、传输和工具发现时机须按具体实现核验。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/mcp",
+          "path": "content/source/ai-coding-dictionary/mcp.md",
+          "sha256": "e5d3fd62af56ad7c39146915b76242a3901456d3eb30249dea28905dd45b38a4",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "producer-reviewed; independent-and-beginner-acceptance-pending"
+    },
+    "ai-sdk": {
+      "zh": "AI SDK",
+      "en": "AI SDK",
+      "aliases": [],
+      "definition": "本地教程中由 Vercel 维护、帮助程序与模型服务交互的软件库。",
+      "dependsOn": [
+        "llm"
+      ],
+      "dependencyRationale": "先理解模型的输入输出，再介绍程序调用时使用的库。",
+      "scope": "仅作库的作用解释；不是部署服务，不保证不同版本接口兼容，不承诺提供商调用免费。",
+      "evidence": [
+        {
+          "articleId": "/what-is-the-ai-sdk",
+          "path": "content/source/what-is-the-ai-sdk.md",
+          "sha256": "860e5626279ac355abdcbf46c85c6c1a495441fd723493cb1c5b4502c3141605",
+          "start": 14,
+          "end": 38
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "producer-reviewed; independent-and-beginner-acceptance-pending"
+    },
+    "eval": {
+      "zh": "评估",
+      "en": "eval",
+      "aliases": [],
+      "definition": "用样例和明确标准检查 AI 应用输出，帮助判断一次改动是否达到目标或带来退步。",
+      "dependsOn": [
+        "llm"
+      ],
+      "dependencyRationale": "先理解应用会产生输出，再解释按标准检查结果。",
+      "scope": "可以使用程序检查、模型评分或人工判断；分数只覆盖所用样例和标准，不等于全部质量通过。",
+      "evidence": [
+        {
+          "articleId": "/what-are-evals",
+          "path": "content/source/what-are-evals.md",
+          "sha256": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
+          "start": 78,
+          "end": 108
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "producer-reviewed; independent-and-beginner-acceptance-pending"
+    },
+    "message": {
+      "zh": "消息",
+      "en": "message",
+      "aliases": [
+        "messages",
+        "对话消息"
+      ],
+      "definition": "对话中的一条信息，带有角色标记（例如用户或助手），内容可以包含文字或文件等部分。",
+      "dependsOn": [
+        "model"
+      ],
+      "dependencyRationale": "先认识模型，再理解与模型交互的信息单位。",
+      "scope": "用于本地材料中的对话概念；不把消息等同于提示词，也不统一规定不同产品的工具调用或推理内容编码方式。",
+      "evidence": [
+        {
+          "articleId": "/messages-system-prompts-and-reasoning-tokens",
+          "path": "content/source/messages-system-prompts-and-reasoning-tokens.md",
+          "sha256": "6bdc0dcd24d6ccf1ee01d8cc799c13380cf647b668d2298676a07e970e7c2296",
+          "start": 15,
+          "end": 39
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "governance-reviewed-2026-09-24; independent-and-beginner-acceptance-pending"
+    },
+    "model-provider": {
+      "zh": "模型提供商",
+      "en": "model provider",
+      "aliases": [
+        "模型服务商"
+      ],
+      "definition": "向应用提供模型运行能力的服务或本地程序。",
+      "dependsOn": [
+        "model"
+      ],
+      "dependencyRationale": "先区分模型本身，再认识提供其运行能力的一方。",
+      "scope": "提供商不等同于模型开发者或执行框架；可在远程或本地运行，不以联网、收费或故障归属作为定义。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/model-provider",
+          "path": "content/source/ai-coding-dictionary/model-provider.md",
+          "sha256": "a1c80b655effc40ebd4339d51c7cfe1527dd3dd4d0343241a6100573e6c137e5",
+          "start": 8,
+          "end": 12
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "governance-reviewed-2026-09-24; independent-and-beginner-acceptance-pending"
+    },
+    "output-tokens": {
+      "zh": "输出 Token",
+      "en": "output tokens",
+      "aliases": [
+        "output token"
+      ],
+      "definition": "模型在一次请求中生成的 Token。",
+      "dependsOn": [
+        "model",
+        "token"
+      ],
+      "dependencyRationale": "先理解模型与 Token，再区分送入模型的输入和模型生成的输出。",
+      "scope": "用于输入与输出的基础区分；不把输出等同于最终可见回答，不固定价格倍数，也不从等待时长推断输出长度。推理 Token 的可见性和计量按具体产品另行核实。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/output-tokens",
+          "path": "content/source/ai-coding-dictionary/output-tokens.md",
+          "sha256": "eff1d0426a607b7d8a51c50f144b254a5b0c0e5d8f57ceeba777448a0be9e716",
+          "start": 8,
+          "end": 10
+        }
+      ],
+      "confidence": "high-for-local-scoped-definition",
+      "reviewStatus": "governance-reviewed-2026-09-24; independent-and-beginner-acceptance-pending"
+    }
+  },
+  "boundaries": [
+    {
+      "id": "agent-scope",
+      "conceptIds": [
+        "agent",
+        "workflow"
+      ],
+      "articleIds": [
+        "/ai-coding-dictionary/agent",
+        "/what-is-an-agent",
+        "/building-effective-agents",
+        "/google-agents-whitepaper-review"
+      ],
+      "status": "resolved-by-scope-for-foundation",
+      "rule": "词典中的模型加框架定义用于指称交互对象；agent/workflow 对比文章用于说明步骤控制方式。保持语境，不能互相替换，也不能把作者的多次调用说法提升为所有智能体的必要条件。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/agent",
+          "path": "content/source/ai-coding-dictionary/agent.md",
+          "sha256": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+          "start": 8,
+          "end": 10
+        },
+        {
+          "articleId": "/what-is-an-agent",
+          "path": "content/source/what-is-an-agent.md",
+          "sha256": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
+          "start": 14,
+          "end": 42
+        }
+      ]
+    },
+    {
+      "id": "context-scope",
+      "conceptIds": [
+        "context",
+        "context-window",
+        "session"
+      ],
+      "articleIds": [
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/context-window",
+        "/what-is-the-context-window"
+      ],
+      "status": "resolved-by-scope-for-foundation",
+      "rule": "区分任务信息、会话存储和单次处理窗口。容量计算涉及输入输出及产品规则；不把词典的一次输入序列解释为所有服务的额度公式。",
+      "evidence": [
+        {
+          "articleId": "/ai-coding-dictionary/context",
+          "path": "content/source/ai-coding-dictionary/context.md",
+          "sha256": "4b3b19f26b14d619aebff5b1c8b3a02469b5a53a39eba205f74f48a3c9897858",
+          "start": 8,
+          "end": 18
+        },
+        {
+          "articleId": "/ai-coding-dictionary/context-window",
+          "path": "content/source/ai-coding-dictionary/context-window.md",
+          "sha256": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0",
+          "start": 8,
+          "end": 14
+        },
+        {
+          "articleId": "/what-is-the-context-window",
+          "path": "content/source/what-is-the-context-window.md",
+          "sha256": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3",
+          "start": 12,
+          "end": 22
+        }
+      ]
+    },
+    {
+      "id": "tool-message-protocol",
+      "conceptIds": [
+        "tool-call",
+        "tool-result",
+        "system-prompt"
+      ],
+      "articleIds": [
+        "/what-are-tools",
+        "/ai-coding-dictionary/tool-call",
+        "/ai-coding-dictionary/tool-result"
+      ],
+      "status": "HOLD-for-interface-specific-claims",
+      "rule": "共享层仅确认提出调用、执行、返回结果。工具定义一定注入系统提示词、工具结果以 user 消息返回等说法，在文章进入接口教学前按对应版本核验。",
+      "evidence": [
+        {
+          "articleId": "/what-are-tools",
+          "path": "content/source/what-are-tools.md",
+          "sha256": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049",
+          "start": 11,
+          "end": 23
+        },
+        {
+          "articleId": "/what-are-tools",
+          "path": "content/source/what-are-tools.md",
+          "sha256": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049",
+          "start": 45,
+          "end": 47
+        }
+      ]
+    },
+    {
+      "id": "llm-analogy",
+      "conceptIds": [
+        "llm",
+        "model"
+      ],
+      "articleIds": [
+        "/what-is-an-llm"
+      ],
+      "status": "HOLD-for-quantitative-claims",
+      "rule": "1TB压缩包、16-bit及70B约慢10倍为原文类比或泛化，不能直接成为共享定义或通用性能结论。生产此篇时核查或限定其适用条件。",
+      "evidence": [
+        {
+          "articleId": "/what-is-an-llm",
+          "path": "content/source/what-is-an-llm.md",
+          "sha256": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
+          "start": 28,
+          "end": 39
+        }
+      ]
+    }
+  ],
+  "learningPath": {
+    "status": "editorial-concept-sequence; not validated beginner course",
+    "meaning": "after 是概念理解顺序；articleIds 是可用来源和后续生产候选，不是已验收页面或必修整篇。各分支可按目标选择。",
+    "stages": [
+      {
+        "id": "orientation",
+        "label": "认识模型与文字输入",
+        "conceptIds": [
+          "model",
+          "llm",
+          "prompt",
+          "token"
+        ],
+        "after": [],
+        "articleIds": [
+          "/ai-coding-dictionary/model",
+          "/ai-coding-dictionary/token",
+          "/what-is-an-llm"
+        ],
+        "check": "能区分模型、给模型的任务说明与文本计量单位。"
+      },
+      {
+        "id": "interaction",
+        "label": "理解信息如何进入模型",
+        "conceptIds": [
+          "message",
+          "model-provider",
+          "context",
+          "tool",
+          "harness",
+          "model-provider-request",
+          "input-tokens",
+          "output-tokens",
+          "context-window",
+          "session"
+        ],
+        "after": [
+          "orientation"
+        ],
+        "articleIds": [
+          "/ai-coding-dictionary/context",
+          "/ai-coding-dictionary/harness",
+          "/ai-coding-dictionary/context-window",
+          "/messages-system-prompts-and-reasoning-tokens",
+          "/ai-coding-dictionary/model-provider",
+          "/ai-coding-dictionary/output-tokens"
+        ],
+        "check": "能区分保存着的聊天记录与本次实际送入模型的信息。"
+      },
+      {
+        "id": "action",
+        "label": "理解指令、调用和结果",
+        "conceptIds": [
+          "system-prompt",
+          "tool-call",
+          "tool-result",
+          "agent",
+          "turn",
+          "workflow"
+        ],
+        "after": [
+          "interaction"
+        ],
+        "articleIds": [
+          "/ai-coding-dictionary/system-prompt",
+          "/ai-coding-dictionary/tool-call",
+          "/ai-coding-dictionary/tool-result",
+          "/what-is-an-agent"
+        ],
+        "check": "能说明模型提出动作后，还需要软件执行并返回结果。"
+      },
+      {
+        "id": "coding-branch",
+        "label": "分支：用 AI 完成开发任务",
+        "conceptIds": [
+          "markdown",
+          "git",
+          "terminal",
+          "package-manager",
+          "agents-md",
+          "progressive-disclosure",
+          "skill"
+        ],
+        "after": [
+          "action"
+        ],
+        "articleIds": [
+          "/a-complete-guide-to-agents-md",
+          "/plan-mode-introduction",
+          "/5-agent-skills-i-use-every-day"
+        ],
+        "check": "能解释项目规则和按需指导的区别；实际操作前另补项目环境。"
+      },
+      {
+        "id": "app-branch",
+        "label": "分支：用代码调用模型",
+        "conceptIds": [
+          "terminal",
+          "package-manager",
+          "ai-sdk",
+          "stream",
+          "object",
+          "string",
+          "array",
+          "schema",
+          "structured-output",
+          "zod"
+        ],
+        "after": [
+          "action"
+        ],
+        "articleIds": [
+          "/what-is-the-ai-sdk",
+          "/generate-text-with-vercel-ai-sdk",
+          "/structured-outputs-with-vercel-ai-sdk"
+        ],
+        "check": "能说明输入、输出和数据格式；运行前必须补 JavaScript/TypeScript 基础及版本准备。"
+      },
+      {
+        "id": "connection-branch",
+        "label": "分支：连接外部工具",
+        "conceptIds": [
+          "mcp"
+        ],
+        "after": [
+          "action"
+        ],
+        "articleIds": [
+          "/ai-coding-dictionary/mcp",
+          "/how-does-the-model-context-protocol-work"
+        ],
+        "check": "能区分协议、工具和执行框架；实现服务前再补编程与部署知识。"
+      },
+      {
+        "id": "evaluation-branch",
+        "label": "分支：判断应用是否改善",
+        "conceptIds": [
+          "eval"
+        ],
+        "after": [
+          "action"
+        ],
+        "articleIds": [
+          "/what-are-evals",
+          "/three-types-of-evals"
+        ],
+        "check": "能为具体任务写出成功标准并选择有代表性的检查样例。"
+      }
+    ]
+  },
+  "firstBatch": [
+    {
+      "articleId": "/a-complete-guide-to-agents-md",
+      "selectionReason": "沿用已存在的三种样本，核对输入缺口，不扩建试验。",
+      "status": "PARTIAL",
+      "profileRef": "/articles/~1a-complete-guide-to-agents-md",
+      "executionView": null,
+      "baseFindingIds": [
+        "F-system-scope",
+        "F-aid-ownership"
+      ],
+      "supplementalConceptIds": [
+        "context",
+        "tool-call",
+        "tool-result"
+      ],
+      "blockers": [
+        "已有 profile，但未生成本篇精简执行包；需要生产时复用装配器生成。",
+        "F-system-scope 涉及旧译文，需局部复核；不能照搬金标准事实。",
+        "正文与实际新增辅助需一并审核。"
+      ],
+      "nextInputStep": "读取本篇原文、既有 profile、概念依赖闭包、baseFindingIds、本补充层适用边界及 blockers；补齐后才能决定 G0，不能凭粗分类直接生产。"
+    },
+    {
+      "articleId": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "selectionReason": "沿用已存在的三种样本，核对输入缺口，不扩建试验。",
+      "status": "HOLD",
+      "profileRef": "/articles/~1workshops~1ai-sdk-v6-crash-course~1generating-objects-via-output~0dkm2k",
+      "executionView": {
+        "path": "content/learning/shared/task-execution-workshop.json",
+        "sha256": "4fe34093d69fdec20efb071accdb5286c5e6b31e488ee3b39101c352f6cfe2d2"
+      },
+      "baseFindingIds": [
+        "F-version",
+        "F-transcript",
+        "F-aid-ownership"
+      ],
+      "supplementalConceptIds": [
+        "ai-sdk"
+      ],
+      "blockers": [
+        "F-version 未决；版本相关断言与运行教学不得放行。",
+        "示例项目、导入、模型配置不全，不能证明独立运行。",
+        "F-transcript 缺失须明示，不能补写虚构文字稿。"
+      ],
+      "nextInputStep": "读取本篇原文、既有 profile、概念依赖闭包、baseFindingIds、本补充层适用边界及 blockers；补齐后才能决定 G0，不能凭粗分类直接生产。"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/system-prompt",
+      "selectionReason": "沿用已存在的三种样本，核对输入缺口，不扩建试验。",
+      "status": "PARTIAL",
+      "profileRef": "/articles/~1ai-coding-dictionary~1system-prompt",
+      "executionView": {
+        "path": "content/learning/shared/task-execution-dictionary.json",
+        "sha256": "6d97383ee43b915df6b47f50e277ea5f2182330097cae66db4193a892d030825"
+      },
+      "baseFindingIds": [
+        "F-system-scope",
+        "F-aid-ownership"
+      ],
+      "supplementalConceptIds": [
+        "context",
+        "tool-call",
+        "tool-result"
+      ],
+      "blockers": [
+        "已有B辅助时序歪曲，进入后续生产或审核前处理；本轮不修译文。",
+        "术语别名及链接匹配存在已知遗漏，自动匹配不能代表概念全覆盖。",
+        "正文与实际新增辅助需一并审核；最终整页尚未通过。"
+      ],
+      "nextInputStep": "读取本篇原文、既有 profile、概念依赖闭包、baseFindingIds、本补充层适用边界及 blockers；补齐后才能决定 G0，不能凭粗分类直接生产。"
+    }
+  ],
+  "reads": [
+    {
+      "articleId": "/llm-fundamentals",
+      "path": "content/source/llm-fundamentals.md",
+      "sha256": "9a6205dcc625fe5356f4c303a3993bbb547760c6a77bd0c2bd098a3bff38693d",
+      "start": 1,
+      "end": 32,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/vercel-ai-sdk-tutorial",
+      "path": "content/source/vercel-ai-sdk-tutorial.md",
+      "sha256": "8f6395c1abdb055ef0c11102cf0363582a69f1439baef4e91ca29e358b3545e7",
+      "start": 1,
+      "end": 37,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/model-context-protocol-tutorial",
+      "path": "content/source/model-context-protocol-tutorial.md",
+      "sha256": "47c89dd78f37236aa983545d5f1440f11ebd3c56b7c05ad9ad8044df6bde0b94",
+      "start": 1,
+      "end": 29,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/ai-engineer-roadmap",
+      "path": "content/source/ai-engineer-roadmap.md",
+      "sha256": "32552be89fe5159b367e64dc20745e0caa30180b9b3293594e7aacf28a73ec19",
+      "start": 1,
+      "end": 35,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/evalite-an-early-preview",
+      "path": "content/source/evalite-an-early-preview.md",
+      "sha256": "ae3226b9243b252a992143d399e7d27b4eec4ddc0e1f0aaeed720d4d076417da",
+      "start": 1,
+      "end": 25,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/storm-generate-high-quality-articles-based-on-real-research",
+      "path": "content/source/storm-generate-high-quality-articles-based-on-real-research.md",
+      "sha256": "63f9786655d89c28f733d241cfbb1452ad8f3c546760c36a63cd6e1316c9e1db",
+      "start": 1,
+      "end": 17,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/real-world-feature-build-with-claude-code",
+      "path": "content/source/real-world-feature-build-with-claude-code.md",
+      "sha256": "d754b4f9de4b334c03a3b9704b333d5f1d610487703e487dbdab841a820f1cfc",
+      "start": 1,
+      "end": 20,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "path": "content/source/personal-software-is-insane-in-the-age-of-ai-u2hx2.md",
+      "sha256": "e72a837798d7079016531aea98e8b27b2ae0d7cc3e5b2e74ada212b2dfcabaee",
+      "start": 1,
+      "end": 42,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "path": "content/source/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
+      "sha256": "c5585ac7cfc22c4a4c40941343ac04119a28e962bb3f086dd351a95e689f64c6",
+      "start": 1,
+      "end": 13,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/what-is-an-agent",
+      "path": "content/source/what-is-an-agent.md",
+      "sha256": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
+      "start": 1,
+      "end": 51,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/what-are-tools",
+      "path": "content/source/what-are-tools.md",
+      "sha256": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049",
+      "start": 1,
+      "end": 75,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/what-is-the-context-window",
+      "path": "content/source/what-is-the-context-window.md",
+      "sha256": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3",
+      "start": 1,
+      "end": 51,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/context",
+      "path": "content/source/ai-coding-dictionary/context.md",
+      "sha256": "4b3b19f26b14d619aebff5b1c8b3a02469b5a53a39eba205f74f48a3c9897858",
+      "start": 1,
+      "end": 27,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/tool-call",
+      "path": "content/source/ai-coding-dictionary/tool-call.md",
+      "sha256": "dd5366630d7a0f4590bb53294974757a8e8918d457eac986a8e92d7f0d9a65ec",
+      "start": 1,
+      "end": 29,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/tool-result",
+      "path": "content/source/ai-coding-dictionary/tool-result.md",
+      "sha256": "55cc54df70f1ced39ade38c288e372ab7d7972d3e9117fec6e1ec89d478f2767",
+      "start": 1,
+      "end": 29,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/model",
+      "path": "content/source/ai-coding-dictionary/model.md",
+      "sha256": "2f8764a5e8a7a1c851edb9552d2b6a0c2b2bf8cd2a88e5cffa364a6d775f70c8",
+      "start": 1,
+      "end": 21,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/harness",
+      "path": "content/source/ai-coding-dictionary/harness.md",
+      "sha256": "e014e536122ce287a7bfeae40b84cb6100d5c575a9bccc3afc7e8d1e9ae08284",
+      "start": 1,
+      "end": 21,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/agent",
+      "path": "content/source/ai-coding-dictionary/agent.md",
+      "sha256": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+      "start": 1,
+      "end": 21,
+      "coverage": "full-local-text",
+      "purpose": "粗分类或共享概念范围判断；不代表事实全审、译文审校或媒体验收"
+    },
+    {
+      "articleId": "/the-prompt-report",
+      "path": "content/source/the-prompt-report.md",
+      "sha256": "1d14ac41bef2b6c45d7bcf8c20f49dd1e7f4cd0cd270fc05bee26dee66d985b6",
+      "start": 1,
+      "end": 45,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/what-is-an-llm",
+      "path": "content/source/what-is-an-llm.md",
+      "sha256": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
+      "start": 1,
+      "end": 45,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/what-is-an-llm",
+      "path": "content/source/what-is-an-llm.md",
+      "sha256": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
+      "start": 47,
+      "end": 76,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/messages-system-prompts-and-reasoning-tokens",
+      "path": "content/source/messages-system-prompts-and-reasoning-tokens.md",
+      "sha256": "6bdc0dcd24d6ccf1ee01d8cc799c13380cf647b668d2298676a07e970e7c2296",
+      "start": 1,
+      "end": 50,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/what-are-evals",
+      "path": "content/source/what-are-evals.md",
+      "sha256": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
+      "start": 1,
+      "end": 55,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/what-are-evals",
+      "path": "content/source/what-are-evals.md",
+      "sha256": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
+      "start": 57,
+      "end": 108,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/how-does-the-model-context-protocol-work",
+      "path": "content/source/how-does-the-model-context-protocol-work.md",
+      "sha256": "d1fe112d6c98655fcea48a5ce8e13ad706371ee3305b5c47471fb207ee7da729",
+      "start": 1,
+      "end": 42,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/what-is-the-ai-sdk",
+      "path": "content/source/what-is-the-ai-sdk.md",
+      "sha256": "860e5626279ac355abdcbf46c85c6c1a495441fd723493cb1c5b4502c3141605",
+      "start": 1,
+      "end": 60,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/what-are-tokens",
+      "path": "content/source/what-are-tokens.md",
+      "sha256": "2a64fce2291858c58f05526228e575cd323663e0ca3a2dfbaed87ce3fe591013",
+      "start": 1,
+      "end": 45,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/token",
+      "path": "content/source/ai-coding-dictionary/token.md",
+      "sha256": "c7c2a3f083ea1f42b7c8c7938e386d8805b44b00889be34371aee05213c1a278",
+      "start": 8,
+      "end": 10,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/context-window",
+      "path": "content/source/ai-coding-dictionary/context-window.md",
+      "sha256": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0",
+      "start": 8,
+      "end": 14,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/skill",
+      "path": "content/source/ai-coding-dictionary/skill.md",
+      "sha256": "82cffeb315f28f9f2e6e22238901b13a8fa6b77104db54ad1e9085b3a978abfb",
+      "start": 8,
+      "end": 20,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/system-prompt",
+      "path": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+      "start": 8,
+      "end": 14,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/mcp",
+      "path": "content/source/ai-coding-dictionary/mcp.md",
+      "sha256": "e5d3fd62af56ad7c39146915b76242a3901456d3eb30249dea28905dd45b38a4",
+      "start": 8,
+      "end": 20,
+      "coverage": "excerpt",
+      "purpose": "定点确认概念、文章用途或来源边界"
+    },
+    {
+      "articleId": "/messages-system-prompts-and-reasoning-tokens",
+      "path": "content/source/messages-system-prompts-and-reasoning-tokens.md",
+      "sha256": "6bdc0dcd24d6ccf1ee01d8cc799c13380cf647b668d2298676a07e970e7c2296",
+      "start": 15,
+      "end": 39,
+      "coverage": "selected-body-excerpt",
+      "purpose": "新增共享概念定义的定点复核；不代表整篇事实或译文验收"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/model-provider",
+      "path": "content/source/ai-coding-dictionary/model-provider.md",
+      "sha256": "a1c80b655effc40ebd4339d51c7cfe1527dd3dd4d0343241a6100573e6c137e5",
+      "start": 8,
+      "end": 12,
+      "coverage": "selected-body-excerpt",
+      "purpose": "新增共享概念定义的定点复核；不代表整篇事实或译文验收"
+    },
+    {
+      "articleId": "/ai-coding-dictionary/output-tokens",
+      "path": "content/source/ai-coding-dictionary/output-tokens.md",
+      "sha256": "eff1d0426a607b7d8a51c50f144b254a5b0c0e5d8f57ceeba777448a0be9e716",
+      "start": 8,
+      "end": 10,
+      "coverage": "selected-body-excerpt",
+      "purpose": "新增共享概念定义的定点复核；不代表整篇事实或译文验收"
+    }
+  ],
+  "stopCriteria": [
+    "186篇均有主题、用途、学习角色和生产前缺口入口。",
+    "核心概念可定位到定义和来源，依赖无悬空或循环，来源差异有适用范围。",
+    "首批输入包与profile状态明确，实质阻塞不被粗分类放行。"
+  ],
+  "deferred": [
+    "非核心概念与完整单篇教学依赖随文章进入生产时补。",
+    "SDK/MCP版本、价格、模型规格与产品行为在相应文章生产时定向核验。",
+    "事实、关键遗漏、错误先修与运行缺口属于实质门；不妨碍理解的措辞和版式可后续调整。",
+    "已知移动目录落点未验收；本轮不重复诊断或修复。"
+  ],
+  "cost": {
+    "measuredTokenSavings": null,
+    "note": "不据输入字符量、粗分类完成或单个实验推算等质量Token节省。"
+  }
+}

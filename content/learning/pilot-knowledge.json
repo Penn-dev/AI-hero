@@ -1,0 +1,890 @@
+{
+  "version": 1,
+  "scope": "三篇样本的共享知识与教学配置；尚未覆盖全站，待页面验收。",
+  "sources": {
+    "guide-source": {
+      "path": "content/source/a-complete-guide-to-agents-md.md",
+      "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+    },
+    "workshop-source": {
+      "path": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sha256": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54"
+    },
+    "dictionary-source": {
+      "path": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0"
+    },
+    "guide-translation": {
+      "path": "content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md",
+      "sha256": "71354a92d54e45c964f6c5733a0305825cc94980462a0fcdfb66fa68305dc0f1"
+    },
+    "workshop-translation": {
+      "path": "content/pilots/estimate-special/sol-medium/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sha256": "16ee8dcba4363b5950861cc317a0d671137ed535dd2d19b6d9081e0861257548"
+    },
+    "dictionary-translation": {
+      "path": "content/pilots/estimate-special/sol-medium/ai-coding-dictionary/system-prompt.md",
+      "sha256": "62fae0df896f51c954bfa75d5046994cf78582d77cc70fb6d8c387c93d1533af"
+    },
+    "dictionary-revised-translation": {
+      "path": "content/learning/system-prompt/article.md",
+      "sha256": "fc4a6abf24d7c9a83ba2c9860108074c4edba13c924f506aa335869b2bf83e76"
+    },
+    "guide-revised-translation": {
+      "path": "content/learning/agents-md/article.md",
+      "sha256": "cb1a80668e3dc15eed967e775bca4ec4612c1003ea892025d09d9d5e3ae94ac5"
+    }
+  },
+  "writingRules": [
+    "保留正文观点和条件；新加解释标为中文学习辅助。",
+    "先用一句白话说明概念，再给中英文术语；定义和别名引用共享概念ID。",
+    "概念依赖表示理解顺序，不把原文的所有链接都当成先修要求。",
+    "原始代码、Prompt和自然语言示例保留原版；中文理解与原版分开。",
+    "练习保留TODO，明确片段与运行准备，不补出完整答案。",
+    "源文空内容明示缺失；版本判断有疑点时回查来源，不擅自改写作者观点。"
+  ],
+  "templates": {
+    "guide": {
+      "required": [
+        "start",
+        "conceptIds",
+        "check",
+        "related"
+      ],
+      "guidance": "目标和准备条件先行，正文后以自检连接目标，再引导下一步。"
+    },
+    "workshop-lesson": {
+      "required": [
+        "start",
+        "conceptIds",
+        "prerequisiteIds",
+        "check",
+        "related"
+      ],
+      "guidance": "交代练习目标、已有环境与片段边界；保留任务和验收条件，不把提示扩成答案。"
+    },
+    "dictionary": {
+      "required": [
+        "start",
+        "conceptIds",
+        "bodyTitle",
+        "related"
+      ],
+      "guidance": "一句话定义优先，再说明关键区别和原始用法，提供相关概念；无需强加动手练习。"
+    }
+  },
+  "concepts": {
+    "llm": {
+      "term": "大语言模型（LLM）",
+      "aliases": [
+        "LLM",
+        "大语言模型"
+      ],
+      "definition": "能够理解和生成文字的AI模型。",
+      "dependsOn": [],
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "lines": "103"
+        }
+      ]
+    },
+    "prompt": {
+      "term": "提示词（Prompt）",
+      "aliases": [
+        "Prompt",
+        "提示词"
+      ],
+      "definition": "交给AI的任务说明或指令文本。",
+      "dependsOn": [],
+      "evidence": [
+        {
+          "sourceId": "guide-translation",
+          "lines": "319"
+        }
+      ]
+    },
+    "agent": {
+      "term": "智能体（Agent）",
+      "aliases": [
+        "Agent",
+        "智能体"
+      ],
+      "definition": "根据任务说明工作、并能使用工具的AI助手；本文讨论的是帮助编程的智能体。",
+      "dependsOn": [
+        "llm",
+        "prompt"
+      ],
+      "evidence": [
+        {
+          "sourceId": "dictionary-source",
+          "lines": "8"
+        },
+        {
+          "sourceId": "guide-source",
+          "lines": "20-25"
+        }
+      ]
+    },
+    "token": {
+      "term": "Token",
+      "aliases": [
+        "token"
+      ],
+      "definition": "模型读取和生成文本时使用的计量单位，并不严格等于一个汉字或一个英文单词。",
+      "dependsOn": [],
+      "evidence": [
+        {
+          "sourceId": "dictionary-translation",
+          "lines": "26"
+        }
+      ]
+    },
+    "harness": {
+      "term": "智能体执行框架（harness）",
+      "aliases": [
+        "harness",
+        "智能体执行框架",
+        "执行框架"
+      ],
+      "definition": "把模型、规则、工具和任务环境组合起来的软件。",
+      "dependsOn": [
+        "llm"
+      ],
+      "evidence": [
+        {
+          "sourceId": "dictionary-translation",
+          "lines": "25"
+        }
+      ]
+    },
+    "system-prompt": {
+      "term": "系统提示词（system prompt）",
+      "aliases": [
+        "system prompt",
+        "系统提示词"
+      ],
+      "definition": "工具在向模型发送请求时附加的基础指令，用来约定角色、行为和工具使用方式；通常在一次会话中保持稳定。",
+      "dependsOn": [
+        "harness",
+        "prompt"
+      ],
+      "evidence": [
+        {
+          "sourceId": "dictionary-source",
+          "lines": "8-14"
+        }
+      ]
+    },
+    "prefix-cache": {
+      "term": "前缀缓存（prefix cache）",
+      "aliases": [
+        "prefix cache",
+        "前缀缓存"
+      ],
+      "definition": "复用多次请求中相同开头的处理结果。本文指出，保持不变的系统提示词可以构成这一开头。",
+      "dependsOn": [
+        "system-prompt",
+        "token"
+      ],
+      "evidence": [
+        {
+          "sourceId": "dictionary-source",
+          "lines": "12"
+        },
+        {
+          "sourceId": "dictionary-translation",
+          "lines": "27"
+        }
+      ]
+    },
+    "stream": {
+      "term": "流式输出（stream）",
+      "aliases": [
+        "stream",
+        "流式输出"
+      ],
+      "definition": "内容生成一点就显示一点，不必等到全部生成完成。",
+      "dependsOn": [
+        "llm"
+      ],
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "lines": "37,105"
+        }
+      ]
+    },
+    "terminal": {
+      "term": "终端（terminal）",
+      "aliases": [
+        "terminal",
+        "终端"
+      ],
+      "definition": "输入命令和查看程序输出的文字窗口。",
+      "dependsOn": [],
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "lines": "106"
+        }
+      ]
+    },
+    "object": {
+      "term": "对象（object）",
+      "aliases": [
+        "object",
+        "对象"
+      ],
+      "definition": "按字段组织数据的形式；本练习用facts字段存放提取出的事实。",
+      "dependsOn": [],
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "lines": "61,107"
+        }
+      ]
+    },
+    "string": {
+      "term": "字符串（string）",
+      "aliases": [
+        "string",
+        "字符串"
+      ],
+      "definition": "程序中用来表示文字的数据类型。",
+      "dependsOn": [],
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "lines": "109"
+        }
+      ]
+    },
+    "array": {
+      "term": "数组（array）",
+      "aliases": [
+        "array",
+        "数组"
+      ],
+      "definition": "把多项数据按顺序放在一起的形式。字符串数组就是把多项文字放在一起。",
+      "dependsOn": [
+        "string"
+      ],
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "lines": "61,108-109"
+        }
+      ]
+    },
+    "schema": {
+      "term": "数据结构规则（schema）",
+      "aliases": [
+        "schema",
+        "数据结构规则"
+      ],
+      "definition": "规定结果中应当有哪些字段，以及每个字段的数据形式。",
+      "dependsOn": [
+        "object",
+        "array"
+      ],
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "lines": "61,110"
+        }
+      ]
+    },
+    "structured-output": {
+      "term": "结构化输出（structured output）",
+      "aliases": [
+        "structured output",
+        "结构化输出"
+      ],
+      "definition": "让模型按预先规定的格式返回信息，而不是只返回一段自由文本。",
+      "dependsOn": [
+        "schema"
+      ],
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "lines": "104"
+        }
+      ]
+    },
+    "zod": {
+      "term": "Zod",
+      "aliases": [
+        "Zod"
+      ],
+      "definition": "JavaScript和TypeScript常用的数据验证库，用来描述并检查数据是否符合规则。",
+      "dependsOn": [
+        "schema"
+      ],
+      "evidence": [
+        {
+          "sourceId": "workshop-translation",
+          "lines": "111"
+        }
+      ]
+    }
+  },
+  "pages": {
+    "/a-complete-guide-to-agents-md": {
+      "kind": "guide",
+      "sourceIds": [
+        "guide-source",
+        "guide-revised-translation",
+        "guide-translation"
+      ],
+      "conceptIds": [
+        "git",
+        "markdown",
+        "agent",
+        "harness",
+        "system-prompt",
+        "prompt",
+        "token",
+        "context",
+        "progressive-disclosure",
+        "monorepo",
+        "package-manager",
+        "skill",
+        "symbolic-link"
+      ],
+      "prerequisiteIds": [
+        "markdown",
+        "agent"
+      ],
+      "start": {
+        "title": "开始前，先知道三件事",
+        "cards": [
+          {
+            "title": "学完能做什么",
+            "text": "判断哪些规则该留在根目录，并写出一份简洁、不会拖累 AI 的 AGENTS.md。"
+          },
+          {
+            "title": "需要准备什么",
+            "text": "无需编程基础。只要能找到项目文件夹，并能用文本编辑器或 AI 编码工具创建文件即可。"
+          },
+          {
+            "title": "遇到陌生词怎么办",
+            "text": "点击正文中带虚线的术语，或随时使用右侧／底部的术语速查。"
+          }
+        ],
+        "example": {
+          "text": "This project is a web application.\nUse npm for dependencies.\nRun npm test before submitting changes.",
+          "explanation": "中文学习辅助：它依次说明这是什么项目、使用什么依赖管理工具、提交前运行什么检查。它不是英文原文中的示例，也不要求你现在执行这些命令。"
+        }
+      },
+      "check": {
+        "title": "学完后，用一分钟自检",
+        "items": [
+          "我能解释为什么 AGENTS.md 不是越长越好。",
+          "我能找出只在特定任务中使用的规则，并把它们移到单独文档。",
+          "我能写出一份包含项目说明、必要工具和检查命令的最小文件。"
+        ]
+      },
+      "originalExamples": [
+        {
+          "sourceId": "guide-source",
+          "text": "```bash\n# Create a symlink from AGENTS.md to CLAUDE.md\nln -s AGENTS.md CLAUDE.md\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nThis is a React component library for accessible data visualization.\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nThis project uses pnpm workspaces.\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nAlways use const instead of let.\nNever use var.\nUse interface instead of type when possible.\nUse strict null checks.\n...\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nFor TypeScript conventions, see docs/TYPESCRIPT.md"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```\ndocs/\n├── TYPESCRIPT.md\n│   └── references TESTING.md\n├── TESTING.md\n│   └── references specific test runners\n└── BUILD.md\n    └── references esbuild configuration\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nThis is a monorepo containing web services and CLI tools.\nUse pnpm workspaces to manage dependencies.\nSee each package's AGENTS.md for specific guidelines.\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nThis package is a Node.js GraphQL API using Prisma.\nFollow docs/API_CONVENTIONS.md for API design patterns.\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```txt\nI want you to refactor my AGENTS.md file to follow progressive disclosure principles.\n\nFollow these steps:\n\n1. **Find contradictions**: Identify any instructions that conflict with each other. For each contradiction, ask me which version I want to keep.\n\n2. **Identify the essentials**: Extract only what belongs in the root AGENTS.md:\n   - One-sentence project description\n   - Package manager (if not npm)\n   - Non-standard build/typecheck commands\n   - Anything truly relevant to every single task\n\n3. **Group the rest**: Organize remaining instructions into logical categories (e.g., TypeScript conventions, testing patterns, API design, Git workflow). For each group, create a separate markdown file.\n\n4. **Create the file structure**: Output:\n   - A minimal root AGENTS.md with markdown links to the separate files\n   - Each separate file with its relevant instructions\n   - A suggested docs/ folder structure\n\n5. **Flag for deletion**: Identify any instructions that are:\n   - Redundant (the agent already knows this)\n   - Too vague to be actionable\n   - Overly obvious (like \"write clean code\")\n```"
+        }
+      ],
+      "originalExamplesInline": true,
+      "related": [
+        {
+          "format": "中文词条",
+          "title": "智能体（agent）",
+          "description": "先理解是谁读取项目规则、调用工具并完成任务。",
+          "href": "/ai-coding-dictionary/agent"
+        },
+        {
+          "format": "中文词条",
+          "title": "渐进式披露",
+          "description": "继续理解怎样只在需要时提供专用规则与资料。",
+          "href": "/ai-coding-dictionary/progressive-disclosure"
+        }
+      ],
+      "glossary": [
+        {
+          "id": "term-git",
+          "term": "Git",
+          "aliases": [
+            "Git"
+          ],
+          "definition": "记录和管理文件版本变化的工具。"
+        },
+        {
+          "id": "term-markdown",
+          "term": "Markdown",
+          "aliases": [
+            "Markdown"
+          ],
+          "definition": "用简单文字标记表示标题、列表和链接等格式的写法。"
+        },
+        {
+          "id": "term-agent",
+          "term": "智能体（agent）",
+          "aliases": [
+            "智能体",
+            "agent",
+            "AI 编码智能体",
+            "AI coding agent"
+          ],
+          "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。"
+        },
+        {
+          "id": "term-harness",
+          "term": "智能体执行框架（harness）",
+          "aliases": [
+            "智能体执行框架",
+            "harness",
+            "执行框架"
+          ],
+          "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。"
+        },
+        {
+          "id": "term-system-prompt",
+          "term": "系统提示词（system prompt）",
+          "aliases": [
+            "系统提示词",
+            "system prompt"
+          ],
+          "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。"
+        },
+        {
+          "id": "term-prompt",
+          "term": "提示词（Prompt）",
+          "aliases": [
+            "提示词",
+            "prompt",
+            "Prompt 文本"
+          ],
+          "definition": "交给 AI 的任务说明、指令或输入文本。"
+        },
+        {
+          "id": "term-token",
+          "term": "Token",
+          "aliases": [
+            "Token",
+            "token",
+            "词元"
+          ],
+          "definition": "模型读取和生成文本时使用的基本计量单位，不等同于一个汉字或一个英文单词。"
+        },
+        {
+          "id": "term-context",
+          "term": "上下文（context）",
+          "aliases": [
+            "上下文",
+            "context"
+          ],
+          "definition": "广义上指当前任务已提供给助手使用的信息；本文讨论 Token 和“每次请求”时，特指某一次模型请求中实际附带的信息。"
+        },
+        {
+          "id": "term-progressive-disclosure",
+          "term": "渐进式披露",
+          "aliases": [
+            "渐进式披露",
+            "progressive disclosure",
+            "按需展开信息"
+          ],
+          "definition": "先提供完成当前步骤所需的信息，再通过清楚的入口按需展开细节。"
+        },
+        {
+          "id": "term-monorepo",
+          "term": "多项目单仓库（monorepo）",
+          "aliases": [
+            "多项目单仓库",
+            "monorepo"
+          ],
+          "definition": "把多个相关项目或软件包放在同一个代码仓库中统一管理的方式。"
+        },
+        {
+          "id": "term-package-manager",
+          "term": "包管理器",
+          "aliases": [
+            "包管理器",
+            "package manager"
+          ],
+          "definition": "安装、更新并记录项目依赖的工具；npm 和 pnpm 是 JavaScript 生态中的例子。"
+        },
+        {
+          "id": "term-skill",
+          "term": "Skill",
+          "aliases": [
+            "Skill",
+            "skill",
+            "智能体技能",
+            "Agent Skill"
+          ],
+          "definition": "部分智能体工具提供的专用指令或工作流单元；名称和加载方式取决于具体产品。"
+        },
+        {
+          "id": "term-symbolic-link",
+          "term": "符号链接",
+          "aliases": [
+            "符号链接",
+            "symlink"
+          ],
+          "definition": "让一个路径指向另一个文件或目录的文件系统机制；创建方式受操作系统、权限和命令环境影响。"
+        }
+      ]
+    },
+    "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k": {
+      "kind": "workshop-lesson",
+      "sourceIds": [
+        "workshop-source",
+        "workshop-translation"
+      ],
+      "conceptIds": [
+        "llm",
+        "structured-output",
+        "stream",
+        "terminal",
+        "object",
+        "array",
+        "string",
+        "schema",
+        "zod",
+        "prompt"
+      ],
+      "prerequisiteIds": [
+        "terminal",
+        "object",
+        "string",
+        "array",
+        "schema"
+      ],
+      "start": {
+        "title": "这节练习，要把故事变成有格式的数据",
+        "summary": "先让模型写一段星球故事，再保存完整文本，最后按规定格式提取事实。你需要补上中间的函数调用。",
+        "cards": [
+          {
+            "title": "先了解练习流程",
+            "text": "先看每段代码下面的中文解释，理解“生成故事→保存全文→提取事实”这条流程。陌生词可随时点开查阅。"
+          },
+          {
+            "title": "动手前需要准备",
+            "text": "需要已有的课程项目、可用的模型配置，以及运行项目命令的基础。本页片段没有包含安装、导入和模型初始化；缺少这些准备时，先回课程原页确认。"
+          },
+          {
+            "title": "哪些地方由你完成",
+            "text": "带TODO的代码是待完成部分；其余也是原文片段，需要放回项目的相应位置。复制片段不等于得到一份可独立运行的程序。"
+          }
+        ]
+      },
+      "check": {
+        "title": "运行后，检查这三项结果",
+        "items": [
+          "星球故事会在终端中边生成、边显示。",
+          "程序返回一个对象，其中的 `facts` 字段是字符串数组，每一项都是从故事中提取的星球信息。",
+          "这些信息读起来像科学家对这颗虚构星球的描述。"
+        ]
+      },
+      "related": [
+        {
+          "format": "课程原页",
+          "title": "回到本节英文课程",
+          "description": "确认课程准备材料和上下文，再开始动手练习。",
+          "href": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+        },
+        {
+          "format": "官方文档",
+          "title": "AI SDK结构化数据说明",
+          "description": "需要查阅Output及结构化输出的详细用法时，再打开原文引用的文档。",
+          "href": "https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data"
+        }
+      ]
+    },
+    "/ai-coding-dictionary/system-prompt": {
+      "kind": "dictionary",
+      "sourceIds": [
+        "dictionary-source",
+        "dictionary-revised-translation",
+        "guide-source"
+      ],
+      "conceptIds": [
+        "system-prompt",
+        "prompt",
+        "model-provider-request",
+        "model",
+        "harness",
+        "tool",
+        "token",
+        "prefix-cache",
+        "agent",
+        "session",
+        "turn",
+        "input-tokens",
+        "agents-md",
+        "markdown",
+        "context",
+        "tool-call",
+        "tool-result"
+      ],
+      "prerequisiteIds": [
+        "prompt",
+        "harness",
+        "model-provider-request"
+      ],
+      "start": {
+        "title": "一句话理解",
+        "summary": "系统提示词，就是随请求交给模型的一份基础工作说明：你是谁、怎样做事、要遵守哪些约定。",
+        "cards": [
+          {
+            "title": "系统提示词：基础行为",
+            "text": "例如，要求助手侧重解释思路。这类规则会影响它如何回应不同任务。"
+          },
+          {
+            "title": "用户消息：本次任务",
+            "text": "例如，“请解释这段代码”。模型回答时会同时参考本次任务和适用的基础规则。"
+          },
+          {
+            "title": "项目规则：另一种来源",
+            "text": "AGENTS.md可以提供项目约定。它和系统提示词可能一起进入请求，但不是同一个文件，加载方式取决于工具。"
+          }
+        ]
+      },
+      "bodyTitle": "定义与用法",
+      "originalExamples": [
+        {
+          "sourceId": "dictionary-source",
+          "text": "Two harnesses, same model, totally different behavior on the same prompt."
+        },
+        {
+          "sourceId": "dictionary-source",
+          "text": "Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives."
+        }
+      ],
+      "related": [
+        {
+          "format": "中文指南",
+          "title": "AGENTS.md完整指南",
+          "description": "想给AI加入自己的长期项目规则？继续了解AGENTS.md与系统提示词的关系。",
+          "href": "/a-complete-guide-to-agents-md"
+        },
+        {
+          "format": "英文词条",
+          "title": "智能体执行框架（harness）",
+          "description": "进一步理解谁把模型、规则和工具组织在一起。",
+          "href": "https://www.aihero.dev/ai-coding-dictionary/harness"
+        }
+      ],
+      "glossary": [
+        {
+          "id": "term-system-prompt",
+          "term": "系统提示词（system prompt）",
+          "aliases": [
+            "系统提示词",
+            "system prompt"
+          ],
+          "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。"
+        },
+        {
+          "id": "term-prompt",
+          "term": "提示词（prompt）",
+          "aliases": [
+            "提示词",
+            "prompt",
+            "Prompt 文本"
+          ],
+          "definition": "交给 AI 的任务说明、指令或输入文本。"
+        },
+        {
+          "id": "term-model-provider-request",
+          "term": "模型提供商请求（model provider request）",
+          "aliases": [
+            "模型提供商请求",
+            "model provider request",
+            "模型请求"
+          ],
+          "definition": "执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。"
+        },
+        {
+          "id": "term-model",
+          "term": "模型（model）",
+          "aliases": [
+            "模型",
+            "model",
+            "AI 模型"
+          ],
+          "definition": "根据输入产生预测或回答的计算模型；在本文本模型语境中，它接收文字片段并预测后续片段。"
+        },
+        {
+          "id": "term-harness",
+          "term": "智能体执行框架（harness）",
+          "aliases": [
+            "智能体执行框架",
+            "harness",
+            "执行框架"
+          ],
+          "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。"
+        },
+        {
+          "id": "term-tool",
+          "term": "工具（tool）",
+          "aliases": [
+            "工具",
+            "tool",
+            "工具函数"
+          ],
+          "definition": "供 AI 助手请求调用、由软件执行的功能，例如读取文件或运行命令。"
+        },
+        {
+          "id": "term-token",
+          "term": "Token",
+          "aliases": [
+            "Token",
+            "token",
+            "词元"
+          ],
+          "definition": "模型读取和生成文本时使用的基本单位，不等同于一个汉字或一个英文单词。"
+        },
+        {
+          "id": "term-prefix-cache",
+          "term": "前缀缓存（prefix cache）",
+          "aliases": [
+            "前缀缓存",
+            "prefix cache"
+          ],
+          "definition": "模型服务复用请求开头相同部分的已处理结果的机制。"
+        },
+        {
+          "id": "term-agent",
+          "term": "智能体（agent）",
+          "aliases": [
+            "智能体",
+            "agent",
+            "AI 编码智能体",
+            "AI coding agent"
+          ],
+          "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。"
+        },
+        {
+          "id": "term-session",
+          "term": "会话（session）",
+          "aliases": [
+            "会话",
+            "session"
+          ],
+          "definition": "与 AI 助手进行的一段有边界的交互，期间积累消息与工作记录。"
+        },
+        {
+          "id": "term-turn",
+          "term": "工作轮次（turn）",
+          "aliases": [
+            "工作轮次",
+            "turn",
+            "轮次"
+          ],
+          "definition": "从用户发来一条消息，到助手完成本次响应并交回控制权的一轮交互，可包含多次模型请求。"
+        },
+        {
+          "id": "term-input-tokens",
+          "term": "输入 Token（input tokens）",
+          "aliases": [
+            "输入 Token",
+            "input tokens"
+          ],
+          "definition": "一次模型请求中交给模型读取的 Token，包括指令、消息及提供的工具结果等。"
+        },
+        {
+          "id": "term-agents-md",
+          "term": "AGENTS.md",
+          "aliases": [
+            "AGENTS.md"
+          ],
+          "definition": "供支持这一约定的 AI 编码工具读取的项目说明文件，用来提供项目规则与工作指引。"
+        },
+        {
+          "id": "term-markdown",
+          "term": "Markdown",
+          "aliases": [
+            "Markdown"
+          ],
+          "definition": "用简单文字标记表示标题、列表和链接等格式的写法。"
+        },
+        {
+          "id": "term-context",
+          "term": "上下文（context）",
+          "aliases": [
+            "上下文",
+            "context"
+          ],
+          "definition": "当前任务相关、已提供给助手使用的信息。"
+        },
+        {
+          "id": "term-tool-call",
+          "term": "工具调用请求（tool call）",
+          "aliases": [
+            "工具调用请求",
+            "tool call"
+          ],
+          "definition": "模型给出的工具名称和参数等调用指令；指令本身不等于动作已经执行。"
+        },
+        {
+          "id": "term-tool-result",
+          "term": "工具结果（tool result）",
+          "aliases": [
+            "工具结果",
+            "tool result"
+          ],
+          "definition": "执行工具后返回给助手的信息，例如文件内容、命令输出或错误。"
+        }
+      ],
+      "check": {
+        "title": "读完后，试着回答",
+        "items": [],
+        "questions": [
+          {
+            "question": "为什么同一个模型，在两个工具里可能表现不同？",
+            "answer": "执行框架可能提供了不同的系统提示词和其他输入。"
+          },
+          {
+            "question": "你发出消息前，模型是否已经读过系统提示词？",
+            "answer": "不能这样推断；输入排列顺序不代表提前处理。"
+          },
+          {
+            "question": "系统提示词不变，就一定更省钱吗？",
+            "answer": "不一定，还要看缓存是否命中和服务如何计费。"
+          }
+        ]
+      },
+      "originalExamplesInline": true
+    }
+  }
+}

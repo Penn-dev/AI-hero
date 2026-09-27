@@ -1,0 +1,323 @@
+{
+  "checkedAt": "2026-09-22T12:08:12.880Z",
+  "unit": "tokens; not currency or subscription quota",
+  "rows": [
+    {
+      "turnId": "01a0c8af-4405-76e1-b0a8-09aba7771858",
+      "usage": {
+        "input_tokens": 1253757,
+        "cached_input_tokens": 1151360,
+        "output_tokens": 23057,
+        "reasoning_output_tokens": 3223,
+        "total_tokens": 1276814
+      },
+      "started": {
+        "line": 2,
+        "timestamp": "2026-09-22T10:35:25.215Z"
+      },
+      "completed": {
+        "line": 138,
+        "timestamp": "2026-09-22T10:49:09.636Z"
+      },
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "issues": [],
+      "stage": "knowledge-foundation-production",
+      "batch": "shared-assets; historical one-time input",
+      "sourceAssetSnapshot": {
+        "path": "reports/knowledge-foundation/view-revision-baseline.json",
+        "sha256": "19f9021fa43a179d87a7cb04d1f7da2f018a37b79493a75cb763ec4bae2da964",
+        "scope": "contains pre-revision knowledge hash; not a complete per-request historical snapshot"
+      },
+      "threadId": "01a0c8af-4072-7ce2-ae61-8d7510c98934",
+      "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+      "articleAllocation": "batch only unless explicitly separated into distinct turns",
+      "failures": null,
+      "retries": null,
+      "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+      "status": "MEASURED_COMPLETED_TURN",
+      "modelEffortVerified": true,
+      "acceptanceStatus": "usage verified only; content acceptance recorded separately",
+      "requestCount": 17
+    },
+    {
+      "turnId": "01a0c8be-0139-7003-a982-cfb8c7033115",
+      "usage": {
+        "input_tokens": 909971,
+        "cached_input_tokens": 786432,
+        "output_tokens": 10361,
+        "reasoning_output_tokens": 1699,
+        "total_tokens": 920332
+      },
+      "started": {
+        "line": 140,
+        "timestamp": "2026-09-22T10:51:30.514Z"
+      },
+      "completed": {
+        "line": 203,
+        "timestamp": "2026-09-22T10:58:27.918Z"
+      },
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "issues": [],
+      "stage": "knowledge-foundation-acceptance-revision",
+      "batch": "shared-assets; historical one-time input",
+      "sourceAssetSnapshot": {
+        "path": "reports/knowledge-foundation/validation.json",
+        "sha256": "959d70ae624e8dfe50dcef35b2ffb7cdc30f137044bf8eebec8eccd234387862",
+        "scope": "completed view revision evidence; retrospective association"
+      },
+      "threadId": "01a0c8af-4072-7ce2-ae61-8d7510c98934",
+      "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+      "articleAllocation": "batch only unless explicitly separated into distinct turns",
+      "failures": null,
+      "retries": null,
+      "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+      "status": "MEASURED_COMPLETED_TURN",
+      "modelEffortVerified": true,
+      "acceptanceStatus": "usage verified only; content acceptance recorded separately",
+      "requestCount": 8
+    },
+    {
+      "turnId": "01a0c8d0-57ca-71d0-bfc0-f803f87bd734",
+      "usage": {
+        "input_tokens": 3051494,
+        "cached_input_tokens": 2862080,
+        "output_tokens": 26012,
+        "reasoning_output_tokens": 7531,
+        "total_tokens": 3077506
+      },
+      "started": {
+        "line": 206,
+        "timestamp": "2026-09-22T11:11:32.332Z"
+      },
+      "completed": {
+        "line": 365,
+        "timestamp": "2026-09-22T11:28:29.218Z"
+      },
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "issues": [],
+      "stage": "flow-validation-common-preparation",
+      "batch": "dictionary+workshop; current new investment",
+      "threadId": "01a0c8af-4072-7ce2-ae61-8d7510c98934",
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      },
+      "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+      "articleAllocation": "batch only unless explicitly separated into distinct turns",
+      "failures": null,
+      "retries": null,
+      "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+      "status": "MEASURED_COMPLETED_TURN",
+      "modelEffortVerified": true,
+      "acceptanceStatus": "usage verified only; content acceptance recorded separately",
+      "requestCount": 19
+    },
+    {
+      "turnId": "01a0c8ef-53f9-7ea0-8a94-191b99dea809",
+      "usage": {
+        "input_tokens": 10251409,
+        "cached_input_tokens": 9626880,
+        "output_tokens": 27675,
+        "reasoning_output_tokens": 7390,
+        "total_tokens": 10279084
+      },
+      "started": {
+        "line": 368,
+        "timestamp": "2026-09-22T11:45:22.956Z"
+      },
+      "completed": null,
+      "model": "gpt-6-astra",
+      "effort": "medium",
+      "issues": [],
+      "stage": "shared-page-assembly-and-browser-acceptance",
+      "batch": "dictionary X/Y; shared new investment",
+      "threadId": "01a0c8af-4072-7ce2-ae61-8d7510c98934",
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      },
+      "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+      "articleAllocation": "batch only unless explicitly separated into distinct turns",
+      "failures": null,
+      "retries": null,
+      "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+      "status": "PARTIAL_ACTIVE_TURN",
+      "modelEffortVerified": true,
+      "acceptanceStatus": "usage verified only; content acceptance recorded separately",
+      "requestCount": 61
+    },
+    {
+      "turnId": "01a0c8e1-782e-7653-9dd8-d9f907c237c1",
+      "usage": {
+        "input_tokens": 472620,
+        "cached_input_tokens": 419328,
+        "output_tokens": 6292,
+        "reasoning_output_tokens": 802,
+        "total_tokens": 478912
+      },
+      "started": {
+        "line": 2,
+        "timestamp": "2026-09-22T11:30:14.723Z"
+      },
+      "completed": {
+        "line": 83,
+        "timestamp": "2026-09-22T11:33:13.090Z"
+      },
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "issues": [],
+      "stage": "A-draft",
+      "batch": "dictionary executed; workshop HOLD",
+      "route": "A",
+      "threadId": "01a0c8e1-7570-7443-b723-de00ca84ac29",
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      },
+      "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+      "articleAllocation": "batch only unless explicitly separated into distinct turns",
+      "failures": null,
+      "retries": null,
+      "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+      "status": "MEASURED_COMPLETED_TURN",
+      "modelEffortVerified": true,
+      "acceptanceStatus": "usage verified only; content acceptance recorded separately",
+      "requestCount": 11
+    },
+    {
+      "turnId": "01a0c8e1-9459-7890-87d7-31fe5ad2d4ca",
+      "usage": {
+        "input_tokens": 470518,
+        "cached_input_tokens": 408320,
+        "output_tokens": 9154,
+        "reasoning_output_tokens": 1190,
+        "total_tokens": 479672
+      },
+      "started": {
+        "line": 2,
+        "timestamp": "2026-09-22T11:30:21.934Z"
+      },
+      "completed": {
+        "line": 84,
+        "timestamp": "2026-09-22T11:34:00.239Z"
+      },
+      "model": "gpt-5.6-terra",
+      "effort": "medium",
+      "issues": [],
+      "stage": "B-draft",
+      "batch": "dictionary executed; workshop HOLD",
+      "route": "B",
+      "threadId": "01a0c8e1-9232-79c3-aaf1-68319e3b827e",
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      },
+      "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+      "articleAllocation": "batch only unless explicitly separated into distinct turns",
+      "failures": null,
+      "retries": null,
+      "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+      "status": "MEASURED_COMPLETED_TURN",
+      "modelEffortVerified": true,
+      "acceptanceStatus": "usage verified only; content acceptance recorded separately",
+      "requestCount": 10
+    },
+    {
+      "turnId": "01a0c8e5-6d91-7483-b5d2-7e7718229e32",
+      "usage": {
+        "input_tokens": 1062094,
+        "cached_input_tokens": 997248,
+        "output_tokens": 11129,
+        "reasoning_output_tokens": 1883,
+        "total_tokens": 1073223
+      },
+      "started": {
+        "line": 2,
+        "timestamp": "2026-09-22T11:34:34.164Z"
+      },
+      "completed": {
+        "line": 170,
+        "timestamp": "2026-09-22T11:42:25.889Z"
+      },
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "issues": [],
+      "stage": "A-edited",
+      "batch": "dictionary executed; workshop HOLD",
+      "route": "A",
+      "threadId": "01a0c8e5-6a32-7321-952e-14e0429695a4",
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      },
+      "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+      "articleAllocation": "batch only unless explicitly separated into distinct turns",
+      "failures": null,
+      "retries": null,
+      "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+      "status": "MEASURED_COMPLETED_TURN",
+      "modelEffortVerified": true,
+      "acceptanceStatus": "usage verified only; content acceptance recorded separately",
+      "requestCount": 22
+    },
+    {
+      "turnId": "01a0c8e7-0e4b-7e71-8434-154c0c6dce20",
+      "usage": {
+        "input_tokens": 678313,
+        "cached_input_tokens": 633344,
+        "output_tokens": 10913,
+        "reasoning_output_tokens": 2187,
+        "total_tokens": 689226
+      },
+      "started": {
+        "line": 2,
+        "timestamp": "2026-09-22T11:36:20.830Z"
+      },
+      "completed": {
+        "line": 123,
+        "timestamp": "2026-09-22T11:43:19.951Z"
+      },
+      "model": "gpt-5.6-sol",
+      "effort": "medium",
+      "issues": [],
+      "stage": "B-edited",
+      "batch": "dictionary executed; workshop HOLD",
+      "route": "B",
+      "threadId": "01a0c8e7-0c75-7be2-8767-f8a48cb5290c",
+      "sourceAssetSnapshot": {
+        "path": "reports/flow-validation/preparation/frozen-inputs.json",
+        "sha256": "928ebbf1d94ac7215ec9665a07f8d4ed2ed60dbb16652960bd84fa8924764955"
+      },
+      "assetLinkage": "retrospective stage association; request telemetry does not attest which file bytes were read",
+      "articleAllocation": "batch only unless explicitly separated into distinct turns",
+      "failures": null,
+      "retries": null,
+      "failureRetryNote": "usage records include metered responses; unmetered transport failures/retries unknown, supplement stage self-report",
+      "status": "MEASURED_COMPLETED_TURN",
+      "modelEffortVerified": true,
+      "acceptanceStatus": "usage verified only; content acceptance recorded separately",
+      "requestCount": 13
+    }
+  ],
+  "historicalKnowledgeTotal": 2197146,
+  "routeTotals": {
+    "A": 1552135,
+    "B": 1168898
+  },
+  "governance": {
+    "total": null,
+    "status": "UNKNOWN",
+    "reason": "Source governance log was not found in the authorized 2026/09/22 file lookup; no reliable trial turn boundary. No wider chat scan performed."
+  },
+  "method": "Per-response metered usage, responseId dedupe, cumulative counters used for reconciliation only. Cached input is part of input; reasoning is part of output. Do not add subsets twice.",
+  "limitations": [
+    "Active assembly turn is PARTIAL and excludes later requests, final response and handoff; governance can refresh read-only after task completion.",
+    "Failures/retries remain null, including unmetered transport failures.",
+    "Costs belong to whole stage turns including HOLD handling, not a precisely isolated article operation.",
+    "Current snapshot linkage is retrospective, not proof of per-request source access.",
+    "No winner, equal-quality claim, generalization or savings conclusion."
+  ]
+}
