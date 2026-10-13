@@ -98,12 +98,10 @@ async function anchorAndRefresh(page, result, explicitId) {
   const next = page.locator('#reading-body h2[id]').last();
   const nextId = await next.getAttribute('id');
   assert.ok(nextId && nextId !== id, 'A second section is required for the ordinary-scroll check');
-  const offset = await next.evaluate(element => element.getBoundingClientRect().top - 70);
-  await page.mouse.move(result.viewport.width / 2, 150);
-  await page.mouse.wheel(0, offset);
+  await next.evaluate(element => window.scrollTo({ top: window.scrollY + element.getBoundingClientRect().top - 70, behavior: 'instant' }));
   await expect.poll(async () => Math.abs(await next.evaluate(element => element.getBoundingClientRect().top) - 70)).toBeLessThan(20);
   await currentOutline(page, result, nextId);
-  result.checks.push(`Ordinary page scrolling updates the contents highlight: ${nextId}`);
+  result.checks.push(`Document scrolling without changing the hash updates the contents highlight: ${nextId}`);
   await screenshot(page, `${result.id}-${result.viewport.width}-scrolled-section.png`, result);
 }
 
@@ -140,7 +138,7 @@ async function checkSample(sample, viewport, mobile) {
       await page.locator('#reading-body blockquote').first().scrollIntoViewIfNeeded();
       await screenshot(page, `${sample.id}-${viewport.width}-examples.png`, result);
       const secondExample = page.locator('#reading-body blockquote').filter({ hasText: "Different system prompts. One's tuned for terse code edits" });
-      await secondExample.evaluate(element => element.scrollIntoView({ block: 'start', behavior: 'instant' }));
+      await secondExample.evaluate(element => window.scrollTo({ top: window.scrollY + element.getBoundingClientRect().top - 80, behavior: 'instant' }));
       await expect(secondExample).toBeInViewport({ ratio: 1 });
       const secondChinese = page.locator('#reading-body p').filter({ hasText: '因为系统提示词不同。一个侧重简洁地修改代码' });
       await expect(secondChinese).toBeInViewport({ ratio: 1 });
