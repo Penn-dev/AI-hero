@@ -14,8 +14,6 @@ jobs:
     timeout-minutes: 15
     env:
       CI: 'true'
-      DOT_BROWSER_ROOT: ${{ runner.temp }}/dot-browser
-      DOT_EVIDENCE_DIR: ${{ runner.temp }}/dot-proof
     steps:
       - name: Check out the exact probe commit
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -28,6 +26,9 @@ jobs:
           package-manager-cache: false
       - name: Record environment
         run: |
+          export DOT_BROWSER_ROOT="$RUNNER_TEMP/dot-browser"
+          export DOT_EVIDENCE_DIR="$RUNNER_TEMP/dot-proof"
+          printf 'DOT_BROWSER_ROOT=%s\\nDOT_EVIDENCE_DIR=%s\\n' "$DOT_BROWSER_ROOT" "$DOT_EVIDENCE_DIR" >> "$GITHUB_ENV"
           mkdir -p "$DOT_EVIDENCE_DIR"
           node -e 'console.log(JSON.stringify({commit:process.env.GITHUB_SHA,node:process.version,platform:process.platform,architecture:process.arch},null,2))' > "$DOT_EVIDENCE_DIR/environment.json"
       - name: Install locked project dependencies
