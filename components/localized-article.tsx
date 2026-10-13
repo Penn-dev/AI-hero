@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import contentIndex from '@/content/zh/index.json';
 
@@ -72,13 +71,13 @@ export function LocalizedArticle({
         {review ? '端到端本地化样本' : 'AI Hero 授权中文学习版'}
       </div>
       <header className="site-header shell">
-        <Link className="brand" href="/" prefetch={false}>
+        <a className="brand" href="/">
           AI<span>Hero</span>
-        </Link>
+        </a>
         <nav aria-label="文章导航">
-          <Link href="/" prefetch={false}>首页</Link>
+          <a href="/">首页</a>
           <a href={learning ? '#learning-start' : '#article-content'}>开始阅读</a>
-          {review ? <Link href="/review/a-complete-guide-to-agents-md/compare" prefetch={false}>对比译稿</Link> : null}
+          {review ? <a href="/review/a-complete-guide-to-agents-md/compare">对比译稿</a> : null}
           {!chineseOnlyLinks ? <a href={sourceUrl} target="_blank" rel="noreferrer">英文原文</a> : null}
         </nav>
         {!chineseOnlyLinks ? <a className="search-link" href={sourceUrl} target="_blank" rel="noreferrer">

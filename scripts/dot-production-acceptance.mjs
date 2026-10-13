@@ -162,11 +162,12 @@ async function check(target, viewport) {
         await page.waitForURL(baseUrl + href);
         await expect(page.getByRole('heading', { level: 1 }).first()).toHaveText(index.pages[href].title);
         result.checks.push(`Home directory actually opens Chinese route: ${href}`);
-        if (href === hrefs[0]) {
-          await page.locator('.site-header').getByRole('link', { name: '首页', exact: true }).click();
+        if (href === hrefs[0] || href === hrefs[1]) {
+          const homeLink = href === hrefs[0] ? page.locator('.site-header').getByRole('link', { name: '首页', exact: true }) : page.locator('.site-header .brand');
+          await homeLink.click();
           await page.waitForURL(baseUrl + '/');
           await expect(page.getByRole('heading', { level: 1 }).first()).toHaveText(index.pages['/'].title);
-          result.checks.push('Existing article header Home link actually returns to the Chinese homepage');
+          result.checks.push(`Existing article header ${href === hrefs[0] ? 'Home' : 'brand'} link actually returns to the Chinese homepage`);
         } else await page.goBack({ waitUntil: 'networkidle' });
       }
     }
