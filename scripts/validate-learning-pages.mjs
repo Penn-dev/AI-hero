@@ -45,7 +45,7 @@ assert.equal(firstGlossaryMatch('系统提示词与提示词', promptTerms, new 
 const localRoutes = new Set(['/', '/ai-coding-dictionary/system-prompt']);
 assert.equal(articleLink('/ai-coding-dictionary/harness', localRoutes).href, 'https://www.aihero.dev/ai-coding-dictionary/harness');
 assert.equal(articleLink('/ai-coding-dictionary/harness', localRoutes).untranslated, true);
-assert.equal(articleLink('https://www.aihero.dev/ai-coding-dictionary/system-prompt', localRoutes).href, '/ai-coding-dictionary/system-prompt');
+assert.equal(articleLink('https://www.aihero.dev/ai-coding-dictionary/system-prompt', localRoutes).href, 'https://www.aihero.dev/ai-coding-dictionary/system-prompt');
 assert.equal(articleLink('/', localRoutes).href, '/');
 assert.equal(articleLink('#steps-to-complete', localRoutes).href, '#steps-to-complete');
 assert.equal(articleLink('https://ai-sdk.dev/docs/introduction', localRoutes).untranslated, false);
