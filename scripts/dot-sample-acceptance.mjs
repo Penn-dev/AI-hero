@@ -75,7 +75,10 @@ async function independentTermLink(page, result) {
 async function currentOutline(page, result, id) {
   if (result.mobile) await page.locator('#mobile-contents-trigger').click();
   await expect(page.locator('.article-outline:visible a[aria-current="location"]')).toHaveAttribute('href', '#' + id);
-  if (result.mobile) await page.keyboard.press('Escape');
+  if (result.mobile) {
+    await page.keyboard.press('Escape');
+    await expect(page.locator('[data-slot="sheet-content"]')).toBeHidden();
+  }
 }
 
 async function anchorAndRefresh(page, result, explicitId) {
@@ -96,6 +99,7 @@ async function anchorAndRefresh(page, result, explicitId) {
   const nextId = await next.getAttribute('id');
   assert.ok(nextId && nextId !== id, 'A second section is required for the ordinary-scroll check');
   const offset = await next.evaluate(element => element.getBoundingClientRect().top - 70);
+  await page.mouse.move(result.viewport.width / 2, 150);
   await page.mouse.wheel(0, offset);
   await expect.poll(async () => Math.abs(await next.evaluate(element => element.getBoundingClientRect().top) - 70)).toBeLessThan(20);
   await currentOutline(page, result, nextId);
@@ -136,10 +140,10 @@ async function checkSample(sample, viewport, mobile) {
       await page.locator('#reading-body blockquote').first().scrollIntoViewIfNeeded();
       await screenshot(page, `${sample.id}-${viewport.width}-examples.png`, result);
       const secondExample = page.locator('#reading-body blockquote').filter({ hasText: "Different system prompts. One's tuned for terse code edits" });
-      await secondExample.scrollIntoViewIfNeeded();
-      await expect(secondExample).toBeVisible();
+      await secondExample.evaluate(element => element.scrollIntoView({ block: 'start', behavior: 'instant' }));
+      await expect(secondExample).toBeInViewport({ ratio: 1 });
       const secondChinese = page.locator('#reading-body p').filter({ hasText: '因为系统提示词不同。一个侧重简洁地修改代码' });
-      await expect(secondChinese).toBeVisible();
+      await expect(secondChinese).toBeInViewport({ ratio: 1 });
       await screenshot(page, `${sample.id}-${viewport.width}-second-example.png`, result);
     }
     if (sample.id === 'agents-md') {
@@ -169,9 +173,9 @@ async function checkSample(sample, viewport, mobile) {
       await expect(solution).toHaveAttribute('target', '_blank');
       const sourceNote = page.locator('.source-note');
       await sourceNote.scrollIntoViewIfNeeded();
-      await expect(sourceNote).toBeVisible();
+      await expect(sourceNote).toBeInViewport({ ratio: 1 });
       const lowerSolution = page.locator('#reading-body a').filter({ hasText: '通过 Output 生成对象：解答入口（原站）' });
-      await expect(lowerSolution).toBeVisible();
+      await expect(lowerSolution).toBeInViewport({ ratio: 1 });
       await expect(lowerSolution).toHaveAttribute('href', 'https://www.aihero.dev' + sample.route + '/solution');
       await screenshot(page, `${sample.id}-${viewport.width}-resources.png`, result);
       const texts = ['请写出一个发生在虚构星球上的故事的第一段。', '关于这个虚构星球的事实。请用科学家的口吻写。'];
