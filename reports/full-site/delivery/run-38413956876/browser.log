@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "commit": "1e86ac0caad08a7da54d57a9a473a5b6ef909450",
+  "pages": [
+    {
+      "id": "home",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "home",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    }
+  ]
+}

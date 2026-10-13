@@ -1,0 +1,129 @@
+{
+  "scope": "Uncommitted draft documentation; not part of code candidate SHA. Hashes must be rechecked at archive commit.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "27901dd301543434644a66796188ceed77b17417876bf12720efd2d7f92b2094",
+      "bytes": 1871,
+      "links": [
+        {
+          "target": "reports/handoffs/dot-delivery-candidate.md",
+          "exists": true
+        },
+        {
+          "target": "docs/local-preview.md",
+          "exists": true
+        },
+        {
+          "target": "reports/full-site/source-scope-2026-10-13.md",
+          "exists": true
+        },
+        {
+          "target": "reports/full-site/delivery/source-gaps.md",
+          "exists": true
+        },
+        {
+          "target": "reports/full-site/acceptance-status.json",
+          "exists": true
+        },
+        {
+          "target": "docs/localization.md",
+          "exists": true
+        },
+        {
+          "target": "docs/full-site-assembly.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "docs/local-preview.md",
+      "sha256": "430de5a1c16e9d790842dc1ef69087d7364cea06f7f31ecb11a62ff3da1791b7",
+      "bytes": 6089,
+      "links": [
+        {
+          "target": "../reports/handoffs/dot-delivery-candidate.md",
+          "exists": true
+        },
+        {
+          "target": "../reports/full-site/delivery/source-gaps.md",
+          "exists": true
+        },
+        {
+          "target": "../reports/full-site/delivery/onsite-result-template.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "reports/handoffs/dot-delivery-candidate.md",
+      "sha256": "2fc2ef9f0a20789875b2d4048d0d9ed2835d8bde5061d062d3cd99a2d22df4e2",
+      "bytes": 3855,
+      "links": [
+        {
+          "target": "../../docs/local-preview.md",
+          "exists": true
+        },
+        {
+          "target": "../full-site/delivery/onsite-result-template.md",
+          "exists": true
+        },
+        {
+          "target": "../full-site/acceptance-status.json",
+          "exists": true
+        },
+        {
+          "target": "../full-site/batches/integration-08/review/spec-verdict.md",
+          "exists": true
+        },
+        {
+          "target": "../full-site/batches/integration-08/review/standards-review.md",
+          "exists": true
+        },
+        {
+          "target": "../full-site/delivery/candidate-evidence.json",
+          "exists": true
+        },
+        {
+          "target": "../full-site/delivery/windows-lifecycle/README.md",
+          "exists": true
+        },
+        {
+          "target": "../full-site/batches/evidence-archives.json",
+          "exists": true
+        },
+        {
+          "target": "../full-site/delivery/source-gaps.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "reports/full-site/delivery/onsite-result-template.md",
+      "sha256": "64cabc0c56572e375442a054f327bbc2c1f832335334fff57ef12b7e357e50bb",
+      "bytes": 933,
+      "links": []
+    },
+    {
+      "path": "reports/full-site/delivery/source-gaps.md",
+      "sha256": "120ff979c51b1223d5847209b8005e4413fac2ffbb4c7fd9edfaa7d4fc175813",
+      "bytes": 2517,
+      "links": [
+        {
+          "target": "./source-gaps.json",
+          "exists": true
+        },
+        {
+          "target": "../source-scope-2026-10-13.md",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "reports/full-site/delivery/source-gaps.json",
+      "sha256": "7dcec889c72ec14b8c3a48b67b39d56279fbb3960a3272786cf3c0f0bb091f1a",
+      "bytes": 2151,
+      "links": []
+    }
+  ]
+}

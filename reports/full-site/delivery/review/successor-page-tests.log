@@ -1,0 +1,61 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:test
+> node --test scripts/assemble-page.test.mjs scripts/localized-article.test.mjs
+
+✔ Output source-relative Solution accepts the correct absolute URL without changing sources or other pages (139.68222ms)
+✔ Output rejects a wrong root Solution even when its later correct link remains, without writing (45.252136ms)
+✔ Output rejects bare relative URLs with an actionable message before writing (44.956657ms)
+✔ ordinary article previews without writing, then assembles through the existing index (17.395534ms)
+✔ optional learning profile uses the current knowledge file without replacing shared records (16.831568ms)
+✔ incorrect source hash fails before any write in preview and apply (12.123253ms)
+▶ invalid route, source path, output path and learning config fail without writes
+  ✔ source route mismatch (7.371873ms)
+  ✔ unsafe route (3.753343ms)
+  ✔ unsafe output (17.668454ms)
+  ✔ unknown config field (4.869297ms)
+  ✔ invalid learning kind (13.87397ms)
+  ✔ invalid learning cards (11.676913ms)
+✔ invalid route, source path, output path and learning config fail without writes (60.676443ms)
+✔ an available Chinese link whose indexed body is empty is rejected before writing (11.247097ms)
+✔ unfinished batch targets are explicitly recorded while available targets must still be valid (19.261064ms)
+✔ an actual renderable Chinese target with a stale source version permits assembly and retains the version difference (46.309348ms)
+✔ Chinese Prompt can be appended, but changing the English Prompt is rejected without writes (26.720783ms)
+▶ content structure, original inline code, resources and renderer support are checked before writes
+  ✔ missing heading (11.387309ms)
+  ✔ missing inline code (10.698459ms)
+  ✔ missing resource (11.473377ms)
+  ✔ unknown MDX (11.485576ms)
+  ✔ JavaScript expression (14.236133ms)
+  ✔ unmarked new code (18.032089ms)
+✔ content structure, original inline code, resources and renderer support are checked before writes (78.538161ms)
+✔ a filesystem failure after target replacement restores every file, including the previous translation (14.634251ms)
+✔ a target cannot overwrite another page translation or shared knowledge source (8.915999ms)
+✔ updating one of seventeen pages preserves the other sixteen pages and refreshes only its translation source (20.450284ms)
+✔ content validation checks every renderable translation status, file hash and indexed body (17.147953ms)
+✔ available Chinese targets are checked against their files and manifest, not just a nonempty index (20.101354ms)
+✔ unsafe symlink destinations fail during preview as well as apply (11.735281ms)
+✔ invalid auxiliary source hashes and changes to another page source are refused (12.640718ms)
+✔ interrupted writes keep a recovery journal and can restore the original files explicitly (26.348529ms)
+✔ a symlink within the workspace cannot redirect translation writes into source files (17.178673ms)
+✔ the actual existing site index and all seventeen manifest records survive adding an ordinary fixture page (90.440029ms)
+✔ shared records changed during preparation are preserved instead of overwritten by a stale plan (8.862569ms)
+✔ an auxiliary source used by another page cannot be silently replaced (10.471012ms)
+✔ shared evidence can move to a verified same-hash snapshot while other records and pages stay unchanged (42.104012ms)
+✔ changing the target translation path keeps its existing profile pointed at the newly assembled file (26.213332ms)
+✔ workshop text prompts are not labelled as original code (22.99897ms)
+✔ public learning pages do not claim an unverified authorisation (28.833821ms)
+✔ public articles with an independent glossary retain original resources and Chinese term controls (11.778654ms)
+✔ explicit historical review keeps Chinese-only links and its term controls (9.837481ms)
+✔ explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English (9.394186ms)
+✔ the home page displays the frozen original homepage content instead of historical placeholder statistics (112.412856ms)
+✔ the home page offers a separate directory with every available Chinese deep route (61.921233ms)
+✔ deep-page static routes exclude the separately owned homepage (166.081935ms)
+ℹ tests 46
+ℹ suites 0
+ℹ pass 46
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1535.615414

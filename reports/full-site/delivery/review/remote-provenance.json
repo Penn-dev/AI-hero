@@ -1,0 +1,202 @@
+{
+  "jobs": [
+    {
+      "id": 115353284203,
+      "name": "verify",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 38413956876,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Check out the exact candidate commit",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Set up Node 22",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Record environment",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Install locked project dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Run existing page tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Validate learning sources",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Check authored Markdown emphasis boundaries",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Build existing application",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Install isolated browser tools",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Exercise desktop and mobile pages",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        },
+        {
+          "name": "Confirm tracked project files are unchanged",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Upload small verification evidence",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        },
+        {
+          "name": "Post Set up Node 22",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 25
+        },
+        {
+          "name": "Post Check out the exact candidate commit",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 26
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 27
+        }
+      ]
+    },
+    {
+      "id": 115353284433,
+      "name": "windows-preview",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 38413956876,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Check out the exact candidate commit",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Set up Node 22",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Install locked dependencies for real Windows startup",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Verify project-specific Windows preview lifecycle",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Upload preview lifecycle evidence",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Post Set up Node 22",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        },
+        {
+          "name": "Post Check out the exact candidate commit",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 11823945710,
+      "name": "aihero-samples-1e86ac0caad08a7da54d57a9a473a5b6ef909450",
+      "size_in_bytes": 1035718,
+      "digest": "sha256:6ca3aeed4dc7854388a4b8746c0e810b0c8adba2917dcc0c3241e2e0d928e836",
+      "workflow_run": {
+        "id": 38413956876,
+        "repository_id": 1390622370,
+        "head_repository_id": 1390622370,
+        "head_branch": "codex/full-site-chinese",
+        "head_sha": "1e86ac0caad08a7da54d57a9a473a5b6ef909450"
+      }
+    },
+    {
+      "id": 11822579277,
+      "name": "aihero-windows-preview-1e86ac0caad08a7da54d57a9a473a5b6ef909450",
+      "size_in_bytes": 2470,
+      "digest": "sha256:2490b013572032e56a4db6d92cb0757b46180188e88a605066325deb47e10fcc",
+      "workflow_run": {
+        "id": 38413956876,
+        "repository_id": 1390622370,
+        "head_repository_id": 1390622370,
+        "head_branch": "codex/full-site-chinese",
+        "head_sha": "1e86ac0caad08a7da54d57a9a473a5b6ef909450"
+      }
+    }
+  ]
+}

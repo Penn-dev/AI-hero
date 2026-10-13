@@ -1,0 +1,14 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 sync:validate
+> node scripts/validate-content.mjs
+
+{
+  "sitemapCandidates": 196,
+  "uniqueSourceRoutes": 195,
+  "downloaded": 195,
+  "noMarkdown": 0,
+  "translated": 195,
+  "renderable": 195,
+  "errors": []
+}

@@ -2,9 +2,11 @@
 
 ## Dot 当前状态（2026-10-13）
 
-样本及安全接页已独立审查通过，#3/#4已关闭。#5执行中：固定候选829a10e7的两轮生产验收和双审累计通过30页，另3样本通过。第三候选接入词典余58页，目前94个正文可渲染、固定195来源不变、内容错误0；新增页第五项仍待本候选实际浏览器与双审。全站目标尚未完成。#1/#5/#6保持开放，PR7草稿。
+固定195页已完整接入并由规格、标准两轴独立审查通过：192新制作＋3保留样本；#2–#5已关闭。代码候选 `1e86ac0caad08a7da54d57a9a473a5b6ef909450` 的 [run38413956876](https://github.com/Penn-dev/AI-hero/actions/runs/38413956876) 两任务通过，涵盖46测试、构建、共享页眉双宽和Windows四项安全/正向启停回归。
 
-原始图片ZIP已按[证据归档清单](../full-site/batches/evidence-archives.json)在用户Library持久保存；逐图哈希和原始结果/独审报告在仓库相应批次。分批进度以[第二批](../full-site/batches/integration-02/README.md)和[第三批](../full-site/batches/integration-03/README.md)为准。
+现行[交付候选入口](./dot-delivery-candidate.md)给出证据和最小现场说明。全站195逐页正文hash与实际验收候选绑定见[验收表](../full-site/acceptance-status.json)。原图ZIP按[归档清单](../full-site/batches/evidence-archives.json)持久保存，失败、返修和独立审查原样保留。
+
+唯一剩余交付门槛是目标Windows现场结果。#1/#6保持开放，PR7草稿；不自动合并或部署。旧本机代理安排和暂停记录仅作历史。
 
 ## 以下是本机历史断点（已被上述Dot进度取代）
 
