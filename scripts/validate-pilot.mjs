@@ -1,15 +1,12 @@
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
+import { assertOriginalBlocks } from './lib/page-content.mjs';
 
 const sourcePath = resolve('content/source/a-complete-guide-to-agents-md.md');
 const candidatePath = resolve(process.argv[2] ?? 'content/pilots/v2/sol-medium/a-complete-guide-to-agents-md.md');
 
 const source = await readFile(sourcePath, 'utf8');
 const candidate = await readFile(candidatePath, 'utf8');
-
-function fencedCode(markdown) {
-  return [...markdown.matchAll(/^[ \t]*```[^\n]*\n[\s\S]*?^[ \t]*```[ \t]*$/gm)].map((match) => match[0]);
-}
 
 function inlineCode(markdown) {
   const withoutFences = markdown.replace(/^[ \t]*```[^\n]*\n[\s\S]*?^[ \t]*```[ \t]*$/gm, '');
@@ -84,7 +81,13 @@ function check(name, actual, expected) {
   if (!passed) console.error(`FAIL ${name}`);
 }
 
-check('fenced code preserved', fencedCode(candidate), fencedCode(source));
+try {
+  assertOriginalBlocks(source, candidate);
+  checks.push({ name: 'original fenced code and English Prompt preserved; labelled Chinese Prompt allowed', passed: true });
+} catch (error) {
+  console.error(error.message);
+  checks.push({ name: 'original fenced blocks preserved', passed: false });
+}
 checks.push({
   name: 'source inline code preserved in order',
   passed: containsSequence(inlineCode(candidate), inlineCode(source)),
