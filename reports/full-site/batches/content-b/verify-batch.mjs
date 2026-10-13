@@ -18,11 +18,16 @@ for (const name of fs.readdirSync(`${root}/configs`).sort()) {
   const translation = fs.readFileSync(config.chineseFile, 'utf8');
   assert.equal(sha256(source), config.source.sha256);
   const { tree } = validateArticle(source, translation, record.url);
+  const unparsedEmphasis = nodes(tree, node => node.type === 'text' && node.value.includes('**'));
+  const nestedStrong = nodes(tree, node => node.type === 'strong' && nodes(node, child => child.type === 'strong').length > 1);
+  assert.equal(unparsedEmphasis.length, 0, `${config.route}: unparsed emphasis markers`);
+  assert.equal(nestedStrong.length, 0, `${config.route}: nested strong emphasis needs review`);
   results.push({
     route: config.route,
     sourceHash: config.source.sha256,
     translationHash: sha256(translation),
     structuralValidation: 'passed',
+    emphasisAst: 'no literal double-asterisk text or nested strong nodes',
     fencedBlocks: nodes(tree, node => node.type === 'code').length,
     headings: nodes(tree, node => node.type === 'heading').length,
     resources: markdownResources(tree),

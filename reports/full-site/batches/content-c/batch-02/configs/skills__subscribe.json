@@ -1,0 +1,20 @@
+{
+  "route": "/skills/subscribe",
+  "source": {
+    "path": "content/source/skills/subscribe.md",
+    "sha256": "ff1c20f196e810ce444730c92bc9a3ad90cb81edc29370f212465823da402d1a"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-02/drafts/skills__subscribe.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    }
+  ]
+}

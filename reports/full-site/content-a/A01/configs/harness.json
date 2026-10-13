@@ -51,13 +51,11 @@
     },
     {
       "route": "/ai-coding-dictionary/tool",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/tool-result",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/turn",

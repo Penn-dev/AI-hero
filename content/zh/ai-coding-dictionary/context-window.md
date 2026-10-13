@@ -17,7 +17,7 @@ updatedAt: "2026-09-24T11:59:36.000Z"
 
 Matt Pocock
 
-上下文窗口就是[模型](/ai-coding-dictionary/model)每次处理一项[模型提供商请求](/ai-coding-dictionary/model-provider-request)时能看到的全部内容。它的容量有限，大小因模型而异，而且是模型感知任何信息的_唯一_入口。
+上下文窗口就是[模型](/ai-coding-dictionary/model)每次处理一项[模型提供商请求](/ai-coding-dictionary/model-provider-request)时能看到的全部内容。它的容量有限，大小因模型而异，而且是模型感知任何信息的 _唯一_ 入口。
 
 上下文窗口是一段连续的 [Token](/ai-coding-dictionary/token) 序列，其中包括[系统提示词](/ai-coding-dictionary/system-prompt)、截至目前的对话，以及[智能体执行框架](/ai-coding-dictionary/harness)送回模型的每一项[工具结果](/ai-coding-dictionary/tool-result)。某项内容在这段序列里，模型才能使用；不在里面，模型就不知道它存在。无论是你的代码库、昨天编辑的文件，还是三个会话前给出的指令，都是如此。窗口外的内容必须先被带进来，通常需要通过一次[工具调用](/ai-coding-dictionary/tool-call)，才能影响接下来的工作。
 

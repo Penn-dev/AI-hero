@@ -1,0 +1,78 @@
+{
+  "route": "/ai-coding-dictionary/memory-system",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/memory-system.md",
+    "sha256": "231f7764fd14458de5108a21924637c522c92c650b5c81dfbe77d29af2597258"
+  },
+  "chineseFile": "reports/full-site/content-a/A04/drafts/memory-system.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    }
+  ]
+}

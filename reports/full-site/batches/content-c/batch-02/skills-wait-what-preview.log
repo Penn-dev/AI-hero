@@ -1,0 +1,94 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-02/configs/skills-wait-what.json
+
+{
+  "mode": "preview",
+  "route": "/skills-wait-what",
+  "page": {
+    "title": "/wait-what Skill",
+    "description": "让智能体用直白的英语再解释一遍。",
+    "markdown": "## 它能做什么\n\n当你没看懂一条消息时，输入 `wait-what`，[智能体](https://www.aihero.dev/ai-coding-dictionary/agent)就会换一种方式重新说明刚才的内容。它会补上你缺少的背景，用直白的英语表达，并采用项目 `GLOSSARY.md` 中的词汇。\n\n译注：`GLOSSARY.md` 是项目词汇表，用来记录大家对同一个词达成的共同定义。此 Skill 原文针对英语表达，本页按原意介绍它。\n\n这个 Skill 只有三行。这是有意为之，并非还没写完。用来抑制啰嗦的 Skill 经常失败，原因恰恰是它们自身越写越长。一个长达四百行的“简洁表达”Skill 仍会让[模型](https://www.aihero.dev/ai-coding-dictionary/model)啰嗦，因为模型模仿的是 Skill 的篇幅，而不是其中要求简洁的指令。这个 Skill 只用一个准确的引导词，不再堆叠别的内容。\n\n## 什么时候该用它\n\n输入 `/wait-what` 来调用。智能体不会自行使用，也不应该自行使用。只有你自己知道从哪里开始没跟上。\n\n一发现自己开始草草扫读，就可以用它。例如，智能体开始使用自创术语，在一句话里塞进五个缩写，或解释一个你连前提都没听过的决定。它修复的是已经发生的对话。如果想从一开始就避免这些术语问题，可以用 [grill-with-docs](https://aihero.dev/skills-grill-with-docs)，先建立共同语言。\n\n## 名字本身就是方法\n\n引导词是 **wait，也就是“等等”**。“Be concise”要求智能体改变输出，模型往往通过硬删词语来遵从，结果你更难理解。\n\n英文 Prompt：Be concise\n\n中文 Prompt（译注）：\n\n```text\n简洁一点。\n```\n\n**Wait** 说的是*你的状态*：你在这里开始没听懂了。智能体听到“be brief”时，会写出省略过多的短句；听到“wait, you lost me”时，才会回过头来解释。\n\n英文 Prompt：be brief\n\n中文 Prompt（译注）：\n\n```text\n简短一点。\n```\n\n英文 Prompt：wait, you lost me\n\n中文 Prompt（译注）：\n\n```text\n等等，我没跟上你的意思。\n```\n\n整个 Skill 就建立在这点差别上。常见的反啰嗦指令都在描述*输出*，例如 `/tldr`、`/no-fluff`、`/talk-normal`。模型矫枉过正，写出更短却并不更清楚的零碎句子。点明*听的人*出了什么状况，就能同时提出两项要求：减少字数，**并且**补上缺失的背景。\n\nSkill 要求重新说明的是 **that，也就是“那件事”**，而非“that last message，也就是‘上一条消息’”。让你没听懂的内容通常不止一个段落，因此由智能体判断需要往回追溯多远。\n\n## 沿用你已有的语言\n\n正文复用了全局 `CLAUDE.md` 和项目 `GLOSSARY.md` 中已有的引导词。ASD-STE100 简化技术英语决定表达风格，共同的领域语言提供名词。Skill、`CLAUDE.md` 和 `GLOSSARY.md` 使用相同的 [Token](https://www.aihero.dev/ai-coding-dictionary/token)，因此调用它并非给出新指令，而是提醒智能体遵守已经接受的要求。\n\n译注：`CLAUDE.md` 是 Claude Code 会读取的项目或用户指令文件。ASD-STE100 是一套受控技术英语规范，限制词汇与句式，目的是减少歧义；这里保留原文对该规范的引用，没有宣称中文版符合这套英语规范。\n\n如果没有 `GLOSSARY.md`，也没有 `GLOSSARY-MAP.md` 指向适用于当前上下文的词汇表，这个 Skill 仍然能用。你失去的只是领域词汇这一部分。\n\n## 出现这些迹象，就说明它在发挥作用\n\n- 重新说明的内容**更短，也更清楚**，而不是更短、更生硬。\n- 它补上了你缺少的前提，而不只是删词。\n- 项目已有的名词取代了自创词汇，`GLOSSARY.md` 中的术语重新出现。\n- 连续用两次，也不会退化成过度简略的表达。\n\n## 它处在什么位置\n\n任何时候、任何对话里，包括运行其他 Skill 时，都可以用 `wait-what`。它在事后修复一条消息。真正的解决办法，是事先商定共同语言，这正是 [grill-with-docs](https://aihero.dev/skills-grill-with-docs) 的用途：它在[追问讨论](https://www.aihero.dev/ai-coding-dictionary/grilling)的过程中运行 [domain-modeling](https://aihero.dev/skills-domain-modeling)，把双方共同使用的词记录在 `GLOSSARY.md` 中。不确定此刻应该用哪个 Skill 时，可以让 [ask-matt](https://aihero.dev/skills-ask-matt) 帮你选择。\n\n译注：本页相关中文词条：[智能体](/ai-coding-dictionary/agent)、[模型](/ai-coding-dictionary/model)、[Token](/ai-coding-dictionary/token)。链接优先打开已接入的中文页；尚未接入时会回到原站英文页。",
+    "sourceUpdatedAt": "2026-08-24T09:14:47.195Z",
+    "sourceUrl": "https://www.aihero.dev/skills-wait-what",
+    "sourceHash": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5"
+  },
+  "manifest": {
+    "route": "/skills-wait-what",
+    "sourceUrl": "https://www.aihero.dev/skills-wait-what",
+    "sourceHash": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5",
+    "translationPath": "content/zh/skills-wait-what.md",
+    "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T11:40:12.147Z",
+    "assembly": {
+      "configHash": "5e8e86687f2cddcd6e430dc7faa41f14beaf05b38623506603b685f03886e0fa",
+      "checkedAt": "2026-10-13T11:40:12.147Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/agent",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/model",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/token",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        }
+      ],
+      "staleChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/agent",
+          "sourceHash": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+          "currentSourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91"
+        }
+      ]
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/skills-wait-what.md",
+      "sha256": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "74fd7114a6c81606b32b73539fb4fea6626b4c3f5d2d343d4d61b6989dd60b9b"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "71fdae67fb9a2a8b4fb379ce2fd880f449e2d1429e1cf1be2a752824aeb613b2"
+    }
+  ]
+}

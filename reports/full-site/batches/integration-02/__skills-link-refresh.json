@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-03/configs/skills.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills",
+      "manifest": {
+        "route": "/skills",
+        "sourceUrl": "https://www.aihero.dev/skills",
+        "sourceHash": "5e98f53633747fe3a64f313fbfffa37486ff32aa986c5565f054d2000da1b01c",
+        "translationPath": "content/zh/skills.md",
+        "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:28.042Z",
+        "assembly": {
+          "configHash": "4cf1099c9bf45fce3b9779d5fe3722a2e55b272fa812b41ef640077042bc8dc6",
+          "checkedAt": "2026-10-13T11:56:28.042Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills.md",
+          "sha256": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "fd7fe3d2481662b9242f89c190e8f8370f945f4106516002b7e8cf6714ca9a17"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "bdc3f75fa160ae49f14f218e648017a2b8d17453e7526861cef238ff48bda3f2"
+        }
+      ],
+      "rawOutputSha256": "eaa46470b6a065905533cb8a14384dda9c1486543ff43811d5b9170d5a6f10b3"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills",
+      "manifest": {
+        "route": "/skills",
+        "sourceUrl": "https://www.aihero.dev/skills",
+        "sourceHash": "5e98f53633747fe3a64f313fbfffa37486ff32aa986c5565f054d2000da1b01c",
+        "translationPath": "content/zh/skills.md",
+        "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:28.262Z",
+        "assembly": {
+          "configHash": "4cf1099c9bf45fce3b9779d5fe3722a2e55b272fa812b41ef640077042bc8dc6",
+          "checkedAt": "2026-10-13T11:56:28.262Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills.md",
+          "sha256": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "fd7fe3d2481662b9242f89c190e8f8370f945f4106516002b7e8cf6714ca9a17"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0f2a2bb043fbeda78948bd2da7b4b12af4d71b0163f87c67df9eef813a7235fd"
+        }
+      ],
+      "rawOutputSha256": "6fcb40d8985561c2fc3875a2020492305b7c571b37dac64aba0c0c5546b95aad"
+    }
+  ],
+  "nonTargetPagesPreserved": 35
+}

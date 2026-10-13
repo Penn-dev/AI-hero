@@ -294,8 +294,7 @@
     },
     {
       "route": "/ai-coding-dictionary/tool",
-      "state": "planned-chinese",
-      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/session",

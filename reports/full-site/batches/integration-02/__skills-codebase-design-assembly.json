@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-01/configs/skills-codebase-design.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-codebase-design",
+      "manifest": {
+        "route": "/skills-codebase-design",
+        "sourceUrl": "https://www.aihero.dev/skills-codebase-design",
+        "sourceHash": "db0ebbfc7918a688024c4c080dbbd8220fcd440948b50d82b672e214f6ff3996",
+        "translationPath": "content/zh/skills-codebase-design.md",
+        "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:23.965Z",
+        "assembly": {
+          "configHash": "1ca2f8a6ca9f4787ae9feb16ccf7909a3f9d228cee220569cd1f98bea6b0c3e4",
+          "checkedAt": "2026-10-13T11:56:23.965Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-codebase-design.md",
+          "sha256": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "6bbad80ca7fa2cfb0380d47a0f25f0109e9ff018bd7331dbc755799d1c1bb7c2"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d1fbc6868c15d5b58830bc43579f2cc8ee277201563f73cb63ba36b000e22015"
+        }
+      ],
+      "rawOutputSha256": "f8164efa835e111693b356a81a410c3b6bd16d6c6982093a1d59a370f0b18f2b"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-codebase-design",
+      "manifest": {
+        "route": "/skills-codebase-design",
+        "sourceUrl": "https://www.aihero.dev/skills-codebase-design",
+        "sourceHash": "db0ebbfc7918a688024c4c080dbbd8220fcd440948b50d82b672e214f6ff3996",
+        "translationPath": "content/zh/skills-codebase-design.md",
+        "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:24.237Z",
+        "assembly": {
+          "configHash": "1ca2f8a6ca9f4787ae9feb16ccf7909a3f9d228cee220569cd1f98bea6b0c3e4",
+          "checkedAt": "2026-10-13T11:56:24.237Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-codebase-design.md",
+          "sha256": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "6bbad80ca7fa2cfb0380d47a0f25f0109e9ff018bd7331dbc755799d1c1bb7c2"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c68793c5d42c38f153d86d069f01847b176510fb5995a012a6cb7549723aa696"
+        }
+      ],
+      "rawOutputSha256": "4400360b69474f8b2ad6b6441d66235112d4ac5d968c2cc579b0361ca998b437"
+    }
+  ],
+  "nonTargetPagesPreserved": 31
+}

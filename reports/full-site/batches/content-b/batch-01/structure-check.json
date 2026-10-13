@@ -6,6 +6,7 @@
       "sourceHash": "2a64fce2291858c58f05526228e575cd323663e0ca3a2dfbaed87ce3fe591013",
       "translationHash": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a",
       "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
       "fencedBlocks": 1,
       "headings": 6,
       "resources": [
@@ -23,8 +24,9 @@
     {
       "route": "/what-is-an-llm",
       "sourceHash": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
-      "translationHash": "9eac5bea131ac190ab73454c03b985792fbbc6fd455383c2363f4e52e46bcc66",
+      "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb",
       "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
       "fencedBlocks": 8,
       "headings": 10,
       "resources": [
@@ -43,6 +45,7 @@
       "sourceHash": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3",
       "translationHash": "4fb8555b800741de5f4939fdc6da0f9e98747dcddcbf124b01d09be64db0edc7",
       "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
       "fencedBlocks": 0,
       "headings": 3,
       "resources": [

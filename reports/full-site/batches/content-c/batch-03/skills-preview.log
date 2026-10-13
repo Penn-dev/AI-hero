@@ -1,0 +1,83 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-03/configs/skills.json
+
+{
+  "mode": "preview",
+  "route": "/skills",
+  "page": {
+    "title": "为认真做工程的人准备的 AI Skills",
+    "description": "一套实用的 Skill 体系，帮助工程师在使用 AI 时依然坚持自己的标准。",
+    "markdown": "# 为认真做工程的人准备的 AI Skills\n\n一套实用的 Skill 体系，帮助工程师在使用 AI 时依然坚持自己的标准。\n\n译注：Skill 是提供给智能体的专门说明或可重复工作流程。下方保留原站的分类和资源入口；原站入口不代表相关内容已经提供中文版本。\n\n## 安装 Skills\n\n### 安装 Skills，推荐方式\n\n选择你使用的 Skills 和智能体。安装程序会把可编辑的文件写入你的项目。\n\n```bash\nnpx skills@latest add mattpocock/skills\n```\n\n更新命令：`npx skills update`。\n\n### Claude Code 插件\n\n从官方插件市场安装完整套装，作为受管理的只读插件使用。\n\n```bash\nclaude plugins install mattpocock-skills\n```\n\n插件会自动更新。\n\n源代码：[https://github.com/mattpocock/skills](https://github.com/mattpocock/skills)\n\n译注：第一种方式让你直接编辑项目内的 Skill 文件；第二种由插件管理更新。命令按固定来源保留，本页没有执行安装，也没有验证你电脑上的 Node.js/npm 或 Claude Code 环境。\n\n### 精选 Skills\n\n- [`/grill-me`](https://www.aihero.dev/skills-grill-me)\n- [`/grill-with-docs`](https://www.aihero.dev/grill-with-docs)\n- [`/domain-model`](https://www.aihero.dev/skills-domain-model)\n- [`/to-prd`](https://www.aihero.dev/skills-to-prd)\n- [`/to-issues`](https://www.aihero.dev/skills-to-issues)\n- [`/tdd`](https://www.aihero.dev/skills-tdd)\n- [`/triage`](https://www.aihero.dev/burn-through-your-backlog-with-my-triage-skill)\n\n译注：以上名称和去向沿用固定来源，其中有旧名称。本站同时收录了 domain-modeling、to-spec、to-tickets 等较新文档；这里没有擅自把原站入口替换成其他页面。\n\n## Skills 分类\n\n### [入门](https://www.aihero.dev/getting-started~svvtb)\n\n先完成一次设置，再熟悉使用路线。\n\nMarkdown：https://www.aihero.dev/getting-started~svvtb.md\n\n### [主要流程](https://www.aihero.dev/the-main-flow-jnjkc)\n\n按顺序走完从想法到交付的主要步骤。\n\nMarkdown：https://www.aihero.dev/the-main-flow-jnjkc.md\n\n### [梳理方向](https://www.aihero.dev/shaping-we1mv)\n\n探索一个开放问题，得出决定或答案，再带回主要流程。\n\nMarkdown：https://www.aihero.dev/shaping-we1mv.md\n\n### [工程维护](https://www.aihero.dev/upkeep~6heor)\n\n维护代码库和问题清单的健康状态，为主要流程发现需要做的工作。\n\nMarkdown：https://www.aihero.dev/upkeep~6heor.md\n\n### [效率 Skills](https://www.aihero.dev/productivity-skills~3cn9f)\n\n由你运行、面向人的工作流程，不涉及代码。\n\nMarkdown：https://www.aihero.dev/productivity-skills~3cn9f.md\n\n### [参考类 Skills](https://www.aihero.dev/reference-skills-fshcd)\n\n可供其他 Skills 调用或引用的共享参考资料。\n\nMarkdown：https://www.aihero.dev/reference-skills-fshcd.md\n\n## 熟悉这套方法\n\n- **从这里开始**：[我每天使用的 5 个智能体 Skills](https://www.aihero.dev/5-agent-skills-i-use-every-day)\n- **原则**：[构建 AI 智能体喜欢的代码库](https://www.aihero.dev/how-to-make-codebases-ai-agents-love)\n- **实际使用**：[我的 Grill Me Skill 火了](https://www.aihero.dev/my-grill-me-skill-has-gone-viral)\n\n## 更新日志，第 1 页，共 1 页\n\n### [v1.3：/implement-spec、/pr、/retro，以及 GLOSSARY.md](https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md)\n\n_2026 年 10 月 5 日_\n\nSkills v1.3：/implement-spec 实现整份规格；/pr 撰写便于审阅的 PR 正文；/retro 改善智能体的工作环境；CONTEXT.md 改为 GLOSSARY.md。\n\n### [v1.2：/wait-what、/writing-for-agents、Claude Code 插件，以及其他更新](https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more)\n\n_2026 年 8 月 5 日_\n\n了解 Matt Pocock 的 Skills v1.2.0：新文档、Claude Code 集成、用于应对 Opus 啰嗦表达的 Wait What Skill，以及其他更新。\n\n### [v1.1：/wayfinder、/to-spec、/to-tickets、/grilling 改进，以及更多内容](https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements)\n\n_2026 年 7 月 8 日_\n\nSkills v1.1 已发布：了解用于 AI 编程的新智能体 Skills，包括用于规划的 Wayfinder、规格改进，以及 TDD 重构。\n\n### [v1：Token 减少 63%、/ask-matt、/writing-great-skills](https://www.aihero.dev/skills/skills-changelog-v1-announcement)\n\n_2026 年 6 月 18 日_\n\nSkills v1.0 更新：Token 减少 63%，新增流程选择 Skill、领域建模和代码库设计。现在即可通过 npx 安装。\n\n### [Skills 更新日志：/handoff、/prototype、/review 和 /writing](https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing)\n\n_2026 年 5 月 11 日_\n\n两个新的 AI 智能体 Skills：/handoff 用于在智能体之间传递上下文；/prototype 用于构建用完即可丢弃的原型，验证设计决定。\n\n### [Skills 更新日志：从统一领域语言到 /grill-with-docs](https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs)\n\n_2026 年 4 月 30 日_\n\nSkills 仓库更新：/grill-with-docs、架构决策记录（ADR）、更清楚的架构语言、多个任务跟踪系统支持，以及新的调试 Skills。详情见正文。\n\n译注：本页相关中文词条：[Skill](/ai-coding-dictionary/skill)、[智能体](/ai-coding-dictionary/agent)。链接优先打开已接入的中文页；尚未接入时会回到原站英文页。",
+    "sourceUrl": "https://www.aihero.dev/skills",
+    "sourceHash": "5e98f53633747fe3a64f313fbfffa37486ff32aa986c5565f054d2000da1b01c"
+  },
+  "manifest": {
+    "route": "/skills",
+    "sourceUrl": "https://www.aihero.dev/skills",
+    "sourceHash": "5e98f53633747fe3a64f313fbfffa37486ff32aa986c5565f054d2000da1b01c",
+    "translationPath": "content/zh/skills.md",
+    "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T11:49:25.921Z",
+    "assembly": {
+      "configHash": "afa8be8565c4baba316a6d9081e654fb775a76cb36df9ce375458a95e78be456",
+      "checkedAt": "2026-10-13T11:49:25.921Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/skill",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/agent",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        }
+      ],
+      "staleChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/agent",
+          "sourceHash": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+          "currentSourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91"
+        }
+      ]
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/skills.md",
+      "sha256": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "ec3635adad65e6c17ba8d46b7dd8c4d79a58581b1b4de5f8f8a126b68f253ff4"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "1b7bb78a77a4084a5f1d8034976a3529fd3d1c91a4ad649a4412e19b3133bc9d"
+    }
+  ]
+}

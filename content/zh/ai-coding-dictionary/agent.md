@@ -17,7 +17,7 @@ updatedAt: "2026-09-24T11:59:36.000Z"
 
 Matt Pocock
 
-把[模型](/ai-coding-dictionary/model)接入[智能体执行框架](/ai-coding-dictionary/harness)，为它配上[工具](/ai-coding-dictionary/tool)、[系统提示词](/ai-coding-dictionary/system-prompt)和[上下文窗口](/ai-coding-dictionary/context-window)，再让它与用户一轮轮[协作](/ai-coding-dictionary/turn)，就形成了智能体（Agent）。_Claude Code 是智能体，Cursor 是智能体，Claude.ai 也是智能体。_你实际交谈的对象就是智能体：它是针对某种用途配置好、真正运行起来的模型。
+把[模型](/ai-coding-dictionary/model)接入[智能体执行框架](/ai-coding-dictionary/harness)，为它配上[工具](/ai-coding-dictionary/tool)、[系统提示词](/ai-coding-dictionary/system-prompt)和[上下文窗口](/ai-coding-dictionary/context-window)，再让它与用户一轮轮[协作](/ai-coding-dictionary/turn)，就形成了智能体（Agent）。 _Claude Code 是智能体，Cursor 是智能体，Claude.ai 也是智能体。_ 你实际交谈的对象就是智能体：它是针对某种用途配置好、真正运行起来的模型。
 
 和这本词典里的大多数术语不同，“智能体”不是某个可以单独拆出来的机械部件。模型是一个保存着[参数](/ai-coding-dictionary/parameters)的文件，执行框架则是一套可以具体指出来的软件。智能体两者都不是，而是你正在与之交流的整个组合。人们经常把 [AI](/ai-coding-dictionary/ai) 当成人来描述，智能体就是这种拟人化说法所指的对象：你把任务交给它，它读取你的消息并回答；“它又把构建弄坏了”中的“它”，指的也是它。说智能体做了某件事，其实是说模型和执行框架共同完成了这件事，只是我们把这个组合当成一个行动者来称呼。
 

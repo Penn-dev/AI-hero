@@ -1,33 +1,182 @@
 {
-  "id": "production-01",
+  "id": "production-02",
+  "reuse": "Common desktop/mobile layout and unchanged interactions reuse run38391725587 and accepted sample run38386427504; capture current content structures and affected emphasis at both viewports.",
   "pages": [
     {
-      "id": "what-are-tokens",
-      "config": "reports/full-site/batches/content-b/batch-01/configs/what-are-tokens.json",
+      "id": "ai-coding-dictionary-tool-call",
+      "config": "reports/full-site/content-a/A03/configs/tool-call.json",
       "features": [
         {
-          "label": "content",
+          "label": "table",
+          "selector": "table"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary/harness"
+    },
+    {
+      "id": "ai-coding-dictionary-tool-result",
+      "config": "reports/full-site/content-a/A03/configs/tool-result.json",
+      "features": [
+        {
+          "label": "table",
+          "selector": "table"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary/context"
+    },
+    {
+      "id": "ai-coding-dictionary-tool",
+      "config": "reports/full-site/content-a/A03/configs/tool.json",
+      "features": [
+        {
+          "label": "table",
+          "selector": "table"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary/context"
+    },
+    {
+      "id": "ai-coding-dictionary-hallucination",
+      "config": "reports/full-site/content-a/A04/configs/hallucination.json",
+      "features": [
+        {
+          "label": "table",
+          "selector": "table"
+        }
+      ],
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary/model"
+    },
+    {
+      "id": "ai-coding-dictionary-memory-system",
+      "config": "reports/full-site/content-a/A04/configs/memory-system.json",
+      "features": [
+        {
+          "label": "examples",
+          "selector": "blockquote",
+          "text": "I keep having to re-tell it I'm on Postgres, not M"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary/harness"
+    },
+    {
+      "id": "ai-coding-dictionary-prefix-cache",
+      "config": "reports/full-site/content-a/A04/configs/prefix-cache.json",
+      "features": [
+        {
+          "label": "examples",
+          "selector": "blockquote",
+          "text": "Why did the bill spike halfway through the session"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary/harness"
+    },
+    {
+      "id": "anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "config": "reports/full-site/batches/content-b/batch-02/configs/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "p"
+        }
+      ]
+    },
+    {
+      "id": "how-does-the-model-context-protocol-work",
+      "config": "reports/full-site/batches/content-b/batch-02/configs/how-does-the-model-context-protocol-work.json",
+      "features": [
+        {
+          "label": "code",
           "selector": "figure.code-frame"
         }
       ]
     },
     {
-      "id": "what-is-an-llm",
-      "config": "reports/full-site/batches/content-b/batch-01/configs/what-is-an-llm.json",
+      "id": "logging-a-huge-mcp-footgun",
+      "config": "reports/full-site/batches/content-b/batch-02/configs/logging-a-huge-mcp-footgun.json",
       "features": [
         {
-          "label": "content",
+          "label": "code",
           "selector": "figure.code-frame"
         }
       ]
     },
     {
-      "id": "what-is-the-context-window",
-      "config": "reports/full-site/batches/content-b/batch-01/configs/what-is-the-context-window.json",
+      "id": "mcp-server-from-a-single-typescript-file",
+      "config": "reports/full-site/batches/content-b/batch-02/configs/mcp-server-from-a-single-typescript-file.json",
       "features": [
         {
-          "label": "content",
-          "selector": "img"
+          "label": "steps",
+          "selector": ".scrollycoding-fallback"
+        }
+      ],
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "id": "model-context-protocol-tutorial",
+      "config": "reports/full-site/batches/content-b/batch-02/configs/model-context-protocol-tutorial.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "p"
+        }
+      ]
+    },
+    {
+      "id": "publish-your-mcp-server-to-npm",
+      "config": "reports/full-site/batches/content-b/batch-02/configs/publish-your-mcp-server-to-npm.json",
+      "features": [
+        {
+          "label": "code",
+          "selector": "figure.code-frame"
+        }
+      ]
+    },
+    {
+      "id": "the-problem-with-mcp-stateful-server",
+      "config": "reports/full-site/batches/content-b/batch-02/configs/the-problem-with-mcp-stateful-server.json",
+      "features": [
+        {
+          "label": "code",
+          "selector": "figure.code-frame"
+        }
+      ]
+    },
+    {
+      "id": "using-mcp-prompts",
+      "config": "reports/full-site/batches/content-b/batch-02/configs/using-mcp-prompts.json",
+      "features": [
+        {
+          "label": "steps",
+          "selector": ".scrollycoding-fallback"
+        }
+      ],
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
         }
       ]
     },
@@ -36,27 +185,114 @@
       "config": "reports/full-site/batches/content-c/batch-01/configs/skills-catalog.json",
       "features": [
         {
-          "label": "content",
+          "label": "code",
           "selector": "figure.code-frame"
         }
-      ]
+      ],
+      "chineseLink": "/ai-coding-dictionary/agent"
     },
     {
       "id": "skills-codebase-design",
       "config": "reports/full-site/batches/content-c/batch-01/configs/skills-codebase-design.json",
       "features": [
         {
-          "label": "content",
-          "selector": "figure.code-frame"
+          "label": "intro-emphasis",
+          "selector": "p",
+          "text": "统一了设计模块"
         },
         {
-          "label": "design-table",
-          "selector": "table"
-        },
-        {
-          "label": "symptom-table",
+          "label": "depth-emphasis",
           "selector": "table",
           "nth": 1
+        },
+        {
+          "label": "module-emphasis",
+          "selector": "p",
+          "text": "文件系统当然"
+        }
+      ],
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary/agent"
+    },
+    {
+      "id": "skills-wait-what",
+      "config": "reports/full-site/batches/content-c/batch-02/configs/skills-wait-what.json",
+      "features": [
+        {
+          "label": "code",
+          "selector": "figure.code-frame"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary/agent"
+    },
+    {
+      "id": "skills-subscribe",
+      "config": "reports/full-site/batches/content-c/batch-02/configs/skills__subscribe.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "p"
+        }
+      ]
+    },
+    {
+      "id": "skills-resolving-merge-conflicts",
+      "config": "reports/full-site/batches/content-c/batch-03/configs/skills-resolving-merge-conflicts.json",
+      "features": [
+        {
+          "label": "table",
+          "selector": "table"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "config": "reports/full-site/batches/content-c/batch-03/configs/skills.json",
+      "features": [
+        {
+          "label": "code",
+          "selector": "figure.code-frame"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary/agent"
+    },
+    {
+      "id": "what-is-an-llm",
+      "config": "reports/full-site/batches/content-b/batch-01/configs/what-is-an-llm.json",
+      "features": [
+        {
+          "label": "model-emphasis",
+          "selector": "p",
+          "text": "巨型压缩文件"
+        },
+        {
+          "label": "inference-emphasis",
+          "selector": "p",
+          "text": "这个过程由"
+        },
+        {
+          "label": "sampling-emphasis",
+          "selector": "p",
+          "text": "具体怎样选择"
+        }
+      ],
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
         }
       ]
     },
@@ -65,76 +301,44 @@
       "config": "reports/full-site/content-a/A01/configs/agent.json",
       "features": [
         {
-          "label": "content",
-          "selector": "blockquote",
-          "text": "Which agent are you using for the migration?"
+          "label": "agent-emphasis",
+          "selector": "p",
+          "text": "Claude Code 是智能体"
         }
-      ]
-    },
-    {
-      "id": "ai-coding-dictionary-harness",
-      "config": "reports/full-site/content-a/A01/configs/harness.json",
-      "features": [
+      ],
+      "viewports": [
         {
-          "label": "content",
-          "selector": "blockquote",
-          "text": "Same model, why is Claude Code editing files and Claude"
-        }
-      ]
-    },
-    {
-      "id": "ai-coding-dictionary-model",
-      "config": "reports/full-site/content-a/A01/configs/model.json",
-      "features": [
+          "width": 1440,
+          "height": 1000
+        },
         {
-          "label": "content",
-          "selector": "blockquote",
-          "text": "Should we switch the model from Sonnet to Opus for the "
+          "width": 390,
+          "height": 844
         }
-      ]
+      ],
+      "chineseLink": "/ai-coding-dictionary/harness"
     },
     {
       "id": "ai-coding-dictionary-context-window",
       "config": "reports/full-site/content-a/A02/configs/context-window.json",
       "features": [
         {
-          "label": "content",
-          "selector": "blockquote",
-          "text": "Can I just paste the whole monorepo into the prompt?"
+          "label": "window-emphasis",
+          "selector": "p",
+          "text": "处理一项"
         }
-      ]
-    },
-    {
-      "id": "ai-coding-dictionary-context",
-      "config": "reports/full-site/content-a/A02/configs/context.json",
-      "features": [
+      ],
+      "viewports": [
         {
-          "label": "content",
-          "selector": "table"
-        }
-      ]
-    },
-    {
-      "id": "ai-coding-dictionary-progressive-disclosure",
-      "config": "reports/full-site/content-a/A02/configs/progressive-disclosure.json",
-      "features": [
+          "width": 1440,
+          "height": 1000
+        },
         {
-          "label": "content",
-          "selector": "blockquote",
-          "text": "Should I dump the entire style guide into AGENTS.md?"
+          "width": 390,
+          "height": 844
         }
-      ]
-    },
-    {
-      "id": "ai-coding-dictionary-token",
-      "config": "reports/full-site/content-a/A02/configs/token.json",
-      "features": [
-        {
-          "label": "content",
-          "selector": "blockquote",
-          "text": "How big is this prompt going to be?"
-        }
-      ]
+      ],
+      "chineseLink": "/ai-coding-dictionary/context"
     }
   ]
 }

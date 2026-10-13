@@ -54,7 +54,7 @@ async function check(target, viewport) {
     await expect(original).toHaveAttribute('href', record.sourceUrl);
     await expect(original).toHaveAttribute('target', '_blank');
     result.checks.push('HTTP 200, Chinese title/body and exact original-source entry');
-    await screenshot(page, result, 'top');
+    if (target.captureTop) await screenshot(page, result, 'top');
 
     const figures = page.locator('#reading-body figure.code-frame');
     const blocks = [...body.matchAll(/```[^\r\n]*\r?\n([\s\S]*?)\r?\n```/g)].map(match => match[1].replace(/\r\n/g, '\n'));
@@ -80,7 +80,7 @@ async function check(target, viewport) {
       await screenshot(page, result, feature.label);
       result.checks.push(`Visible content-specific structure: ${feature.label}`);
     }
-    for (const heading of await page.locator('#reading-body h2, #reading-body h3').all()) {
+    for (const heading of await page.locator('#reading-body h2, #reading-body h3, #reading-body h4, #reading-body h5, #reading-body h6').all()) {
       await heading.scrollIntoViewIfNeeded();
       await expect(heading).toBeInViewport();
     }
@@ -88,6 +88,14 @@ async function check(target, viewport) {
     assert.ok(width.scroll <= width.client + 1, 'Document must not overflow horizontally');
     result.width = width;
     result.checks.push('All section headings reachable; images loaded; document has no horizontal overflow');
+    if (target.chineseLink) {
+      const link = page.locator('#reading-body').locator(`a[href="${target.chineseLink}"]`).first();
+      await link.click();
+      await page.waitForURL(baseUrl + target.chineseLink);
+      await expect(page.getByRole('heading', { level: 1 }).first()).toHaveText(index.pages[target.chineseLink].title);
+      result.checks.push(`Actual Chinese concept link click: ${target.chineseLink}`);
+      await page.goBack({ waitUntil: 'networkidle' });
+    }
     await page.reload({ waitUntil: 'networkidle' });
     await expect(page.getByRole('heading', { level: 1 }).first()).toHaveText(index.pages[config.route].title);
     result.checks.push('Direct route refresh returns the same Chinese page');
@@ -105,10 +113,10 @@ async function check(target, viewport) {
 
 try {
   for (const target of batch.pages) {
-    await check(target, { width: 1440, height: 1000 });
-    await check(target, { width: 390, height: 844 });
+    for (const viewport of target.viewports ?? [{ width: 390, height: 844 }]) await check(target, viewport);
   }
-  report.status = report.pages.length === batch.pages.length * 2 && report.pages.every(page => page.status === 'passed') ? 'passed' : 'failed';
+  const expectedPages = batch.pages.reduce((sum, target) => sum + (target.viewports?.length ?? 1), 0);
+  report.status = report.pages.length === expectedPages && report.pages.every(page => page.status === 'passed') ? 'passed' : 'failed';
 } finally {
   await browser.close();
   report.finishedAt = new Date().toISOString();

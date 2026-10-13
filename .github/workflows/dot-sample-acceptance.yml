@@ -46,6 +46,10 @@ jobs:
         run: npm run page:test 2>&1 | tee "$DOT_EVIDENCE_DIR/page-tests.log"
       - name: Validate learning sources
         run: npm run learning:validate 2>&1 | tee "$DOT_EVIDENCE_DIR/learning-validation.log"
+      - name: Check authored Markdown emphasis boundaries
+        run: |
+          node scripts/markdown-emphasis-audit.mjs $(node -e "console.log(require('./content/zh/manifest.json').pages.filter(p=>p.translationPath).map(p=>p.translationPath).join(' '))") > "$DOT_EVIDENCE_DIR/emphasis-audit.json"
+          node -e "const r=require(process.env.DOT_EVIDENCE_DIR+'/emphasis-audit.json'); if(r.findings) { console.error(r); process.exit(1); }"
       - name: Build existing application
         timeout-minutes: 5
         run: npm run build 2>&1 | tee "$DOT_EVIDENCE_DIR/build.log"

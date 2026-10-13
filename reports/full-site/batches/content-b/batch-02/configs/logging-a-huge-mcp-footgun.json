@@ -1,0 +1,9 @@
+{
+  "route": "/logging-a-huge-mcp-footgun",
+  "source": {
+    "path": "content/source/logging-a-huge-mcp-footgun.md",
+    "sha256": "eef196ed9aa582bbfcc3ab7c3e5761f264461ce4a57c14a83642a71a925a1767"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-02/drafts/logging-a-huge-mcp-footgun.md",
+  "translationPath": "content/zh/logging-a-huge-mcp-footgun.md"
+}

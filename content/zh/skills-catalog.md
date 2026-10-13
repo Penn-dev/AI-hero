@@ -39,3 +39,5 @@ npx skills add mattpocock/skills -y -g
 这份目录放在 [github.com/mattpocock/skills](https://github.com/mattpocock/skills)。如果你打磨出一个真正融入日常工作流程的 Skill，欢迎分享出来。
 
 译注：固定来源正文提到了“下面的每个 Skill”，但取得的文字没有附带逐项列表。本页保留这段原意；完整源代码入口见上方仓库链接。
+
+译注：本页相关中文词条：[Skill](/ai-coding-dictionary/skill)、[智能体](/ai-coding-dictionary/agent)。链接优先打开已接入的中文页；尚未接入时会回到原站英文页。

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-02/configs/mcp-server-from-a-single-typescript-file.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "manifest": {
+        "route": "/mcp-server-from-a-single-typescript-file",
+        "sourceUrl": "https://www.aihero.dev/mcp-server-from-a-single-typescript-file",
+        "sourceHash": "484c19f68976cc4aed0121229976cd80169a147181c2a3239c893bdb8339679a",
+        "translationPath": "content/zh/mcp-server-from-a-single-typescript-file.md",
+        "translationHash": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:21.377Z",
+        "assembly": {
+          "configHash": "ef6e0a310d86791d6819e1439ab5181ba7d51c3e9e03e73e064450277c74df8f",
+          "checkedAt": "2026-10-13T11:56:21.377Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/mcp-server-from-a-single-typescript-file.md",
+          "sha256": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "19801209a10ba17195df670dde097ba65843468e0e67fd13149cb6478d909034"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "bc94653f506b7c6c58062b30ee4dc036e61f93d864f5ee2780cf5e2f435d8849"
+        }
+      ],
+      "rawOutputSha256": "e18fefa5afb151b21369607303056d9f1006d64fa3f3aaf014d8d8ee0f4b07f5"
+    },
+    {
+      "mode": "apply",
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "manifest": {
+        "route": "/mcp-server-from-a-single-typescript-file",
+        "sourceUrl": "https://www.aihero.dev/mcp-server-from-a-single-typescript-file",
+        "sourceHash": "484c19f68976cc4aed0121229976cd80169a147181c2a3239c893bdb8339679a",
+        "translationPath": "content/zh/mcp-server-from-a-single-typescript-file.md",
+        "translationHash": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:21.580Z",
+        "assembly": {
+          "configHash": "ef6e0a310d86791d6819e1439ab5181ba7d51c3e9e03e73e064450277c74df8f",
+          "checkedAt": "2026-10-13T11:56:21.580Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/mcp-server-from-a-single-typescript-file.md",
+          "sha256": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "19801209a10ba17195df670dde097ba65843468e0e67fd13149cb6478d909034"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "68d1026a19b4577642f55403d69a00694a2956b70275f3ae82cc26dcdd3d855f"
+        }
+      ],
+      "rawOutputSha256": "901f8720619fd3c2d2045f6f9d43701be789c8748fd67041fc9e1e4a08f56bb8"
+    }
+  ],
+  "nonTargetPagesPreserved": 27
+}

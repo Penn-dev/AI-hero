@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-02/configs/how-does-the-model-context-protocol-work.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/how-does-the-model-context-protocol-work",
+      "manifest": {
+        "route": "/how-does-the-model-context-protocol-work",
+        "sourceUrl": "https://www.aihero.dev/how-does-the-model-context-protocol-work",
+        "sourceHash": "d1fe112d6c98655fcea48a5ce8e13ad706371ee3305b5c47471fb207ee7da729",
+        "translationPath": "content/zh/how-does-the-model-context-protocol-work.md",
+        "translationHash": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:20.516Z",
+        "assembly": {
+          "configHash": "a5de495cf93843ddb4dae664c30253792924fb38128c29d59f250deffe64038b",
+          "checkedAt": "2026-10-13T11:56:20.516Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-does-the-model-context-protocol-work.md",
+          "sha256": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "8b136353e598b0eea06f21ed80af3a5785df86179229a5e5f17821aab61203c9"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d727a7adb81f897efadb6e3485442f45fff6ea7cd97a0182b1658640d09bf74e"
+        }
+      ],
+      "rawOutputSha256": "40d56a4a64bc0e05274301e0614750ec2594315895a64894d1ac835ba8e736d5"
+    },
+    {
+      "mode": "apply",
+      "route": "/how-does-the-model-context-protocol-work",
+      "manifest": {
+        "route": "/how-does-the-model-context-protocol-work",
+        "sourceUrl": "https://www.aihero.dev/how-does-the-model-context-protocol-work",
+        "sourceHash": "d1fe112d6c98655fcea48a5ce8e13ad706371ee3305b5c47471fb207ee7da729",
+        "translationPath": "content/zh/how-does-the-model-context-protocol-work.md",
+        "translationHash": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:20.743Z",
+        "assembly": {
+          "configHash": "a5de495cf93843ddb4dae664c30253792924fb38128c29d59f250deffe64038b",
+          "checkedAt": "2026-10-13T11:56:20.743Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-does-the-model-context-protocol-work.md",
+          "sha256": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "8b136353e598b0eea06f21ed80af3a5785df86179229a5e5f17821aab61203c9"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "702de835ce1c463b594737b47a7d023d0c3be98f32f05226bb6f989adb0c986b"
+        }
+      ],
+      "rawOutputSha256": "a014af35f40ab9a0b8688e4b3671cddbb9f1f4892c53603db97881691aa0820e"
+    }
+  ],
+  "nonTargetPagesPreserved": 25
+}

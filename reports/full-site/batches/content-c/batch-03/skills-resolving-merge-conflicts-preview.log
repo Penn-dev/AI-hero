@@ -1,0 +1,78 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-03/configs/skills-resolving-merge-conflicts.json
+
+{
+  "mode": "preview",
+  "route": "/skills-resolving-merge-conflicts",
+  "page": {
+    "title": "/resolving-merge-conflicts Skill",
+    "description": "逐块解决 merge 或 rebase 冲突，直到操作完成。",
+    "markdown": "> **已归档。** 这个 Skill 在 v1.3.0 中从插件移除，不再维护。没有替代 Skill：智能体可以直接处理 merge 或 rebase 冲突，不需要专门的 Skill。本页保留供参考。\n\n## 它能做什么\n\n`resolving-merge-conflicts` 会逐块处理正在进行的 Git merge 或 rebase，然后运行项目自己的检查，最后用一次提交完成操作。\n\n译注：Git 用于记录代码修改历史。merge 把不同分支的修改合在一起；rebase 把一组提交重新应用到另一个起点。双方修改了同一部分且 Git 无法判断如何合并时，就会留下冲突，等待处理。\n\n它不会只把冲突当成文字问题。处理任何一个冲突块前，它都会追溯双方的[第一手来源](https://www.aihero.dev/ai-coding-dictionary/primary-source)，包括提交说明、PR 和原始 issue。这样比较的是两种意图，而非两块文字；只要兼容，就会同时保留。如果不兼容，它会选择符合这次合并既定目标的一方，并说明取舍。它不会编造新行为来掩盖冲突，也绝不使用 `--abort`。它总会把合并推进到完成提交。\n\n## 什么时候该用它\n\n输入 `/resolving-merge-conflicts`；任务适合时，[智能体](https://www.aihero.dev/ai-coding-dictionary/agent)也会自动使用它。\n\n当 Git 已因无法自行解决的冲突而停下时，用这个 Skill。它只处理眼前的冲突，不处理冲突前后的其他工作：\n\n| 你的情况 | Skill |\n| --- | --- |\n| merge 或 rebase 进行到一半，工作树中有冲突标记 | 本 Skill |\n| 合并完成，但出现了原因不明的异常行为 | [diagnosing-bugs](https://aihero.dev/skills-diagnosing-bugs) |\n| 规划怎样拆分工作，减少分支之间的冲突 | 两者都不是，见下方关于并行工作的问答 |\n\n译注：以上是归档 Skill 当时的调用方式，并不表示当前插件仍提供它。“工作树”就是当前检出的项目文件。\n\n## 先看第一手来源，再看 `ours` 和 `theirs`\n\n这个 Skill 要防止的，是只靠选项解决冲突：使用 `--ours`、`--theirs`，或手动删除看起来不太重要的一块，让冲突标记消失、构建可以编译。这样的结果可能语法完全正确，却悄悄丢掉别人有意做出的修改。\n\n没读过一种意图，就无法保留它。因此，工作要从历史记录开始，先读提交、PR 和[任务单](https://www.aihero.dev/ai-coding-dictionary/ticket)，再看代码差异。设置检查步骤也是同一个原因。Skill 会找出仓库自己的[自动检查](https://www.aihero.dev/ai-coding-dictionary/automated-check)，在提交前运行，因为合并最容易产生这种代码：表面上兼顾两个分支，却连任何一方的测试都过不了。\n\n## 常见问题\n\n**Claude Code 自己处理冲突就已经不错，为什么还需要 Skill？**\n\n额外价值在于“找到第一手来源”和“运行反馈检查”这两步。没有 Skill，你每次都得手动提醒。未经提醒的智能体通常只根据 diff 做出一个看似合理的解决方案，然后就停下。这个 Skill 不允许跳过两件事：读懂双方修改为什么存在，以及完成后运行检查。相对于一个好的[模型](https://www.aihero.dev/ai-coding-dictionary/model)，增益不大，这是有意为之。至少有一位读者预测，随着模型进步，这整个 Skill 都会变得多余。\n\n**为了从一开始就避免冲突，我应该禁止并行智能体修改同一文件吗？**\n\n大多数情况下，不应该。把文件划给不同并行任务、禁止交叉修改，成本比节省下来的更多。智能体已经足够擅长处理合并冲突，这种取舍没有看上去那么严峻。唯一值得坚持的规则是，先做大型重构。十个分支分出去之后，才落地一次大规模重命名，这种情况依然代价高昂。\n\n有位用户报告了并行工作树的一点注意事项：当同级[会话](https://www.aihero.dev/ai-coding-dictionary/session)各自在独立工作树中完成一张任务单时，最好由写下这项修改的会话负责合回去，因为它已经知道修改意图。如果最后让一个智能体解决所有人的冲突，它就缺少这些[上下文](https://www.aihero.dev/ai-coding-dictionary/context)，于是本 Skill 的第二步还得重新收集。\n\n**为什么绝不用 `--abort`？**\n\n中止操作会丢掉已经完成的冲突处理。下次再尝试时，仍会面对原封不动的冲突。这个 Skill 针对的是已经决定要进行合并的情况。如果你决定不应该合并，应在调用前作出这个决定，而不是把它作为处理循环里的一个分支。\n\n## 出现这些迹象，就说明它在发挥作用\n\n- 智能体处理冲突时，会向你引用提交说明、PR 或 issue，而不只是展示 diff 片段。\n- 每个冲突块最终都保留双方行为，或者明确说明删去了什么、为什么删。\n- 结果中没有出现两个分支原本都没有的新内容。\n- 智能体找到了类型检查、测试和格式检查，并在提交**之前**全部运行通过，而不是等你发现问题才检查。\n- 最终工作树干净，操作完成；如果 rebase 涉及多个提交，也处理完了剩余的每一个提交。\n\n## 它处在什么位置\n\n这是一个随时可用的独立 Skill，不依赖其他 Skill。它从 Git 卡住时开始，到工作树干净、修改提交后结束。唯一真正相邻的是 [diagnosing-bugs](https://aihero.dev/skills-diagnosing-bugs)：合并已经顺利解决，合并后的代码却出现异常时，由它接手，因为那是诊断问题，不是冲突问题。本 Skill 不属于从想法到交付的主要流程；要了解它前后该做什么，可以用 [ask-matt](https://aihero.dev/skills-ask-matt) 查看路线。\n\n译注：本页相关中文词条：[第一手来源](/ai-coding-dictionary/primary-source)、[自动检查](/ai-coding-dictionary/automated-check)。链接优先打开已接入的中文页；尚未接入时会回到原站英文页。",
+    "sourceUpdatedAt": "2026-08-24T09:14:47.195Z",
+    "sourceUrl": "https://www.aihero.dev/skills-resolving-merge-conflicts",
+    "sourceHash": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710"
+  },
+  "manifest": {
+    "route": "/skills-resolving-merge-conflicts",
+    "sourceUrl": "https://www.aihero.dev/skills-resolving-merge-conflicts",
+    "sourceHash": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710",
+    "translationPath": "content/zh/skills-resolving-merge-conflicts.md",
+    "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T11:49:25.482Z",
+    "assembly": {
+      "configHash": "3bc185e111f1c01c9355dd0babc0c6256945b3290b9aa17f5dd1b42be21add65",
+      "checkedAt": "2026-10-13T11:49:25.482Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/primary-source",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/automated-check",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        }
+      ],
+      "staleChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/skills-resolving-merge-conflicts.md",
+      "sha256": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "ef5b44d1af5fa69270f217bad0b63f22698d52bff1be4a07811c5904a82f4dd0"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "327ba770aa742f51c21e54a7dc5270d04a04c686406c1e5736792b48d7c319b3"
+    }
+  ]
+}

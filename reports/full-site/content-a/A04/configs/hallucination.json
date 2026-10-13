@@ -1,0 +1,69 @@
+{
+  "route": "/ai-coding-dictionary/hallucination",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/hallucination.md",
+    "sha256": "4b8d0cbe95e6f7c71907613a69a016178a40a5729ec6aff0372dfc12f558640c"
+  },
+  "chineseFile": "reports/full-site/content-a/A04/drafts/hallucination.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    }
+  ]
+}

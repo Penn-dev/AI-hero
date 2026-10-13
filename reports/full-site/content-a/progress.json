@@ -26,12 +26,36 @@
       "status": "content-reviewed-awaiting-integration-and-browser",
       "checks": "reports/full-site/content-a/A02/checks.md",
       "structureEvidence": "reports/full-site/content-a/A02/structure-validation.jsonl"
+    },
+    {
+      "id": "A03",
+      "routes": [
+        "/ai-coding-dictionary/tool",
+        "/ai-coding-dictionary/tool-call",
+        "/ai-coding-dictionary/tool-result"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A03/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A03/structure-validation.jsonl"
+    },
+    {
+      "id": "A04",
+      "routes": [
+        "/ai-coding-dictionary/memory-system",
+        "/ai-coding-dictionary/prefix-cache",
+        "/ai-coding-dictionary/hallucination"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A04/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A04/structure-validation.jsonl"
     }
   ],
   "next": [
-    "/ai-coding-dictionary/tool",
-    "/ai-coding-dictionary/tool-call",
-    "/ai-coding-dictionary/tool-result"
+    "/ai-coding-dictionary/session",
+    "/ai-coding-dictionary/turn",
+    "/ai-coding-dictionary/model-provider-request",
+    "/ai-coding-dictionary/stateful",
+    "/ai-coding-dictionary/stateless"
   ],
   "note": "Preparation and structural validation do not count as completed localized pages. Integration owner maintains runtime index/manifest and final browser results.",
   "scope": "Dictionary landing page and 70 dictionary terms; Skills transferred to content C by the approved updated assignment."

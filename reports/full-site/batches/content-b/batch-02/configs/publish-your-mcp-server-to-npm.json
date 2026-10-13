@@ -1,0 +1,9 @@
+{
+  "route": "/publish-your-mcp-server-to-npm",
+  "source": {
+    "path": "content/source/publish-your-mcp-server-to-npm.md",
+    "sha256": "a9459952cfa26254258dc360cd31a17e54135a0df93098cad256c2b7e933b28b"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-02/drafts/publish-your-mcp-server-to-npm.md",
+  "translationPath": "content/zh/publish-your-mcp-server-to-npm.md"
+}
