@@ -1,0 +1,563 @@
+{
+  "repository": "Penn-dev/AI-hero",
+  "commit": "cb30755c92ba6d332fce983936dda53703ab9beb",
+  "runId": "38384003445",
+  "node": "v22.23.3",
+  "scope": "Three preserved samples: real page interaction, clipboard, anchors, desktop/mobile layout. Not semantic review or Windows acceptance.",
+  "startedAt": "2026-10-13T10:32:47.111Z",
+  "status": "failed",
+  "pages": [
+    {
+      "id": "system-prompt",
+      "route": "/ai-coding-dictionary/system-prompt",
+      "title": "系统提示词",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "mobile": false,
+      "checks": [
+        "HTTP 200, actual Chinese article, no page overflow, explicit original-page entry",
+        "Term explanation opens and closes: Token",
+        "Independent term link opens a Chinese page: /ai-coding-dictionary/agent",
+        "Both English examples and their Chinese explanations remain visible"
+      ],
+      "clipboard": [],
+      "pageErrors": [],
+      "sameOriginHttpErrors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "system-prompt",
+      "route": "/ai-coding-dictionary/system-prompt",
+      "title": "系统提示词",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mobile": true,
+      "checks": [
+        "HTTP 200, actual Chinese article, no page overflow, explicit original-page entry",
+        "Term explanation opens and closes: Token",
+        "Independent term link opens a Chinese page: /ai-coding-dictionary/agent",
+        "Both English examples and their Chinese explanations remain visible"
+      ],
+      "clipboard": [],
+      "pageErrors": [],
+      "sameOriginHttpErrors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "agents-md",
+      "route": "/a-complete-guide-to-agents-md",
+      "title": "AGENTS.md 完整指南",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "mobile": false,
+      "checks": [
+        "HTTP 200, actual Chinese article, no page overflow, explicit original-page entry",
+        "Term explanation opens and closes: Markdown",
+        "Independent term link opens a Chinese page: /ai-coding-dictionary/agent",
+        "Direct deep link and refresh preserve the heading: 什么是-agents-md"
+      ],
+      "clipboard": [
+        {
+          "label": "Complete Chinese five-step prompt",
+          "chars": 514,
+          "sha256": "413e14fb016a315d1340446c48716edf40a1bf0036b724e45948ce73ecb4065b",
+          "match": true
+        }
+      ],
+      "pageErrors": [],
+      "sameOriginHttpErrors": [],
+      "status": "failed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#什么是-agents-md\"\nReceived: \"#为什么超大的-agents-md-文件是个问题\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" aria-current=\"location\" href=\"#为什么超大的-agents-md-文件是个问题\">为什么超大的 AGENTS.md 文件是个问题</a>\n       - unexpected value \"#为什么超大的-agents-md-文件是个问题\"\n",
+        "stack": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#什么是-agents-md\"\nReceived: \"#为什么超大的-agents-md-文件是个问题\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" aria-current=\"location\" href=\"#为什么超大的-agents-md-文件是个问题\">为什么超大的 AGENTS.md 文件是个问题</a>\n       - unexpected value \"#为什么超大的-agents-md-文件是个问题\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveAttribute (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at currentOutline (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:77:85)\n    at anchorAndRefresh (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:93:9)\n    at async checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:163:7)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:208:5"
+      }
+    },
+    {
+      "id": "agents-md",
+      "route": "/a-complete-guide-to-agents-md",
+      "title": "AGENTS.md 完整指南",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mobile": true,
+      "checks": [
+        "HTTP 200, actual Chinese article, no page overflow, explicit original-page entry",
+        "Term explanation opens and closes: Markdown",
+        "Independent term link opens a Chinese page: /ai-coding-dictionary/agent",
+        "Direct deep link and refresh preserve the heading: 什么是-agents-md"
+      ],
+      "clipboard": [
+        {
+          "label": "Complete Chinese five-step prompt",
+          "chars": 514,
+          "sha256": "413e14fb016a315d1340446c48716edf40a1bf0036b724e45948ce73ecb4065b",
+          "match": true
+        }
+      ],
+      "pageErrors": [],
+      "sameOriginHttpErrors": [],
+      "status": "failed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      },
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#什么是-agents-md\"\nReceived: \"#为什么超大的-agents-md-文件是个问题\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" aria-current=\"location\" href=\"#为什么超大的-agents-md-文件是个问题\">为什么超大的 AGENTS.md 文件是个问题</a>\n       - unexpected value \"#为什么超大的-agents-md-文件是个问题\"\n",
+        "stack": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#什么是-agents-md\"\nReceived: \"#为什么超大的-agents-md-文件是个问题\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" aria-current=\"location\" href=\"#为什么超大的-agents-md-文件是个问题\">为什么超大的 AGENTS.md 文件是个问题</a>\n       - unexpected value \"#为什么超大的-agents-md-文件是个问题\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveAttribute (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at currentOutline (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:77:85)\n    at async anchorAndRefresh (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:93:3)\n    at async checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:163:7)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:209:5"
+      }
+    },
+    {
+      "id": "output",
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "title": "通过 Output 生成对象",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "mobile": false,
+      "checks": [
+        "HTTP 200, actual Chinese article, no page overflow, explicit original-page entry",
+        "Direct deep link and refresh preserve the heading: steps-to-complete"
+      ],
+      "clipboard": [
+        {
+          "label": "请写出一个发生在虚构星球上的故事的第一段。",
+          "chars": 21,
+          "sha256": "e3728571e937450f9c86c43b927c11ea4308c339ffb3540f1859714ae4263369",
+          "match": true
+        },
+        {
+          "label": "关于这个虚构星球的事实。请用科学家的口吻写。",
+          "chars": 22,
+          "sha256": "f60cd8b250a3aa8282e4e64f826bd606134339ccc12b1390e62ee51a27ef63b5",
+          "match": true
+        },
+        {
+          "label": "Original code block 1",
+          "chars": 242,
+          "sha256": "a64c1bf6ad51ae3232bffe64f5fbdfae982d83b143d635788446ccc33796b402",
+          "match": true
+        },
+        {
+          "label": "Original code block 2",
+          "chars": 434,
+          "sha256": "32fbff68040f008387a4b140a2c06259348613eb73a117052320b33a6c92dc35",
+          "match": true
+        }
+      ],
+      "pageErrors": [],
+      "sameOriginHttpErrors": [],
+      "status": "failed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#steps-to-complete\"\nReceived: \"#learning-start\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" href=\"#learning-start\" aria-current=\"location\">学习起点</a>\n       - unexpected value \"#learning-start\"\n",
+        "stack": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#steps-to-complete\"\nReceived: \"#learning-start\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" href=\"#learning-start\" aria-current=\"location\">学习起点</a>\n       - unexpected value \"#learning-start\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveAttribute (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at currentOutline (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:77:85)\n    at anchorAndRefresh (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:93:9)\n    at async checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:191:7)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:208:5"
+      }
+    },
+    {
+      "id": "output",
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "title": "通过 Output 生成对象",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "mobile": true,
+      "checks": [
+        "HTTP 200, actual Chinese article, no page overflow, explicit original-page entry",
+        "Direct deep link and refresh preserve the heading: steps-to-complete"
+      ],
+      "clipboard": [
+        {
+          "label": "请写出一个发生在虚构星球上的故事的第一段。",
+          "chars": 21,
+          "sha256": "e3728571e937450f9c86c43b927c11ea4308c339ffb3540f1859714ae4263369",
+          "match": true
+        },
+        {
+          "label": "关于这个虚构星球的事实。请用科学家的口吻写。",
+          "chars": 22,
+          "sha256": "f60cd8b250a3aa8282e4e64f826bd606134339ccc12b1390e62ee51a27ef63b5",
+          "match": true
+        },
+        {
+          "label": "Original code block 1",
+          "chars": 242,
+          "sha256": "a64c1bf6ad51ae3232bffe64f5fbdfae982d83b143d635788446ccc33796b402",
+          "match": true
+        },
+        {
+          "label": "Original code block 2",
+          "chars": 434,
+          "sha256": "32fbff68040f008387a4b140a2c06259348613eb73a117052320b33a6c92dc35",
+          "match": true
+        }
+      ],
+      "pageErrors": [],
+      "sameOriginHttpErrors": [],
+      "status": "failed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      },
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#steps-to-complete\"\nReceived: \"#learning-start\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" href=\"#learning-start\" aria-current=\"location\">学习起点</a>\n       - unexpected value \"#learning-start\"\n",
+        "stack": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#steps-to-complete\"\nReceived: \"#learning-start\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" href=\"#learning-start\" aria-current=\"location\">学习起点</a>\n       - unexpected value \"#learning-start\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveAttribute (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at currentOutline (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:77:85)\n    at async anchorAndRefresh (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:93:3)\n    at async checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:191:7)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:209:5"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "system-prompt-1440-top.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/system-prompt",
+      "bytes": 132287,
+      "sha256": "d9ff938f0a2ab1241fd995b4c318130e2ffa77b29d1b21b467c35aaf25e442a7"
+    },
+    {
+      "file": "system-prompt-1440-term.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/system-prompt",
+      "bytes": 227007,
+      "sha256": "fd5ae8a7c866b50cb28b9b08a0873661037d2538637a103bb69423d8fd334c49"
+    },
+    {
+      "file": "system-prompt-1440-examples.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/system-prompt",
+      "bytes": 226925,
+      "sha256": "002e3667a1a61350dfa87606ffa55a03e602ec3f8c93878b04fa51a95262300e"
+    },
+    {
+      "file": "system-prompt-1440-second-example.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/system-prompt",
+      "bytes": 141683,
+      "sha256": "e41ca1df2479bbb2c492020b23a1085e8d0a143f857d0b98ad0c474c39679f36"
+    },
+    {
+      "file": "system-prompt-390-top.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/system-prompt",
+      "bytes": 81377,
+      "sha256": "8950e71055efc524047a170702c818de2ca516ac326dfeca6939ba45c26ecd4c"
+    },
+    {
+      "file": "system-prompt-390-term.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/system-prompt",
+      "bytes": 115793,
+      "sha256": "37e4a8eb1f88f9bd4f9a1b181a88a46c46945cf4fe4f803b4a16fc186d6720a0"
+    },
+    {
+      "file": "system-prompt-390-examples.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/system-prompt",
+      "bytes": 87352,
+      "sha256": "dc5c28f17d1ab4bf8e715e3400e32b918c04c89928f92ac69a3332ac8b4f2db1"
+    },
+    {
+      "file": "system-prompt-390-second-example.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/system-prompt",
+      "bytes": 85981,
+      "sha256": "93d4ef310b81df96eca296e03a8f9e2bdaf5aa2f912dc53f144048d9a979f668"
+    },
+    {
+      "file": "agents-md-1440-top.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md",
+      "bytes": 158118,
+      "sha256": "2d0673b4ab8008e4643843205ddc6c9f42d62b3593d7e851f959cac495cf5c5b"
+    },
+    {
+      "file": "agents-md-1440-term.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md",
+      "bytes": 203844,
+      "sha256": "1110772a5b7d21eac5305c0e89f68fc014c5d6b2749b9f6f3c559fda81cdb3cb"
+    },
+    {
+      "file": "agents-md-1440-CLAUDE-md.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md",
+      "bytes": 227163,
+      "sha256": "88f75773e198295616b748725fb7e9fd0a9f60d02204ecff78b9b41b96622fca"
+    },
+    {
+      "file": "agents-md-1440-Corepack.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md",
+      "bytes": 172796,
+      "sha256": "171b5090cdfc1316ae8fa2df6342b6c88e7519537cddb830f9f283ab73372dc3"
+    },
+    {
+      "file": "agents-md-1440-prompt.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md",
+      "bytes": 189677,
+      "sha256": "3001669b0a80588c26c909b73a66bbdeccf13c8b2d50a5f72a6c97e5c58113ca"
+    },
+    {
+      "file": "agents-md-1440-anchor.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md#%E4%BB%80%E4%B9%88%E6%98%AF-agents-md",
+      "bytes": 235902,
+      "sha256": "afb06d38243a5826a713235e796137ea2c72f32a1d14e8163c8517263b4b281f"
+    },
+    {
+      "file": "agents-md-1440-failure.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md#%E4%BB%80%E4%B9%88%E6%98%AF-agents-md",
+      "bytes": 235411,
+      "sha256": "12b22899103e0dc71205644369a04408db23c074552a355774a0dd6535935c6b"
+    },
+    {
+      "file": "agents-md-390-top.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md",
+      "bytes": 76088,
+      "sha256": "734e55aaebbe489fa4dafd21be375df4f6ff8633c5bcae747bc09ff1d2daae4a"
+    },
+    {
+      "file": "agents-md-390-term.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md",
+      "bytes": 96021,
+      "sha256": "6e8f3afa053cff377f0ed05aca86c6a5ab746010c78c14eccc68b5cd38e783f4"
+    },
+    {
+      "file": "agents-md-390-CLAUDE-md.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md",
+      "bytes": 79572,
+      "sha256": "fb42845c3458a8c20a3de96b0c3d570090299bdc8b51ace83c9788accfec7101"
+    },
+    {
+      "file": "agents-md-390-Corepack.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md",
+      "bytes": 64349,
+      "sha256": "c23a6608213bfc89cf83c9264cf208a9e138ec773a9d73a68dd2d7181654c6e4"
+    },
+    {
+      "file": "agents-md-390-prompt.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md",
+      "bytes": 64601,
+      "sha256": "dbce980022b9ce563d42fe84bbb930f28b9386b66b046be377c671dcc02a5dac"
+    },
+    {
+      "file": "agents-md-390-anchor.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md#%E4%BB%80%E4%B9%88%E6%98%AF-agents-md",
+      "bytes": 116675,
+      "sha256": "21c1b8fbdf18a9976e75b0be1610765d3862ef9bb179b0355fe5fcbda13e9e8d"
+    },
+    {
+      "file": "agents-md-390-failure.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/a-complete-guide-to-agents-md#%E4%BB%80%E4%B9%88%E6%98%AF-agents-md",
+      "bytes": 76523,
+      "sha256": "d54805abbbde26f2f2585bfedb28ef3bd2a62f77f01f5031aa09c109be6df9c1"
+    },
+    {
+      "file": "output-1440-top.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "bytes": 157494,
+      "sha256": "2caf11e4fc0eb5f652bb72c8f9e7af1bfacf49ec74697d3d02baa19eabc701ee"
+    },
+    {
+      "file": "output-1440-resources.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "bytes": 131705,
+      "sha256": "02c5ed31bf7dc1585b1d0a8423ffaed7136bcc25b3d9cab57896d5a149b13fdf"
+    },
+    {
+      "file": "output-1440-code.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "bytes": 174889,
+      "sha256": "ae03de8cccc346d8d014d43dfd73801b5b082e44d2398b6d25db2791a29bc630"
+    },
+    {
+      "file": "output-1440-anchor.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k#steps-to-complete",
+      "bytes": 112115,
+      "sha256": "e4af06c660da650a723706c39514cb0e49824c75c285a876c3dc77c1f4e18890"
+    },
+    {
+      "file": "output-1440-failure.png",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k#steps-to-complete",
+      "bytes": 112115,
+      "sha256": "e4af06c660da650a723706c39514cb0e49824c75c285a876c3dc77c1f4e18890"
+    },
+    {
+      "file": "output-390-top.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "bytes": 81672,
+      "sha256": "c4cf121ec9641539e2faef3b26ba04537ee278c96537e9bd99818efe3ae51d85"
+    },
+    {
+      "file": "output-390-resources.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "bytes": 86175,
+      "sha256": "1b023dc356108b5617f39c3fbd04f2301b3c68d2a38df8363dea76e7062451f9"
+    },
+    {
+      "file": "output-390-code.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "bytes": 82589,
+      "sha256": "fa0765992d3ec998fe1c56b4e6c9d14cef41d3ab9919c97af96e9e1083fd56e6"
+    },
+    {
+      "file": "output-390-anchor.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k#steps-to-complete",
+      "bytes": 52711,
+      "sha256": "950580f0d08309baa0c38cc382c0d4cd20fa52bea2a46773ab214830970a79d2"
+    },
+    {
+      "file": "output-390-failure.png",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k#steps-to-complete",
+      "bytes": 78142,
+      "sha256": "8182b217f0abcc9d959c02917937f7a5b33715e921afef2dff5827b1ddb35915"
+    }
+  ],
+  "browser": {
+    "name": "Chromium",
+    "version": "156.0.8078.4",
+    "playwright": "1.64.0"
+  },
+  "finishedAt": "2026-10-13T10:33:22.601Z"
+}
