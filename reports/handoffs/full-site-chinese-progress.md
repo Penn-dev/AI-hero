@@ -26,6 +26,10 @@
 
 主代理已补充 `.gitattributes` 的 `content/** -text`，保留记录哈希的内容文件字节。实测此前 `git cat-file --filters HEAD:content/source/index.md` 会因系统 `core.autocrlf=true` 转成 CRLF，哈希从 `47866d18…` 变为 `3f6e77ba…`；补充规则后对首页源文、AGENTS.md 源文及既有中文稿逐一验证，Git 取出字节均与原文件一致。此修正避免工作树合并和后续 checkout 破坏哈希。
 
+来源同步的 Markdown 阶段取得 114/195 个候选，剩余正在从公开 HTML 核对恢复，尚未固定最终范围。主代理真实浏览器抽查系统提示词正文与 11 个术语链接，和恢复稿对应正文一致；证据见[来源页面抽查](E:/dev/projects/AIHero/reports/full-site/source-browser-system-prompt.json)。这不是译稿或全站验收。GitHub #1 已更新为实施中，所有任务仍开放。
+
+浏览器连接：Kimi Browser Extension 已启动并连通，地址 `127.0.0.1:10086`，本任务 session `aihero-local-delivery`、标签组「AI Hero 本地交付」。已打开官方 system-prompt 原页。按需复用，不自动升级；用户未要求关闭标签组。
+
 待后续处理的已确认点：`app/page.tsx` 使用固定展示文案，没有读取中文索引；#5 应制作固定来源的 `/` 页面，#6 核对首页实际渲染与全站入口。旧本地预览状态指向 2026-09-22 的 PID 24812；本次检查无该进程及 4321/5173 监听，不据此终止任何程序。
 
 ## 子代理方案与授权
