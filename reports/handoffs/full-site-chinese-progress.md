@@ -7,7 +7,7 @@
 - 规格：[GitHub #1](https://github.com/Penn-dev/AI-hero/issues/1)、[本地规格](E:/dev/projects/AIHero/docs/specs/full-site-chinese.md)。
 - 任务：[任务入口](E:/dev/projects/AIHero/docs/specs/full-site-chinese-tickets.md)。依赖：#2、#3 → #4 → #5 → #6。
 - 实施分支：`codex/full-site-chinese`；起点：`f61f0d5`（原 `main`）。
-- 当前已整合实现：`81cc249`；[草稿 PR #7](https://github.com/Penn-dev/AI-hero/pull/7)，未合并、未部署。
+- 当前已整合实现：`c192ec9`；[草稿 PR #7](https://github.com/Penn-dev/AI-hero/pull/7)，未合并、未部署。
 - 已核对并原样保留初始未提交文件：`CONTEXT.md`、`docs/specs/full-site-chinese.md`、`docs/specs/full-site-chinese-tickets.md`、`reports/knowledge-foundation/work-order-review.md`。
 - GitHub 组件已成功读取 #1–#6，均开放且无评论；继续使用组件，不依赖失效的 gh 登录。
 
@@ -15,7 +15,7 @@
 
 | 任务 | 状态 | 下一步 |
 | --- | --- | --- |
-| #2 来源与规范 | 链接提取返修中，已重开 | `627b3f2` 已合入；固定 195 页不变，从保存 HTML 离线修正含空格链接 |
+| #2 来源与规范 | 离线修正已完成并整合 | `aaeebfe` → `c192ec9`；77 个完整 URL 修正，195 份字节哈希一致 |
 | #3 安全接页 | 定向返修中，已重开 | `b3a268c` 已合入，33 项测试/构建通过；新 Output 相对资源校验问题见下文 |
 | #4 三类样本 | 内容 A 执行中 | 从 `81cc249` 开始，逐节核对三篇，修订、接页并真实检查页面 |
 | #5 全站制作 | 等待 #4 | 按固定来源分配完整文章批次，保存每篇五项检查 |
@@ -40,6 +40,8 @@
 浏览器连接：Kimi Browser Extension 已启动并连通，地址 `127.0.0.1:10086`，本任务 session `aihero-local-delivery`、标签组「AI Hero 本地交付」。已打开官方 system-prompt 原页。按需复用，不自动升级；用户未要求关闭标签组。
 
 待后续处理的已确认点：`app/page.tsx` 使用固定展示文案，没有读取中文索引；#5 应制作固定来源的 `/` 页面，#6 核对首页实际渲染与全站入口。旧本地预览状态指向 2026-09-22 的 PID 24812；本次检查无该进程及 4321/5173 监听，不据此终止任何程序。
+
+2026-10-13 闪退恢复：主分支、来源提交和两个工作树未提交成果全部保留；同三名代理已恢复，模型/职责授权不变。来源修正已无冲突整合为 `c192ec9`，合并树与目标提交相同，195 来源字节哈希通过；5 项提取回归、77 个完整 URL 解析、14 个代码原块未变。来源分配清单已刷新 manifest 哈希。工程新增两项修复在其工作树待提交；三篇样本正文已检查，接页和真实页面检查继续。
 
 ## 子代理方案与授权
 
