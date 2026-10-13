@@ -72,6 +72,12 @@ async function independentTermLink(page, result) {
   await expect(page.getByRole('heading', { level: 1 })).toHaveText(samples.find(sample => sample.id === result.id).title);
 }
 
+async function currentOutline(page, result, id) {
+  if (result.mobile) await page.locator('#mobile-contents-trigger').click();
+  await expect(page.locator('.article-outline:visible a[aria-current="location"]')).toHaveAttribute('href', '#' + id);
+  if (result.mobile) await page.keyboard.press('Escape');
+}
+
 async function anchorAndRefresh(page, result, explicitId) {
   const heading = explicitId ? page.locator(`[id="${explicitId}"]`).first() : page.locator('#reading-body h2[id]').first();
   const id = await heading.getAttribute('id');
@@ -84,6 +90,17 @@ async function anchorAndRefresh(page, result, explicitId) {
   await expect.poll(async () => Math.abs(await heading.evaluate(element => element.getBoundingClientRect().top))).toBeLessThan(180);
   result.checks.push(`Direct deep link and refresh preserve the heading: ${id}`);
   await screenshot(page, `${result.id}-${result.viewport.width}-anchor.png`, result);
+  await currentOutline(page, result, id);
+  result.checks.push(`Visible contents highlight matches the refreshed heading: ${id}`);
+  const next = page.locator('#reading-body h2[id]').last();
+  const nextId = await next.getAttribute('id');
+  assert.ok(nextId && nextId !== id, 'A second section is required for the ordinary-scroll check');
+  const offset = await next.evaluate(element => element.getBoundingClientRect().top - 70);
+  await page.mouse.wheel(0, offset);
+  await expect.poll(async () => Math.abs(await next.evaluate(element => element.getBoundingClientRect().top) - 70)).toBeLessThan(20);
+  await currentOutline(page, result, nextId);
+  result.checks.push(`Ordinary page scrolling updates the contents highlight: ${nextId}`);
+  await screenshot(page, `${result.id}-${result.viewport.width}-scrolled-section.png`, result);
 }
 
 async function checkSample(sample, viewport, mobile) {
@@ -118,6 +135,12 @@ async function checkSample(sample, viewport, mobile) {
       result.checks.push('Both English examples and their Chinese explanations remain visible');
       await page.locator('#reading-body blockquote').first().scrollIntoViewIfNeeded();
       await screenshot(page, `${sample.id}-${viewport.width}-examples.png`, result);
+      const secondExample = page.locator('#reading-body blockquote').filter({ hasText: "Different system prompts. One's tuned for terse code edits" });
+      await secondExample.scrollIntoViewIfNeeded();
+      await expect(secondExample).toBeVisible();
+      const secondChinese = page.locator('#reading-body p').filter({ hasText: '因为系统提示词不同。一个侧重简洁地修改代码' });
+      await expect(secondChinese).toBeVisible();
+      await screenshot(page, `${sample.id}-${viewport.width}-second-example.png`, result);
     }
     if (sample.id === 'agents-md') {
       await glossary(page, result, 'Markdown');
@@ -144,6 +167,13 @@ async function checkSample(sample, viewport, mobile) {
       const solution = page.locator('#reading-body a').filter({ hasText: '解答入口（原站，未取得正文）' });
       await expect(solution).toHaveAttribute('href', 'https://www.aihero.dev' + sample.route + '/solution');
       await expect(solution).toHaveAttribute('target', '_blank');
+      const sourceNote = page.locator('.source-note');
+      await sourceNote.scrollIntoViewIfNeeded();
+      await expect(sourceNote).toBeVisible();
+      const lowerSolution = page.locator('#reading-body a').filter({ hasText: '通过 Output 生成对象：解答入口（原站）' });
+      await expect(lowerSolution).toBeVisible();
+      await expect(lowerSolution).toHaveAttribute('href', 'https://www.aihero.dev' + sample.route + '/solution');
+      await screenshot(page, `${sample.id}-${viewport.width}-resources.png`, result);
       const texts = ['请写出一个发生在虚构星球上的故事的第一段。', '关于这个虚构星球的事实。请用科学家的口吻写。'];
       for (const text of texts) {
         const figure = page.locator('figure.code-frame').filter({ has: page.locator('pre code').filter({ hasText: text }) }).first();
