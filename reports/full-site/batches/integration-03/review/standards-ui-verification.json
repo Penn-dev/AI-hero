@@ -1,0 +1,1223 @@
+{
+  "candidate": "d41b9a8703917c0eef4c0891703ad70e97e2e46a",
+  "runId": "38398534538",
+  "artifactId": 11812858630,
+  "zipSha256": "0bce7ca0eefe2fe77f6e34f56d3b7fa5a172280f9f7daf00a805bd44c04da0c5",
+  "viewports": 62,
+  "passedViewports": 61,
+  "actualCopyMatches": 10,
+  "conceptClicks": 61,
+  "dictionaryTermClicks": 71,
+  "anchorColdOpenAndRefreshGroups": 14,
+  "screenshots": [
+    {
+      "file": "ai-coding-dictionary-model-provider-request-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider-request",
+      "sha256": "e5902de8b090ce7c38fded330be508b1ff461072997a2b57d9de0907830df0cc",
+      "bytes": 101142,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-model-provider-request-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider-request",
+      "sha256": "577fdd93bbd957e6c0c9ce13f7ccf0943c1e1790bef26b41aaf8e0af225aa8c4",
+      "bytes": 67792,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-model-provider-request-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider-request",
+      "sha256": "9aeed21c6d45a7d7396aa129658bbecb1ea47903c6a45857408bb67c650abb21",
+      "bytes": 79175,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-session-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/session",
+      "sha256": "99b7cb5558f3741731ec12b35eebf1830fac2e291d49588ddfae8da634456082",
+      "bytes": 103393,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-session-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/session",
+      "sha256": "bf01baafe813f809509eedc913b8a61e26ca0f06ece33596f9a50ea12915e1b1",
+      "bytes": 113190,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-stateful-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateful",
+      "sha256": "db2a6a71ae5454fb4ac0daa709747f35c8352231cccd6f7efaa3606dd7f1eeb4",
+      "bytes": 101947,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-stateful-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateful",
+      "sha256": "8c9caf458ac99454bfaf81f08b872cd21eccafbfe8a7b1348afed27007f94023",
+      "bytes": 108656,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-stateful-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateful",
+      "sha256": "9be70a72191598fd1c8ad814da4b1c4e93d7e292b270bf5baeedf8ee00d3f3ef",
+      "bytes": 107395,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-stateless-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateless",
+      "sha256": "cfeed20ad2ff873117c04c85d27ddfbfc3101b918a45691114c1c9dbc1f81fe4",
+      "bytes": 102336,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-stateless-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateless",
+      "sha256": "09737b0da3b606f7cd76b0da4eaae79f7deb701e197544d5a3827fa81c2de4ed",
+      "bytes": 110754,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-turn-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/turn",
+      "sha256": "7c5786e9b6e4f45c74b272f33af5de8675c7db56a946592226dd247d40604523",
+      "bytes": 101158,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-turn-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/turn",
+      "sha256": "65e9ad25efbb46ae0bd07672b80697ee751b4205a61f0bc69ffeb29104fbf7f1",
+      "bytes": 108151,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-agents-md-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agents-md",
+      "sha256": "4e2f81f0987b0924fee059111d08e0075afededaf2160201a0bdd7e08c13d4ea",
+      "bytes": 94329,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-agents-md-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agents-md",
+      "sha256": "dc3d0be64168ecae38aec6b6dbd45102bea83f7a4d93e14430e5c463a5d6b9d6",
+      "bytes": 109292,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-context-pointer-390-failure.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/context-pointer",
+      "sha256": "68c398d052d21cd5d371f3c44eda693da77782f7c62105f39d0d80d1fa128016",
+      "bytes": 90351,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-environment-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/environment",
+      "sha256": "ea8e7d7146c8a5e97dace484369a93a9d702f6783411bdcdf4a98e15d2002965",
+      "bytes": 109532,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-environment-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/environment",
+      "sha256": "6800f14496e018194e09fdc34c0d460b159eac2fd9200523ad36319ace14a62a",
+      "bytes": 120794,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-filesystem-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/filesystem",
+      "sha256": "42167ad2f819d31c5f04bdd3ac9124ea6d0a1b397af6c02518899a28f391d42c",
+      "bytes": 104141,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-filesystem-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/filesystem",
+      "sha256": "00aba04314f941cde74fce972fb8df2e5c9ccdfa75afe4125647d30eed3479f3",
+      "bytes": 99576,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-skill-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/skill",
+      "sha256": "0b65c1f5f3886ad6c297505f7ac3c258b8ff714bcd4acd77050788064a7b36bb",
+      "bytes": 102443,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-skill-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/skill",
+      "sha256": "c1e63b79046673d4dcdb2da953d348437a178b7f4c58c2138e7dc83443530876",
+      "bytes": 108856,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ai-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ai",
+      "sha256": "c481b4ad4caa689f79302dc335432daf411edfdebe35f4dac2259c8920b5d2a0",
+      "bytes": 107898,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ai-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ai",
+      "sha256": "7a4dea51ad8a4d674af3b861958ad7edf4c2dfff36dd47807fbe957fa8e82c37",
+      "bytes": 83071,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ai-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ai",
+      "sha256": "95e9d128275c1f5cbfc8170e58775f10d9f3d476fc0eb4b71bab620e2c2a4955",
+      "bytes": 93111,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-inference-1440-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "8dd7019d786fccb935ecc7545d1d53f7c25aa2c3dd1c3c5de9d88a27c8ccc6d5",
+      "bytes": 137807,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-inference-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "632dd49f0f29c327ee39ec1fea3ff3a30e22b04aa7efe1476a49f2b79d236e01",
+      "bytes": 212844,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-inference-1440-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "08c82cda2ef1dc11b80fefdc92be081a2f1a2040fc01771bc4c54e6a6e2dc397",
+      "bytes": 212844,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-inference-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "8abc790ecc46252ff32fdf690838ff41cd80aea04d26d49a3969c25fde4a5caf",
+      "bytes": 106851,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-inference-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "e70b264f8a2148b9f88d5d0de23d87bdd8df4b9a800cf76aabe305a08f40ef6c",
+      "bytes": 100194,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-inference-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "a8dd8cc9e47374fde5d078c50d07cf1ffdbdba0def87ba72c89aa8dec0ea786e",
+      "bytes": 100061,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-model-provider-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider",
+      "sha256": "e18010e5cae0e638ff10c808d25aed74cfd0466c2a6a79292d79fe04eb8a82cd",
+      "bytes": 104414,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-model-provider-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider",
+      "sha256": "ebb5915feb10b650b7b70fff2484689c0b9fe46fabcafca6988c48b42c0bfa1a",
+      "bytes": 104379,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-parameters-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/parameters",
+      "sha256": "328075b10288af013e8419ff0d5710c7ac9bd73117d9e78ab191e8c6f3a4acce",
+      "bytes": 105234,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-parameters-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/parameters",
+      "sha256": "4ef18723a9a902a36dcf8cf0e9a9327c028bf2f70665279008702f0f932d0f0a",
+      "bytes": 104530,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-training-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/training",
+      "sha256": "40407dd93a12dd8c0b4ea88b6f19962820bdba60aad07054424c85c6ebeeab48",
+      "bytes": 97046,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-training-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/training",
+      "sha256": "2acde77e3db0091ff6cde7378b919621b53daa2726b814a426c6d09915e354a8",
+      "bytes": 112256,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-1440-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "db25a636ab1610636b6711f6c13d051a8d444e05f4d844c42b188c406f0e952b",
+      "bytes": 139960,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "8a33eb1a6913f0ad4dfe9053000e51e2b94c5bf854216823f3836280e954d523",
+      "bytes": 265271,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-1440-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "9739d6e07fcbfc782dc31da08931fd717d665d11620910d600ab1979900cd781",
+      "bytes": 266529,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "58f5e15dd6d3df9c1b679386db9fa71f6dc00527c2b91d0a25a291772172fa5b",
+      "bytes": 103593,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "df1d332f332db9b294e39aa47841ab9eeb1a14ca2634862583d9b59ebe39845c",
+      "bytes": 92470,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "e5575b1827cd0d984f37c6e9794885c981e8050faf787530f29c28226ee2bc28",
+      "bytes": 93870,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-effort-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/effort",
+      "sha256": "14c2fbd33e7aff388003e2fa88296be6213ccb735ef9a6def951c375769de1c0",
+      "bytes": 97568,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-effort-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/effort",
+      "sha256": "e39416844152c0e8a179fb413965c414c08dec728ce2e1beb17d477862d64438",
+      "bytes": 102500,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-effort-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/effort",
+      "sha256": "66c32e9b2b2dc0f076b8c4328a0dd3f341d14479e906a3d7ca8af1de39e5b5f7",
+      "bytes": 102502,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-input-tokens-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/input-tokens",
+      "sha256": "40fba87369888f2728d2ca375a720b2ec4da75423b79609e423ced2f7ff1e0c8",
+      "bytes": 98022,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-input-tokens-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/input-tokens",
+      "sha256": "3dfc3603869f50c78630f01ffeb4eb790af0a1a3086f1ff3830e678fc6b25cf1",
+      "bytes": 106799,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-next-token-prediction-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/next-token-prediction",
+      "sha256": "d0070b5ba5bf02da055756acaf5e37340120a3bbfc9249433198168822a68310",
+      "bytes": 98431,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-next-token-prediction-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/next-token-prediction",
+      "sha256": "a2d7fa68cd3dd3c700f179408dcfc284e4da8d51b913e3e1d2ed0f1ec5bbe21d",
+      "bytes": 100314,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-non-determinism-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/non-determinism",
+      "sha256": "3b2daa61a5e62430c40dca4d66d46b93da1192d24a053f27f88e3b070b4244bb",
+      "bytes": 94089,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-non-determinism-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/non-determinism",
+      "sha256": "55c4863ea457e7fb82c7a8dbcec36562f299cb57c71f2ce8f0f72913ceaad2d6",
+      "bytes": 107278,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-output-tokens-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/output-tokens",
+      "sha256": "227318082b74511d793bd05e9af851f88d601197175714d12f0b035ab92c6c4c",
+      "bytes": 108881,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-output-tokens-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/output-tokens",
+      "sha256": "d37ddaeb6532d69bdabb864974c87ccc153c3224c09aa60afb6ad9c3b1001397",
+      "bytes": 111654,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-attention-budget-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-budget",
+      "sha256": "a5717336c4b546d1eedf1cc39a08123b577f33a9c20262a4e5070e79dfe3ed36",
+      "bytes": 97720,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-attention-budget-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-budget",
+      "sha256": "2267273be963e708a5237d5c65fb19db026c3b7213f8ddbd89badd8afe44aa93",
+      "bytes": 98272,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-attention-degradation-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-degradation",
+      "sha256": "ddfa72746130c8a18a1394506a6925fb0eece7d6ad1b01b6eec0d44e7def33ef",
+      "bytes": 104787,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-attention-degradation-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-degradation",
+      "sha256": "d16ec93b85f4480239a240b0290a5ba9ed79decbfc34f430d8e0412848572e6e",
+      "bytes": 104250,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-attention-relationship-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-relationship",
+      "sha256": "92c86632fd21ee8fb9b4c6d56e36b55c05cae69425316d87668b3bc03e8b6aeb",
+      "bytes": 97897,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-attention-relationship-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-relationship",
+      "sha256": "fe326b69e1d4e1a3c6bc7cbcd7e268483c0b9890bd5e959e97698d7457d4d795",
+      "bytes": 107101,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-attention-relationship-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-relationship",
+      "sha256": "35a23d60803607b4c7b1e88e92a8b7c4c0cfbf97a074af4934abc767b5dd23ea",
+      "bytes": 106955,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-smart-zone-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/smart-zone",
+      "sha256": "1a253c649def3d5895278ac23324fde1ce278532f4d3cb180de73d78c71a4187",
+      "bytes": 96231,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-smart-zone-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/smart-zone",
+      "sha256": "d8239a30a35060093cca5aa7cb596544d3cd29687b79a005bdb85d45f377fcdf",
+      "bytes": 101831,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-autocompact-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/autocompact",
+      "sha256": "9aeab18ee7a77003c6d1cd526ffb51e3a01add9ee5ccbd55ba3f9b9605c25dc2",
+      "bytes": 103995,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-autocompact-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/autocompact",
+      "sha256": "c35ea8304a91ff120169663edf3df666c3be4c2f8a9660b729c8ada5249859d7",
+      "bytes": 101410,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-clearing-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/clearing",
+      "sha256": "88cb31d5e25289eff0bb13cea7ba6fcf2113f719f96b8933629c9ebc4034a8ce",
+      "bytes": 91043,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-clearing-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/clearing",
+      "sha256": "04a6625cd81cad0da5a3b55c4b7fe881f9813101a743c3ac23e42aef55f3cd14",
+      "bytes": 98100,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-compaction-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/compaction",
+      "sha256": "3031e076c3a2937c40f0da68710d21b54bd19bc2f61785e4ca2f0cd840910443",
+      "bytes": 98199,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-compaction-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/compaction",
+      "sha256": "0cd2e1d22c20c6371b515bb4a7ab81d5fd28b24737677329952096fc79d61a11",
+      "bytes": 108292,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-artifact-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff-artifact",
+      "sha256": "e2cb90543cfe185cc5551e2462c80d78d87caee9464c59d4db9172a359bf0e72",
+      "bytes": 96873,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-artifact-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff-artifact",
+      "sha256": "e3cc4890b887bbe70e1dc619cec735085cb424af045514388774f62e362187f7",
+      "bytes": 98476,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff",
+      "sha256": "328d67b5c985f1dc7a8a5a764e9c85f14ecb31ae8c7762342988217797538b84",
+      "bytes": 89836,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff",
+      "sha256": "79716c6698fb6f4bc70b1f9cab89c10695c999cc01099a382ce6d026006df095",
+      "bytes": 116168,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff",
+      "sha256": "20fe1ea7bccd344498c670dd68a804d5193f21b74785e30506405f05b0367b03",
+      "bytes": 116941,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-contextual-knowledge-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/contextual-knowledge",
+      "sha256": "aa93c841d01d9da57abc1e38d753bc4a34ea5dbe21da22030087aeaef9d108bf",
+      "bytes": 96880,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-contextual-knowledge-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/contextual-knowledge",
+      "sha256": "66407a46afbcb1ae0fb128b60f1ef4b75fd5c4b7a2f68980f73ec0706c0d5ef8",
+      "bytes": 98907,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-knowledge-cutoff-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/knowledge-cutoff",
+      "sha256": "a31892a105f945d1b5cbdb0d5244df5015f04edf0ad1af87f15ddb6252d57b71",
+      "bytes": 97996,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-knowledge-cutoff-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/knowledge-cutoff",
+      "sha256": "b42c8e9e8ac15445e69f9925702123f9527be10b1c0fc7f7af1cf2e2810085c6",
+      "bytes": 101309,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-parametric-knowledge-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/parametric-knowledge",
+      "sha256": "1cbb05eaf8cee939e1cdc7a7ce269f724f295399e05d2380a647c42e401faf02",
+      "bytes": 109021,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-parametric-knowledge-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/parametric-knowledge",
+      "sha256": "d0b7c93e47bf5a37bafd92508100d46af71359cbaa2e65bfcd3fe60383228785",
+      "bytes": 102090,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-primary-source-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/primary-source",
+      "sha256": "7679779ed67470e54b2983452f89a3a7055d76551ab862ad8d3bba3f1f1887d2",
+      "bytes": 98560,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-primary-source-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/primary-source",
+      "sha256": "47fec6b8d8b6c46bf28b8551e21285458938531d48f7ba231c7d3ee442e24ee9",
+      "bytes": 107620,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-secondary-source-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/secondary-source",
+      "sha256": "df1eac7ca8713ba3044850493fe3985a7f37f83b7ac7f50a685b6ea561055bf4",
+      "bytes": 107962,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-secondary-source-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/secondary-source",
+      "sha256": "db041d71eae8d3628473acedf7658159e5f12c4ccd196378251fde705c46b7ca",
+      "bytes": 96970,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-sycophancy-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sycophancy",
+      "sha256": "0924bd05d1bf05ae0c4645341e66b6721ab1ee77d6f32a5397bdf6f95a57d606",
+      "bytes": 106504,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-sycophancy-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sycophancy",
+      "sha256": "3f587c1beb6a62a7a276ba4f9d6103853b15237ec0d31cd63fddb0989a92420e",
+      "bytes": 73935,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-agent-mode-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agent-mode",
+      "sha256": "2c57ef1019f014f6be20058f01c625bbd3ded80b63b36d2aa21a89dbb87cbb02",
+      "bytes": 85185,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-agent-mode-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agent-mode",
+      "sha256": "d901eb18d8dfde7243236014d3087d96714677655a7af28ed689643aaa2bf4f1",
+      "bytes": 104425,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-mcp-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/mcp",
+      "sha256": "e735c1902b4c0e689456f79b1848d8b2496ee322b4496ddd29a762ca29b75804",
+      "bytes": 100691,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-mcp-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/mcp",
+      "sha256": "4059cf49cb316afc39e4f30141c0043be4f7f64b9e8c57ee4f7f940178c4639b",
+      "bytes": 103088,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-1440-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "97aaddc4e67de65ee4af61eb3207fac85bfe1412e61baad79ccf3790286544ee",
+      "bytes": 141083,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "a2f81d8cc4db11d1dc01be634d11e98612c089d0e5fdb49fd7214b73c8f2095f",
+      "bytes": 204218,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-1440-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "343c2b594485f853718123c8137ab6b8eb66113ace286b1130f982b527280e50",
+      "bytes": 204217,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "4fd7184cee053505495e93ecdf87075f0e7bc0bd7b8eb28779f655b9f3343d33",
+      "bytes": 106070,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "972fa1bdbfcc05480b251259b20160ff96462c18897147dfd2d6036b8892eccc",
+      "bytes": 98371,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "4fa228674995ac5a1b013202ef512041362556181419470794aaf9609d806edf",
+      "bytes": 98415,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-request-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-request",
+      "sha256": "b623d1dc08d6739be355b5dba38a24cb27027744ce9189d80ca7efd67034a0a1",
+      "bytes": 104191,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-request-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-request",
+      "sha256": "5f071f3c0714e8b5a07ffea0b0862f34883f4d03d0c5832bf829d739e6bbb549",
+      "bytes": 92209,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-request-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-request",
+      "sha256": "36379d3c6e23545ff86e13873eab007bcac574d82ccba3b6f90b01dc4151993e",
+      "bytes": 92494,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-sandbox-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sandbox",
+      "sha256": "b73ae1a30dbd66f706c6575d95592addef70ad98dc02a9bc46de13f444e17807",
+      "bytes": 108541,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-sandbox-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sandbox",
+      "sha256": "528e579e5f0af2142b75ada84d675618e63345ccd1a9d63619348369775da826",
+      "bytes": 115705,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-sandbox-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sandbox",
+      "sha256": "635c59666eb5ae61e8cbcd26218f6e183cab36a585fddbd91f640d0bedb431f5",
+      "bytes": 117286,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-subagent-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/subagent",
+      "sha256": "443dce8f5918c15e9ce15ad2049ad67084c97c010aace4cd065865490682e1a7",
+      "bytes": 95996,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-subagent-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/subagent",
+      "sha256": "1da442e7f09d94505a6d95d6071ba2fcfd3636eb220e5c416506d6fd97720dd4",
+      "bytes": 103809,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-afk-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/afk",
+      "sha256": "29c4901467dd09f7c73369bb2d1d3ec439a25ffb52f037dfcec9bfbd8b45b977",
+      "bytes": 112532,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-afk-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/afk",
+      "sha256": "1d55306137b098174b6269f73fd66ef43dd6cd18149e5b002862a0a513567d13",
+      "bytes": 75473,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-automated-check-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/automated-check",
+      "sha256": "fcd53c36c4f912a4170a99a700dd699d5ec633db209bbf4dcb842397c465bf89",
+      "bytes": 98104,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-automated-check-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/automated-check",
+      "sha256": "d143fbf45284d83eabbf40cf93ea3ea3c01ab4355c3ddac2fe10ba04636201e8",
+      "bytes": 106056,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-automated-review-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/automated-review",
+      "sha256": "3bb2be72547a294d7c1ee52d7bc5416902b47e85abc65b617728db57abe023a9",
+      "bytes": 95003,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-automated-review-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/automated-review",
+      "sha256": "58f883b0bfd29ad39fe24f98e45d3a820707ed867430c33f943af30173f5cd91",
+      "bytes": 116208,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ax-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ax",
+      "sha256": "5315ac235da6704db6107044d4adf4b5d55a027500e20b682ce8406b8e87a0e4",
+      "bytes": 98433,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ax-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ax",
+      "sha256": "f6cd88dfed6043328d511c92247740dae7da5113479f5885b850a6c74804d3f1",
+      "bytes": 110108,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ax-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ax",
+      "sha256": "70b486c397b29f702f9addb0eb2f101ec736aa83ece45855f60fbb5bc5712b42",
+      "bytes": 110353,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-dx-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/dx",
+      "sha256": "0d26598b028c9110abf8d7b70c40a33d1120dcaccf5bcb72bb8977b872dc2e59",
+      "bytes": 91350,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-dx-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/dx",
+      "sha256": "9f749ff365013ca566cd3ccf45618f563c5de81bdb221b0554dba9cb7dbad64a",
+      "bytes": 109342,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-human-in-the-loop-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/human-in-the-loop",
+      "sha256": "1c4ddee6fa30ad34e2d19352c95793df807e06d383ad89406bc8f1dfd7dd834f",
+      "bytes": 97865,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-human-in-the-loop-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/human-in-the-loop",
+      "sha256": "d89762cbbed0b83a7afdc749d1d3988e555e143ce9c708e350bd6259f339f32f",
+      "bytes": 97512,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-human-review-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/human-review",
+      "sha256": "0f812de8d263ba35eeb746488a0b65f91fb5ee6e3befc52183b293eae971e511",
+      "bytes": 92317,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-human-review-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/human-review",
+      "sha256": "9e87701d5b18b8f0d68ee9f460a6d66665d8bcef33add214da6c7bb6428b7bab",
+      "bytes": 86640,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-grilling-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/grilling",
+      "sha256": "34dbaf1568e88a1dd8f294f78b3935923c5a0eab3ef85e3e57b1976dc9678d22",
+      "bytes": 99794,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-grilling-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/grilling",
+      "sha256": "13fd83d74e4dfa29572793513dbf7e336001fb14c40cce1c5d1e6a8e4f37fc68",
+      "bytes": 101122,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-prototyping-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/prototyping",
+      "sha256": "559cfc3a5d85d3ec5d7c545630c61d45136b552736afec9a237ff347eff876e2",
+      "bytes": 93201,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-prototyping-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/prototyping",
+      "sha256": "f6eeb36ce64201975e56ec3817f3ac364268089bc353700bea6396f5d0aa9659",
+      "bytes": 106722,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-spec-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/spec",
+      "sha256": "d36e22c4a0972accfdff5a0cd159549b6462107b1a48ccd2e5c056979903403e",
+      "bytes": 95498,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-spec-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/spec",
+      "sha256": "3987043b1156ca29d89fd1a09ea928cb14b35ff0b3a7f849b93d38baf0599f93",
+      "bytes": 103927,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ticket-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ticket",
+      "sha256": "3d66649976b0ab1e3b22fcb9f7d19887c1ada1bc08eb5da6ce31835c71d46b90",
+      "bytes": 101132,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ticket-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ticket",
+      "sha256": "3666d2d726ebb2b2a182835759c59e218ca837e086334ace261780dc4ebe4985",
+      "bytes": 93475,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-dark-factory-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/dark-factory",
+      "sha256": "98a75a0903a1353a7bba3471fc633824ea3b1b8a0b4679cb5f2cab0cce780231",
+      "bytes": 90124,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-dark-factory-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/dark-factory",
+      "sha256": "f3b52d736872ebd057f8d09dba14ad143a6a486592d3596392befb7d34d577c5",
+      "bytes": 87031,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-design-concept-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/design-concept",
+      "sha256": "d832e8a688cd8b6762bd57671c5d420a4f7441b4348883e5b439e0df0ca2aa39",
+      "bytes": 103220,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-design-concept-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/design-concept",
+      "sha256": "753676829151209a0a8b8c9ba509ed483b590e11ef43299416dc6c4f7e33aee4",
+      "bytes": 109075,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-software-factory-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/software-factory",
+      "sha256": "27016fe4de9cdca8944b77d7bea3d0330c6cf935d5da78c2cb3f84567fe3a34b",
+      "bytes": 99889,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-software-factory-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/software-factory",
+      "sha256": "5bb0cc5eaab6d41697ae590c88d5aab0f0c29514b8db36e22bcb1e3b00753431",
+      "bytes": 103904,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-software-factory-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/software-factory",
+      "sha256": "d9972f1ed03a9feab1026e6b0f9c2abfac82178e21bfada8d57bc7647642c57b",
+      "bytes": 102375,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-vibe-coding-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/vibe-coding",
+      "sha256": "53b823e8b22b237c431a1b9b128d729be6f3c75ca569759ad28a3e49947b534f",
+      "bytes": 94001,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-vibe-coding-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/vibe-coding",
+      "sha256": "dbfc9c7d0756e912f176b56e9841f0b4a529ffd28e935e642fd0f6d40a224ef0",
+      "bytes": 106493,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-1440-top.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "9e6b44b157cede82d361f7644ee030b2a2887bfdf0a63bdaf1b4a3a92f893ef3",
+      "bytes": 143749,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "ed2752aa2c137db2ccf156bbf5b8fba7ef32b4b2945d0f2ab54b03340dd383cf",
+      "bytes": 155574,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-2.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "4ee24bf26a121e5bb688e87de0e36eb6ca914c627c6a41d0ba1a9e76ed2e1cf5",
+      "bytes": 201756,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-3.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "4670c7172d1aa4485cd329a21fe978353e0486201788d668a4183454c61dc4a1",
+      "bytes": 222292,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-4.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "acb4086b6af15e922dc0e6181a968480885abf68bded8b8e51bb2381c1fc0fab",
+      "bytes": 203640,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-5.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "8cd6ba61d064a1f48e88d6040513a9f204f9c23717cf199c2106bc6d5a484110",
+      "bytes": 193311,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-6.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "e9905853ce86b024031f213d3b55576abc8f1f13fe360fd3c477d61725c028b5",
+      "bytes": 197412,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-7.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "905b7041303587864e0042cbb10bc9ff94dbb9b89a42db98b0c79eb6c802aa71",
+      "bytes": 203282,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-390-top.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "d645267dd6e39ed52d37084ed96017ac52605352e6a2435c11d2b4e31f71e41f",
+      "bytes": 71227,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "fe100a1170aff7c6f81129e5778a0d9b7bb3eb5eacbba4f9333c657086a44178",
+      "bytes": 82610,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-2.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "3902ddb2a9a4538a3aace907316cb4ec8ff8c714178fe980faec8d9700011f31",
+      "bytes": 96109,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-3.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "6f8a923cb5b933b68389fb7573d74a7964431d5c4ca5ac40aa3135cd78cce123",
+      "bytes": 117936,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-4.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "254df4900f7edfd6663e520833d11fa514902d56a6065b1c5de2421941244d72",
+      "bytes": 109876,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-5.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "f974ef58fed0c52adc4ae0caad661714d9f2edc90c6a5a5619b3a782e714be4b",
+      "bytes": 101974,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-6.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "31fcd26206efcaddbc91b0ba648391d19697fd512626da4199c251c65aae2139",
+      "bytes": 110812,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-7.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "b3c212abb887b4c614c5826bf001035267e4e8d2eb89a6be14a42866e3c29125",
+      "bytes": 98138,
+      "hashVerified": true,
+      "independentlyViewed": true
+    }
+  ],
+  "scope": "All151originals viewed; no new visual defect in shown regions. 57 term definition screenshots still required; context-pointer interrupted after first Prompt copy due substring locator bug."
+}

@@ -1,0 +1,3008 @@
+{
+  "candidate": "c9545805d6ef053b893b349cbab413e50e32d86f",
+  "newPagesWithContentUiEvidence": 192,
+  "preacceptedSamples": [
+    "/a-complete-guide-to-agents-md",
+    "/ai-coding-dictionary/system-prompt",
+    "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+  ],
+  "pendingRoutes": [],
+  "historicalAcceptedByRun": {
+    "38391725587": 7,
+    "38395456927": 21,
+    "38398534538": 1,
+    "38401367005": 104,
+    "38405473150": 58,
+    "38407427014": 1,
+    "38408576892": 1,
+    "38409450389": 2
+  },
+  "pages": [
+    {
+      "route": "/",
+      "evidence": [
+        {
+          "candidate": "c9545805d6ef053b893b349cbab413e50e32d86f",
+          "runId": "38409450389",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163"
+        },
+        {
+          "candidate": "c9545805d6ef053b893b349cbab413e50e32d86f",
+          "runId": "38409450389",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163"
+        }
+      ]
+    },
+    {
+      "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "25461d617ac01914fa27ace477c3a0c07b5cf35c03ff04d034eb5fbeb6a42085"
+        }
+      ]
+    },
+    {
+      "route": "/5-agent-skills-i-use-every-day",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930"
+        }
+      ]
+    },
+    {
+      "route": "/agents-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "847e8de8d3bcd998dd94153d104112f7c717fb1634e6d75277f689c55c519222"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary",
+      "evidence": [
+        {
+          "candidate": "d41b9a8703917c0eef4c0891703ad70e97e2e46a",
+          "runId": "38398534538",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0"
+        },
+        {
+          "candidate": "d41b9a8703917c0eef4c0891703ad70e97e2e46a",
+          "runId": "38398534538",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "69bd4c8ae6f747c478edb713b8efe67054e3b33250b82777364c9fab1cad5bb0"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "5b44967000bbf20f89eecf21037c35a7428931d8623e0a45912dd63ed15e2a06"
+        },
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "5b44967000bbf20f89eecf21037c35a7428931d8623e0a45912dd63ed15e2a06"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "06897ea09726703625d8aeb5ca76e7dbef1582714e0b9428236eb87699cd1c1c"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f1f4adb1b0b7f859b61ebbb24ea65d8c7a556e7482ef40f9e2aa784ebf35751d"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "26a9bbfe02f92f4f1fa9b481da4dfa7d924e8e5318c1405f64bc657f4e48ed47"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "6f091d0428d7b4f73fdb429345bd8102710b5f3012a236ea09c37d038019a12b"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "2ad1926f1f2876a937a9a95ba672f0d1c1d419bd6cc4e6825558dba75e7b1573"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9f67986cebc45eae52e8fd3eed63e27cf2bd4241c807f32738c4041882ef8084"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "c55e88c70a1b0d574f50ee19b6374198f94e4f5a9bc218425299ca3a88fe503b"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "evidence": [
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "4021cb508844311565f8f12a80d102cfd6eddde9d639a682302914901e78941b"
+        },
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "4021cb508844311565f8f12a80d102cfd6eddde9d639a682302914901e78941b"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "c7b7dd9404a5e20e691ba4d9109594987f8be2844d762c08634584b981ba35b1"
+        },
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "c7b7dd9404a5e20e691ba4d9109594987f8be2844d762c08634584b981ba35b1"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "b054c4a02ad3061cf79d11070977d95602bce8c83d52950cea589bba7dbeffa9"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "2b5bcbf713195ef12650d14b795f81d6279ec70918946e8000a97fcaef995ebe"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "d16ab61f90611dae91272fb5ff250fd8ea6fe4480b5797bc599b10ec1e401996"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "ca9167eddfab6506465946a78ca6814d4467c24cf174a772b09891fb38f35fbc"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "4f1f8d28fa461752472c085d5aec6edb91ad260706dab7640727a6340486d445"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3"
+        },
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "4bb16d3c2891a5293d36efd8d754ceedd00abd1500c620ca4bb728975ef308b2"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "evidence": [
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "4385fb5496325123f5a12485ec6d2d919a00154a663e32ed644e5df636068441"
+        },
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "4385fb5496325123f5a12485ec6d2d919a00154a663e32ed644e5df636068441"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "36a2b738e345d63882ca23f41a1183b128c2a24f0e0c1d05ea283ba6801eed49"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "abbccee08dfa232adfd8077a718c68cc3dea7a6c7f86283f9a9d3fd59d69242d"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/memory-system",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "69475a939a5bcdf64d816a1de64f161f915dc1443ed1e3be6fecaaba23684df9"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "evidence": [
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "f12f343165c943279cb53b174cad12087ae71f9a19ac811337dba7264ed6e757"
+        },
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f12f343165c943279cb53b174cad12087ae71f9a19ac811337dba7264ed6e757"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "3df57d8c1c992024aba1a9396c3a1f7a00fe29e18f03686e06e3da82d0d1db8e"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "06d5b7f0fce998498c0f30b8c57f66c88a046ebac6b39bda8b778913f7759561"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "caf12bccfab0edcf2a2ce9457ba074045692901c6514316e254bec50c5aed686"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "a673aba82075efd6e720e571a090d7070869eaf36f462420a737b6a2f3d1d2a7"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "b0baee76ed0d94d37711c42ed89ffc30f27eb850abfd852df537660b9539bfa2"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9f9c37d1f3f958191afd1c1ced53e7de63fdac835d120001526459290e709d31"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "evidence": [
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621"
+        },
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f2da4f482d5a0b2fa54bd2b4e6343d6a540d505887d1307f42ae378b9de2f5c8"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "885423477c37ba1fb06634c16f587b8d1195c7502b28a2152e705c86f0c31dbf"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "0f7b5d79ba37eac31e0a15ec07da91883af8d4ecb1f260b96ab66c0e5df8ce6f"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "477975137e42e1c36b76997ca56c5c9d998f09f12ec8f2b103bcf3679cfd999c"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "cbd2ae4002e6013decb42c3d77303219d796878830a6ad4cc98b23cf5c6d7e22"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "bead311e9b537c7253bbd3794a1c8099c51cf280ade409df0b705c384e1c39b5"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "fd3603db152a6d2f867f656a1897c22164fa17320554f62f6996b546fb986ec4"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "evidence": [
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "8898ec3b4ffd54aa9f1cf9ec5588db3f21089e9c632fe2283a1f3de1598af5e3"
+        },
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "8898ec3b4ffd54aa9f1cf9ec5588db3f21089e9c632fe2283a1f3de1598af5e3"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f094c8573d7307195caf83a27e4eace62fda2af963fcac0adb262e346d1fb4a3"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-call",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "95ec8540dceadb7fac71d6539c17bc2a4acd1ee9354dac8fe994572678413e2a"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "7574fffe1a0b24a5b25f4213060ea9765833f0d7c84468ae0a3df00772e688a5"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "0c222df5426fe704b42bdf8098d1c312e72dc12151f8782d61353587c51d8bc7"
+        }
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953"
+        }
+      ]
+    },
+    {
+      "route": "/ai-engineer-roadmap",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2"
+        },
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2"
+        }
+      ]
+    },
+    {
+      "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986"
+        }
+      ]
+    },
+    {
+      "route": "/building-effective-agents",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "5ce05ee6d2097318e648b7be94f0cf93a2e13c2438275eea11bc2490a0a27569"
+        }
+      ]
+    },
+    {
+      "route": "/burn-through-your-backlog-with-my-triage-skill",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc"
+        }
+      ]
+    },
+    {
+      "route": "/connect-claude-code-to-github",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "15c0deb6be8f103a2b1afdcf63e77bf6498fb9d12f9581ec72137d44c1eab053"
+        }
+      ]
+    },
+    {
+      "route": "/create-embeddings-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "346d21f2db7f47ec9ca64d78420e51a9b1e438e88d0a76418cfc60cf7cc61a0f"
+        }
+      ]
+    },
+    {
+      "route": "/creating-the-perfect-claude-code-status-line",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "c4d73264cfec2f015da8bcb63f78adc3de79cd91b3039f614d833b9d68c6cea6"
+        }
+      ]
+    },
+    {
+      "route": "/describe-images-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "e5f7633b3e95ecc9def83e95f2b097dcfb2e98e7e17847e13af1ab20b7aca652"
+        }
+      ]
+    },
+    {
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec"
+        }
+      ]
+    },
+    {
+      "route": "/evalite-an-early-preview",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9d74e3cb9de0221318a08d001e170a3fe8a5f055e094cb44848fd083d35ade18"
+        }
+      ]
+    },
+    {
+      "route": "/evalite-v1-preview",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "eceab41967b6c9c4e4b84a4d4bca70610b6c67bfa8af4bd395cb801f3e896cfc"
+        }
+      ]
+    },
+    {
+      "route": "/generate-arrays-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "fabd04c397b92f771a2d7c08bb5e02741954c0146a3ac680a7405171eb2d57a1"
+        }
+      ]
+    },
+    {
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "568201c264b205b55718c75614b38720ea5b37dca22497c6876769af845b4473"
+        }
+      ]
+    },
+    {
+      "route": "/generate-text-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "efbcbe5f795191c368068df43b0b6b230212014b2860305cfc47bee294320c06"
+        }
+      ]
+    },
+    {
+      "route": "/getting-started-with-ralph",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "654b5e428cf88d5fe1744c6490775a42f403fb6d55087d4be577caf50c1af24a"
+        }
+      ]
+    },
+    {
+      "route": "/google-agents-whitepaper-review",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9"
+        }
+      ]
+    },
+    {
+      "route": "/grill-with-docs",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48"
+        }
+      ]
+    },
+    {
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e"
+        }
+      ]
+    },
+    {
+      "route": "/how-does-the-model-context-protocol-work",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7"
+        }
+      ]
+    },
+    {
+      "route": "/how-to-choose-an-llm",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612"
+        }
+      ]
+    },
+    {
+      "route": "/how-to-improve-your-llm-powered-app",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120"
+        }
+      ]
+    },
+    {
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e"
+        }
+      ]
+    },
+    {
+      "route": "/how-to-make-codebases-ai-agents-love",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "7e5a3b8105bf097b71431b3f0950fff11f6292970f68ea60985b2ed8a6a8cd33"
+        }
+      ]
+    },
+    {
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b"
+        },
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b"
+        }
+      ]
+    },
+    {
+      "route": "/implementing-anthropics-think-tool-in-typescript",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98"
+        }
+      ]
+    },
+    {
+      "route": "/learn-anything-with-my-teach-skill",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "1e721a8c2a59f034088be00cfe54e1b11292d389b77b811eebb34f157cdad7ad"
+        }
+      ]
+    },
+    {
+      "route": "/llm-fundamentals",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "a89ce1b9aa7a7be217c28cb3bd8ae4ee4ce9f281c4f8a1623658ca66249140c6"
+        }
+      ]
+    },
+    {
+      "route": "/logging-a-huge-mcp-footgun",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5"
+        }
+      ]
+    },
+    {
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def"
+        },
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def"
+        }
+      ]
+    },
+    {
+      "route": "/messages-system-prompts-and-reasoning-tokens",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "ff9940e3b294e84041d8c30b3dc0ecf791e24d94817de3bb9addc9240887dbbb"
+        }
+      ]
+    },
+    {
+      "route": "/model-context-protocol-tutorial",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f"
+        }
+      ]
+    },
+    {
+      "route": "/my-7-phases-of-ai-development",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f"
+        }
+      ]
+    },
+    {
+      "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "a3ea323132daa07be646f4a6807739a548b12fd693262d2e2569534544d02e30"
+        }
+      ]
+    },
+    {
+      "route": "/my-claude-code-cohort-a-teaser",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "355b49e0ca5dd58b6cc838e10e0f9f4bababe81544fd65158051af234884d545"
+        }
+      ]
+    },
+    {
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f"
+        }
+      ]
+    },
+    {
+      "route": "/never-run-claude-init",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f79fd9a8e8f3985d66b4c05c0a0533e0d8c3ec5f734fca58046232320582e09d"
+        }
+      ]
+    },
+    {
+      "route": "/newsletter",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "7969aa22bd61af6379e0acf65e64f03a40a2dd9de69bcca6267301956e9c1bd1"
+        }
+      ]
+    },
+    {
+      "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "fc7017f1939b17c4010116206b793478d0a84ef450853a8c669f199690be6e3b"
+        }
+      ]
+    },
+    {
+      "route": "/plan-mode-introduction",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670"
+        }
+      ]
+    },
+    {
+      "route": "/publish-your-mcp-server-to-npm",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "2f528062fa9fcd9f42fdc96369373d99519d06197039303569a551d093133a8b"
+        }
+      ]
+    },
+    {
+      "route": "/real-world-feature-build-with-claude-code",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "4e9c84ff5e367d8c2101004197cd86f40939a6f2824aa3c5d25c4a5797b930a8"
+        }
+      ]
+    },
+    {
+      "route": "/securing-your-ai-app-with-guardrails",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "66cdeb9aa8e48e54505f2ae0592f75306248637a3b0d76edd935153436f98f63"
+        }
+      ]
+    },
+    {
+      "route": "/skill-test-driven-development-claude-code",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "cb73062f5f3b4835dd2fc1e91c3713066063fdc56ed5fe1514d9a9c3b2ad7a36"
+        }
+      ]
+    },
+    {
+      "route": "/skills",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac"
+        }
+      ]
+    },
+    {
+      "route": "/skills-ask-matt",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e"
+        }
+      ]
+    },
+    {
+      "route": "/skills-catalog",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34"
+        }
+      ]
+    },
+    {
+      "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9e0bddfa4a5084074677dd9e87f58194d62c18ad6db338b519e7ecc076741a91"
+        }
+      ]
+    },
+    {
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad"
+        }
+      ]
+    },
+    {
+      "route": "/skills-code-review",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9748862e5a248ec9f08121a1b77c3669084c3801d7e0d72724f10a83cb40cb9c"
+        }
+      ]
+    },
+    {
+      "route": "/skills-codebase-design",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579"
+        },
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579"
+        }
+      ]
+    },
+    {
+      "route": "/skills-diagnosing-bugs",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90"
+        }
+      ]
+    },
+    {
+      "route": "/skills-domain-modeling",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690"
+        }
+      ]
+    },
+    {
+      "route": "/skills-grill-me",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "78f5a226289261163ef62d3bc4931aa3c55c5010ba2b9c7570694759e69a8e23"
+        }
+      ]
+    },
+    {
+      "route": "/skills-grill-with-docs",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860"
+        }
+      ]
+    },
+    {
+      "route": "/skills-grilling",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "3df8022a3b6ce9a9aebfda8eec35f5d28b0b816c7a2f06b9bf92e71d91beac34"
+        }
+      ]
+    },
+    {
+      "route": "/skills-handoff",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c"
+        }
+      ]
+    },
+    {
+      "route": "/skills-implement",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f59c4fb6b637dc36349f7db0cc8303fec60e1172f620a2fa88146717cf988cc6"
+        }
+      ]
+    },
+    {
+      "route": "/skills-implement-spec",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "d3ca6a52c97daaf7161c2cfb98a8501d43a8d805cf0f820e5f9f0bb8b797c30f"
+        }
+      ]
+    },
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956"
+        }
+      ]
+    },
+    {
+      "route": "/skills-pr",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "6c2376028a46d715ddbdf0f71a8efaf248954c4548b7753fc5df2af55ed0b609"
+        }
+      ]
+    },
+    {
+      "route": "/skills-prototype",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b"
+        }
+      ]
+    },
+    {
+      "route": "/skills-research",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0"
+        }
+      ]
+    },
+    {
+      "route": "/skills-resolving-merge-conflicts",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528"
+        }
+      ]
+    },
+    {
+      "route": "/skills-retro",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082"
+        }
+      ]
+    },
+    {
+      "route": "/skills-setup-matt-pocock-skills",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7"
+        }
+      ]
+    },
+    {
+      "route": "/skills-tdd",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305"
+        }
+      ]
+    },
+    {
+      "route": "/skills-teach",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a"
+        }
+      ]
+    },
+    {
+      "route": "/skills-to-questionnaire",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941"
+        }
+      ]
+    },
+    {
+      "route": "/skills-to-spec",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e"
+        }
+      ]
+    },
+    {
+      "route": "/skills-to-tickets",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172"
+        }
+      ]
+    },
+    {
+      "route": "/skills-triage",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d"
+        }
+      ]
+    },
+    {
+      "route": "/skills-wait-what",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802"
+        }
+      ]
+    },
+    {
+      "route": "/skills-wayfinder",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "98ed068575ccbd2f102864f2e1d42c809af0eeb17f30c1a5cbf376144f4eba48"
+        },
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "98ed068575ccbd2f102864f2e1d42c809af0eeb17f30c1a5cbf376144f4eba48"
+        }
+      ]
+    },
+    {
+      "route": "/skills-wizard",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8"
+        }
+      ]
+    },
+    {
+      "route": "/skills-writing-for-agents",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631"
+        }
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3"
+        },
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3"
+        }
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c"
+        },
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c"
+        }
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1"
+        },
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1"
+        }
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "eaeb12cd6b9faa60f1fb603f85ae12bd6e4b7224753a1a5223362241fbf70607"
+        },
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "eaeb12cd6b9faa60f1fb603f85ae12bd6e4b7224753a1a5223362241fbf70607"
+        }
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560"
+        },
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560"
+        }
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674"
+        },
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674"
+        }
+      ]
+    },
+    {
+      "route": "/skills/subscribe",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c"
+        }
+      ]
+    },
+    {
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f5f29c9f346eca8d316bc0b7382d131a8fa09410668a2492a8f464e2243cd4a4"
+        }
+      ]
+    },
+    {
+      "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "b432198df9c4b14ea9650e92872cf954fc232fc8a42c031fca912f438a3e3f0d"
+        }
+      ]
+    },
+    {
+      "route": "/streaming-objects-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "bd42b6716c10bac8a0c4f54bbc9f2416e23424ff0ad6de93b1e5a69ea6225f19"
+        }
+      ]
+    },
+    {
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c"
+        }
+      ]
+    },
+    {
+      "route": "/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "ecbb7283113651d9d4dae74453cf99e12fd1ef8cc3d05f7d4a387768c3ad0282"
+        }
+      ]
+    },
+    {
+      "route": "/structured-outputs-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "cc31ab2700f602e27ecbdc30eccd5eea9e704ae5a9e2919daa5cfaa257e35d5a"
+        }
+      ]
+    },
+    {
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "971ab2c8677e624acfdbee607f50e6a15cb6fd1fd661a8ca400794a20cfced7a"
+        }
+      ]
+    },
+    {
+      "route": "/system-prompts-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "98ae9e5576b442883f073dfdc1fa99cd87ab857affef849dd178cb435376c592"
+        }
+      ]
+    },
+    {
+      "route": "/the-ai-engineer-mindset",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "cafb6b8d4ad4133b4791f2d21385ecfa4128962e4cd401e7607b645f2b6109db"
+        }
+      ]
+    },
+    {
+      "route": "/the-problem-with-mcp-stateful-server",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b"
+        }
+      ]
+    },
+    {
+      "route": "/the-prompt-report",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "e22eaa86066cf47b5c8269478962da8176444511292767120794605517f5b5d3"
+        }
+      ]
+    },
+    {
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c"
+        },
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c"
+        }
+      ]
+    },
+    {
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011"
+        }
+      ]
+    },
+    {
+      "route": "/three-types-of-evals",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "38579d6eed8a95d702e79a8871aab78b62a6a4bd58ef320481398b8d3b19eb7b"
+        }
+      ]
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "evidence": [
+        {
+          "candidate": "f5d86e68cfbd48fb66e91245ffcdf1db7a746066",
+          "runId": "38407427014",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb"
+        },
+        {
+          "candidate": "f5d86e68cfbd48fb66e91245ffcdf1db7a746066",
+          "runId": "38407427014",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb"
+        },
+        {
+          "candidate": "65b9e5269e0a55af6c88dfb4f80ab34fd7f1b660",
+          "runId": "38408576892",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb"
+        },
+        {
+          "candidate": "65b9e5269e0a55af6c88dfb4f80ab34fd7f1b660",
+          "runId": "38408576892",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb"
+        },
+        {
+          "candidate": "c9545805d6ef053b893b349cbab413e50e32d86f",
+          "runId": "38409450389",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb"
+        },
+        {
+          "candidate": "c9545805d6ef053b893b349cbab413e50e32d86f",
+          "runId": "38409450389",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb"
+        }
+      ]
+    },
+    {
+      "route": "/tool-calls-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "938a34e68735f5a6e2ea87dafe0b2d8361874a118a1a74e9e8f2c157b2533bc4"
+        }
+      ]
+    },
+    {
+      "route": "/tracer-bullets",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7"
+        }
+      ]
+    },
+    {
+      "route": "/use-local-models-with-vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "95e2cc953ba638f9117410ff649dbd1ade87877919753449b0656d129dc3c554"
+        }
+      ]
+    },
+    {
+      "route": "/using-mcp-prompts",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156"
+        }
+      ]
+    },
+    {
+      "route": "/vercel-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "1ef05776dea15bb2d16c958e952a7755adb2be4cc3e23d12e47d280a05440dbc"
+        }
+      ]
+    },
+    {
+      "route": "/vercel-ai-sdk-messages-array",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "1fcd69e0fb88b7f08e13a8356a8365f520927e21e39c774a193341e0ffa107a9"
+        }
+      ]
+    },
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "5ac4b8d2978128fa71304222dbbd3410dbcbf0d5d999d0172121052bdcd432b5"
+        }
+      ]
+    },
+    {
+      "route": "/ways-ai-coding-has-rewired-my-brain",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "8203ac436a73d722dbb5ed631cd55e82071d48eb82e2c74869fecbc8b22f522b"
+        }
+      ]
+    },
+    {
+      "route": "/what-are-evals",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc"
+        }
+      ]
+    },
+    {
+      "route": "/what-are-llms-used-for",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27"
+        }
+      ]
+    },
+    {
+      "route": "/what-are-tokens",
+      "evidence": [
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a"
+        },
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a"
+        }
+      ]
+    },
+    {
+      "route": "/what-are-tools",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "e9e2d1d0795a237f8758217329dfd7f34abe6719fe4f647ac229e6c883a0e006"
+        }
+      ]
+    },
+    {
+      "route": "/what-is-an-agent",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "81ad23f66a99b7cd40ba3c465bb6a4d193f4e6f4c5c0d2c2d730f7bb458fceeb"
+        }
+      ]
+    },
+    {
+      "route": "/what-is-an-ai-engineer",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "f9cccdd3fc4d0bdf75404cfb90e92323e755f8791c98bbf10d8f81f378ba833e"
+        },
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "f9cccdd3fc4d0bdf75404cfb90e92323e755f8791c98bbf10d8f81f378ba833e"
+        }
+      ]
+    },
+    {
+      "route": "/what-is-an-llm",
+      "evidence": [
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb"
+        },
+        {
+          "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+          "runId": "38395456927",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb"
+        }
+      ]
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "evidence": [
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca"
+        },
+        {
+          "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+          "runId": "38401367005",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca"
+        },
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca"
+        }
+      ]
+    },
+    {
+      "route": "/what-is-the-context-window",
+      "evidence": [
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "translationHash": "4fb8555b800741de5f4939fdc6da0f9e98747dcddcbf124b01d09be64db0edc7"
+        },
+        {
+          "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+          "runId": "38391725587",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "4fb8555b800741de5f4939fdc6da0f9e98747dcddcbf124b01d09be64db0edc7"
+        }
+      ]
+    },
+    {
+      "route": "/why-the-anthropic-ralph-plugin-sucks",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420"
+        }
+      ]
+    },
+    {
+      "route": "/workshops/ai-coding-crash-course",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "4e91df276632f002d146e3686d9226b297ff8682bbb0db2ab961af3a34931c4d"
+        }
+      ]
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "evidence": [
+        {
+          "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+          "runId": "38405473150",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "translationHash": "766a728b31324c5ff191853786146b32fade0f98ad05fc09e638ec19cf3b153a"
+        }
+      ]
+    }
+  ],
+  "globalNavigationGate": "Closed by c9545805/run38409450389 actual Home and brand navigation plus 194 directory clicks; local preview lifecycle is separately pending"
+}

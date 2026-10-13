@@ -1,0 +1,2748 @@
+{
+  "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+  "runId": "38405473150",
+  "zipSha256": "3c451cb124bca8b5d520c1fc06250761714bcd71bbd6a4ff8d655110bd89340a",
+  "viewports": 71,
+  "passedViewports": 68,
+  "passedRoutes": 59,
+  "failedRoutes": 2,
+  "actualCopyMatches": 339,
+  "conceptClicks": 76,
+  "screenshots": [
+    {
+      "file": "how-to-improve-your-llm-powered-app-390-main-body.png",
+      "url": "http://127.0.0.1:4321/how-to-improve-your-llm-powered-app",
+      "sha256": "a0ac79b613379ec54181f778ec283be1e2ce26d22a914a90886fcc823e7f4a3f",
+      "bytes": 87001,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-improve-your-llm-powered-app-390-code-example.png",
+      "url": "http://127.0.0.1:4321/how-to-improve-your-llm-powered-app",
+      "sha256": "7f1caec7f69d7480e881ee73372482f60f513c71eb095b2bfde6ccb05e821215",
+      "bytes": 61474,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-improve-your-llm-powered-app-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/how-to-improve-your-llm-powered-app",
+      "sha256": "9e408d48e353e2ce939d3ba3d61e0332100378ecb1dc0ec2b81d1b1509028b6b",
+      "bytes": 79639,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-improve-your-llm-powered-app-390-image.png",
+      "url": "http://127.0.0.1:4321/how-to-improve-your-llm-powered-app",
+      "sha256": "fd4db570653148af10ce1077ce8892e2ef0e6d446cc03d0671339270fb4e5bbb",
+      "bytes": 89595,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "connect-claude-code-to-github-390-main-body.png",
+      "url": "http://127.0.0.1:4321/connect-claude-code-to-github",
+      "sha256": "3364705d94b344125dfc87db800b8a957a1a81720703eb491758eccd3061d58d",
+      "bytes": 116829,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "connect-claude-code-to-github-390-code-example.png",
+      "url": "http://127.0.0.1:4321/connect-claude-code-to-github",
+      "sha256": "bd082237be5bcd7f9e81605f4f936a5dcd8c55f96f1f6c9dbd0fab70ae822c5b",
+      "bytes": 68777,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "essential-ai-coding-feedback-loops-for-type-script-projects-390-main-body.png",
+      "url": "http://127.0.0.1:4321/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "sha256": "fd5aca97b285e0aa25dc64c027cdcebba3d80e21267586b7d02eeade517d85bc",
+      "bytes": 113370,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "essential-ai-coding-feedback-loops-for-type-script-projects-390-code-example.png",
+      "url": "http://127.0.0.1:4321/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "sha256": "0125fb3de14343596fc689ac30567588d42bb7e74e7f631997d61b0be53d4b13",
+      "bytes": 59906,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "essential-ai-coding-feedback-loops-for-type-script-projects-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "sha256": "1164f38473e6dea95d651549b0705ad5f251aec2cfde8f518b24046b674f5f44",
+      "bytes": 52050,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-make-codebases-ai-agents-love-390-main-body.png",
+      "url": "http://127.0.0.1:4321/how-to-make-codebases-ai-agents-love",
+      "sha256": "9131d9c6727408a31faa0ad54f113947e643dcd68c02640d8bdb733b7fb77489",
+      "bytes": 115229,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-make-codebases-ai-agents-love-390-image.png",
+      "url": "http://127.0.0.1:4321/how-to-make-codebases-ai-agents-love",
+      "sha256": "98751b4d3b21135d1c70483947c2f1508701367f5f028fea73086b6d7987215a",
+      "bytes": 107708,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-use-claude-code-hooks-to-enforce-the-right-cli-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "sha256": "ca405ea0a01af3ee5316ef98201794b3ba406718742e5bc56bbbd410d2cf0bf7",
+      "bytes": 120776,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-use-claude-code-hooks-to-enforce-the-right-cli-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "sha256": "f25547f04ea9ae3ffc6a9d5bbda62e18de3c2497f458bef2d80f8ad5b61e0c97",
+      "bytes": 120869,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-use-claude-code-hooks-to-enforce-the-right-cli-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "sha256": "1df9417a02889bcadf6dec605f4515e883458b7a669884abed6b9054b0389cf9",
+      "bytes": 140982,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-use-claude-code-hooks-to-enforce-the-right-cli-390-main-body.png",
+      "url": "http://127.0.0.1:4321/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "sha256": "24faf6e846ed68e116ffff2459e8fe05737318a72bb83757c4985001ad84c9ed",
+      "bytes": 86492,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-use-claude-code-hooks-to-enforce-the-right-cli-390-code-example.png",
+      "url": "http://127.0.0.1:4321/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "sha256": "e26497c2a62204287e13f54a08176a589f53996b069a09244ad1fcf7cb190b45",
+      "bytes": 82666,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-use-claude-code-hooks-to-enforce-the-right-cli-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "sha256": "f94f59d5f2e972ed27e4097a70f848974e86258372b2fb19e7894d52eeb8f1b5",
+      "bytes": 70047,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-agents-md-file-for-building-plans-you-actually-read-390-main-body.png",
+      "url": "http://127.0.0.1:4321/my-agents-md-file-for-building-plans-you-actually-read",
+      "sha256": "4c4d1e7a6002e76f1f25ace0add0b72bb8b48679f8edb954da211bc8b810ae27",
+      "bytes": 100279,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-agents-md-file-for-building-plans-you-actually-read-390-code-example.png",
+      "url": "http://127.0.0.1:4321/my-agents-md-file-for-building-plans-you-actually-read",
+      "sha256": "4231a6c9a3b9025fabb96133d92a5bbfc63abe07d0e9505f49753820c57a43c4",
+      "bytes": 63888,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-agents-md-file-for-building-plans-you-actually-read-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/my-agents-md-file-for-building-plans-you-actually-read",
+      "sha256": "627ad97fcfcaae2ee575985347d421b905e6ee0643b7f358512991048ff69efb",
+      "bytes": 84728,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-agents-md-file-for-building-plans-you-actually-read-390-image.png",
+      "url": "http://127.0.0.1:4321/my-agents-md-file-for-building-plans-you-actually-read",
+      "sha256": "8aabd55c45085d149b6f98c00595b9d48883f28bc3babdb7549ce8e928fb15ab",
+      "bytes": 90081,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "this-hook-stops-claude-code-running-dangerous-git-commands-390-main-body.png",
+      "url": "http://127.0.0.1:4321/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "sha256": "0895cb2f32f6d4684852b923fe5f396c9bea9112140b9209db3e76db0c33d2b3",
+      "bytes": 85881,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "this-hook-stops-claude-code-running-dangerous-git-commands-390-code-example.png",
+      "url": "http://127.0.0.1:4321/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "sha256": "a6339f3140f984f2830c21903df73b6f658abbee33997b40d6dd7c48de851806",
+      "bytes": 86274,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "this-hook-stops-claude-code-running-dangerous-git-commands-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "sha256": "ca8863394abffcc6016e57b0dd89e9701ba16bc0dccc23445a6f7489f3317c63",
+      "bytes": 66742,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "creating-the-perfect-claude-code-status-line-390-main-body.png",
+      "url": "http://127.0.0.1:4321/creating-the-perfect-claude-code-status-line",
+      "sha256": "2b36421c64887da57c70c6759315988edf7465abcb7ff5b9a2dd067906247eec",
+      "bytes": 70302,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "creating-the-perfect-claude-code-status-line-390-code-example.png",
+      "url": "http://127.0.0.1:4321/creating-the-perfect-claude-code-status-line",
+      "sha256": "72dd04b5613e9f58e2464258601843ae073e41118c6950c93f135dc325bb2983",
+      "bytes": 70199,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "creating-the-perfect-claude-code-status-line-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/creating-the-perfect-claude-code-status-line",
+      "sha256": "1bcb0af18b67c6765bcf29e2c05fc7d42e50134e844f8169d39cabea50384679",
+      "bytes": 63607,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-kill-the-bloat-in-claude-codes-system-prompt-390-main-body.png",
+      "url": "http://127.0.0.1:4321/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "sha256": "566c3f31ab93fcd390914afda1abd903c9e13f3a9b78ac80fc2fea1a04d08723",
+      "bytes": 117398,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-kill-the-bloat-in-claude-codes-system-prompt-390-code-example.png",
+      "url": "http://127.0.0.1:4321/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "sha256": "0a12bbde8b788f54b7524d662c6fd63608aaf38a08eb1740c1a85d1ebde6fbe3",
+      "bytes": 72691,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-kill-the-bloat-in-claude-codes-system-prompt-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "sha256": "9da08296372814952f24fc4491adaf50b7a8f1378013c83b2d05392427539a70",
+      "bytes": 40788,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "never-run-claude-init-390-main-body.png",
+      "url": "http://127.0.0.1:4321/never-run-claude-init",
+      "sha256": "4de8719ce5ed79dec990eb394720e0b653b6a819ee51acb7b79d28d990b196ba",
+      "bytes": 111548,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "never-run-claude-init-390-table-1.png",
+      "url": "http://127.0.0.1:4321/never-run-claude-init",
+      "sha256": "0a8d9a6f404de2900c00bb35aaf01838a635f6730a77be6d92aebcfe00ba72c2",
+      "bytes": 91191,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "never-run-claude-init-390-code-example.png",
+      "url": "http://127.0.0.1:4321/never-run-claude-init",
+      "sha256": "521763172c22a7f99ebc87c71c39687701065f819bef56aa3ef8ad7b2c678018",
+      "bytes": 78183,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "never-run-claude-init-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/never-run-claude-init",
+      "sha256": "3b9761e98c4b0e3bd055e8af4a39c3dc97371b56550fed9fbf1bc5ef7ae3ef2e",
+      "bytes": 78049,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "never-run-claude-init-390-image.png",
+      "url": "http://127.0.0.1:4321/never-run-claude-init",
+      "sha256": "72ca3eeacc924a2e77151b13b4bbdc4e57b5a6834537811098666a9f7804ddb2",
+      "bytes": 92320,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "real-world-feature-build-with-claude-code-390-main-body.png",
+      "url": "http://127.0.0.1:4321/real-world-feature-build-with-claude-code",
+      "sha256": "dbd82c978bb1aea19be313001a83f541d28d61f27957e26ccb31b70a848bfc94",
+      "bytes": 88933,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-7-phases-of-ai-development-390-main-body.png",
+      "url": "http://127.0.0.1:4321/my-7-phases-of-ai-development",
+      "sha256": "f78908742ba36a3d873cdb1381f63e4443b85c53738d9d04b7613d4cdddec55f",
+      "bytes": 92343,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-7-phases-of-ai-development-390-table-1.png",
+      "url": "http://127.0.0.1:4321/my-7-phases-of-ai-development",
+      "sha256": "bba1e6002e089523a27f104d6918bf610a28393f421c00d85a8bee7cf247d955",
+      "bytes": 81244,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-claude-code-cohort-a-teaser-390-main-body.png",
+      "url": "http://127.0.0.1:4321/my-claude-code-cohort-a-teaser",
+      "sha256": "861670b229eddee4ad440a23cbd94ccd9b803aaf7bf00a7b5b7ab736194a716f",
+      "bytes": 130280,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-claude-code-cohort-a-teaser-390-image.png",
+      "url": "http://127.0.0.1:4321/my-claude-code-cohort-a-teaser",
+      "sha256": "f06ca350c187555e56e8fef1afb3f4b97b0d4cd51926436e6a4ff03d01a07821",
+      "bytes": 133517,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "plan-mode-introduction-390-main-body.png",
+      "url": "http://127.0.0.1:4321/plan-mode-introduction",
+      "sha256": "4e49be470f328de5f969e9375a38b53a1c01e0d1fff3a72c1b0ed9efe25a7eb8",
+      "bytes": 136348,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "plan-mode-introduction-390-table-1.png",
+      "url": "http://127.0.0.1:4321/plan-mode-introduction",
+      "sha256": "7448c30d15611bd8dae59b8fc1c9c8d29b37781cdde4aff976a8604ea7f82062",
+      "bytes": 78895,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "plan-mode-introduction-390-code-example.png",
+      "url": "http://127.0.0.1:4321/plan-mode-introduction",
+      "sha256": "fc777aa9064c1f04342489abf0d500bbfe819e03576070674f6d54579cb047d7",
+      "bytes": 82339,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "plan-mode-introduction-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/plan-mode-introduction",
+      "sha256": "bcb3a44f26a8207952449408aae71efc6c4441bbe34c684291a043c281f31a2b",
+      "bytes": 86206,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tracer-bullets-390-main-body.png",
+      "url": "http://127.0.0.1:4321/tracer-bullets",
+      "sha256": "a30a820efd7a1d9cbb40d822c0604b32ebc7b1e57829aed26f11b44f82f161d0",
+      "bytes": 104898,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tracer-bullets-390-code-example.png",
+      "url": "http://127.0.0.1:4321/tracer-bullets",
+      "sha256": "d7927b0b79f5ee986cc58188d8a8d29d9d2c0755d0179ebf25d8c24e6112979a",
+      "bytes": 67550,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tracer-bullets-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/tracer-bullets",
+      "sha256": "269e335610c9264647ec17543f5e40285dd9ac3b5aeafc87f9a95eb6b25708d7",
+      "bytes": 85546,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ways-ai-coding-has-rewired-my-brain-390-main-body.png",
+      "url": "http://127.0.0.1:4321/ways-ai-coding-has-rewired-my-brain",
+      "sha256": "8af9c993197b3e1d9fe016ba4c66420ac23a8863a92d7f958142ed47927aefee",
+      "bytes": 91723,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "5-agent-skills-i-use-every-day-390-main-body.png",
+      "url": "http://127.0.0.1:4321/5-agent-skills-i-use-every-day",
+      "sha256": "2519757ec50a016e25d1b3480988b07e3dfb79fbdf5d98fb51c4289a4b299948",
+      "bytes": 127774,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "5-agent-skills-i-use-every-day-390-code-example.png",
+      "url": "http://127.0.0.1:4321/5-agent-skills-i-use-every-day",
+      "sha256": "3f661a309f8ee4e276842e12e12223836d966c2190aad9baec5535f8e30aab7e",
+      "bytes": 61745,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "5-agent-skills-i-use-every-day-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/5-agent-skills-i-use-every-day",
+      "sha256": "bf584dd22d80d387d29c6cc1d0368190cc9d48965eb47d724527c4a74a10336a",
+      "bytes": 95410,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "5-agent-skills-i-use-every-day-390-image.png",
+      "url": "http://127.0.0.1:4321/5-agent-skills-i-use-every-day",
+      "sha256": "44de77c4ca513c717af8b1f04556598d3e3d66b69bda6f9b6ed2cd1b81f22f32",
+      "bytes": 154864,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "learn-anything-with-my-teach-skill-390-main-body.png",
+      "url": "http://127.0.0.1:4321/learn-anything-with-my-teach-skill",
+      "sha256": "58027e73c5ffaaaa78979d80b8687422fc57939fab7a609a26a5d1fba065b9b2",
+      "bytes": 106516,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "learn-anything-with-my-teach-skill-390-code-example.png",
+      "url": "http://127.0.0.1:4321/learn-anything-with-my-teach-skill",
+      "sha256": "3e7563fc4b146d08311acba6708f410b7b48ac1d5d2926bcbfb47e3612186a1a",
+      "bytes": 49658,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "learn-anything-with-my-teach-skill-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/learn-anything-with-my-teach-skill",
+      "sha256": "6cc9981b4fe515b19aa432fddfe2fed637a16b3f42fda17d3f860202a37b0598",
+      "bytes": 56282,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "learn-anything-with-my-teach-skill-390-image.png",
+      "url": "http://127.0.0.1:4321/learn-anything-with-my-teach-skill",
+      "sha256": "1d91d0b8fd3acd842189bea7df6502bceca03585f3c14e2511c03ac8992aff1a",
+      "bytes": 86705,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-grill-me-skill-has-gone-viral-390-main-body.png",
+      "url": "http://127.0.0.1:4321/my-grill-me-skill-has-gone-viral",
+      "sha256": "08bbbaa46157a06c7f4fd637b01192b61862ef8649c9c3ef28fd6e65b1487ebd",
+      "bytes": 72840,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-grill-me-skill-has-gone-viral-390-code-example.png",
+      "url": "http://127.0.0.1:4321/my-grill-me-skill-has-gone-viral",
+      "sha256": "2bf894a382193eb612266c78203ad0039eb782343ff8ab93c357c64c9269c486",
+      "bytes": 58775,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "my-grill-me-skill-has-gone-viral-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/my-grill-me-skill-has-gone-viral",
+      "sha256": "96b4e53a3de9c562d4e22c1afd2a3aa5c51de1bfae7b4e743fe3b0d3872a76a5",
+      "bytes": 57984,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skill-test-driven-development-claude-code-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skill-test-driven-development-claude-code",
+      "sha256": "c4c92d2b74c419ca8ff784c4ab9d1ae780a6c514f1592fbf2157f44b255b1b2f",
+      "bytes": 57944,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skill-test-driven-development-claude-code-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skill-test-driven-development-claude-code",
+      "sha256": "d571f6f8ff88a5565a0e0950238082cd2baf456502e776d88c70f164136c9e4a",
+      "bytes": 62198,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skill-test-driven-development-claude-code-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skill-test-driven-development-claude-code",
+      "sha256": "54c5057017848936abf8ffaf68320ffd63816978a5b418eaccb4973ca57b16b4",
+      "bytes": 98545,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skill-test-driven-development-claude-code-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skill-test-driven-development-claude-code",
+      "sha256": "bd184ca66bc6b9c16c1a03e366610948d7b713ba799a633547880c659f4a25bb",
+      "bytes": 64874,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skill-test-driven-development-claude-code-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skill-test-driven-development-claude-code",
+      "sha256": "3dd77cb651990859d9c1b86cf15cab0a6e739b3b65c4847d07c6b8d5929a6d38",
+      "bytes": 81259,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "burn-through-your-backlog-with-my-triage-skill-390-main-body.png",
+      "url": "http://127.0.0.1:4321/burn-through-your-backlog-with-my-triage-skill",
+      "sha256": "d0dd45b2b16be64f4a237c6b1715a416c6a8d2b8bf4d0c1dcf8562c98b24769d",
+      "bytes": 109967,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "burn-through-your-backlog-with-my-triage-skill-390-table-1.png",
+      "url": "http://127.0.0.1:4321/burn-through-your-backlog-with-my-triage-skill",
+      "sha256": "4754fcb457d2c2176ffbe5cd0aea5bc59706ce865b94d589cc7bbe0be8054e45",
+      "bytes": 71061,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "burn-through-your-backlog-with-my-triage-skill-390-table-2.png",
+      "url": "http://127.0.0.1:4321/burn-through-your-backlog-with-my-triage-skill",
+      "sha256": "93ed2dd90ecfe64dc714036c3a355949935fd04de81abf66839ffff990356fda",
+      "bytes": 105259,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "burn-through-your-backlog-with-my-triage-skill-390-table-3.png",
+      "url": "http://127.0.0.1:4321/burn-through-your-backlog-with-my-triage-skill",
+      "sha256": "1ac5ac345179852af16f263e97d51824810c16323b920cf3eaa13cd69f1e7f0f",
+      "bytes": 124337,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "burn-through-your-backlog-with-my-triage-skill-390-code-example.png",
+      "url": "http://127.0.0.1:4321/burn-through-your-backlog-with-my-triage-skill",
+      "sha256": "58d5a16c6f5d03e12000569e5a2d57d68f5ca5a29b01209a3016206cc09ceb9b",
+      "bytes": 60973,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "burn-through-your-backlog-with-my-triage-skill-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/burn-through-your-backlog-with-my-triage-skill",
+      "sha256": "8795c04a050494a2c6fd887d301ccff5222c03567e55f486d5a079e934ed9466",
+      "bytes": 104368,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "grill-with-docs-390-main-body.png",
+      "url": "http://127.0.0.1:4321/grill-with-docs",
+      "sha256": "1c6e54149a00716f54fc6eaaa62200b7aadfd0e96da79f2e6b45e9c9b9507b51",
+      "bytes": 114431,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "grill-with-docs-390-table-1.png",
+      "url": "http://127.0.0.1:4321/grill-with-docs",
+      "sha256": "cdca0b6e0f2254baa8f3c0e324c03833ba32445744f8a39168758557d14242e7",
+      "bytes": 96013,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "grill-with-docs-390-table-2.png",
+      "url": "http://127.0.0.1:4321/grill-with-docs",
+      "sha256": "b06e0ebcf5ff40a4bfa1c45bda453b1f86f25b1f803f694021b08fa583847159",
+      "bytes": 106919,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "grill-with-docs-390-code-example.png",
+      "url": "http://127.0.0.1:4321/grill-with-docs",
+      "sha256": "d3a28a8d4ac8308ce546e8d17445ba2e1f72155a57390214f48afa14caed358a",
+      "bytes": 105615,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "grill-with-docs-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/grill-with-docs",
+      "sha256": "5ec3db0432377f3b06ed80ec47a9952736e4b2147b2fe89f59eac3eb5dc0babe",
+      "bytes": 96747,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "8e8252638ed6da5a9d8f9136085e095ab4576b0df2c8567444b326f9f97a9e6d",
+      "bytes": 188774,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "bdaa7da22a3a300c19fe6d945fcf892dc6e5bba9dfdfa847214a61bc1fc57122",
+      "bytes": 225945,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-table-2.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "44db3430b0cc9758eb237c84a928eb4d4dee7e009abc054dd71361b5812212d9",
+      "bytes": 193628,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "d0fd9ea3d168f507a0bafd036d6c92614f86979869fdfdbe4fdc6788ee32e8fa",
+      "bytes": 180870,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "0656edd0e7cc72891cd09d79da61afa4050fab62b4f529eb8eb91b97105fbd26",
+      "bytes": 182061,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-image.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "de3bdbaa06602bbba512d50182a62b7abf13a0b7ad8f2adfdee6f1a2a48de6a8",
+      "bytes": 220891,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-main-body.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "77785573153b083ce95d0100f785a959a49c4df0374def49a70b6f92d1e01b42",
+      "bytes": 115214,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-table-1.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "441279cac08d654e1357c71596f19d3b8c36219b0d25c76596c2f87a958aa952",
+      "bytes": 84182,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-table-2.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "4825b77c9cbedbd6368ecfec5a4195a3a49f1ac4232ff54b9665e16fc621106f",
+      "bytes": 100154,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-code-example.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "d73a8a918a12dd3a077b1e8f81ef58ca7516467aea6706ad5234f5df7f3fa471",
+      "bytes": 67721,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "f62ddc7728620338e720a364ed095811efb4e5f789deae45572c007be4ddecf9",
+      "bytes": 67830,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-image.png",
+      "url": "http://127.0.0.1:4321/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sha256": "640b813f773af239631da3f6886a3c219ea0b8eb9a3ff8e4f36462266663bf0c",
+      "bytes": 98179,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "getting-started-with-ralph-390-main-body.png",
+      "url": "http://127.0.0.1:4321/getting-started-with-ralph",
+      "sha256": "dff555d968cc7c62728959cc1fd5bce8b82077eebbedb9d7efe97ce64962cc0e",
+      "bytes": 105025,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "getting-started-with-ralph-390-table-1.png",
+      "url": "http://127.0.0.1:4321/getting-started-with-ralph",
+      "sha256": "c136a40413d7f721c299b8ad236dd2a5e80cbb911ae18115466d00039981ca3e",
+      "bytes": 61189,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "getting-started-with-ralph-390-table-2.png",
+      "url": "http://127.0.0.1:4321/getting-started-with-ralph",
+      "sha256": "24171c94de7ca493d33bb5bcddbac5cafa854be6cb36b09ca04a75704d48f5e1",
+      "bytes": 73521,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "getting-started-with-ralph-390-table-3.png",
+      "url": "http://127.0.0.1:4321/getting-started-with-ralph",
+      "sha256": "27af3e539ce8beb16996142384a07e8d7edecac8b73c5ead6208eb90e2c5f1bc",
+      "bytes": 84543,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "getting-started-with-ralph-390-code-example.png",
+      "url": "http://127.0.0.1:4321/getting-started-with-ralph",
+      "sha256": "1bc1dc824cd7373c0b7889f745fc751cf932d9bcaaf6a3b9e78ef8ae43d54c71",
+      "bytes": 67110,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "getting-started-with-ralph-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/getting-started-with-ralph",
+      "sha256": "7263cb6816c69f2eefea9070b9810e1d9e624179d0ae16ac4e247c3a42dfd981",
+      "bytes": 87925,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "heres-how-to-stream-claude-code-with-afk-ralph-390-main-body.png",
+      "url": "http://127.0.0.1:4321/heres-how-to-stream-claude-code-with-afk-ralph",
+      "sha256": "4ee81c40a994aade77cac5c74e239f077debdb282f6520240dda94cd0b11f855",
+      "bytes": 82698,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "heres-how-to-stream-claude-code-with-afk-ralph-390-code-example.png",
+      "url": "http://127.0.0.1:4321/heres-how-to-stream-claude-code-with-afk-ralph",
+      "sha256": "90572e75c8e0a840a7e574416860aae58ff5371556ac4d41c38fe1490803f897",
+      "bytes": 54318,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "heres-how-to-stream-claude-code-with-afk-ralph-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/heres-how-to-stream-claude-code-with-afk-ralph",
+      "sha256": "6a81dad2a746b1419b29f118bc5c7f1579ca82e70c4481eb150b4951d01a4a5d",
+      "bytes": 45038,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "65d4e86cae8f1cfd95f6f5ac3b0b51984087bf00a96c11405f5e0c123e89f52a",
+      "bytes": 237939,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "a89b55015dc331d49d0a650aa9dfebfb548856b35677015465e231d2951bce7b",
+      "bytes": 181517,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-2.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "ad8ac8ca393e5ae76a06dc5380a73410bb61df33652392ef17acfe057e5a51cf",
+      "bytes": 235447,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-3.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "5eb8519fb533f448e191fd8d2f200f09724d511c3fb4a8769f4e110fbd090ac7",
+      "bytes": 226954,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-4.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "61004fd7dc60a7981d2a81be43ddb9a32a46c18b642803d9e06f96ca28e3ab33",
+      "bytes": 186367,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-5.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "04c2ba264c339733c72b3910938052bde34baad7bcfc2f3a949e3ac9063f4e49",
+      "bytes": 210278,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-6.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "d05b03ca174187efd36e47de8332a710820b8be29743fa4a636461566caff269",
+      "bytes": 171502,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-7.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "d1e8503deef57e4aa28cb81c54600f867bbe9f441a3078ee1ec35f46d9fedd56",
+      "bytes": 223855,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-8.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "ce0c8a1be7533a6948c39a93eccfc90181883f8bea53dfa4a5829be192b7428a",
+      "bytes": 176101,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "178717171f996403532f102833e70ae8c120f6488fc77cbe47afb5121638b613",
+      "bytes": 199442,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "b4ad771fcbb6612954c91d81d02de85fa6f0edc3b4a6bbb4376913df54c08bca",
+      "bytes": 167375,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-failure.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum#1-ralph-%E6%9C%AC%E8%B4%A8%E4%B8%8A%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BE%AA%E7%8E%AF",
+      "sha256": "fd10a79e268bbab611e2db6df282f8a7e26dbc7ca097968e66d1419c5bc604e1",
+      "bytes": 205026,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-main-body.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "b1a21d2e7e3fc060249b5683775011bf03ebf35c0b1724c66bd33b83eb5a4cff",
+      "bytes": 120235,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-1.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "24e7dce7ef2548b0ff7ba33be51c4ab5e3602d5519cb637ccbf62f0d8b5b10b5",
+      "bytes": 77345,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-2.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "0a557deef5541ac1ef3e6d0e00a9543ac520386265972a0bc097ff050b34e45e",
+      "bytes": 93058,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-3.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "7e2d09312fd40f9e1aaf198c2cde593d42f99789573ba9d3468ae065da90a57c",
+      "bytes": 91803,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-4.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "97942b6051fa1b917e1966a30831dad1a17f7d68401f4633340cac710e3122bf",
+      "bytes": 88672,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-5.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "6f6552f72424cd696f69a75baae39652e7a770b6c02b3c178728ec86291e07fd",
+      "bytes": 103521,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-6.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "ca1b50f119a111e98c7ee28c88a2f67f6b404a416358960c30114cbd4a1271a3",
+      "bytes": 76437,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-7.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "308073ed4f598a26d7f726f59721c1ef28f9404fd7f0fafd04250d3dbba94800",
+      "bytes": 102611,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-8.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "0e8ffdf120b09ab02dd2cbc1de0eb85549e5fd2fbcef8fdf02ab5c34944900d9",
+      "bytes": 81187,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "8d9959751befcaa27c40b1f81f85e7ebc9acd4040324168b8cf64a319ea2420d",
+      "bytes": 90621,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "93e37a70abbf3c27663eeca529a573c3a0b564d1ff9fbf1df59053a136ea20e8",
+      "bytes": 66810,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-failure.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum#1-ralph-%E6%9C%AC%E8%B4%A8%E4%B8%8A%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BE%AA%E7%8E%AF",
+      "sha256": "509ccea1d2e2c4495118092fa6cf53c5e2fe43fb319aa286c08b6b5e6ccf3227",
+      "bytes": 121452,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "why-the-anthropic-ralph-plugin-sucks-390-main-body.png",
+      "url": "http://127.0.0.1:4321/why-the-anthropic-ralph-plugin-sucks",
+      "sha256": "37af3f77f152e6bbbdeb38c0aacc275d987a20ff793f5a145242d49f24dc756e",
+      "bytes": 108609,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "why-the-anthropic-ralph-plugin-sucks-390-table-1.png",
+      "url": "http://127.0.0.1:4321/why-the-anthropic-ralph-plugin-sucks",
+      "sha256": "2fe8df04e9ae244b7261124daef59fbd4b25f67b07b94447a4f829c49327219a",
+      "bytes": 96829,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "why-the-anthropic-ralph-plugin-sucks-390-code-example.png",
+      "url": "http://127.0.0.1:4321/why-the-anthropic-ralph-plugin-sucks",
+      "sha256": "2af06bec2ebd41afeca9315de682805d0b51d027c956fe501c05e504f82e403b",
+      "bytes": 70600,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "why-the-anthropic-ralph-plugin-sucks-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/why-the-anthropic-ralph-plugin-sucks",
+      "sha256": "c2c9055c1fbeece736b51d3e3e2551fe3d37fccdc0f37cfcb4b5e6a715f072fa",
+      "bytes": 70660,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "why-the-anthropic-ralph-plugin-sucks-390-image.png",
+      "url": "http://127.0.0.1:4321/why-the-anthropic-ralph-plugin-sucks",
+      "sha256": "a8114a69706bab6fb9cc94d9056fc65a156fff72f41a1977fe03633d5c34a9d7",
+      "bytes": 105900,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "workshops-ai-coding-crash-course-390-main-body.png",
+      "url": "http://127.0.0.1:4321/workshops/ai-coding-crash-course",
+      "sha256": "9a28704ba75e9998327e7bd16ecc93cda213d7700543fe1cbfc600d4df528a36",
+      "bytes": 92583,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "workshops-ai-coding-crash-course-390-image.png",
+      "url": "http://127.0.0.1:4321/workshops/ai-coding-crash-course",
+      "sha256": "98d7af03610affbc6869848c070a16fb00cca6d54f09b13488183e08fdc5288b",
+      "bytes": 179040,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "workshops-ai-sdk-v6-crash-course-390-main-body.png",
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course",
+      "sha256": "ae1c3b249d906ccf0603c22b8cbd64a1bc07e9729d55e39014ba7fe69de9bd16",
+      "bytes": 106551,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "workshops-ai-sdk-v6-crash-course-390-image.png",
+      "url": "http://127.0.0.1:4321/workshops/ai-sdk-v6-crash-course",
+      "sha256": "9fbcce275451ff3fe9508227aca9f753672e7903f5726d2d3db33cd5363eb51c",
+      "bytes": 162047,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "home-1440-top.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "b0c734e3691348b249a990c08c4aadf2b0ecb4790db5aceddb1ad4d0919180b6",
+      "bytes": 182407,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "home-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "5084cf489615d00a7e91dbc4416e60672ddd9ca9b73a63acbeec40ea40453368",
+      "bytes": 247286,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "home-1440-image.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "47b0201e174095a7a45babd80e57c3132a6644d091a6dc3426c421ec355f7b2b",
+      "bytes": 320001,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "home-1440-all-pages-directory.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "e821acc6fdb0c68432c12856d720f3dac1694187afde5f01cc5665eafa452df0",
+      "bytes": 99383,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "home-390-top.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "42fa0466ac79e595defedf7d6b21b7663084a8caa5b6a2cddb21ec011f5103c0",
+      "bytes": 70403,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "home-390-main-body.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "1dee4a59909123fa3e80180d9e558aa7b6f3638615c818aed03e9b3effa31647",
+      "bytes": 93677,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "home-390-image.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "2c500ccab7ec572bd45c9d8ce7773ae04a02976a81b30a082c94f4efd1fd89ac",
+      "bytes": 130587,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "home-390-all-pages-directory.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "aee0ae595b1e9d0b4427220a29d5f2a5f255fee3ec6117ab1b44dd9f569fad62",
+      "bytes": 75792,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "home-390-failure.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "cbcea1d7af650b77a9f257ac46bae165ad7284523a13e19ac1c112f27d319fc3",
+      "bytes": 76096,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "newsletter-390-main-body.png",
+      "url": "http://127.0.0.1:4321/newsletter",
+      "sha256": "cec566b2cc4da87a50dabd6fbb458056ab94271ecb3e90c0aa97dcd7fabf1bd9",
+      "bytes": 67526,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-changelog-ubiquitous-language-grill-with-docs-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "ac25063710dc2169ffe6e4b0a7c1ff6b21a8c07bf2c5f34fd62cedf150d63d35",
+      "bytes": 107202,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-changelog-ubiquitous-language-grill-with-docs-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "75ab856d1a174faf0d366a8ebcec6c5f95c0163c25d1666656cef50da51408fc",
+      "bytes": 73828,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-changelog-ubiquitous-language-grill-with-docs-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "0b8bbb698c39f5cdfc2c9c98a7cb900412120908dab7778107e6b6e82b3b3b5e",
+      "bytes": 82596,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-changelog-ubiquitous-language-grill-with-docs-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "1d2df549cbab985407d21ebe1d3869894c67e8996b1ac24d7e0821f15985c1bc",
+      "bytes": 54580,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-changelog-ubiquitous-language-grill-with-docs-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "c7bc40ff599bbc8b398e9bd3dd83c3ad2be385b751ba3525d7867a7be13660a6",
+      "bytes": 62676,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "2dd8a4f524177d8d04652a3a06eef475ac92f05f6484f067dee607ead5abf084",
+      "bytes": 182766,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "d9787cff69fbe7268abea4427aa596c9b7b828d0b12254049cdf88958f2b840d",
+      "bytes": 161305,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-table-2.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "d36e9f15ff98dbe6f221f7830c596dc8568894cc068ebc5f1ac6d4368e53115d",
+      "bytes": 169255,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "ec73a8bfcae178d018e6bcdd87db34a516cfe3adb85cca8d3ca9734770621ec5",
+      "bytes": 137158,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "5c3e86fc2b0d1596ece47de4d5cbb36c8bd5926a871ec8f1723b89cac80e04e8",
+      "bytes": 127132,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "50a124ee12ff77757807465d092fa0151e837aaac496ce8c1887c1ea8107050e",
+      "bytes": 182853,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "6a155ac1ac63405ed7e5030ab001733b5e156b3ca343a32e1238c2ff7bd59b8f",
+      "bytes": 91112,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "fdb727456f7f3fd5904ab3bf7e003fecd63e98dd8e9b3073277e9f3b57dc72e1",
+      "bytes": 73847,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "8b7eac33cfe9958cb15ead3035eabab49f8f40d9934ae84c3914f8ab448df24b",
+      "bytes": 82519,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "0d483b3bbe349e3c95c50cf11c054a30d72def640b3ef5f168f576947271ae3d",
+      "bytes": 55268,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "6696f25b25686bd5c079ce56bd7264890a95d05eeb9609bd22fd927a1eddd6df",
+      "bytes": 62416,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sha256": "e242323d417e0b7c067ee1e6ff30873e985d1c4dfd7fe70acce8a57b38edbde7",
+      "bytes": 91232,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "362426d74ddbc416624dc75f86ea8d7e972faa7ce5cfd32d7d59d800eacf526a",
+      "bytes": 93699,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "c7f27d7f9b4fac6cf2c431d93819e9584dd22bd43c385ff571cb712fad6ff62a",
+      "bytes": 87776,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "c8a660adb7c1a7a36c5a5a594674dc775d788bd53b8e2141ae59c42e5d7444d7",
+      "bytes": 62465,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "9144ae05688b86bb3daedf92ec5867fd36b5d7640793b3babceff72b79a6632c",
+      "bytes": 141066,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "f54c9374ce8233a1b46feed86b49eedafa66c5ef099a77f3ba7f6d40cebda2ff",
+      "bytes": 149561,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "e9678adc166eddc688f1938473358c2d4d945d9c7c779a7f18c26e0a48b39f54",
+      "bytes": 147891,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-1440-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "3655486489bd2d6eae5a2565239a69a7e548a45c90885aca3452957537137cdc",
+      "bytes": 141086,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "c1b725874f8d0ab1cfc1c2c14ef97c9c8f0e51ead7877ba5c5d6e090628de22f",
+      "bytes": 86853,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "54fa2a267e743f6dc770d55f9d52a38b1a2b93d04f9588f39fcf8a517cbb4a52",
+      "bytes": 73007,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "9b94ab0f8b649ad338b3297035f5dc0526082724d089497d12081355e12e5d18",
+      "bytes": 62516,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sha256": "8fbdef59cd1c3f46ff4b83014f26b17f2179bb3f0d9f2492d55c32dd1540711e",
+      "bytes": 86954,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-prototype-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-prototype",
+      "sha256": "c1c8b872f2c116121373d3c83adb9e4c9b75a9d3158f7850c43c26540dec2755",
+      "bytes": 79217,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-tdd-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-tdd",
+      "sha256": "c3601bf0a5ecebac37bcd5ce26a3eca86e6e7b2ff8e21edfe9acdf3f58a46767",
+      "bytes": 114757,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-tdd-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-tdd",
+      "sha256": "568d9083ed93e4f24318d1a5512f153c498b8673a2289f31ca69e34a741e41e9",
+      "bytes": 108361,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-tdd-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-tdd",
+      "sha256": "c402b0db39d238a55ea2f4bd98c5826101122a9d031745cc54d0e306c9b736ff",
+      "bytes": 85787,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-tdd-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-tdd",
+      "sha256": "37773814e11add7af610c8a37cacf46f0ead9614522a03ec0999d6df720b7b68",
+      "bytes": 87270,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grill-with-docs-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-grill-with-docs",
+      "sha256": "3baa0f87450b09c1ad5f455c5b7a819b61eec2073debb294e59900c8d2c6364d",
+      "bytes": 98160,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grill-with-docs-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-grill-with-docs",
+      "sha256": "22abf477561be7bbcd4963d19f1ad2cf5a6406bddd49179260a0a47ce8532433",
+      "bytes": 90068,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grill-with-docs-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-grill-with-docs",
+      "sha256": "1ecae7441300403b288f2d92ad8ce3e1ff427eb70e9e96f706bd17558c5663f8",
+      "bytes": 104226,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grill-with-docs-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-grill-with-docs",
+      "sha256": "62f69d552dc08cb984b87fc8c28e70b62a133c33860619e13af5e0874c6ff8d9",
+      "bytes": 106807,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grill-with-docs-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-grill-with-docs",
+      "sha256": "314c3573770447066828186d442614304656fb85d54fde7eeaf194f8db8ebe46",
+      "bytes": 81979,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-improve-codebase-architecture-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-improve-codebase-architecture",
+      "sha256": "a464deb38aef384bd617128d5c8f95608d72d20510380781c4bfcdedbed07f34",
+      "bytes": 120348,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-improve-codebase-architecture-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-improve-codebase-architecture",
+      "sha256": "36cf0a4e4febcd8ff843d3a4a84627f499d0651bf88044bca1586e539bea3fd9",
+      "bytes": 77524,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-improve-codebase-architecture-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-improve-codebase-architecture",
+      "sha256": "42b8bdbf126c146e8beef9c08b275ab75594d8112ac7a36d08071b2fafb38d8a",
+      "bytes": 110238,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-improve-codebase-architecture-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-improve-codebase-architecture",
+      "sha256": "b471c5d6eca1d9619b1e7db9a1ef065cecd1bf503461e392f92bf690f657a31f",
+      "bytes": 85910,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-improve-codebase-architecture-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-improve-codebase-architecture",
+      "sha256": "c670f786c3051b7cdbf06d4affdc4cd43223717f5d62bbc3d2ca68a649cbbc10",
+      "bytes": 101901,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-teach-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-teach",
+      "sha256": "ab0318c2244c72bce5ace3ccd4ae4870969764f06b82c2b910a760cedb33f2ec",
+      "bytes": 92964,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-teach-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-teach",
+      "sha256": "59ad6e6c5ff2e3524c88f6f271e439220ad4d0e817b1a49ce246f92ead05dcd9",
+      "bytes": 87264,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-teach-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-teach",
+      "sha256": "0636b291492db5ac2e0b5d14eeb3a75fa064cb91b0ce93cb51087ff66e687e3a",
+      "bytes": 94904,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-teach-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-teach",
+      "sha256": "c4ed80a13dc9ec274df89cf8183b8d88d7167ad0bdfb9104d751db66a03b9650",
+      "bytes": 109454,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-teach-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-teach",
+      "sha256": "8b899b0caf9e1628c8453d57eafe3a0c1ead139ff75b0f542b2dbbf8c2570ac2",
+      "bytes": 88359,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wizard-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-wizard",
+      "sha256": "7fd22365d9c7cfaeaced030d75213e96ae906b73af4fbe8b5ae4fe1cee3a5990",
+      "bytes": 73992,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wizard-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-wizard",
+      "sha256": "fc426de552fbf0ac408092a0273e9e25e9d8b5127077fbf7893c8e812ca67a45",
+      "bytes": 94226,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wizard-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-wizard",
+      "sha256": "8c854a586a75b8833648a4921d1d158471b2aa41bf00d0e7c1a4097effdcdb36",
+      "bytes": 101534,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wizard-390-table-3.png",
+      "url": "http://127.0.0.1:4321/skills-wizard",
+      "sha256": "f304487ee73836467f62b69b263e7b34fa619cdcbaab7a0f601a76254e3f36c4",
+      "bytes": 99613,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-triage-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-triage",
+      "sha256": "1ee50c597724df3f31fbbce55741a8a3bb9ac96ff47494f5696d1a2d395c2608",
+      "bytes": 117702,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-triage-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-triage",
+      "sha256": "8cce0afa65088ff272d9a9ca1d9a2931cbae038b07dc93c3bff381cd58ccec77",
+      "bytes": 63163,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-triage-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-triage",
+      "sha256": "e2a9a784648554aa9fc91dac65fcd06d74a7ce0587fcb3d91ac183d9813b5059",
+      "bytes": 93313,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-triage-390-table-3.png",
+      "url": "http://127.0.0.1:4321/skills-triage",
+      "sha256": "0e4b30e4695cc7950742f2ef5efdee3c3ab63113d8b0e9587624050ee5944971",
+      "bytes": 110304,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-triage-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-triage",
+      "sha256": "434cb31b2fe6819a5ae939284395653208afd5356d21e57ccfd1ea832097433d",
+      "bytes": 55516,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-triage-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-triage",
+      "sha256": "43b4f534401c57b67537d4b60076a0902d583838ef9ff0c11a3ac0725caff094",
+      "bytes": 110176,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wayfinder-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-wayfinder",
+      "sha256": "02c03d5d85ba3d829cfa6e7b67272977e8ccfe99cb4cd3179fecb0c6980c4e8b",
+      "bytes": 182026,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wayfinder-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-wayfinder",
+      "sha256": "d452d9190671ff25d1fa4249af91965e33715e9c5af4e7c220d3ae78f6b9cd5a",
+      "bytes": 203389,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wayfinder-1440-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-wayfinder",
+      "sha256": "cb0b8d2172489e7b0af9bad77606d8fc99df8317f0b66711cbff79377e626b53",
+      "bytes": 218039,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wayfinder-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-wayfinder",
+      "sha256": "fdcf461a57d8f310d837466f6719ecf03179a5fdb42dac60d6cd6f7fd8ecccf2",
+      "bytes": 187100,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wayfinder-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills-wayfinder",
+      "sha256": "ae6035cb765920e50d11c47e8b4b450a0ee90ab688624fa8e0078babf60d4a39",
+      "bytes": 108439,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wayfinder-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-wayfinder",
+      "sha256": "9fba31d458515e7492dc1726342488023c13ddf5cbd93ec0c2f17ebfba683e9c",
+      "bytes": 96009,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wayfinder-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-wayfinder",
+      "sha256": "3190115ee2454c4956b7f2948a6ef175828260e75d43dc3865137eff2dcf1db7",
+      "bytes": 84226,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wayfinder-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-wayfinder",
+      "sha256": "97e6e4ad72498c2f756de09197eaade3de531908fad8264db0a0f835df65f0b3",
+      "bytes": 76163,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-announcement-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-announcement",
+      "sha256": "bdf6cf801396283eb5197682e1c028331fef7069c72d28bcf1fb3cb5426a9743",
+      "bytes": 150187,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-announcement-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-announcement",
+      "sha256": "28aa64442bd1b9f1ddd023e7a5a592d19c2e07f71518df5fb6b58d71d724b5b9",
+      "bytes": 174697,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-announcement-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-announcement",
+      "sha256": "47454186c4020775aa685b97083075f7b4d5ca85e24f2155a85cc4221d9011c7",
+      "bytes": 255421,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-announcement-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-announcement",
+      "sha256": "59d4b67527242332b1a45c49c1a7b7a92aebad08acdfc645664dee9343e01297",
+      "bytes": 141658,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-announcement-1440-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-announcement",
+      "sha256": "757d4e7f8070cca93ae45fc44300c7b38b18180b6b350250736d004b2cf6892e",
+      "bytes": 153661,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-announcement-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-announcement",
+      "sha256": "8b5cbb57ceed99882dcf4e1c4f6d9a8d2f47f0f1b2a3c444d4e9a18d50522670",
+      "bytes": 78855,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-announcement-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-announcement",
+      "sha256": "7e043a4a906ca6f08ad65d8a4caba55c0bc63ed1d110c2b62a51a4504c3917b9",
+      "bytes": 90979,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-announcement-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-announcement",
+      "sha256": "eae97e5eb44d285114ae7bc2649f7f98ad115a2b9170b7ad8bb7ecbe75e43a12",
+      "bytes": 107447,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-announcement-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-announcement",
+      "sha256": "474e49a6131997cd2a9a952b13070ebf44a21c172683b8710e08325e80fc64be",
+      "bytes": 66721,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-announcement-390-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-announcement",
+      "sha256": "802461a19fe75fa33e81d56c4e987ab51b34bd0f48a88aeb8b7ac5ab782f524c",
+      "bytes": 77947,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "19c237ddc9d279f76a51ecb5e1d56fd45d2b1075afb58326f49c9b74ffdc2321",
+      "bytes": 176074,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "e1a1fb1c42c5ebeb6584db5ec7629b2d5a14f1e3ce861c3d21a3357438cbf53f",
+      "bytes": 200010,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-table-2.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "44c85f384d1242f8a83f81a25c959733a3db9fcaea36e148c30fe14c6887a974",
+      "bytes": 215258,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-table-3.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "5a9ef79eea0dc090e9d7d4cdab08dec2546d1fbaf000c8ef64240c602e71e8ce",
+      "bytes": 186377,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "31c95237a7a0c734c4eb4d6a76ae6e91c32f422fe3a7d844705a65a0a56337bd",
+      "bytes": 173781,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "fe508bc60e63f2827f267472bbaf8864b342be3ac8c3de97cfa287287e69371c",
+      "bytes": 172778,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "437266359603534aea4aa610c736f158ed2a0a5d48d11221e4b3e9fc165bd47a",
+      "bytes": 177297,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "9d2c3a0142c1c3dd44b1715b1f6f109cec265409d71e278794dd137b0047bb42",
+      "bytes": 91951,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "64902f156516e335a513e2aeedb95ebfcdbc113abe3fa4091d3b2a3aa714ed4d",
+      "bytes": 90046,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "f0f2e7ce0415a11b36c2a38cebbb82a41ded59aeb3868793092a7157c017ad48",
+      "bytes": 84382,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-table-3.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "ffd0795ee3316c1550e373574f30af9a866130407184772bc9b0f91501fa50dc",
+      "bytes": 78706,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "8c38a8e12c1f0f9d46732869573a28898b8e13db1eb36e6c8478afdd5ae70756",
+      "bytes": 62519,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "28933b37584c08e3cc73ade8b2496466fcdd12703437627f457f01e3775f3423",
+      "bytes": 60571,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sha256": "224f2eb83cbb931afecf724738ad583a9fa1a4d0a1c3bdf0c1879764352e483f",
+      "bytes": 84917,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sha256": "0f705cfd93a6adf1bbcb88e597258003cd4f776d8bc837333076a46cfa8940ae",
+      "bytes": 219258,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sha256": "2a91999c86fb20c5433b6dcad6ac4572457e75f13462a63be15bd385d0d5fc6b",
+      "bytes": 209740,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sha256": "a884a55a8d8034399faf131a599f9cd69af3076e9e6fbe6514497106c46c0a84",
+      "bytes": 179162,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-1440-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sha256": "5ecde9868853008008fc47c3d501cc887c9c77eacf2c97c8c9a23668611af1ec",
+      "bytes": 184377,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sha256": "3f5e92420cf2be2a0e116a1e04ac0998ed88596128346380f4361028e036a333",
+      "bytes": 93083,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sha256": "a766dfb45ae91cecbc235eeaeef085882583e02a8bc9883ffd8314ab5a7ec0b1",
+      "bytes": 78282,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sha256": "5d08dd48a49f10f8f9bd560fbe2148cfc078329f2a3e2dbc5486bb6542e64f39",
+      "bytes": 94481,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-390-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sha256": "3b3f51817ee992334e781ff9fdd1f4b8ed45b74f843bf8b91a5cfba89eee68dc",
+      "bytes": 87646,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "llm-fundamentals-390-main-body.png",
+      "url": "http://127.0.0.1:4321/llm-fundamentals",
+      "sha256": "0b257aac8d62b6b49b5282d6dafd4b35a114a545b8ef2108147cbadc64dfb19b",
+      "bytes": 146336,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "llm-fundamentals-390-image.png",
+      "url": "http://127.0.0.1:4321/llm-fundamentals",
+      "sha256": "fd0b12da56bb783646525a5a2c24f6afe801b25752c1eba2bae3a2a839b8fabd",
+      "bytes": 166762,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "storm-generate-high-quality-articles-based-on-real-research-390-main-body.png",
+      "url": "http://127.0.0.1:4321/storm-generate-high-quality-articles-based-on-real-research",
+      "sha256": "6c15652d7a82104f4381f94f7ee97b76ac9f70552289cbbd07057ac7385c20ec",
+      "bytes": 93823,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "storm-generate-high-quality-articles-based-on-real-research-390-image.png",
+      "url": "http://127.0.0.1:4321/storm-generate-high-quality-articles-based-on-real-research",
+      "sha256": "db9b8be571e048a943f5abb73dbcc3fbf4b6bc4718197f01bc4b0c8cb36b5171",
+      "bytes": 56853,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "the-prompt-report-390-main-body.png",
+      "url": "http://127.0.0.1:4321/the-prompt-report",
+      "sha256": "9ae3228996417b9aeceb2d0356efe2702cbc3714a8a69a0cd5212570985e5611",
+      "bytes": 101569,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "the-prompt-report-390-code-example.png",
+      "url": "http://127.0.0.1:4321/the-prompt-report",
+      "sha256": "922e309ee1eb62953c1af7547d8942723906d7cba6b319a919f8a9387414b2ec",
+      "bytes": 39687,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "the-prompt-report-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/the-prompt-report",
+      "sha256": "0874e0566e687d3e6fa56e73e94f0ea859569f07bd1f5e7bfb2de1d9d2ef677e",
+      "bytes": 72956,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-text-with-vercel-ai-sdk-390-main-body.png",
+      "url": "http://127.0.0.1:4321/generate-text-with-vercel-ai-sdk",
+      "sha256": "671df93b7b968917ca717a46ae541b80cc01c4121a64196668d48fb19dc517e2",
+      "bytes": 90425,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-text-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/generate-text-with-vercel-ai-sdk",
+      "sha256": "1139740c353584d3d1ed2c3bd0db3e2a51ea249c9438bef01424c7818749b640",
+      "bytes": 74033,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-text-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/generate-text-with-vercel-ai-sdk",
+      "sha256": "2873f45a7808d3733146ca063729c7f8cc2805e1b42d7f377fef8f88a1034498",
+      "bytes": 56670,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "streaming-text-with-vercel-ai-sdk-390-main-body.png",
+      "url": "http://127.0.0.1:4321/streaming-text-with-vercel-ai-sdk",
+      "sha256": "e8383b6276c300ea86bae5a7c30ac05e414de93770250e880663e620b1a9abaa",
+      "bytes": 93095,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "streaming-text-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/streaming-text-with-vercel-ai-sdk",
+      "sha256": "6c6fcc70d0cada84e70720ffb4529125fdf480b1f1ec856ac226b832a251a7eb",
+      "bytes": 73557,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "streaming-text-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/streaming-text-with-vercel-ai-sdk",
+      "sha256": "42821cb9113b7ccf917ffbedeef65aec8debb2acda45f26ab7ab4ac6e1c0eb4d",
+      "bytes": 60525,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "swap-ai-models-with-vercel-ai-sdk-390-main-body.png",
+      "url": "http://127.0.0.1:4321/swap-ai-models-with-vercel-ai-sdk",
+      "sha256": "8d788e1ece01a59fd1145fd42d6c114576e9d0f914f67d3b6bfcbe0d2197ad0e",
+      "bytes": 59016,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "swap-ai-models-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/swap-ai-models-with-vercel-ai-sdk",
+      "sha256": "1a8bb2a34c4dc2d57c03776a0c4275f979aeb51202c13c65096afd055cfc43f0",
+      "bytes": 48184,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "swap-ai-models-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/swap-ai-models-with-vercel-ai-sdk",
+      "sha256": "2eb48749b4a47893064620cd9c9437c1b225659c38cc75f3d24bc09681aedd89",
+      "bytes": 58204,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "system-prompts-with-vercel-ai-sdk-390-main-body.png",
+      "url": "http://127.0.0.1:4321/system-prompts-with-vercel-ai-sdk",
+      "sha256": "a2d4649053dff1ae840c5bc85b88f1b9bfd510f72ce60cf4c32d65d8c3390e33",
+      "bytes": 82892,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "system-prompts-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/system-prompts-with-vercel-ai-sdk",
+      "sha256": "a8ce49da7a92c428f3911a6b12f944f4db5abac6c98e32004e5db321c6635341",
+      "bytes": 50565,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "system-prompts-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/system-prompts-with-vercel-ai-sdk",
+      "sha256": "0ba07c51fd339528e33070073b562485724985afcd3d325c2bc5529e3e8cc255",
+      "bytes": 54156,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "vercel-ai-sdk-tutorial-390-main-body.png",
+      "url": "http://127.0.0.1:4321/vercel-ai-sdk-tutorial",
+      "sha256": "51f1816ddc2e182a8a2da4a335451d60bd4906384fe9954366c9437959f3869d",
+      "bytes": 216189,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "vercel-ai-sdk-tutorial-390-image.png",
+      "url": "http://127.0.0.1:4321/vercel-ai-sdk-tutorial",
+      "sha256": "0e89549d307ea19b7676352e67e91a9d95d6dfdfa2a2f3bc9f40b0c354784c5e",
+      "bytes": 216430,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-enums-with-vercel-ai-sdk-390-main-body.png",
+      "url": "http://127.0.0.1:4321/generate-enums-with-vercel-ai-sdk",
+      "sha256": "73c7dfaca3ca7ef01ea047a77099b1edd1bc6158abc090b2e7f3c56d44fee820",
+      "bytes": 103350,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-enums-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/generate-enums-with-vercel-ai-sdk",
+      "sha256": "c3e996dad62ba8396bba898c41cb5e51577edde95bdc41c1aa20bcdd85ddeb74",
+      "bytes": 51362,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-enums-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/generate-enums-with-vercel-ai-sdk",
+      "sha256": "4ab17ea77961a718c033538873a42aafa05495d4369ddefdb32720da5dd8239f",
+      "bytes": 61159,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "structured-outputs-with-vercel-ai-sdk-390-main-body.png",
+      "url": "http://127.0.0.1:4321/structured-outputs-with-vercel-ai-sdk",
+      "sha256": "21cc6a76b893d47a92e320df36427b160d99e2a84097365bde6285555cd3de92",
+      "bytes": 76915,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "structured-outputs-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/structured-outputs-with-vercel-ai-sdk",
+      "sha256": "f87515e491535de8139f8df13cc6d61cb3206acbac77f5f9dd5761d5433e7a05",
+      "bytes": 54359,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "structured-outputs-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/structured-outputs-with-vercel-ai-sdk",
+      "sha256": "7ede4143ee325bd17d52f572f6a08ecea7be03a2077991f7cf0f13e207efc4cd",
+      "bytes": 56691,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "use-local-models-with-vercel-ai-sdk-390-main-body.png",
+      "url": "http://127.0.0.1:4321/use-local-models-with-vercel-ai-sdk",
+      "sha256": "3cd35fc202ba3c3bfe76c086e597e6eab92c1d248cb6b2c44e4a22b955e4ad59",
+      "bytes": 98103,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "use-local-models-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/use-local-models-with-vercel-ai-sdk",
+      "sha256": "a8f616275f2f3673dc2e9adbd5a8b7c05aa714c6ce243a68e62313b53d4595ef",
+      "bytes": 94678,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "use-local-models-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/use-local-models-with-vercel-ai-sdk",
+      "sha256": "064f00d5a84628f6476a489d6f5d68b1a20d22ad7236d905ec118ef19165d688",
+      "bytes": 55817,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "evalite-an-early-preview-390-main-body.png",
+      "url": "http://127.0.0.1:4321/evalite-an-early-preview",
+      "sha256": "315deb52ede16a967eb89c60e28bf7b84053b81b8561b7276e87874a34a3bf05",
+      "bytes": 81014,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-1440-top.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "cc378348c8963e494bc9e67f6b1b51455f3e1720f527f3464158775ef3ac79d7",
+      "bytes": 113043,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-1440-body-title.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "c22ed6d3e287b2562aaf11b78be7889f3e7c4cacc8fcaa7b73f598ca0fab5e18",
+      "bytes": 127468,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "8bc5022bd6ffe6bf1f95d75d47946e998ee45142c5444befeb84a7fb569a5d5d",
+      "bytes": 127562,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-1440-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "8bc5022bd6ffe6bf1f95d75d47946e998ee45142c5444befeb84a7fb569a5d5d",
+      "bytes": 127562,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-390-top.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "79461d7fab8efedea6c0b12a06e63d67df323f853d9cd3b0c8960adaaaa56d34",
+      "bytes": 66597,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-390-body-title.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "31e849bba140a8f7d7faa2358a95d780334ca268dbe379c9b63fb0457c9de012",
+      "bytes": 97395,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-390-main-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "31e849bba140a8f7d7faa2358a95d780334ca268dbe379c9b63fb0457c9de012",
+      "bytes": 97395,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-390-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "31e849bba140a8f7d7faa2358a95d780334ca268dbe379c9b63fb0457c9de012",
+      "bytes": 97395,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-the-ai-sdk-390-main-body.png",
+      "url": "http://127.0.0.1:4321/what-is-the-ai-sdk",
+      "sha256": "6e42807718f1862d8ebdccd63afd30c1b5a6da307f6c9b90eeaa652a96acb0f3",
+      "bytes": 95525,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-the-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/what-is-the-ai-sdk",
+      "sha256": "c15dfab07996a2bfd13f207b76e51267579612ab047924d8b120cb31eba8dd5f",
+      "bytes": 48377,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-the-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/what-is-the-ai-sdk",
+      "sha256": "62dc885c96bce68ef05175202fc94069297a3439b204474bd9da8a13e545d6df",
+      "bytes": 60872,
+      "hashVerified": true,
+      "independentlyViewed": true
+    }
+  ],
+  "records": [
+    {
+      "route": "/how-to-improve-your-llm-powered-app",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 17
+    },
+    {
+      "route": "/connect-claude-code-to-github",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 6
+    },
+    {
+      "route": "/how-to-make-codebases-ai-agents-love",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/creating-the-perfect-claude-code-status-line",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 11
+    },
+    {
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 5
+    },
+    {
+      "route": "/never-run-claude-init",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/real-world-feature-build-with-claude-code",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/my-7-phases-of-ai-development",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/my-claude-code-cohort-a-teaser",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/plan-mode-introduction",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 8
+    },
+    {
+      "route": "/tracer-bullets",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/ways-ai-coding-has-rewired-my-brain",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/5-agent-skills-i-use-every-day",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 6
+    },
+    {
+      "route": "/learn-anything-with-my-teach-skill",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 6
+    },
+    {
+      "route": "/skill-test-driven-development-claude-code",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/burn-through-your-backlog-with-my-triage-skill",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/grill-with-docs",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/getting-started-with-ralph",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 13
+    },
+    {
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": 1440,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 33,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '#1-ralph-%E6%9C%AC%E8%B4%A8%E4%B8%8A%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BE%AA%E7%8E%AF'\n- '#1-ralph-本质上是一个循环'\n"
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 33,
+      "error": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '#1-ralph-%E6%9C%AC%E8%B4%A8%E4%B8%8A%E6%98%AF%E4%B8%80%E4%B8%AA%E5%BE%AA%E7%8E%AF'\n- '#1-ralph-本质上是一个循环'\n"
+    },
+    {
+      "route": "/why-the-anthropic-ralph-plugin-sucks",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/workshops/ai-coding-crash-course",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0,
+      "error": "page.waitForURL: Timeout 15000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"http://127.0.0.1:4321/a-complete-guide-to-agents-md\" until \"load\"\n============================================================"
+    },
+    {
+      "route": "/newsletter",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/skills-prototype",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/skills-tdd",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-grill-with-docs",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 3
+    },
+    {
+      "route": "/skills-teach",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/skills-wizard",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/skills-triage",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/skills-wayfinder",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-wayfinder",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 5
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 5
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 8
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 8
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 3
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 3
+    },
+    {
+      "route": "/llm-fundamentals",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/the-prompt-report",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/generate-text-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 6
+    },
+    {
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 6
+    },
+    {
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 5
+    },
+    {
+      "route": "/system-prompts-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 12
+    },
+    {
+      "route": "/structured-outputs-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 11
+    },
+    {
+      "route": "/use-local-models-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 6
+    },
+    {
+      "route": "/evalite-an-early-preview",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    }
+  ],
+  "conclusion": "All 279 original screenshots independently viewed. C04 two-H1 overflow fix and twelve missing-h2 retakes accepted. Homepage layout and mobile directory navigation failed; Ralph encoded Chinese hash verification incomplete. Do not mark homepage desktop passed despite script success. Other 58 target routes accepted on this fixed candidate, pending additional mechanical records review."
+}

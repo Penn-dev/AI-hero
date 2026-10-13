@@ -1,0 +1,30 @@
+{
+  "tree": "b9040402c4e5e944f8d449062d63c49ba3e10f49",
+  "previousCandidate": "d41b9a8703917c0eef4c0891703ad70e97e2e46a",
+  "targetCount": 60,
+  "newIndexRoutes": 57,
+  "changedExistingRoutes": [
+    "/structured-data-from-pdfs-with-vercel-ai-sdk",
+    "/publish-your-mcp-server-to-npm",
+    "/using-mcp-prompts"
+  ],
+  "unchangedExistingTranslations": 91,
+  "indexCount": 151,
+  "sourceAndRendererUnchanged": true,
+  "viewports": 63,
+  "allTargetDraftsMatchIndependentReview": true,
+  "trueUi": "pending",
+  "planned": [
+    [
+      "/what-is-the-ai-sdk",
+      [
+        {
+          "route": "/workshops/ai-sdk-v6-crash-course",
+          "state": "planned-chinese",
+          "reason": "\u5b8c\u6574\u4e2d\u6587\u76ee\u6807\u7531\u5de5\u7a0b\u63a5\u5165\u540e\u5237\u65b0\uff1b\u6682\u7f3a\u9636\u6bb5\u7531\u73b0\u6709\u5165\u53e3\u56de\u9000\u539f\u7ad9\uff0c\u4e0d\u8ba1\u4f5c\u4e2d\u6587\u76ee\u6807\u5df2\u5b8c\u6210\u3002"
+        }
+      ]
+    ]
+  ],
+  "stale": []
+}

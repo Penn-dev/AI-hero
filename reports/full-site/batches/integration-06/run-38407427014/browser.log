@@ -1,0 +1,43 @@
+{
+  "status": "failed",
+  "commit": "f5d86e68cfbd48fb66e91245ffcdf1db7a746066",
+  "pages": [
+    {
+      "id": "tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "home",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "home",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('navigation', { name: '全部中文页面', exact: true }).locator('details').locator('summary')\n    - locator resolved to <summary>…</summary>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    29 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+        "stack": "locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('navigation', { name: '全部中文页面', exact: true }).locator('details').locator('summary')\n    - locator resolved to <summary>…</summary>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    29 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:151:40)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:194:79"
+      }
+    }
+  ]
+}

@@ -134,7 +134,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-01/checks/what-are-tokens.md",
       "sourceHash": "2a64fce2291858c58f05526228e575cd323663e0ca3a2dfbaed87ce3fe591013",
       "translationHash": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -145,7 +145,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-01/checks/what-is-an-llm.md",
       "sourceHash": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
       "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -156,7 +156,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-01/checks/what-is-the-context-window.md",
       "sourceHash": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3",
       "translationHash": "4fb8555b800741de5f4939fdc6da0f9e98747dcddcbf124b01d09be64db0edc7",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -167,7 +167,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-02/checks/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
       "sourceHash": "c5585ac7cfc22c4a4c40941343ac04119a28e962bb3f086dd351a95e689f64c6",
       "translationHash": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -178,7 +178,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-02/checks/how-does-the-model-context-protocol-work.md",
       "sourceHash": "d1fe112d6c98655fcea48a5ce8e13ad706371ee3305b5c47471fb207ee7da729",
       "translationHash": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -189,7 +189,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-02/checks/logging-a-huge-mcp-footgun.md",
       "sourceHash": "eef196ed9aa582bbfcc3ab7c3e5761f264461ce4a57c14a83642a71a925a1767",
       "translationHash": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -200,7 +200,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-02/checks/mcp-server-from-a-single-typescript-file.md",
       "sourceHash": "484c19f68976cc4aed0121229976cd80169a147181c2a3239c893bdb8339679a",
       "translationHash": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -211,7 +211,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-02/checks/model-context-protocol-tutorial.md",
       "sourceHash": "47c89dd78f37236aa983545d5f1440f11ebd3c56b7c05ad9ad8044df6bde0b94",
       "translationHash": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -222,7 +222,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-02/checks/publish-your-mcp-server-to-npm.md",
       "sourceHash": "a9459952cfa26254258dc360cd31a17e54135a0df93098cad256c2b7e933b28b",
       "translationHash": "2f528062fa9fcd9f42fdc96369373d99519d06197039303569a551d093133a8b",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -233,7 +233,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-02/checks/the-problem-with-mcp-stateful-server.md",
       "sourceHash": "c507dad06f3bc0d72d9a5c1c60af59882d5c63fe7264b2106491f9ca0d6fe8aa",
       "translationHash": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -244,7 +244,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-02/checks/using-mcp-prompts.md",
       "sourceHash": "bd0218127fa4a05f739be2f2d169efcadc57b726768760fd5d6025618e36f127",
       "translationHash": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -255,7 +255,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-03/checks/how-to-choose-an-llm.md",
       "sourceHash": "25b8b5bb3ebbe1fe88f002c69da7119362f3584029f07dbde2e6bd11070d09e5",
       "translationHash": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -266,7 +266,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-03/checks/llm-fundamentals.md",
       "sourceHash": "9a6205dcc625fe5356f4c303a3993bbb547760c6a77bd0c2bd098a3bff38693d",
       "translationHash": "a89ce1b9aa7a7be217c28cb3bd8ae4ee4ce9f281c4f8a1623658ca66249140c6",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -277,7 +277,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-03/checks/messages-system-prompts-and-reasoning-tokens.md",
       "sourceHash": "6bdc0dcd24d6ccf1ee01d8cc799c13380cf647b668d2298676a07e970e7c2296",
       "translationHash": "ff9940e3b294e84041d8c30b3dc0ecf791e24d94817de3bb9addc9240887dbbb",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -288,7 +288,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-03/checks/what-are-llms-used-for.md",
       "sourceHash": "7596c6c7d39b9b2c24b7dd6ae66a05bbad002c19e572fa20711594078b53a4a0",
       "translationHash": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -299,7 +299,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-03/checks/what-are-tools.md",
       "sourceHash": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049",
       "translationHash": "e9e2d1d0795a237f8758217329dfd7f34abe6719fe4f647ac229e6c883a0e006",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -310,7 +310,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-03/checks/what-is-an-agent.md",
       "sourceHash": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
       "translationHash": "81ad23f66a99b7cd40ba3c465bb6a4d193f4e6f4c5c0d2c2d730f7bb458fceeb",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -321,7 +321,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-04/checks/ai-engineer-roadmap.md",
       "sourceHash": "32552be89fe5159b367e64dc20745e0caa30180b9b3293594e7aacf28a73ec19",
       "translationHash": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -332,7 +332,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-04/checks/building-effective-agents.md",
       "sourceHash": "231bef3b6e950255bed02786be3334a5c6c68ba93d1be77de32738b16492c985",
       "translationHash": "5ce05ee6d2097318e648b7be94f0cf93a2e13c2438275eea11bc2490a0a27569",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -343,7 +343,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-04/checks/storm-generate-high-quality-articles-based-on-real-research.md",
       "sourceHash": "63f9786655d89c28f733d241cfbb1452ad8f3c546760c36a63cd6e1316c9e1db",
       "translationHash": "f5f29c9f346eca8d316bc0b7382d131a8fa09410668a2492a8f464e2243cd4a4",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -354,7 +354,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-04/checks/the-ai-engineer-mindset.md",
       "sourceHash": "a38cc64310d21a913dac5ba1a74ce926de8e691ab59888a0638452c1d48ce8ac",
       "translationHash": "cafb6b8d4ad4133b4791f2d21385ecfa4128962e4cd401e7607b645f2b6109db",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -365,7 +365,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-04/checks/the-prompt-report.md",
       "sourceHash": "1d14ac41bef2b6c45d7bcf8c20f49dd1e7f4cd0cd270fc05bee26dee66d985b6",
       "translationHash": "e22eaa86066cf47b5c8269478962da8176444511292767120794605517f5b5d3",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -376,7 +376,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-04/checks/three-types-of-evals.md",
       "sourceHash": "daed9213d7e4da9e384ec039e35080fe75ffeccd9f8d8a02860e3f0b7472d992",
       "translationHash": "38579d6eed8a95d702e79a8871aab78b62a6a4bd58ef320481398b8d3b19eb7b",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -387,7 +387,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-04/checks/what-are-evals.md",
       "sourceHash": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
       "translationHash": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -398,7 +398,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-04/checks/what-is-an-ai-engineer.md",
       "sourceHash": "77b72306faee34d21bef05d7f0ecb6b3cc4a4a015a7a84e4a62e721eac0b6484",
       "translationHash": "f9cccdd3fc4d0bdf75404cfb90e92323e755f8791c98bbf10d8f81f378ba833e",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -409,7 +409,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-05/checks/generate-text-with-vercel-ai-sdk.md",
       "sourceHash": "ffb189c870c13f28284adc1898731ac1280cc663c8202a368ad6db94922341ea",
       "translationHash": "efbcbe5f795191c368068df43b0b6b230212014b2860305cfc47bee294320c06",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -420,7 +420,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-05/checks/streaming-text-with-vercel-ai-sdk.md",
       "sourceHash": "b7be79753832f1d6087f99f18cee294aff7541ddf54407e1c087d1f437a334cf",
       "translationHash": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -431,7 +431,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-05/checks/structured-data-from-pdfs-with-vercel-ai-sdk.md",
       "sourceHash": "f277e10827d20b167361744d27da8236be850b5652548b53e0ff36d3a1a73461",
       "translationHash": "ecbb7283113651d9d4dae74453cf99e12fd1ef8cc3d05f7d4a387768c3ad0282",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -442,7 +442,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-05/checks/swap-ai-models-with-vercel-ai-sdk.md",
       "sourceHash": "aac3e780421568244954473c45d09d24ba5acd4f4dbcd63a3937aede0a1e89b4",
       "translationHash": "971ab2c8677e624acfdbee607f50e6a15cb6fd1fd661a8ca400794a20cfced7a",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -453,7 +453,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-05/checks/system-prompts-with-vercel-ai-sdk.md",
       "sourceHash": "04ce96d05f56845bc10365c233094b95ebc9fd237d25dc5631042bc712b17c8f",
       "translationHash": "98ae9e5576b442883f073dfdc1fa99cd87ab857affef849dd178cb435376c592",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -464,7 +464,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-05/checks/vercel-ai-sdk-tutorial.md",
       "sourceHash": "8f6395c1abdb055ef0c11102cf0363582a69f1439baef4e91ca29e358b3545e7",
       "translationHash": "5ac4b8d2978128fa71304222dbbd3410dbcbf0d5d999d0172121052bdcd432b5",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -475,7 +475,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-05/checks/vercel-ai-sdk.md",
       "sourceHash": "9308ba148cf300569b21c782c6682fd9f38228470e38f3932cb7a18de907a674",
       "translationHash": "1ef05776dea15bb2d16c958e952a7755adb2be4cc3e23d12e47d280a05440dbc",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -486,7 +486,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-05/checks/what-is-the-ai-sdk.md",
       "sourceHash": "860e5626279ac355abdcbf46c85c6c1a495441fd723493cb1c5b4502c3141605",
       "translationHash": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -497,7 +497,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-06/checks/describe-images-with-vercel-ai-sdk.md",
       "sourceHash": "daa614dfa0c260f4b44036479d4ebb02a6c039b2ad39708e419886e31b043bdc",
       "translationHash": "e5f7633b3e95ecc9def83e95f2b097dcfb2e98e7e17847e13af1ab20b7aca652",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -508,7 +508,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-06/checks/generate-arrays-with-vercel-ai-sdk.md",
       "sourceHash": "c3ac3c7136777d4e6573c9587f5cd82de115195ea122e2b2f33713c120660a98",
       "translationHash": "fabd04c397b92f771a2d7c08bb5e02741954c0146a3ac680a7405171eb2d57a1",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -519,7 +519,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-06/checks/generate-enums-with-vercel-ai-sdk.md",
       "sourceHash": "7d3dc4f00dc9f39f779d6c80e87c4acf108d5039afb3338fca028a002d4206b1",
       "translationHash": "568201c264b205b55718c75614b38720ea5b37dca22497c6876769af845b4473",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -530,7 +530,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-06/checks/streaming-objects-with-vercel-ai-sdk.md",
       "sourceHash": "7759ded9ab743adaa00ed456bb6fddd55e7eaffedc19ab7ab68c79dbbe06a22c",
       "translationHash": "bd42b6716c10bac8a0c4f54bbc9f2416e23424ff0ad6de93b1e5a69ea6225f19",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -541,7 +541,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-06/checks/structured-outputs-with-vercel-ai-sdk.md",
       "sourceHash": "57ffed296127324536388a2b4f0987dac992962eb8b98cc8399799592c417b10",
       "translationHash": "cc31ab2700f602e27ecbdc30eccd5eea9e704ae5a9e2919daa5cfaa257e35d5a",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -552,7 +552,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-06/checks/tool-calls-with-vercel-ai-sdk.md",
       "sourceHash": "4dd330bad3247eba4e575ef4298da6b8fa3c577490c53fc8d1aae35d3c7926d0",
       "translationHash": "938a34e68735f5a6e2ea87dafe0b2d8361874a118a1a74e9e8f2c157b2533bc4",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -563,7 +563,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-07/checks/agents-with-vercel-ai-sdk.md",
       "sourceHash": "9e004adff22f10204d7f6439510872e0490888d1363426a013cd8457395014c1",
       "translationHash": "847e8de8d3bcd998dd94153d104112f7c717fb1634e6d75277f689c55c519222",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -574,7 +574,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-07/checks/create-embeddings-with-vercel-ai-sdk.md",
       "sourceHash": "1c9f4d39abbacb0ea4b57cab0d1aa3997ff33d722a93c55af33e9a5330fa08d0",
       "translationHash": "346d21f2db7f47ec9ca64d78420e51a9b1e438e88d0a76418cfc60cf7cc61a0f",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -585,7 +585,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-07/checks/implementing-anthropics-think-tool-in-typescript.md",
       "sourceHash": "a854a81f6be2e647cb0140560a2e4e197094fb272c83133b111488d58a65bd4f",
       "translationHash": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -596,7 +596,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-07/checks/streaming-in-next-question-suggestions-with-the-ai-sdk.md",
       "sourceHash": "ee57548775269cf7d533ea7b81c1f11dea24ee991d2d33f808174bb5bd8e1f4c",
       "translationHash": "b432198df9c4b14ea9650e92872cf954fc232fc8a42c031fca912f438a3e3f0d",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -607,7 +607,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-07/checks/use-local-models-with-vercel-ai-sdk.md",
       "sourceHash": "d3ee1fa746d5efb78938ca0539547b3ecf8db1fbfd0a5431f68620868d809b40",
       "translationHash": "95e2cc953ba638f9117410ff649dbd1ade87877919753449b0656d129dc3c554",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -618,7 +618,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-07/checks/vercel-ai-sdk-messages-array.md",
       "sourceHash": "73638ad959ce7e2179ac53ba3359e7fd62bba68424239e38bc0c6773596bab96",
       "translationHash": "1fcd69e0fb88b7f08e13a8356a8365f520927e21e39c774a193341e0ffa107a9",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -629,7 +629,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-08/checks/2025-the-year-building-with-gen-ais-gets-boring~d53hd.md",
       "sourceHash": "f5c7c3b1930d5c9ae4af3048ad4c787b9ccd9913ed5d4310ee0b13a8e0b6b1f6",
       "translationHash": "25461d617ac01914fa27ace477c3a0c07b5cf35c03ff04d034eb5fbeb6a42085",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -640,7 +640,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-08/checks/evalite-an-early-preview.md",
       "sourceHash": "ae3226b9243b252a992143d399e7d27b4eec4ddc0e1f0aaeed720d4d076417da",
       "translationHash": "9d74e3cb9de0221318a08d001e170a3fe8a5f055e094cb44848fd083d35ade18",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -651,7 +651,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-08/checks/evalite-v1-preview.md",
       "sourceHash": "04424e7ff64a038df7cd73e3c57dee01fbaf4619c848aaaf6afd8f7362fcaf68",
       "translationHash": "eceab41967b6c9c4e4b84a4d4bca70610b6c67bfa8af4bd395cb801f3e896cfc",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -662,7 +662,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-08/checks/google-agents-whitepaper-review.md",
       "sourceHash": "569198702f52ca381d64e9f611feee8294585f6ebe087802f1ea9e6f52b73a8f",
       "translationHash": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -673,7 +673,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-08/checks/personal-software-is-insane-in-the-age-of-ai-u2hx2.md",
       "sourceHash": "e72a837798d7079016531aea98e8b27b2ae0d7cc3e5b2e74ada212b2dfcabaee",
       "translationHash": "fc7017f1939b17c4010116206b793478d0a84ef450853a8c669f199690be6e3b",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -684,7 +684,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-08/checks/securing-your-ai-app-with-guardrails.md",
       "sourceHash": "7d76671b274c9f430d66f8afc9e2c51f40247d3e77120b08245b8e6432c3c212",
       "translationHash": "66cdeb9aa8e48e54505f2ae0592f75306248637a3b0d76edd935153436f98f63",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -695,7 +695,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-09/checks/how-to-improve-your-llm-powered-app.md",
       "sourceHash": "638af6b5b111de1fa8219209d191a708a37eb67bb3e38efca0008c3a60c61f80",
       "translationHash": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -706,7 +706,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-10/checks/connect-claude-code-to-github.md",
       "sourceHash": "19af8b59a3fa6e1ea8578c13b34f32c41c58cd6d4d6f4211356840cc05ebc929",
       "translationHash": "15c0deb6be8f103a2b1afdcf63e77bf6498fb9d12f9581ec72137d44c1eab053",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -717,7 +717,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-10/checks/essential-ai-coding-feedback-loops-for-type-script-projects.md",
       "sourceHash": "a40c2bb8ea0b2642d26f46d1263d8b42f69060efeabd09f7b61b77af5169b75f",
       "translationHash": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -728,7 +728,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-10/checks/how-to-make-codebases-ai-agents-love.md",
       "sourceHash": "40a7ff2177718517f985097be09c6ea0be58f54b2d0b7eccdb10009edcbad2a7",
       "translationHash": "7e5a3b8105bf097b71431b3f0950fff11f6292970f68ea60985b2ed8a6a8cd33",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -739,7 +739,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-10/checks/how-to-use-claude-code-hooks-to-enforce-the-right-cli.md",
       "sourceHash": "fff11ed5db1e28bed540a1014770565b9bc19fc11894e5976de922a9cce0bdaf",
       "translationHash": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -750,7 +750,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-10/checks/my-agents-md-file-for-building-plans-you-actually-read.md",
       "sourceHash": "205716a0696332278a24c19c46539f26559bd3589c3835bfae83f52885b31693",
       "translationHash": "a3ea323132daa07be646f4a6807739a548b12fd693262d2e2569534544d02e30",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -761,7 +761,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-10/checks/this-hook-stops-claude-code-running-dangerous-git-commands.md",
       "sourceHash": "d6b944eb7ebee0bf5bda5267f7cd7f7ca5db44f7b1baa7315d467e75dd1a5a87",
       "translationHash": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -772,7 +772,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-11/checks/creating-the-perfect-claude-code-status-line.md",
       "sourceHash": "f0d4b3e3484e695416f26c2f6fe9ebb3562891f350fc0d84d7b3eee615742ba4",
       "translationHash": "c4d73264cfec2f015da8bcb63f78adc3de79cd91b3039f614d833b9d68c6cea6",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -783,7 +783,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-11/checks/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
       "sourceHash": "1a5db35027068789365ec4ebffa3e451e37b3d9e5aef22ed2c4d55cabe3db4d6",
       "translationHash": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -794,7 +794,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-11/checks/never-run-claude-init.md",
       "sourceHash": "8834ce41ac3d5bb27a9ceb4ccc89b7e690e20052fa2c2ebf5de3d2deadbb5e82",
       "translationHash": "f79fd9a8e8f3985d66b4c05c0a0533e0d8c3ec5f734fca58046232320582e09d",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -805,7 +805,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-11/checks/real-world-feature-build-with-claude-code.md",
       "sourceHash": "d754b4f9de4b334c03a3b9704b333d5f1d610487703e487dbdab841a820f1cfc",
       "translationHash": "4e9c84ff5e367d8c2101004197cd86f40939a6f2824aa3c5d25c4a5797b930a8",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -816,7 +816,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-12/checks/my-7-phases-of-ai-development.md",
       "sourceHash": "276360ca1eb6c2a68ab7889498ad2351d9c355620f510ce7a73f1dcb1c251e6d",
       "translationHash": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -827,7 +827,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-12/checks/my-claude-code-cohort-a-teaser.md",
       "sourceHash": "b3eaacc416b712a5a3c39d98481113511f241a93a0fea931bbd37860f3a04d37",
       "translationHash": "355b49e0ca5dd58b6cc838e10e0f9f4bababe81544fd65158051af234884d545",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -838,7 +838,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-12/checks/plan-mode-introduction.md",
       "sourceHash": "55118fc919229b82366301dd98f0ad9704b528fd1dc2af719ccc6348af81b7d3",
       "translationHash": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -849,7 +849,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-12/checks/tracer-bullets.md",
       "sourceHash": "9f19252ea92f8ce0232186eb07224670c9410b9c7fbbfc0bc7bcb12d4267ee57",
       "translationHash": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -860,7 +860,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-12/checks/ways-ai-coding-has-rewired-my-brain.md",
       "sourceHash": "c2c308cd0fdadada333cff3518d313a5f6fa5fb349b60fc38816bca99f6a1b0b",
       "translationHash": "8203ac436a73d722dbb5ed631cd55e82071d48eb82e2c74869fecbc8b22f522b",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -871,7 +871,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-13/checks/5-agent-skills-i-use-every-day.md",
       "sourceHash": "19cb0d155711f123378ecbe5ca2cc33a3b8704ac8399eed68e5c016cc211042b",
       "translationHash": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -882,7 +882,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-13/checks/learn-anything-with-my-teach-skill.md",
       "sourceHash": "55c64bc00a5b2704d8b2996c2fb268e9ab31bacde61fce090748e3c6df8b11a3",
       "translationHash": "1e721a8c2a59f034088be00cfe54e1b11292d389b77b811eebb34f157cdad7ad",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -893,7 +893,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-13/checks/my-grill-me-skill-has-gone-viral.md",
       "sourceHash": "c30f916e16afd14c70f12ae51f45d8faec6859f5aeb3325662ac78103365e8a5",
       "translationHash": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -904,7 +904,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-13/checks/skill-test-driven-development-claude-code.md",
       "sourceHash": "2587e7691b7370e55f1bb3f5bf4c7874e080784d6d99a97d4c04245f61ac2232",
       "translationHash": "cb73062f5f3b4835dd2fc1e91c3713066063fdc56ed5fe1514d9a9c3b2ad7a36",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -915,7 +915,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-14/checks/burn-through-your-backlog-with-my-triage-skill.md",
       "sourceHash": "62b670caa860ccda0ca82c683536c48c6969dccc89770da11d06f8d8fdf948de",
       "translationHash": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -926,7 +926,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-14/checks/grill-with-docs.md",
       "sourceHash": "b85b3ecda8bfc87b933be848c968dcaf22bbc5fbe75f34e37652bb22f0b2065e",
       "translationHash": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -937,7 +937,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-14/checks/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
       "sourceHash": "438655d047ea192d772e9ca192cf522dcb01cd6c3b3a7a3f27a97c69b168ccb3",
       "translationHash": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -948,7 +948,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-15/checks/getting-started-with-ralph.md",
       "sourceHash": "a4245d94257f1bd1dded562a619df5fd963c5cdc38590b6b027466f3a87fab13",
       "translationHash": "654b5e428cf88d5fe1744c6490775a42f403fb6d55087d4be577caf50c1af24a",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -959,7 +959,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-15/checks/heres-how-to-stream-claude-code-with-afk-ralph.md",
       "sourceHash": "8a75e0ba6738c7e18f3223d5cbcf26e21a1ad3b32795d4877f3ad8fbe3b501e9",
       "translationHash": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -970,7 +970,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-15/checks/tips-for-ai-coding-with-ralph-wiggum.md",
       "sourceHash": "6c2eac9161d4a74ab6239dfbacbde674ccfbf328486f177444fa359f59137462",
       "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -981,7 +981,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-15/checks/why-the-anthropic-ralph-plugin-sucks.md",
       "sourceHash": "6ed9c1164a965fb931d345309e65cb0f8bbeff0cc7bb5d678a9d08108d6c55b4",
       "translationHash": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -992,7 +992,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-16/checks/ai-coding-crash-course.md",
       "sourceHash": "813177b824466b4737d38095d4a1e69b89226bdd7809f5cea4fed0bac0314f93",
       "translationHash": "4e91df276632f002d146e3686d9226b297ff8682bbb0db2ab961af3a34931c4d",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -1003,7 +1003,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-16/checks/ai-sdk-v6-crash-course.md",
       "sourceHash": "b643005004e2b1c97e7a7a37f36f1208d37c93264b82c685dc2eddc3950a2b4c",
       "translationHash": "766a728b31324c5ff191853786146b32fade0f98ad05fc09e638ec19cf3b153a",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -1014,7 +1014,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-16/checks/home.md",
       "sourceHash": "3942208060725a8c24a3883fd703a9a975c65d0dc9cfc3ea14840001c83d4378",
       "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     },
     {
@@ -1025,7 +1025,7 @@
       "checkRecord": "reports/full-site/batches/content-b/batch-16/checks/newsletter.md",
       "sourceHash": "78254990f49b4c6626cb9c51b5195593ebce145071f8ee5970829f8ebe941f4d",
       "translationHash": "7969aa22bd61af6379e0acf65e64f03a40a2dd9de69bcca6267301956e9c1bd1",
-      "firstFour": "author reviewed; independent specification reviews tracked separately",
+      "firstFour": "author reviewed; independent specification review accepted",
       "fifth": "pending integration owner evidence; not claimed by author"
     }
   ],
@@ -1037,5 +1037,13 @@
       "change": "Independent specification review: not about code means 不涉及代码; no source change",
       "structure": "batch-16 rechecked; page hashes refreshed"
     }
-  ]
+  ],
+  "independentSpecification": {
+    "status": "passed all 82; no open content items",
+    "reviewer": "review_aihero_spec_batches",
+    "reviewedContentTip": "2a7d3f41c043836185b691e058d5f11f7b18a55f",
+    "confirmedAt": "2026-10-13T13:28:15Z",
+    "scope": "first four checks only; fifth remains integration owner live verification"
+  },
+  "finalHashReadbackAt": "2026-10-13T13:29:06.170392+00:00"
 }

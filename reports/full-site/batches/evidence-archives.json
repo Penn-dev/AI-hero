@@ -34,6 +34,42 @@
       "runId": "38401367005",
       "artifactId": "11816301809",
       "status": "107/120 views passed; 12 missing-h2 test targets and one narrow-screen title overflow require targeted rerun."
+    },
+    {
+      "file": "aihero-production-05-incomplete.zip",
+      "version": 0,
+      "sha256": "3c451cb124bca8b5d520c1fc06250761714bcd71bbd6a4ff8d655110bd89340a",
+      "bytes": 28958332,
+      "runId": "38405473150",
+      "artifactId": "11818713407",
+      "status": "Retained partial run; failures and subsequent targeted repairs remain recorded."
+    },
+    {
+      "file": "aihero-production-06-incomplete.zip",
+      "sha256": "6a915965c4e57e8a22b2eba44008cb867d16947f2459c22af162184c746b2278",
+      "bytes": 4334631,
+      "version": 0,
+      "runId": "38407427014",
+      "artifactId": "11819239134",
+      "status": "Retained partial run; failures and subsequent targeted repairs remain recorded."
+    },
+    {
+      "file": "aihero-production-07-incomplete.zip",
+      "sha256": "0affe1dddbc8b1b86a20171c543fbd12a86c6350f11f5acbd8b78e461048a12a",
+      "bytes": 4399272,
+      "version": 0,
+      "runId": "38408576892",
+      "artifactId": "11819847316",
+      "status": "Retained partial run; failures and subsequent targeted repairs remain recorded."
+    },
+    {
+      "file": "aihero-production-08.zip",
+      "version": 0,
+      "sha256": "8d5d0662b7ff08b695c8b5205c5b9e0d646013074debd8b016c546c7732fa263",
+      "bytes": 4327216,
+      "runId": "38409450389",
+      "artifactId": "11820059177",
+      "status": "Passed: four viewports; all194 deep routes clicked from home; home/brand navigation repaired and independently reviewed."
     }
   ]
 }
