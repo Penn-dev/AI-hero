@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-10-13T04:00:11.036Z",
+  "sourceFilesChecked": 195,
+  "sourceHashesMatch": true,
+  "htmlArchivesChecked": 82,
+  "htmlArchiveHashesMatch": true,
+  "sitemapHashChecked": true,
+  "rootDiscoveryArchiveHashChecked": true,
+  "uniqueRoutes": 195,
+  "duplicateSitemapEntries": [
+    {
+      "route": "/what-are-tokens",
+      "url": "https://www.aihero.dev/what-are-tokens"
+    }
+  ],
+  "errors": [],
+  "contentValidator": {
+    "command": "node scripts/validate-content.mjs",
+    "exitCode": 0,
+    "observedDownloaded": 195,
+    "observedRenderable": 17,
+    "scope": "Existing source checks passed. Translated status coverage is handled by issue #3; this is not content or page acceptance."
+  },
+  "engineeringChecks": {
+    "nodeTests": 6,
+    "pythonTests": 4,
+    "scopedLintExitCode": 0
+  },
+  "browserSample": {
+    "browserEvidence": "reports/full-site/source-browser-system-prompt.json",
+    "browserCheckedAt": "2026-10-13T03:51:19.445Z",
+    "articleTextMatches": true,
+    "linkAttributesMatch": true,
+    "links": 11,
+    "scope": "Only this official public article was sampled in a real browser; not whole-site semantic or rendering acceptance."
+  },
+  "originalHtmlCodeBlocks": {
+    "checked": 14,
+    "matches": true
+  },
+  "offlineExtractionAfterWhitespaceFix": {
+    "pagesCompared": 82,
+    "changedOutputs": 0
+  },
+  "finalization": {
+    "checkedAt": "2026-10-13T04:08:29.853Z",
+    "stagedSourceHashesChecked": 195,
+    "stagedSourceHashesMatch": true,
+    "stableLocalLinksChecked": 20,
+    "temporaryWorktreeLinks": 0,
+    "unexpectedStagedPaths": 0
+  }
+}

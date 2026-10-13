@@ -1,10 +1,20 @@
 ---
 title: "Skills Changelog: /handoff, /prototype, /review and /writing"
 slug: "skills-changelog-handoff-prototype-review-and-writing"
-type: "post"
-description: "Two new AI agent skills: /handoff for passing context between agents, and /prototype for building throwaway prototypes to test design decisions."
+type: "page"
 updatedAt: "2026-05-11T10:38:47.822Z"
 ---
+
+[AI Skills Changelog](/skills)
+
+# Skills Changelog: /handoff, /prototype, /review and /writing
+
+![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)
+
+Matt Pocock
+
+Share
+
 I've added two brand new skills to my [skills repo](https://github.com/mattpocock/skills): `/handoff` and `/prototype`. Both have been great upgrades to how I work with agents, especially during planning.
 
 The repo has been growing like crazy - the response has been incredible.
@@ -40,3 +50,15 @@ Both [`/to-prd`](https://github.com/mattpocock/skills) and [`/to-issues`](https:
 There's a tri-part writing skill in development: **fragments**, **beats**, and **shape**. The theory is based on how authors keep journals of ideas that eventually work their way into stories. You dictate fragments (ideas), then write beats (a path through the story), then do a final shaping pass to make sure it doesn't sound AI-generated.
 
 There's also a **review** skill coming that will kick off two parallel sub-agents: one checking if the diff follows the repo's coding standards, and another checking if it faithfully implements the original issue or PRD. A separate skill will extract coding standards from your repo to make the standards check more effective.
+
+AI Hero · Free email course
+
+### AI Skills for Real Engineers
+
+Build a repeatable workflow for coding agents without giving up your engineering standards.
+
+**Share**
+
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-handoff-prototype-review-and-writingSkills%20Changelog%3A%20%2Fhandoff%2C%20%2Fprototype%2C%20%2Freview%20and%20%2Fwriting%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Skills%20Changelog%3A%20%2Fhandoff%2C%20%2Fprototype%2C%20%2Freview%20and%20%2Fwriting%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-handoff-prototype-review-and-writing)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing?author=Matt Pocock)
+
+Copy URL

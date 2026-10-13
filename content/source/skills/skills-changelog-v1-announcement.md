@@ -1,10 +1,20 @@
 ---
 title: "v1: 63% Token Reduction, /ask-matt, /writing-great-skills"
 slug: "skills-changelog-v1-announcement"
-type: "post"
-description: "Skills v1.0 update: 63% token reduction, new routing skills, domain modeling & codebase design. Install with npx now."
+type: "page"
 updatedAt: "2026-06-18T11:43:30.135Z"
 ---
+
+[AI Skills Changelog](/skills)
+
+# v1: 63% Token Reduction, /ask-matt, /writing-great-skills
+
+![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)
+
+Matt Pocock
+
+Share
+
 The [skills directory](https://github.com/mattpocock/skills) has reached a major milestone with v1. Over 4.2 million downloads and 135,000 GitHub stars later, this release represents crucial changes that radically reduce token consumption, reorganize skills by invocation type, and unlock powerful new abilities.
 
 ## [Getting Started with the Latest Skills](#getting-started-with-the-latest-skills)
@@ -66,6 +76,8 @@ v1 introduces a clearer taxonomy: **user-invoked** and **model-invoked** skills.
 | --- | --- | --- |
 | **User-invoked** | Orchestrate workflows; only run when you explicitly type them | You explicitly request them |
 | **Model-invoked** | Focused tasks the model can reach for automatically | Model chooses to use them |
+
+View Table
 
 This split means the model can occasionally reach for specific skills when needed - diagnosing difficult bugs, applying test-driven development, or modeling domain concepts - without cluttering the interface with unnecessary options.
 
@@ -131,3 +143,15 @@ These improvements reflect a core principle: **the user stays in control, not th
 Yes, this means you carry more cognitive load when navigating which skill to use. But that's why `/ask-matt` exists - to guide you without friction.
 
 By dramatically reducing token consumption and splitting user-invoked from model-invoked skills, you unlock better capabilities: designing better codebases, fixing harder bugs, and writing better skills - all without wasting context on unnecessary descriptions.
+
+AI Hero · Free email course
+
+### AI Skills for Real Engineers
+
+Build a repeatable workflow for coding agents without giving up your engineering standards.
+
+**Share**
+
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v1-announcementv1%3A%2063%25%20Token%20Reduction%2C%20%2Fask-matt%2C%20%2Fwriting-great-skills%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=v1%3A%2063%25%20Token%20Reduction%2C%20%2Fask-matt%2C%20%2Fwriting-great-skills%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v1-announcement)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-v1-announcement?author=Matt Pocock)
+
+Copy URL

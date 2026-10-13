@@ -1,0 +1,57 @@
+[
+  {
+    "route": "/ai-coding-dictionary/system-prompt",
+    "url": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "path": "reports/full-site/source-html-probe-system-prompt.html.gz",
+    "length": 228172,
+    "bodyEncoding": "gzip",
+    "bodyHash": "8f265a20022d1c9b9bf0f08a1bb23d767b77df719cd97198b58db7a507d90c87",
+    "checkedAt": "2026-10-13T03:40:47.755Z"
+  },
+  {
+    "route": "/ai-coding-dictionary",
+    "url": "https://www.aihero.dev/ai-coding-dictionary",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "path": "reports/full-site/source-html-probe-ai-coding-dictionary.html.gz",
+    "length": 906585,
+    "bodyEncoding": "gzip",
+    "bodyHash": "9af3c1da8b2626dca3473daecd4181060a4b0a4eb08db99a0ae515cf4f037cf7",
+    "checkedAt": "2026-10-13T03:40:48.114Z"
+  },
+  {
+    "route": "/newsletter",
+    "url": "https://www.aihero.dev/newsletter",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "path": "reports/full-site/source-html-probe-newsletter.html.gz",
+    "length": 153211,
+    "bodyEncoding": "gzip",
+    "bodyHash": "e300435513ff7edb3b2a7be291c74a53c58a33c126f2fd99bbe847681664967d",
+    "checkedAt": "2026-10-13T03:40:48.418Z"
+  },
+  {
+    "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+    "url": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "path": "reports/full-site/source-html-probe-generating-objects-via-output~dkm2k.html.gz",
+    "length": 396199,
+    "bodyEncoding": "gzip",
+    "bodyHash": "04e0008f451aac59a746efe99214519ecf1f9eb34590960c03ee909cd91f883f",
+    "checkedAt": "2026-10-13T03:40:48.906Z"
+  },
+  {
+    "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+    "url": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "path": "reports/full-site/source-html-probe-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.html.gz",
+    "length": 282286,
+    "bodyEncoding": "gzip",
+    "bodyHash": "cdf3b381b9e3bf7b568ca4e2f451da718979cf879981250247a0631eaa098128",
+    "checkedAt": "2026-10-13T03:40:49.280Z"
+  }
+]

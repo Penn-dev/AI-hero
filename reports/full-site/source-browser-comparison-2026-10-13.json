@@ -1,0 +1,8 @@
+{
+  "browserEvidence": "reports/full-site/source-browser-system-prompt.json",
+  "browserCheckedAt": "2026-10-13T03:51:19.445Z",
+  "articleTextMatches": true,
+  "linkAttributesMatch": true,
+  "links": 11,
+  "scope": "Only this official public article was sampled in a real browser; not whole-site semantic or rendering acceptance."
+}

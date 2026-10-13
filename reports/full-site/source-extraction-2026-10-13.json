@@ -1,0 +1,579 @@
+{
+  "inputPath": "reports/full-site/source-html-2026-10-13.json",
+  "pages": [
+    {
+      "route": "/",
+      "status": "extracted",
+      "title": "Engineering fundamentals aren't obsolete.",
+      "sourcePath": "content/source/index.md",
+      "sourceHash": "3942208060725a8c24a3883fd703a9a975c65d0dc9cfc3ea14840001c83d4378"
+    },
+    {
+      "route": "/newsletter",
+      "status": "extracted",
+      "title": "Join over 128,900+ Developers Becoming AI Heroes",
+      "sourcePath": "content/source/newsletter.md",
+      "sourceHash": "78254990f49b4c6626cb9c51b5195593ebce145071f8ee5970829f8ebe941f4d"
+    },
+    {
+      "route": "/skills/subscribe",
+      "status": "extracted",
+      "title": "AI Skills for Real Engineers",
+      "sourcePath": "content/source/skills/subscribe.md",
+      "sourceHash": "ff1c20f196e810ce444730c92bc9a3ad90cb81edc29370f212465823da402d1a"
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "status": "extracted",
+      "title": "Generating Objects via Output",
+      "sourcePath": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5"
+    },
+    {
+      "route": "/ai-coding-dictionary",
+      "status": "extracted",
+      "title": "The vocabulary of AI coding, in plain English.",
+      "sourcePath": "content/source/ai-coding-dictionary.md",
+      "sourceHash": "9389205ef4e97e4330e37e9e577d095775fe3b2b84c647dbf0995fcc9b66d07c"
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "status": "extracted",
+      "title": "AI",
+      "sourcePath": "content/source/ai-coding-dictionary/ai.md",
+      "sourceHash": "081592c539577cc153acefa12df0b6adf0c162378c2feea6ff688528ee79b2be"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "status": "extracted",
+      "title": "Model",
+      "sourcePath": "content/source/ai-coding-dictionary/model.md",
+      "sourceHash": "7d701ec4df061c1cad9eba30f71cc11ad1aefd36f6d71804bfc87ee60c93b826"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "status": "extracted",
+      "title": "Parameters",
+      "sourcePath": "content/source/ai-coding-dictionary/parameters.md",
+      "sourceHash": "1b7a7336a5613f763d515b6d5267c83ed249efb385600c5e8e5c19d30b6b5da1"
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "status": "extracted",
+      "title": "Training",
+      "sourcePath": "content/source/ai-coding-dictionary/training.md",
+      "sourceHash": "2e5949672cb447893c27a82832fb0e4324de9a1c8b4310caf75322d01c6e4188"
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "status": "extracted",
+      "title": "Inference",
+      "sourcePath": "content/source/ai-coding-dictionary/inference.md",
+      "sourceHash": "6aa691b881a14c5674cbd70c7780f8a398119ed42df5b38b0af0a53e88048bf1"
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "status": "extracted",
+      "title": "Effort",
+      "sourcePath": "content/source/ai-coding-dictionary/effort.md",
+      "sourceHash": "adce7a2256dcdb202df0e571540a868e36ce9edad28de9841576cc6466aefb22"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "status": "extracted",
+      "title": "Token",
+      "sourcePath": "content/source/ai-coding-dictionary/token.md",
+      "sourceHash": "76d8d5da4d354a10ccb0374e613f637981ca03dd36346d432cbb97c608de7a9e"
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "status": "extracted",
+      "title": "Next-token prediction",
+      "sourcePath": "content/source/ai-coding-dictionary/next-token-prediction.md",
+      "sourceHash": "e5096ab8d6812f3362a935a4702d829a726c6475b7218f56f3530315d3d1b4cb"
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "status": "extracted",
+      "title": "Non-determinism",
+      "sourcePath": "content/source/ai-coding-dictionary/non-determinism.md",
+      "sourceHash": "e9ac75ea3ee89681d112a03f33be777ff1941566706e55cf48ca1ee339e9cac9"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "status": "extracted",
+      "title": "Model provider",
+      "sourcePath": "content/source/ai-coding-dictionary/model-provider.md",
+      "sourceHash": "5b24d071a02565638a3f92ef5a89b75de6829c517a642cf166b12585f8db5a0a"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "status": "extracted",
+      "title": "Harness",
+      "sourcePath": "content/source/ai-coding-dictionary/harness.md",
+      "sourceHash": "b51de762045f5db093a3872076f47e4b8728d09dbfcb09d6c373f55b294fe819"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "status": "extracted",
+      "title": "Model provider request",
+      "sourcePath": "content/source/ai-coding-dictionary/model-provider-request.md",
+      "sourceHash": "7adeaf3c819f9808362776018d9f0c5b0aa2ebfc102411002b0d46a23e0f2705"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "status": "extracted",
+      "title": "Input tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/input-tokens.md",
+      "sourceHash": "0a48f68d83f49bef2a4399b6eb8c39865eb838ea971c35a58236d1faa0d5b5ba"
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "status": "extracted",
+      "title": "Output tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/output-tokens.md",
+      "sourceHash": "a894b348d02c1434dfe9b3922d196a360fb8804fc53c298f049faf48dbea2e7b"
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "status": "extracted",
+      "title": "Prefix cache",
+      "sourcePath": "content/source/ai-coding-dictionary/prefix-cache.md",
+      "sourceHash": "6584039cb2e3668b8260f737995fce0818e21038f8998d6e7b11a1ec66404c3a"
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "status": "extracted",
+      "title": "Cache tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/cache-tokens.md",
+      "sourceHash": "eeb1beee00f437f666dec5c2ba453325b233169d04d40ab88d395b04de7b04d3"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "status": "extracted",
+      "title": "Stateless",
+      "sourcePath": "content/source/ai-coding-dictionary/stateless.md",
+      "sourceHash": "cd63a6e1c04ee8db6e9d07ec33c822395a6b2e5841a2948fcc5a8e8cc3a264cc"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "status": "extracted",
+      "title": "Context",
+      "sourcePath": "content/source/ai-coding-dictionary/context.md",
+      "sourceHash": "5da380211dc9b5a4e2339c47530444f99555d62643675a25a701d6fdba568bfe"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "status": "extracted",
+      "title": "Context window",
+      "sourcePath": "content/source/ai-coding-dictionary/context-window.md",
+      "sourceHash": "de09f4f1d82bc4265af5b592073ab0c561740e521e1c2d15b6323ebde8ada1e1"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "status": "extracted",
+      "title": "Stateful",
+      "sourcePath": "content/source/ai-coding-dictionary/stateful.md",
+      "sourceHash": "e8ba5ca2a97af8cbfd5edd4d2fba2bccab7dbfe86c5253f408c7ad011b9a47ff"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "status": "extracted",
+      "title": "Agent",
+      "sourcePath": "content/source/ai-coding-dictionary/agent.md",
+      "sourceHash": "1dbd38a917e264d5f744e58c29ee094783f4a8083a5668ab05204c8c605e394b"
+    },
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "status": "extracted",
+      "title": "System prompt",
+      "sourcePath": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sourceHash": "4c0625b324b0a92f31e5ae0ea0aa0df6e95d4150555c76881b807b63e00c3d31"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "status": "extracted",
+      "title": "Session",
+      "sourcePath": "content/source/ai-coding-dictionary/session.md",
+      "sourceHash": "b790940ce5d4ca13c531f8244aa02e20bfc80c7b032a43c5fc6bd13909be88db"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "status": "extracted",
+      "title": "Turn",
+      "sourcePath": "content/source/ai-coding-dictionary/turn.md",
+      "sourceHash": "fb4f5269389421d18e7c76e79bbbfb797dd67cb11e11b1947d0275080e63ab67"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "status": "extracted",
+      "title": "Environment",
+      "sourcePath": "content/source/ai-coding-dictionary/environment.md",
+      "sourceHash": "d89dc72c84a7016da026b1581a1f80bc9c49a52dea41529f4dc83853a531336d"
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "status": "extracted",
+      "title": "Filesystem",
+      "sourcePath": "content/source/ai-coding-dictionary/filesystem.md",
+      "sourceHash": "fd9e5b79e9b82745e298953ab8e32e99905537a82608326f7768edcbcff9c5a7"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "status": "extracted",
+      "title": "Tool",
+      "sourcePath": "content/source/ai-coding-dictionary/tool.md",
+      "sourceHash": "e3fb776ffb3cc457abc7c36b089ae0a3fa3532f4b8b0b6cf2d46335644876692"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-call",
+      "status": "extracted",
+      "title": "Tool call",
+      "sourcePath": "content/source/ai-coding-dictionary/tool-call.md",
+      "sourceHash": "d56ca4fa43944adfe43928d6cfbfa4ccee1ecbc198c434f2c794e672b672899c"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "status": "extracted",
+      "title": "Tool result",
+      "sourcePath": "content/source/ai-coding-dictionary/tool-result.md",
+      "sourceHash": "b78d3af564d5171ec1901865ac7af025a99019266c0e4bf19b083a51df0fc6d2"
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "status": "extracted",
+      "title": "MCP",
+      "sourcePath": "content/source/ai-coding-dictionary/mcp.md",
+      "sourceHash": "8f1ad1c0d5910af58ae01294abdb93a5cb95b48e71215b819acc12deb2798178"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "status": "extracted",
+      "title": "Permission request",
+      "sourcePath": "content/source/ai-coding-dictionary/permission-request.md",
+      "sourceHash": "3e670ac52537f5a5e8a03400c1c17db85514797d6a75ba2bc7616f99c3da551b"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "status": "extracted",
+      "title": "Permission mode",
+      "sourcePath": "content/source/ai-coding-dictionary/permission-mode.md",
+      "sourceHash": "0c0283688d98fb6b9961ccd8ede5ad2d54952037f2ebdf22378a36bbf67e685f"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "status": "extracted",
+      "title": "Agent mode",
+      "sourcePath": "content/source/ai-coding-dictionary/agent-mode.md",
+      "sourceHash": "89a0f73c76a3d875e9a3846144e8ea677e84fc5d87de1db5db0d389892f3e661"
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "status": "extracted",
+      "title": "Sandbox",
+      "sourcePath": "content/source/ai-coding-dictionary/sandbox.md",
+      "sourceHash": "e80dcf9eefd3c4b348dab4e3b17d0ae3d40dd5e6d074b54d29049e2c23664636"
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "status": "extracted",
+      "title": "Sycophancy",
+      "sourcePath": "content/source/ai-coding-dictionary/sycophancy.md",
+      "sourceHash": "6c18e4a2c8c9bbd9e85e599aef854269714411bc6f88ba120d059c7a0d1aaf89"
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "status": "extracted",
+      "title": "Hallucination",
+      "sourcePath": "content/source/ai-coding-dictionary/hallucination.md",
+      "sourceHash": "a7d3ea346e26b0536fc5ca9a56085b392f2a8681cd8d5eed877b09e8a6538b8c"
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "status": "extracted",
+      "title": "Parametric knowledge",
+      "sourcePath": "content/source/ai-coding-dictionary/parametric-knowledge.md",
+      "sourceHash": "d6a28ab81bd95b1a9db2cf11364a4a5064d344ce719df0372b5424e82cf8c6b8"
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "status": "extracted",
+      "title": "Knowledge cutoff",
+      "sourcePath": "content/source/ai-coding-dictionary/knowledge-cutoff.md",
+      "sourceHash": "9cf10c7102f9934e3cf45ad85506710a8172fb97368287f2e33caef905bdf688"
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "status": "extracted",
+      "title": "Contextual knowledge",
+      "sourcePath": "content/source/ai-coding-dictionary/contextual-knowledge.md",
+      "sourceHash": "c3109b52aa9cc80d36202a9d27189f1fcd8daf1a7ac8f8ef6845aee64e7f389d"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "status": "extracted",
+      "title": "Attention relationship",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-relationship.md",
+      "sourceHash": "fce54533f6bc0dfda8e9d39dd664b12263e3db276af9c96f623530ecb21cc5ee"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "status": "extracted",
+      "title": "Attention budget",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-budget.md",
+      "sourceHash": "a261d140d7ee5c1cce7de2308a00fac6ffa5b9bb23ee524da7544b438e886148"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "status": "extracted",
+      "title": "Attention degradation",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-degradation.md",
+      "sourceHash": "1c12842e7cbe0025c0d533a2f00458e8f87c5cecf90a94ea9c62b54bbe963c54"
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "status": "extracted",
+      "title": "Smart zone",
+      "sourcePath": "content/source/ai-coding-dictionary/smart-zone.md",
+      "sourceHash": "940f95e4d4521ad9cc048dcfa165dfca1eb17d361054978cd347fccb0e73ce30"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "status": "extracted",
+      "title": "Clearing",
+      "sourcePath": "content/source/ai-coding-dictionary/clearing.md",
+      "sourceHash": "1636567ae3c72e752d9719fd96ff3fe6afc8848d1e6dce0ecd3720773ffa7efb"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "status": "extracted",
+      "title": "Handoff",
+      "sourcePath": "content/source/ai-coding-dictionary/handoff.md",
+      "sourceHash": "52983b26f3079cd027a3d7393d09cbf14e4aee53c7a26886376870dd09e33a5f"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "status": "extracted",
+      "title": "Primary source",
+      "sourcePath": "content/source/ai-coding-dictionary/primary-source.md",
+      "sourceHash": "09b5d6e1c25b2d16f357d2db0a80963beb67503aba686afa8dd5c8a618046a52"
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "status": "extracted",
+      "title": "Secondary source",
+      "sourcePath": "content/source/ai-coding-dictionary/secondary-source.md",
+      "sourceHash": "2ebef252eed26fc6a7f97a9c7e2c766480f45e1baa6e6a6b310d5cd170f4db55"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "status": "extracted",
+      "title": "Handoff artifact",
+      "sourcePath": "content/source/ai-coding-dictionary/handoff-artifact.md",
+      "sourceHash": "6ad75d6ac4c4efd12177435901738bc66a277714a356862b559dc90aae3a9aa7"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "status": "extracted",
+      "title": "Spec",
+      "sourcePath": "content/source/ai-coding-dictionary/spec.md",
+      "sourceHash": "ab7023817d93f94b330c9e7c1e726845f8b7655a15e65e8eb3cdb79c7c6efc48"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "status": "extracted",
+      "title": "Ticket",
+      "sourcePath": "content/source/ai-coding-dictionary/ticket.md",
+      "sourceHash": "eab78b5cf183f3669e2160ccf84e541d1f3dfd62217ff18f8cefb82478bf6a2a"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "status": "extracted",
+      "title": "Compaction",
+      "sourcePath": "content/source/ai-coding-dictionary/compaction.md",
+      "sourceHash": "bd58f341bcff62dc9c9969c44ef45318aa6ef46e76300cb81466d85fccf61fda"
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "status": "extracted",
+      "title": "Autocompact",
+      "sourcePath": "content/source/ai-coding-dictionary/autocompact.md",
+      "sourceHash": "05abe20e755f0c71f461eb78865fe4fb6f84383bd9976adcb0bcf733977a0665"
+    },
+    {
+      "route": "/ai-coding-dictionary/memory-system",
+      "status": "extracted",
+      "title": "Memory system",
+      "sourcePath": "content/source/ai-coding-dictionary/memory-system.md",
+      "sourceHash": "6598554fe2baa4377c46c4badbcf769206b5924f40161898e39445da0be7a20d"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "status": "extracted",
+      "title": "AGENTS.md",
+      "sourcePath": "content/source/ai-coding-dictionary/agents-md.md",
+      "sourceHash": "eb1611f497cf14a65b48ad31acbf26abdcee80bb083ec7628c427dbde1072379"
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "status": "extracted",
+      "title": "Progressive disclosure",
+      "sourcePath": "content/source/ai-coding-dictionary/progressive-disclosure.md",
+      "sourceHash": "971ce0b4e04eab4d2f0acc160516900661838b57caac60291ecfb0dd4ff95553"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "status": "extracted",
+      "title": "Context pointer",
+      "sourcePath": "content/source/ai-coding-dictionary/context-pointer.md",
+      "sourceHash": "0ab6d547ff0f513d7b2a1df86c05af55e67bd246942d146b8c49ea9befe7638c"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "status": "extracted",
+      "title": "Skill",
+      "sourcePath": "content/source/ai-coding-dictionary/skill.md",
+      "sourceHash": "e217aff8ce39a4f30c61f02de9824423adf0839d54a25012e5438b1f50a573f1"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "status": "extracted",
+      "title": "Subagent",
+      "sourcePath": "content/source/ai-coding-dictionary/subagent.md",
+      "sourceHash": "91ae5b7985f203d87841041bd57aaae7777112d8c8498d81ed70bf53f8e4fd34"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "status": "extracted",
+      "title": "Human-in-the-loop",
+      "sourcePath": "content/source/ai-coding-dictionary/human-in-the-loop.md",
+      "sourceHash": "52447a75eb5a74986e9de03e0b7e70d99cd25f760533c7580524f800930b1f62"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "status": "extracted",
+      "title": "AFK",
+      "sourcePath": "content/source/ai-coding-dictionary/afk.md",
+      "sourceHash": "d43a82ec07c359a55b7cb30f1f7c72f7393a9638a17d2edd2fb5285ac3481b66"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "status": "extracted",
+      "title": "Automated check",
+      "sourcePath": "content/source/ai-coding-dictionary/automated-check.md",
+      "sourceHash": "20470abb36546a203ee21d817fd23dd6f07fb72ce0a149a4379da87023382143"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "status": "extracted",
+      "title": "Automated review",
+      "sourcePath": "content/source/ai-coding-dictionary/automated-review.md",
+      "sourceHash": "f728adbd0e4aaf56df66c3f9b7f68ba8a0ffdf39f53a8396ca283eacea0d1803"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "status": "extracted",
+      "title": "Human review",
+      "sourcePath": "content/source/ai-coding-dictionary/human-review.md",
+      "sourceHash": "c5881bfa5f9598231ac1104a835f4505be9c1fcf942757a326c4d8fef9aaf112"
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "status": "extracted",
+      "title": "Vibe coding",
+      "sourcePath": "content/source/ai-coding-dictionary/vibe-coding.md",
+      "sourceHash": "ea55209e4bc359e3fa588694d7568616f1266b0aa34a73e8ca0bba6d887b1e46"
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "status": "extracted",
+      "title": "Design concept",
+      "sourcePath": "content/source/ai-coding-dictionary/design-concept.md",
+      "sourceHash": "456b4ad512b770cc06e3865307fa5b0c27e58eb8fe8193d9b6462c3ac96abd81"
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "status": "extracted",
+      "title": "Grilling",
+      "sourcePath": "content/source/ai-coding-dictionary/grilling.md",
+      "sourceHash": "7b95bba865f2416f619051621c0446757b28efa92abb3317ee0ef7f485e9d9d4"
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "status": "extracted",
+      "title": "Prototyping",
+      "sourcePath": "content/source/ai-coding-dictionary/prototyping.md",
+      "sourceHash": "3b341c7b53d70878153bc9b552772fcd742adde39284b85cb5c713c4f76fb96f"
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "status": "extracted",
+      "title": "DX",
+      "sourcePath": "content/source/ai-coding-dictionary/dx.md",
+      "sourceHash": "06d4401c1f2eb83cd8c569431c9f1ec7a07326c28e4723d709cd44c1d88884c4"
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "status": "extracted",
+      "title": "AX",
+      "sourcePath": "content/source/ai-coding-dictionary/ax.md",
+      "sourceHash": "fd1e64c6dfd20d3319d1337911275f8e98b867003a6cf438aab4f8c303061c8a"
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "status": "extracted",
+      "title": "Software factory",
+      "sourcePath": "content/source/ai-coding-dictionary/software-factory.md",
+      "sourceHash": "c83329f7ae0231b83cee9bc5272e5215482cbc98b822f006ebde1789249a41b1"
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "status": "extracted",
+      "title": "Dark factory",
+      "sourcePath": "content/source/ai-coding-dictionary/dark-factory.md",
+      "sourceHash": "f95001a6f8956db8bc5cf893f8e1e449389d9faafd1e41a274ab5a616e4552d2"
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "status": "extracted",
+      "title": "v1.3: /implement-spec, /pr, /retro, and GLOSSARY.md",
+      "sourcePath": "content/source/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "sourceHash": "33f46f838c2315ce654d38d168977c1bab6f12fbb2b70d8546e26d3da77ee273"
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "status": "extracted",
+      "title": "v1.2: /wait-what, /writing-for-agents, Claude Code Plugin, and more",
+      "sourcePath": "content/source/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+      "sourceHash": "f139d5b48dbd08c4d3babb246c57a1569dc5ce69ef4298a2402fb02b8153e291"
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "status": "extracted",
+      "title": "v1.1: /wayfinder, /to-spec, /to-tickets, /grilling improvements, and much more",
+      "sourcePath": "content/source/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+      "sourceHash": "59a691f1e95e2b59f47a44e26fca1e1de6a74609c550a21b663aced4407c9730"
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "status": "extracted",
+      "title": "v1: 63% Token Reduction, /ask-matt, /writing-great-skills",
+      "sourcePath": "content/source/skills/skills-changelog-v1-announcement.md",
+      "sourceHash": "60e5fb40d047324858f758ac330495320f57fb87ea1eb1605ca95cef89027d5e"
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "status": "extracted",
+      "title": "Skills Changelog: /handoff, /prototype, /review and /writing",
+      "sourcePath": "content/source/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+      "sourceHash": "0cc9b4ef24d22704542d39504d4ec44ef398c40f0ba6849a18864595a0b808d1"
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "status": "extracted",
+      "title": "Skills Changelog: Ubiquitous Language -> /grill-with-docs",
+      "sourcePath": "content/source/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "sourceHash": "1205274d4b0e7e633970ce661afbd8aa3c78c1da30864912a6ba7d3a3ab0cae4"
+    }
+  ]
+}

@@ -2,9 +2,21 @@
 title: "MCP"
 slug: "mcp"
 type: "dictionary"
-description: "A protocol for plugging external tool servers into a harness — how an agent gets tools beyond what the harness ships with."
-updatedAt: "2026-07-01T08:46:18.000Z"
+updatedAt: "2026-09-24T11:59:36.000Z"
 ---
+
+[AI Coding Dictionary](/ai-coding-dictionary)
+
+Tools & Environment
+
+# MCP
+
+A protocol for plugging external tool servers into a harness — how an agent gets tools beyond what the harness ships with.
+
+![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)
+
+Matt Pocock
+
 **Model Context Protocol.** A protocol for plugging external tool servers into a [harness](/ai-coding-dictionary/harness) — how an [agent](/ai-coding-dictionary/agent) gets [tools](/ai-coding-dictionary/tool) beyond what the harness ships with. The agent never "calls MCP"; it calls a tool, and the harness happens to have gotten that tool from an MCP server. Also exposes resources (read-only data) and prompts (reusable templates), but tool provision is the primary use.
 
 The protocol solves an integration problem. Without a standard, every harness would need its own Linear integration, its own Slack integration, its own database integration — written and maintained separately for each. With MCP, the integration is written once as a server, and any MCP-compatible harness can use it. The harness connects to the server, the server advertises what tools it offers, and those tools become available to the agent alongside the built-in ones.
@@ -18,3 +30,23 @@ _Usage:_
 "The agent needs to read tickets from Linear."
 
 "Configure the harness to use the Linear MCP server — it exposes the Linear API as tools the agent can call. Saves you writing custom tool wrappers."
+
+[Previous term**Tool result**](/ai-coding-dictionary/tool-result)[Next term**Permission request**](/ai-coding-dictionary/permission-request)
+
+## Want more than vocabulary?
+
+Join AI Hero for practical skills, thinking on AI engineering, and resources that keep you ahead of the curve.
+
+First Name
+
+Email*
+
+Get AI Hero updates
+
+No spam. Unsubscribe anytime.
+
+**Share**
+
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2FmcpMCP%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=MCP%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fmcp)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/mcp?author=Matt Pocock)
+
+Copy URL

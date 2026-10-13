@@ -2,9 +2,21 @@
 title: "Context pointer"
 slug: "context-pointer"
 type: "dictionary"
-description: "A mention in one document that points to another, so the agent can pull it into context only when the task calls for it."
-updatedAt: "2026-07-01T08:46:18.000Z"
+updatedAt: "2026-09-24T11:59:36.000Z"
 ---
+
+[AI Coding Dictionary](/ai-coding-dictionary)
+
+Memory and Steering
+
+# Context pointer
+
+A mention in one document that points to another, so the agent can pull it into context only when the task calls for it.
+
+![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)
+
+Matt Pocock
+
 A mention in one document that points to another, so the [agent](/ai-coding-dictionary/agent) can pull it into the [context window](/ai-coding-dictionary/context-window) only when the task calls for it. The unit [progressive disclosure](/ai-coding-dictionary/progressive-disclosure) is built from.
 
 The reason to use a pointer (instead of inlining the content) is cost. A pointer is one line in the context window. The document behind it might be thousands of [tokens](/ai-coding-dictionary/token), but those tokens cost nothing until the agent actually follows the pointer. Inline a 2,000-token runbook in [AGENTS.md](/ai-coding-dictionary/agents-md) and every [session](/ai-coding-dictionary/session) pays for it; replace it with "deploy process: see `internal/deploy.md`" and only the sessions that deploy ever load it. The agent follows the pointer with a [tool call](/ai-coding-dictionary/tool-call) when the task matches.
@@ -22,3 +34,23 @@ _Usage:_
 "AGENTS.md is getting huge."
 
 "Most of it should be context pointers, not content. Keep the always-on rules inline; turn the deploy runbook and the style guide into skills and leave a context pointer behind."
+
+[Previous term**Progressive disclosure**](/ai-coding-dictionary/progressive-disclosure)[Next term**Skill**](/ai-coding-dictionary/skill)
+
+## Want more than vocabulary?
+
+Join AI Hero for practical skills, thinking on AI engineering, and resources that keep you ahead of the curve.
+
+First Name
+
+Email*
+
+Get AI Hero updates
+
+No spam. Unsubscribe anytime.
+
+**Share**
+
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fcontext-pointerContext%20pointer%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Context%20pointer%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fcontext-pointer)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/context-pointer?author=Matt Pocock)
+
+Copy URL
