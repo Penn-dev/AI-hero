@@ -186,6 +186,6 @@ Build a repeatable workflow for coding agents without giving up your engineering
 
 **Share**
 
-[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-ubiquitous-language-grill-with-docsSkills%20Changelog%3A%20Ubiquitous%20Language%20-%3E%20%2Fgrill-with-docs%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Skills%20Changelog%3A%20Ubiquitous%20Language%20-%3E%20%2Fgrill-with-docs%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-ubiquitous-language-grill-with-docs)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs?author=Matt Pocock)
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-ubiquitous-language-grill-with-docsSkills%20Changelog%3A%20Ubiquitous%20Language%20-%3E%20%2Fgrill-with-docs%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Skills%20Changelog%3A%20Ubiquitous%20Language%20-%3E%20%2Fgrill-with-docs%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-ubiquitous-language-grill-with-docs)[](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs?author=Matt Pocock>)
 
 Copy URL

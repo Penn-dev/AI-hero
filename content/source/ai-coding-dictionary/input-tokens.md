@@ -45,6 +45,6 @@ No spam. Unsubscribe anytime.
 
 **Share**
 
-[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Finput-tokensInput%20tokens%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Input%20tokens%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Finput-tokens)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/input-tokens?author=Matt Pocock)
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Finput-tokensInput%20tokens%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Input%20tokens%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Finput-tokens)[](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/input-tokens?author=Matt Pocock>)
 
 Copy URL

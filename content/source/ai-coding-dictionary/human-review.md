@@ -49,6 +49,6 @@ No spam. Unsubscribe anytime.
 
 **Share**
 
-[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fhuman-reviewHuman%20review%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Human%20review%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fhuman-review)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/human-review?author=Matt Pocock)
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fhuman-reviewHuman%20review%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Human%20review%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fhuman-review)[](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/human-review?author=Matt Pocock>)
 
 Copy URL
