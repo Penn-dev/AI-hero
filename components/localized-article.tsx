@@ -68,7 +68,7 @@ export function LocalizedArticle({
     <main data-content-kind={learning?.kind ?? 'article'}>
       <div className="announcement">
         <span>{review ? '审核' : '中文'}</span>
-        {review ? '端到端本地化样本' : 'AI Hero 授权中文学习版'}
+        {review ? '端到端本地化样本' : 'AI Hero 中文学习版'}
       </div>
       <header className="site-header shell">
         <a className="brand" href="/">

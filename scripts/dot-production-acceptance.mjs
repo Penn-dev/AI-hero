@@ -51,6 +51,7 @@ async function check(target, viewport) {
   try {
     const response = await page.goto(baseUrl + config.route, { waitUntil: 'networkidle' });
     assert.equal(response.status(), 200);
+    await expect(page.locator('.announcement')).toHaveText('中文AI Hero 中文学习版');
     await expect(page.getByRole('heading', { level: 1 }).first()).toHaveText(index.pages[config.route].title);
     await expect(page.locator('#reading-body')).toBeVisible();
     const original = page.getByRole('navigation', { name: '文章导航' }).getByRole('link', { name: '英文原文', exact: true });

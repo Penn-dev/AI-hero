@@ -1,6 +1,6 @@
 {
   "id": "delivery-preview-smoke",
-  "reuse": "The full 195-page content UI and 194 actual directory clicks are independently accepted at c9545805/run38409450389. Only Windows launcher code changes here; retain a fresh desktop/mobile homepage response smoke instead of repeating the unchanged directory loop.",
+  "reuse": "195-page body UI and 194 directory clicks remain independently accepted at c9545805/run38409450389. Windows launcher safety changes and removal of an unsupported authorisation claim are verified here; desktop/mobile homepage top screenshots and an exact banner assertion cover the shared wording change.",
   "pages": [
     {
       "id": "home",

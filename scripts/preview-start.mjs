@@ -28,19 +28,13 @@ function runNpm(args) {
   if (result.error || result.status !== 0) throw new Error(`命令执行失败：npm ${args.join(' ')}`);
 }
 
-function isProcessAlive(pid) {
-  try { process.kill(pid, 0); return true; } catch { return false; }
-}
-
 function acquireStartLock() {
-  if (fs.existsSync(lockPath)) {
-    const previous = JSON.parse(fs.readFileSync(lockPath, 'utf8'));
-    if (!Number.isSafeInteger(previous.processId) || previous.processId <= 0 || isProcessAlive(previous.processId)) {
-      throw new Error('另一个启动操作尚未结束，或启动锁身份不明。请保留状态文件并查看使用说明。');
-    }
-    fs.rmSync(lockPath);
+  try {
+    fs.writeFileSync(lockPath, lockText, { flag: 'wx' });
+  } catch (error) {
+    if (error.code === 'EEXIST') throw new Error('已存在启动锁，未修改它。请确认其他启动窗口已结束，再按使用说明将旧锁改名保留后重试。');
+    throw error;
   }
-  fs.writeFileSync(lockPath, lockText, { flag: 'wx' });
   ownsLock = true;
 }
 

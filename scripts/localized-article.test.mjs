@@ -45,6 +45,12 @@ const props = {
   },
 };
 
+void test('public learning pages do not claim an unverified authorisation', () => {
+  const html = renderToStaticMarkup(createElement(LocalizedArticle, props));
+  assert.match(html, /AI Hero 中文学习版/);
+  assert.ok(!html.includes('授权中文学习版'));
+});
+
 void test('public articles with an independent glossary retain original resources and Chinese term controls', () => {
   const html = renderToStaticMarkup(createElement(LocalizedArticle, props));
   const anchors = html.match(/<a\b[^>]*>[\s\S]*?<\/a>/g) ?? [];
