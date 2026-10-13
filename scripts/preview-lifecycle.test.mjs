@@ -25,8 +25,10 @@ void test('stopping a stale preview state leaves the unrelated live process unto
       version: 2, projectRoot: fixture, processId: child.pid, port: 4321,
     }));
     const result = spawnSync('pwsh.exe', ['-NoLogo', '-NoProfile', '-File', path.join(fixture, 'scripts', 'preview-stop.ps1')], { encoding: 'utf8', timeout: 20000 });
+    console.log(JSON.stringify({ stopExitCode: result.status, stdout: result.stdout, stderr: result.stderr, survivor: alive(child.pid) }));
     assert.ok(alive(child.pid), `The stale PID belongs to our unrelated fixture process and must survive.\n${result.stdout}\n${result.stderr}`);
     assert.notEqual(result.status, 0, 'Identity mismatch must be reported, not accepted as a successful stop');
+    assert.match(result.stderr, /身份|identity/i, 'Rejection must specifically explain a process identity mismatch, not an unrelated script error');
   } finally {
     if (alive(child.pid)) child.kill();
     await rm(fixture, { recursive: true, force: true });
