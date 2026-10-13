@@ -24,6 +24,7 @@ a { color: inherit; text-decoration: none; }
 .brand { width: fit-content; font-size: 23px; font-weight: 850; letter-spacing: -.07em; }
 .brand span { color: var(--primary); }
 nav { display: flex; gap: 34px; font-size: 13px; font-weight: 650; }
+#all-pages { display: block; font-weight: 400; overflow-wrap: anywhere; }
 nav a, .search-link { transition: color .2s ease; }
 nav a:hover, .search-link:hover { color: var(--primary); }
 .search-link { justify-self: end; color: #62645d; font-size: 12px; }

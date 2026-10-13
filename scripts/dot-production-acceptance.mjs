@@ -131,7 +131,7 @@ async function check(target, viewport) {
       await expect(heading).toBeInViewport({ ratio: 1 });
       await page.reload({ waitUntil: 'networkidle' });
       await expect(heading).toBeInViewport({ ratio: 1 });
-      assert.equal(new URL(page.url()).hash, '#' + id);
+      assert.equal(decodeURIComponent(new URL(page.url()).hash.slice(1)), id);
       result.checks.push(`Cold-open and refresh original anchor: ${id}`);
     }
     if (target.dictionaryTerms && viewport.width === 390) {
@@ -154,6 +154,8 @@ async function check(target, viewport) {
       assert.deepEqual([...hrefs].sort((a, b) => a.localeCompare(b)), Object.keys(index.pages).filter(route => route !== '/').sort((a, b) => a.localeCompare(b)));
       await directory.getByRole('heading', { name: '全部中文页面', exact: true }).scrollIntoViewIfNeeded();
       await screenshot(page, result, 'all-pages-directory');
+      result.directoryWidth = await page.evaluate(() => ({ scroll: document.documentElement.scrollWidth, client: document.documentElement.clientWidth }));
+      assert.ok(result.directoryWidth.scroll <= result.directoryWidth.client + 1, 'Expanded directory must not overflow horizontally');
       if (viewport.width === 390) for (const href of hrefs) {
         if (await details.getAttribute('open') === null) await details.locator('summary').click();
         await directory.locator(`a[href="${href}"]`).click();

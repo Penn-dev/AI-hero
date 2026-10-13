@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import type { Metadata } from 'next';
 import content from '@/content/zh/index.json';
 import { LocalizedArticle } from '@/components/localized-article';
@@ -20,7 +19,7 @@ export default function Home() {
         <summary>展开全部 {Object.keys(content.pages).length - 1} 个中文页面</summary>
         <ul>
           {Object.entries(content.pages).filter(([route]) => route !== '/').map(([route, page]) => (
-            <li key={route}><Link href={route} prefetch={false}>{page.title}</Link></li>
+            <li key={route}><a href={route}>{page.title}</a></li>
           ))}
         </ul>
       </details>
