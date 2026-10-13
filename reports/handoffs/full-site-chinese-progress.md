@@ -6,7 +6,7 @@
 
 现行[交付候选入口](./dot-delivery-candidate.md)给出证据和最小现场说明。全站195逐页正文hash与实际验收候选绑定见[验收表](../full-site/acceptance-status.json)。原图ZIP按[归档清单](../full-site/batches/evidence-archives.json)持久保存，失败、返修和独立审查原样保留。
 
-唯一剩余交付门槛是目标Windows现场结果。#1/#6保持开放，PR7草稿；不自动合并或部署。旧本机代理安排和暂停记录仅作历史。
+目标Windows现场验收已于2026-10-14通过工程复核和独立验收；[现场归档及固定GD交接路径](../full-site/delivery/onsite-acceptance.md)保留原始证据引用、失败恢复和边界。#1/#6满足关闭条件，PR转待审；不自动合并或部署。旧本机代理安排和暂停记录仅作历史。
 
 ## 以下是本机历史断点（已被上述Dot进度取代）
 

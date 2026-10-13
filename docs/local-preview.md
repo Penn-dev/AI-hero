@@ -1,6 +1,6 @@
 # 中文网站本地使用与最小现场验收
 
-代码候选：`1e86ac0caad08a7da54d57a9a473a5b6ef909450`，分支 `codex/full-site-chinese`。交付状态、最终文档提交和证据见[候选入口](../reports/handoffs/dot-delivery-candidate.md)。#1、#6 在目标 Windows 现场通过前保持开放，PR #7 保持草稿。
+代码候选：`1e86ac0caad08a7da54d57a9a473a5b6ef909450`，分支 `codex/full-site-chinese`。交付状态、最终文档提交和证据见[候选入口](../reports/handoffs/dot-delivery-candidate.md)。目标 Windows 已于2026-10-14通过现场验收及独立复核，见[现场验收归档](../reports/full-site/delivery/onsite-acceptance.md)。本页保留可复用的使用和复验说明；不自动合并PR或部署。
 
 ## 范围与前提
 
@@ -78,7 +78,7 @@ Rename-Item .sites-runtime\preview-start.lock ("preview-start.lock.backup-" + (G
 
 填写[现场结果模板](../reports/full-site/delivery/onsite-result-template.md)，附必要截图和失败日志：准确 SHA、Windows/Node/PowerShell 版本、实际命令、首次启动、首页/三类页、深链刷新、停止、再次启动、最终停止及遗留状态是否发生。发回前排除不相关的个人数据和凭据。
 
-Dot 收到结果后保存证据、处理必要返修，再按完成标准更新 #1/#6 和 PR；仅重测受影响步骤。PR 不自动合并，在线部署另行安排。
+本轮现场结果已通过。今后需要返修复验时，把结果说明、截图和日志直接上传到02_本地回传（用户私有GD，路径见其交接说明），无需压缩或由用户下载转传；评审和返修要求放03_评审与返修（用户私有GD，路径见其交接说明）。仅重测受影响步骤，不自动合并或部署。
 
 ## 后续内容更新
 

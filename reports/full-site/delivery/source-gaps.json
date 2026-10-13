@@ -49,5 +49,5 @@
     "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution"
   ],
   "tutorialRuntime": "not-verified",
-  "onsiteWindows": "pending"
+  "onsiteWindows": "passed; see onsite-acceptance.md"
 }

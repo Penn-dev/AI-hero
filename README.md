@@ -4,7 +4,7 @@
 
 ## 使用与交付状态
 
-先读[准确候选和证据入口](reports/handoffs/dot-delivery-candidate.md)，再按 [Windows 使用说明](docs/local-preview.md)启动和停止。当前只剩目标 Windows 机器的最小现场验收，#1/#6 保持开放，PR #7 保持草稿。
+先读[准确候选和证据入口](reports/handoffs/dot-delivery-candidate.md)，再按 [Windows 使用说明](docs/local-preview.md)启动和停止。目标Windows现场验收及独立复核已通过，详见[现场归档与固定GD交接盘](reports/full-site/delivery/onsite-acceptance.md)。本地交付已满足完成条件，PR供审，不自动合并或部署。
 
 依赖已准备后，在项目根目录：
 
