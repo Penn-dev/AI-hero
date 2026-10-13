@@ -2,7 +2,6 @@ import assert from 'node:assert/strict';
 import { spawn, spawnSync } from 'node:child_process';
 import { once } from 'node:events';
 import { cp, mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
-import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import test from 'node:test';
@@ -14,7 +13,7 @@ function alive(pid) {
 }
 
 void test('stopping a stale preview state leaves the unrelated live process untouched', { skip: process.platform !== 'win32' }, async () => {
-  const fixture = await mkdtemp(path.join(os.tmpdir(), 'aihero-preview-'));
+  const fixture = await mkdtemp(path.join(projectRoot, '.preview-test-'));
   const child = spawn(process.execPath, ['-e', 'setInterval(() => {}, 1000)'], { stdio: 'ignore' });
   await once(child, 'spawn');
   try {
