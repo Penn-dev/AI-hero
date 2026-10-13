@@ -1,0 +1,2 @@
+# These files have recorded byte hashes. Preserve their bytes on every platform.
+content/** -text

@@ -24,6 +24,8 @@
 
 初始 lint 实际失败记录见[基线日志](E:/dev/projects/AIHero/reports/full-site/lint-baseline.log)，仅要求修复本次新增问题。Git 推送 dry-run 已成功，PR 可使用 Git 推送与 GitHub 组件创建。
 
+主代理已补充 `.gitattributes` 的 `content/** -text`，保留记录哈希的内容文件字节。实测此前 `git cat-file --filters HEAD:content/source/index.md` 会因系统 `core.autocrlf=true` 转成 CRLF，哈希从 `47866d18…` 变为 `3f6e77ba…`；补充规则后对首页源文、AGENTS.md 源文及既有中文稿逐一验证，Git 取出字节均与原文件一致。此修正避免工作树合并和后续 checkout 破坏哈希。
+
 待后续处理的已确认点：`app/page.tsx` 使用固定展示文案，没有读取中文索引；#5 应制作固定来源的 `/` 页面，#6 核对首页实际渲染与全站入口。旧本地预览状态指向 2026-09-22 的 PID 24812；本次检查无该进程及 4321/5173 监听，不据此终止任何程序。
 
 ## 子代理方案与授权
