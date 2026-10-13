@@ -1,0 +1,548 @@
+{
+  "baseline": "68c107143560cf63017411e604c06ba8e599fc51",
+  "candidate": "74f17a6c24ed87cdb622d13d834851bf925722eb",
+  "scope": "production-05",
+  "pageCount": 60,
+  "results": [
+    {
+      "route": "/how-to-improve-your-llm-powered-app",
+      "authorCommit": "b6bf1fb21b4cc260b5660704f034ccd269455c66",
+      "translationHash": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/connect-claude-code-to-github",
+      "authorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "translationHash": "15c0deb6be8f103a2b1afdcf63e77bf6498fb9d12f9581ec72137d44c1eab053",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "authorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "translationHash": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/how-to-make-codebases-ai-agents-love",
+      "authorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "translationHash": "7e5a3b8105bf097b71431b3f0950fff11f6292970f68ea60985b2ed8a6a8cd33",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "authorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "translationHash": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+      "authorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "translationHash": "a3ea323132daa07be646f4a6807739a548b12fd693262d2e2569534544d02e30",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "authorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "translationHash": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/creating-the-perfect-claude-code-status-line",
+      "authorCommit": "a6e6b02b8beed34a2e3cd50d9df8ba348f51606a",
+      "translationHash": "c4d73264cfec2f015da8bcb63f78adc3de79cd91b3039f614d833b9d68c6cea6",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "authorCommit": "a6e6b02b8beed34a2e3cd50d9df8ba348f51606a",
+      "translationHash": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/never-run-claude-init",
+      "authorCommit": "a6e6b02b8beed34a2e3cd50d9df8ba348f51606a",
+      "translationHash": "f79fd9a8e8f3985d66b4c05c0a0533e0d8c3ec5f734fca58046232320582e09d",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/real-world-feature-build-with-claude-code",
+      "authorCommit": "a6e6b02b8beed34a2e3cd50d9df8ba348f51606a",
+      "translationHash": "4e9c84ff5e367d8c2101004197cd86f40939a6f2824aa3c5d25c4a5797b930a8",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/my-7-phases-of-ai-development",
+      "authorCommit": "e296a7c78e7c78d76a3500c4bf743af99b222296",
+      "translationHash": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/my-claude-code-cohort-a-teaser",
+      "authorCommit": "e296a7c78e7c78d76a3500c4bf743af99b222296",
+      "translationHash": "355b49e0ca5dd58b6cc838e10e0f9f4bababe81544fd65158051af234884d545",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/plan-mode-introduction",
+      "authorCommit": "e296a7c78e7c78d76a3500c4bf743af99b222296",
+      "translationHash": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/tracer-bullets",
+      "authorCommit": "e296a7c78e7c78d76a3500c4bf743af99b222296",
+      "translationHash": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ways-ai-coding-has-rewired-my-brain",
+      "authorCommit": "e296a7c78e7c78d76a3500c4bf743af99b222296",
+      "translationHash": "8203ac436a73d722dbb5ed631cd55e82071d48eb82e2c74869fecbc8b22f522b",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/5-agent-skills-i-use-every-day",
+      "authorCommit": "91b0f79e05a616b2a0a508b8bef017e11144ae14",
+      "translationHash": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/learn-anything-with-my-teach-skill",
+      "authorCommit": "91b0f79e05a616b2a0a508b8bef017e11144ae14",
+      "translationHash": "1e721a8c2a59f034088be00cfe54e1b11292d389b77b811eebb34f157cdad7ad",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "authorCommit": "91b0f79e05a616b2a0a508b8bef017e11144ae14",
+      "translationHash": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skill-test-driven-development-claude-code",
+      "authorCommit": "91b0f79e05a616b2a0a508b8bef017e11144ae14",
+      "translationHash": "cb73062f5f3b4835dd2fc1e91c3713066063fdc56ed5fe1514d9a9c3b2ad7a36",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/burn-through-your-backlog-with-my-triage-skill",
+      "authorCommit": "16a77e3711a2d58f28df4613cc4e37d126d640aa",
+      "translationHash": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/grill-with-docs",
+      "authorCommit": "16a77e3711a2d58f28df4613cc4e37d126d640aa",
+      "translationHash": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "authorCommit": "16a77e3711a2d58f28df4613cc4e37d126d640aa",
+      "translationHash": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/getting-started-with-ralph",
+      "authorCommit": "ab96fdda6bbce9a4f70c59e26148623d8a769eba",
+      "translationHash": "654b5e428cf88d5fe1744c6490775a42f403fb6d55087d4be577caf50c1af24a",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "authorCommit": "ab96fdda6bbce9a4f70c59e26148623d8a769eba",
+      "translationHash": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "authorCommit": "ab96fdda6bbce9a4f70c59e26148623d8a769eba",
+      "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/why-the-anthropic-ralph-plugin-sucks",
+      "authorCommit": "ab96fdda6bbce9a4f70c59e26148623d8a769eba",
+      "translationHash": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/workshops/ai-coding-crash-course",
+      "authorCommit": "2a7d3f41c043836185b691e058d5f11f7b18a55f",
+      "translationHash": "4e91df276632f002d146e3686d9226b297ff8682bbb0db2ab961af3a34931c4d",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "authorCommit": "2a7d3f41c043836185b691e058d5f11f7b18a55f",
+      "translationHash": "766a728b31324c5ff191853786146b32fade0f98ad05fc09e638ec19cf3b153a",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/",
+      "authorCommit": "2a7d3f41c043836185b691e058d5f11f7b18a55f",
+      "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/newsletter",
+      "authorCommit": "2a7d3f41c043836185b691e058d5f11f7b18a55f",
+      "translationHash": "7969aa22bd61af6379e0acf65e64f03a40a2dd9de69bcca6267301956e9c1bd1",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+      "authorCommit": "49f4140c9dc9b341a061be2949e83ae3eb364f47",
+      "translationHash": "9e0bddfa4a5084074677dd9e87f58194d62c18ad6db338b519e7ecc076741a91",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "authorCommit": "49f4140c9dc9b341a061be2949e83ae3eb364f47",
+      "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "authorCommit": "8104e8d839defef689e01701f2098ae3d5d29206",
+      "translationHash": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "authorCommit": "8104e8d839defef689e01701f2098ae3d5d29206",
+      "translationHash": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills-prototype",
+      "authorCommit": "18791590fbeba9f9a93df91fe87b27fa78260f52",
+      "translationHash": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills-tdd",
+      "authorCommit": "18791590fbeba9f9a93df91fe87b27fa78260f52",
+      "translationHash": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills-grill-with-docs",
+      "authorCommit": "6fd1d0f27a9cd962ad65b325e8fd47a78023ff76",
+      "translationHash": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "authorCommit": "6fd1d0f27a9cd962ad65b325e8fd47a78023ff76",
+      "translationHash": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills-teach",
+      "authorCommit": "82c4bd0d3c8e179cb6cb2a480e669c1132aa043f",
+      "translationHash": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills-wizard",
+      "authorCommit": "82c4bd0d3c8e179cb6cb2a480e669c1132aa043f",
+      "translationHash": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills-triage",
+      "authorCommit": "4c2810e931079f6aa4b05e199165a898d0de333a",
+      "translationHash": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills-wayfinder",
+      "authorCommit": "3ae126eaa4cbab0d02fece725f44f935d0d15243",
+      "translationHash": "98ed068575ccbd2f102864f2e1d42c809af0eeb17f30c1a5cbf376144f4eba48",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "authorCommit": "6d5528ea9def8c0c2a4a8257c408c4be9b2cdc6f",
+      "translationHash": "eaeb12cd6b9faa60f1fb603f85ae12bd6e4b7224753a1a5223362241fbf70607",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "authorCommit": "3438b00d7c4b07fc3d1ceec9cada59d8d9326c7d",
+      "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "authorCommit": "3ae126eaa4cbab0d02fece725f44f935d0d15243",
+      "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/llm-fundamentals",
+      "authorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "translationHash": "a89ce1b9aa7a7be217c28cb3bd8ae4ee4ce9f281c4f8a1623658ca66249140c6",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "authorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "translationHash": "f5f29c9f346eca8d316bc0b7382d131a8fa09410668a2492a8f464e2243cd4a4",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/the-prompt-report",
+      "authorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "translationHash": "e22eaa86066cf47b5c8269478962da8176444511292767120794605517f5b5d3",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/generate-text-with-vercel-ai-sdk",
+      "authorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "translationHash": "efbcbe5f795191c368068df43b0b6b230212014b2860305cfc47bee294320c06",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "authorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "translationHash": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "authorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "translationHash": "971ab2c8677e624acfdbee607f50e6a15cb6fd1fd661a8ca400794a20cfced7a",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/system-prompts-with-vercel-ai-sdk",
+      "authorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "translationHash": "98ae9e5576b442883f073dfdc1fa99cd87ab857affef849dd178cb435376c592",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "authorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "translationHash": "5ac4b8d2978128fa71304222dbbd3410dbcbf0d5d999d0172121052bdcd432b5",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "authorCommit": "32fc55569901d9d401b87c5600ad451ec80937d7",
+      "translationHash": "568201c264b205b55718c75614b38720ea5b37dca22497c6876769af845b4473",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/structured-outputs-with-vercel-ai-sdk",
+      "authorCommit": "32fc55569901d9d401b87c5600ad451ec80937d7",
+      "translationHash": "cc31ab2700f602e27ecbdc30eccd5eea9e704ae5a9e2919daa5cfaa257e35d5a",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/use-local-models-with-vercel-ai-sdk",
+      "authorCommit": "79ec73e9a1c75fc6cebd6f555c6ea4952e98e53c",
+      "translationHash": "95e2cc953ba638f9117410ff649dbd1ade87877919753449b0656d129dc3c554",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/evalite-an-early-preview",
+      "authorCommit": "38a959025dfc80563f11691d980b7ffa0f4fc1d3",
+      "translationHash": "9d74e3cb9de0221318a08d001e170a3fe8a5f055e094cb44848fd083d35ade18",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "authorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "authorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "translationHash": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    }
+  ]
+}

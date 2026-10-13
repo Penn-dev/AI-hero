@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A11/configs/parametric-knowledge.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "manifest": {
+        "route": "/ai-coding-dictionary/parametric-knowledge",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
+        "sourceHash": "eea5dc47fbe93157d2f9c3447977f19edf5a98ab5e121a6eb1d55d768bd82c60",
+        "translationPath": "content/zh/ai-coding-dictionary/parametric-knowledge.md",
+        "translationHash": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:47.253Z",
+        "assembly": {
+          "configHash": "632f7c0bc49a6950cb22c59713a378a93dc8790cf579078b67f4a046d5bd8e00",
+          "checkedAt": "2026-10-13T12:19:47.253Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/parametric-knowledge.md",
+          "sha256": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c990d9c432c878b17dafc304027d25c4b8afec084e9bdf7eaf6a626193c4864a"
+        }
+      ],
+      "rawOutputSha256": "406155e734d86acf2cb73830234f59cc3de90b9d4efe098baeafa881d8509e83"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "manifest": {
+        "route": "/ai-coding-dictionary/parametric-knowledge",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
+        "sourceHash": "eea5dc47fbe93157d2f9c3447977f19edf5a98ab5e121a6eb1d55d768bd82c60",
+        "translationPath": "content/zh/ai-coding-dictionary/parametric-knowledge.md",
+        "translationHash": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:47.437Z",
+        "assembly": {
+          "configHash": "632f7c0bc49a6950cb22c59713a378a93dc8790cf579078b67f4a046d5bd8e00",
+          "checkedAt": "2026-10-13T12:19:47.437Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/parametric-knowledge.md",
+          "sha256": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "5ec380108d891ffc2adb4d19bc03ad325178408edd643c4397ec2f00cce07be3"
+        }
+      ],
+      "rawOutputSha256": "ec89571d6f0bebbdc4fe987dcd85a7b4c95edbf8c517ac0dfb04995d59150613"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

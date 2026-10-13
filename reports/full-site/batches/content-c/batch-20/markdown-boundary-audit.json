@@ -1,0 +1,10 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-20/drafts/skills__skills-changelog-v1-announcement.md",
+      "sha256": "eaeb12cd6b9faa60f1fb603f85ae12bd6e4b7224753a1a5223362241fbf70607",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

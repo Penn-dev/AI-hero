@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-02/configs/logging-a-huge-mcp-footgun.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/logging-a-huge-mcp-footgun",
+      "manifest": {
+        "route": "/logging-a-huge-mcp-footgun",
+        "sourceUrl": "https://www.aihero.dev/logging-a-huge-mcp-footgun",
+        "sourceHash": "eef196ed9aa582bbfcc3ab7c3e5761f264461ce4a57c14a83642a71a925a1767",
+        "translationPath": "content/zh/logging-a-huge-mcp-footgun.md",
+        "translationHash": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:20.956Z",
+        "assembly": {
+          "configHash": "06e95ebe7b64011c3b0cd72b8a1cc9906e2b27fc93988cf2096f34e608e754bf",
+          "checkedAt": "2026-10-13T11:56:20.956Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/logging-a-huge-mcp-footgun.md",
+          "sha256": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "7c771184dc7d3cd0dba299e4bca79bab89e5dd34af1dad9997236f4aa21caf56"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7794a8f03d09abc6e7bb32d373c1e8a88a26a8875e01bc8d452aa697486d45bc"
+        }
+      ],
+      "rawOutputSha256": "1fb13a772c3ec547ddc64eccf14dfc05e9af8fd93794650795034b7b221482a6"
+    },
+    {
+      "mode": "apply",
+      "route": "/logging-a-huge-mcp-footgun",
+      "manifest": {
+        "route": "/logging-a-huge-mcp-footgun",
+        "sourceUrl": "https://www.aihero.dev/logging-a-huge-mcp-footgun",
+        "sourceHash": "eef196ed9aa582bbfcc3ab7c3e5761f264461ce4a57c14a83642a71a925a1767",
+        "translationPath": "content/zh/logging-a-huge-mcp-footgun.md",
+        "translationHash": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:21.176Z",
+        "assembly": {
+          "configHash": "06e95ebe7b64011c3b0cd72b8a1cc9906e2b27fc93988cf2096f34e608e754bf",
+          "checkedAt": "2026-10-13T11:56:21.176Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/logging-a-huge-mcp-footgun.md",
+          "sha256": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "7c771184dc7d3cd0dba299e4bca79bab89e5dd34af1dad9997236f4aa21caf56"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "06f82b3dc5b63c1d009ca2b77534f8e4a4696811e6c244beb7c5327449ae19ab"
+        }
+      ],
+      "rawOutputSha256": "4f55ba49730c09bb24f1936b9e82510428ccb1d1e1846044d17579d504e8464c"
+    }
+  ],
+  "nonTargetPagesPreserved": 26
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-19/drafts/skills-wayfinder.md",
+      "sha256": "98ed068575ccbd2f102864f2e1d42c809af0eeb17f30c1a5cbf376144f4eba48",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

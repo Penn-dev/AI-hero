@@ -1,0 +1,30 @@
+{
+  "route": "/ai-coding-dictionary/prototyping",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/prototyping.md",
+    "sha256": "39d3ce1c188317f94c922a30c1652b2ef5ca993d7eb061cbc6d63f7a5543d97f"
+  },
+  "chineseFile": "reports/full-site/content-a/A14/drafts/prototyping.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    }
+  ]
+}

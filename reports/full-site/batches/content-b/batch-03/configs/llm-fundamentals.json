@@ -1,0 +1,9 @@
+{
+  "route": "/llm-fundamentals",
+  "source": {
+    "path": "content/source/llm-fundamentals.md",
+    "sha256": "9a6205dcc625fe5356f4c303a3993bbb547760c6a77bd0c2bd098a3bff38693d"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-03/drafts/llm-fundamentals.md",
+  "translationPath": "content/zh/llm-fundamentals.md"
+}

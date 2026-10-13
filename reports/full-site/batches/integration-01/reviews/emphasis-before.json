@@ -1,0 +1,127 @@
+{
+  "scope": "Review non-code emphasis markers and nested strong nodes. Never auto-replace a finding. Intentional literal prose examples need a recorded human decision. This is not visual or semantic acceptance.",
+  "files": 15,
+  "pagesWithFindings": 4,
+  "findings": 8,
+  "results": [
+    {
+      "file": "reports/full-site/batches/content-b/batch-01/drafts/what-are-tokens.md",
+      "sha256": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a",
+      "findings": []
+    },
+    {
+      "file": "reports/full-site/batches/content-b/batch-01/drafts/what-is-an-llm.md",
+      "sha256": "9eac5bea131ac190ab73454c03b985792fbbc6fd455383c2363f4e52e46bcc66",
+      "findings": [
+        {
+          "kind": "nested-strong",
+          "line": 28,
+          "raw": "**大致理解成一个巨型压缩文件，比如一个 1TB 的 zip 文件。文件里存放着大量数字，以 16 位浮点数的形式编码。这些数字就是模型的**"
+        },
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 60,
+          "raw": "推理就是把文本发给模型，再得到模型的回答。这个过程由**推理函数（inference function）**完成：它是一段软件，会读取模型参数并运行算法，计算下一个词。与预训练相比，推理便宜得多，也可以在笔记本电脑上运行。"
+        },
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 82,
+          "raw": "具体怎样选择，由开发者指定的**采样策略（sampling strategy）**决定。常见策略包括："
+        }
+      ]
+    },
+    {
+      "file": "reports/full-site/batches/content-b/batch-01/drafts/what-is-the-context-window.md",
+      "sha256": "4fb8555b800741de5f4939fdc6da0f9e98747dcddcbf124b01d09be64db0edc7",
+      "findings": []
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-01/drafts/skills-catalog.md",
+      "sha256": "a54bca6474e19ef7db74ffe8dcadb71168cdef9546749168847cacd4c917b210",
+      "findings": []
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-01/drafts/skills-codebase-design.md",
+      "sha256": "d0423e41791bce76be0488cde5da9265a290a981c419a38c68807ba7985d4093",
+      "findings": [
+        {
+          "kind": "nested-strong",
+          "line": 11,
+          "raw": "**和**"
+        },
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 45,
+          "raw": "接口所带来的杠杆效应：调用方或测试每学习一单位接口，能够使用或验证多少行为。**深层（Deep）**模块用小接口提供大量行为；**浅层（Shallow）**模块的接口几乎和内部实现一样复杂。"
+        },
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 96,
+          "raw": "中文理解版（学习辅助）：你可能把“模块”与文件系统联系得太紧了。文件系统当然可以帮助我们看出模块的大致形状，但构建深层模块并不要求采用某种特定的文件系统结构。词汇表正是出于这个原因，才刻意把**模块（module）**定义成与规模和文件结构无关的概念。"
+        }
+      ]
+    },
+    {
+      "file": "reports/full-site/content-a/A01/drafts/agent.md",
+      "sha256": "54608546cf145b084588544561b79a47a461abbbee29cd089532176d050be51a",
+      "findings": [
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 20,
+          "raw": "，就形成了智能体（Agent）。_Claude Code 是智能体，Cursor 是智能体，Claude.ai 也是智能体。_你实际交谈的对象就是智能体：它是针对某种用途配置好、真正运行起来的模型。"
+        }
+      ]
+    },
+    {
+      "file": "reports/full-site/content-a/A01/drafts/harness.md",
+      "sha256": "4385fb5496325123f5a12485ec6d2d919a00154a663e32ed644e5df636068441",
+      "findings": []
+    },
+    {
+      "file": "reports/full-site/content-a/A01/drafts/model.md",
+      "sha256": "f12f343165c943279cb53b174cad12087ae71f9a19ac811337dba7264ed6e757",
+      "findings": []
+    },
+    {
+      "file": "reports/full-site/content-a/A02/drafts/context-window.md",
+      "sha256": "bf76ffb0c5841e2cf70066ff9068c72337cc27e6487e45ef5ead434eaefcb1e5",
+      "findings": [
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 20,
+          "raw": "时能看到的全部内容。它的容量有限，大小因模型而异，而且是模型感知任何信息的_唯一_入口。"
+        }
+      ]
+    },
+    {
+      "file": "reports/full-site/content-a/A02/drafts/context.md",
+      "sha256": "4021cb508844311565f8f12a80d102cfd6eddde9d639a682302914901e78941b",
+      "findings": []
+    },
+    {
+      "file": "reports/full-site/content-a/A02/drafts/progressive-disclosure.md",
+      "sha256": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621",
+      "findings": []
+    },
+    {
+      "file": "reports/full-site/content-a/A02/drafts/token.md",
+      "sha256": "8898ec3b4ffd54aa9f1cf9ec5588db3f21089e9c632fe2283a1f3de1598af5e3",
+      "findings": []
+    },
+    {
+      "file": "reports/full-site/samples/drafts/agents-md.md",
+      "sha256": "bf2c149382aada03300b6dacac483d315a148867fc0acc5f2abf43b6f4463562",
+      "findings": []
+    },
+    {
+      "file": "reports/full-site/samples/drafts/output.md",
+      "sha256": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
+      "findings": []
+    },
+    {
+      "file": "reports/full-site/samples/drafts/system-prompt.md",
+      "sha256": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+      "findings": []
+    }
+  ]
+}

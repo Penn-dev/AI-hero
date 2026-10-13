@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A15/configs/software-factory.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/software-factory",
+      "manifest": {
+        "route": "/ai-coding-dictionary/software-factory",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/software-factory",
+        "sourceHash": "78107b16f9f8a4964fb482a016c114a292bfbf5c75ac79b9861a711b4c4a669b",
+        "translationPath": "content/zh/ai-coding-dictionary/software-factory.md",
+        "translationHash": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:29.505Z",
+        "assembly": {
+          "configHash": "289b6035adccda25bc62ebe98f340c5313f269f70b38dc399b3d20821562bffd",
+          "checkedAt": "2026-10-13T12:19:29.505Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/software-factory.md",
+          "sha256": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "cc8f33e99b9f833b1dceb13fb8800288d462e8decfcf478e44c2afcf0ec1523d"
+        }
+      ],
+      "rawOutputSha256": "5b9b920e46bc9eb32798e280a13089b1e2cf3492961980803665b891bfaee8d1"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/software-factory",
+      "manifest": {
+        "route": "/ai-coding-dictionary/software-factory",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/software-factory",
+        "sourceHash": "78107b16f9f8a4964fb482a016c114a292bfbf5c75ac79b9861a711b4c4a669b",
+        "translationPath": "content/zh/ai-coding-dictionary/software-factory.md",
+        "translationHash": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:29.724Z",
+        "assembly": {
+          "configHash": "289b6035adccda25bc62ebe98f340c5313f269f70b38dc399b3d20821562bffd",
+          "checkedAt": "2026-10-13T12:19:29.724Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/software-factory.md",
+          "sha256": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f2db4d7818497bd51e26bc555f96efbd467b061a50abde87f919d32201391307"
+        }
+      ],
+      "rawOutputSha256": "194db6b78ff9d4306db207eece7a1db376ab9e85eb0942243ab716acf78d16eb"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

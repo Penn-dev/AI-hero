@@ -1,0 +1,22 @@
+{
+  "route": "/skills-teach",
+  "source": {
+    "path": "content/source/skills-teach.md",
+    "sha256": "9e15a9c39bccc9bf6ed72085209828712df422d9087aaccc2490fada45c2f71c"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-17/drafts/skills-teach.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "available-chinese"
+    }
+  ]
+}

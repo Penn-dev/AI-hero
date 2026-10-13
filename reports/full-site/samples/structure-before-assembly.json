@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-13T04:35:38.766Z",
+  "scope": "Original code, inline identifiers, heading levels and source bytes; not resource, semantic, build or browser approval.",
+  "pages": [
+    {
+      "id": "system-prompt",
+      "sourceHashMatches": true,
+      "sourceCodeBlocks": 0,
+      "chineseCodeBlocks": 0,
+      "originalBlocksPreserved": true,
+      "inlineCodeSequencePreserved": true,
+      "headingDepthSequencePreserved": true,
+      "draftHash": "ec4135e0ff786cd2e806c7b550094863216b91f2da9f65026d73682be1ce8c9c"
+    },
+    {
+      "id": "agents-md",
+      "sourceHashMatches": true,
+      "sourceCodeBlocks": 9,
+      "chineseCodeBlocks": 16,
+      "originalBlocksPreserved": true,
+      "inlineCodeSequencePreserved": true,
+      "headingDepthSequencePreserved": true,
+      "draftHash": "bf2c149382aada03300b6dacac483d315a148867fc0acc5f2abf43b6f4463562"
+    },
+    {
+      "id": "output",
+      "sourceHashMatches": true,
+      "sourceCodeBlocks": 2,
+      "chineseCodeBlocks": 4,
+      "originalBlocksPreserved": true,
+      "inlineCodeSequencePreserved": true,
+      "headingDepthSequencePreserved": true,
+      "draftHash": "f7b6a4d433d759edef1a11ca692cc441982890affea4fa5a2f833373b4f8b487"
+    }
+  ]
+}

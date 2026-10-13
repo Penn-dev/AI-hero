@@ -1,0 +1,22 @@
+{
+  "route": "/skills-pr",
+  "source": {
+    "path": "content/source/skills-pr.md",
+    "sha256": "d423f17fb516596112c9fb842a54a4a1c625c2094556ab4cdb3fca91f937e76b"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-07/drafts/skills-pr.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    }
+  ]
+}

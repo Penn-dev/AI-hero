@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-15/configs/tips-for-ai-coding-with-ralph-wiggum.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "manifest": {
+        "route": "/tips-for-ai-coding-with-ralph-wiggum",
+        "sourceUrl": "https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum",
+        "sourceHash": "6c2eac9161d4a74ab6239dfbacbde674ccfbf328486f177444fa359f59137462",
+        "translationPath": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+        "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:58.873Z",
+        "assembly": {
+          "configHash": "891b90bcf6bd2d464dddd574678a5e571941587b1498482071a3a7daac5af81e",
+          "checkedAt": "2026-10-13T13:07:58.873Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+          "sha256": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "95f589d77484ed3bf699283b9d824faddc385dec135b5051b70e315862f3b445"
+        }
+      ],
+      "rawOutputSha256": "5cb3282da26658c6ee6952a071151528e24e6ca75b910f62fdf2fd4cc84715bf"
+    },
+    {
+      "mode": "apply",
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "manifest": {
+        "route": "/tips-for-ai-coding-with-ralph-wiggum",
+        "sourceUrl": "https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum",
+        "sourceHash": "6c2eac9161d4a74ab6239dfbacbde674ccfbf328486f177444fa359f59137462",
+        "translationPath": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+        "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:59.242Z",
+        "assembly": {
+          "configHash": "891b90bcf6bd2d464dddd574678a5e571941587b1498482071a3a7daac5af81e",
+          "checkedAt": "2026-10-13T13:07:59.242Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+          "sha256": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "afbc981a1ce52d4054fe867ee5228618efad70a7a330a1804bdcddfccdb149c5"
+        }
+      ],
+      "rawOutputSha256": "7bf48e6de3fe62713aaa09cf78833475db154ef4ddb2b51254af602f29dce374"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

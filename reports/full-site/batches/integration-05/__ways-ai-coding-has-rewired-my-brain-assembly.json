@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-12/configs/ways-ai-coding-has-rewired-my-brain.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ways-ai-coding-has-rewired-my-brain",
+      "manifest": {
+        "route": "/ways-ai-coding-has-rewired-my-brain",
+        "sourceUrl": "https://www.aihero.dev/ways-ai-coding-has-rewired-my-brain",
+        "sourceHash": "c2c308cd0fdadada333cff3518d313a5f6fa5fb349b60fc38816bca99f6a1b0b",
+        "translationPath": "content/zh/ways-ai-coding-has-rewired-my-brain.md",
+        "translationHash": "8203ac436a73d722dbb5ed631cd55e82071d48eb82e2c74869fecbc8b22f522b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:34.120Z",
+        "assembly": {
+          "configHash": "b36e430f27d43fb626656d6484930254909de459e26d81c704acfce6d5f7e3d4",
+          "checkedAt": "2026-10-13T13:04:34.120Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ways-ai-coding-has-rewired-my-brain.md",
+          "sha256": "8203ac436a73d722dbb5ed631cd55e82071d48eb82e2c74869fecbc8b22f522b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "19162bd7ba9a44c0b2f97e9353ea403f7e6cfe6645e402bdcaca51fb7baf58f8"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a06391bb0fd4fdecab4c47072db165fd2ddca725e69c48c383e05ad4695242f6"
+        }
+      ],
+      "rawOutputSha256": "76f77c01b5c2e7e2093358d26668750fc01b188ba55a7b06db0e7160b7f711a0"
+    },
+    {
+      "mode": "apply",
+      "route": "/ways-ai-coding-has-rewired-my-brain",
+      "manifest": {
+        "route": "/ways-ai-coding-has-rewired-my-brain",
+        "sourceUrl": "https://www.aihero.dev/ways-ai-coding-has-rewired-my-brain",
+        "sourceHash": "c2c308cd0fdadada333cff3518d313a5f6fa5fb349b60fc38816bca99f6a1b0b",
+        "translationPath": "content/zh/ways-ai-coding-has-rewired-my-brain.md",
+        "translationHash": "8203ac436a73d722dbb5ed631cd55e82071d48eb82e2c74869fecbc8b22f522b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:34.344Z",
+        "assembly": {
+          "configHash": "b36e430f27d43fb626656d6484930254909de459e26d81c704acfce6d5f7e3d4",
+          "checkedAt": "2026-10-13T13:04:34.344Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ways-ai-coding-has-rewired-my-brain.md",
+          "sha256": "8203ac436a73d722dbb5ed631cd55e82071d48eb82e2c74869fecbc8b22f522b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "19162bd7ba9a44c0b2f97e9353ea403f7e6cfe6645e402bdcaca51fb7baf58f8"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "934ef9eb2f18c3c9d829ec40f41c8c997f359008e4ece71aa023d5fb20d13e9d"
+        }
+      ],
+      "rawOutputSha256": "530726557120fc2dc4e994ef6f53298466b172a60baeb0951c178b25a8176230"
+    }
+  ],
+  "nonTargetPagesPreserved": 181
+}

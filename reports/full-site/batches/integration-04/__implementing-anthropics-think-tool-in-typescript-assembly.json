@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-07/configs/implementing-anthropics-think-tool-in-typescript.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/implementing-anthropics-think-tool-in-typescript",
+      "manifest": {
+        "route": "/implementing-anthropics-think-tool-in-typescript",
+        "sourceUrl": "https://www.aihero.dev/implementing-anthropics-think-tool-in-typescript",
+        "sourceHash": "a854a81f6be2e647cb0140560a2e4e197094fb272c83133b111488d58a65bd4f",
+        "translationPath": "content/zh/implementing-anthropics-think-tool-in-typescript.md",
+        "translationHash": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:05.665Z",
+        "assembly": {
+          "configHash": "2cc97be55ef977760a606107621662cf260a78befd7f60f05c87409d36017d3d",
+          "checkedAt": "2026-10-13T12:38:05.665Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/vercel-ai-sdk-tutorial",
+              "state": "planned-chinese",
+              "reason": "B05完整中文稿已交工程，待确认目标接入并刷新中文链接状态；原站入口同时保留。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/implementing-anthropics-think-tool-in-typescript.md",
+          "sha256": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e80cf9cf6fbc4236c98e2862ea324c20bcb653ece6788b5e232d4768e0f3cbbe"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "97182147d2ee9e4eb7e10dafa4d390277dffb7b4138d87a00783918a69747496"
+        }
+      ],
+      "rawOutputSha256": "04cbae580f1227cc8a63362725db6fd5dc518336ed884e55bf7b22bd8b53713c"
+    },
+    {
+      "mode": "apply",
+      "route": "/implementing-anthropics-think-tool-in-typescript",
+      "manifest": {
+        "route": "/implementing-anthropics-think-tool-in-typescript",
+        "sourceUrl": "https://www.aihero.dev/implementing-anthropics-think-tool-in-typescript",
+        "sourceHash": "a854a81f6be2e647cb0140560a2e4e197094fb272c83133b111488d58a65bd4f",
+        "translationPath": "content/zh/implementing-anthropics-think-tool-in-typescript.md",
+        "translationHash": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:05.895Z",
+        "assembly": {
+          "configHash": "2cc97be55ef977760a606107621662cf260a78befd7f60f05c87409d36017d3d",
+          "checkedAt": "2026-10-13T12:38:05.895Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/vercel-ai-sdk-tutorial",
+              "state": "planned-chinese",
+              "reason": "B05完整中文稿已交工程，待确认目标接入并刷新中文链接状态；原站入口同时保留。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/implementing-anthropics-think-tool-in-typescript.md",
+          "sha256": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e80cf9cf6fbc4236c98e2862ea324c20bcb653ece6788b5e232d4768e0f3cbbe"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "aba106e29bf7895a9c1c17eb5be6eb495fa2c3299ac564eb6531a1153f739ac4"
+        }
+      ],
+      "rawOutputSha256": "6f7829d59fdb7fecf722e14f503526d0922db0972fccfac0982d2476b318a178"
+    }
+  ],
+  "nonTargetPagesPreserved": 141
+}

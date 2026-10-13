@@ -1,0 +1,86 @@
+2026-10-13 #3 / #4 scoped repairs
+Working directory: E:/dev/projects/AIHero/work/full-site-assembly
+Integrated base: 995e6ffe0b13e606e279244099e88d005283e88d
+
+Command: npm run page:test
+Exit code: 0
+
+> sites-project@0.1.0 page:test
+> node --test scripts/assemble-page.test.mjs scripts/localized-article.test.mjs
+
+✔ Output source-relative Solution accepts the correct absolute URL without changing sources or other pages (303.2903ms)
+✔ Output rejects a wrong root Solution even when its later correct link remains, without writing (118.0493ms)
+✔ Output rejects bare relative URLs with an actionable message before writing (74.8256ms)
+✔ ordinary article previews without writing, then assembles through the existing index (222.4718ms)
+✔ optional learning profile uses the current knowledge file without replacing shared records (126.7416ms)
+✔ incorrect source hash fails before any write in preview and apply (47.305ms)
+▶ invalid route, source path, output path and learning config fail without writes
+  ✔ source route mismatch (31.7014ms)
+  ✔ unsafe route (31.8087ms)
+  ✔ unsafe output (38.5267ms)
+  ✔ unknown config field (16.3773ms)
+  ✔ invalid learning kind (32.5079ms)
+  ✔ invalid learning cards (29.2962ms)
+✔ invalid route, source path, output path and learning config fail without writes (182.2965ms)
+✔ an available Chinese link whose indexed body is empty is rejected before writing (39.7554ms)
+✔ unfinished batch targets are explicitly recorded while available targets must still be valid (126.2761ms)
+✔ Chinese Prompt can be appended, but changing the English Prompt is rejected without writes (105.2268ms)
+▶ content structure, original inline code, resources and renderer support are checked before writes
+  ✔ missing heading (23.9434ms)
+  ✔ missing inline code (24.7722ms)
+  ✔ missing resource (37.036ms)
+  ✔ unknown MDX (33.6343ms)
+  ✔ JavaScript expression (25.2891ms)
+  ✔ unmarked new code (72.0432ms)
+✔ content structure, original inline code, resources and renderer support are checked before writes (217.8561ms)
+✔ a filesystem failure after target replacement restores every file, including the previous translation (197.4328ms)
+✔ a target cannot overwrite another page translation or shared knowledge source (48.064ms)
+✔ updating one of seventeen pages preserves the other sixteen pages and refreshes only its translation source (219.7586ms)
+✔ content validation checks every renderable translation status, file hash and indexed body (205.4046ms)
+✔ available Chinese targets are checked against their files and manifest, not just a nonempty index (34.2511ms)
+✔ unsafe symlink destinations fail during preview as well as apply (23.4859ms)
+✔ invalid auxiliary source hashes and changes to another page source are refused (25.0695ms)
+✔ interrupted writes keep a recovery journal and can restore the original files explicitly (186.1281ms)
+✔ a symlink within the workspace cannot redirect translation writes into source files (29.3928ms)
+✔ the actual existing site index and all seventeen manifest records survive adding an ordinary fixture page (158.6586ms)
+✔ shared records changed during preparation are preserved instead of overwritten by a stale plan (84.3679ms)
+✔ an auxiliary source used by another page cannot be silently replaced (37.8198ms)
+✔ shared evidence can move to a verified same-hash snapshot while other records and pages stay unchanged (678.8413ms)
+✔ changing the target translation path keeps its existing profile pointed at the newly assembled file (388.1293ms)
+✔ public articles with an independent glossary retain original resources and Chinese term controls (45.769ms)
+✔ explicit historical review keeps Chinese-only links and its term controls (9.3005ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4275.9526
+
+Command: oxlint scripts/assemble-page.mjs scripts/lib/page-content.mjs scripts/assemble-page.test.mjs scripts/localized-article.test.mjs components/localized-article.tsx
+Exit code: 0
+Diagnostics: none
+
+Command: node scripts/validate-content.mjs
+Exit code: 1
+{
+  "sitemapCandidates": 196,
+  "uniqueSourceRoutes": 195,
+  "downloaded": 195,
+  "noMarkdown": 0,
+  "translated": 17,
+  "renderable": 17,
+  "errors": [
+    "Translation source hash mismatch: /skills-codebase-design",
+    "Translation source hash mismatch: /ai-coding-dictionary/system-prompt",
+    "Translation source hash mismatch: /ai-coding-dictionary/agent",
+    "Translation source hash mismatch: /ai-coding-dictionary/context-window",
+    "Translation source hash mismatch: /ai-coding-dictionary/tool-call",
+    "Translation source hash mismatch: /ai-coding-dictionary/prefix-cache",
+    "Translation source hash mismatch: /ai-coding-dictionary/memory-system",
+    "Translation source hash mismatch: /ai-coding-dictionary/hallucination",
+    "Translation source hash mismatch: /ai-coding-dictionary/progressive-disclosure",
+    "Translation source hash mismatch: /workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+  ]
+}

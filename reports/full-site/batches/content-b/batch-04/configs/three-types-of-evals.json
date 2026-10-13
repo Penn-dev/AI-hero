@@ -1,0 +1,9 @@
+{
+  "route": "/three-types-of-evals",
+  "source": {
+    "path": "content/source/three-types-of-evals.md",
+    "sha256": "daed9213d7e4da9e384ec039e35080fe75ffeccd9f8d8a02860e3f0b7472d992"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-04/drafts/three-types-of-evals.md",
+  "translationPath": "content/zh/three-types-of-evals.md"
+}

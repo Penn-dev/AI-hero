@@ -1,0 +1,9 @@
+{
+  "route": "/newsletter",
+  "source": {
+    "path": "content/source/newsletter.md",
+    "sha256": "78254990f49b4c6626cb9c51b5195593ebce145071f8ee5970829f8ebe941f4d"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-16/drafts/newsletter.md",
+  "translationPath": "content/zh/newsletter.md"
+}

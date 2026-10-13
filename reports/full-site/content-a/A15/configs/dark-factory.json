@@ -1,0 +1,42 @@
+{
+  "route": "/ai-coding-dictionary/dark-factory",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/dark-factory.md",
+    "sha256": "e61c177f6e5426b1315a4390e94104187f012d0c63fdde2b59559c66aac4e4b1"
+  },
+  "chineseFile": "reports/full-site/content-a/A15/drafts/dark-factory.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "state": "available-chinese"
+    }
+  ]
+}

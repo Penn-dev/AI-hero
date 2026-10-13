@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-02/configs/skills-wait-what.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-wait-what",
+      "manifest": {
+        "route": "/skills-wait-what",
+        "sourceUrl": "https://www.aihero.dev/skills-wait-what",
+        "sourceHash": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5",
+        "translationPath": "content/zh/skills-wait-what.md",
+        "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:28.480Z",
+        "assembly": {
+          "configHash": "a8dc98f796c1a4b9a8b9bdab1695903d986df0e8e1c9ba4606cbc47a41e8a705",
+          "checkedAt": "2026-10-13T11:56:28.480Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-wait-what.md",
+          "sha256": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "fd7fe3d2481662b9242f89c190e8f8370f945f4106516002b7e8cf6714ca9a17"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "5c6fc46435f5cfb083d2ce9736755f27dfcab628de0d2e8696f1a30043813e53"
+        }
+      ],
+      "rawOutputSha256": "68f0fcbe56fc775c5cab84e579c68248cc20bee9d81013c65d9703fb21530fb1"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-wait-what",
+      "manifest": {
+        "route": "/skills-wait-what",
+        "sourceUrl": "https://www.aihero.dev/skills-wait-what",
+        "sourceHash": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5",
+        "translationPath": "content/zh/skills-wait-what.md",
+        "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:28.707Z",
+        "assembly": {
+          "configHash": "a8dc98f796c1a4b9a8b9bdab1695903d986df0e8e1c9ba4606cbc47a41e8a705",
+          "checkedAt": "2026-10-13T11:56:28.707Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-wait-what.md",
+          "sha256": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "fd7fe3d2481662b9242f89c190e8f8370f945f4106516002b7e8cf6714ca9a17"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "6ed20d3a340028cf52a1754dbc9fa279f1a97e09747799d92b80e2d9e6e180aa"
+        }
+      ],
+      "rawOutputSha256": "3f0b28e9e3d280ddd669ed230861bd0996408eee90303f883f67026f66dd26cb"
+    }
+  ],
+  "nonTargetPagesPreserved": 35
+}

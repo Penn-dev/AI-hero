@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-10/configs/how-to-use-claude-code-hooks-to-enforce-the-right-cli.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "manifest": {
+        "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+        "sourceUrl": "https://www.aihero.dev/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+        "sourceHash": "fff11ed5db1e28bed540a1014770565b9bc19fc11894e5976de922a9cce0bdaf",
+        "translationPath": "content/zh/how-to-use-claude-code-hooks-to-enforce-the-right-cli.md",
+        "translationHash": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:28.568Z",
+        "assembly": {
+          "configHash": "21f839f6ccdc1f55b22276267253a63daebce25ddc035138fcece016f1be526e",
+          "checkedAt": "2026-10-13T13:04:28.568Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-use-claude-code-hooks-to-enforce-the-right-cli.md",
+          "sha256": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "8099d68e2b6ada43584f47d7cba8185544880d819fed3e020727b36871f7283b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0c71a19f77d0279da85229309eb24df3fa542aef86ff8c76f9e8d3627f8f46c3"
+        }
+      ],
+      "rawOutputSha256": "0e213d7c2fb6cbab7a88cf4614014c40f72a67f13fc895d5abaf8a8281a8ab33"
+    },
+    {
+      "mode": "apply",
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "manifest": {
+        "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+        "sourceUrl": "https://www.aihero.dev/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+        "sourceHash": "fff11ed5db1e28bed540a1014770565b9bc19fc11894e5976de922a9cce0bdaf",
+        "translationPath": "content/zh/how-to-use-claude-code-hooks-to-enforce-the-right-cli.md",
+        "translationHash": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:28.784Z",
+        "assembly": {
+          "configHash": "21f839f6ccdc1f55b22276267253a63daebce25ddc035138fcece016f1be526e",
+          "checkedAt": "2026-10-13T13:04:28.784Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-use-claude-code-hooks-to-enforce-the-right-cli.md",
+          "sha256": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "8099d68e2b6ada43584f47d7cba8185544880d819fed3e020727b36871f7283b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b88cbaef5ad394cc7a8d27b372feb7e80cf8f25ca169da0497ded6411aa3916a"
+        }
+      ],
+      "rawOutputSha256": "a1932e23ae88d75ab3cdfed33f0455daf7750edd4a5fdd1dcbfc4812e83f1599"
+    }
+  ],
+  "nonTargetPagesPreserved": 170
+}

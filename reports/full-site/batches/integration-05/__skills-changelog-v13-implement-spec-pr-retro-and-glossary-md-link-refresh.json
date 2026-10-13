@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-14/configs/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "manifest": {
+        "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceUrl": "https://www.aihero.dev/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceHash": "7d7b01efd489d56ac7fc3e2fbb7ef4a85ced5fa3343ef13c23cef4fab1055c30",
+        "translationPath": "content/zh/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+        "translationHash": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:38.216Z",
+        "assembly": {
+          "configHash": "33dcf7012064fb1f52a1c2c76ab214c68a1eff48f337538f4b6f647bff574482",
+          "checkedAt": "2026-10-13T13:02:38.216Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+          "sha256": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4d014dbcea3bf60eee70da31edc454f6c734ff54fd0fc93a49e859959d72328f"
+        }
+      ],
+      "rawOutputSha256": "e386b50c6f8518450a7a893627e20d4b2c2a30f2804c40537ea5b9cc89178942"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "manifest": {
+        "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceUrl": "https://www.aihero.dev/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceHash": "7d7b01efd489d56ac7fc3e2fbb7ef4a85ced5fa3343ef13c23cef4fab1055c30",
+        "translationPath": "content/zh/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+        "translationHash": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:38.471Z",
+        "assembly": {
+          "configHash": "33dcf7012064fb1f52a1c2c76ab214c68a1eff48f337538f4b6f647bff574482",
+          "checkedAt": "2026-10-13T13:02:38.471Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+          "sha256": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8e37da853323cd6bd7030805a34c2cbdd294990d0211b8d88fbc15b06b61ccab"
+        }
+      ],
+      "rawOutputSha256": "a9690286dc35eea471a4c015ddb3a7fade337f56ba233e82e3cf6b6293ce817b"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

@@ -1,0 +1,155 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-13/configs/5-agent-skills-i-use-every-day.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/5-agent-skills-i-use-every-day",
+      "manifest": {
+        "route": "/5-agent-skills-i-use-every-day",
+        "sourceUrl": "https://www.aihero.dev/5-agent-skills-i-use-every-day",
+        "sourceHash": "19cb0d155711f123378ecbe5ca2cc33a3b8704ac8399eed68e5c016cc211042b",
+        "translationPath": "content/zh/5-agent-skills-i-use-every-day.md",
+        "translationHash": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:34.664Z",
+        "assembly": {
+          "configHash": "acb9aebbb2eef3af5ae96dee59ac36e4cb0108b025d1d8b63498f4ea39eed8c9",
+          "checkedAt": "2026-10-13T13:04:34.664Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills-grill-me",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-spec",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-tickets",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-tdd",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/tracer-bullets",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/5-agent-skills-i-use-every-day.md",
+          "sha256": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "6625080beafc6614eaf83e9e481cb030fe66437c01c309e16e85b63d378745ef"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e76be5ef75ab495ff242a003651094ebeee3f5535a59bf2d9cc7152f6e762251"
+        }
+      ],
+      "rawOutputSha256": "c7fdedae21bce59d45e5be370838879b8ae56cae467bd417d301a18461169ba8"
+    },
+    {
+      "mode": "apply",
+      "route": "/5-agent-skills-i-use-every-day",
+      "manifest": {
+        "route": "/5-agent-skills-i-use-every-day",
+        "sourceUrl": "https://www.aihero.dev/5-agent-skills-i-use-every-day",
+        "sourceHash": "19cb0d155711f123378ecbe5ca2cc33a3b8704ac8399eed68e5c016cc211042b",
+        "translationPath": "content/zh/5-agent-skills-i-use-every-day.md",
+        "translationHash": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:34.941Z",
+        "assembly": {
+          "configHash": "acb9aebbb2eef3af5ae96dee59ac36e4cb0108b025d1d8b63498f4ea39eed8c9",
+          "checkedAt": "2026-10-13T13:04:34.941Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills-grill-me",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-spec",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-tickets",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-tdd",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/tracer-bullets",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/5-agent-skills-i-use-every-day.md",
+          "sha256": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "6625080beafc6614eaf83e9e481cb030fe66437c01c309e16e85b63d378745ef"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b800efbc47655a8452e1b4cbb543108ecf82d60fc3f3d11aa1706febb74d0a2e"
+        }
+      ],
+      "rawOutputSha256": "5e0ce74b958ebca864e8422d45759fe3fced6baaed619563cf9b10adc6621f67"
+    }
+  ],
+  "nonTargetPagesPreserved": 181
+}

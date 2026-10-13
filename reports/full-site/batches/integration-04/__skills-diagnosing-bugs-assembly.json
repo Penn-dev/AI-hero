@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-11/configs/skills-diagnosing-bugs.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-diagnosing-bugs",
+      "manifest": {
+        "route": "/skills-diagnosing-bugs",
+        "sourceUrl": "https://www.aihero.dev/skills-diagnosing-bugs",
+        "sourceHash": "ef9ccd225e1b9caf5c2522174ffaf45e7a849490bbfbffc1e6d2dcd94020aca8",
+        "translationPath": "content/zh/skills-diagnosing-bugs.md",
+        "translationHash": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:35.708Z",
+        "assembly": {
+          "configHash": "a168e50e68b05e28a7d78b5a14ad7cef6f0b2805e51b59b8ff3fb40ed02b9841",
+          "checkedAt": "2026-10-13T12:37:35.708Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/environment",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-diagnosing-bugs.md",
+          "sha256": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "4803c0c0d933cf27251979f74c1d194d6114a393a86d128feb6baf9629f610f0"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "bc8d6171b83e7e4465cbe102d00fc23d007a3859de9dbb48cb68339d15c17197"
+        }
+      ],
+      "rawOutputSha256": "9c7ce79bd6f3d5eb00b102c6a5ad4c2ff922e5539f9c372c5d3a7d2657739f99"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-diagnosing-bugs",
+      "manifest": {
+        "route": "/skills-diagnosing-bugs",
+        "sourceUrl": "https://www.aihero.dev/skills-diagnosing-bugs",
+        "sourceHash": "ef9ccd225e1b9caf5c2522174ffaf45e7a849490bbfbffc1e6d2dcd94020aca8",
+        "translationPath": "content/zh/skills-diagnosing-bugs.md",
+        "translationHash": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:35.962Z",
+        "assembly": {
+          "configHash": "a168e50e68b05e28a7d78b5a14ad7cef6f0b2805e51b59b8ff3fb40ed02b9841",
+          "checkedAt": "2026-10-13T12:37:35.962Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/environment",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-diagnosing-bugs.md",
+          "sha256": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "4803c0c0d933cf27251979f74c1d194d6114a393a86d128feb6baf9629f610f0"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1aeacecced17e70f9a96fd08ae00846239f74c562e67ab1f7376f532f366f2f9"
+        }
+      ],
+      "rawOutputSha256": "b34c9e84e06c2f7a237e9953a1c8eaa2bc9a7d580a9309abae07d4f5bcc797a7"
+    }
+  ],
+  "nonTargetPagesPreserved": 109
+}

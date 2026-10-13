@@ -1,0 +1,15 @@
+{
+  "route": "/ai-engineer-roadmap",
+  "source": {
+    "path": "content/source/ai-engineer-roadmap.md",
+    "sha256": "32552be89fe5159b367e64dc20745e0caa30180b9b3293594e7aacf28a73ec19"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-04/drafts/ai-engineer-roadmap.md",
+  "translationPath": "content/zh/ai-engineer-roadmap.md",
+  "linkTargets": [
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+ "/skills-triage": {
+  "information": "全文逐节核对所有表格/问答，保留只处理外来工作、建议后等待、两类五状态、三种wontfix及按概念存拒绝记录、先验证再brief、PR发现过滤与显式点名区别、状态缺口和评论未读风险。",
+  "naturalChinese": "完整通读，agent brief 为执行说明，类别与状态角色清楚区分；保留原作者对自己创建任务不再triage的强限制。",
+  "necessaryConcepts": "解释状态机及概念匹配原例，补ticket/AFK/context中文入口；未把文档描述视为实际执行授权。",
+  "codeAndLinks": "所有原标签/路径/CLI/披露语/行内技术值及URL保留；三条调用请求和show what needs attention英文配完整中文Prompt；英文状态评论例配中文理解。",
+  "gaps": ["未发布/变更外部任务，未核查最新缺陷状态；中文导航 planned 待工程刷新。"]
+ }
+}

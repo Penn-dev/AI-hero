@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A02/configs/progressive-disclosure.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "manifest": {
+        "route": "/ai-coding-dictionary/progressive-disclosure",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
+        "sourceHash": "5d66bc98fae76fc8d8df7eb8d4b0f6d514832a21b2340a224e8c33b791f3ec73",
+        "translationPath": "content/zh/ai-coding-dictionary/progressive-disclosure.md",
+        "translationHash": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:41.690Z",
+        "assembly": {
+          "configHash": "e0de7bbeb19298494ae23217fc816e78ce8fe4a94bbffad7f4da9b1edaed53a6",
+          "checkedAt": "2026-10-13T12:19:41.690Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/progressive-disclosure.md",
+          "sha256": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b11de62ff8b56be58e11b7dfe2a30044b55cee867396a8035e3221b62c96cc7b"
+        }
+      ],
+      "rawOutputSha256": "a79b3b16b5eb14dc049ade3c012587e2b7e5825fc7e53c42990bc52efcea7519"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "manifest": {
+        "route": "/ai-coding-dictionary/progressive-disclosure",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
+        "sourceHash": "5d66bc98fae76fc8d8df7eb8d4b0f6d514832a21b2340a224e8c33b791f3ec73",
+        "translationPath": "content/zh/ai-coding-dictionary/progressive-disclosure.md",
+        "translationHash": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:41.909Z",
+        "assembly": {
+          "configHash": "e0de7bbeb19298494ae23217fc816e78ce8fe4a94bbffad7f4da9b1edaed53a6",
+          "checkedAt": "2026-10-13T12:19:41.909Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/progressive-disclosure.md",
+          "sha256": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "3c108c4556a84eb41dfeb34ea11425cd8ccfd7fa69744f6c05481d9e181757e1"
+        }
+      ],
+      "rawOutputSha256": "63686410a53834660079debd2a7a9b93bd5316bcfb0584d4a226fe30a881fd69"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

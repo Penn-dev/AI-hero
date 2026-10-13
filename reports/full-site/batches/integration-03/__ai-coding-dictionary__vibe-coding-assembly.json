@@ -1,0 +1,175 @@
+{
+  "config": "reports/full-site/content-a/A15/configs/vibe-coding.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "manifest": {
+        "route": "/ai-coding-dictionary/vibe-coding",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+        "sourceHash": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861",
+        "translationPath": "content/zh/ai-coding-dictionary/vibe-coding.md",
+        "translationHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:14.209Z",
+        "assembly": {
+          "configHash": "cdb846a3deac0cf8f318445b21cf78d07f46f04e0eae3ae4c24832967ff078d5",
+          "checkedAt": "2026-10-13T12:19:14.209Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-review",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/dark-factory",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/design-concept",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-review",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/prototyping",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/software-factory",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/vibe-coding.md",
+          "sha256": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "95f0db7f0d6690639505ca86c6537a2cf555b84f2ddf940ce54125393466f2ed"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "099f3db9a33b949a56a3bf260e5a9193fbca980f03f9d3c4271e2fd90b67d83a"
+        }
+      ],
+      "rawOutputSha256": "0f0e75d833b2ef99a3db6d683e997b923c425268c1eb45f5dd859811212e44e6"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "manifest": {
+        "route": "/ai-coding-dictionary/vibe-coding",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+        "sourceHash": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861",
+        "translationPath": "content/zh/ai-coding-dictionary/vibe-coding.md",
+        "translationHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:14.487Z",
+        "assembly": {
+          "configHash": "cdb846a3deac0cf8f318445b21cf78d07f46f04e0eae3ae4c24832967ff078d5",
+          "checkedAt": "2026-10-13T12:19:14.487Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-review",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/dark-factory",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/design-concept",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-review",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/prototyping",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/software-factory",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/vibe-coding.md",
+          "sha256": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "95f0db7f0d6690639505ca86c6537a2cf555b84f2ddf940ce54125393466f2ed"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d1a35da3f079626e2f90d302a8e38775a5c3f8b29c278dcfb4bbd006681af31a"
+        }
+      ],
+      "rawOutputSha256": "0a88dd9d5d7bd1b4059d57135a57f077361c2420479a4b077057e2a88e1921cc"
+    }
+  ],
+  "nonTargetPagesPreserved": 92
+}

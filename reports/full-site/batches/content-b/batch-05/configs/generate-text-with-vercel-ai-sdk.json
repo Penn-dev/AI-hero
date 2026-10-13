@@ -1,0 +1,9 @@
+{
+  "route": "/generate-text-with-vercel-ai-sdk",
+  "source": {
+    "path": "content/source/generate-text-with-vercel-ai-sdk.md",
+    "sha256": "ffb189c870c13f28284adc1898731ac1280cc663c8202a368ad6db94922341ea"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-05/drafts/generate-text-with-vercel-ai-sdk.md",
+  "translationPath": "content/zh/generate-text-with-vercel-ai-sdk.md"
+}

@@ -1,0 +1,69 @@
+{
+  "status": "failed",
+  "commit": "c38b4349548a7bc7b14e57fc438fc55eb717f147",
+  "pages": [
+    {
+      "id": "system-prompt",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "failed",
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toBeInViewport() failed\n\nLocator:  locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' })\nExpected: in viewport\nReceived: viewport ratio 0.9959398508071899\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toBeInViewport\" locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' }) with timeout 5000ms\n  - waiting for locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' })\n    14 × locator resolved to <blockquote>…</blockquote>\n       - unexpected value \"viewport ratio 0.9959398508071899\"\n",
+        "stack": "Error: expect(locator).toBeInViewport() failed\n\nLocator:  locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' })\nExpected: in viewport\nReceived: viewport ratio 0.9959398508071899\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toBeInViewport\" locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' }) with timeout 5000ms\n  - waiting for locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' })\n    14 × locator resolved to <blockquote>…</blockquote>\n       - unexpected value \"viewport ratio 0.9959398508071899\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toBeInViewport (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:144:35)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:212:5"
+      }
+    },
+    {
+      "id": "system-prompt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toBeInViewport() failed\n\nLocator:  locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' })\nExpected: in viewport\nReceived: viewport ratio 0.99842768907547\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toBeInViewport\" locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' }) with timeout 5000ms\n  - waiting for locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' })\n    14 × locator resolved to <blockquote>…</blockquote>\n       - unexpected value \"viewport ratio 0.99842768907547\"\n",
+        "stack": "Error: expect(locator).toBeInViewport() failed\n\nLocator:  locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' })\nExpected: in viewport\nReceived: viewport ratio 0.99842768907547\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toBeInViewport\" locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' }) with timeout 5000ms\n  - waiting for locator('#reading-body blockquote').filter({ hasText: 'Different system prompts. One\\'s tuned for terse code edits' })\n    14 × locator resolved to <blockquote>…</blockquote>\n       - unexpected value \"viewport ratio 0.99842768907547\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toBeInViewport (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:144:35)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:213:5"
+      }
+    },
+    {
+      "id": "agents-md",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "failed",
+      "error": {
+        "name": "Error",
+        "message": "expect(received).toBeLessThan(expected)\n\nExpected: < 20\nReceived:   12182.53125\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate",
+        "stack": "Error: expect(received).toBeLessThan(expected)\n\nExpected: < 20\nReceived:   12182.53125\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toBeLessThan (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at anchorAndRefresh (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:104:117)\n    at async checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:167:7)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:212:5"
+      }
+    },
+    {
+      "id": "agents-md",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "output",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "output",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    }
+  ]
+}

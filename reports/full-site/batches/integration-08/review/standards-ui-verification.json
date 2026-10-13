@@ -1,0 +1,284 @@
+{
+  "candidate": "c9545805d6ef053b893b349cbab413e50e32d86f",
+  "runId": "38409450389",
+  "zipSha256": "8d5d0662b7ff08b695c8b5205c5b9e0d646013074debd8b016c546c7732fa263",
+  "viewports": 4,
+  "passedViewports": 4,
+  "passedRoutes": 2,
+  "failedRoutes": 0,
+  "actualCopyMatches": 66,
+  "conceptClicks": 8,
+  "screenshots": [
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "65d4e86cae8f1cfd95f6f5ac3b0b51984087bf00a96c11405f5e0c123e89f52a",
+      "bytes": 237939,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "a89b55015dc331d49d0a650aa9dfebfb548856b35677015465e231d2951bce7b",
+      "bytes": 181517,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-2.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "ad8ac8ca393e5ae76a06dc5380a73410bb61df33652392ef17acfe057e5a51cf",
+      "bytes": 235447,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-3.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "5eb8519fb533f448e191fd8d2f200f09724d511c3fb4a8769f4e110fbd090ac7",
+      "bytes": 226954,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-4.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "61004fd7dc60a7981d2a81be43ddb9a32a46c18b642803d9e06f96ca28e3ab33",
+      "bytes": 186367,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-5.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "04c2ba264c339733c72b3910938052bde34baad7bcfc2f3a949e3ac9063f4e49",
+      "bytes": 210278,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-6.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "d05b03ca174187efd36e47de8332a710820b8be29743fa4a636461566caff269",
+      "bytes": 171502,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-7.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "d1e8503deef57e4aa28cb81c54600f867bbe9f441a3078ee1ec35f46d9fedd56",
+      "bytes": 223855,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-8.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "ce0c8a1be7533a6948c39a93eccfc90181883f8bea53dfa4a5829be192b7428a",
+      "bytes": 176101,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "178717171f996403532f102833e70ae8c120f6488fc77cbe47afb5121638b613",
+      "bytes": 199442,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "b4ad771fcbb6612954c91d81d02de85fa6f0edc3b4a6bbb4376913df54c08bca",
+      "bytes": 167375,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-main-body.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "b1a21d2e7e3fc060249b5683775011bf03ebf35c0b1724c66bd33b83eb5a4cff",
+      "bytes": 120235,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-1.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "24e7dce7ef2548b0ff7ba33be51c4ab5e3602d5519cb637ccbf62f0d8b5b10b5",
+      "bytes": 77345,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-2.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "0a557deef5541ac1ef3e6d0e00a9543ac520386265972a0bc097ff050b34e45e",
+      "bytes": 93058,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-3.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "7e2d09312fd40f9e1aaf198c2cde593d42f99789573ba9d3468ae065da90a57c",
+      "bytes": 91803,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-4.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "97942b6051fa1b917e1966a30831dad1a17f7d68401f4633340cac710e3122bf",
+      "bytes": 88672,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-5.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "6f6552f72424cd696f69a75baae39652e7a770b6c02b3c178728ec86291e07fd",
+      "bytes": 103521,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-6.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "ca1b50f119a111e98c7ee28c88a2f67f6b404a416358960c30114cbd4a1271a3",
+      "bytes": 76437,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-7.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "308073ed4f598a26d7f726f59721c1ef28f9404fd7f0fafd04250d3dbba94800",
+      "bytes": 102611,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-8.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "0e8ffdf120b09ab02dd2cbc1de0eb85549e5fd2fbcef8fdf02ab5c34944900d9",
+      "bytes": 81187,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "8d9959751befcaa27c40b1f81f85e7ebc9acd4040324168b8cf64a319ea2420d",
+      "bytes": 90621,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "93e37a70abbf3c27663eeca529a573c3a0b564d1ff9fbf1df59053a136ea20e8",
+      "bytes": 66810,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "home-1440-top.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "b0c734e3691348b249a990c08c4aadf2b0ecb4790db5aceddb1ad4d0919180b6",
+      "bytes": 182407,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "home-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "8bf10e0b89c4e27c6878f932275ff71825ae4903cc4cf639ecdb4bc634576c8b",
+      "bytes": 247286,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "home-1440-image.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "47b0201e174095a7a45babd80e57c3132a6644d091a6dc3426c421ec355f7b2b",
+      "bytes": 320001,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "home-1440-all-pages-directory.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "4dc5f9b7525c4724509438c878203c7f68ff1fe5bddb664220d5320a73cd4176",
+      "bytes": 130432,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "home-390-top.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "42fa0466ac79e595defedf7d6b21b7663084a8caa5b6a2cddb21ec011f5103c0",
+      "bytes": 70403,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "home-390-main-body.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "d4cf3d9b19e7fb1b389a32f7b6b6e41f8eb3ac06199093cda15fb2a454546f31",
+      "bytes": 93687,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "home-390-image.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "2c500ccab7ec572bd45c9d8ce7773ae04a02976a81b30a082c94f4efd1fd89ac",
+      "bytes": 130587,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    },
+    {
+      "file": "home-390-all-pages-directory.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "f7272a3cdbe3ad7eeb59c4871d7b762e45b41d79d79dd0bf466c8e5bac313ada",
+      "bytes": 65853,
+      "hashVerified": true,
+      "visualReview": "Exact hash matches independently viewed originals; home top/directory re-viewed on eighth originals"
+    }
+  ],
+  "records": [
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 33
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 33
+    },
+    {
+      "route": "/",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    }
+  ],
+  "conclusion": "All 30 original images hash/byte checked and match independently viewed sixth/seventh images; four eighth-run home originals also directly viewed again. Home layout, 194 actual directory navigations, and existing header Home/brand navigation now close prior failures. Ralph retains all 22 anchors, complete 66 copies, and both layouts."
+}

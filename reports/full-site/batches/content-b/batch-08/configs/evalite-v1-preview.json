@@ -1,0 +1,9 @@
+{
+  "route": "/evalite-v1-preview",
+  "source": {
+    "path": "content/source/evalite-v1-preview.md",
+    "sha256": "04424e7ff64a038df7cd73e3c57dee01fbaf4619c848aaaf6afd8f7362fcaf68"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-08/drafts/evalite-v1-preview.md",
+  "translationPath": "content/zh/evalite-v1-preview.md"
+}

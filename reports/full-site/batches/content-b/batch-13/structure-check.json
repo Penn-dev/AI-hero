@@ -1,0 +1,100 @@
+{
+  "batch": "batch-13",
+  "results": [
+    {
+      "route": "/5-agent-skills-i-use-every-day",
+      "sourceHash": "19cb0d155711f123378ecbe5ca2cc33a3b8704ac8399eed68e5c016cc211042b",
+      "translationHash": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 6,
+      "headings": 6,
+      "resources": [
+        "https://res.cloudinary.com/total-typescript/image/upload/v1773675111/ai-hero-images/pgyy6kr82bhjliy774jx.png",
+        "/skills-grill-me",
+        "/skills-to-spec",
+        "/skills-to-tickets",
+        "/skills-tdd",
+        "/skills",
+        "/skills-grill-me",
+        "https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1773675112/ai-hero-images/p1coswbfzivaglbxkose.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1773675113/ai-hero-images/a0vvhui4lkubi5b2aqq9.png",
+        "/skills-to-spec",
+        "https://github.com/mattpocock/skills/tree/main/skills/engineering/to-spec",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1773675114/ai-hero-images/mpombfwy8uz2rr1xy1yi.png",
+        "/skills-to-tickets",
+        "https://github.com/mattpocock/skills/tree/main/skills/engineering/to-tickets",
+        "https://www.aihero.dev/tracer-bullets",
+        "/tracer-bullets",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1773675116/ai-hero-images/qaodyngpkcdpfwdvi1do.png",
+        "/skills",
+        "https://www.aihero.dev/skills",
+        "/skills-tdd",
+        "https://github.com/mattpocock/skills/tree/main/skills/engineering/tdd",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1773675117/ai-hero-images/lz08tqnibbua15wpkq2n.png",
+        "https://github.com/mattpocock/skills/tree/main/skills/engineering/improve-codebase-architecture",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1773675118/ai-hero-images/xcsyngiu3zdojvugipqz.png",
+        "/skills",
+        "https://github.com/mattpocock/skills",
+        "https://www.aihero.dev/5-agent-skills-i-use-every-day",
+        "https://www.aihero.dev/skills-grill-me",
+        "https://www.aihero.dev/skills-to-spec",
+        "https://www.aihero.dev/skills-to-tickets",
+        "https://www.aihero.dev/skills-tdd"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/learn-anything-with-my-teach-skill",
+      "sourceHash": "55c64bc00a5b2704d8b2996c2fb268e9ab31bacde61fce090748e3c6df8b11a3",
+      "translationHash": "1e721a8c2a59f034088be00cfe54e1b11292d389b77b811eebb34f157cdad7ad",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 7,
+      "headings": 6,
+      "resources": [
+        "https://github.com/mattpocock/skills/tree/main/skills/productivity/teach",
+        "https://www.aihero.dev/cohorts/ai-coding-for-real-engineers-m0k0w",
+        "https://nodejs.org/en/download",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1780936890/ai-hero-images/qe4ytzhikcjq2hzcuzhw.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1780936891/ai-hero-images/hcwm9jbwvfodztditzfa.png"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "sourceHash": "c30f916e16afd14c70f12ae51f45d8faec6859f5aeb3325662ac78103365e8a5",
+      "translationHash": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 6,
+      "headings": 4,
+      "resources": [
+        "https://aihero.dev/5-agent-skills-i-use-every-day",
+        "/5-agent-skills-i-use-every-day",
+        "/skills-grill-me",
+        "https://www.aihero.dev/skills-grill-me",
+        "https://github.com/mattpocock/skills"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/skill-test-driven-development-claude-code",
+      "sourceHash": "2587e7691b7370e55f1bb3f5bf4c7874e080784d6d99a97d4c04245f61ac2232",
+      "translationHash": "cb73062f5f3b4835dd2fc1e91c3713066063fdc56ed5fe1514d9a9c3b2ad7a36",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 7,
+      "headings": 10,
+      "resources": [
+        "https://www.aihero.dev/skill-test-driven-development-claude-code"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

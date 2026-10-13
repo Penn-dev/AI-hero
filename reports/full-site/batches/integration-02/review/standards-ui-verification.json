@@ -1,0 +1,239 @@
+{
+  "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+  "runId": "38395456927",
+  "actualViewports": 30,
+  "expectedViewports": 30,
+  "actualClipboardMatches": 77,
+  "actualConceptLinkClicks": 16,
+  "screenshotCount": 38,
+  "screenshots": [
+    {
+      "file": "ai-coding-dictionary-tool-call-390-table.png",
+      "sha256": "057388c6dd5add546119503de86fcf15e0739429a71f27f41c5c84010a87112e",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-tool-result-390-table.png",
+      "sha256": "9b6969b0fa2ee1f5b45c75ea8e84f11f7806da777e324f32fa47c2e8a7bd8563",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-tool-390-table.png",
+      "sha256": "bcaa2dfbf9bf44e19931cda501f413d594f198100ee8d1226622186df39459d2",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-hallucination-1440-table.png",
+      "sha256": "4a406ae3c7ba4135102e7d06aa87d8fcf74ecc8b49f7661322bbd4423ac5e9c8",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-hallucination-390-table.png",
+      "sha256": "0cd8a252f2904363a30f214b7c1c695ce5778f620eaeeff994381b72232e0459",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-memory-system-390-examples.png",
+      "sha256": "26a091698eaf0bf823ccbea1350b3ae722fbd691b5b9904f1f3afbab3872f924",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-prefix-cache-390-examples.png",
+      "sha256": "73cb32690d8d3479e62c961a24956dc4f64791bc4b89e6afa22fd2353be9c2f1",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "anthropics-new-model-context-protocol-in-2-minutes~hc0tx-390-body.png",
+      "sha256": "76db4916f113cd5bd5a9f1df017f1df709ea1ab9f19ff918bfcfb90a5886913e",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-does-the-model-context-protocol-work-390-code.png",
+      "sha256": "e38d5c2587153abaf7d8eeb4a3389322dbc3b9ac991afb328eca60a08875ee78",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "logging-a-huge-mcp-footgun-390-code.png",
+      "sha256": "fe07504748b8da65a789d7a86cc5efd3c5a10410dc4c36556b8a4fb68473866b",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "mcp-server-from-a-single-typescript-file-1440-steps.png",
+      "sha256": "8b664ae257c2203228b74fc3f71ad9d47764542187feec2bbaed9bedecce2165",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "mcp-server-from-a-single-typescript-file-390-steps.png",
+      "sha256": "190ca83472d669d54afb6d84fa2d2a149fc1c30dd34226828050b4911c43cf17",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "model-context-protocol-tutorial-390-body.png",
+      "sha256": "fef4905020e57003675a86796032255c04b413e8f5dbc642333dd34b9c853f11",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "publish-your-mcp-server-to-npm-390-code.png",
+      "sha256": "3070e286339ad4f213fda3bfdab3a10d3a2341e6f2c41903ffe8b4dd85f0aa19",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "the-problem-with-mcp-stateful-server-390-code.png",
+      "sha256": "db1418f587280cd8bef0ccec90e2492699f71b0a4e2bec15622bbb034c3ada51",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "using-mcp-prompts-1440-steps.png",
+      "sha256": "a57051aacb7d67ca66119b7990ec96a999b9b30fbf3a0a8e6888ede2ba96ca40",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "using-mcp-prompts-390-steps.png",
+      "sha256": "72f3ac1c5583fcdaa87a27d6f061c6921b2d11a5dceb2268990a168f9555b1b3",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-catalog-390-code.png",
+      "sha256": "b49aa7f3738259427418207cca22e71809e34527a18de0857d78444a8adaf1cf",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-codebase-design-1440-intro-emphasis.png",
+      "sha256": "86ed0adda49370ae39f31f60f924acc78ff8ba1e428825fe3090043a44f8f0da",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-codebase-design-1440-depth-emphasis.png",
+      "sha256": "39b4aa26a997f712c2c59c6fb38adb02eb003dada0e35a81ec3353b109c62647",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-codebase-design-1440-module-emphasis.png",
+      "sha256": "3d1a550e394d76b3bc99b275669c83f8592dfff909e72f65b35326d4bd8fa9e3",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-codebase-design-390-intro-emphasis.png",
+      "sha256": "4127ae6f1b78f04981c0a6725da9dd00033f3ca3aa76038e80d234bf60265a94",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-codebase-design-390-depth-emphasis.png",
+      "sha256": "1e4a6d8b581dafa9f98205205d85fdb57cfee3614fbd38d6c8511c2f16dd0664",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-codebase-design-390-module-emphasis.png",
+      "sha256": "65307b74749975baffd5106b288a859bf6508f5cf27947372f472c2d4fb9f909",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-wait-what-390-code.png",
+      "sha256": "f91108277de01529952dfab29eb3d4e5d7a16efa99b2c6b0ebe6aad0d36d3fa9",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-subscribe-390-body.png",
+      "sha256": "f64c7c63fb89c21b2dbaf794da013d65cf9ad9ed33287e6a8112f34976611a9e",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-resolving-merge-conflicts-390-table.png",
+      "sha256": "878620f0e09b841620f4c33b279fac3e48f84dde1b849decca1f64aa83402e80",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-390-code.png",
+      "sha256": "13eac335099f7256a3c49e546e0a430732589d1dc59ded9b07e0eeeb6f2f447f",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-llm-1440-model-emphasis.png",
+      "sha256": "81cd087f8bd0ff1d09ca3c348a203000061fc31ebdd428a6325f703b9dbf4ca0",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-llm-1440-inference-emphasis.png",
+      "sha256": "f5303f5d2966d87d8a3ed7a5c6e275a71134f03fd22c0609f7d783db9aea1e9e",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-llm-1440-sampling-emphasis.png",
+      "sha256": "9e3ed070ff9bcca2e9ddc8ad9ecf6eac513699bb56e710874ba658273cd02444",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-llm-390-model-emphasis.png",
+      "sha256": "c9fd31ce2d22049389c2317a3a21207ddf6b0260194d26c5356c43601da0d025",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-llm-390-inference-emphasis.png",
+      "sha256": "eafa53ac7c34c61e508f9dbb30f1423f10bc5b8b5ad432073ad15824df4b8275",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-llm-390-sampling-emphasis.png",
+      "sha256": "f9a81403afd481160942791ce7a6b4b39d3dae4106a2ad82e53d8686bb604588",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-agent-1440-agent-emphasis.png",
+      "sha256": "d4b2c9928baf6755d069ba4eea41c5010357f8b000e4f199cb5db7f1f671bb1d",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-agent-390-agent-emphasis.png",
+      "sha256": "2ab45a80ccdfddebdbcdbbf3af50b9770e6a7cebe48bf78b0e09f1190641217b",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-context-window-1440-window-emphasis.png",
+      "sha256": "35092c0cc2a246246b3997cfc33411ce0bd057bcf3212e30262ac660815c8295",
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-context-window-390-window-emphasis.png",
+      "sha256": "01a12bb4aebffc94d5e6f9ecbb0c2c751afae3f6344e7693b48802492c069150",
+      "hashVerified": true,
+      "independentlyViewed": true
+    }
+  ]
+}

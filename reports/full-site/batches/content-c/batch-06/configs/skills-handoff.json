@@ -1,0 +1,22 @@
+{
+  "route": "/skills-handoff",
+  "source": {
+    "path": "content/source/skills-handoff.md",
+    "sha256": "f66de1f26fc55ee3263e5b3cdf4a5a96a3b26344c834cc918a930391f797a448"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-06/drafts/skills-handoff.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "available-chinese"
+    }
+  ]
+}

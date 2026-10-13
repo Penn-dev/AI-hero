@@ -1,0 +1,30 @@
+{
+  "route": "/ai-coding-dictionary/design-concept",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/design-concept.md",
+    "sha256": "41a0e5468e5b07e7ad96e188e82d8fdb8609b5f9068f9417bf6ef851f20f121b"
+  },
+  "chineseFile": "reports/full-site/content-a/A15/drafts/design-concept.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "state": "available-chinese"
+    }
+  ]
+}

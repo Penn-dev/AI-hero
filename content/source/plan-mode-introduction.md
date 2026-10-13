@@ -9,6 +9,8 @@ tags:
 updatedAt: "2026-01-09T12:55:21.342Z"
 ---
 
+**Update:** I wrote this in January 2026, and my thinking has changed. I no longer use plan mode. It doesn't ask enough clarifying questions, it jumps to conclusions, and it rushes to create an asset — a too-large plan that most folks don't read. Now I just have a conversation with the agent, like I would with a colleague. My tool for that is the [/grill-with-docs skill](https://www.aihero.dev/skills-grill-with-docs): it interviews you about what you want to build, and records the decisions as it goes. The core idea of this post still holds — align with the agent before any code gets written — but grilling is how I do that now.
+
 This article is for anyone who's used an AI coding agent and been frustrated by the results.
 
 If you've ever felt that your AI agent produces low quality code, or doesn't understand your codebase, you need to try plan mode.

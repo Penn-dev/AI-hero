@@ -1,0 +1,9 @@
+{
+  "route": "/vercel-ai-sdk",
+  "source": {
+    "path": "content/source/vercel-ai-sdk.md",
+    "sha256": "9308ba148cf300569b21c782c6682fd9f38228470e38f3932cb7a18de907a674"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-05/drafts/vercel-ai-sdk.md",
+  "translationPath": "content/zh/vercel-ai-sdk.md"
+}

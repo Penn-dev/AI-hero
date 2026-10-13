@@ -1,0 +1,135 @@
+[
+  {
+    "action": "screenshot",
+    "args": {
+      "format": "png",
+      "path": "E:/dev/projects/AIHero/work/full-site-samples/reports/full-site/samples/screenshots/output-1440-top.png"
+    },
+    "checkedAt": "2026-10-13T05:07:20.411Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "format": "png",
+        "path": "E:/dev/projects/AIHero/work/full-site-samples/reports/full-site/samples/screenshots/output-1440-top.png",
+        "sizeBytes": 188367,
+        "mimeType": "image/png"
+      }
+    }
+  },
+  {
+    "action": "click",
+    "args": {
+      "selector": "@e120"
+    },
+    "checkedAt": "2026-10-13T05:07:20.474Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "success": true,
+        "tag": "A",
+        "text": "需要完成的步骤"
+      }
+    }
+  },
+  {
+    "action": "evaluate",
+    "args": {
+      "code": "(()=>JSON.stringify({hash:location.hash,target:document.getElementById('steps-to-complete')?.textContent,top:document.getElementById('steps-to-complete')?.getBoundingClientRect().top,scrollY}))()"
+    },
+    "checkedAt": "2026-10-13T05:07:20.518Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "type": "string",
+        "value": "{\"hash\":\"#steps-to-complete\",\"target\":\"需要完成的步骤\",\"top\":1673.53125,\"scrollY\":44}"
+      }
+    }
+  },
+  {
+    "action": "cdp",
+    "args": {
+      "method": "Page.reload",
+      "params": {
+        "ignoreCache": true
+      }
+    },
+    "checkedAt": "2026-10-13T05:07:20.571Z",
+    "result": {
+      "ok": true,
+      "data": {}
+    }
+  },
+  {
+    "action": "evaluate",
+    "args": {
+      "code": "(()=>JSON.stringify({hash:location.hash,target:document.getElementById('steps-to-complete')?.textContent,top:document.getElementById('steps-to-complete')?.getBoundingClientRect().top,scrollY}))()"
+    },
+    "checkedAt": "2026-10-13T05:07:20.733Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "type": "string",
+        "value": "{\"hash\":\"#steps-to-complete\",\"scrollY\":0}"
+      }
+    }
+  },
+  {
+    "action": "cdp",
+    "args": {
+      "method": "Emulation.setFocusEmulationEnabled",
+      "params": {
+        "enabled": true
+      }
+    },
+    "checkedAt": "2026-10-13T05:07:20.816Z",
+    "result": {
+      "ok": true,
+      "data": {}
+    }
+  },
+  {
+    "action": "evaluate",
+    "args": {
+      "code": "(async()=>{const results=[];for(const [i,f] of [...document.querySelectorAll('figure.code-frame')].entries()){const b=f.querySelector('button');b.click();await new Promise(r=>setTimeout(r,100));const copied=b.textContent.includes('已复制');results.push({i,label:f.querySelector('figcaption span').textContent,copied,match:copied?(await navigator.clipboard.readText()).replaceAll('\\r\\n','\\n')===f.querySelector('pre').textContent.trimEnd():false});}return JSON.stringify(results)})()"
+    },
+    "checkedAt": "2026-10-13T05:07:21.302Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "type": "string",
+        "value": "[{\"i\":0,\"label\":\"原文代码片段\",\"copied\":false,\"match\":false},{\"i\":1,\"label\":\"原文代码片段\",\"copied\":false,\"match\":false},{\"i\":2,\"label\":\"待你完成的片段\",\"copied\":false,\"match\":false},{\"i\":3,\"label\":\"原文代码片段\",\"copied\":false,\"match\":false}]"
+      }
+    }
+  },
+  {
+    "action": "screenshot",
+    "args": {
+      "format": "png",
+      "path": "E:/dev/projects/AIHero/work/full-site-samples/reports/full-site/samples/screenshots/output-1440-code.png"
+    },
+    "checkedAt": "2026-10-13T05:07:25.055Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "format": "png",
+        "path": "E:/dev/projects/AIHero/work/full-site-samples/reports/full-site/samples/screenshots/output-1440-code.png",
+        "sizeBytes": 174464,
+        "mimeType": "image/png"
+      }
+    }
+  },
+  {
+    "action": "click",
+    "args": {
+      "selector": "@e78"
+    },
+    "checkedAt": "2026-10-13T05:07:25.099Z",
+    "result": {
+      "ok": false,
+      "error": {
+        "code": "extension_error",
+        "message": "The page or debugger connection changed. Read the page again before using element refs."
+      }
+    }
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-15/configs/skills-tdd.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-tdd",
+      "manifest": {
+        "route": "/skills-tdd",
+        "sourceUrl": "https://www.aihero.dev/skills-tdd",
+        "sourceHash": "a58850bf7c649639f9bfec97451f07cb8bef87bcefd87d6b0afbfc20e8ed5c08",
+        "translationPath": "content/zh/skills-tdd.md",
+        "translationHash": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:31.270Z",
+        "assembly": {
+          "configHash": "ae9d1f978ac2d642bc6bb5c5eec5eb2944504607e3762d1ff1a96b70f9de1c1c",
+          "checkedAt": "2026-10-13T13:02:31.270Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/stateless",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-tdd.md",
+          "sha256": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "392ee0861e1bf8059c8743dfeaa9981d629babe77ff6080f39a0d05606d3ba5c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7511be8b697e98b87f982a5b01d41490cfac598ea877b041fcba577d1121ad46"
+        }
+      ],
+      "rawOutputSha256": "c4df8067c03697805d7365ad50df546158a0fb969021c804d1f0e7f2fc912b82"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-tdd",
+      "manifest": {
+        "route": "/skills-tdd",
+        "sourceUrl": "https://www.aihero.dev/skills-tdd",
+        "sourceHash": "a58850bf7c649639f9bfec97451f07cb8bef87bcefd87d6b0afbfc20e8ed5c08",
+        "translationPath": "content/zh/skills-tdd.md",
+        "translationHash": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:31.506Z",
+        "assembly": {
+          "configHash": "ae9d1f978ac2d642bc6bb5c5eec5eb2944504607e3762d1ff1a96b70f9de1c1c",
+          "checkedAt": "2026-10-13T13:02:31.506Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/stateless",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-tdd.md",
+          "sha256": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "392ee0861e1bf8059c8743dfeaa9981d629babe77ff6080f39a0d05606d3ba5c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "86d48e2212aa7c0704e97f6b60435a5b82391aec3582a9b0de334d8f2750e956"
+        }
+      ],
+      "rawOutputSha256": "b99e419175855432bcc62e6a557a00564a1343458172c6603a69c72c321388c8"
+    }
+  ],
+  "nonTargetPagesPreserved": 156
+}

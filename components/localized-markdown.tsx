@@ -270,9 +270,12 @@ export function LocalizedMarkdown({
           const language = isValidElement<{ className?: string }>(child)
             ? child.props.className?.replace(/^language-/, '')
             : undefined;
+          const exerciseCaption = ['text', 'plaintext', 'md', 'markdown'].includes(language ?? '')
+            ? '文本片段'
+            : code.includes('TODO') ? '待你完成的片段' : '原文代码片段';
           return (
             <figure className="code-frame" data-language={language || 'code'}>
-              <figcaption><span>{exercise ? (code.includes('TODO') ? '待你完成的片段' : '原文代码片段') : language || '代码示例'}</span><CopyCodeButton code={code} /></figcaption>
+              <figcaption><span>{exercise ? exerciseCaption : language || '代码示例'}</span><CopyCodeButton code={code} /></figcaption>
               <pre {...props}>{children}</pre>
             </figure>
           );

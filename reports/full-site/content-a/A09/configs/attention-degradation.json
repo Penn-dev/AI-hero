@@ -1,0 +1,62 @@
+{
+  "route": "/ai-coding-dictionary/attention-degradation",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/attention-degradation.md",
+    "sha256": "bf7047388ba3589007a6b639945031883d4b4c04fc7b91b616db403e6c8430c3"
+  },
+  "chineseFile": "reports/full-site/content-a/A09/drafts/attention-degradation.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    }
+  ]
+}

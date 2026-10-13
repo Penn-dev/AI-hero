@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-04/configs/the-ai-engineer-mindset.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/the-ai-engineer-mindset",
+      "manifest": {
+        "route": "/the-ai-engineer-mindset",
+        "sourceUrl": "https://www.aihero.dev/the-ai-engineer-mindset",
+        "sourceHash": "a38cc64310d21a913dac5ba1a74ce926de8e691ab59888a0638452c1d48ce8ac",
+        "translationPath": "content/zh/the-ai-engineer-mindset.md",
+        "translationHash": "cafb6b8d4ad4133b4791f2d21385ecfa4128962e4cd401e7607b645f2b6109db",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:55.773Z",
+        "assembly": {
+          "configHash": "a15e552c8b3209106061decdb98bec65532509572215c21f557a049360a9c8ee",
+          "checkedAt": "2026-10-13T12:37:55.773Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/the-ai-engineer-mindset.md",
+          "sha256": "cafb6b8d4ad4133b4791f2d21385ecfa4128962e4cd401e7607b645f2b6109db"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "826879c979e9317575446ce27abe02cf4a079344b1045a90b8ac2320ba339b44"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d2f6ca3f7edc426f10d1b6ebd4fa6ea54b11f2fb0640c5293e0b37bbfe270c22"
+        }
+      ],
+      "rawOutputSha256": "e60a38c7b9809ff07fc0c46b2583ea473f3117c85dfbf5187b7f64b2f5fb7224"
+    },
+    {
+      "mode": "apply",
+      "route": "/the-ai-engineer-mindset",
+      "manifest": {
+        "route": "/the-ai-engineer-mindset",
+        "sourceUrl": "https://www.aihero.dev/the-ai-engineer-mindset",
+        "sourceHash": "a38cc64310d21a913dac5ba1a74ce926de8e691ab59888a0638452c1d48ce8ac",
+        "translationPath": "content/zh/the-ai-engineer-mindset.md",
+        "translationHash": "cafb6b8d4ad4133b4791f2d21385ecfa4128962e4cd401e7607b645f2b6109db",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:56.010Z",
+        "assembly": {
+          "configHash": "a15e552c8b3209106061decdb98bec65532509572215c21f557a049360a9c8ee",
+          "checkedAt": "2026-10-13T12:37:56.010Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/the-ai-engineer-mindset.md",
+          "sha256": "cafb6b8d4ad4133b4791f2d21385ecfa4128962e4cd401e7607b645f2b6109db"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "826879c979e9317575446ce27abe02cf4a079344b1045a90b8ac2320ba339b44"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "cd18e600b9136dc86557b7c329b9d3dd91cabf5d936ba456c90486d080452144"
+        }
+      ],
+      "rawOutputSha256": "271c6eda4ffb7e85744f4123c2e6933a77f04ebd9aea07d4e5f7c1df44d99993"
+    }
+  ],
+  "nonTargetPagesPreserved": 121
+}

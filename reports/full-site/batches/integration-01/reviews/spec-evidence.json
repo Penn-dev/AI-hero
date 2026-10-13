@@ -1,0 +1,11 @@
+{
+  "candidate": "d808b855aa7a3c2ce1f90871d7064aa0711dc33e",
+  "runId": "38391725587",
+  "pages": 12,
+  "viewports": 24,
+  "screenshots": 52,
+  "clipboardMatches": 26,
+  "result": "all hashes and run-to-candidate bindings verified",
+  "manualImages": "All 52 screenshots viewed, including all 24 top images and all 28 content/table images",
+  "exception": "Pending: agent/context-window literal underscores; what-is-an-llm emphasis; C01 codebase-design emphasis and both C01 Chinese navigation. Current first-round approval limited to other 7 pages."
+}

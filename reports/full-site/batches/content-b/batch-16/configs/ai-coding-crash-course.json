@@ -1,0 +1,9 @@
+{
+  "route": "/workshops/ai-coding-crash-course",
+  "source": {
+    "path": "content/source/workshops/ai-coding-crash-course.md",
+    "sha256": "813177b824466b4737d38095d4a1e69b89226bdd7809f5cea4fed0bac0314f93"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-16/drafts/ai-coding-crash-course.md",
+  "translationPath": "content/zh/workshops/ai-coding-crash-course.md"
+}

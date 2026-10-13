@@ -1,0 +1,22 @@
+{
+  "route": "/skills-research",
+  "source": {
+    "path": "content/source/skills-research.md",
+    "sha256": "e91acc488a8e63d892982474c3c105793b4be460d72260c7662d2f6aab341874"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-09/drafts/skills-research.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "available-chinese"
+    }
+  ]
+}

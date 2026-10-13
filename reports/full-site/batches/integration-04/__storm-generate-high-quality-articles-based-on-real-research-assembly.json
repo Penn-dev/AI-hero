@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-04/configs/storm-generate-high-quality-articles-based-on-real-research.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "manifest": {
+        "route": "/storm-generate-high-quality-articles-based-on-real-research",
+        "sourceUrl": "https://www.aihero.dev/storm-generate-high-quality-articles-based-on-real-research",
+        "sourceHash": "63f9786655d89c28f733d241cfbb1452ad8f3c546760c36a63cd6e1316c9e1db",
+        "translationPath": "content/zh/storm-generate-high-quality-articles-based-on-real-research.md",
+        "translationHash": "f5f29c9f346eca8d316bc0b7382d131a8fa09410668a2492a8f464e2243cd4a4",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:55.322Z",
+        "assembly": {
+          "configHash": "645b562c851fff532833d010fe303ac560b202da11ad537beb837e419bf2fef1",
+          "checkedAt": "2026-10-13T12:37:55.322Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/storm-generate-high-quality-articles-based-on-real-research.md",
+          "sha256": "f5f29c9f346eca8d316bc0b7382d131a8fa09410668a2492a8f464e2243cd4a4"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "67d5e86e85bf80343fde0bf5f9c8f3ce6f6b95dbbbd8d161f0c63d175aa73db5"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "138a69ee5b8640b89eaf37535aa78efe0223fdab238aa6669282f72845f12ac8"
+        }
+      ],
+      "rawOutputSha256": "05a78731c1457f8d6f8fa5b56613d96c3385b5a236c9be3021117d35a2a76645"
+    },
+    {
+      "mode": "apply",
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "manifest": {
+        "route": "/storm-generate-high-quality-articles-based-on-real-research",
+        "sourceUrl": "https://www.aihero.dev/storm-generate-high-quality-articles-based-on-real-research",
+        "sourceHash": "63f9786655d89c28f733d241cfbb1452ad8f3c546760c36a63cd6e1316c9e1db",
+        "translationPath": "content/zh/storm-generate-high-quality-articles-based-on-real-research.md",
+        "translationHash": "f5f29c9f346eca8d316bc0b7382d131a8fa09410668a2492a8f464e2243cd4a4",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:55.507Z",
+        "assembly": {
+          "configHash": "645b562c851fff532833d010fe303ac560b202da11ad537beb837e419bf2fef1",
+          "checkedAt": "2026-10-13T12:37:55.507Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/storm-generate-high-quality-articles-based-on-real-research.md",
+          "sha256": "f5f29c9f346eca8d316bc0b7382d131a8fa09410668a2492a8f464e2243cd4a4"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "67d5e86e85bf80343fde0bf5f9c8f3ce6f6b95dbbbd8d161f0c63d175aa73db5"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c941747d46ff011a3c100cc5cba7f9fa1b1362db5ad52ffadab2efe310aca519"
+        }
+      ],
+      "rawOutputSha256": "176da2ee8108b3ea77ef5ab44bfea8b78c283d992475e21b00f831e8e608c24e"
+    }
+  ],
+  "nonTargetPagesPreserved": 120
+}

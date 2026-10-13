@@ -1,0 +1,1141 @@
+{
+  "candidate": "d009125c58d4d4aed2dc410be7bd0ea83d12bcaa",
+  "runId": "38405473150",
+  "viewports": 67,
+  "uniqueRoutes": 58,
+  "screenshots": 279,
+  "screenshotHashesPassed": true,
+  "manuallyViewedScreenshotFiles": [
+    "how-to-improve-your-llm-powered-app-390-main-body.png",
+    "how-to-improve-your-llm-powered-app-390-code-example.png",
+    "how-to-improve-your-llm-powered-app-390-last-code-example.png",
+    "how-to-improve-your-llm-powered-app-390-image.png",
+    "connect-claude-code-to-github-390-main-body.png",
+    "connect-claude-code-to-github-390-code-example.png",
+    "essential-ai-coding-feedback-loops-for-type-script-projects-390-main-body.png",
+    "essential-ai-coding-feedback-loops-for-type-script-projects-390-code-example.png",
+    "essential-ai-coding-feedback-loops-for-type-script-projects-390-last-code-example.png",
+    "how-to-make-codebases-ai-agents-love-390-main-body.png",
+    "how-to-make-codebases-ai-agents-love-390-image.png",
+    "how-to-use-claude-code-hooks-to-enforce-the-right-cli-1440-main-body.png",
+    "how-to-use-claude-code-hooks-to-enforce-the-right-cli-1440-code-example.png",
+    "how-to-use-claude-code-hooks-to-enforce-the-right-cli-1440-last-code-example.png",
+    "how-to-use-claude-code-hooks-to-enforce-the-right-cli-390-main-body.png",
+    "how-to-use-claude-code-hooks-to-enforce-the-right-cli-390-code-example.png",
+    "how-to-use-claude-code-hooks-to-enforce-the-right-cli-390-last-code-example.png",
+    "my-agents-md-file-for-building-plans-you-actually-read-390-main-body.png",
+    "my-agents-md-file-for-building-plans-you-actually-read-390-code-example.png",
+    "my-agents-md-file-for-building-plans-you-actually-read-390-last-code-example.png",
+    "my-agents-md-file-for-building-plans-you-actually-read-390-image.png",
+    "this-hook-stops-claude-code-running-dangerous-git-commands-390-main-body.png",
+    "this-hook-stops-claude-code-running-dangerous-git-commands-390-code-example.png",
+    "this-hook-stops-claude-code-running-dangerous-git-commands-390-last-code-example.png",
+    "creating-the-perfect-claude-code-status-line-390-main-body.png",
+    "creating-the-perfect-claude-code-status-line-390-code-example.png",
+    "creating-the-perfect-claude-code-status-line-390-last-code-example.png",
+    "how-to-kill-the-bloat-in-claude-codes-system-prompt-390-main-body.png",
+    "how-to-kill-the-bloat-in-claude-codes-system-prompt-390-code-example.png",
+    "how-to-kill-the-bloat-in-claude-codes-system-prompt-390-last-code-example.png",
+    "never-run-claude-init-390-main-body.png",
+    "never-run-claude-init-390-table-1.png",
+    "never-run-claude-init-390-code-example.png",
+    "never-run-claude-init-390-last-code-example.png",
+    "never-run-claude-init-390-image.png",
+    "real-world-feature-build-with-claude-code-390-main-body.png",
+    "my-7-phases-of-ai-development-390-main-body.png",
+    "my-7-phases-of-ai-development-390-table-1.png",
+    "my-claude-code-cohort-a-teaser-390-main-body.png",
+    "my-claude-code-cohort-a-teaser-390-image.png",
+    "plan-mode-introduction-390-main-body.png",
+    "plan-mode-introduction-390-table-1.png",
+    "plan-mode-introduction-390-code-example.png",
+    "plan-mode-introduction-390-last-code-example.png",
+    "tracer-bullets-390-main-body.png",
+    "tracer-bullets-390-code-example.png",
+    "tracer-bullets-390-last-code-example.png",
+    "ways-ai-coding-has-rewired-my-brain-390-main-body.png",
+    "5-agent-skills-i-use-every-day-390-main-body.png",
+    "5-agent-skills-i-use-every-day-390-code-example.png",
+    "5-agent-skills-i-use-every-day-390-last-code-example.png",
+    "5-agent-skills-i-use-every-day-390-image.png",
+    "learn-anything-with-my-teach-skill-390-main-body.png",
+    "learn-anything-with-my-teach-skill-390-code-example.png",
+    "learn-anything-with-my-teach-skill-390-last-code-example.png",
+    "learn-anything-with-my-teach-skill-390-image.png",
+    "my-grill-me-skill-has-gone-viral-390-main-body.png",
+    "my-grill-me-skill-has-gone-viral-390-code-example.png",
+    "my-grill-me-skill-has-gone-viral-390-last-code-example.png",
+    "skill-test-driven-development-claude-code-390-main-body.png",
+    "skill-test-driven-development-claude-code-390-table-1.png",
+    "skill-test-driven-development-claude-code-390-table-2.png",
+    "skill-test-driven-development-claude-code-390-code-example.png",
+    "skill-test-driven-development-claude-code-390-last-code-example.png",
+    "burn-through-your-backlog-with-my-triage-skill-390-main-body.png",
+    "burn-through-your-backlog-with-my-triage-skill-390-table-1.png",
+    "burn-through-your-backlog-with-my-triage-skill-390-table-2.png",
+    "burn-through-your-backlog-with-my-triage-skill-390-table-3.png",
+    "burn-through-your-backlog-with-my-triage-skill-390-code-example.png",
+    "burn-through-your-backlog-with-my-triage-skill-390-last-code-example.png",
+    "grill-with-docs-390-main-body.png",
+    "grill-with-docs-390-table-1.png",
+    "grill-with-docs-390-table-2.png",
+    "grill-with-docs-390-code-example.png",
+    "grill-with-docs-390-last-code-example.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-main-body.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-table-1.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-table-2.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-code-example.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-last-code-example.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-1440-image.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-main-body.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-table-1.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-table-2.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-code-example.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-last-code-example.png",
+    "things-people-get-wrong-with-grill-me-and-grill-with-docs-390-image.png",
+    "getting-started-with-ralph-390-main-body.png",
+    "getting-started-with-ralph-390-table-1.png",
+    "getting-started-with-ralph-390-table-2.png",
+    "getting-started-with-ralph-390-table-3.png",
+    "getting-started-with-ralph-390-code-example.png",
+    "getting-started-with-ralph-390-last-code-example.png",
+    "heres-how-to-stream-claude-code-with-afk-ralph-390-main-body.png",
+    "heres-how-to-stream-claude-code-with-afk-ralph-390-code-example.png",
+    "heres-how-to-stream-claude-code-with-afk-ralph-390-last-code-example.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-main-body.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-1.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-2.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-3.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-4.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-5.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-6.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-7.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-8.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-code-example.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-last-code-example.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-failure.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-main-body.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-1.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-2.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-3.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-4.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-5.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-6.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-7.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-8.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-code-example.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-last-code-example.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-failure.png",
+    "why-the-anthropic-ralph-plugin-sucks-390-main-body.png",
+    "why-the-anthropic-ralph-plugin-sucks-390-table-1.png",
+    "why-the-anthropic-ralph-plugin-sucks-390-code-example.png",
+    "why-the-anthropic-ralph-plugin-sucks-390-last-code-example.png",
+    "why-the-anthropic-ralph-plugin-sucks-390-image.png",
+    "workshops-ai-coding-crash-course-390-main-body.png",
+    "workshops-ai-coding-crash-course-390-image.png",
+    "workshops-ai-sdk-v6-crash-course-390-main-body.png",
+    "workshops-ai-sdk-v6-crash-course-390-image.png",
+    "home-1440-top.png",
+    "home-1440-main-body.png",
+    "home-1440-image.png",
+    "home-1440-all-pages-directory.png",
+    "home-390-top.png",
+    "home-390-main-body.png",
+    "home-390-image.png",
+    "home-390-all-pages-directory.png",
+    "home-390-failure.png",
+    "newsletter-390-main-body.png",
+    "skills-changelog-ubiquitous-language-grill-with-docs-390-main-body.png",
+    "skills-changelog-ubiquitous-language-grill-with-docs-390-table-1.png",
+    "skills-changelog-ubiquitous-language-grill-with-docs-390-table-2.png",
+    "skills-changelog-ubiquitous-language-grill-with-docs-390-code-example.png",
+    "skills-changelog-ubiquitous-language-grill-with-docs-390-last-code-example.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-main-body.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-table-1.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-table-2.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-code-example.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-last-code-example.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-1440-image.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-main-body.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-table-1.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-table-2.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-code-example.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-last-code-example.png",
+    "skills-skills-changelog-ubiquitous-language-grill-with-docs-390-image.png",
+    "skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-main-body.png",
+    "skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-code-example.png",
+    "skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-last-code-example.png",
+    "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-1440-main-body.png",
+    "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-1440-code-example.png",
+    "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-1440-last-code-example.png",
+    "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-1440-image.png",
+    "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-main-body.png",
+    "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-code-example.png",
+    "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-last-code-example.png",
+    "skills-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md-390-image.png",
+    "skills-prototype-390-main-body.png",
+    "skills-tdd-390-main-body.png",
+    "skills-tdd-390-table-1.png",
+    "skills-tdd-390-table-2.png",
+    "skills-tdd-390-code-example.png",
+    "skills-grill-with-docs-390-main-body.png",
+    "skills-grill-with-docs-390-table-1.png",
+    "skills-grill-with-docs-390-table-2.png",
+    "skills-grill-with-docs-390-code-example.png",
+    "skills-grill-with-docs-390-last-code-example.png",
+    "skills-improve-codebase-architecture-390-main-body.png",
+    "skills-improve-codebase-architecture-390-table-1.png",
+    "skills-improve-codebase-architecture-390-table-2.png",
+    "skills-improve-codebase-architecture-390-code-example.png",
+    "skills-improve-codebase-architecture-390-last-code-example.png",
+    "skills-teach-390-main-body.png",
+    "skills-teach-390-table-1.png",
+    "skills-teach-390-table-2.png",
+    "skills-teach-390-code-example.png",
+    "skills-teach-390-last-code-example.png",
+    "skills-wizard-390-main-body.png",
+    "skills-wizard-390-table-1.png",
+    "skills-wizard-390-table-2.png",
+    "skills-wizard-390-table-3.png",
+    "skills-triage-390-main-body.png",
+    "skills-triage-390-table-1.png",
+    "skills-triage-390-table-2.png",
+    "skills-triage-390-table-3.png",
+    "skills-triage-390-code-example.png",
+    "skills-triage-390-last-code-example.png",
+    "skills-wayfinder-1440-main-body.png",
+    "skills-wayfinder-1440-table-1.png",
+    "skills-wayfinder-1440-table-2.png",
+    "skills-wayfinder-1440-code-example.png",
+    "skills-wayfinder-390-main-body.png",
+    "skills-wayfinder-390-table-1.png",
+    "skills-wayfinder-390-table-2.png",
+    "skills-wayfinder-390-code-example.png",
+    "skills-skills-changelog-v1-announcement-1440-main-body.png",
+    "skills-skills-changelog-v1-announcement-1440-table-1.png",
+    "skills-skills-changelog-v1-announcement-1440-code-example.png",
+    "skills-skills-changelog-v1-announcement-1440-last-code-example.png",
+    "skills-skills-changelog-v1-announcement-1440-image.png",
+    "skills-skills-changelog-v1-announcement-390-main-body.png",
+    "skills-skills-changelog-v1-announcement-390-table-1.png",
+    "skills-skills-changelog-v1-announcement-390-code-example.png",
+    "skills-skills-changelog-v1-announcement-390-last-code-example.png",
+    "skills-skills-changelog-v1-announcement-390-image.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-main-body.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-table-1.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-table-2.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-table-3.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-code-example.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-last-code-example.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-1440-image.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-main-body.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-table-1.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-table-2.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-table-3.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-code-example.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-last-code-example.png",
+    "skills-skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements-390-image.png",
+    "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-1440-main-body.png",
+    "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-1440-code-example.png",
+    "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-1440-last-code-example.png",
+    "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-1440-image.png",
+    "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-390-main-body.png",
+    "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-390-code-example.png",
+    "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-390-last-code-example.png",
+    "skills-skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more-390-image.png",
+    "llm-fundamentals-390-main-body.png",
+    "llm-fundamentals-390-image.png",
+    "storm-generate-high-quality-articles-based-on-real-research-390-main-body.png",
+    "storm-generate-high-quality-articles-based-on-real-research-390-image.png",
+    "the-prompt-report-390-main-body.png",
+    "the-prompt-report-390-code-example.png",
+    "the-prompt-report-390-last-code-example.png",
+    "generate-text-with-vercel-ai-sdk-390-main-body.png",
+    "generate-text-with-vercel-ai-sdk-390-code-example.png",
+    "generate-text-with-vercel-ai-sdk-390-last-code-example.png",
+    "streaming-text-with-vercel-ai-sdk-390-main-body.png",
+    "streaming-text-with-vercel-ai-sdk-390-code-example.png",
+    "streaming-text-with-vercel-ai-sdk-390-last-code-example.png",
+    "swap-ai-models-with-vercel-ai-sdk-390-main-body.png",
+    "swap-ai-models-with-vercel-ai-sdk-390-code-example.png",
+    "swap-ai-models-with-vercel-ai-sdk-390-last-code-example.png",
+    "system-prompts-with-vercel-ai-sdk-390-main-body.png",
+    "system-prompts-with-vercel-ai-sdk-390-code-example.png",
+    "system-prompts-with-vercel-ai-sdk-390-last-code-example.png",
+    "vercel-ai-sdk-tutorial-390-main-body.png",
+    "vercel-ai-sdk-tutorial-390-image.png",
+    "generate-enums-with-vercel-ai-sdk-390-main-body.png",
+    "generate-enums-with-vercel-ai-sdk-390-code-example.png",
+    "generate-enums-with-vercel-ai-sdk-390-last-code-example.png",
+    "structured-outputs-with-vercel-ai-sdk-390-main-body.png",
+    "structured-outputs-with-vercel-ai-sdk-390-code-example.png",
+    "structured-outputs-with-vercel-ai-sdk-390-last-code-example.png",
+    "use-local-models-with-vercel-ai-sdk-390-main-body.png",
+    "use-local-models-with-vercel-ai-sdk-390-code-example.png",
+    "use-local-models-with-vercel-ai-sdk-390-last-code-example.png",
+    "evalite-an-early-preview-390-main-body.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-1440-top.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-1440-body-title.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-1440-main-body.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-1440-image.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-390-top.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-390-body-title.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-390-main-body.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-390-image.png",
+    "what-is-the-ai-sdk-390-main-body.png",
+    "what-is-the-ai-sdk-390-code-example.png",
+    "what-is-the-ai-sdk-390-last-code-example.png"
+  ],
+  "manuallyViewedAll": true,
+  "clipboardMatches": 273,
+  "fencedClipboardMatches": 273,
+  "selectedParagraphClipboardMatches": 0,
+  "actualChineseLinkClicks": 74,
+  "dictionaryTermClicks": 0,
+  "originalAnchorChecks": 130,
+  "homeDirectoryClicks": 0,
+  "titleWrapRegressions": 2,
+  "uiSpecFindings": [
+    {
+      "route": "/",
+      "issue": "Expanded directory flex layout and narrow click runtime failure; both viewport verdicts withheld"
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "issue": "Test hash encoding mismatch prevents complete UI verdict"
+    }
+  ],
+  "excluded": [
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "failed",
+      "errors": [],
+      "reason": "Original Chinese fragment assertion encoded/decoded mismatch; await sixth evidence"
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "errors": [],
+      "reason": "Original Chinese fragment assertion encoded/decoded mismatch; await sixth evidence"
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed",
+      "errors": [],
+      "reason": "Homepage directory visual/runtime defects; both viewports await sixth candidate"
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "errors": [
+        "e is not a function"
+      ],
+      "reason": "Homepage directory visual/runtime defects; both viewports await sixth candidate"
+    }
+  ],
+  "pages": [
+    {
+      "route": "/how-to-improve-your-llm-powered-app",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 17,
+      "chineseTargets": [
+        "/the-ai-engineer-mindset",
+        "/system-prompts-with-vercel-ai-sdk"
+      ]
+    },
+    {
+      "route": "/connect-claude-code-to-github",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": []
+    },
+    {
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 6,
+      "chineseTargets": [
+        "/tips-for-ai-coding-with-ralph-wiggum"
+      ]
+    },
+    {
+      "route": "/how-to-make-codebases-ai-agents-love",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/skills-improve-codebase-architecture"
+      ]
+    },
+    {
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": []
+    },
+    {
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": []
+    },
+    {
+      "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": []
+    },
+    {
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": [
+        "/getting-started-with-ralph"
+      ]
+    },
+    {
+      "route": "/creating-the-perfect-claude-code-status-line",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 11,
+      "chineseTargets": []
+    },
+    {
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 5,
+      "chineseTargets": [
+        "/skills-setup-matt-pocock-skills"
+      ]
+    },
+    {
+      "route": "/never-run-claude-init",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": []
+    },
+    {
+      "route": "/real-world-feature-build-with-claude-code",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/my-7-phases-of-ai-development",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/getting-started-with-ralph"
+      ]
+    },
+    {
+      "route": "/my-claude-code-cohort-a-teaser",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/plan-mode-introduction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 8,
+      "chineseTargets": [
+        "/skills-grill-with-docs"
+      ]
+    },
+    {
+      "route": "/tracer-bullets",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": [
+        "/skills-prototype"
+      ]
+    },
+    {
+      "route": "/ways-ai-coding-has-rewired-my-brain",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/5-agent-skills-i-use-every-day",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 6,
+      "chineseTargets": [
+        "/skills-grill-me",
+        "/skills-to-spec"
+      ]
+    },
+    {
+      "route": "/learn-anything-with-my-teach-skill",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": []
+    },
+    {
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 6,
+      "chineseTargets": [
+        "/5-agent-skills-i-use-every-day",
+        "/skills-grill-me"
+      ]
+    },
+    {
+      "route": "/skill-test-driven-development-claude-code",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": []
+    },
+    {
+      "route": "/burn-through-your-backlog-with-my-triage-skill",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": [
+        "/skills-to-tickets",
+        "/ai-coding-dictionary/ticket"
+      ]
+    },
+    {
+      "route": "/grill-with-docs",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/ai-coding-dictionary/agent",
+        "/skills-grill-me"
+      ]
+    },
+    {
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/grill-with-docs"
+      ]
+    },
+    {
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/grill-with-docs"
+      ]
+    },
+    {
+      "route": "/getting-started-with-ralph",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 13,
+      "chineseTargets": [
+        "/tips-for-ai-coding-with-ralph-wiggum",
+        "/newsletter"
+      ]
+    },
+    {
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/getting-started-with-ralph",
+        "/tips-for-ai-coding-with-ralph-wiggum"
+      ]
+    },
+    {
+      "route": "/why-the-anthropic-ralph-plugin-sucks",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/getting-started-with-ralph",
+        "/tips-for-ai-coding-with-ralph-wiggum"
+      ]
+    },
+    {
+      "route": "/workshops/ai-coding-crash-course",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/newsletter",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": [
+        "/ai-coding-dictionary/skill",
+        "/ai-coding-dictionary/progressive-disclosure"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": [
+        "/skills",
+        "/ai-coding-dictionary/skill"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": [
+        "/skills",
+        "/ai-coding-dictionary/skill"
+      ]
+    },
+    {
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": [
+        "/ai-coding-dictionary/subagent",
+        "/ai-coding-dictionary/automated-check"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": [
+        "/skills",
+        "/skills-resolving-merge-conflicts"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": [
+        "/skills",
+        "/skills-resolving-merge-conflicts"
+      ]
+    },
+    {
+      "route": "/skills-prototype",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary/prototyping",
+        "/ai-coding-dictionary/primary-source"
+      ]
+    },
+    {
+      "route": "/skills-tdd",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/automated-check",
+        "/ai-coding-dictionary/spec"
+      ]
+    },
+    {
+      "route": "/skills-grill-with-docs",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/ai-coding-dictionary/stateful",
+        "/ai-coding-dictionary/context-window"
+      ]
+    },
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 3,
+      "chineseTargets": [
+        "/ai-coding-dictionary/grilling",
+        "/ai-coding-dictionary/context-window"
+      ]
+    },
+    {
+      "route": "/skills-teach",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/ai-coding-dictionary/parametric-knowledge",
+        "/ai-coding-dictionary/stateful"
+      ]
+    },
+    {
+      "route": "/skills-wizard",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary/skill",
+        "/ai-coding-dictionary/context"
+      ]
+    },
+    {
+      "route": "/skills-triage",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": [
+        "/ai-coding-dictionary/ticket",
+        "/ai-coding-dictionary/afk"
+      ]
+    },
+    {
+      "route": "/skills-wayfinder",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/session",
+        "/ai-coding-dictionary/ticket"
+      ]
+    },
+    {
+      "route": "/skills-wayfinder",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/session",
+        "/ai-coding-dictionary/ticket"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 5,
+      "chineseTargets": [
+        "/skills",
+        "/ai-coding-dictionary/token"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 5,
+      "chineseTargets": [
+        "/skills",
+        "/ai-coding-dictionary/token"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 8,
+      "chineseTargets": [
+        "/skills",
+        "/ai-coding-dictionary/spec"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 8,
+      "chineseTargets": [
+        "/skills",
+        "/ai-coding-dictionary/spec"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 3,
+      "chineseTargets": [
+        "/skills",
+        "/ai-coding-dictionary/skill"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 3,
+      "chineseTargets": [
+        "/skills",
+        "/ai-coding-dictionary/skill"
+      ]
+    },
+    {
+      "route": "/llm-fundamentals",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/the-prompt-report",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": []
+    },
+    {
+      "route": "/generate-text-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 6,
+      "chineseTargets": []
+    },
+    {
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 6,
+      "chineseTargets": [
+        "/generate-text-with-vercel-ai-sdk"
+      ]
+    },
+    {
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 5,
+      "chineseTargets": []
+    },
+    {
+      "route": "/system-prompts-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": []
+    },
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 12,
+      "chineseTargets": []
+    },
+    {
+      "route": "/structured-outputs-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 11,
+      "chineseTargets": []
+    },
+    {
+      "route": "/use-local-models-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 6,
+      "chineseTargets": []
+    },
+    {
+      "route": "/evalite-an-early-preview",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/what-are-evals"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/skills",
+        "/ai-coding-dictionary/handoff"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/skills",
+        "/ai-coding-dictionary/handoff"
+      ]
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": [
+        "/workshops/ai-sdk-v6-crash-course"
+      ]
+    }
+  ]
+}

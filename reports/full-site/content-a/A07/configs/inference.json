@@ -1,0 +1,70 @@
+{
+  "route": "/ai-coding-dictionary/inference",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/inference.md",
+    "sha256": "e7c23ce987d5e42225449309294ce00e4b2ee4ab83544f273078c73cdc1982fc"
+  },
+  "chineseFile": "reports/full-site/content-a/A07/drafts/inference.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    }
+  ]
+}

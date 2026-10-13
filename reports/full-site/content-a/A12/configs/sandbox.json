@@ -1,0 +1,42 @@
+{
+  "route": "/ai-coding-dictionary/sandbox",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/sandbox.md",
+    "sha256": "16a11caf345c12e3be8721de059a4c716dde5fec481256a6c0a833d5e016d751"
+  },
+  "chineseFile": "reports/full-site/content-a/A12/drafts/sandbox.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "state": "available-chinese"
+    }
+  ]
+}

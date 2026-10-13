@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-07/configs/skills-to-spec.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-to-spec",
+      "manifest": {
+        "route": "/skills-to-spec",
+        "sourceUrl": "https://www.aihero.dev/skills-to-spec",
+        "sourceHash": "1fb8c8987fc9548957d28253c6ac865de82519bf55b0ab757c3feedeb6274a53",
+        "translationPath": "content/zh/skills-to-spec.md",
+        "translationHash": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:38.318Z",
+        "assembly": {
+          "configHash": "102e5f50d31ea17d4485c8cd78b85f8e6559093bc4c195ab3a6c0ae29553cf89",
+          "checkedAt": "2026-10-13T12:37:38.318Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-to-spec.md",
+          "sha256": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b9fda3b2983ad8c27be98a34f856d347ec7772c57f6c092b01fb00eaeee307cc"
+        }
+      ],
+      "rawOutputSha256": "6d1a0fb6e47abde3edda77907ef4e990835bb4ff0acd6447c5f378e9dd1d475d"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-to-spec",
+      "manifest": {
+        "route": "/skills-to-spec",
+        "sourceUrl": "https://www.aihero.dev/skills-to-spec",
+        "sourceHash": "1fb8c8987fc9548957d28253c6ac865de82519bf55b0ab757c3feedeb6274a53",
+        "translationPath": "content/zh/skills-to-spec.md",
+        "translationHash": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:38.557Z",
+        "assembly": {
+          "configHash": "102e5f50d31ea17d4485c8cd78b85f8e6559093bc4c195ab3a6c0ae29553cf89",
+          "checkedAt": "2026-10-13T12:37:38.557Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-to-spec.md",
+          "sha256": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "2f18bcb4b7ba7b13a111043d24f814b812d8e583d30bc1801c0ee009c7474250"
+        }
+      ],
+      "rawOutputSha256": "7e6edb6336348e2a7d8ff370625a38e435c323fed2a311efa53a53ec1b3ce14c"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-15/configs/heres-how-to-stream-claude-code-with-afk-ralph.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "manifest": {
+        "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+        "sourceUrl": "https://www.aihero.dev/heres-how-to-stream-claude-code-with-afk-ralph",
+        "sourceHash": "8a75e0ba6738c7e18f3223d5cbcf26e21a1ad3b32795d4877f3ad8fbe3b501e9",
+        "translationPath": "content/zh/heres-how-to-stream-claude-code-with-afk-ralph.md",
+        "translationHash": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:57.551Z",
+        "assembly": {
+          "configHash": "ad0edac3c68b623b424eb94e4f61d650ddacbb036f2e9e5e82dba03e58c57e08",
+          "checkedAt": "2026-10-13T13:07:57.551Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/heres-how-to-stream-claude-code-with-afk-ralph.md",
+          "sha256": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e2985d87b424672b9aa1a878917944a46d494707ce22a0c8c26d3984491a5b6e"
+        }
+      ],
+      "rawOutputSha256": "fa88f38d42b4ddc10c57a5e50780821911299d9a913438b22b1e59032a64e011"
+    },
+    {
+      "mode": "apply",
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "manifest": {
+        "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+        "sourceUrl": "https://www.aihero.dev/heres-how-to-stream-claude-code-with-afk-ralph",
+        "sourceHash": "8a75e0ba6738c7e18f3223d5cbcf26e21a1ad3b32795d4877f3ad8fbe3b501e9",
+        "translationPath": "content/zh/heres-how-to-stream-claude-code-with-afk-ralph.md",
+        "translationHash": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:57.811Z",
+        "assembly": {
+          "configHash": "ad0edac3c68b623b424eb94e4f61d650ddacbb036f2e9e5e82dba03e58c57e08",
+          "checkedAt": "2026-10-13T13:07:57.811Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/heres-how-to-stream-claude-code-with-afk-ralph.md",
+          "sha256": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "996fcf06047aa6dbc3c06aa1dd5fe3191a51ed85b6855fa28b65e332a130cdff"
+        }
+      ],
+      "rawOutputSha256": "bd259938fe65c906b750b28a70752255162439ebdc2ec003df38442c44bbad1e"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

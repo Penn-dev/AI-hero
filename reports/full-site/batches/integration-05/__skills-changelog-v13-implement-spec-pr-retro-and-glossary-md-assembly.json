@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-14/configs/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "manifest": {
+        "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceUrl": "https://www.aihero.dev/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceHash": "7d7b01efd489d56ac7fc3e2fbb7ef4a85ced5fa3343ef13c23cef4fab1055c30",
+        "translationPath": "content/zh/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+        "translationHash": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:29.604Z",
+        "assembly": {
+          "configHash": "be4cc595601845a4494aaf4018a81e7e0d344f25a340e55d42a6df4c6efdedd3",
+          "checkedAt": "2026-10-13T13:02:29.604Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+          "sha256": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "aaf0107e8fb1ecca0ef94e2d1b9624ab4282ea1f8302bb3d6d29327ff4924c55"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "873047299e5bf5ea514289514e471e7f2d499ec01a83dd652a23147c812138e8"
+        }
+      ],
+      "rawOutputSha256": "c1780bca949d7aa1514a6039a2e4128cce9d556276363db496bc43c3683c5223"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "manifest": {
+        "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceUrl": "https://www.aihero.dev/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceHash": "7d7b01efd489d56ac7fc3e2fbb7ef4a85ced5fa3343ef13c23cef4fab1055c30",
+        "translationPath": "content/zh/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+        "translationHash": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:29.881Z",
+        "assembly": {
+          "configHash": "be4cc595601845a4494aaf4018a81e7e0d344f25a340e55d42a6df4c6efdedd3",
+          "checkedAt": "2026-10-13T13:02:29.881Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+          "sha256": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "aaf0107e8fb1ecca0ef94e2d1b9624ab4282ea1f8302bb3d6d29327ff4924c55"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ee0d97b3d9a78e6846df939030b3c76f6c1f26ce536dec06f610b9724af8c8d4"
+        }
+      ],
+      "rawOutputSha256": "32a0068b76a085ac0f4a26ef6a140df1be0aa3e8495d50d031081560a1d89b6a"
+    }
+  ],
+  "nonTargetPagesPreserved": 153
+}

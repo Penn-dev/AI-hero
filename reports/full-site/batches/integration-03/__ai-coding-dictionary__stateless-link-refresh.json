@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A05/configs/stateless.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/stateless",
+      "manifest": {
+        "route": "/ai-coding-dictionary/stateless",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/stateless",
+        "sourceHash": "061131442102c1e3677c71d5016077b613c6a6f14d6c860613cbe745d8cd6edd",
+        "translationPath": "content/zh/ai-coding-dictionary/stateless.md",
+        "translationHash": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:22.465Z",
+        "assembly": {
+          "configHash": "b983afd8493d660fa18a1a8ecaa6ed143efa6dcef29eae89ddd9ac77afcdc211",
+          "checkedAt": "2026-10-13T12:19:22.465Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/stateless.md",
+          "sha256": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7713fbd093f79f39e3a56fea64f38b813d072d21abc25fa31ef5a12d53bc0de3"
+        }
+      ],
+      "rawOutputSha256": "11c2fd3a5e5b55bee379bb7016ade7c43c528d77e5ac8f752a74fc7b1619331f"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/stateless",
+      "manifest": {
+        "route": "/ai-coding-dictionary/stateless",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/stateless",
+        "sourceHash": "061131442102c1e3677c71d5016077b613c6a6f14d6c860613cbe745d8cd6edd",
+        "translationPath": "content/zh/ai-coding-dictionary/stateless.md",
+        "translationHash": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:22.706Z",
+        "assembly": {
+          "configHash": "b983afd8493d660fa18a1a8ecaa6ed143efa6dcef29eae89ddd9ac77afcdc211",
+          "checkedAt": "2026-10-13T12:19:22.706Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/stateless.md",
+          "sha256": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "123e8dd7809a00c6acc0f2719977ce7322e5d19778e6e015694a376ebe43345d"
+        }
+      ],
+      "rawOutputSha256": "80f0087d20db2861ebfc87e1d6dd642124c2a2320999150e0f45f6be459b587b"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

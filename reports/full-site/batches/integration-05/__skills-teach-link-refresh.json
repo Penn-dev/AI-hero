@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-17/configs/skills-teach.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-teach",
+      "manifest": {
+        "route": "/skills-teach",
+        "sourceUrl": "https://www.aihero.dev/skills-teach",
+        "sourceHash": "9e15a9c39bccc9bf6ed72085209828712df422d9087aaccc2490fada45c2f71c",
+        "translationPath": "content/zh/skills-teach.md",
+        "translationHash": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:39.844Z",
+        "assembly": {
+          "configHash": "54fd79c65a82218a82a1211197a9ef51a21e5e23b0e34adc3f81e746fe059422",
+          "checkedAt": "2026-10-13T13:02:39.844Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-teach.md",
+          "sha256": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ede90adc91e53310affdef987ebe3eee9eb8a9f8c68b70a3efd6d40bde0a137e"
+        }
+      ],
+      "rawOutputSha256": "31545779ed7c7e291250b7d2457a9d05c6763294c3d6be7e5cec67c18d563e65"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-teach",
+      "manifest": {
+        "route": "/skills-teach",
+        "sourceUrl": "https://www.aihero.dev/skills-teach",
+        "sourceHash": "9e15a9c39bccc9bf6ed72085209828712df422d9087aaccc2490fada45c2f71c",
+        "translationPath": "content/zh/skills-teach.md",
+        "translationHash": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:40.099Z",
+        "assembly": {
+          "configHash": "54fd79c65a82218a82a1211197a9ef51a21e5e23b0e34adc3f81e746fe059422",
+          "checkedAt": "2026-10-13T13:02:40.099Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-teach.md",
+          "sha256": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e8735d86b4526b43966d237402ff8c46e2bb8ec80e0890c1e090da19d5d79dfa"
+        }
+      ],
+      "rawOutputSha256": "9bedc6a087c02898c48071ddbd297f1523880728f8929a94a8e3eb619a3c5f96"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

@@ -1,0 +1,215 @@
+{
+  "config": "reports/full-site/content-a/A04/configs/hallucination.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/hallucination",
+      "manifest": {
+        "route": "/ai-coding-dictionary/hallucination",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
+        "sourceHash": "4b8d0cbe95e6f7c71907613a69a016178a40a5729ec6aff0372dfc12f558640c",
+        "translationPath": "content/zh/ai-coding-dictionary/hallucination.md",
+        "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:18.861Z",
+        "assembly": {
+          "configHash": "5007b074d8b2117ad4101bdaac105ed7df4fdf811b649fb65cadfd0eaf25967f",
+          "checkedAt": "2026-10-13T11:56:18.861Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-degradation",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/contextual-knowledge",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/knowledge-cutoff",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/next-token-prediction",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parametric-knowledge",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/smart-zone",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/sycophancy",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/turn",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/hallucination.md",
+          "sha256": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "2c0248326eb955db5410bbd3c7d756b4c4d73173e241826c867ea9c7f38701db"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "933faa48949546b2464975c5ab1deb26f7fe846152656b96725b7406bfe8b5e4"
+        }
+      ],
+      "rawOutputSha256": "f7a182daa06ac088209216aa3bd489ad4f0f12cf5a6e63401812f900c73bf190"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/hallucination",
+      "manifest": {
+        "route": "/ai-coding-dictionary/hallucination",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
+        "sourceHash": "4b8d0cbe95e6f7c71907613a69a016178a40a5729ec6aff0372dfc12f558640c",
+        "translationPath": "content/zh/ai-coding-dictionary/hallucination.md",
+        "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:19.067Z",
+        "assembly": {
+          "configHash": "5007b074d8b2117ad4101bdaac105ed7df4fdf811b649fb65cadfd0eaf25967f",
+          "checkedAt": "2026-10-13T11:56:19.067Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-degradation",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/contextual-knowledge",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/knowledge-cutoff",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/next-token-prediction",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parametric-knowledge",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/smart-zone",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/sycophancy",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/turn",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/hallucination.md",
+          "sha256": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "2c0248326eb955db5410bbd3c7d756b4c4d73173e241826c867ea9c7f38701db"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "fde03a2045d1a02626f7bf5106d3deb7494446cf9006a7834b9197656473309c"
+        }
+      ],
+      "rawOutputSha256": "fbbe04a5337743b8493a90651e372d1ad96c6f290ee5f6b35970d54abd058206"
+    }
+  ],
+  "nonTargetPagesPreserved": 24
+}

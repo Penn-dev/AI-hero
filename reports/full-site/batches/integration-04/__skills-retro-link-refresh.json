@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-12/configs/skills-retro.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-retro",
+      "manifest": {
+        "route": "/skills-retro",
+        "sourceUrl": "https://www.aihero.dev/skills-retro",
+        "sourceHash": "a43dee00c077ebce4e43f5ada84b85770df73b2d3ade5a95981f5140e7fe112f",
+        "translationPath": "content/zh/skills-retro.md",
+        "translationHash": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:39.370Z",
+        "assembly": {
+          "configHash": "7f83bfc4ea6c02b0da5cc1656a09bec469823d75911e2731bdbcd8a64c8d6c14",
+          "checkedAt": "2026-10-13T12:37:39.370Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-retro.md",
+          "sha256": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7b4d19439da76dc6a2b3c56b039788c5e80d64a2363b59cc3174f699c6d1176e"
+        }
+      ],
+      "rawOutputSha256": "cb97ab8b278fc2a8c509b906df1102597b47940194266a9fb7b13b701fe17da6"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-retro",
+      "manifest": {
+        "route": "/skills-retro",
+        "sourceUrl": "https://www.aihero.dev/skills-retro",
+        "sourceHash": "a43dee00c077ebce4e43f5ada84b85770df73b2d3ade5a95981f5140e7fe112f",
+        "translationPath": "content/zh/skills-retro.md",
+        "translationHash": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:39.624Z",
+        "assembly": {
+          "configHash": "7f83bfc4ea6c02b0da5cc1656a09bec469823d75911e2731bdbcd8a64c8d6c14",
+          "checkedAt": "2026-10-13T12:37:39.624Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-retro.md",
+          "sha256": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "13cb1b0aa69acadcdaa24e944f18739f51dfb71b89fb1b66149ad11a3a427b3c"
+        }
+      ],
+      "rawOutputSha256": "7f5be34c8b8be6e803e14df89422dd41c38e1c365b5799b9feb573862746af3f"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

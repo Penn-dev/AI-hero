@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-12/configs/plan-mode-introduction.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/plan-mode-introduction",
+      "manifest": {
+        "route": "/plan-mode-introduction",
+        "sourceUrl": "https://www.aihero.dev/plan-mode-introduction",
+        "sourceHash": "55118fc919229b82366301dd98f0ad9704b528fd1dc2af719ccc6348af81b7d3",
+        "translationPath": "content/zh/plan-mode-introduction.md",
+        "translationHash": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:56.404Z",
+        "assembly": {
+          "configHash": "7df37fd90604c986e03cef31c3bfa41e0bd8e9155598b24e3e1d7d0e21e9f369",
+          "checkedAt": "2026-10-13T13:07:56.404Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/plan-mode-introduction.md",
+          "sha256": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b78c4b0d192e3eb824414f2363381dc79d2ac8fc37cdcc178d48839606ac197d"
+        }
+      ],
+      "rawOutputSha256": "de0a117fb93704a16a0e4218b9f5a2928fbb1b07eacc972e47004b85ff084c35"
+    },
+    {
+      "mode": "apply",
+      "route": "/plan-mode-introduction",
+      "manifest": {
+        "route": "/plan-mode-introduction",
+        "sourceUrl": "https://www.aihero.dev/plan-mode-introduction",
+        "sourceHash": "55118fc919229b82366301dd98f0ad9704b528fd1dc2af719ccc6348af81b7d3",
+        "translationPath": "content/zh/plan-mode-introduction.md",
+        "translationHash": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:56.671Z",
+        "assembly": {
+          "configHash": "7df37fd90604c986e03cef31c3bfa41e0bd8e9155598b24e3e1d7d0e21e9f369",
+          "checkedAt": "2026-10-13T13:07:56.671Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/plan-mode-introduction.md",
+          "sha256": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f275cf25566d61de7991a05222e231034852179d6b2268896701600eb42bbf93"
+        }
+      ],
+      "rawOutputSha256": "dd0388920b79886e51ecf8b49fe65acbe5cb762724e0b70fcf30174e0b103aa7"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

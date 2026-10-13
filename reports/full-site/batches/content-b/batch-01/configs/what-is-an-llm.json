@@ -1,0 +1,9 @@
+{
+  "route": "/what-is-an-llm",
+  "source": {
+    "path": "content/source/what-is-an-llm.md",
+    "sha256": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-01/drafts/what-is-an-llm.md",
+  "translationPath": "content/zh/what-is-an-llm.md"
+}

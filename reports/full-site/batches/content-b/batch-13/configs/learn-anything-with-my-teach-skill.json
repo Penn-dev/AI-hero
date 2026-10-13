@@ -1,0 +1,9 @@
+{
+  "route": "/learn-anything-with-my-teach-skill",
+  "source": {
+    "path": "content/source/learn-anything-with-my-teach-skill.md",
+    "sha256": "55c64bc00a5b2704d8b2996c2fb268e9ab31bacde61fce090748e3c6df8b11a3"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-13/drafts/learn-anything-with-my-teach-skill.md",
+  "translationPath": "content/zh/learn-anything-with-my-teach-skill.md"
+}

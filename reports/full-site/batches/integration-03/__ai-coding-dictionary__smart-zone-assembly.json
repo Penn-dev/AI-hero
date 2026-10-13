@@ -1,0 +1,195 @@
+{
+  "config": "reports/full-site/content-a/A09/configs/smart-zone.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/smart-zone",
+      "manifest": {
+        "route": "/ai-coding-dictionary/smart-zone",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+        "sourceHash": "89e7f3a6e7d2660d3305269ad0d1a150a7860cf8987b0c2c79fc5476c0f6fb5f",
+        "translationPath": "content/zh/ai-coding-dictionary/smart-zone.md",
+        "translationHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:18:59.701Z",
+        "assembly": {
+          "configHash": "db9113653ccb92b7d816eaf206c5634066497084d29be938fa21026698c6094f",
+          "checkedAt": "2026-10-13T12:18:59.701Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-degradation",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/harness",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/smart-zone.md",
+          "sha256": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "cf1760596373af64769cbb1e633d1fa52799dc3c36e8745515145779d79e2d2b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "eea23d19ebf3c013082d27f11dd0316e0e0d358f5014e5ab81f4f1f1e76c5bff"
+        }
+      ],
+      "rawOutputSha256": "38c745925b7874e124a4d1b2b73d9de2e5101d82568f87800d7f73f56f417d68"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/smart-zone",
+      "manifest": {
+        "route": "/ai-coding-dictionary/smart-zone",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+        "sourceHash": "89e7f3a6e7d2660d3305269ad0d1a150a7860cf8987b0c2c79fc5476c0f6fb5f",
+        "translationPath": "content/zh/ai-coding-dictionary/smart-zone.md",
+        "translationHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:18:59.926Z",
+        "assembly": {
+          "configHash": "db9113653ccb92b7d816eaf206c5634066497084d29be938fa21026698c6094f",
+          "checkedAt": "2026-10-13T12:18:59.926Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-degradation",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/harness",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/smart-zone.md",
+          "sha256": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "cf1760596373af64769cbb1e633d1fa52799dc3c36e8745515145779d79e2d2b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "eceaa9ba2c81514155515735d2795e7acb03f46e5328cc45ba61d5de5af99a82"
+        }
+      ],
+      "rawOutputSha256": "64529a32c88bce4e921b8073108a00d4ace6928a6306b0bdd329df1030c8a4c9"
+    }
+  ],
+  "nonTargetPagesPreserved": 60
+}

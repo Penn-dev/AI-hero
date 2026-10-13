@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A07/configs/inference.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/inference",
+      "manifest": {
+        "route": "/ai-coding-dictionary/inference",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/inference",
+        "sourceHash": "e7c23ce987d5e42225449309294ce00e4b2ee4ab83544f273078c73cdc1982fc",
+        "translationPath": "content/zh/ai-coding-dictionary/inference.md",
+        "translationHash": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:39.129Z",
+        "assembly": {
+          "configHash": "1710a8f292bf246ec3edaf5dcb543738b7acfba10aadcc002f1c36e7a0935fdf",
+          "checkedAt": "2026-10-13T12:19:39.129Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/inference.md",
+          "sha256": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1b7d4401d060f26776c7e61817ed44c828ce635958a630b9ff7aa6720356d6da"
+        }
+      ],
+      "rawOutputSha256": "77cf484a802465ce5b840dfc34a10462faab9f9a0a852ac1751ca3328ef6dd05"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/inference",
+      "manifest": {
+        "route": "/ai-coding-dictionary/inference",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/inference",
+        "sourceHash": "e7c23ce987d5e42225449309294ce00e4b2ee4ab83544f273078c73cdc1982fc",
+        "translationPath": "content/zh/ai-coding-dictionary/inference.md",
+        "translationHash": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:39.364Z",
+        "assembly": {
+          "configHash": "1710a8f292bf246ec3edaf5dcb543738b7acfba10aadcc002f1c36e7a0935fdf",
+          "checkedAt": "2026-10-13T12:19:39.364Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/inference.md",
+          "sha256": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "122c0476b722cb96fcc52740d5d75e14138dca5906cc8bdaefc4f89093218a85"
+        }
+      ],
+      "rawOutputSha256": "3d987bbfc06d7e4f3c5e141a628055026ddccba7e7f4de5892e8f01d264ffa03"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

@@ -11,7 +11,7 @@ type PageEntry = {
   sourceUrl: string;
   sourceHash: string;
   sourceUpdatedAt?: string;
-  translatedAt: string;
+  translatedAt?: string;
   readingTime?: string;
 };
 
@@ -20,14 +20,14 @@ type ContentIndex = {
   pages: Record<string, PageEntry>;
 };
 
-const index = content as ContentIndex;
+const index: ContentIndex = content;
 
 function routeFor(slug: string[]) {
   return `/${slug.map((part) => encodeURIComponent(decodeURIComponent(part))).join('/')}`;
 }
 
 export function generateStaticParams() {
-  return Object.keys(index.pages).map((route) => ({ slug: route.split('/').filter(Boolean) }));
+  return Object.keys(index.pages).filter((route) => route !== '/').map((route) => ({ slug: route.split('/').filter(Boolean) }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string[] }> }): Promise<Metadata> {

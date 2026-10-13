@@ -1,0 +1,15 @@
+{
+  "route": "/my-7-phases-of-ai-development",
+  "source": {
+    "path": "content/source/my-7-phases-of-ai-development.md",
+    "sha256": "276360ca1eb6c2a68ab7889498ad2351d9c355620f510ce7a73f1dcb1c251e6d"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-12/drafts/my-7-phases-of-ai-development.md",
+  "translationPath": "content/zh/my-7-phases-of-ai-development.md",
+  "linkTargets": [
+    {
+      "route": "/getting-started-with-ralph",
+      "state": "available-chinese"
+    }
+  ]
+}

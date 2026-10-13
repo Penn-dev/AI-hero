@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-05/configs/skills-writing-for-agents.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-writing-for-agents",
+      "manifest": {
+        "route": "/skills-writing-for-agents",
+        "sourceUrl": "https://www.aihero.dev/skills-writing-for-agents",
+        "sourceHash": "d830a22e3f1590c7a8daa55e69dc85b938f1995097056eb3625abb3ecd8a0544",
+        "translationPath": "content/zh/skills-writing-for-agents.md",
+        "translationHash": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:29.011Z",
+        "assembly": {
+          "configHash": "e47148d95d82e3bf0ebbb0ba00c7a79fbe52e6869c86f68b0d028fc9bfdbec06",
+          "checkedAt": "2026-10-13T12:37:29.011Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/context-pointer",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/progressive-disclosure",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-writing-for-agents.md",
+          "sha256": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "1cf4106d8b499af4c663fefe2a23d7ea9b208a9e8830ef746f9dee61ea1df053"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ecc862d7e3311a1cea8ce8f20a208be5b2982d7e494cd69cfff3a877f5f2d2e8"
+        }
+      ],
+      "rawOutputSha256": "429903f56c6039deec5f922590bfcfe84be2b9f7060d0a9ec54f6199ed76c417"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-writing-for-agents",
+      "manifest": {
+        "route": "/skills-writing-for-agents",
+        "sourceUrl": "https://www.aihero.dev/skills-writing-for-agents",
+        "sourceHash": "d830a22e3f1590c7a8daa55e69dc85b938f1995097056eb3625abb3ecd8a0544",
+        "translationPath": "content/zh/skills-writing-for-agents.md",
+        "translationHash": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:29.265Z",
+        "assembly": {
+          "configHash": "e47148d95d82e3bf0ebbb0ba00c7a79fbe52e6869c86f68b0d028fc9bfdbec06",
+          "checkedAt": "2026-10-13T12:37:29.265Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/context-pointer",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/progressive-disclosure",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-writing-for-agents.md",
+          "sha256": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "1cf4106d8b499af4c663fefe2a23d7ea9b208a9e8830ef746f9dee61ea1df053"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4da9f129adfcb34f114669d5e49ec53f5565bb92e538558514d4148163713dee"
+        }
+      ],
+      "rawOutputSha256": "b55dab76f50c5ed9f21c66a513ac7947697d4dd7c6207004e05a1abe2a4a0bd1"
+    }
+  ],
+  "nonTargetPagesPreserved": 97
+}

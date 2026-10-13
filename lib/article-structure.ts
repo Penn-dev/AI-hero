@@ -71,7 +71,9 @@ export function prepareArticle(markdown: string, title: string) {
   if (first?.type === 'heading' && first.depth === 1 && nodeText(first).trim() === title.trim()) removals.push(first);
   nodes.forEach((node, index) => {
     // Disclose an empty source transcript rather than inventing its contents.
-    if (node.type === 'heading' && /^(视频文字稿|Video Transcript)$/i.test(nodeText(node)) && index === nodes.length - 1) {
+    const next = nodes[index + 1];
+    const empty = !next || (next.type === 'heading' && (next.depth ?? 0) <= (node.depth ?? 0));
+    if (node.type === 'heading' && /^(视频文字稿|Video Transcript)$/i.test(nodeText(node)) && empty) {
       removals.push(node);
       emptySections.push(nodeText(node));
     }

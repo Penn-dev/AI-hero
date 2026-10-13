@@ -1,0 +1,30 @@
+{
+  "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+  "source": {
+    "path": "content/source/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+    "sha256": "8f5dd02a02e0f99c1764faeeadee072c5b492794819cc1cfe575d21f4761d9d0"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-14/drafts/skills__skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+  "linkTargets": [
+    {
+      "route": "/skills",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-resolving-merge-conflicts",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    }
+  ]
+}

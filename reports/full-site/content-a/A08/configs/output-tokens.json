@@ -1,0 +1,42 @@
+{
+  "route": "/ai-coding-dictionary/output-tokens",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/output-tokens.md",
+    "sha256": "dae408485b46660315f1a08c0ba1454a271460143f3b8ecd9375623acfbfdadf"
+  },
+  "chineseFile": "reports/full-site/content-a/A08/drafts/output-tokens.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    }
+  ]
+}

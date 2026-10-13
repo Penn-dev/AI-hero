@@ -1,0 +1,14 @@
+{
+  "sitemapCandidates": 196,
+  "uniqueSourceRoutes": 195,
+  "downloaded": 195,
+  "noMarkdown": 0,
+  "translated": 23,
+  "renderable": 23,
+  "errors": [
+    "Translation source hash mismatch: /ai-coding-dictionary/tool-call",
+    "Translation source hash mismatch: /ai-coding-dictionary/prefix-cache",
+    "Translation source hash mismatch: /ai-coding-dictionary/memory-system",
+    "Translation source hash mismatch: /ai-coding-dictionary/hallucination"
+  ]
+}

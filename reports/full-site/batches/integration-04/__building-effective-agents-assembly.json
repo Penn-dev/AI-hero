@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-04/configs/building-effective-agents.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/building-effective-agents",
+      "manifest": {
+        "route": "/building-effective-agents",
+        "sourceUrl": "https://www.aihero.dev/building-effective-agents",
+        "sourceHash": "231bef3b6e950255bed02786be3334a5c6c68ba93d1be77de32738b16492c985",
+        "translationPath": "content/zh/building-effective-agents.md",
+        "translationHash": "5ce05ee6d2097318e648b7be94f0cf93a2e13c2438275eea11bc2490a0a27569",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:54.913Z",
+        "assembly": {
+          "configHash": "f273c87fc83e88311e687ae66b02fd5f1aa6caa25be65e36d092bb9b44dd18f8",
+          "checkedAt": "2026-10-13T12:37:54.913Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/building-effective-agents.md",
+          "sha256": "5ce05ee6d2097318e648b7be94f0cf93a2e13c2438275eea11bc2490a0a27569"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "afe9fc33f57fe95d7886c4230c151b5d4496a8d56a19dd9b95f6612ba41818ad"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "deefe0e74651eca1685f595210988d86396f9b8a396ef0aa21140c74eb92d73a"
+        }
+      ],
+      "rawOutputSha256": "6287c93a991efed1e77298a7bec4148aa72a447665785d07e4d9ee1b7c1d0ca9"
+    },
+    {
+      "mode": "apply",
+      "route": "/building-effective-agents",
+      "manifest": {
+        "route": "/building-effective-agents",
+        "sourceUrl": "https://www.aihero.dev/building-effective-agents",
+        "sourceHash": "231bef3b6e950255bed02786be3334a5c6c68ba93d1be77de32738b16492c985",
+        "translationPath": "content/zh/building-effective-agents.md",
+        "translationHash": "5ce05ee6d2097318e648b7be94f0cf93a2e13c2438275eea11bc2490a0a27569",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:55.125Z",
+        "assembly": {
+          "configHash": "f273c87fc83e88311e687ae66b02fd5f1aa6caa25be65e36d092bb9b44dd18f8",
+          "checkedAt": "2026-10-13T12:37:55.125Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/building-effective-agents.md",
+          "sha256": "5ce05ee6d2097318e648b7be94f0cf93a2e13c2438275eea11bc2490a0a27569"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "afe9fc33f57fe95d7886c4230c151b5d4496a8d56a19dd9b95f6612ba41818ad"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0dfdd4badebb7af1ca7cfd823dbc04b344e289ba536aa14ed8923cbd137c5f4c"
+        }
+      ],
+      "rawOutputSha256": "b494e1d9a57b519b37eb4b886ac2760985b8f293add5bcdb9f8c114c4535295d"
+    }
+  ],
+  "nonTargetPagesPreserved": 119
+}

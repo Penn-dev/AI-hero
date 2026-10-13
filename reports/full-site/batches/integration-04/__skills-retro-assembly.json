@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-12/configs/skills-retro.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-retro",
+      "manifest": {
+        "route": "/skills-retro",
+        "sourceUrl": "https://www.aihero.dev/skills-retro",
+        "sourceHash": "a43dee00c077ebce4e43f5ada84b85770df73b2d3ade5a95981f5140e7fe112f",
+        "translationPath": "content/zh/skills-retro.md",
+        "translationHash": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:36.256Z",
+        "assembly": {
+          "configHash": "be4df01df10212265158d53a6a0c2bf99f2a02f1fa359b216630fd175b008f6c",
+          "checkedAt": "2026-10-13T12:37:36.256Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/environment",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-retro.md",
+          "sha256": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "146709242e009a73e93caab8c9ae5c4aa9008bc0d77e1c5481207ca264072301"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d16ea8729536563cee14bf2299071e2033e1681e1530ba83b86bd37ee56ce785"
+        }
+      ],
+      "rawOutputSha256": "7a7dc79dd5a89ddc4506433567d9c1751d4c6643d06abe263430c6ea2f0f736f"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-retro",
+      "manifest": {
+        "route": "/skills-retro",
+        "sourceUrl": "https://www.aihero.dev/skills-retro",
+        "sourceHash": "a43dee00c077ebce4e43f5ada84b85770df73b2d3ade5a95981f5140e7fe112f",
+        "translationPath": "content/zh/skills-retro.md",
+        "translationHash": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:36.506Z",
+        "assembly": {
+          "configHash": "be4df01df10212265158d53a6a0c2bf99f2a02f1fa359b216630fd175b008f6c",
+          "checkedAt": "2026-10-13T12:37:36.506Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/environment",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-retro.md",
+          "sha256": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "146709242e009a73e93caab8c9ae5c4aa9008bc0d77e1c5481207ca264072301"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "033e90a119fb49615c2201041098a5e154f04a2df21e30fd9ca34671e6aa2ede"
+        }
+      ],
+      "rawOutputSha256": "b69e468d1b0f2766b31a40db720acc1059a0ee095516d835f185ef1d82d2f470"
+    }
+  ],
+  "nonTargetPagesPreserved": 110
+}

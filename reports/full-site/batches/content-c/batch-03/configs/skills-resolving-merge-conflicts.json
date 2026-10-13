@@ -1,0 +1,18 @@
+{
+  "route": "/skills-resolving-merge-conflicts",
+  "source": {
+    "path": "content/source/skills-resolving-merge-conflicts.md",
+    "sha256": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-03/drafts/skills-resolving-merge-conflicts.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    }
+  ]
+}

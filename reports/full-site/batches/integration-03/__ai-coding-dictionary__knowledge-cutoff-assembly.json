@@ -1,0 +1,165 @@
+{
+  "config": "reports/full-site/content-a/A11/configs/knowledge-cutoff.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "manifest": {
+        "route": "/ai-coding-dictionary/knowledge-cutoff",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+        "sourceHash": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46",
+        "translationPath": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+        "translationHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:02.893Z",
+        "assembly": {
+          "configHash": "cacbf751833528a59fed8471d5898da80becb06fb5325e3daeb02294e9a34c31",
+          "checkedAt": "2026-10-13T12:19:02.893Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/contextual-knowledge",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parameters",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parametric-knowledge",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/training",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+          "sha256": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "beb88378e786f097f817932c495e4f64767cab84c1988c8105f442a259e8c3f1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "649acb22f05c19a3e39cab16568dd2fcb8b64b8285f692379cf13f2e9b3b3401"
+        }
+      ],
+      "rawOutputSha256": "fb5877c5825650003ff6eeee83de3a7e9a16a81983968830ad14811dc2850a4e"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "manifest": {
+        "route": "/ai-coding-dictionary/knowledge-cutoff",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+        "sourceHash": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46",
+        "translationPath": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+        "translationHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:03.090Z",
+        "assembly": {
+          "configHash": "cacbf751833528a59fed8471d5898da80becb06fb5325e3daeb02294e9a34c31",
+          "checkedAt": "2026-10-13T12:19:03.090Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/contextual-knowledge",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parameters",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parametric-knowledge",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/training",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+          "sha256": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "beb88378e786f097f817932c495e4f64767cab84c1988c8105f442a259e8c3f1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "21db89b918da85b99977236ec9dba16d3b83621b25557069072661fd39b5529b"
+        }
+      ],
+      "rawOutputSha256": "f85c6a9e8400a6faaaec3c91443bca467a4ebd693e6fcacc252e93b795541628"
+    }
+  ],
+  "nonTargetPagesPreserved": 67
+}

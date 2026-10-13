@@ -1,0 +1,115 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-03/configs/skills.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills",
+      "manifest": {
+        "route": "/skills",
+        "sourceUrl": "https://www.aihero.dev/skills",
+        "sourceHash": "5e98f53633747fe3a64f313fbfffa37486ff32aa986c5565f054d2000da1b01c",
+        "translationPath": "content/zh/skills.md",
+        "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:25.816Z",
+        "assembly": {
+          "configHash": "afa8be8565c4baba316a6d9081e654fb775a76cb36df9ce375458a95e78be456",
+          "checkedAt": "2026-10-13T11:56:25.816Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills.md",
+          "sha256": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "38131c2f64df1bb9d003f158f0cfc7fd5b3d378435f453207ae56337e3d72733"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8e4442d6f6fb3750e690bf9d73b5a8d07246489d6d1c821333cfc0e729009f42"
+        }
+      ],
+      "rawOutputSha256": "7428ecddd1c11942319eb161852f76ca3674a52ed3e257c34199b0d7199efa2c"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills",
+      "manifest": {
+        "route": "/skills",
+        "sourceUrl": "https://www.aihero.dev/skills",
+        "sourceHash": "5e98f53633747fe3a64f313fbfffa37486ff32aa986c5565f054d2000da1b01c",
+        "translationPath": "content/zh/skills.md",
+        "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:26.022Z",
+        "assembly": {
+          "configHash": "afa8be8565c4baba316a6d9081e654fb775a76cb36df9ce375458a95e78be456",
+          "checkedAt": "2026-10-13T11:56:26.022Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills.md",
+          "sha256": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "38131c2f64df1bb9d003f158f0cfc7fd5b3d378435f453207ae56337e3d72733"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "dd17d3236f2ffca5abf87ed03042e41e23fee0c7d8544f5cef3309c05e84d5b9"
+        }
+      ],
+      "rawOutputSha256": "6712878e8db8a07285e4182d0ec1809b9bc116085b126c7163e3a8e3879716bf"
+    }
+  ],
+  "nonTargetPagesPreserved": 35
+}

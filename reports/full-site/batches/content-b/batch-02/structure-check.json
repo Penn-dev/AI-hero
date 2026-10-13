@@ -1,0 +1,131 @@
+{
+  "batch": "batch-02",
+  "results": [
+    {
+      "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "sourceHash": "c5585ac7cfc22c4a4c40941343ac04119a28e962bb3f086dd351a95e689f64c6",
+      "translationHash": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 1,
+      "resources": [
+        "https://www.anthropic.com/news/model-context-protocol"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/how-does-the-model-context-protocol-work",
+      "sourceHash": "d1fe112d6c98655fcea48a5ce8e13ad706371ee3305b5c47471fb207ee7da729",
+      "translationHash": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 9,
+      "headings": 7,
+      "resources": [
+        "https://modelcontextprotocol.io/introduction",
+        "http://res.cloudinary.com/total-typescript/image/upload/v1741611370/posts/post_eiesy/n0emq4uuvsykmmqjyxdx.png",
+        "https://claude.ai/download",
+        "https://cursor.sh/",
+        "https://codeium.com/windsurf",
+        "https://modelcontextprotocol.io/introduction"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/logging-a-huge-mcp-footgun",
+      "sourceHash": "eef196ed9aa582bbfcc3ab7c3e5761f264461ce4a57c14a83642a71a925a1767",
+      "translationHash": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 4,
+      "headings": 6,
+      "resources": [
+        "https://modelcontextprotocol.io/docs/concepts/architecture#message-types",
+        "https://www.aihero.dev/discord"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "sourceHash": "484c19f68976cc4aed0121229976cd80169a147181c2a3239c893bdb8339679a",
+      "translationHash": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 6,
+      "headings": 6,
+      "resources": [
+        "https://www.aihero.dev/mcp-server-from-a-single-typescript-file"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/model-context-protocol-tutorial",
+      "sourceHash": "47c89dd78f37236aa983545d5f1440f11ebd3c56b7c05ad9ad8044df6bde0b94",
+      "translationHash": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 0,
+      "resources": [
+        "https://github.com/ai-hero-dev/ai-hero/"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/publish-your-mcp-server-to-npm",
+      "sourceHash": "a9459952cfa26254258dc360cd31a17e54135a0df93098cad256c2b7e933b28b",
+      "translationHash": "2f528062fa9fcd9f42fdc96369373d99519d06197039303569a551d093133a8b",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 7,
+      "headings": 8,
+      "resources": [
+        "/mcp-server-from-a-single-typescript-file",
+        "https://www.aihero.dev/mcp-server-from-a-single-typescript-file",
+        "https://nodejs.org/en",
+        "https://www.totaltypescript.com/how-to-create-an-npm-package",
+        "https://docs.npmjs.com/cli/v8/commands/npx"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/the-problem-with-mcp-stateful-server",
+      "sourceHash": "c507dad06f3bc0d72d9a5c1c60af59882d5c63fe7264b2106491f9ca0d6fe8aa",
+      "translationHash": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 3,
+      "headings": 5,
+      "resources": [
+        "https://www.aihero.dev/serving-mcp-servers-over-http",
+        "https://github.com/vercel-labs/mcp-on-vercel"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/using-mcp-prompts",
+      "sourceHash": "bd0218127fa4a05f739be2f2d169efcadc57b726768760fd5d6025618e36f127",
+      "translationHash": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 7,
+      "headings": 8,
+      "resources": [
+        "/mcp-server-from-a-single-typescript-file",
+        "https://www.aihero.dev/mcp-server-from-a-single-typescript-file",
+        "http://res.cloudinary.com/total-typescript/image/upload/v1741618645/posts/post_k3ou7/ewbqn3782ztrpafxlmdf.png",
+        "http://res.cloudinary.com/total-typescript/image/upload/v1741618644/posts/post_k3ou7/johh2yqdfn6jndtvrk0b.png"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

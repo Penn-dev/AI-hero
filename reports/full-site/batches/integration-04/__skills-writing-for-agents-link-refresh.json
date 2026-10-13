@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-05/configs/skills-writing-for-agents.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-writing-for-agents",
+      "manifest": {
+        "route": "/skills-writing-for-agents",
+        "sourceUrl": "https://www.aihero.dev/skills-writing-for-agents",
+        "sourceHash": "d830a22e3f1590c7a8daa55e69dc85b938f1995097056eb3625abb3ecd8a0544",
+        "translationPath": "content/zh/skills-writing-for-agents.md",
+        "translationHash": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:40.946Z",
+        "assembly": {
+          "configHash": "7156abcc51fcfc58aeb681747014456b3a1c1f9c549833f54551c52c51977060",
+          "checkedAt": "2026-10-13T12:37:40.946Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-writing-for-agents.md",
+          "sha256": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "524580be5bb0e0fa4dbbe23c99b5369b700628de17fb8edf05a7ccb7100b9e31"
+        }
+      ],
+      "rawOutputSha256": "defa21f47104448a09ef666d2aae43583a29bf78d9a6532e9f6a24461ad73107"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-writing-for-agents",
+      "manifest": {
+        "route": "/skills-writing-for-agents",
+        "sourceUrl": "https://www.aihero.dev/skills-writing-for-agents",
+        "sourceHash": "d830a22e3f1590c7a8daa55e69dc85b938f1995097056eb3625abb3ecd8a0544",
+        "translationPath": "content/zh/skills-writing-for-agents.md",
+        "translationHash": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:41.183Z",
+        "assembly": {
+          "configHash": "7156abcc51fcfc58aeb681747014456b3a1c1f9c549833f54551c52c51977060",
+          "checkedAt": "2026-10-13T12:37:41.183Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-writing-for-agents.md",
+          "sha256": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ea3214ba2cbbb4069fdc1af52778cef6d189104d3c8a9d8c1f342e279ab0c4cd"
+        }
+      ],
+      "rawOutputSha256": "bbcc06fafcafeaee4a4e7493c47479a8f7b4530555fa4c842e18187d015ba21d"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

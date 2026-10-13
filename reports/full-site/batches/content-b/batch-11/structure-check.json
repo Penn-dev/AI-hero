@@ -1,0 +1,64 @@
+{
+  "batch": "batch-11",
+  "results": [
+    {
+      "route": "/creating-the-perfect-claude-code-status-line",
+      "sourceHash": "f0d4b3e3484e695416f26c2f6fe9ebb3562891f350fc0d84d7b3eee615742ba4",
+      "translationHash": "c4d73264cfec2f015da8bcb63f78adc3de79cd91b3039f614d833b9d68c6cea6",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 11,
+      "headings": 10,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "sourceHash": "1a5db35027068789365ec4ebffa3e451e37b3d9e5aef22ed2c4d55cabe3db4d6",
+      "translationHash": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 5,
+      "headings": 6,
+      "resources": [
+        "https://gist.github.com/mattpocock/5b3d76ea21f5f698aefded47a9cea3b1",
+        "/skills-setup-matt-pocock-skills",
+        "https://www.aihero.dev/skills-setup-matt-pocock-skills"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/never-run-claude-init",
+      "sourceHash": "8834ce41ac3d5bb27a9ceb4ccc89b7e690e20052fa2c2ebf5de3d2deadbb5e82",
+      "translationHash": "f79fd9a8e8f3985d66b4c05c0a0533e0d8c3ec5f734fca58046232320582e09d",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 2,
+      "headings": 9,
+      "resources": [
+        "https://arxiv.org/abs/2602.11988",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1771927533/ai-hero-images/hwhcoa9x5eg2acootps1.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1771927533/ai-hero-images/l9gyebsbhaf0fmhql96c.png"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/real-world-feature-build-with-claude-code",
+      "sourceHash": "d754b4f9de4b334c03a3b9704b333d5f1d610487703e487dbdab841a820f1cfc",
+      "translationHash": "4e9c84ff5e367d8c2101004197cd86f40939a6f2824aa3c5d25c4a5797b930a8",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 0,
+      "resources": [
+        "https://www.aihero.dev/cohorts/claude-code-for-real-engineers-2026-04",
+        "https://www.aihero.dev/real-world-feature-build-with-claude-code"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

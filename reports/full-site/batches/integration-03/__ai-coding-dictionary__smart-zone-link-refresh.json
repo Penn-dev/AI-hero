@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A09/configs/smart-zone.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/smart-zone",
+      "manifest": {
+        "route": "/ai-coding-dictionary/smart-zone",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+        "sourceHash": "89e7f3a6e7d2660d3305269ad0d1a150a7860cf8987b0c2c79fc5476c0f6fb5f",
+        "translationPath": "content/zh/ai-coding-dictionary/smart-zone.md",
+        "translationHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:23.946Z",
+        "assembly": {
+          "configHash": "3b25420ea2f577912ea48e2a63ae7ab0d3a03e9b26b82808369fd2839f064a18",
+          "checkedAt": "2026-10-13T12:19:23.946Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/smart-zone.md",
+          "sha256": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "70f642572885f0b4a048c906512d46ae2009cc61e845b4714ee059cdfdb56e6c"
+        }
+      ],
+      "rawOutputSha256": "aea5c0632ef387206730937706528ce92dddb0c51d0059dbeafe93f7739f3ac0"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/smart-zone",
+      "manifest": {
+        "route": "/ai-coding-dictionary/smart-zone",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+        "sourceHash": "89e7f3a6e7d2660d3305269ad0d1a150a7860cf8987b0c2c79fc5476c0f6fb5f",
+        "translationPath": "content/zh/ai-coding-dictionary/smart-zone.md",
+        "translationHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:24.146Z",
+        "assembly": {
+          "configHash": "3b25420ea2f577912ea48e2a63ae7ab0d3a03e9b26b82808369fd2839f064a18",
+          "checkedAt": "2026-10-13T12:19:24.146Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/smart-zone.md",
+          "sha256": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "968eb4a819a5e8ae46d2360af1222317d177aae87ed40c007b01abd776b321a0"
+        }
+      ],
+      "rawOutputSha256": "af6556137a4decc77eb7497f095bf2ee6ccaa86b253898d0b976b3dfe62702b5"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-02/configs/skills-wait-what.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-wait-what",
+      "manifest": {
+        "route": "/skills-wait-what",
+        "sourceUrl": "https://www.aihero.dev/skills-wait-what",
+        "sourceHash": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5",
+        "translationPath": "content/zh/skills-wait-what.md",
+        "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:24.458Z",
+        "assembly": {
+          "configHash": "5e8e86687f2cddcd6e430dc7faa41f14beaf05b38623506603b685f03886e0fa",
+          "checkedAt": "2026-10-13T11:56:24.458Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/agent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-wait-what.md",
+          "sha256": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "1b411f35ac32a283d56e12093ce8fdba4eeddfe089a2caa2560224987f577d74"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "9e76a32b235fe333597c7a71ed68718e73a7ee6d5e094643d8d21c646d9ffac0"
+        }
+      ],
+      "rawOutputSha256": "1b6e784268ce33fbef9c5bb087e1dac840c07d4ab57ba8cbdefa07f00edb500e"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-wait-what",
+      "manifest": {
+        "route": "/skills-wait-what",
+        "sourceUrl": "https://www.aihero.dev/skills-wait-what",
+        "sourceHash": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5",
+        "translationPath": "content/zh/skills-wait-what.md",
+        "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:24.683Z",
+        "assembly": {
+          "configHash": "5e8e86687f2cddcd6e430dc7faa41f14beaf05b38623506603b685f03886e0fa",
+          "checkedAt": "2026-10-13T11:56:24.683Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/agent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-wait-what.md",
+          "sha256": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "1b411f35ac32a283d56e12093ce8fdba4eeddfe089a2caa2560224987f577d74"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e3c61f4676d0754f273765438759ff0840351144ed52cfcc94f3071c74a0fd5c"
+        }
+      ],
+      "rawOutputSha256": "fb07e230fc02118a7aa06ab58b9b5d70373dae36e91ef72042ac51b98a558025"
+    }
+  ],
+  "nonTargetPagesPreserved": 32
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-04/configs/ai-engineer-roadmap.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-engineer-roadmap",
+      "manifest": {
+        "route": "/ai-engineer-roadmap",
+        "sourceUrl": "https://www.aihero.dev/ai-engineer-roadmap",
+        "sourceHash": "32552be89fe5159b367e64dc20745e0caa30180b9b3293594e7aacf28a73ec19",
+        "translationPath": "content/zh/ai-engineer-roadmap.md",
+        "translationHash": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:12.732Z",
+        "assembly": {
+          "configHash": "aa2ecc27e9d08c57ee8dde8c64e619f98d8f0bc059f893a18c9f479d76306956",
+          "checkedAt": "2026-10-13T12:38:12.732Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-engineer-roadmap.md",
+          "sha256": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f1e3fdebd6128becc1ccb44b8f008414b416dd4528662794783c2ae795c1c77f"
+        }
+      ],
+      "rawOutputSha256": "c94519821dce33b0d906b8487f70e4ffe5d47183c07a27f4d17aa5d42b5f1112"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-engineer-roadmap",
+      "manifest": {
+        "route": "/ai-engineer-roadmap",
+        "sourceUrl": "https://www.aihero.dev/ai-engineer-roadmap",
+        "sourceHash": "32552be89fe5159b367e64dc20745e0caa30180b9b3293594e7aacf28a73ec19",
+        "translationPath": "content/zh/ai-engineer-roadmap.md",
+        "translationHash": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:12.956Z",
+        "assembly": {
+          "configHash": "aa2ecc27e9d08c57ee8dde8c64e619f98d8f0bc059f893a18c9f479d76306956",
+          "checkedAt": "2026-10-13T12:38:12.956Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-engineer-roadmap.md",
+          "sha256": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "aa510a034d44c458b2cf25e59dc22a3975cba2d49d167ff22d53427fe701109c"
+        }
+      ],
+      "rawOutputSha256": "6a14c756670e47a9b255fdeb6eae49d7875a9e4e52197c2c6a49d7693eff7e01"
+    }
+  ],
+  "nonTargetPagesPreserved": 150
+}

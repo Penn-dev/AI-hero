@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-06/configs/skills-to-questionnaire.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-to-questionnaire",
+      "manifest": {
+        "route": "/skills-to-questionnaire",
+        "sourceUrl": "https://www.aihero.dev/skills-to-questionnaire",
+        "sourceHash": "c051d0d023f88945c673d7b0490c66e2786dd42702cbab363d3f542e5a4f6933",
+        "translationPath": "content/zh/skills-to-questionnaire.md",
+        "translationHash": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:30.064Z",
+        "assembly": {
+          "configHash": "9488ba8571c05f64f1c33c75aaf30a2d44a543e00ac481c6e1101672511c52a8",
+          "checkedAt": "2026-10-13T12:37:30.064Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-to-questionnaire.md",
+          "sha256": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "2b6d00ebbc7d2c1ce338f79310f80c01e0bf16d44d0610dcc1be430cd2aeece1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "917af9297dd3f8aa02a7a1b849fe7bb6eaa9dcbc4fc8d2b5d4c5f7f4ccece823"
+        }
+      ],
+      "rawOutputSha256": "577503f0bd4072917ec693bed6d07ed34945d426a3058a62f3863328fa6f97a4"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-to-questionnaire",
+      "manifest": {
+        "route": "/skills-to-questionnaire",
+        "sourceUrl": "https://www.aihero.dev/skills-to-questionnaire",
+        "sourceHash": "c051d0d023f88945c673d7b0490c66e2786dd42702cbab363d3f542e5a4f6933",
+        "translationPath": "content/zh/skills-to-questionnaire.md",
+        "translationHash": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:30.323Z",
+        "assembly": {
+          "configHash": "9488ba8571c05f64f1c33c75aaf30a2d44a543e00ac481c6e1101672511c52a8",
+          "checkedAt": "2026-10-13T12:37:30.323Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-to-questionnaire.md",
+          "sha256": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "2b6d00ebbc7d2c1ce338f79310f80c01e0bf16d44d0610dcc1be430cd2aeece1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d9f3a15d96260b358183f1fac88257e106a4125f170f5f8865a2b7afb7d1cc54"
+        }
+      ],
+      "rawOutputSha256": "902d0f153198b61ac1a8b306de12a19e52107cd99655a5cb3c22b5c95045a132"
+    }
+  ],
+  "nonTargetPagesPreserved": 99
+}

@@ -1,0 +1,62 @@
+{
+  "batch": "batch-01",
+  "results": [
+    {
+      "route": "/what-are-tokens",
+      "sourceHash": "2a64fce2291858c58f05526228e575cd323663e0ca3a2dfbaed87ce3fe591013",
+      "translationHash": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 1,
+      "headings": 6,
+      "resources": [
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238445/ai-hero-images/vqsgrg2rv79rqgxhvsmc.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238446/ai-hero-images/t4k9fszkfkcbm1mrthwj.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238447/ai-hero-images/hs0gx3ozagimhl5xunxn.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238448/ai-hero-images/ekv9gq9bvk9efycqow1p.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238449/ai-hero-images/mcsd9qzjf4cz1ulsrblz.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238450/ai-hero-images/pcnihurikeetpfh01xss.png",
+        "https://tiktokenizer.vercel.app/"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/what-is-an-llm",
+      "sourceHash": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
+      "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 8,
+      "headings": 10,
+      "resources": [
+        "https://bbycroft.net/llm",
+        "https://tiktokenizer.vercel.app/",
+        "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+        "https://www.youtube.com/watch?v=EWvNQjAaOHw",
+        "https://www.anthropic.com/research/tracing-thoughts-language-model",
+        "https://www.anthropic.com/news/golden-gate-claude"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/what-is-the-context-window",
+      "sourceHash": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3",
+      "translationHash": "4fb8555b800741de5f4939fdc6da0f9e98747dcddcbf124b01d09be64db0edc7",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 3,
+      "resources": [
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238354/ai-hero-images/nyjlgxjqmdmtqs0xdpvj.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238355/ai-hero-images/fwyqrzkkfbssgsccdkbw.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238355/ai-hero-images/ajvif8zc1xngsfw9kkll.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238357/ai-hero-images/ya7z2gxgzloavsm8vxmv.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238358/ai-hero-images/g7dxrlbemjmc7prdipci.png"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

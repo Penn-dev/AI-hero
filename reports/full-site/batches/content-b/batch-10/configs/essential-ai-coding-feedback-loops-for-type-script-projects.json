@@ -1,0 +1,15 @@
+{
+  "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+  "source": {
+    "path": "content/source/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+    "sha256": "a40c2bb8ea0b2642d26f46d1263d8b42f69060efeabd09f7b61b77af5169b75f"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-10/drafts/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+  "translationPath": "content/zh/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+  "linkTargets": [
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "state": "available-chinese"
+    }
+  ]
+}

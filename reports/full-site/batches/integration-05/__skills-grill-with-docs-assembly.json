@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-16/configs/skills-grill-with-docs.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-grill-with-docs",
+      "manifest": {
+        "route": "/skills-grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/skills-grill-with-docs",
+        "sourceHash": "7d562414cab61c24ebfed9382dcb18844240e3f30760ef7c3e4865fcff0f1a90",
+        "translationPath": "content/zh/skills-grill-with-docs.md",
+        "translationHash": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:31.817Z",
+        "assembly": {
+          "configHash": "90df75559b643238429c590a54639218eb46df636c54aa391282f9fa43c7e459",
+          "checkedAt": "2026-10-13T13:02:31.817Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/stateful",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-grill-with-docs.md",
+          "sha256": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "2d44a51c8f1990edb8e32384b651ba85c55360464866c8b3e611a986d0e64d1c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "99c3ebb8f4c767fb58c6397106c3b7de2c78928c8f58cffae64829debf7b5d9c"
+        }
+      ],
+      "rawOutputSha256": "c905c25d968153ec33cd1e16609699fe0deb382e89c1a6c5e642b0b7183789d6"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-grill-with-docs",
+      "manifest": {
+        "route": "/skills-grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/skills-grill-with-docs",
+        "sourceHash": "7d562414cab61c24ebfed9382dcb18844240e3f30760ef7c3e4865fcff0f1a90",
+        "translationPath": "content/zh/skills-grill-with-docs.md",
+        "translationHash": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:32.091Z",
+        "assembly": {
+          "configHash": "90df75559b643238429c590a54639218eb46df636c54aa391282f9fa43c7e459",
+          "checkedAt": "2026-10-13T13:02:32.091Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/stateful",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-grill-with-docs.md",
+          "sha256": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "2d44a51c8f1990edb8e32384b651ba85c55360464866c8b3e611a986d0e64d1c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e2f61d5285514ffa6b081b9f77a764e6b1e6037efdd63b0baed419773782b8e4"
+        }
+      ],
+      "rawOutputSha256": "45e92a2f6b1be045149bfa83699b019ee23aa87a03eba2c70e1689a56e4b1148"
+    }
+  ],
+  "nonTargetPagesPreserved": 157
+}

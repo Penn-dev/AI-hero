@@ -1,0 +1,9 @@
+{
+  "route": "/agents-with-vercel-ai-sdk",
+  "source": {
+    "path": "content/source/agents-with-vercel-ai-sdk.md",
+    "sha256": "9e004adff22f10204d7f6439510872e0490888d1363426a013cd8457395014c1"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-07/drafts/agents-with-vercel-ai-sdk.md",
+  "translationPath": "content/zh/agents-with-vercel-ai-sdk.md"
+}

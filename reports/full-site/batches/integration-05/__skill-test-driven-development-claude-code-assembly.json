@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-13/configs/skill-test-driven-development-claude-code.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skill-test-driven-development-claude-code",
+      "manifest": {
+        "route": "/skill-test-driven-development-claude-code",
+        "sourceUrl": "https://www.aihero.dev/skill-test-driven-development-claude-code",
+        "sourceHash": "2587e7691b7370e55f1bb3f5bf4c7874e080784d6d99a97d4c04245f61ac2232",
+        "translationPath": "content/zh/skill-test-driven-development-claude-code.md",
+        "translationHash": "cb73062f5f3b4835dd2fc1e91c3713066063fdc56ed5fe1514d9a9c3b2ad7a36",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:36.276Z",
+        "assembly": {
+          "configHash": "1da63e94eaeaff7e2eb44f6dc9c12a9a474f87d9a3223cee784d34dd2a77b0ba",
+          "checkedAt": "2026-10-13T13:04:36.276Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skill-test-driven-development-claude-code.md",
+          "sha256": "cb73062f5f3b4835dd2fc1e91c3713066063fdc56ed5fe1514d9a9c3b2ad7a36"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "7ebe959de656fce2d69bbf03336c332a7785c006bc8d2d30fe77a116f72bc3aa"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "512b9a5d0aa21405ac783c1024bb2f369342f1b71112692e8370abc984140fc8"
+        }
+      ],
+      "rawOutputSha256": "a6405a71fc637a7358af535dc802fc6330487652d89970880b51e11f1a32c225"
+    },
+    {
+      "mode": "apply",
+      "route": "/skill-test-driven-development-claude-code",
+      "manifest": {
+        "route": "/skill-test-driven-development-claude-code",
+        "sourceUrl": "https://www.aihero.dev/skill-test-driven-development-claude-code",
+        "sourceHash": "2587e7691b7370e55f1bb3f5bf4c7874e080784d6d99a97d4c04245f61ac2232",
+        "translationPath": "content/zh/skill-test-driven-development-claude-code.md",
+        "translationHash": "cb73062f5f3b4835dd2fc1e91c3713066063fdc56ed5fe1514d9a9c3b2ad7a36",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:36.535Z",
+        "assembly": {
+          "configHash": "1da63e94eaeaff7e2eb44f6dc9c12a9a474f87d9a3223cee784d34dd2a77b0ba",
+          "checkedAt": "2026-10-13T13:04:36.535Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skill-test-driven-development-claude-code.md",
+          "sha256": "cb73062f5f3b4835dd2fc1e91c3713066063fdc56ed5fe1514d9a9c3b2ad7a36"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "7ebe959de656fce2d69bbf03336c332a7785c006bc8d2d30fe77a116f72bc3aa"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "9c7fdf016ed582907f93b67d36666cb20303f4b4135b152c7d0fc608d16a9144"
+        }
+      ],
+      "rawOutputSha256": "7960b69c103374bfd557cb3ae931e6f6e7a17a3478d563d4d7eb98eb0f450248"
+    }
+  ],
+  "nonTargetPagesPreserved": 184
+}

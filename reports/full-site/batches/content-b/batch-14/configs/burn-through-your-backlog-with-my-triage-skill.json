@@ -1,0 +1,75 @@
+{
+  "route": "/burn-through-your-backlog-with-my-triage-skill",
+  "source": {
+    "path": "content/source/burn-through-your-backlog-with-my-triage-skill.md",
+    "sha256": "62b670caa860ccda0ca82c683536c48c6969dccc89770da11d06f8d8fdf948de"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-14/drafts/burn-through-your-backlog-with-my-triage-skill.md",
+  "translationPath": "content/zh/burn-through-your-backlog-with-my-triage-skill.md",
+  "linkTargets": [
+    {
+      "route": "/skills-to-tickets",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-grill-with-docs",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-to-spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-diagnosing-bugs",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-setup-matt-pocock-skills",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-implement",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-domain-modeling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-ask-matt",
+      "state": "available-chinese"
+    }
+  ]
+}

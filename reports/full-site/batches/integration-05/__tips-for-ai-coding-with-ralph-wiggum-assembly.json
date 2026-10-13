@@ -1,0 +1,115 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-15/configs/tips-for-ai-coding-with-ralph-wiggum.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "manifest": {
+        "route": "/tips-for-ai-coding-with-ralph-wiggum",
+        "sourceUrl": "https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum",
+        "sourceHash": "6c2eac9161d4a74ab6239dfbacbde674ccfbf328486f177444fa359f59137462",
+        "translationPath": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+        "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:52.309Z",
+        "assembly": {
+          "configHash": "021e5ba87e250e796560bd140a255a5a2aed16a3fa6f3f751559cba51c288b90",
+          "checkedAt": "2026-10-13T13:07:52.309Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            },
+            {
+              "route": "/newsletter",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+          "sha256": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a9f5d592ca8fb5be2c69b93b2a7ea9a910a3974094733a8e4dff144a291553db"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f7028d952996a1b61052a7e997b9b32df94c09f94a8162508835d60d68fa98d6"
+        }
+      ],
+      "rawOutputSha256": "e83aa2de210e861af494a402532d85724fee3f4990cb13208c4cea075f2c382e"
+    },
+    {
+      "mode": "apply",
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "manifest": {
+        "route": "/tips-for-ai-coding-with-ralph-wiggum",
+        "sourceUrl": "https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum",
+        "sourceHash": "6c2eac9161d4a74ab6239dfbacbde674ccfbf328486f177444fa359f59137462",
+        "translationPath": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+        "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:52.710Z",
+        "assembly": {
+          "configHash": "021e5ba87e250e796560bd140a255a5a2aed16a3fa6f3f751559cba51c288b90",
+          "checkedAt": "2026-10-13T13:07:52.710Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            },
+            {
+              "route": "/newsletter",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+          "sha256": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a9f5d592ca8fb5be2c69b93b2a7ea9a910a3974094733a8e4dff144a291553db"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "3bac6ceef5539e1d92e415b1fe30eff1e3b0cbb25fce97159b11b8626f9cccff"
+        }
+      ],
+      "rawOutputSha256": "57991e7b51e9fce459308758c4e855af5c1ec6dbc3dd1131fca6604422c713c5"
+    }
+  ],
+  "nonTargetPagesPreserved": 193
+}

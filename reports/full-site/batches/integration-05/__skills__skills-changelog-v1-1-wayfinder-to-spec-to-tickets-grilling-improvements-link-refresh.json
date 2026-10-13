@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-21/configs/skills__skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "manifest": {
+        "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+        "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+        "translationPath": "content/zh/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+        "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:44.953Z",
+        "assembly": {
+          "configHash": "db45d671bf8cc81056be585f5b59878beb57b74d1c883efc9339970f1cd532f2",
+          "checkedAt": "2026-10-13T13:02:44.953Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+          "sha256": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d5ec6cfb5450e5c4b0fe3b198aa2d33d47903557978884c43b457edea9bb8d60"
+        }
+      ],
+      "rawOutputSha256": "45bd6cb3bc1c844a2ff52e9fe3b3bf1718c1f214d12d20538a3c0f48332a4d43"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "manifest": {
+        "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+        "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+        "translationPath": "content/zh/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+        "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:45.224Z",
+        "assembly": {
+          "configHash": "db45d671bf8cc81056be585f5b59878beb57b74d1c883efc9339970f1cd532f2",
+          "checkedAt": "2026-10-13T13:02:45.224Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+          "sha256": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "68d0a2e61c9f03cff37363275e3b5b3867e256c0caf1848f7249b504f52f4a01"
+        }
+      ],
+      "rawOutputSha256": "0724024a1f83b331544245c4413d91e330d8cafd916db3e1886ea933c397691b"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

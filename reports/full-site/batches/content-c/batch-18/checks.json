@@ -1,0 +1,40 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-triage",
+      "sourcePath": "content/source/skills-triage.md",
+      "sourceHash": "52c5c6b3c93fd68b00abfc0f22e51f138afc532852a73ca0122a08addbdd8730",
+      "chineseFile": "reports/full-site/batches/content-c/batch-18/drafts/skills-triage.md",
+      "translationHash": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "全文逐节核对所有表格/问答，保留只处理外来工作、建议后等待、两类五状态、三种wontfix及按概念存拒绝记录、先验证再brief、PR发现过滤与显式点名区别、状态缺口和评论未读风险。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "完整通读，agent brief 为执行说明，类别与状态角色清楚区分；保留原作者对自己创建任务不再triage的强限制。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "解释状态机及概念匹配原例，补ticket/AFK/context中文入口；未把文档描述视为实际执行授权。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "所有原标签/路径/CLI/披露语/行内技术值及URL保留；三条调用请求和show what needs attention英文配完整中文Prompt；英文状态评论例配中文理解。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 23
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未发布/变更外部任务，未核查最新缺陷状态；中文导航 planned 待工程刷新。"
+      ]
+    }
+  ]
+}

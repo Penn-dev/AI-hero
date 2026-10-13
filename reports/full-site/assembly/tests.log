@@ -1,0 +1,47 @@
+
+> sites-project@0.1.0 page:test
+> node --test scripts/assemble-page.test.mjs
+
+✔ ordinary article previews without writing, then assembles through the existing index (210.0793ms)
+✔ optional learning profile uses the current knowledge file without replacing shared records (123.4154ms)
+✔ incorrect source hash fails before any write in preview and apply (17.5728ms)
+▶ invalid route, source path, output path and learning config fail without writes
+  ✔ source route mismatch (16.3845ms)
+  ✔ unsafe route (11.5429ms)
+  ✔ unsafe output (32.2745ms)
+  ✔ unknown config field (11.2833ms)
+  ✔ invalid learning kind (28.4244ms)
+  ✔ invalid learning cards (22.9259ms)
+✔ invalid route, source path, output path and learning config fail without writes (124.0227ms)
+✔ an available Chinese link whose indexed body is empty is rejected before writing (26.4488ms)
+✔ unfinished batch targets are explicitly recorded while available targets must still be valid (127.4185ms)
+✔ Chinese Prompt can be appended, but changing the English Prompt is rejected without writes (156.9977ms)
+▶ content structure, original inline code, resources and renderer support are checked before writes
+  ✔ missing heading (42.171ms)
+  ✔ missing inline code (24.413ms)
+  ✔ missing resource (19.4383ms)
+  ✔ unknown MDX (21.6868ms)
+  ✔ JavaScript expression (22.1451ms)
+  ✔ unmarked new code (20.7793ms)
+✔ content structure, original inline code, resources and renderer support are checked before writes (151.7454ms)
+✔ a filesystem failure after target replacement restores every file, including the previous translation (163.9076ms)
+✔ a target cannot overwrite another page translation or shared knowledge source (24.6179ms)
+✔ updating one of seventeen pages preserves the other sixteen pages and refreshes only its translation source (203.713ms)
+✔ content validation checks every renderable translation status, file hash and indexed body (134.1175ms)
+✔ available Chinese targets are checked against their files and manifest, not just a nonempty index (26.7231ms)
+✔ unsafe symlink destinations fail during preview as well as apply (24.1187ms)
+✔ invalid auxiliary source hashes and changes to another page source are refused (21.8038ms)
+✔ interrupted writes keep a recovery journal and can restore the original files explicitly (156.4977ms)
+✔ a symlink within the workspace cannot redirect translation writes into source files (20.4862ms)
+✔ the actual existing site index and all seventeen manifest records survive adding an ordinary fixture page (135.5058ms)
+✔ shared records changed during preparation are preserved instead of overwritten by a stale plan (40.3261ms)
+✔ an auxiliary source used by another page cannot be silently replaced (24.5392ms)
+✔ changing the target translation path keeps its existing profile pointed at the newly assembled file (216.7529ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2383.3797

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-02/configs/model-context-protocol-tutorial.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/model-context-protocol-tutorial",
+      "manifest": {
+        "route": "/model-context-protocol-tutorial",
+        "sourceUrl": "https://www.aihero.dev/model-context-protocol-tutorial",
+        "sourceHash": "47c89dd78f37236aa983545d5f1440f11ebd3c56b7c05ad9ad8044df6bde0b94",
+        "translationPath": "content/zh/model-context-protocol-tutorial.md",
+        "translationHash": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:21.766Z",
+        "assembly": {
+          "configHash": "0c976d0a9b43f298859abd646593396f675ea628413247726b72da07612ad5f3",
+          "checkedAt": "2026-10-13T11:56:21.766Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/model-context-protocol-tutorial.md",
+          "sha256": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "845cef26120d6ad47538863de7561a0919034996e59417693806508c7268eea1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "971d1a8a33dbf17e256127ee97fe0d541dca1359cac274f391d5f2fdc13eb4fa"
+        }
+      ],
+      "rawOutputSha256": "04136afb92c3b2241a3475126fb00b480c439c54f360c335540e006a1095ed4c"
+    },
+    {
+      "mode": "apply",
+      "route": "/model-context-protocol-tutorial",
+      "manifest": {
+        "route": "/model-context-protocol-tutorial",
+        "sourceUrl": "https://www.aihero.dev/model-context-protocol-tutorial",
+        "sourceHash": "47c89dd78f37236aa983545d5f1440f11ebd3c56b7c05ad9ad8044df6bde0b94",
+        "translationPath": "content/zh/model-context-protocol-tutorial.md",
+        "translationHash": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:21.947Z",
+        "assembly": {
+          "configHash": "0c976d0a9b43f298859abd646593396f675ea628413247726b72da07612ad5f3",
+          "checkedAt": "2026-10-13T11:56:21.947Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/model-context-protocol-tutorial.md",
+          "sha256": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "845cef26120d6ad47538863de7561a0919034996e59417693806508c7268eea1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f2b4fb4b9c769be55fabe6644ebe660725bf5043c30a6ef97717c5f02b5658a6"
+        }
+      ],
+      "rawOutputSha256": "8302b2fb1091c4980ce804e27d1de58b4a6a7711e3022fb6e2373d1bbf755dc1"
+    }
+  ],
+  "nonTargetPagesPreserved": 28
+}

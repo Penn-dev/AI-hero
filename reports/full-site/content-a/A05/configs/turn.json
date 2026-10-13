@@ -1,0 +1,38 @@
+{
+  "route": "/ai-coding-dictionary/turn",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/turn.md",
+    "sha256": "4976a69badb154f1c5412701e7bf657594359cecb204191cb9c273f2e0a79402"
+  },
+  "chineseFile": "reports/full-site/content-a/A05/drafts/turn.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "available-chinese"
+    }
+  ]
+}

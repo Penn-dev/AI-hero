@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-08/configs/2025-the-year-building-with-gen-ais-gets-boring~d53hd.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "manifest": {
+        "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+        "sourceUrl": "https://www.aihero.dev/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+        "sourceHash": "f5c7c3b1930d5c9ae4af3048ad4c787b9ccd9913ed5d4310ee0b13a8e0b6b1f6",
+        "translationPath": "content/zh/2025-the-year-building-with-gen-ais-gets-boring~d53hd.md",
+        "translationHash": "25461d617ac01914fa27ace477c3a0c07b5cf35c03ff04d034eb5fbeb6a42085",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:07.581Z",
+        "assembly": {
+          "configHash": "599f413a886bd1ce4ca91c53e6a6607f1bf6073f4567b2f3d422356d37019a52",
+          "checkedAt": "2026-10-13T12:38:07.581Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/2025-the-year-building-with-gen-ais-gets-boring~d53hd.md",
+          "sha256": "25461d617ac01914fa27ace477c3a0c07b5cf35c03ff04d034eb5fbeb6a42085"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ba4145a9e185cd85282cf1f8f761a1cbb0eaf2d32c38a580120190f7213c9d01"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "bda75745c1c1503fb743ae33d3387849b1492dd3741a762a181833375fc51338"
+        }
+      ],
+      "rawOutputSha256": "7126c084d70b1f0191fdaf36da5421c6b8781730c58def2ffde57527fa4958e3"
+    },
+    {
+      "mode": "apply",
+      "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "manifest": {
+        "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+        "sourceUrl": "https://www.aihero.dev/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+        "sourceHash": "f5c7c3b1930d5c9ae4af3048ad4c787b9ccd9913ed5d4310ee0b13a8e0b6b1f6",
+        "translationPath": "content/zh/2025-the-year-building-with-gen-ais-gets-boring~d53hd.md",
+        "translationHash": "25461d617ac01914fa27ace477c3a0c07b5cf35c03ff04d034eb5fbeb6a42085",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:07.780Z",
+        "assembly": {
+          "configHash": "599f413a886bd1ce4ca91c53e6a6607f1bf6073f4567b2f3d422356d37019a52",
+          "checkedAt": "2026-10-13T12:38:07.780Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/2025-the-year-building-with-gen-ais-gets-boring~d53hd.md",
+          "sha256": "25461d617ac01914fa27ace477c3a0c07b5cf35c03ff04d034eb5fbeb6a42085"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ba4145a9e185cd85282cf1f8f761a1cbb0eaf2d32c38a580120190f7213c9d01"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "db33cf63818a28a69d450f7cc1fae4f293a71a141ef08bb3f109b94b7b931a38"
+        }
+      ],
+      "rawOutputSha256": "268e690fe3df9aba97e32c6d1081fb2aca12fb900957c9c3d07100d7fe392f19"
+    }
+  ],
+  "nonTargetPagesPreserved": 145
+}

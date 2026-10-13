@@ -1,0 +1,15 @@
+{
+  "route": "/streaming-text-with-vercel-ai-sdk",
+  "source": {
+    "path": "content/source/streaming-text-with-vercel-ai-sdk.md",
+    "sha256": "b7be79753832f1d6087f99f18cee294aff7541ddf54407e1c087d1f437a334cf"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-05/drafts/streaming-text-with-vercel-ai-sdk.md",
+  "translationPath": "content/zh/streaming-text-with-vercel-ai-sdk.md",
+  "linkTargets": [
+    {
+      "route": "/generate-text-with-vercel-ai-sdk",
+      "state": "available-chinese"
+    }
+  ]
+}

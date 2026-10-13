@@ -1,0 +1,19 @@
+{
+  "route": "/getting-started-with-ralph",
+  "source": {
+    "path": "content/source/getting-started-with-ralph.md",
+    "sha256": "a4245d94257f1bd1dded562a619df5fd963c5cdc38590b6b027466f3a87fab13"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-15/drafts/getting-started-with-ralph.md",
+  "translationPath": "content/zh/getting-started-with-ralph.md",
+  "linkTargets": [
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/newsletter",
+      "state": "available-chinese"
+    }
+  ]
+}

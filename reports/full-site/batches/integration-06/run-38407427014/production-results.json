@@ -1,0 +1,878 @@
+{
+  "batch": "integration-06-targeted-home-and-chinese-anchors",
+  "commit": "f5d86e68cfbd48fb66e91245ffcdf1db7a746066",
+  "runId": "38407427014",
+  "scope": "Actual assembled production pages and content-specific structures; reuses unchanged sample interaction evidence. Not semantic review or tutorial execution.",
+  "startedAt": "2026-10-13T13:45:30.714Z",
+  "pages": [
+    {
+      "id": "tips-for-ai-coding-with-ralph-wiggum",
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: main-body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: table-2",
+        "Visible content-specific structure: table-3",
+        "Visible content-specific structure: table-4",
+        "Visible content-specific structure: table-5",
+        "Visible content-specific structure: table-6",
+        "Visible content-specific structure: table-7",
+        "Visible content-specific structure: table-8",
+        "Visible content-specific structure: code-example",
+        "Visible content-specific structure: last-code-example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Cold-open and refresh original anchor: 1-ralph-本质上是一个循环",
+        "Cold-open and refresh original anchor: 2-先用-hitl-再转-afk",
+        "Cold-open and refresh original anchor: 3-界定范围",
+        "Cold-open and refresh original anchor: 4-追踪-ralph-的进度",
+        "Cold-open and refresh original anchor: 5-使用反馈循环",
+        "Cold-open and refresh original anchor: 6-小步推进",
+        "Cold-open and refresh original anchor: 7-优先处理高风险任务",
+        "Cold-open and refresh original anchor: 8-明确软件质量标准",
+        "Cold-open and refresh original anchor: 9-使用-docker-沙箱",
+        "Cold-open and refresh original anchor: 10-为能力付费",
+        "Cold-open and refresh original anchor: 11-按自己的方式改造",
+        "Actual Chinese concept link click: /getting-started-with-ralph",
+        "Actual Chinese concept link click: /newsletter",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 8,
+          "sha256": "fa901288cf3beab1f26db4bdd88ac556460b9d1188c7ac98efadd14370415718",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 10,
+          "sha256": "376373c8e0c9a1ddfdcf1c96c89ae8734b83000c6105d009b367156b193a7333",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 6,
+          "sha256": "5e1af8d83a27309e610d5228c813c8831f285d4022865b91b74b73c8fca85a79",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 916,
+          "sha256": "a306b043ec8a8fe3f64c287202b90a38fa781e9b348d882b7f5359fa18204e82",
+          "match": true
+        },
+        {
+          "block": 5,
+          "chars": 199,
+          "sha256": "9ec46189b3f7a81cb993b1f504ec8ffb285ab877acf556c374a91ae7af95fe09",
+          "match": true
+        },
+        {
+          "block": 6,
+          "chars": 258,
+          "sha256": "a3cf3c72f6a846887a8efdb0acd726ac6c99bcfa60f5b88b2cd4eb7d8d6b0835",
+          "match": true
+        },
+        {
+          "block": 7,
+          "chars": 163,
+          "sha256": "2b097cccdefa9d8d83653a3637ed5c2887cf4bf962a52195f7c909bde317195f",
+          "match": true
+        },
+        {
+          "block": 8,
+          "chars": 8,
+          "sha256": "f24b2f25359d9822bbe40b873ff87c33dc0e716eddfe086623b6042d93f18c9d",
+          "match": true
+        },
+        {
+          "block": 9,
+          "chars": 195,
+          "sha256": "d44d2433be2e757a15063cacf39380e4393a47b0d9888ccadb92e692bd56ab2a",
+          "match": true
+        },
+        {
+          "block": 10,
+          "chars": 102,
+          "sha256": "4e57dcbc06ef1562c952f0bae539e5bde0e7cff4b734de720c040d7f574e36f1",
+          "match": true
+        },
+        {
+          "block": 11,
+          "chars": 304,
+          "sha256": "d1d0cc70897a4063571e5f8ad23290d025eab5b58a9adb280289ead7ee4d8420",
+          "match": true
+        },
+        {
+          "block": 12,
+          "chars": 122,
+          "sha256": "47118ab226d2e8099cfaa2b081c6c40f31fa80faa7245d23fa5e8e112125bfbc",
+          "match": true
+        },
+        {
+          "block": 13,
+          "chars": 231,
+          "sha256": "7146fb0a5ca780c742632005aaa00b9f8d5dac744a2b29f66422376c3f631769",
+          "match": true
+        },
+        {
+          "block": 14,
+          "chars": 126,
+          "sha256": "363052c6d39be2291bf5493844651c22109d2d18443144ba07691ae65c7790ad",
+          "match": true
+        },
+        {
+          "block": 15,
+          "chars": 22,
+          "sha256": "85de1c91c409bd46e0d7534669b36bcfd902c44a31852edeffab19ff4a3dc57d",
+          "match": true
+        },
+        {
+          "block": 16,
+          "chars": 284,
+          "sha256": "bc666fb346c3fd2b6641837408a96d3f2516ab045dc547d4aa7b14ec4368e7f3",
+          "match": true
+        },
+        {
+          "block": 17,
+          "chars": 99,
+          "sha256": "ccac66dce0819de143a9313dcca6e77f7d2386e78ddbfefa42fcd2a62df849ba",
+          "match": true
+        },
+        {
+          "block": 18,
+          "chars": 302,
+          "sha256": "bc187ae24df581c8d5848f9e5414ffe8bc17f616aead1d2ea8efc923890c0e0c",
+          "match": true
+        },
+        {
+          "block": 19,
+          "chars": 115,
+          "sha256": "666513091af2bde1b349f14e0eea44d5663a758a445d4451bb9070d83d14b30a",
+          "match": true
+        },
+        {
+          "block": 20,
+          "chars": 13,
+          "sha256": "635ab8de38adc9b82d45dc682c69c8e5de06eb3771f4f4166e7a3cb2f95440e0",
+          "match": true
+        },
+        {
+          "block": 21,
+          "chars": 14,
+          "sha256": "84fb9ec77f9ae3889034b87dfa80990df75968b3a26659e5aed595970642419b",
+          "match": true
+        },
+        {
+          "block": 22,
+          "chars": 17,
+          "sha256": "ba5956a989908adbe868435e1ac88c66a97933f5a1eceb340bd2218bebe350b6",
+          "match": true
+        },
+        {
+          "block": 23,
+          "chars": 14,
+          "sha256": "6509f763c426f306ea3b0fda27e6ea5f71737acbe72d15d5e3ad32b2678cc34a",
+          "match": true
+        },
+        {
+          "block": 24,
+          "chars": 378,
+          "sha256": "189dec7413507dc7871665af7f1602d5e4a3fb2fc2529b796749e0bcd1cdb1e1",
+          "match": true
+        },
+        {
+          "block": 25,
+          "chars": 133,
+          "sha256": "22478cd5449b60afd79216a00fc3aafd033a9faa229474ac18869c9d63050a5c",
+          "match": true
+        },
+        {
+          "block": 26,
+          "chars": 25,
+          "sha256": "a57968e2f0c21192f04f6eef9bf01fe4be946b5fedcc322d2684e6425f0aa97d",
+          "match": true
+        },
+        {
+          "block": 27,
+          "chars": 17,
+          "sha256": "63316f18d20a33d90c6f1b021c24d1e485a50fe22f7ea8382394ea5b36fff555",
+          "match": true
+        },
+        {
+          "block": 28,
+          "chars": 223,
+          "sha256": "85fbaac2675e7585fe4b550403b896f1ff3ab8243ec2201193249072b0e5725b",
+          "match": true
+        },
+        {
+          "block": 29,
+          "chars": 117,
+          "sha256": "b71f0ba9d9cb204d24f9ff17eaf3d8b96b804778b5802fcd09639bb9a3150256",
+          "match": true
+        },
+        {
+          "block": 30,
+          "chars": 130,
+          "sha256": "4c4ee6e268f9eacc23ef3e6a8566f71f74d4bbd013b38eacf6f62f9f5c6e4a6b",
+          "match": true
+        },
+        {
+          "block": 31,
+          "chars": 71,
+          "sha256": "f26dd8ed353732b6e647d9b8650a831e5651d1cbde29051b1bb835ab6c3b4d3b",
+          "match": true
+        },
+        {
+          "block": 32,
+          "chars": 158,
+          "sha256": "64e1088df71af7d992f7e6aa72e9be1db4502f17d91714aec9d6a3f2384a7f4b",
+          "match": true
+        },
+        {
+          "block": 33,
+          "chars": 66,
+          "sha256": "e11a397744c2a9b4cc7e1bec5aa22ada825f496767f205b5f11b25574131a7b2",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "tips-for-ai-coding-with-ralph-wiggum",
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: main-body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: table-2",
+        "Visible content-specific structure: table-3",
+        "Visible content-specific structure: table-4",
+        "Visible content-specific structure: table-5",
+        "Visible content-specific structure: table-6",
+        "Visible content-specific structure: table-7",
+        "Visible content-specific structure: table-8",
+        "Visible content-specific structure: code-example",
+        "Visible content-specific structure: last-code-example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Cold-open and refresh original anchor: 1-ralph-本质上是一个循环",
+        "Cold-open and refresh original anchor: 2-先用-hitl-再转-afk",
+        "Cold-open and refresh original anchor: 3-界定范围",
+        "Cold-open and refresh original anchor: 4-追踪-ralph-的进度",
+        "Cold-open and refresh original anchor: 5-使用反馈循环",
+        "Cold-open and refresh original anchor: 6-小步推进",
+        "Cold-open and refresh original anchor: 7-优先处理高风险任务",
+        "Cold-open and refresh original anchor: 8-明确软件质量标准",
+        "Cold-open and refresh original anchor: 9-使用-docker-沙箱",
+        "Cold-open and refresh original anchor: 10-为能力付费",
+        "Cold-open and refresh original anchor: 11-按自己的方式改造",
+        "Actual Chinese concept link click: /getting-started-with-ralph",
+        "Actual Chinese concept link click: /newsletter",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 8,
+          "sha256": "fa901288cf3beab1f26db4bdd88ac556460b9d1188c7ac98efadd14370415718",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 10,
+          "sha256": "376373c8e0c9a1ddfdcf1c96c89ae8734b83000c6105d009b367156b193a7333",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 6,
+          "sha256": "5e1af8d83a27309e610d5228c813c8831f285d4022865b91b74b73c8fca85a79",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 916,
+          "sha256": "a306b043ec8a8fe3f64c287202b90a38fa781e9b348d882b7f5359fa18204e82",
+          "match": true
+        },
+        {
+          "block": 5,
+          "chars": 199,
+          "sha256": "9ec46189b3f7a81cb993b1f504ec8ffb285ab877acf556c374a91ae7af95fe09",
+          "match": true
+        },
+        {
+          "block": 6,
+          "chars": 258,
+          "sha256": "a3cf3c72f6a846887a8efdb0acd726ac6c99bcfa60f5b88b2cd4eb7d8d6b0835",
+          "match": true
+        },
+        {
+          "block": 7,
+          "chars": 163,
+          "sha256": "2b097cccdefa9d8d83653a3637ed5c2887cf4bf962a52195f7c909bde317195f",
+          "match": true
+        },
+        {
+          "block": 8,
+          "chars": 8,
+          "sha256": "f24b2f25359d9822bbe40b873ff87c33dc0e716eddfe086623b6042d93f18c9d",
+          "match": true
+        },
+        {
+          "block": 9,
+          "chars": 195,
+          "sha256": "d44d2433be2e757a15063cacf39380e4393a47b0d9888ccadb92e692bd56ab2a",
+          "match": true
+        },
+        {
+          "block": 10,
+          "chars": 102,
+          "sha256": "4e57dcbc06ef1562c952f0bae539e5bde0e7cff4b734de720c040d7f574e36f1",
+          "match": true
+        },
+        {
+          "block": 11,
+          "chars": 304,
+          "sha256": "d1d0cc70897a4063571e5f8ad23290d025eab5b58a9adb280289ead7ee4d8420",
+          "match": true
+        },
+        {
+          "block": 12,
+          "chars": 122,
+          "sha256": "47118ab226d2e8099cfaa2b081c6c40f31fa80faa7245d23fa5e8e112125bfbc",
+          "match": true
+        },
+        {
+          "block": 13,
+          "chars": 231,
+          "sha256": "7146fb0a5ca780c742632005aaa00b9f8d5dac744a2b29f66422376c3f631769",
+          "match": true
+        },
+        {
+          "block": 14,
+          "chars": 126,
+          "sha256": "363052c6d39be2291bf5493844651c22109d2d18443144ba07691ae65c7790ad",
+          "match": true
+        },
+        {
+          "block": 15,
+          "chars": 22,
+          "sha256": "85de1c91c409bd46e0d7534669b36bcfd902c44a31852edeffab19ff4a3dc57d",
+          "match": true
+        },
+        {
+          "block": 16,
+          "chars": 284,
+          "sha256": "bc666fb346c3fd2b6641837408a96d3f2516ab045dc547d4aa7b14ec4368e7f3",
+          "match": true
+        },
+        {
+          "block": 17,
+          "chars": 99,
+          "sha256": "ccac66dce0819de143a9313dcca6e77f7d2386e78ddbfefa42fcd2a62df849ba",
+          "match": true
+        },
+        {
+          "block": 18,
+          "chars": 302,
+          "sha256": "bc187ae24df581c8d5848f9e5414ffe8bc17f616aead1d2ea8efc923890c0e0c",
+          "match": true
+        },
+        {
+          "block": 19,
+          "chars": 115,
+          "sha256": "666513091af2bde1b349f14e0eea44d5663a758a445d4451bb9070d83d14b30a",
+          "match": true
+        },
+        {
+          "block": 20,
+          "chars": 13,
+          "sha256": "635ab8de38adc9b82d45dc682c69c8e5de06eb3771f4f4166e7a3cb2f95440e0",
+          "match": true
+        },
+        {
+          "block": 21,
+          "chars": 14,
+          "sha256": "84fb9ec77f9ae3889034b87dfa80990df75968b3a26659e5aed595970642419b",
+          "match": true
+        },
+        {
+          "block": 22,
+          "chars": 17,
+          "sha256": "ba5956a989908adbe868435e1ac88c66a97933f5a1eceb340bd2218bebe350b6",
+          "match": true
+        },
+        {
+          "block": 23,
+          "chars": 14,
+          "sha256": "6509f763c426f306ea3b0fda27e6ea5f71737acbe72d15d5e3ad32b2678cc34a",
+          "match": true
+        },
+        {
+          "block": 24,
+          "chars": 378,
+          "sha256": "189dec7413507dc7871665af7f1602d5e4a3fb2fc2529b796749e0bcd1cdb1e1",
+          "match": true
+        },
+        {
+          "block": 25,
+          "chars": 133,
+          "sha256": "22478cd5449b60afd79216a00fc3aafd033a9faa229474ac18869c9d63050a5c",
+          "match": true
+        },
+        {
+          "block": 26,
+          "chars": 25,
+          "sha256": "a57968e2f0c21192f04f6eef9bf01fe4be946b5fedcc322d2684e6425f0aa97d",
+          "match": true
+        },
+        {
+          "block": 27,
+          "chars": 17,
+          "sha256": "63316f18d20a33d90c6f1b021c24d1e485a50fe22f7ea8382394ea5b36fff555",
+          "match": true
+        },
+        {
+          "block": 28,
+          "chars": 223,
+          "sha256": "85fbaac2675e7585fe4b550403b896f1ff3ab8243ec2201193249072b0e5725b",
+          "match": true
+        },
+        {
+          "block": 29,
+          "chars": 117,
+          "sha256": "b71f0ba9d9cb204d24f9ff17eaf3d8b96b804778b5802fcd09639bb9a3150256",
+          "match": true
+        },
+        {
+          "block": 30,
+          "chars": 130,
+          "sha256": "4c4ee6e268f9eacc23ef3e6a8566f71f74d4bbd013b38eacf6f62f9f5c6e4a6b",
+          "match": true
+        },
+        {
+          "block": 31,
+          "chars": 71,
+          "sha256": "f26dd8ed353732b6e647d9b8650a831e5651d1cbde29051b1bb835ab6c3b4d3b",
+          "match": true
+        },
+        {
+          "block": 32,
+          "chars": 158,
+          "sha256": "64e1088df71af7d992f7e6aa72e9be1db4502f17d91714aec9d6a3f2384a7f4b",
+          "match": true
+        },
+        {
+          "block": 33,
+          "chars": 66,
+          "sha256": "e11a397744c2a9b4cc7e1bec5aa22ada825f496767f205b5f11b25574131a7b2",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "home",
+      "route": "/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: main-body",
+        "Visible content-specific structure: image",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /skills/subscribe",
+        "Actual Chinese concept link click: /skills",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://www.aihero.dev/_next/image?url=%2Flanding%2Fmatt-pocock-left%402x.png&w=3840&q=75",
+          "width": 698,
+          "alt": "Matt Pocock"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_3840/f_auto/q_auto/v1789463139/aihero.dev/spot-illos/todo?_a=BAVMn6DY0",
+          "width": 630,
+          "alt": "待办事项主题插图。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Ftotal-typescript%2Fimage%2Fupload%2Fv1791799196%2Fcohorts%2Fpbqmeemewqbfeqxomwj6.jpg&w=3840&q=75",
+          "width": 960,
+          "alt": "软件工厂训练营原页面配图。"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1737463838/workshops/page-6z2ir/qxwhr72flnhn571y4cvg?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Guillermo Rauch"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1785230951/aihero/testimonials/shadcn?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "shadcn"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1785230951/aihero/testimonials/mario-zechner?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Mario Zechner"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FXRbEUN5ae2CycFv0065CZXI6EpQwtwIDjoZuchtGPLUE%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop&w=3840&q=75",
+          "width": 720,
+          "alt": "技能更新：通用语言转向 /grill-with-docs。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FPQ8mrDluvN2qGZqOMMSrtfYgWme9C02t7hkxJuNgTxwI%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop%26time%3D0&w=3840&q=75",
+          "width": 720,
+          "alt": "我的 Grill Me 技能火了。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FAksaBDlT0001loUMjyBi3teicuK5slmZhHK4UJr2ff9gM%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop%26time%3D364.590515&w=3840&q=75",
+          "width": 720,
+          "alt": "用 Claude Code 构建真实功能，逐步讲解全过程。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Ftotal-typescript%2Fimage%2Fupload%2Fv1777894781%2Fpost-artwork%2Fpost_post_isvzd_batch_80cf5ec4-93e9-4a19-ae3e-6b6395a0e529_v3.jpg&w=3840&q=75",
+          "width": 1536,
+          "alt": "曳光弹：控制 AI 生成代码的质量。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FXMsKVcxDpYYuQzkAkYBZGEuLC6JuS8Z02Fhq023Mlm4ZM%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop%26time%3D301.723828&w=3840&q=75",
+          "width": 720,
+          "alt": "怎样打造 AI 智能体容易上手的代码库。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Ftotal-typescript%2Fimage%2Fupload%2Fv1779727224%2Fpost-artwork%2Fpost_post_zacoz_batch_a59880a2-a2fa-465f-be20-f53e115b2213_v0.png&w=3840&q=75",
+          "width": 1536,
+          "alt": "使用 grill-me 和 grill-with-docs 容易弄错的九件事。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=%2Flanding%2Fmatt-pocock%402x.png&w=3840&q=75",
+          "width": 698,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      },
+      "directoryWidth": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "home",
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: main-body",
+        "Visible content-specific structure: image",
+        "All section headings reachable; images loaded; document has no horizontal overflow"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://www.aihero.dev/_next/image?url=%2Flanding%2Fmatt-pocock-left%402x.png&w=3840&q=75",
+          "width": 698,
+          "alt": "Matt Pocock"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_3840/f_auto/q_auto/v1789463139/aihero.dev/spot-illos/todo?_a=BAVMn6DY0",
+          "width": 630,
+          "alt": "待办事项主题插图。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Ftotal-typescript%2Fimage%2Fupload%2Fv1791799196%2Fcohorts%2Fpbqmeemewqbfeqxomwj6.jpg&w=3840&q=75",
+          "width": 960,
+          "alt": "软件工厂训练营原页面配图。"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1737463838/workshops/page-6z2ir/qxwhr72flnhn571y4cvg?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Guillermo Rauch"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1785230951/aihero/testimonials/shadcn?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "shadcn"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1785230951/aihero/testimonials/mario-zechner?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Mario Zechner"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FXRbEUN5ae2CycFv0065CZXI6EpQwtwIDjoZuchtGPLUE%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop&w=3840&q=75",
+          "width": 720,
+          "alt": "技能更新：通用语言转向 /grill-with-docs。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FPQ8mrDluvN2qGZqOMMSrtfYgWme9C02t7hkxJuNgTxwI%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop%26time%3D0&w=3840&q=75",
+          "width": 720,
+          "alt": "我的 Grill Me 技能火了。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FAksaBDlT0001loUMjyBi3teicuK5slmZhHK4UJr2ff9gM%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop%26time%3D364.590515&w=3840&q=75",
+          "width": 720,
+          "alt": "用 Claude Code 构建真实功能，逐步讲解全过程。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Ftotal-typescript%2Fimage%2Fupload%2Fv1777894781%2Fpost-artwork%2Fpost_post_isvzd_batch_80cf5ec4-93e9-4a19-ae3e-6b6395a0e529_v3.jpg&w=3840&q=75",
+          "width": 1536,
+          "alt": "曳光弹：控制 AI 生成代码的质量。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FXMsKVcxDpYYuQzkAkYBZGEuLC6JuS8Z02Fhq023Mlm4ZM%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop%26time%3D301.723828&w=3840&q=75",
+          "width": 720,
+          "alt": "怎样打造 AI 智能体容易上手的代码库。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Ftotal-typescript%2Fimage%2Fupload%2Fv1779727224%2Fpost-artwork%2Fpost_post_zacoz_batch_a59880a2-a2fa-465f-be20-f53e115b2213_v0.png&w=3840&q=75",
+          "width": 1536,
+          "alt": "使用 grill-me 和 grill-with-docs 容易弄错的九件事。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=%2Flanding%2Fmatt-pocock%402x.png&w=3840&q=75",
+          "width": 698,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "failed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('navigation', { name: '全部中文页面', exact: true }).locator('details').locator('summary')\n    - locator resolved to <summary>…</summary>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    29 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+        "stack": "locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('navigation', { name: '全部中文页面', exact: true }).locator('details').locator('summary')\n    - locator resolved to <summary>…</summary>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    29 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:151:40)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:194:79"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "65d4e86cae8f1cfd95f6f5ac3b0b51984087bf00a96c11405f5e0c123e89f52a",
+      "bytes": 237939
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "a89b55015dc331d49d0a650aa9dfebfb548856b35677015465e231d2951bce7b",
+      "bytes": 181517
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-2.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "ad8ac8ca393e5ae76a06dc5380a73410bb61df33652392ef17acfe057e5a51cf",
+      "bytes": 235447
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-3.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "5eb8519fb533f448e191fd8d2f200f09724d511c3fb4a8769f4e110fbd090ac7",
+      "bytes": 226954
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-4.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "61004fd7dc60a7981d2a81be43ddb9a32a46c18b642803d9e06f96ca28e3ab33",
+      "bytes": 186367
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-5.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "04c2ba264c339733c72b3910938052bde34baad7bcfc2f3a949e3ac9063f4e49",
+      "bytes": 210278
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-6.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "d05b03ca174187efd36e47de8332a710820b8be29743fa4a636461566caff269",
+      "bytes": 171502
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-7.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "d1e8503deef57e4aa28cb81c54600f867bbe9f441a3078ee1ec35f46d9fedd56",
+      "bytes": 223855
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-table-8.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "ce0c8a1be7533a6948c39a93eccfc90181883f8bea53dfa4a5829be192b7428a",
+      "bytes": 176101
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "178717171f996403532f102833e70ae8c120f6488fc77cbe47afb5121638b613",
+      "bytes": 199442
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "b4ad771fcbb6612954c91d81d02de85fa6f0edc3b4a6bbb4376913df54c08bca",
+      "bytes": 167375
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-main-body.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "b1a21d2e7e3fc060249b5683775011bf03ebf35c0b1724c66bd33b83eb5a4cff",
+      "bytes": 120235
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-1.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "24e7dce7ef2548b0ff7ba33be51c4ab5e3602d5519cb637ccbf62f0d8b5b10b5",
+      "bytes": 77345
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-2.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "0a557deef5541ac1ef3e6d0e00a9543ac520386265972a0bc097ff050b34e45e",
+      "bytes": 93058
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-3.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "7e2d09312fd40f9e1aaf198c2cde593d42f99789573ba9d3468ae065da90a57c",
+      "bytes": 91803
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-4.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "97942b6051fa1b917e1966a30831dad1a17f7d68401f4633340cac710e3122bf",
+      "bytes": 88672
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-5.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "6f6552f72424cd696f69a75baae39652e7a770b6c02b3c178728ec86291e07fd",
+      "bytes": 103521
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-6.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "ca1b50f119a111e98c7ee28c88a2f67f6b404a416358960c30114cbd4a1271a3",
+      "bytes": 76437
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-7.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "308073ed4f598a26d7f726f59721c1ef28f9404fd7f0fafd04250d3dbba94800",
+      "bytes": 102611
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-table-8.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "0e8ffdf120b09ab02dd2cbc1de0eb85549e5fd2fbcef8fdf02ab5c34944900d9",
+      "bytes": 81187
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "8d9959751befcaa27c40b1f81f85e7ebc9acd4040324168b8cf64a319ea2420d",
+      "bytes": 90621
+    },
+    {
+      "file": "tips-for-ai-coding-with-ralph-wiggum-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/tips-for-ai-coding-with-ralph-wiggum",
+      "sha256": "93e37a70abbf3c27663eeca529a573c3a0b564d1ff9fbf1df59053a136ea20e8",
+      "bytes": 66810
+    },
+    {
+      "file": "home-1440-top.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "b0c734e3691348b249a990c08c4aadf2b0ecb4790db5aceddb1ad4d0919180b6",
+      "bytes": 182407
+    },
+    {
+      "file": "home-1440-main-body.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "d645321ad9ca3ee0241280af6ae2e5abd4cab0ed0548262e6f4bb044a7a02c0c",
+      "bytes": 247287
+    },
+    {
+      "file": "home-1440-image.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "47b0201e174095a7a45babd80e57c3132a6644d091a6dc3426c421ec355f7b2b",
+      "bytes": 320001
+    },
+    {
+      "file": "home-1440-all-pages-directory.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "d3c8402f82856c924d83fe4c66b6669b8ddfa291c2f30836372d226eb48b30d4",
+      "bytes": 146894
+    },
+    {
+      "file": "home-390-top.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "42fa0466ac79e595defedf7d6b21b7663084a8caa5b6a2cddb21ec011f5103c0",
+      "bytes": 70403
+    },
+    {
+      "file": "home-390-main-body.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "829341870e2209553e7dc27d2a23aa3ede14b6285f966c90353752f4b6731471",
+      "bytes": 93649
+    },
+    {
+      "file": "home-390-image.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "2c500ccab7ec572bd45c9d8ce7773ae04a02976a81b30a082c94f4efd1fd89ac",
+      "bytes": 130587
+    },
+    {
+      "file": "home-390-failure.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "36e4f3defe8f434f24cf05b7c59ba1f641dfe1be792076700f9db07b2f46240c",
+      "bytes": 56781
+    }
+  ],
+  "status": "failed",
+  "browser": {
+    "name": "Chromium",
+    "version": "156.0.8078.4",
+    "playwright": "1.64.0"
+  },
+  "finishedAt": "2026-10-13T13:46:57.579Z"
+}

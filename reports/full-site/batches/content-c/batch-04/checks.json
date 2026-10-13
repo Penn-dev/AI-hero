@@ -1,0 +1,75 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-grill-me",
+      "sourcePath": "content/source/skills-grill-me.md",
+      "sourceHash": "d2f506fbfc88d0110f67f2f74f3a6f9e48eba43e36a574d66b2c983f5c3bff91",
+      "chineseFile": "reports/full-site/batches/content-c/batch-04/drafts/skills-grill-me.md",
+      "translationHash": "78f5a226289261163ef62d3bc4931aa3c55c5010ba2b9c7570694759e69a8e23",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "核对全部 7 节、六个常见问题，保留无状态、新会话、分轮完整 frontier、用户掌握范围、原型边界、四轮四十六问例子、两百问原因及同会话接 to-spec 等条件。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，将 frontier 明确定义为当前可提问范围，保留批评被动应答的作者语气，不按问题数改成指标。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "译注解释文件状态、GLOSSARY.md、ADR；正文直接说明 frontier 的前置关系，不强制增设课程结构。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "保留唯一英文 Prompt 原围栏，紧邻附完整中文 Prompt；保留 agreed、I don't know 和两处无法纯讨论的问题英文示例，并附对应中文理解；原 URL、命令、标签 frontmatter 全保留。 真实 UI 审查发现的加粗边界已定点修正，仅移动标记或去除链接外层加粗；原文案、代码和 URL 不变。后续 AST 扫描无字面双星号/嵌套 strong，真实 UI 仍待工程重验。",
+          "originalFencedBlocks": 1,
+          "originalMarkdownResourceOccurrences": 17
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "没有运行 Skill，原站词条与 Skills 链接保留为原文资源。"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sourcePath": "content/source/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+      "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+      "chineseFile": "reports/full-site/batches/content-c/batch-04/drafts/skills__skills-changelog-handoff-prototype-review-and-writing.md",
+      "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐段核对两项新增、两个缺陷修复、三阶段写作与双子代理审阅预告；保留 60K 场景、两种交接模式、界面与业务逻辑原型差别、旧命令及标签。原站作者/分享/课程 CTA 文案保留。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "完整通读，保留第一人称发布语气，翻译技术探索、状态机和写作阶段含义，没有把历史预告改成当前保证。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近译注解释 Token 场景、状态机、AFK、diff 和 PRD；明确这是发布时语境。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "源文无代码块或自然语言 Prompt；所有行内命令、XML/标签技术值、原图、四处锚点、仓库与三处分享 URL 完整保留。/skills 本地入口明确列作待工程接入本批前置。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 16
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "本 worktree 尚未 apply C03 /skills，preview 记录 planned-chinese；工程先接入 C03 后复核并移除该暂缺状态。",
+        "课程推广区域没有来源入口，译注披露，不虚构按钮功能。"
+      ]
+    }
+  ]
+}

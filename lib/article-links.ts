@@ -1,5 +1,5 @@
 export function articleLink(href: string | undefined, translatedRoutes?: ReadonlySet<string>) {
-  if (!translatedRoutes || !href || href.startsWith('#')) return { href, untranslated: false };
+  if (!translatedRoutes || !href?.startsWith('/') || href.startsWith('//')) return { href, untranslated: false };
   let url: URL;
   try { url = new URL(href, 'https://www.aihero.dev'); }
   catch { return { href, untranslated: false }; }

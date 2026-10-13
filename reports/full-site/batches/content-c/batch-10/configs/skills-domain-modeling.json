@@ -1,0 +1,22 @@
+{
+  "route": "/skills-domain-modeling",
+  "source": {
+    "path": "content/source/skills-domain-modeling.md",
+    "sha256": "9bb43ffb7d51e3f9357442a54fa0f516da2d7009709f955504c7bfadd4d4fb62"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-10/drafts/skills-domain-modeling.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    }
+  ]
+}

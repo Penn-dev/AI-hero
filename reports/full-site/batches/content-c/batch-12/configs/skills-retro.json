@@ -1,0 +1,22 @@
+{
+  "route": "/skills-retro",
+  "source": {
+    "path": "content/source/skills-retro.md",
+    "sha256": "a43dee00c077ebce4e43f5ada84b85770df73b2d3ade5a95981f5140e7fe112f"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-12/drafts/skills-retro.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    }
+  ]
+}

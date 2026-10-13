@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A12/configs/mcp.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/mcp",
+      "manifest": {
+        "route": "/ai-coding-dictionary/mcp",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/mcp",
+        "sourceHash": "dccbfda4cf19b526b54ea7b562903d89a1b7319f1cfc624c88465b82962e305c",
+        "translationPath": "content/zh/ai-coding-dictionary/mcp.md",
+        "translationHash": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:32.741Z",
+        "assembly": {
+          "configHash": "0d3fda143c8d1e02069060d68f754cd3e6198c402f41d24dfab707dbe8e06a9f",
+          "checkedAt": "2026-10-13T12:19:32.741Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/mcp.md",
+          "sha256": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "03a6d3e405c8de317faaaf35741adb8103b01cd8fc8c9443b84287bce794d187"
+        }
+      ],
+      "rawOutputSha256": "3589070cb205acd7960c9e770192588ed3590e584c095dcf049566a7e0c5c733"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/mcp",
+      "manifest": {
+        "route": "/ai-coding-dictionary/mcp",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/mcp",
+        "sourceHash": "dccbfda4cf19b526b54ea7b562903d89a1b7319f1cfc624c88465b82962e305c",
+        "translationPath": "content/zh/ai-coding-dictionary/mcp.md",
+        "translationHash": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:32.980Z",
+        "assembly": {
+          "configHash": "0d3fda143c8d1e02069060d68f754cd3e6198c402f41d24dfab707dbe8e06a9f",
+          "checkedAt": "2026-10-13T12:19:32.980Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/mcp.md",
+          "sha256": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "dd9bfe0bf34f259f18faf287674d371dcefe9687b56369274298ccd8f982b549"
+        }
+      ],
+      "rawOutputSha256": "090475864dbdfb546a812e8c440cece67fab583b05cad4d42f65b151edcbafd5"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

@@ -78,24 +78,23 @@ export function ArticleLearningTools({ sections, glossary }: { sections: Article
     const headings = sections
       .map((section) => document.getElementById(section.id))
       .filter((element): element is HTMLElement => Boolean(element));
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visible = entries.find((entry) => entry.isIntersecting);
-        if (visible?.target.id) setActiveId(visible.target.id);
-      },
-      { rootMargin: '-18% 0px -70% 0px' },
-    );
-    headings.forEach((heading) => observer.observe(heading));
-
-    const updateProgress = () => {
+    const updateReadingPosition = () => {
+      const readingLine = window.innerHeight * 0.2;
+      let activeHeading = headings[0];
+      for (const heading of headings) {
+        if (heading.getBoundingClientRect().top > readingLine) break;
+        activeHeading = heading;
+      }
+      setActiveId(activeHeading?.id ?? '');
       const scrollable = document.documentElement.scrollHeight - window.innerHeight;
       setProgress(scrollable > 0 ? Math.min(100, (window.scrollY / scrollable) * 100) : 0);
     };
-    updateProgress();
-    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateReadingPosition();
+    window.addEventListener('scroll', updateReadingPosition, { passive: true });
+    window.addEventListener('resize', updateReadingPosition);
     return () => {
-      observer.disconnect();
-      window.removeEventListener('scroll', updateProgress);
+      window.removeEventListener('scroll', updateReadingPosition);
+      window.removeEventListener('resize', updateReadingPosition);
     };
   }, [sections]);
 

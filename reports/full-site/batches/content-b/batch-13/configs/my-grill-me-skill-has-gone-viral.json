@@ -1,0 +1,19 @@
+{
+  "route": "/my-grill-me-skill-has-gone-viral",
+  "source": {
+    "path": "content/source/my-grill-me-skill-has-gone-viral.md",
+    "sha256": "c30f916e16afd14c70f12ae51f45d8faec6859f5aeb3325662ac78103365e8a5"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-13/drafts/my-grill-me-skill-has-gone-viral.md",
+  "translationPath": "content/zh/my-grill-me-skill-has-gone-viral.md",
+  "linkTargets": [
+    {
+      "route": "/5-agent-skills-i-use-every-day",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-grill-me",
+      "state": "available-chinese"
+    }
+  ]
+}

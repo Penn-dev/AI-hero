@@ -1,0 +1,75 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills",
+      "sourcePath": "content/source/skills.md",
+      "sourceHash": "5e98f53633747fe3a64f313fbfffa37486ff32aa986c5565f054d2000da1b01c",
+      "chineseFile": "reports/full-site/batches/content-c/batch-03/drafts/skills.md",
+      "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "完整核对首页介绍、两种安装方式、7 个精选入口、6 个分类、3 个导读和 6 条更新日志；日期、版本、百分比、RSS/page/计数 frontmatter 技术字段全部保留。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读整个目录页，导航、摘要采用自然中文，保留各个更新的具体内容和先后顺序，不把目录摘要扩写成教程。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "译注解释 Skill 及安装方式差别，明确原站分类与旧名称入口的身份。ADR 在首次出现处解释。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "两段安装命令、行内更新命令和所有斜杠名称原样保留；全部原站链接、GitHub 链接、6 个裸 Markdown 入口保持原 URL。无自然语言 Prompt。",
+          "originalFencedBlocks": 2,
+          "originalMarkdownResourceOccurrences": 23
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "原站分类入口和旧命名精选入口保留，不代表中文目标已经完成。",
+        "没有执行安装命令，环境及安装行为未验证。"
+      ]
+    },
+    {
+      "route": "/skills-resolving-merge-conflicts",
+      "sourcePath": "content/source/skills-resolving-merge-conflicts.md",
+      "sourceHash": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710",
+      "chineseFile": "reports/full-site/batches/content-c/batch-03/drafts/skills-resolving-merge-conflicts.md",
+      "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对归档声明及六节正文，保留 v1.3.0 移除、没有替代、始终完成合并、不 abort、优先理解双方意图及大型重构优先等观点和适用条件。没有用当前制作分工覆盖作者观点。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，清楚区分冲突解决、合并后诊断与并行规划；保留提问与直接回答，避免把作者建议改成泛化的安全保证。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近译注解释 Git、merge、rebase、冲突和工作树，明确后续使用说明是归档 Skill 的历史说明。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "无围栏代码或自然语言 Prompt，所有行内命令与参数原样保留；全部原站词条和 Skills 资源链接保留。 真实 UI 审查发现的加粗边界已定点修正，仅移动标记或去除链接外层加粗；原文案、代码和 URL 不变。后续 AST 扫描无字面双星号/嵌套 strong，真实 UI 仍待工程重验。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 10
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "这是归档参考页，未安装或执行已移除的 Skill；没有声称这些命令可在当前插件调用。"
+      ]
+    }
+  ]
+}

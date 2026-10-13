@@ -38,7 +38,11 @@ npx skills@latest add mattpocock/skills
 
 > Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one by one. And finally, if a question can be answered by exploring the code base, explore the code base instead.
 
-中文理解版（学习辅助）：请不断追问这个计划的每一个方面，直到我们形成共同理解。沿着“设计树”的每条分支逐一深入，依次理清不同决策之间的依赖关系。最后，如果查看代码库就能回答某个问题，那就直接查看代码库，不要再问我。
+中文版 Prompt（学习辅助）：
+
+```text
+请不断追问这个计划的每一个方面，直到我们形成共同理解。沿着“设计树”的每条分支逐一深入，依次理清不同决策之间的依赖关系。最后，如果查看代码库就能回答某个问题，那就直接查看代码库，不要再问我。
+```
 
 “设计树（design tree）”这个概念来自 Frederick P. Brooks 的 _The Design of Design_。它表达的是：设计一项事物时，需要沿着设计树的各条分支逐一探索。
 
@@ -98,14 +102,20 @@ _（以前叫 `/to-issues`。）_
 2. 浏览代码库
 3. **拟定垂直切片（vertical slices）**：把规格说明拆成多张任务卡，尽快暴露那些目前甚至还没有意识到的未知问题
 
-这里可以借用 [曳光弹式实现（Tracer Bullet）](https://www.aihero.dev/tracer-bullets) 的比喻。每张任务卡都是一条贯穿所有集成层的细小“垂直切片”，而不是只处理某一层的“水平切片”。
+这里可以借用 [曳光弹式实现（Tracer Bullet）原文](https://www.aihero.dev/tracer-bullets)的比喻，也可阅读[中文文章](/tracer-bullets)。每张任务卡都是一条贯穿所有集成层的细小“垂直切片”，而不是只处理某一层的“水平切片”。
 
 这个 Skill 还会明确任务卡之间的阻塞关系。例如，某张任务卡可能没有任何前置依赖，因此可以被单独领取。这对于并行运行多个智能体、让它们同时工作非常有用。
 
 ![以垂直切片形式创建的四个 GitHub Issue](https://res.cloudinary.com/total-typescript/image/upload/v1773675116/ai-hero-images/qaodyngpkcdpfwdvi1do.png)
 
 
-[关联阅读：查看完整 Skill 集，包括 grill-with-docs、domain-modeling 和 triage](/skills)
+**这些技能之外，还有更多**
+
+grill-with-docs、domain-modeling 和 triage 补齐这套工具，还有随它们演进持续发布的更新记录。
+
+[查看技能组合（中文）](/skills) · [英文原站技能入口](https://www.aihero.dev/skills)
+
+> 译注：上面完整保留原文 SkillsCta 的可见标题、副标题与按钮文案，改为静态入口；未模拟安装功能。
 
 ## 4. `/tdd`：提升代码质量
 
@@ -164,13 +174,23 @@ TDD 对代码库有很高的要求。代码库结构不佳时，测试边界就�
 
 以上是七个 Skill 中的五个。其余的 grill-with-docs、domain-modeling 和 triage，以及持续更新的变更记录，都可以在 [Skill 页面](/skills) 找到。
 
+> 译注：原文写“七个中的五个”，但接着又列出三个其余技能，数量不一致，此处保留原表述，不自行更改数字。
+
 ## 为什么这很重要：把 AI 当作工程师来对待
 
 要提高智能体产出的代码质量，最有效的办法是把它们当成人来对待。当然，是有着奇怪限制的人——没有记忆、可以被复制，而且一投入工作就立刻开干。但无论如何，它们仍然是“人”。
 
 [查看 Skills 仓库](https://github.com/mattpocock/skills)，开始使用。
 
-## 中文学习辅助：术语小词典
+**这套工具还在不断演进**
+
+Matt 发布下一项技能或指南时，第一时间收到通知。
+
+[前往英文原文查看订阅入口](https://www.aihero.dev/5-agent-skills-i-use-every-day)
+
+> 译注：原文订阅组件仅给标题与副标题，没有独立表单目标；此处完整保留可见内容。文中的流程、数字与效果属于作者经历，本次没有安装技能或验证其效果。原文中的技能指南还有这些明确的英文入口：[grill-me](https://www.aihero.dev/skills-grill-me)、[to-spec](https://www.aihero.dev/skills-to-spec)、[to-tickets](https://www.aihero.dev/skills-to-tickets)、[tdd](https://www.aihero.dev/skills-tdd)。
+
+**译注：中文学习辅助术语小词典（保留旧稿辅助内容，非原文章节）**
 
 - **Agent Skill**：为 AI 智能体准备的可复用工作说明，让它在特定任务中按照固定流程做事。
 - **LLM**：Large Language Model（大语言模型），一种能够理解和生成自然语言的 AI 模型。

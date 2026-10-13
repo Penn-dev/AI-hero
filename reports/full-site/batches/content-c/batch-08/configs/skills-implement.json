@@ -1,0 +1,22 @@
+{
+  "route": "/skills-implement",
+  "source": {
+    "path": "content/source/skills-implement.md",
+    "sha256": "42d4734446309c8658183428de2abda11f0239276f0b34016c5cb6d8c7b69a3b"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-08/drafts/skills-implement.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "state": "available-chinese"
+    }
+  ]
+}

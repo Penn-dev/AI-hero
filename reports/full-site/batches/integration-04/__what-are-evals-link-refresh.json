@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-04/configs/what-are-evals.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/what-are-evals",
+      "manifest": {
+        "route": "/what-are-evals",
+        "sourceUrl": "https://www.aihero.dev/what-are-evals",
+        "sourceHash": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
+        "translationPath": "content/zh/what-are-evals.md",
+        "translationHash": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:12.239Z",
+        "assembly": {
+          "configHash": "32353d7c146f637ed368d10f4d61cb4d4ca04092969be7de282f1999baf30b86",
+          "checkedAt": "2026-10-13T12:38:12.239Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-are-evals.md",
+          "sha256": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "27a9c59c352e128e5f57c6e8972617071cd9639bccd3c590ed69941dca7d11ef"
+        }
+      ],
+      "rawOutputSha256": "f9c528619e23506d73b94fc91240e0fadc472046554084d2f2fa19a97b7f101c"
+    },
+    {
+      "mode": "apply",
+      "route": "/what-are-evals",
+      "manifest": {
+        "route": "/what-are-evals",
+        "sourceUrl": "https://www.aihero.dev/what-are-evals",
+        "sourceHash": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
+        "translationPath": "content/zh/what-are-evals.md",
+        "translationHash": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:12.501Z",
+        "assembly": {
+          "configHash": "32353d7c146f637ed368d10f4d61cb4d4ca04092969be7de282f1999baf30b86",
+          "checkedAt": "2026-10-13T12:38:12.501Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-are-evals.md",
+          "sha256": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "6ef2af93f61933a74538618bf7ad176b11c352d92c90a2c734857dacb77ef136"
+        }
+      ],
+      "rawOutputSha256": "19bb32bf1f9f5239e8d2dbb80c2a4741915d5224b6118df7de534bbae414f402"
+    }
+  ],
+  "nonTargetPagesPreserved": 150
+}

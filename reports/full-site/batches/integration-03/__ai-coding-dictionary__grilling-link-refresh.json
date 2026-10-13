@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A14/configs/grilling.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/grilling",
+      "manifest": {
+        "route": "/ai-coding-dictionary/grilling",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+        "sourceHash": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc",
+        "translationPath": "content/zh/ai-coding-dictionary/grilling.md",
+        "translationHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:50.804Z",
+        "assembly": {
+          "configHash": "572f3d6bc2f81aab4fcea55e495f9fc54a37a7b2fc2a65e0fa3f95ab07f8673e",
+          "checkedAt": "2026-10-13T12:19:50.804Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/grilling.md",
+          "sha256": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "5bd8b2408d27fcdd1bfd1369efef12186ea4bba9e0c9a2127c0897622dbf6f25"
+        }
+      ],
+      "rawOutputSha256": "f4015b19e1e10da442664739327f78a047e032f5176ad6f351ad1f0e00cdc27a"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/grilling",
+      "manifest": {
+        "route": "/ai-coding-dictionary/grilling",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+        "sourceHash": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc",
+        "translationPath": "content/zh/ai-coding-dictionary/grilling.md",
+        "translationHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:50.989Z",
+        "assembly": {
+          "configHash": "572f3d6bc2f81aab4fcea55e495f9fc54a37a7b2fc2a65e0fa3f95ab07f8673e",
+          "checkedAt": "2026-10-13T12:19:50.989Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/grilling.md",
+          "sha256": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ed432f0a7317b9832d4185a327e9c52838cfd21403bf2ce41374b0a0f908a059"
+        }
+      ],
+      "rawOutputSha256": "0f03e7e158f1b6c2759f791631dd071a1e3b481c17a86b96591681b3bc117f83"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A07/configs/training.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/training",
+      "manifest": {
+        "route": "/ai-coding-dictionary/training",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/training",
+        "sourceHash": "f962827db48b29c0c8cc4d6f7fdc692ecfdf37c09447acac4cfbecf57887cf15",
+        "translationPath": "content/zh/ai-coding-dictionary/training.md",
+        "translationHash": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:39.659Z",
+        "assembly": {
+          "configHash": "93e76a29797c4e96b37d544628190c690f76a451a853e9e125cea7b93de18864",
+          "checkedAt": "2026-10-13T12:19:39.659Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/training.md",
+          "sha256": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e7dd792d41ed4b515d4447fd8036d93efeb721cbaceb32b2bd218fbb85efa13e"
+        }
+      ],
+      "rawOutputSha256": "18ef095d8b53945c4bd510a1c9310baa0d1829e46614c0c0248935ee8a53a1df"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/training",
+      "manifest": {
+        "route": "/ai-coding-dictionary/training",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/training",
+        "sourceHash": "f962827db48b29c0c8cc4d6f7fdc692ecfdf37c09447acac4cfbecf57887cf15",
+        "translationPath": "content/zh/ai-coding-dictionary/training.md",
+        "translationHash": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:39.911Z",
+        "assembly": {
+          "configHash": "93e76a29797c4e96b37d544628190c690f76a451a853e9e125cea7b93de18864",
+          "checkedAt": "2026-10-13T12:19:39.911Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/training.md",
+          "sha256": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8d46324e5753b79fceddd629254b48c169c33ff981975ae7886bfc522e786690"
+        }
+      ],
+      "rawOutputSha256": "6983010cf4281328a8f01e22090d11cab56d44227264e441cb41a444e554130f"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

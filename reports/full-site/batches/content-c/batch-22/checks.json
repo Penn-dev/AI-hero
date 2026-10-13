@@ -1,0 +1,38 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sourcePath": "content/source/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+      "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+      "chineseFile": "reports/full-site/batches/content-c/batch-22/drafts/skills__skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+      "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对全部12个主体二级节、3项writing结构调整、wizard四触发/一不触发、设计树逐轮机制、路由五选项/三修复及全部六移除项；作者/图片/CTA/分享完整。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "全篇自然中文，保留作者第一人称、版本语气、条件与限制；不把历史产品行为当作当前核验，不把经验上下文数值说成保证。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "解释缓存、幂等、YAGNI、monorepo和wait-what；原问答格式Prompt与编号回答保留英文，并给完整可复制中文；术语改词对照中英齐全。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "原代码围栏逐字保留，所有技术字段、路径、调用标识按顺序保留，原资源/锚点/图片/分享链接保留，增加中文词条导航。",
+          "originalFencedBlocks": 1,
+          "originalMarkdownResourceOccurrences": 22
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": "课程CTA缺目标/字段按冻结原文明确披露；wizard秘密隔离是原设计说明而非本页审计结论；第五项真实UI待工程。"
+    }
+  ]
+}

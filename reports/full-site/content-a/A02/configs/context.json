@@ -1,0 +1,34 @@
+{
+  "route": "/ai-coding-dictionary/context",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/context.md",
+    "sha256": "3a76ec521a78bd5050d60981b4fd1acad50e4cc607681de34db826270b43804d"
+  },
+  "chineseFile": "reports/full-site/content-a/A02/drafts/context.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

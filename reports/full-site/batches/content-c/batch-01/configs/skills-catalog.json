@@ -1,0 +1,18 @@
+{
+  "route": "/skills-catalog",
+  "source": {
+    "path": "content/source/skills-catalog.md",
+    "sha256": "3a8fda750dd040ae3c135a509a6f2778fd306b3217ab3ff0b1d112ad051076f1"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-01/drafts/skills-catalog.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "state": "available-chinese"
+    }
+  ]
+}

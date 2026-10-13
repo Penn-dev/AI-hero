@@ -1,0 +1,292 @@
+{
+  "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+  "count": 57,
+  "allUniqueExactParagraphs": true,
+  "targets": [
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "exactText": "智能体执行框架与模型提供商之间的一次往返。执行框架发送当前上下文，提供商返回一个回应，可以是工具调用，也可以是最终回答。如果智能体调用工具，一条用户消息就可能引发许多次模型提供商请求，因为每项工具结果都会触发下一次请求。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "exactText": "与智能体进行的一段有起点和终点的交互。从空白开始，逐步积累消息、工具结果和读过的文件，在清空、关闭，或压缩后转入新会话时结束。会话就是不断 填入 上下文窗口的内容：如果上下文窗口是一个盒子，会话就是慢慢把盒子装满的东西。一个上下文窗口装不下的工作，必须分到多个会话里完成。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "exactText": "把信息延续到后面。会话在工作轮次之间是有状态的：随着会话进行，上下文会不断积累，这也是长会话逐渐进入低效区的原因。给智能体添加记忆系统，把信息持久保存到环境中，再在后续会话开始时重新加载，就能让它在会话之间有状态。模型从来不是有状态的；看起来连续的表现，都是智能体执行框架重新提供上下文的结果。与无状态相对。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "exactText": "不把信息延续到后面。模型在不同模型提供商请求之间是无状态的。每次请求都会重新发送完整的上下文窗口，因为模型没有途径看到其他东西。默认情况下，智能体在会话之间也是无状态的：新会话从空白开始，没有此前会话留下的痕迹。与有状态相对。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "exactText": "一条用户消息，加上智能体为回应这条消息所做的一切，直到它把控制权交回用户。一个工作轮次包含一次或多次模型提供商请求；如果智能体调用工具，请求就可能有很多次。智能体提出澄清问题时，这一轮结束；你的回答会开启下一轮。包含关系是：会话 > 工作轮次 > 模型提供商请求。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "exactText": "保存在环境中的文件，智能体执行框架在会话开始时把它加载到上下文窗口。它是项目交给智能体的长期工作说明。这是跨执行框架使用的约定；有些框架也有自己的变体，例如 Claude Code 使用 CLAUDE.md。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "exactText": "一份文档中指向另一份文档的说明，让智能体只在任务需要时才把后者加载进上下文窗口。它是构成渐进式披露的基本单位。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "exactText": "智能体采取行动的世界，也就是智能体执行框架之外，智能体通过工具结果感知、通过工具调用改变的东西。执行框架 运行 智能体，环境则是智能体 工作的地方 。像 AGENTS.md 这样的文件保存在环境里，由执行框架把它加载到上下文窗口中。文件系统是最常见的环境类型，但不是唯一类型；数据库、远程 API、浏览器会话都可以是环境。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "exactText": "由文件和目录组成的树形结构，智能体在其中读取、写入和执行操作。它是编程智能体默认使用的环境类型。AGENTS.md、Skill、源代码、构建脚本和工具配置都保存在文件系统中。智能体执行框架说“在你的项目中启动”时，就是让智能体面向某个文件系统工作。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "exactText": "把一种可传授的能力打包成一个整体，也就是把做好某项任务所需的说明和资源放在一起，保存在环境中。等当前任务需要时，再由上下文指针把它引入上下文窗口。Skill 是智能体执行框架中实施渐进式披露的单位。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "exactText": "一个不断变化的标签，不是一种技术。“AI”不像模型或 Token 那样指向固定的东西，它指向的是计算机新近能做到、令人印象深刻的事情。眼下，它指的是大语言模型；以前，它也指过很不一样的东西：",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "exactText": "运行已经训练好的模型来生成输出，每次模型提供商请求都会发生。参数保持不变，模型只根据收到的上下文做下一个 Token 预测。相对于训练，推理更便宜，但它按 Token 计费，是使用模型时的主要成本。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "exactText": "提供模型推理服务的一方。通常是远程服务，例如 Anthropic、OpenAI、Google；也可以是本地服务，例如在你自己电脑上运行的 Ollama、LM Studio、llama.cpp。智能体执行框架不会亲自运行模型，而是请提供商运行。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "exactText": "模型内部的数值，通常有数十亿个，在训练中调整。模型“知道”的一切都保存在这些数值里。训练确定它们，推理使用它们，但不改变它们。也叫 权重 。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "exactText": "确定模型参数的过程：让模型接触大量文本，调整参数以改善下一个 Token 预测。这是由模型提供商完成的一次性、费用高昂的过程。它既包括预训练，也就是主要的大规模训练，也包括后训练，例如后来对遵循指令和安全性的改进；在本词典的讲解层级，无需区分两者。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "exactText": "提供商从上一次模型提供商请求中缓存的输入 Token，因此不必重新处理。当连续请求有相同前缀时，提供商通过前缀缓存复用已经完成的工作，并以低得多的费率计算缓存部分。这让长会话的费用变得能够承受；没有缓存，每个工作轮次都要重新为整个历史付费。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "exactText": "推理投入程度（effort）控制模型在回答之前进行多少推理。它按每次模型提供商请求设置，决定模型在开始写出你看到的回答之前，会进行多长的思考。和其他输出一样，这些思考在推理阶段生成。智能体执行框架经常不显示它们，但模型确实在做这些工作。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "exactText": "智能体执行框架在每次模型提供商请求中发送的 Token，包括系统提示词、对话记录、工具结果，以及模型写出内容之前读取的一切。它们的计费单价低于输出 Token，因为处理它们比生成输出 Token 的成本低。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "exactText": "模型实际做的事。给定上下文，它抽取下一个 Token，把它接到后面，再运行一次。每一种输出，无论一句话、一次工具调用，还是一个有一千行的文件，都是一次一个 Token 地构成的。模型没有其他工作方式。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "exactText": "相同输入也可能产生不同输出。给模型完全相同的上下文，运行两次，可能得到两个不同答案。有时只是一个词不同，有时却是完全不同的方案。你的代码无需发生任何变化，这种情况也会出现。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "exactText": "模型生成并返回的 Token。它们的计费单价高于输入 Token，通常大约是五倍，因为生成它们需要更多计算。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "exactText": "每个 Token 能分配给其余上下文的影响力有限。给某一种关系较多影响力，留给其他关系的就少了。这份预算属于每个 Token，不会随着上下文变长而增加，所以长会话会稀释信息的影响。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "exactText": "随着会话变长，每个 Token 的注意力预算要分给更多竞争者。任何一个有意义关系上的信号都会减弱，无关上下文的噪声则不断挤进来。同一个模型、同一组参数，只是同一盘食物要分给更多张嘴。这就是高效区与低效区现象的原因。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "exactText": "预测每个 Token 时，模型会把上下文中的其他每个 Token 都纳入考虑，有的影响很大，有的几乎没有影响。两个 Token 之间的配对就是注意力关系。有意义的配对，例如“her”与“Sarah”，或者一次 getUser() 调用与它的 function getUser 定义，比无关配对更能相互影响。含 N 个 Token 的上下文，关系数量大致是 N² 的量级。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "exactText": "在会话早期，智能体处于“高效区”，敏锐、专注，能很好地回想已有信息。随着会话变长，它会逐渐进入“低效区”：更粗心、更健忘、错误更多，也更容易出现忠实性幻觉。同一个模型、同一个执行框架，只是上下文更多了。这是注意力衰减给人的实际感受。在最前沿模型上，低效区通常从大约 12.5 万到 15 万个 Token 开始，不过对此仍有争议。会话膨胀时就清空或压缩，别硬撑着继续。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "exactText": "上下文窗口接近装满时，由智能体执行框架自动触发的压缩。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "exactText": "结束当前会话，开启新会话。下一条消息从空白会话和空白上下文窗口开始。通常由用户主动进行。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "exactText": "在内存中完成的一次交接：把上个会话的历史总结成摘要，用摘要开启新会话。它从设计上就是有损的：对话记录是一手来源，摘要是二手来源，用细节换取空间。可以由用户手动触发，也可以通过自动压缩触发。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "exactText": "用于承载交接内容的文档，由一个会话写入环境，供另一个会话读取。规格、工单和计划文档，都是交接材料。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "exactText": "把智能体的上下文从一个会话转移到另一个会话。承载方式各不相同，可以是写下来的交接材料，也可以是内存中的摘要，也就是压缩，还可以有其他方式。它与清空不同，清空完全不转移内容。交接的原因也很多：切换角色，从规划者转为实施者；启动一次 AFK 工作；把任务分给并行会话；或者释放上下文窗口空间。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "exactText": "智能体眼下能直接从上下文中读取的事实，包括用户任务、已经读入的文件、工具结果，以及会话开始时加载的 AGENTS.md 内容。它与参数知识相对：参数知识从参数中 回想 ，上下文知识则从窗口中 读取 。智能体依据上下文知识工作时，幻觉少得多，因为答案就在眼前，不必从模糊的记忆中翻找。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "exactText": "模型的参数知识所止于的日期。截止之后的库、API 和事件，都容易诱发编造，除非把相关文档作为上下文知识加载。每个发布的模型都有自己的截止时间。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "exactText": "模型从训练中“知道”的东西，保存在参数里。它在训练时固定，模型不能查看或更新自己的参数。压缩过程会丢掉细节：数十亿条事实挤进固定数量的参数，罕见事实会变模糊。它让模型能流畅地谈论常见主题，也会让模型在不常见的主题上编造内容。与上下文知识相对。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "exactText": "原始形式的事实依据，例如代码、对话记录、原始日志、实际 API 响应。不是对某个东西的描述，而是那个东西本身。与二手来源相对。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "exactText": "对一手来源的描述，隔了一层。例如描述代码的文档、描述对话记录的摘要、描述搜索结果的报告。它比原材料更便宜地加载进上下文窗口，但必然丢失部分信息：撰写者已经决定了什么重要，而被舍弃的部分，对于手里只有摘要的读者来说不可见。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "exactText": "模型自信地表示赞同。成因在于训练：模型被塑造成偏好人类喜欢的回答，而人类往往更喜欢被赞同，不喜欢被指出错误。因此，模型学到了赞同会得到奖励，即使赞同本身是错的。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "exactText": "影响智能体运行方式的预设，把权限模式与注入系统提示词的行为指令打包在一起。例如：遇到高风险调用就询问的默认模式；阻止编辑、引导研究的 plan mode，规划模式；自动批准编辑的 accept-edits，接受编辑模式；自动批准所有操作的 bypass permissions，跳过权限询问模式，俗称 YOLO mode。它可以在会话中途切换。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "exactText": "Model Context Protocol，模型上下文协议。 把外部工具服务器接入智能体执行框架的协议，让智能体获得框架自带工具之外的工具。智能体从不“调用 MCP”，它调用的是工具，而执行框架恰好从 MCP 服务器取得了那个工具。MCP 也提供资源，也就是只读数据，以及提示词，也就是可复用模板，但主要用途是提供工具。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "exactText": "智能体模式中负责权限控制的部分：哪些工具调用触发权限请求，哪些自动运行。在执行框架开始把行为指令也打包进去之前，这就是模式系统最初的用途。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "exactText": "智能体执行框架执行未经预先批准的工具调用前，向用户展示的请求。模型生成工具调用后，执行框架不立即运行，而是暂停并询问。批准就运行；拒绝时，执行框架把拒绝作为工具结果返回模型。这就是执行框架在高风险或敏感操作中，让人参与决策循环的机制。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "exactText": "智能体在其中运行的隔离环境，例如容器、虚拟机、临时文件系统，或者权限受限的 shell。它限制智能体操作的影响范围：即使智能体运行破坏性命令，或者下载恶意内容，损害也会被限制住。这是让 AFK 工作变得实际可行的安全基础。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "exactText": "由另一个智能体通过工具调用启动的智能体。它在自己的会话和上下文窗口中运行，并返回一项工具结果。它区别于交接：父智能体明确期待它返回，而交接没有返回路径。子智能体不能继续启动更下层的子智能体，这棵树只有一层。子智能体存在的目的是隔离上下文，不是搭建多级结构。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "exactText": "Away from keyboard，离开键盘。一种工作方式：用户启动会话后，留下智能体无人看管地运行。它能成倍增加 AI 编程的产出量，你睡觉、吃饭或做别的事情时，许多个 AFK 会话可以并行运行。要安全地这样做，通常需要较宽松的权限模式，再加上沙箱隔离。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "exactText": "在环境中运行的确定性验证，例如测试、类型检查、静态检查、构建和提交前钩子。结果是通过或失败，不作主观判断。这是智能体无需其他人参与，就能据以自行修正的信号。不稳定的测试是坏掉的检查，不是“不算检查”；自动检查 在设计上 应该是确定性的。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "exactText": "一个智能体审查另一个智能体的工作，通常使用不同的模型或系统提示词。它具有非确定性，因为它要作判断。可以在任何阶段进行：合并 PR 之前、事后查看提交历史，或者会话中途作为子智能体运行。CI 中让大语言模型作评判，也属于自动审查，不是自动检查。分类取决于断言实际 做什么 ，而不是它在哪里运行。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "exactText": "Agent experience，智能体体验，指环境为智能体在代码库中做好工作准备得怎样。它对应的是面向人的 DX。同一个智能体在一个仓库表现好，在另一个仓库表现差，模型和执行框架都相同，差别通常就在 AX。人的本能是责怪模型或重写提示词，实际更常需要修的是代码库。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "exactText": "Developer experience，开发者体验，指代码库和工具链让人做好工作有多容易。好的 DX 是快速反馈、清楚的错误信息、能回答你实际问题的文档，以及第一次尝试就能成功的环境设置。这个词远早于 AI 编程出现，放进本词典主要是为了与 AX 对比。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "exactText": "一种工作方式：一名或多名人类在会话中与智能体配合，实时审查、调整方向或协作。人类在场并投入其中，不只是给单个动作把关。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "exactText": "用户阅读智能体生成的代码，并作出判断。阅读改动差异或变更文件算，阅读智能体对自己做了什么的 描述 不算，讲述并不是成果本身。描述是二手来源，而且由被审查的一方撰写；改动差异是一手来源，审查意味着去读它。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "exactText": "与智能体一起完善设计构想的方法：智能体用苏格拉底式访谈向用户提问，一次讨论一个决定，并为每个问题给出推荐答案。这会减缓急着写出最终计划的冲动，在构想稳定之前，不撰写交接材料。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "exactText": "让智能体快速做出某个东西的粗略版本。适用于对话的表达精度不足，而你需要一个真实成果来讨论的时候。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "exactText": "描述一项跨会话工作的交接材料，说明要构建什么，而不是每个会话怎样完成自己的部分。它随着工作进展而变化，由工单组成。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "exactText": "限定一个会话工作范围的交接材料。它可以独立存在，也可以作为规格下的子项。工单可以阻塞同级其他工单，也可以被它们阻塞，因此工作顺序来自依赖图，而不是一份线性计划。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "exactText": "整个代码库或其中一部分由软件工厂编写代码，而没有人阅读。这里没有人工审查。人仍然可以撰写启动工作的 issue，但没人读产出的代码。名称来自“熄灯工厂”，生产现场没有人的工厂。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "exactText": "用户与智能体对正在构建什么的共同理解。双方共享它，但它独立于任何具体成果。这是 Brooks 在 The Design of Design 中使用的词：对话、交接材料和代码，都是试图记录或达到设计构想的具体成果，但它们 都不是构想本身。设计构想的质量，可以从形成它的对话质量中感受到。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "exactText": "由触发器启动智能体会话，而不是由人启动的工作系统。触发器可以是创建 issue、定时安排、CI 失败、另一个会话完成。这样，更多工作以 AFK 方式运行，人的注意力留给仍然需要人工参与的决定。",
+      "line": 13
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "exactText": "用户不进行人工审查，就接受智能体代码的工作方式。改动差异被当作黑箱，重要的是程序行为是否符合要求，而不是里面有什么。自动审查和自动检查仍然可能运行；vibe coding 这个词并不说明两者是否存在。",
+      "line": 13
+    }
+  ]
+}

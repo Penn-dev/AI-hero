@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-22/configs/skills__skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "manifest": {
+        "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+        "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+        "translationPath": "content/zh/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+        "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:39.300Z",
+        "assembly": {
+          "configHash": "c62293ee6b0b2835406de1f2bf09648522a14d2368c7f98d0ff8bc7054a20c8a",
+          "checkedAt": "2026-10-13T13:02:39.300Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+          "sha256": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1df329a2e81f5868a37cbf852c2560f0c4bc0285d8e6c532130fd66924e52112"
+        }
+      ],
+      "rawOutputSha256": "d73c254a4e9f92b9bac7201a863329ad58bdf4ae7066aab3694b24ab09fe1d94"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "manifest": {
+        "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+        "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+        "translationPath": "content/zh/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+        "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:39.572Z",
+        "assembly": {
+          "configHash": "c62293ee6b0b2835406de1f2bf09648522a14d2368c7f98d0ff8bc7054a20c8a",
+          "checkedAt": "2026-10-13T13:02:39.572Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+          "sha256": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "34db0d4285f69fd57cd5c8cddef268fa0b6b06c2a936c9d35431a7668773a1df"
+        }
+      ],
+      "rawOutputSha256": "507d30d48ba397dd0559a53175f343a3a8c214719b5b2ede2072b6f67238173d"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

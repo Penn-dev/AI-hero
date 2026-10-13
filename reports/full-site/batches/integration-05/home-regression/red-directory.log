@@ -1,0 +1,30 @@
+✔ workshop text prompts are not labelled as original code (19.640707ms)
+✔ public articles with an independent glossary retain original resources and Chinese term controls (32.483926ms)
+✔ explicit historical review keeps Chinese-only links and its term controls (10.976679ms)
+✔ explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English (9.522466ms)
+✔ the home page displays the frozen original homepage content instead of historical placeholder statistics (119.674829ms)
+✖ the home page offers a separate directory with every available Chinese deep route (65.575754ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 5
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1181.085818
+
+✖ failing tests:
+
+test at scripts/localized-article.test.mjs:96:6
+✖ the home page offers a separate directory with every available Chinese deep route (65.575754ms)
+  AssertionError [ERR_ASSERTION]: A labelled directory distinguishes site navigation from the translated source
+      at TestContext.<anonymous> (file:///workspace/shared/aihero-integration/scripts/localized-article.test.mjs:100:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

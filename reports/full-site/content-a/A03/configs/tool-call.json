@@ -1,0 +1,46 @@
+{
+  "route": "/ai-coding-dictionary/tool-call",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/tool-call.md",
+    "sha256": "81172bf1e6f56b678163d6c9b2875043918ca48e19e96ecd87640271f9d84692"
+  },
+  "chineseFile": "reports/full-site/content-a/A03/drafts/tool-call.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    }
+  ]
+}

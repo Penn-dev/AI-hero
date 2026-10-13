@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-07/configs/streaming-in-next-question-suggestions-with-the-ai-sdk.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "manifest": {
+        "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/streaming-in-next-question-suggestions-with-the-ai-sdk",
+        "sourceHash": "ee57548775269cf7d533ea7b81c1f11dea24ee991d2d33f808174bb5bd8e1f4c",
+        "translationPath": "content/zh/streaming-in-next-question-suggestions-with-the-ai-sdk.md",
+        "translationHash": "b432198df9c4b14ea9650e92872cf954fc232fc8a42c031fca912f438a3e3f0d",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:06.152Z",
+        "assembly": {
+          "configHash": "7c068a5b2117542b3ea90db1ebb9cc35a73c7212744ed36a4d16039922aea94a",
+          "checkedAt": "2026-10-13T12:38:06.152Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/streaming-in-next-question-suggestions-with-the-ai-sdk.md",
+          "sha256": "b432198df9c4b14ea9650e92872cf954fc232fc8a42c031fca912f438a3e3f0d"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "9ff24b2044eb38230f06c662474819bcdfa2ee269b3cc4933ba4aa090064655d"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "667494fba037489be266e2a2c5a987f3c29a3038b724b72987bf7cb7aea69269"
+        }
+      ],
+      "rawOutputSha256": "f268951e09062ea7580c43811d72524d7fa10894f2d666e33dba323356705fe1"
+    },
+    {
+      "mode": "apply",
+      "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "manifest": {
+        "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/streaming-in-next-question-suggestions-with-the-ai-sdk",
+        "sourceHash": "ee57548775269cf7d533ea7b81c1f11dea24ee991d2d33f808174bb5bd8e1f4c",
+        "translationPath": "content/zh/streaming-in-next-question-suggestions-with-the-ai-sdk.md",
+        "translationHash": "b432198df9c4b14ea9650e92872cf954fc232fc8a42c031fca912f438a3e3f0d",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:06.392Z",
+        "assembly": {
+          "configHash": "7c068a5b2117542b3ea90db1ebb9cc35a73c7212744ed36a4d16039922aea94a",
+          "checkedAt": "2026-10-13T12:38:06.392Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/streaming-in-next-question-suggestions-with-the-ai-sdk.md",
+          "sha256": "b432198df9c4b14ea9650e92872cf954fc232fc8a42c031fca912f438a3e3f0d"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "9ff24b2044eb38230f06c662474819bcdfa2ee269b3cc4933ba4aa090064655d"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0006ab0d88b0bb2d6f554005cf9a7ccad7b848eb980970eeaffcaaca10200e33"
+        }
+      ],
+      "rawOutputSha256": "76d983aa817cc16c501bead8ec63d078ba75d31e4f166e8b9c5797879d65d8d6"
+    }
+  ],
+  "nonTargetPagesPreserved": 142
+}

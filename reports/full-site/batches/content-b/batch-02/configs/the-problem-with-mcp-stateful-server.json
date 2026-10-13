@@ -1,0 +1,9 @@
+{
+  "route": "/the-problem-with-mcp-stateful-server",
+  "source": {
+    "path": "content/source/the-problem-with-mcp-stateful-server.md",
+    "sha256": "c507dad06f3bc0d72d9a5c1c60af59882d5c63fe7264b2106491f9ca0d6fe8aa"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-02/drafts/the-problem-with-mcp-stateful-server.md",
+  "translationPath": "content/zh/the-problem-with-mcp-stateful-server.md"
+}

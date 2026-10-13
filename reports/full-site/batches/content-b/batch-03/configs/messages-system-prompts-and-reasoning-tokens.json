@@ -1,0 +1,9 @@
+{
+  "route": "/messages-system-prompts-and-reasoning-tokens",
+  "source": {
+    "path": "content/source/messages-system-prompts-and-reasoning-tokens.md",
+    "sha256": "6bdc0dcd24d6ccf1ee01d8cc799c13380cf647b668d2298676a07e970e7c2296"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-03/drafts/messages-system-prompts-and-reasoning-tokens.md",
+  "translationPath": "content/zh/messages-system-prompts-and-reasoning-tokens.md"
+}

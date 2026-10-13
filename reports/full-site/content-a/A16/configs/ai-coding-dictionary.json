@@ -1,0 +1,262 @@
+{
+  "route": "/ai-coding-dictionary",
+  "source": {
+    "path": "content/source/ai-coding-dictionary.md",
+    "sha256": "9389205ef4e97e4330e37e9e577d095775fe3b2b84c647dbf0995fcc9b66d07c"
+  },
+  "chineseFile": "reports/full-site/content-a/A16/drafts/ai-coding-dictionary.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "state": "available-chinese"
+    }
+  ]
+}

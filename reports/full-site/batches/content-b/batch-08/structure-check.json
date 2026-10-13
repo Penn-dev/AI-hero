@@ -1,0 +1,94 @@
+{
+  "batch": "batch-08",
+  "results": [
+    {
+      "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "sourceHash": "f5c7c3b1930d5c9ae4af3048ad4c787b9ccd9913ed5d4310ee0b13a8e0b6b1f6",
+      "translationHash": "25461d617ac01914fa27ace477c3a0c07b5cf35c03ff04d034eb5fbeb6a42085",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 5,
+      "resources": [
+        "https://en.wikipedia.org/wiki/Gartner_hype_cycle",
+        "https://www.lbc.co.uk/news/googles-ai-chatbot-gemini-tells-user-to-please-die-and-you-are-a-burden-on-socie/",
+        "https://x.com/mattpocockuk/status/1830937534936789026"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/evalite-an-early-preview",
+      "sourceHash": "ae3226b9243b252a992143d399e7d27b4eec4ddc0e1f0aaeed720d4d076417da",
+      "translationHash": "9d74e3cb9de0221318a08d001e170a3fe8a5f055e094cb44848fd083d35ade18",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 0,
+      "resources": [
+        "/what-are-evals",
+        "https://www.aihero.dev/what-are-evals"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/evalite-v1-preview",
+      "sourceHash": "04424e7ff64a038df7cd73e3c57dee01fbaf4619c848aaaf6afd8f7362fcaf68",
+      "translationHash": "eceab41967b6c9c4e4b84a4d4bca70610b6c67bfa8af4bd395cb801f3e896cfc",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 8,
+      "headings": 11,
+      "resources": [
+        "https://v1.evalite.dev",
+        "https://sdk.vercel.ai/docs/introduction",
+        "https://v1.evalite.dev",
+        "https://aihero.dev/discord",
+        "https://github.com/mattpocock/evalite"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/google-agents-whitepaper-review",
+      "sourceHash": "569198702f52ca381d64e9f611feee8294585f6ebe087802f1ea9e6f52b73a8f",
+      "translationHash": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 7,
+      "resources": [
+        "https://www.kaggle.com/whitepaper-agents",
+        "/agents-with-vercel-ai-sdk?list=vercel-ai-sdk-tutorial",
+        "https://www.aihero.dev/agents-with-vercel-ai-sdk?list=vercel-ai-sdk-tutorial"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "sourceHash": "e72a837798d7079016531aea98e8b27b2ae0d7cc3e5b2e74ada212b2dfcabaee",
+      "translationHash": "fc7017f1939b17c4010116206b793478d0a84ef450853a8c669f199690be6e3b",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 2,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/securing-your-ai-app-with-guardrails",
+      "sourceHash": "7d76671b274c9f430d66f8afc9e2c51f40247d3e77120b08245b8e6432c3c212",
+      "translationHash": "66cdeb9aa8e48e54505f2ae0592f75306248637a3b0d76edd935153436f98f63",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 5,
+      "headings": 5,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

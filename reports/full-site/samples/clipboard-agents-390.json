@@ -1,0 +1,11 @@
+{
+  "page": "agents-md",
+  "actualCharacters": 514,
+  "checkedAt": "2026-10-13T05:14:01.5730483Z",
+  "expectedCharacters": 514,
+  "viewport": 390,
+  "match": true,
+  "copied": true,
+  "method": "真实按钮点击后使用系统剪贴板比较；不使用浏览器剪贴板读权限",
+  "block": 15
+}

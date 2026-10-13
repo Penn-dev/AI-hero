@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-03/configs/messages-system-prompts-and-reasoning-tokens.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/messages-system-prompts-and-reasoning-tokens",
+      "manifest": {
+        "route": "/messages-system-prompts-and-reasoning-tokens",
+        "sourceUrl": "https://www.aihero.dev/messages-system-prompts-and-reasoning-tokens",
+        "sourceHash": "6bdc0dcd24d6ccf1ee01d8cc799c13380cf647b668d2298676a07e970e7c2296",
+        "translationPath": "content/zh/messages-system-prompts-and-reasoning-tokens.md",
+        "translationHash": "ff9940e3b294e84041d8c30b3dc0ecf791e24d94817de3bb9addc9240887dbbb",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:52.403Z",
+        "assembly": {
+          "configHash": "65b86e6c2ea49cb3f34ad95065531219cb6d83ede5bd53bed6edeed3ad53efd7",
+          "checkedAt": "2026-10-13T12:37:52.403Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/messages-system-prompts-and-reasoning-tokens.md",
+          "sha256": "ff9940e3b294e84041d8c30b3dc0ecf791e24d94817de3bb9addc9240887dbbb"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "d7a732e466c7cebc064d7e0e205828818ee45b7bca890311454f6b3a6102380a"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "77a43145ab790a80855ad194018f2c0f86f455b067566121f403ddf125d8372d"
+        }
+      ],
+      "rawOutputSha256": "a6446e66e3bc290d6da5c0edb6b05ad749c940518c07a81927f68712ee769742"
+    },
+    {
+      "mode": "apply",
+      "route": "/messages-system-prompts-and-reasoning-tokens",
+      "manifest": {
+        "route": "/messages-system-prompts-and-reasoning-tokens",
+        "sourceUrl": "https://www.aihero.dev/messages-system-prompts-and-reasoning-tokens",
+        "sourceHash": "6bdc0dcd24d6ccf1ee01d8cc799c13380cf647b668d2298676a07e970e7c2296",
+        "translationPath": "content/zh/messages-system-prompts-and-reasoning-tokens.md",
+        "translationHash": "ff9940e3b294e84041d8c30b3dc0ecf791e24d94817de3bb9addc9240887dbbb",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:52.624Z",
+        "assembly": {
+          "configHash": "65b86e6c2ea49cb3f34ad95065531219cb6d83ede5bd53bed6edeed3ad53efd7",
+          "checkedAt": "2026-10-13T12:37:52.624Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/messages-system-prompts-and-reasoning-tokens.md",
+          "sha256": "ff9940e3b294e84041d8c30b3dc0ecf791e24d94817de3bb9addc9240887dbbb"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "d7a732e466c7cebc064d7e0e205828818ee45b7bca890311454f6b3a6102380a"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "9c94f7b4fc9421c1d09e1edcc9b9c7e40291d1382e56d38555a3c095b08a8163"
+        }
+      ],
+      "rawOutputSha256": "06e31128c6dd33e8243ed38afca9b78fe36493a47ac3b6f7ab99e1465c06ff0f"
+    }
+  ],
+  "nonTargetPagesPreserved": 114
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "action": "screenshot",
+    "args": {
+      "format": "png",
+      "path": "E:/dev/projects/AIHero/work/full-site-samples/reports/full-site/samples/screenshots/agents-md-390-prompt.png"
+    },
+    "checkedAt": "2026-10-13T05:15:01.191Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "format": "png",
+        "path": "E:/dev/projects/AIHero/work/full-site-samples/reports/full-site/samples/screenshots/agents-md-390-prompt.png",
+        "sizeBytes": 143701,
+        "mimeType": "image/png"
+      }
+    }
+  },
+  {
+    "action": "cdp",
+    "args": {
+      "method": "Emulation.setDeviceMetricsOverride",
+      "params": {
+        "width": 1440,
+        "height": 1000,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      }
+    },
+    "checkedAt": "2026-10-13T05:15:01.557Z",
+    "result": {
+      "ok": true,
+      "data": {}
+    }
+  },
+  {
+    "action": "evaluate",
+    "args": {
+      "code": "(()=>{window.scrollTo({top:0,behavior:'instant'});return JSON.stringify({client:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,headingLinks:[...document.querySelectorAll('.markdown-body a[href^=\"#\"]')].map(a=>({href:a.getAttribute('href'),exists:!!document.getElementById(decodeURIComponent(a.hash.slice(1)))}))})()"
+    },
+    "checkedAt": "2026-10-13T05:15:01.618Z",
+    "result": {
+      "ok": false,
+      "error": {
+        "code": "extension_error",
+        "message": "evaluate: SyntaxError: Unexpected end of input"
+      }
+    }
+  }
+]

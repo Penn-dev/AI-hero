@@ -1,0 +1,76 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-wait-what",
+      "sourcePath": "content/source/skills-wait-what.md",
+      "sourceHash": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5",
+      "chineseFile": "reports/full-site/batches/content-c/batch-02/drafts/skills-wait-what.md",
+      "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对全部六节。保留三行设计、四百行反例、用户主动触发、wait 的听者状态含义、that 与 that last message 区别、无词汇表仍可工作等条件，不把针对英语的原文改写成原生中文规范。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，采用没跟上、重新说明等自然表述；保留作者直接说明及批评过度简略输出的语气。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近译注解释 GLOSSARY.md、CLAUDE.md、ASD-STE100，明确英语规范与当前中文说明的边界。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "原文没有围栏代码，全部行内文件名和斜杠命令保留。三处自然语言命令保留完整英文且紧邻完整中文可复制块。所有原资源链接保留。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 8
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "原站绝对链接保留；本批未执行 Skill 或验证宿主支持。"
+      ]
+    },
+    {
+      "route": "/skills/subscribe",
+      "sourcePath": "content/source/skills/subscribe.md",
+      "sourceHash": "ff1c20f196e810ce444730c92bc9a3ad90cb81edc29370f212465823da402d1a",
+      "chineseFile": "reports/full-site/batches/content-c/batch-02/drafts/skills__subscribe.md",
+      "translationHash": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "对照完整公开课程介绍，保留七课、自动至少 18 小时、回答问题可提前、无需账号、邮件正文不在 Courses、课程结束继续订阅等关键条件。保留全部课程标题、说明、证言和两次表单文案，清理 HTML 提取重复标签及空项。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读完整课程页，表单字段自然表达为名字/邮箱必填；保留第一人称隐私承诺、课程语气及第三方证言归属。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "明确原站注册入口和本地静态说明的区别，译注解释纵向切片与 AFK，不虚构课程内容或公司名单。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "无代码、命令、自然语言 Prompt。两张原图片 URL 含查询参数完整保留；三处 CTA 都明确前往同一原站订阅页面。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 2
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "七课邮件正文未取得，本页只交付公开课程介绍。",
+        "信任公司区域源文只有空列表，缺少公司名称和图片入口，已在页面披露。",
+        "未提交注册表单或确认订阅，128,900+ 为固定来源数字。"
+      ]
+    }
+  ]
+}

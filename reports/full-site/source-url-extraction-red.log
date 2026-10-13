@@ -1,0 +1,13 @@
+.F...
+======================================================================
+FAIL: test_link_with_space_keeps_full_original_href_in_markdown (extract_public_html_test.ExtractionTests.test_link_with_space_keeps_full_original_href_in_markdown)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\dev\projects\AIHero\work\full-site-samples\scripts\extract_public_html_test.py", line 11, in test_link_with_space_keeps_full_original_href_in_markdown
+    self.assertIn(
+AssertionError: '[Share](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/system-prompt?author=Matt Pocock>)' not found in '---\ntitle: "System prompt"\nslug: "system-prompt"\ntype: "dictionary"\nupdatedAt: ""\n---\n\n# System prompt\n\nOriginal body.\n\n [Share](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/system-prompt?author=Matt Pocock)\n'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+FAILED (failures=1)

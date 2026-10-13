@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-03/configs/how-to-choose-an-llm.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/how-to-choose-an-llm",
+      "manifest": {
+        "route": "/how-to-choose-an-llm",
+        "sourceUrl": "https://www.aihero.dev/how-to-choose-an-llm",
+        "sourceHash": "25b8b5bb3ebbe1fe88f002c69da7119362f3584029f07dbde2e6bd11070d09e5",
+        "translationPath": "content/zh/how-to-choose-an-llm.md",
+        "translationHash": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:51.472Z",
+        "assembly": {
+          "configHash": "a5ab80a2c47626c6e83522e1335ecf7381ec261d97a9cf9f5477c788b8ac4983",
+          "checkedAt": "2026-10-13T12:37:51.472Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/what-are-evals",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-choose-an-llm.md",
+          "sha256": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "341a84ca80b05a611ad68eab1a17eeaceb0d4333424696addf9b48c30d54b9cd"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "5528b9584de272bc8832d3540a1d53524410c7b5b3276dcdcc4dfd298a5956e2"
+        }
+      ],
+      "rawOutputSha256": "e4a96a39180c532a61c45061b2146fbb30a0d032d812cec0ebded941d0bf1ec1"
+    },
+    {
+      "mode": "apply",
+      "route": "/how-to-choose-an-llm",
+      "manifest": {
+        "route": "/how-to-choose-an-llm",
+        "sourceUrl": "https://www.aihero.dev/how-to-choose-an-llm",
+        "sourceHash": "25b8b5bb3ebbe1fe88f002c69da7119362f3584029f07dbde2e6bd11070d09e5",
+        "translationPath": "content/zh/how-to-choose-an-llm.md",
+        "translationHash": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:51.737Z",
+        "assembly": {
+          "configHash": "a5ab80a2c47626c6e83522e1335ecf7381ec261d97a9cf9f5477c788b8ac4983",
+          "checkedAt": "2026-10-13T12:37:51.737Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/what-are-evals",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-choose-an-llm.md",
+          "sha256": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "341a84ca80b05a611ad68eab1a17eeaceb0d4333424696addf9b48c30d54b9cd"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "088f153d9da7c965a7763345f4d22c370fc0463b7eefd183a4681ffeb7548a29"
+        }
+      ],
+      "rawOutputSha256": "d65588a8cf756f89190f2242f83f702c9194700c48c73197e2d772319134563f"
+    }
+  ],
+  "nonTargetPagesPreserved": 112
+}

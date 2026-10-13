@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-16/configs/ai-coding-crash-course.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/workshops/ai-coding-crash-course",
+      "manifest": {
+        "route": "/workshops/ai-coding-crash-course",
+        "sourceUrl": "https://www.aihero.dev/workshops/ai-coding-crash-course",
+        "sourceHash": "813177b824466b4737d38095d4a1e69b89226bdd7809f5cea4fed0bac0314f93",
+        "translationPath": "content/zh/workshops/ai-coding-crash-course.md",
+        "translationHash": "4e91df276632f002d146e3686d9226b297ff8682bbb0db2ab961af3a34931c4d",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:13:30.323Z",
+        "assembly": {
+          "configHash": "c7e57db5457a4035d8ebeb20ebdaf7cd1cb50d6edf2b276fa2b855cbd9bab6c6",
+          "checkedAt": "2026-10-13T13:13:30.323Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/workshops/ai-coding-crash-course.md",
+          "sha256": "4e91df276632f002d146e3686d9226b297ff8682bbb0db2ab961af3a34931c4d"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a87fd27d6f0cac2b7aed87b8b97f4e517b89d49ecafa92194b24980422cab6de"
+        }
+      ],
+      "rawOutputSha256": "83442425635165888119224881ef9159de30238b4fb124afc201051779889900"
+    },
+    {
+      "mode": "apply",
+      "route": "/workshops/ai-coding-crash-course",
+      "manifest": {
+        "route": "/workshops/ai-coding-crash-course",
+        "sourceUrl": "https://www.aihero.dev/workshops/ai-coding-crash-course",
+        "sourceHash": "813177b824466b4737d38095d4a1e69b89226bdd7809f5cea4fed0bac0314f93",
+        "translationPath": "content/zh/workshops/ai-coding-crash-course.md",
+        "translationHash": "4e91df276632f002d146e3686d9226b297ff8682bbb0db2ab961af3a34931c4d",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:13:30.599Z",
+        "assembly": {
+          "configHash": "c7e57db5457a4035d8ebeb20ebdaf7cd1cb50d6edf2b276fa2b855cbd9bab6c6",
+          "checkedAt": "2026-10-13T13:13:30.599Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/workshops/ai-coding-crash-course.md",
+          "sha256": "4e91df276632f002d146e3686d9226b297ff8682bbb0db2ab961af3a34931c4d"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "07314833944072006d27342c8d71ffe7e26d132e2d335befc8234acf45f5cab7"
+        }
+      ],
+      "rawOutputSha256": "0c1bb8aa4b08beff7e0289c1d0b947e125a6b0ea71f678a4a3281c48845888d6"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

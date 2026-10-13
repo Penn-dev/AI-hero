@@ -1,0 +1,22 @@
+{
+  "route": "/skills-diagnosing-bugs",
+  "source": {
+    "path": "content/source/skills-diagnosing-bugs.md",
+    "sha256": "ef9ccd225e1b9caf5c2522174ffaf45e7a849490bbfbffc1e6d2dcd94020aca8"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-11/drafts/skills-diagnosing-bugs.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    }
+  ]
+}

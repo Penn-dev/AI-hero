@@ -1,0 +1,115 @@
+{
+  "config": "reports/full-site/samples/configs/output.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "manifest": {
+        "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+        "sourceUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+        "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5",
+        "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+        "translationHash": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:53.590Z",
+        "assembly": {
+          "configHash": "51988c0c9401be39a91861bc905b7072e59e94b7b15fa9097eb7e8cd4796c919",
+          "checkedAt": "2026-10-13T13:07:53.590Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution",
+              "state": "planned-chinese",
+              "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+            },
+            {
+              "route": "/login",
+              "state": "planned-chinese",
+              "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+          "sha256": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "13ffcd61bf09725804eac3a9a1b90e11deb60dcc332dba06738c6903e748becb"
+        }
+      ],
+      "rawOutputSha256": "3dbd59dd980397d60e46505ac18f149c3e16f19ca2cb5edd4112973ec882677d"
+    },
+    {
+      "mode": "apply",
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "manifest": {
+        "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+        "sourceUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+        "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5",
+        "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+        "translationHash": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:53.852Z",
+        "assembly": {
+          "configHash": "51988c0c9401be39a91861bc905b7072e59e94b7b15fa9097eb7e8cd4796c919",
+          "checkedAt": "2026-10-13T13:07:53.852Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution",
+              "state": "planned-chinese",
+              "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+            },
+            {
+              "route": "/login",
+              "state": "planned-chinese",
+              "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+          "sha256": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "975e57656c3fb06e0d9e310ac0327b81a9922719b9e8eeed54fd953d6e44d39f"
+        }
+      ],
+      "rawOutputSha256": "5332d9d09721a7a0e4579c1f2c374e1191bf78db1423125a14c5e0a9df091277"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

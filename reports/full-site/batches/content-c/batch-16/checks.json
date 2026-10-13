@@ -1,0 +1,74 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-grill-with-docs",
+      "sourcePath": "content/source/skills-grill-with-docs.md",
+      "sourceHash": "7d562414cab61c24ebfed9382dcb18844240e3f30760ef7c3e4865fcff0f1a90",
+      "chineseFile": "reports/full-site/batches/content-c/batch-16/drafts/skills-grill-with-docs.md",
+      "translationHash": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对所有正文/两表/问答，保留stateful、按需文件、两依赖、三类决定去向、非所有决定持久化、缺文档两种原因和依赖漏载等限制。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "完整通读，单/多会话范围、词汇表与规格区别清晰，保留作者与反对意见，不统一转述。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近解释GLOSSARY/ADR，补stateful/context-window/spec中文导航；没有把文件未生成一律当bug。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "唯一原流程围栏、全部行内调用/文件名及原URL保留；help me document my repo 英文保留并配完整中文Prompt。",
+          "originalFencedBlocks": 1,
+          "originalMarkdownResourceOccurrences": 29
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未运行访谈或创建项目文档；导航 planned 待工程刷新。"
+      ]
+    },
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "sourcePath": "content/source/skills-improve-codebase-architecture.md",
+      "sourceHash": "5215a048953e975ddf53527ed489c4d395ef8fc1558ac005f37f80175e90b6d0",
+      "chineseFile": "reports/full-site/batches/content-c/batch-16/drafts/skills-improve-codebase-architecture.md",
+      "translationHash": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对完整调查流程、表格、全部问答和阶段行为。保留删除测试方向、热路径、候选强度、先报告后选择、CDN/SRI问题、宿主工具限制、无TypeScript布局等内容。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "全文通读，明确只调查不改代码、后续正常开发；保留作者关于低收益候选、传统代码库效果有限等判断。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "解释接缝/ADR、局部性/杠杆效应、CDN/SRI，原文仅新增报告检查项与后续词汇表写入差别在译注指出；补中文概念导航。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "全部原行内路径/标签/工具参数与URL保留；how can we make this change easy 两处及 don't grill me 完整英文保留并附可复制中文，用户引用配中文理解。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 24
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "没有运行架构扫描或HTML报告，未验证CDN脚本或宿主支持；导航 planned 待工程刷新。"
+      ]
+    }
+  ]
+}

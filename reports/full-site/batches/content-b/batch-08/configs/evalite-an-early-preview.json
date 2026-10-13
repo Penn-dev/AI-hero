@@ -1,0 +1,15 @@
+{
+  "route": "/evalite-an-early-preview",
+  "source": {
+    "path": "content/source/evalite-an-early-preview.md",
+    "sha256": "ae3226b9243b252a992143d399e7d27b4eec4ddc0e1f0aaeed720d4d076417da"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-08/drafts/evalite-an-early-preview.md",
+  "translationPath": "content/zh/evalite-an-early-preview.md",
+  "linkTargets": [
+    {
+      "route": "/what-are-evals",
+      "state": "available-chinese"
+    }
+  ]
+}

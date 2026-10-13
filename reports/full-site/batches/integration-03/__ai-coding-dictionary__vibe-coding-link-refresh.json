@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A15/configs/vibe-coding.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "manifest": {
+        "route": "/ai-coding-dictionary/vibe-coding",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+        "sourceHash": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861",
+        "translationPath": "content/zh/ai-coding-dictionary/vibe-coding.md",
+        "translationHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:29.024Z",
+        "assembly": {
+          "configHash": "aefdc7416d88b4c39212d69fb81701690df9c0def9b196526a9a6354a29179e5",
+          "checkedAt": "2026-10-13T12:19:29.024Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/vibe-coding.md",
+          "sha256": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0705f2692176d2fd1745a599697277a8c53cd1c4bf1fab8bedcd8403da434d29"
+        }
+      ],
+      "rawOutputSha256": "c1e766565623481eab46bad83fd40033330b1f653a6d7e3ebcbe5436157ddba9"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "manifest": {
+        "route": "/ai-coding-dictionary/vibe-coding",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+        "sourceHash": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861",
+        "translationPath": "content/zh/ai-coding-dictionary/vibe-coding.md",
+        "translationHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:29.260Z",
+        "assembly": {
+          "configHash": "aefdc7416d88b4c39212d69fb81701690df9c0def9b196526a9a6354a29179e5",
+          "checkedAt": "2026-10-13T12:19:29.260Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/vibe-coding.md",
+          "sha256": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "63b1c81b361494a7c0fdd657ce8b753e15c8e518773389fb31969c7ec9a46ea8"
+        }
+      ],
+      "rawOutputSha256": "ae023267be00f9849b051f4fc711b843a9c8ecca958ceb94760f7757cc3940c3"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

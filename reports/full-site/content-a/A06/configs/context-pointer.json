@@ -1,0 +1,38 @@
+{
+  "route": "/ai-coding-dictionary/context-pointer",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/context-pointer.md",
+    "sha256": "0465a48c9ee2d354bfbaa82b071f80b45616e7c8ad588b48f4cd1696786a7283"
+  },
+  "chineseFile": "reports/full-site/content-a/A06/drafts/context-pointer.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

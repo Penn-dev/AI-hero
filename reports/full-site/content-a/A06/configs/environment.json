@@ -1,0 +1,58 @@
+{
+  "route": "/ai-coding-dictionary/environment",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/environment.md",
+    "sha256": "5e10fc7459a6351d8025c7dabae66cc94ab99be566d27f7bab40fe53b736e342"
+  },
+  "chineseFile": "reports/full-site/content-a/A06/drafts/environment.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    }
+  ]
+}

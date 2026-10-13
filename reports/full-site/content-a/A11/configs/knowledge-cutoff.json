@@ -1,0 +1,38 @@
+{
+  "route": "/ai-coding-dictionary/knowledge-cutoff",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/knowledge-cutoff.md",
+    "sha256": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46"
+  },
+  "chineseFile": "reports/full-site/content-a/A11/drafts/knowledge-cutoff.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "state": "available-chinese"
+    }
+  ]
+}

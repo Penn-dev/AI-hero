@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-10/configs/connect-claude-code-to-github.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/connect-claude-code-to-github",
+      "manifest": {
+        "route": "/connect-claude-code-to-github",
+        "sourceUrl": "https://www.aihero.dev/connect-claude-code-to-github",
+        "sourceHash": "19af8b59a3fa6e1ea8578c13b34f32c41c58cd6d4d6f4211356840cc05ebc929",
+        "translationPath": "content/zh/connect-claude-code-to-github.md",
+        "translationHash": "15c0deb6be8f103a2b1afdcf63e77bf6498fb9d12f9581ec72137d44c1eab053",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:27.107Z",
+        "assembly": {
+          "configHash": "3ee24bf58fd6c338e68b096a145745f722f043337078b710f3af3327aa335e3f",
+          "checkedAt": "2026-10-13T13:04:27.107Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/connect-claude-code-to-github.md",
+          "sha256": "15c0deb6be8f103a2b1afdcf63e77bf6498fb9d12f9581ec72137d44c1eab053"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "f5b38f5176aa5ec03642e957a2437e44d881e0e4adb951b26fd4d942d7c1d425"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "484154bdd73d568400900570c8982a3eadefcfd0b451d21f303be351ab5ba2a2"
+        }
+      ],
+      "rawOutputSha256": "287098e69c685b03cec344c4d42bc0a9e48095c52b1ec37bf1f942072ecc5f39"
+    },
+    {
+      "mode": "apply",
+      "route": "/connect-claude-code-to-github",
+      "manifest": {
+        "route": "/connect-claude-code-to-github",
+        "sourceUrl": "https://www.aihero.dev/connect-claude-code-to-github",
+        "sourceHash": "19af8b59a3fa6e1ea8578c13b34f32c41c58cd6d4d6f4211356840cc05ebc929",
+        "translationPath": "content/zh/connect-claude-code-to-github.md",
+        "translationHash": "15c0deb6be8f103a2b1afdcf63e77bf6498fb9d12f9581ec72137d44c1eab053",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:27.325Z",
+        "assembly": {
+          "configHash": "3ee24bf58fd6c338e68b096a145745f722f043337078b710f3af3327aa335e3f",
+          "checkedAt": "2026-10-13T13:04:27.325Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/connect-claude-code-to-github.md",
+          "sha256": "15c0deb6be8f103a2b1afdcf63e77bf6498fb9d12f9581ec72137d44c1eab053"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "f5b38f5176aa5ec03642e957a2437e44d881e0e4adb951b26fd4d942d7c1d425"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a7a6336d3e06a7bd6ad74c9ed9f70cca8e324439baf3a939d07cc59383761483"
+        }
+      ],
+      "rawOutputSha256": "7ae9e6f3d103dbd67cc0230ca8e8a974d8751d27b9c6b978d7148d0dbe2695f5"
+    }
+  ],
+  "nonTargetPagesPreserved": 167
+}

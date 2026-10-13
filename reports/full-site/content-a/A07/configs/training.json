@@ -1,0 +1,50 @@
+{
+  "route": "/ai-coding-dictionary/training",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/training.md",
+    "sha256": "f962827db48b29c0c8cc4d6f7fdc692ecfdf37c09447acac4cfbecf57887cf15"
+  },
+  "chineseFile": "reports/full-site/content-a/A07/drafts/training.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

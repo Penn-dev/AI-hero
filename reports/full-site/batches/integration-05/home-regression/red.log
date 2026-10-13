@@ -1,0 +1,30 @@
+10:03:58 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ workshop text prompts are not labelled as original code (19.513285ms)
+✔ public articles with an independent glossary retain original resources and Chinese term controls (26.037199ms)
+✔ explicit historical review keeps Chinese-only links and its term controls (10.049702ms)
+✔ explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English (9.302892ms)
+✖ the home page displays the frozen original homepage content instead of historical placeholder statistics (14.656501ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 4
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1155.968374
+
+✖ failing tests:
+
+test at scripts/localized-article.test.mjs:89:6
+✖ the home page displays the frozen original homepage content instead of historical placeholder statistics (14.656501ms)
+  AssertionError [ERR_ASSERTION]: Frozen homepage source records 128,900+ developers
+      at TestContext.<anonymous> (file:///workspace/shared/aihero-integration/scripts/localized-article.test.mjs:92:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

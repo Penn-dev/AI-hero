@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A10/configs/handoff-artifact.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "manifest": {
+        "route": "/ai-coding-dictionary/handoff-artifact",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
+        "sourceHash": "d17dd0c5e14bddea3cfeace1c6071763b6bca069a2d7e75772ace458a353e2d5",
+        "translationPath": "content/zh/ai-coding-dictionary/handoff-artifact.md",
+        "translationHash": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:35.901Z",
+        "assembly": {
+          "configHash": "623306b0e3680904c4382f37fefa3657f637825b1596b6c0b24ed1a3c11d6647",
+          "checkedAt": "2026-10-13T12:19:35.901Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/handoff-artifact.md",
+          "sha256": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e6f35f22b8a4328334078d8c215d83bdeabf894f9be42ea825958d5daa4d7db2"
+        }
+      ],
+      "rawOutputSha256": "52eeb7402cec5d62654ff8edb135da1232aad636319d1917bc78e349ccea65b2"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "manifest": {
+        "route": "/ai-coding-dictionary/handoff-artifact",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
+        "sourceHash": "d17dd0c5e14bddea3cfeace1c6071763b6bca069a2d7e75772ace458a353e2d5",
+        "translationPath": "content/zh/ai-coding-dictionary/handoff-artifact.md",
+        "translationHash": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:36.167Z",
+        "assembly": {
+          "configHash": "623306b0e3680904c4382f37fefa3657f637825b1596b6c0b24ed1a3c11d6647",
+          "checkedAt": "2026-10-13T12:19:36.167Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/handoff-artifact.md",
+          "sha256": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7da242ce0636b56f0cdfc074da40ff2b968bc336ff1b0eab922ab50e39bcea69"
+        }
+      ],
+      "rawOutputSha256": "55daa60c7ed5dcde66f1bc1323875cb1eb876f66ee1b4122422df293f7deebda"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

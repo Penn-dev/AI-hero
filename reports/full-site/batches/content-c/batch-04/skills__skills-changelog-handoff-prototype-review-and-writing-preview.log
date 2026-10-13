@@ -1,0 +1,107 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-04/configs/skills__skills-changelog-handoff-prototype-review-and-writing.json
+
+{
+  "mode": "preview",
+  "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+  "page": {
+    "title": "Skills 更新日志：/handoff、/prototype、/review 和 /writing",
+    "markdown": "[AI Skills 更新日志](/skills)\n\n# Skills 更新日志：/handoff、/prototype、/review 和 /writing\n\n![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)\n\nMatt Pocock\n\n分享\n\n我在 [Skills 仓库](https://github.com/mattpocock/skills)中新增了两个 Skill：`/handoff` 和 `/prototype`。它们都明显改善了我与智能体协作的方式，尤其是在规划阶段。\n\n仓库增长得非常快，大家的反响好得惊人。\n\n![GitHub 星标数量快速增长的图表](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_3840/f_auto/q_auto/v1778496092/ai-hero-images/lawlzqfblajwx3p0ugu7?_a=BAVMn6DY0)\n\n我还修复了 `/grill-with-docs`、`/to-prd` 和 `/to-issues` 中的一些问题。这次也会提前展示正在制作的写作和代码审阅 Skills。\n\n## [`/handoff`](#handoff)\n\n新的 [`/handoff`](https://github.com/mattpocock/skills) Skill 会把当前对话压缩成一份交接文档，让另一个智能体接手。它生成一个临时文件，总结上下文，记录会话的氛围和意图，并建议下一个智能体使用哪些 Skills。\n\n它解决了一个常见问题：追问讨论已经深入到 60K Token，此时却需要做原型或修一个 bug。你不必把这些工作硬塞进剩余的上下文窗口，可以把完整背景交给一个新智能体。之后，还能把新发现交回原会话。\n\n译注：60K 指约六万个 Token，是原文描述的使用场景，不是固定的交接阈值。上下文窗口是模型一次能处理的信息容量。\n\n主要有两种模式：**发出去就不再跟进**，例如在会话中途启动一个智能体修 bug；以及**自己动手充当子智能体**，即规划时交出任务，完成一些工作后，再交回结果。这个 Skill 放在效率分类中，因为工程之外也能用。\n\n## [`/prototype`](#prototype)\n\n新的 [`/prototype`](https://github.com/mattpocock/skills) Skill 会制作可丢弃的原型，在正式确定方案前把设计决定弄清楚。这对 AI 工程很重要：原型和短期技术探索可以作为研究手段，回答那些只有看见代码后才知道自己还没想到的问题。\n\n界面原型是最显而易见的用途，但它也能做业务逻辑原型。面对复杂状态机或会随时间变化的实体，可以做一个小型交互式终端程序，让状态走过各种难以仅凭纸面推演的边界情况。\n\n译注：状态机描述事物有哪些状态、在什么条件下切换；例如订单从待付款变为已付款，再变为已发货。\n\n做界面时，它会生成几种差异很大的方案，用一个悬浮按钮切换。你可以沿着设计分支逐步比较，组合不同方案里的元素，舍弃其他部分。想让 AFK 智能体做好前端，这一点不可缺少：人必须参与其中，作出审美判断，因为 AI 往往看不到自己正在构建的东西。\n\n译注：AFK 指离开键盘后让智能体自行工作；这里强调界面设计仍需要人的判断。\n\n## [问题修复](#bug-fixes)\n\n[`/grill-with-docs`](https://github.com/mattpocock/skills) 有时太急着实现，而不是继续提问。修复方法是把辅助信息包在 XML 标签里，让它相较核心指令不那么抢眼。这会向 LLM 表明，`<supporting-info>` 内的内容优先级应稍低一些。\n\n[`/to-prd`](https://github.com/mattpocock/skills) 和 [`/to-issues`](https://github.com/mattpocock/skills) 现在都会添加 `ready-for-agent-triage` 标签，而非 `needs-triage`。用它们创建的 issue 已经准备好交给智能体，不需要再进行一次分流处理。\n\n## [开发中预览](#in-progress-preview)\n\n我正在开发一套由三部分组成的写作 Skill：**fragments，素材片段**；**beats，叙事节拍**；**shape，成文打磨**。它借鉴作家记录灵感、再逐渐将这些想法写进故事的做法。你先口述 fragments，也就是想法；再写 beats，也就是故事展开的路线；最后做一次 shaping，确保成文不像 AI 生成的。\n\n还有一个即将推出的 **review** Skill。它会并行启动两个子智能体：一个检查 diff 是否符合仓库编码规范，另一个检查是否忠实实现了原 issue 或 PRD。另一个独立 Skill 会从仓库提取编码规范，让规范检查更有效。\n\n译注：diff 是修改前后的差异；PRD 是产品需求文档。这些“正在开发”“即将推出”的描述均沿用本文发布时的语境。\n\nAI Hero · 免费邮件课程\n\n### 为认真做工程的人准备的 AI Skills\n\n建立可重复使用的编码智能体工作流程，同时坚持你的工程标准。\n\n译注：固定来源保留了课程推广文案，但这处没有提供可点击的课程入口。\n\n**分享**\n\n[分享到 X](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-handoff-prototype-review-and-writingSkills%20Changelog%3A%20%2Fhandoff%2C%20%2Fprototype%2C%20%2Freview%20and%20%2Fwriting%20%20by%20%40mattpocockuk)[分享到 Bluesky](https://bsky.app/intent/compose?text=Skills%20Changelog%3A%20%2Fhandoff%2C%20%2Fprototype%2C%20%2Freview%20and%20%2Fwriting%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-handoff-prototype-review-and-writing)[分享到 LinkedIn](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing?author=Matt Pocock>)\n\n复制网址：[原站文章地址](https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing)\n\n译注：本页相关中文词条：[交接](/ai-coding-dictionary/handoff)、[上下文](/ai-coding-dictionary/context)、[Token](/ai-coding-dictionary/token)、[AFK](/ai-coding-dictionary/afk)。链接优先打开已接入的中文页；尚未接入时会回到原站英文页。",
+    "sourceUpdatedAt": "2026-05-11T10:38:47.822Z",
+    "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+    "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b"
+  },
+  "manifest": {
+    "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+    "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+    "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+    "translationPath": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+    "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T11:49:26.821Z",
+    "assembly": {
+      "configHash": "550de0f557f2e1659bb7d614f4eaf48670e948acf753e3ea9a7cc12d0dc1b1f8",
+      "checkedAt": "2026-10-13T11:49:26.821Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/skills",
+          "state": "planned-chinese",
+          "reason": "C03 已交稿，工程先接页后复核此引用"
+        },
+        {
+          "route": "/ai-coding-dictionary/handoff",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/context",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/token",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/afk",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        }
+      ],
+      "staleChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/skills",
+      "state": "planned-chinese",
+      "reason": "C03 已交稿，工程先接页后复核此引用"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+      "sha256": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "6c87584f14eb7db3076aea1abab5e122da02476cef9e9896ec1d1d2d91958b1c"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "5c915a37ee74d4a7a5d0cabca68d1beceb33d38b3f1e8a67a48d5fc832cda73b"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "status": "failed",
+  "commit": "227009846c79b8356bae8c8cf4841bff19a17cfc",
+  "pages": [
+    {
+      "id": "system-prompt",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "system-prompt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "agents-md",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "agents-md",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "Error",
+        "message": "expect(received).toBeLessThan(expected)\n\nExpected: < 180\nReceived:   12367.15625\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate",
+        "stack": "Error: expect(received).toBeLessThan(expected)\n\nExpected: < 180\nReceived:   12367.15625\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toBeLessThan (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at anchorAndRefresh (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:93:115)\n    at async checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:165:7)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:211:5"
+      }
+    },
+    {
+      "id": "output",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "output",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    }
+  ]
+}

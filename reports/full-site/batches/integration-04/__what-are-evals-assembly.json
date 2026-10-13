@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-04/configs/what-are-evals.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/what-are-evals",
+      "manifest": {
+        "route": "/what-are-evals",
+        "sourceUrl": "https://www.aihero.dev/what-are-evals",
+        "sourceHash": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
+        "translationPath": "content/zh/what-are-evals.md",
+        "translationHash": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:57.174Z",
+        "assembly": {
+          "configHash": "f685c9e806d48fbd6cee88d5e1d59dfb01574590b93d26193183cc8251bf6c2f",
+          "checkedAt": "2026-10-13T12:37:57.174Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/the-ai-engineer-mindset",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-are-evals.md",
+          "sha256": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "b3ee252670d7103a1d1865775b235c732dbbfb2838d9d9d0fdb63061964e5cea"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "290bf55aebeb2017167e477546c1254599877428eb9eb086f93a8f132c19efc2"
+        }
+      ],
+      "rawOutputSha256": "50be140808f0d260223851e1929fd5bdcdaae1096b681ef41871c5a461a8df76"
+    },
+    {
+      "mode": "apply",
+      "route": "/what-are-evals",
+      "manifest": {
+        "route": "/what-are-evals",
+        "sourceUrl": "https://www.aihero.dev/what-are-evals",
+        "sourceHash": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
+        "translationPath": "content/zh/what-are-evals.md",
+        "translationHash": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:57.435Z",
+        "assembly": {
+          "configHash": "f685c9e806d48fbd6cee88d5e1d59dfb01574590b93d26193183cc8251bf6c2f",
+          "checkedAt": "2026-10-13T12:37:57.435Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/the-ai-engineer-mindset",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-are-evals.md",
+          "sha256": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "b3ee252670d7103a1d1865775b235c732dbbfb2838d9d9d0fdb63061964e5cea"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0ed7bac72b624179b13ace21c0b46f3094927145476cee9e2f2d3ee3f9ebb1ad"
+        }
+      ],
+      "rawOutputSha256": "d823a300569b19d37817bab7db5ad614f0704b469758ca9979c41f50c7caf260"
+    }
+  ],
+  "nonTargetPagesPreserved": 124
+}

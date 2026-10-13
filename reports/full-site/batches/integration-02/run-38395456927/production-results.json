@@ -1,0 +1,1542 @@
+{
+  "batch": "production-02",
+  "commit": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+  "runId": "38395456927",
+  "scope": "Actual assembled production pages and content-specific structures; reuses unchanged sample interaction evidence. Not semantic review or tutorial execution.",
+  "startedAt": "2026-10-13T12:12:26.342Z",
+  "pages": [
+    {
+      "id": "ai-coding-dictionary-tool-call",
+      "route": "/ai-coding-dictionary/tool-call",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "95ec8540dceadb7fac71d6539c17bc2a4acd1ee9354dac8fe994572678413e2a",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: table",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/harness",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-tool-result",
+      "route": "/ai-coding-dictionary/tool-result",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "7574fffe1a0b24a5b25f4213060ea9765833f0d7c84468ae0a3df00772e688a5",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: table",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/context",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-tool",
+      "route": "/ai-coding-dictionary/tool",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "f094c8573d7307195caf83a27e4eace62fda2af963fcac0adb262e346d1fb4a3",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: table",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/context",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-hallucination",
+      "route": "/ai-coding-dictionary/hallucination",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: table",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/model",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-hallucination",
+      "route": "/ai-coding-dictionary/hallucination",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: table",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/model",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-memory-system",
+      "route": "/ai-coding-dictionary/memory-system",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "69475a939a5bcdf64d816a1de64f161f915dc1443ed1e3be6fecaaba23684df9",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: examples",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/harness",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-prefix-cache",
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: examples",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/harness",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "how-does-the-model-context-protocol-work",
+      "route": "/how-does-the-model-context-protocol-work",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: code",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 181,
+          "sha256": "210f385887f6f934fc35b3afafad23714d493cdd950384060b6d34382ca925d7",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 84,
+          "sha256": "cc747aff3e3bb9fa2bfcaa864df01d1945d103b646def7c6046dbfa8be3e20c3",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 120,
+          "sha256": "640f34629ab530d6f0f220e5bfe7dff8d08468746300f1ec736473dc5f4e4e52",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 255,
+          "sha256": "4919771a50c5486df9071249d1873b319b6925b65e83be5ca49a51b70c2fbbe9",
+          "match": true
+        },
+        {
+          "block": 5,
+          "chars": 78,
+          "sha256": "3d8447139efee8b5ecd0f01d0b06099877f229e5ab80a6128cbdfc86179cea6a",
+          "match": true
+        },
+        {
+          "block": 6,
+          "chars": 446,
+          "sha256": "24d9087370b0be3f1391553535907965bc8227ef9c444c6e2fdbe94e2162172f",
+          "match": true
+        },
+        {
+          "block": 7,
+          "chars": 252,
+          "sha256": "97a3246adb6e6cf9bf96c05ca31d4ea406bfefb93cd953ee56581875830068e0",
+          "match": true
+        },
+        {
+          "block": 8,
+          "chars": 180,
+          "sha256": "83bfbaa1ade4032fb44e0f7f5f843938cbfe2738ff9588264476fe769fb6a87a",
+          "match": true
+        },
+        {
+          "block": 9,
+          "chars": 192,
+          "sha256": "ec6620f24358393d310d352c3f23960a07cf8511a29e3780c9c303dd93389b1f",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "http://res.cloudinary.com/total-typescript/image/upload/v1741611370/posts/post_eiesy/n0emq4uuvsykmmqjyxdx.png",
+          "width": 819,
+          "alt": "MCP 架构"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "logging-a-huge-mcp-footgun",
+      "route": "/logging-a-huge-mcp-footgun",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: code",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 73,
+          "sha256": "d2dea3f20e4932bdf7e4655322cb57a5d6edb1b52cde5a8bdd4b290c81ba1af9",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 104,
+          "sha256": "7beef03923deae9f1493f58e0fb5eafd621ab55a2e155cec3a22d67853ae9947",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 102,
+          "sha256": "3b905defeba0fd21edb2bf5481002b417325f6c1d4bd794a3629d33e03312bd7",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 691,
+          "sha256": "7f74caff4734cd345a242035b8d20a4ac4837d1f4f5da8cae905c5b1e22fbecb",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "mcp-server-from-a-single-typescript-file",
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: steps",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 151,
+          "sha256": "9ee336743d528e86c921c9c1aaebf921d8f06d5cde898bcaca59def30187f152",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 26,
+          "sha256": "0abdf1d5d59ccf0065c2b302d5e140bc4e5b0089430b7d836dc61a0467591a92",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 74,
+          "sha256": "a9fe34c965831516f0a965c6ba60c3ece7cb4eab7dcba642c0ac8b607e571604",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 253,
+          "sha256": "830785564497fe714dc11dfd396959708407cfa54aef775bd39c8caf9344d9e3",
+          "match": true
+        },
+        {
+          "block": 5,
+          "chars": 161,
+          "sha256": "f9b4bee3b9f7bea601a276d187940aa03b410f09c0823f1d941d8df6e351b3a0",
+          "match": true
+        },
+        {
+          "block": 6,
+          "chars": 63,
+          "sha256": "2d5983b5baab177e1a0acf7fcd1f529432ef247d895a7b9082835c3fb6395e46",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "mcp-server-from-a-single-typescript-file",
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: steps",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 151,
+          "sha256": "9ee336743d528e86c921c9c1aaebf921d8f06d5cde898bcaca59def30187f152",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 26,
+          "sha256": "0abdf1d5d59ccf0065c2b302d5e140bc4e5b0089430b7d836dc61a0467591a92",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 74,
+          "sha256": "a9fe34c965831516f0a965c6ba60c3ece7cb4eab7dcba642c0ac8b607e571604",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 253,
+          "sha256": "830785564497fe714dc11dfd396959708407cfa54aef775bd39c8caf9344d9e3",
+          "match": true
+        },
+        {
+          "block": 5,
+          "chars": 161,
+          "sha256": "f9b4bee3b9f7bea601a276d187940aa03b410f09c0823f1d941d8df6e351b3a0",
+          "match": true
+        },
+        {
+          "block": 6,
+          "chars": 63,
+          "sha256": "2d5983b5baab177e1a0acf7fcd1f529432ef247d895a7b9082835c3fb6395e46",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "model-context-protocol-tutorial",
+      "route": "/model-context-protocol-tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "publish-your-mcp-server-to-npm",
+      "route": "/publish-your-mcp-server-to-npm",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "266a6329ddbe8f0cd24322187c0b08ee59a1bf6f3d4c2f6bb8287c150b8bc207",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: code",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 46,
+          "sha256": "2005f13d02f96286adbf43b064b780f2935ebe461bde1bb561ebc3e363257294",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 594,
+          "sha256": "8a386142ad6502e1b84dc4add889fdc3b5945f1a40f843abc9bc2dde45f396d8",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 386,
+          "sha256": "b439b5053368aa9851e880ebb9d8898c7bc7ba4e1d92ede93dc1fc06366f339b",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 62,
+          "sha256": "dbbfd1d653cd893a0f8186c141fe37021f5ba6980a9d821033f744daac45c361",
+          "match": true
+        },
+        {
+          "block": 5,
+          "chars": 464,
+          "sha256": "c24b1efd9a4fb8de1263ffb466cefab3019a107ea61dbb761501c92e3cbc360c",
+          "match": true
+        },
+        {
+          "block": 6,
+          "chars": 27,
+          "sha256": "6a8c8f116d600cbac42d123bf2d85ee8613325ef97c4139b8069d6414ff3d659",
+          "match": true
+        },
+        {
+          "block": 7,
+          "chars": 46,
+          "sha256": "2005f13d02f96286adbf43b064b780f2935ebe461bde1bb561ebc3e363257294",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "the-problem-with-mcp-stateful-server",
+      "route": "/the-problem-with-mcp-stateful-server",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: code",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 354,
+          "sha256": "ed4603bd8d81b716d88e120145f1b277e96cd36704941b9797dbdd6c40d01ce4",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 128,
+          "sha256": "2b3bed5262f4268fe6e3743c300c5d6409c75d7bdb95aea0eda969a78a42dad4",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 247,
+          "sha256": "93ba61846b1b66279558a508930cf21940dc67414861780942e0ce8bce6e8abd",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "using-mcp-prompts",
+      "route": "/using-mcp-prompts",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "fcfd3d1edb3ec3dc068b5165bc38289cbcc5aa52856ee704c7450455ec77326e",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: steps",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 339,
+          "sha256": "acb26fd2ae4319d408da32a01143cf6850bfe8e8a95a57c1c54ad36cc989b983",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 36,
+          "sha256": "6568533066174a7ae2c2889b325f00ac359a4604c987d86ddf623a6d9257d942",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 73,
+          "sha256": "38831fa149daf363de534a972274eafed45b31120f6cf269602ff1c8b7d24828",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 123,
+          "sha256": "cbbe45e9bb59487d02dcfd8c98ecef267b3934a0a4bb02a94e8225c056b33d54",
+          "match": true
+        },
+        {
+          "block": 5,
+          "chars": 339,
+          "sha256": "a2c8baa090ac93098ecbd42ecc415f2f42faabff629fff62b09b1d8c73f55bbf",
+          "match": true
+        },
+        {
+          "block": 6,
+          "chars": 478,
+          "sha256": "5a661417fa498129ab419507442a2af2821b32153819dd40c2cea3bbd963a17b",
+          "match": true
+        },
+        {
+          "block": 7,
+          "chars": 195,
+          "sha256": "5f9640ad22e5b094fac7fff6a24a813697a4d983dac4a773d188257006b07aee",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "http://res.cloudinary.com/total-typescript/image/upload/v1741618645/posts/post_k3ou7/ewbqn3782ztrpafxlmdf.png",
+          "width": 925,
+          "alt": "Claude Code 中可见的 /cleanTranscription"
+        },
+        {
+          "src": "http://res.cloudinary.com/total-typescript/image/upload/v1741618644/posts/post_k3ou7/johh2yqdfn6jndtvrk0b.png",
+          "width": 930,
+          "alt": "Claude Code 请求填写 path 变量"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "using-mcp-prompts",
+      "route": "/using-mcp-prompts",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "fcfd3d1edb3ec3dc068b5165bc38289cbcc5aa52856ee704c7450455ec77326e",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: steps",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 339,
+          "sha256": "acb26fd2ae4319d408da32a01143cf6850bfe8e8a95a57c1c54ad36cc989b983",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 36,
+          "sha256": "6568533066174a7ae2c2889b325f00ac359a4604c987d86ddf623a6d9257d942",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 73,
+          "sha256": "38831fa149daf363de534a972274eafed45b31120f6cf269602ff1c8b7d24828",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 123,
+          "sha256": "cbbe45e9bb59487d02dcfd8c98ecef267b3934a0a4bb02a94e8225c056b33d54",
+          "match": true
+        },
+        {
+          "block": 5,
+          "chars": 339,
+          "sha256": "a2c8baa090ac93098ecbd42ecc415f2f42faabff629fff62b09b1d8c73f55bbf",
+          "match": true
+        },
+        {
+          "block": 6,
+          "chars": 478,
+          "sha256": "5a661417fa498129ab419507442a2af2821b32153819dd40c2cea3bbd963a17b",
+          "match": true
+        },
+        {
+          "block": 7,
+          "chars": 195,
+          "sha256": "5f9640ad22e5b094fac7fff6a24a813697a4d983dac4a773d188257006b07aee",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "http://res.cloudinary.com/total-typescript/image/upload/v1741618645/posts/post_k3ou7/ewbqn3782ztrpafxlmdf.png",
+          "width": 925,
+          "alt": "Claude Code 中可见的 /cleanTranscription"
+        },
+        {
+          "src": "http://res.cloudinary.com/total-typescript/image/upload/v1741618644/posts/post_k3ou7/johh2yqdfn6jndtvrk0b.png",
+          "width": 930,
+          "alt": "Claude Code 请求填写 path 变量"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "skills-catalog",
+      "route": "/skills-catalog",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: code",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/agent",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 38,
+          "sha256": "7dedd4fccf179290c87ec2f6f8cb490ce35be0911462140fc298cb48bc93c770",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "skills-codebase-design",
+      "route": "/skills-codebase-design",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: intro-emphasis",
+        "Visible content-specific structure: depth-emphasis",
+        "Visible content-specific structure: module-emphasis",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/agent",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 5,
+          "sha256": "4adfa856745f0580dd54c22f4f123bd7f194b8e35eb96b14e2a28ef41c1ddf3b",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 32,
+          "sha256": "c0f055658ac71d3c81ce47d6fd74e1d011595704687a07de74e5d577a56b44ac",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 27,
+          "sha256": "af2ebb84ab79f11d3bb39fbda120869c268293fbf1a065b53aa7c0f57a53448d",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "skills-codebase-design",
+      "route": "/skills-codebase-design",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: intro-emphasis",
+        "Visible content-specific structure: depth-emphasis",
+        "Visible content-specific structure: module-emphasis",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/agent",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 5,
+          "sha256": "4adfa856745f0580dd54c22f4f123bd7f194b8e35eb96b14e2a28ef41c1ddf3b",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 32,
+          "sha256": "c0f055658ac71d3c81ce47d6fd74e1d011595704687a07de74e5d577a56b44ac",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 27,
+          "sha256": "af2ebb84ab79f11d3bb39fbda120869c268293fbf1a065b53aa7c0f57a53448d",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "skills-wait-what",
+      "route": "/skills-wait-what",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: code",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/agent",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 5,
+          "sha256": "03f6850402bd5d611c5dd100652bba4b3638f5e69d66983f8a205b9bb756f240",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 5,
+          "sha256": "61c96efef0b304f395056f274d63dec67682989015582ba4f7924d793e37d762",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 12,
+          "sha256": "7ba3182858e61077c5ea8d1d7c245c8963aeaee80636898de3b83b79d222b112",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "skills-subscribe",
+      "route": "/skills/subscribe",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_128/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 128,
+          "alt": "Matt Pocock"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1737463838/workshops/page-6z2ir/qxwhr72flnhn571y4cvg?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Guillermo Rauch"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "skills-resolving-merge-conflicts",
+      "route": "/skills-resolving-merge-conflicts",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: table",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "skills",
+      "route": "/skills",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: code",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/agent",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 39,
+          "sha256": "1f5fbface0564703da4ce59bac85d8abe52bd6c454b3573bc150cfece954e0db",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 40,
+          "sha256": "adea152e2ce21e3470bfcd1c5dea0c9781dac12e5b994954682dc93f3c7f97f4",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "what-is-an-llm",
+      "route": "/what-is-an-llm",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: model-emphasis",
+        "Visible content-specific structure: inference-emphasis",
+        "Visible content-specific structure: sampling-emphasis",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 124,
+          "sha256": "f954c7dbec1ae594dcf932e2328dcba95a950e3a7db5c3783d268e9730637cf0",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 73,
+          "sha256": "cb9f0065dc0ae59a90a36d4355f51a2af4d536249bae42365294e3d814f1a10c",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 210,
+          "sha256": "5d599048d4ea23277330b7eae9d0c2fa5c02930e6e143ebd68fbf7eb363d795f",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 125,
+          "sha256": "765020b883c6220129384264eb1302b9fa3ce008882f18d9af4c770eba1b12ea",
+          "match": true
+        },
+        {
+          "block": 5,
+          "chars": 119,
+          "sha256": "550e6824a527abc3567889dba375b4a96590d6c9e06f464a1a9268d2b92ad19b",
+          "match": true
+        },
+        {
+          "block": 6,
+          "chars": 171,
+          "sha256": "1988342f90b094557bfe8043a396d211dbc8f5eb610fbec12e5d8b967df166f3",
+          "match": true
+        },
+        {
+          "block": 7,
+          "chars": 154,
+          "sha256": "fca9aaf9b1a7dd018086e609cdb7dc449d1eed53c5e9488c6252ddcd129f257f",
+          "match": true
+        },
+        {
+          "block": 8,
+          "chars": 77,
+          "sha256": "d1a58d5a630f2fca2e9f9cbd4b04534ed8707e4c8c761f20101ac4cdbfd49707",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "what-is-an-llm",
+      "route": "/what-is-an-llm",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: model-emphasis",
+        "Visible content-specific structure: inference-emphasis",
+        "Visible content-specific structure: sampling-emphasis",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "block": 1,
+          "chars": 124,
+          "sha256": "f954c7dbec1ae594dcf932e2328dcba95a950e3a7db5c3783d268e9730637cf0",
+          "match": true
+        },
+        {
+          "block": 2,
+          "chars": 73,
+          "sha256": "cb9f0065dc0ae59a90a36d4355f51a2af4d536249bae42365294e3d814f1a10c",
+          "match": true
+        },
+        {
+          "block": 3,
+          "chars": 210,
+          "sha256": "5d599048d4ea23277330b7eae9d0c2fa5c02930e6e143ebd68fbf7eb363d795f",
+          "match": true
+        },
+        {
+          "block": 4,
+          "chars": 125,
+          "sha256": "765020b883c6220129384264eb1302b9fa3ce008882f18d9af4c770eba1b12ea",
+          "match": true
+        },
+        {
+          "block": 5,
+          "chars": 119,
+          "sha256": "550e6824a527abc3567889dba375b4a96590d6c9e06f464a1a9268d2b92ad19b",
+          "match": true
+        },
+        {
+          "block": 6,
+          "chars": 171,
+          "sha256": "1988342f90b094557bfe8043a396d211dbc8f5eb610fbec12e5d8b967df166f3",
+          "match": true
+        },
+        {
+          "block": 7,
+          "chars": 154,
+          "sha256": "fca9aaf9b1a7dd018086e609cdb7dc449d1eed53c5e9488c6252ddcd129f257f",
+          "match": true
+        },
+        {
+          "block": 8,
+          "chars": 77,
+          "sha256": "d1a58d5a630f2fca2e9f9cbd4b04534ed8707e4c8c761f20101ac4cdbfd49707",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-agent",
+      "route": "/ai-coding-dictionary/agent",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "5b44967000bbf20f89eecf21037c35a7428931d8623e0a45912dd63ed15e2a06",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: agent-emphasis",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/harness",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-agent",
+      "route": "/ai-coding-dictionary/agent",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "5b44967000bbf20f89eecf21037c35a7428931d8623e0a45912dd63ed15e2a06",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: agent-emphasis",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/harness",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-context-window",
+      "route": "/ai-coding-dictionary/context-window",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "c7b7dd9404a5e20e691ba4d9109594987f8be2844d762c08634584b981ba35b1",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: window-emphasis",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/context",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-context-window",
+      "route": "/ai-coding-dictionary/context-window",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "c7b7dd9404a5e20e691ba4d9109594987f8be2844d762c08634584b981ba35b1",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: window-emphasis",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary/context",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "ai-coding-dictionary-tool-call-390-table.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/tool-call",
+      "sha256": "057388c6dd5add546119503de86fcf15e0739429a71f27f41c5c84010a87112e",
+      "bytes": 85061
+    },
+    {
+      "file": "ai-coding-dictionary-tool-result-390-table.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/tool-result",
+      "sha256": "9b6969b0fa2ee1f5b45c75ea8e84f11f7806da777e324f32fa47c2e8a7bd8563",
+      "bytes": 87180
+    },
+    {
+      "file": "ai-coding-dictionary-tool-390-table.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/tool",
+      "sha256": "bcaa2dfbf9bf44e19931cda501f413d594f198100ee8d1226622186df39459d2",
+      "bytes": 112501
+    },
+    {
+      "file": "ai-coding-dictionary-hallucination-1440-table.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/hallucination",
+      "sha256": "4a406ae3c7ba4135102e7d06aa87d8fcf74ecc8b49f7661322bbd4423ac5e9c8",
+      "bytes": 138303
+    },
+    {
+      "file": "ai-coding-dictionary-hallucination-390-table.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/hallucination",
+      "sha256": "0cd8a252f2904363a30f214b7c1c695ce5778f620eaeeff994381b72232e0459",
+      "bytes": 101184
+    },
+    {
+      "file": "ai-coding-dictionary-memory-system-390-examples.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/memory-system",
+      "sha256": "26a091698eaf0bf823ccbea1350b3ae722fbd691b5b9904f1f3afbab3872f924",
+      "bytes": 71974
+    },
+    {
+      "file": "ai-coding-dictionary-prefix-cache-390-examples.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/prefix-cache",
+      "sha256": "73cb32690d8d3479e62c961a24956dc4f64791bc4b89e6afa22fd2353be9c2f1",
+      "bytes": 73811
+    },
+    {
+      "file": "anthropics-new-model-context-protocol-in-2-minutes~hc0tx-390-body.png",
+      "url": "http://127.0.0.1:4321/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "sha256": "76db4916f113cd5bd5a9f1df017f1df709ea1ab9f19ff918bfcfb90a5886913e",
+      "bytes": 89390
+    },
+    {
+      "file": "how-does-the-model-context-protocol-work-390-code.png",
+      "url": "http://127.0.0.1:4321/how-does-the-model-context-protocol-work",
+      "sha256": "e38d5c2587153abaf7d8eeb4a3389322dbc3b9ac991afb328eca60a08875ee78",
+      "bytes": 72931
+    },
+    {
+      "file": "logging-a-huge-mcp-footgun-390-code.png",
+      "url": "http://127.0.0.1:4321/logging-a-huge-mcp-footgun",
+      "sha256": "fe07504748b8da65a789d7a86cc5efd3c5a10410dc4c36556b8a4fb68473866b",
+      "bytes": 76160
+    },
+    {
+      "file": "mcp-server-from-a-single-typescript-file-1440-steps.png",
+      "url": "http://127.0.0.1:4321/mcp-server-from-a-single-typescript-file",
+      "sha256": "8b664ae257c2203228b74fc3f71ad9d47764542187feec2bbaed9bedecce2165",
+      "bytes": 93984
+    },
+    {
+      "file": "mcp-server-from-a-single-typescript-file-390-steps.png",
+      "url": "http://127.0.0.1:4321/mcp-server-from-a-single-typescript-file",
+      "sha256": "190ca83472d669d54afb6d84fa2d2a149fc1c30dd34226828050b4911c43cf17",
+      "bytes": 68504
+    },
+    {
+      "file": "model-context-protocol-tutorial-390-body.png",
+      "url": "http://127.0.0.1:4321/model-context-protocol-tutorial",
+      "sha256": "fef4905020e57003675a86796032255c04b413e8f5dbc642333dd34b9c853f11",
+      "bytes": 96047
+    },
+    {
+      "file": "publish-your-mcp-server-to-npm-390-code.png",
+      "url": "http://127.0.0.1:4321/publish-your-mcp-server-to-npm",
+      "sha256": "3070e286339ad4f213fda3bfdab3a10d3a2341e6f2c41903ffe8b4dd85f0aa19",
+      "bytes": 96572
+    },
+    {
+      "file": "the-problem-with-mcp-stateful-server-390-code.png",
+      "url": "http://127.0.0.1:4321/the-problem-with-mcp-stateful-server",
+      "sha256": "db1418f587280cd8bef0ccec90e2492699f71b0a4e2bec15622bbb034c3ada51",
+      "bytes": 66770
+    },
+    {
+      "file": "using-mcp-prompts-1440-steps.png",
+      "url": "http://127.0.0.1:4321/using-mcp-prompts",
+      "sha256": "a57051aacb7d67ca66119b7990ec96a999b9b30fbf3a0a8e6888ede2ba96ca40",
+      "bytes": 76968
+    },
+    {
+      "file": "using-mcp-prompts-390-steps.png",
+      "url": "http://127.0.0.1:4321/using-mcp-prompts",
+      "sha256": "72f3ac1c5583fcdaa87a27d6f061c6921b2d11a5dceb2268990a168f9555b1b3",
+      "bytes": 49918
+    },
+    {
+      "file": "skills-catalog-390-code.png",
+      "url": "http://127.0.0.1:4321/skills-catalog",
+      "sha256": "b49aa7f3738259427418207cca22e71809e34527a18de0857d78444a8adaf1cf",
+      "bytes": 100997
+    },
+    {
+      "file": "skills-codebase-design-1440-intro-emphasis.png",
+      "url": "http://127.0.0.1:4321/skills-codebase-design",
+      "sha256": "86ed0adda49370ae39f31f60f924acc78ff8ba1e428825fe3090043a44f8f0da",
+      "bytes": 174002
+    },
+    {
+      "file": "skills-codebase-design-1440-depth-emphasis.png",
+      "url": "http://127.0.0.1:4321/skills-codebase-design",
+      "sha256": "39b4aa26a997f712c2c59c6fb38adb02eb003dada0e35a81ec3353b109c62647",
+      "bytes": 221915
+    },
+    {
+      "file": "skills-codebase-design-1440-module-emphasis.png",
+      "url": "http://127.0.0.1:4321/skills-codebase-design",
+      "sha256": "3d1a550e394d76b3bc99b275669c83f8592dfff909e72f65b35326d4bd8fa9e3",
+      "bytes": 271838
+    },
+    {
+      "file": "skills-codebase-design-390-intro-emphasis.png",
+      "url": "http://127.0.0.1:4321/skills-codebase-design",
+      "sha256": "4127ae6f1b78f04981c0a6725da9dd00033f3ca3aa76038e80d234bf60265a94",
+      "bytes": 124905
+    },
+    {
+      "file": "skills-codebase-design-390-depth-emphasis.png",
+      "url": "http://127.0.0.1:4321/skills-codebase-design",
+      "sha256": "1e4a6d8b581dafa9f98205205d85fdb57cfee3614fbd38d6c8511c2f16dd0664",
+      "bytes": 78157
+    },
+    {
+      "file": "skills-codebase-design-390-module-emphasis.png",
+      "url": "http://127.0.0.1:4321/skills-codebase-design",
+      "sha256": "65307b74749975baffd5106b288a859bf6508f5cf27947372f472c2d4fb9f909",
+      "bytes": 145329
+    },
+    {
+      "file": "skills-wait-what-390-code.png",
+      "url": "http://127.0.0.1:4321/skills-wait-what",
+      "sha256": "f91108277de01529952dfab29eb3d4e5d7a16efa99b2c6b0ebe6aad0d36d3fa9",
+      "bytes": 51762
+    },
+    {
+      "file": "skills-subscribe-390-body.png",
+      "url": "http://127.0.0.1:4321/skills/subscribe",
+      "sha256": "f64c7c63fb89c21b2dbaf794da013d65cf9ad9ed33287e6a8112f34976611a9e",
+      "bytes": 88430
+    },
+    {
+      "file": "skills-resolving-merge-conflicts-390-table.png",
+      "url": "http://127.0.0.1:4321/skills-resolving-merge-conflicts",
+      "sha256": "878620f0e09b841620f4c33b279fac3e48f84dde1b849decca1f64aa83402e80",
+      "bytes": 81891
+    },
+    {
+      "file": "skills-390-code.png",
+      "url": "http://127.0.0.1:4321/skills",
+      "sha256": "13eac335099f7256a3c49e546e0a430732589d1dc59ded9b07e0eeeb6f2f447f",
+      "bytes": 67582
+    },
+    {
+      "file": "what-is-an-llm-1440-model-emphasis.png",
+      "url": "http://127.0.0.1:4321/what-is-an-llm",
+      "sha256": "81cd087f8bd0ff1d09ca3c348a203000061fc31ebdd428a6325f703b9dbf4ca0",
+      "bytes": 166121
+    },
+    {
+      "file": "what-is-an-llm-1440-inference-emphasis.png",
+      "url": "http://127.0.0.1:4321/what-is-an-llm",
+      "sha256": "f5303f5d2966d87d8a3ed7a5c6e275a71134f03fd22c0609f7d783db9aea1e9e",
+      "bytes": 125839
+    },
+    {
+      "file": "what-is-an-llm-1440-sampling-emphasis.png",
+      "url": "http://127.0.0.1:4321/what-is-an-llm",
+      "sha256": "9e3ed070ff9bcca2e9ddc8ad9ecf6eac513699bb56e710874ba658273cd02444",
+      "bytes": 158394
+    },
+    {
+      "file": "what-is-an-llm-390-model-emphasis.png",
+      "url": "http://127.0.0.1:4321/what-is-an-llm",
+      "sha256": "c9fd31ce2d22049389c2317a3a21207ddf6b0260194d26c5356c43601da0d025",
+      "bytes": 84219
+    },
+    {
+      "file": "what-is-an-llm-390-inference-emphasis.png",
+      "url": "http://127.0.0.1:4321/what-is-an-llm",
+      "sha256": "eafa53ac7c34c61e508f9dbb30f1423f10bc5b8b5ad432073ad15824df4b8275",
+      "bytes": 81183
+    },
+    {
+      "file": "what-is-an-llm-390-sampling-emphasis.png",
+      "url": "http://127.0.0.1:4321/what-is-an-llm",
+      "sha256": "f9a81403afd481160942791ce7a6b4b39d3dae4106a2ad82e53d8686bb604588",
+      "bytes": 96263
+    },
+    {
+      "file": "ai-coding-dictionary-agent-1440-agent-emphasis.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agent",
+      "sha256": "d4b2c9928baf6755d069ba4eea41c5010357f8b000e4f199cb5db7f1f671bb1d",
+      "bytes": 126613
+    },
+    {
+      "file": "ai-coding-dictionary-agent-390-agent-emphasis.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agent",
+      "sha256": "2ab45a80ccdfddebdbcdbbf3af50b9770e6a7cebe48bf78b0e09f1190641217b",
+      "bytes": 133796
+    },
+    {
+      "file": "ai-coding-dictionary-context-window-1440-window-emphasis.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/context-window",
+      "sha256": "35092c0cc2a246246b3997cfc33411ce0bd057bcf3212e30262ac660815c8295",
+      "bytes": 108858
+    },
+    {
+      "file": "ai-coding-dictionary-context-window-390-window-emphasis.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/context-window",
+      "sha256": "01a12bb4aebffc94d5e6f9ecbb0c2c751afae3f6344e7693b48802492c069150",
+      "bytes": 121143
+    }
+  ],
+  "status": "passed",
+  "browser": {
+    "name": "Chromium",
+    "version": "156.0.8078.4",
+    "playwright": "1.64.0"
+  },
+  "finishedAt": "2026-10-13T12:13:33.989Z"
+}

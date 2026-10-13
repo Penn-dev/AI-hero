@@ -1,0 +1,22 @@
+{
+  "route": "/skills-code-review",
+  "source": {
+    "path": "content/source/skills-code-review.md",
+    "sha256": "9aaa71a213cec3a4531edf9bce8cc39f0bf2ffe734f850753b2699da7e6302d7"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-11/drafts/skills-code-review.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "file": "reports/full-site/batches/content-b/batch-10/drafts/how-to-use-claude-code-hooks-to-enforce-the-right-cli.md",
+  "draftHash": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b",
+  "blocks": [
+    {
+      "block": 1,
+      "chars": 57,
+      "sha256": "c1ccf10c67c188cec1598da2348a2f40be9f87dbe6010adbc47e4284ceb53f15"
+    },
+    {
+      "block": 2,
+      "chars": 25,
+      "sha256": "a730f8ae77bb98a6ea749ec679d549305df807e2472ae0c7341ccabd9e25fefb"
+    },
+    {
+      "block": 3,
+      "chars": 14,
+      "sha256": "9175be58377f9a0d68c8068ea290cf4c7ce7db153264e533428cfe7927c7c8bc"
+    },
+    {
+      "block": 4,
+      "chars": 228,
+      "sha256": "cc0f83415a98937530099c76e90d409e63abbeeb51b4df0dfd22150bddcc9908"
+    },
+    {
+      "block": 5,
+      "chars": 190,
+      "sha256": "08a38b7629a7817a81e5315e0b4799391194fd92260a6b5effefee305a1a4f83"
+    },
+    {
+      "block": 6,
+      "chars": 894,
+      "sha256": "4203e2ca07cfcabde29a00c77203f9f5526d13fa6bcc452b0436b479e4aba71b"
+    },
+    {
+      "block": 7,
+      "chars": 517,
+      "sha256": "5bf844f3102afffac5283f9581b02d9d9f1cda82b330047927716704bac0dffc"
+    }
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-14/configs/skills__skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "manifest": {
+        "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceHash": "8f5dd02a02e0f99c1764faeeadee072c5b492794819cc1cfe575d21f4761d9d0",
+        "translationPath": "content/zh/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+        "translationHash": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:38.758Z",
+        "assembly": {
+          "configHash": "3321bf2961d94429dfc28b63d68bc4874c568ddd0751264f03f2e806d02a20fa",
+          "checkedAt": "2026-10-13T13:02:38.758Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+          "sha256": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d2f89218f1d9280d6e9a88ba29c4af48333fbee12b422fc1fba77924db6537af"
+        }
+      ],
+      "rawOutputSha256": "4642c81b2c3ff3120c47baf14105735abd63e8cbd6403d56e189cd386350d339"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "manifest": {
+        "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+        "sourceHash": "8f5dd02a02e0f99c1764faeeadee072c5b492794819cc1cfe575d21f4761d9d0",
+        "translationPath": "content/zh/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+        "translationHash": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:38.994Z",
+        "assembly": {
+          "configHash": "3321bf2961d94429dfc28b63d68bc4874c568ddd0751264f03f2e806d02a20fa",
+          "checkedAt": "2026-10-13T13:02:38.994Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+          "sha256": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "cdcca518c01658cd64019ae910295c65f3b6797557b42a7d534b28e870aebfba"
+        }
+      ],
+      "rawOutputSha256": "b44171a593faee9fcc74c9df7967343edd58ffcacc164beb7b8c70f4b263bb1f"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

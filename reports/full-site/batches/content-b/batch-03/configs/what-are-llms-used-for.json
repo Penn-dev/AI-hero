@@ -1,0 +1,23 @@
+{
+  "route": "/what-are-llms-used-for",
+  "source": {
+    "path": "content/source/what-are-llms-used-for.md",
+    "sha256": "7596c6c7d39b9b2c24b7dd6ae66a05bbad002c19e572fa20711594078b53a4a0"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-03/drafts/what-are-llms-used-for.md",
+  "translationPath": "content/zh/what-are-llms-used-for.md",
+  "linkTargets": [
+    {
+      "route": "/the-prompt-report",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/tool-calls-with-vercel-ai-sdk",
+      "state": "available-chinese"
+    }
+  ]
+}

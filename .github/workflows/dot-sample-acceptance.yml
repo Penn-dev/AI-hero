@@ -1,0 +1,126 @@
+name: AI Hero sample acceptance
+on:
+  push:
+    branches:
+      - codex/full-site-chinese
+    paths-ignore:
+      - reports/**
+      - docs/**
+permissions:
+  contents: read
+concurrency:
+  group: aihero-sample-acceptance
+  cancel-in-progress: false
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    defaults:
+      run:
+        shell: bash
+    env:
+      CI: 'true'
+    steps:
+      - name: Check out the exact candidate commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Set up Node 22
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Record environment
+        run: |
+          export DOT_BROWSER_ROOT="$RUNNER_TEMP/dot-browser"
+          export DOT_EVIDENCE_DIR="$RUNNER_TEMP/dot-proof"
+          echo "DOT_BROWSER_ROOT=$DOT_BROWSER_ROOT" >> "$GITHUB_ENV"
+          echo "DOT_EVIDENCE_DIR=$DOT_EVIDENCE_DIR" >> "$GITHUB_ENV"
+          mkdir -p "$DOT_EVIDENCE_DIR"
+          node -e 'console.log(JSON.stringify({commit:process.env.GITHUB_SHA,node:process.version,platform:process.platform,architecture:process.arch},null,2))' > "$DOT_EVIDENCE_DIR/environment.json"
+      - name: Install locked project dependencies
+        timeout-minutes: 5
+        run: npm ci --no-audit --no-fund 2>&1 | tee "$DOT_EVIDENCE_DIR/npm-ci.log"
+      - name: Run existing page tests
+        timeout-minutes: 3
+        run: npm run page:test 2>&1 | tee "$DOT_EVIDENCE_DIR/page-tests.log"
+      - name: Validate learning sources
+        run: npm run learning:validate 2>&1 | tee "$DOT_EVIDENCE_DIR/learning-validation.log"
+      - name: Check authored Markdown emphasis boundaries
+        run: |
+          node scripts/markdown-emphasis-audit.mjs $(node -e "console.log(require('./content/zh/manifest.json').pages.filter(p=>p.translationPath).map(p=>p.translationPath).join(' '))") > "$DOT_EVIDENCE_DIR/emphasis-audit.json"
+          node -e "const r=require(process.env.DOT_EVIDENCE_DIR+'/emphasis-audit.json'); if(r.findings) { console.error(r); process.exit(1); }"
+      - name: Build existing application
+        timeout-minutes: 5
+        run: npm run build 2>&1 | tee "$DOT_EVIDENCE_DIR/build.log"
+      - name: Install isolated browser tools
+        timeout-minutes: 4
+        run: |
+          npm install --prefix "$DOT_BROWSER_ROOT" --no-save --package-lock=false --no-audit --no-fund @playwright/test@1.64.0
+          node "$DOT_BROWSER_ROOT/node_modules/playwright/cli.js" install --with-deps chromium
+      - name: Exercise desktop and mobile pages
+        timeout-minutes: 10
+        run: |
+          node scripts/local-preview-server.mjs > "$DOT_EVIDENCE_DIR/server.log" 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid" 2>/dev/null || true' EXIT
+          ready=0
+          for attempt in $(seq 1 60); do
+            if curl --fail --silent http://127.0.0.1:4321/ > /dev/null; then ready=1; break; fi
+            if ! kill -0 "$server_pid" 2>/dev/null; then break; fi
+            sleep 1
+          done
+          if [ "$ready" != 1 ]; then
+            cat "$DOT_EVIDENCE_DIR/server.log"
+            exit 1
+          fi
+          if [ -f reports/full-site/browser-batch.json ]; then
+            node scripts/dot-production-acceptance.mjs 2>&1 | tee "$DOT_EVIDENCE_DIR/browser.log"
+          else
+            node scripts/dot-sample-acceptance.mjs 2>&1 | tee "$DOT_EVIDENCE_DIR/browser.log"
+          fi
+      - name: Confirm tracked project files are unchanged
+        if: ${{ always() }}
+        run: git diff --exit-code
+      - name: Upload small verification evidence
+        if: ${{ always() }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: aihero-samples-${{ github.sha }}
+          path: ${{ runner.temp }}/dot-proof/
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 6
+
+  windows-preview:
+    runs-on: windows-2025
+    timeout-minutes: 5
+    steps:
+      - name: Check out the exact candidate commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Set up Node 22
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Install locked dependencies for real Windows startup
+        shell: pwsh
+        run: |
+          npm ci --no-audit --no-fund
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Verify project-specific Windows preview lifecycle
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force "$env:RUNNER_TEMP/preview-proof" | Out-Null
+          node --test scripts/preview-lifecycle.test.mjs 2>&1 | Tee-Object "$env:RUNNER_TEMP/preview-proof/lifecycle-tests.log"
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Upload preview lifecycle evidence
+        if: ${{ always() }}
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: aihero-windows-preview-${{ github.sha }}
+          path: ${{ runner.temp }}/preview-proof/
+          if-no-files-found: error
+          retention-days: 7

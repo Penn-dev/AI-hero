@@ -1,0 +1,15 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-14/drafts/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "sha256": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-14/drafts/skills__skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "sha256": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-10/configs/essential-ai-coding-feedback-loops-for-type-script-projects.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "manifest": {
+        "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+        "sourceUrl": "https://www.aihero.dev/essential-ai-coding-feedback-loops-for-type-script-projects",
+        "sourceHash": "a40c2bb8ea0b2642d26f46d1263d8b42f69060efeabd09f7b61b77af5169b75f",
+        "translationPath": "content/zh/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+        "translationHash": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:54.168Z",
+        "assembly": {
+          "configHash": "890321d620904d1b66d1c5d0681ab2aaff1f3ec4c22c24b3b02c6a24f1f28ed4",
+          "checkedAt": "2026-10-13T13:07:54.168Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+          "sha256": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7567bd5d53d73dbae11309ed38339ce4383017f17ac731c7fe2958d3c9504c28"
+        }
+      ],
+      "rawOutputSha256": "22ec21dfcbb81c1f0ceac97ba28e8c35ecdfdbe97fee326de584ba20c257cc8c"
+    },
+    {
+      "mode": "apply",
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "manifest": {
+        "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+        "sourceUrl": "https://www.aihero.dev/essential-ai-coding-feedback-loops-for-type-script-projects",
+        "sourceHash": "a40c2bb8ea0b2642d26f46d1263d8b42f69060efeabd09f7b61b77af5169b75f",
+        "translationPath": "content/zh/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+        "translationHash": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:54.432Z",
+        "assembly": {
+          "configHash": "890321d620904d1b66d1c5d0681ab2aaff1f3ec4c22c24b3b02c6a24f1f28ed4",
+          "checkedAt": "2026-10-13T13:07:54.432Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+          "sha256": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d25eb26c3ef93c30e134eb1e2e9f73ee6f48e88350746c6f96cfa13fb0cb37b4"
+        }
+      ],
+      "rawOutputSha256": "d898f8f8fb15e085ca90aa8a8153053f618f9a44d17495cf694fc621edac485f"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

@@ -1,0 +1,35 @@
+{
+  "route": "/5-agent-skills-i-use-every-day",
+  "source": {
+    "path": "content/source/5-agent-skills-i-use-every-day.md",
+    "sha256": "19cb0d155711f123378ecbe5ca2cc33a3b8704ac8399eed68e5c016cc211042b"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-13/drafts/5-agent-skills-i-use-every-day.md",
+  "translationPath": "content/zh/5-agent-skills-i-use-every-day.md",
+  "linkTargets": [
+    {
+      "route": "/skills-grill-me",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-to-spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-to-tickets",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-tdd",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/tracer-bullets",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A06/configs/context-pointer.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/context-pointer",
+      "manifest": {
+        "route": "/ai-coding-dictionary/context-pointer",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
+        "sourceHash": "0465a48c9ee2d354bfbaa82b071f80b45616e7c8ad588b48f4cd1696786a7283",
+        "translationPath": "content/zh/ai-coding-dictionary/context-pointer.md",
+        "translationHash": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:26.675Z",
+        "assembly": {
+          "configHash": "5f742e24c02f0599b7013c61824d741afbcda69196f60d92e7f858f3076b820d",
+          "checkedAt": "2026-10-13T12:19:26.675Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/context-pointer.md",
+          "sha256": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0793c128e16760ee63df6671c6a3fd2c59339a54e049658967ab651e36f6ec2d"
+        }
+      ],
+      "rawOutputSha256": "697e62b20bcb317bffa20131a2f701ecef7c20d0be5a6e1f071bdfdb66adb3f5"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/context-pointer",
+      "manifest": {
+        "route": "/ai-coding-dictionary/context-pointer",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
+        "sourceHash": "0465a48c9ee2d354bfbaa82b071f80b45616e7c8ad588b48f4cd1696786a7283",
+        "translationPath": "content/zh/ai-coding-dictionary/context-pointer.md",
+        "translationHash": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:26.916Z",
+        "assembly": {
+          "configHash": "5f742e24c02f0599b7013c61824d741afbcda69196f60d92e7f858f3076b820d",
+          "checkedAt": "2026-10-13T12:19:26.916Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/context-pointer.md",
+          "sha256": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "607a1c4e2d744da87c8330350369bfa262065dec4ed9ae6a8a2081165a39b9d3"
+        }
+      ],
+      "rawOutputSha256": "4f2898ae619d96c72b487650523bb4864d3ee2bf6637675d69d8da8efe9ef973"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

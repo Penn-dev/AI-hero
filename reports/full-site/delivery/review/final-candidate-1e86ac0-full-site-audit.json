@@ -1,0 +1,1396 @@
+{
+  "candidate": "1e86ac0caad08a7da54d57a9a473a5b6ef909450",
+  "baseline": "68c107143560cf63017411e604c06ba8e599fc51",
+  "fixedScope": 195,
+  "newDrafts": 192,
+  "preacceptedSamples": 3,
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "allSourceBytesUnchanged": true,
+  "allTranslationHashesAndIndexBodiesMatch": true,
+  "allReviewedDraftsMatch": true,
+  "inScopePlannedOrStale": 0,
+  "localLinksValidated": 1269,
+  "externalSourceGaps": [
+    {
+      "page": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "kind": "plannedChineseTargets",
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution",
+      "state": "planned-chinese",
+      "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+    },
+    {
+      "page": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "kind": "plannedChineseTargets",
+      "route": "/login",
+      "state": "planned-chinese",
+      "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+    }
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "sourceHash": "3942208060725a8c24a3883fd703a9a975c65d0dc9cfc3ea14840001c83d4378",
+      "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
+      "reviewedAuthorCommit": "2a7d3f41c043836185b691e058d5f11f7b18a55f",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "sourceHash": "f5c7c3b1930d5c9ae4af3048ad4c787b9ccd9913ed5d4310ee0b13a8e0b6b1f6",
+      "translationHash": "25461d617ac01914fa27ace477c3a0c07b5cf35c03ff04d034eb5fbeb6a42085",
+      "reviewedAuthorCommit": "38a959025dfc80563f11691d980b7ffa0f4fc1d3",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/5-agent-skills-i-use-every-day",
+      "sourceHash": "19cb0d155711f123378ecbe5ca2cc33a3b8704ac8399eed68e5c016cc211042b",
+      "translationHash": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930",
+      "reviewedAuthorCommit": "91b0f79e05a616b2a0a508b8bef017e11144ae14",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/a-complete-guide-to-agents-md",
+      "sourceHash": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "translationHash": "bf2c149382aada03300b6dacac483d315a148867fc0acc5f2abf43b6f4463562",
+      "reviewedAuthorCommit": null,
+      "basis": "unchanged preaccepted sample"
+    },
+    {
+      "route": "/agents-with-vercel-ai-sdk",
+      "sourceHash": "9e004adff22f10204d7f6439510872e0490888d1363426a013cd8457395014c1",
+      "translationHash": "847e8de8d3bcd998dd94153d104112f7c717fb1634e6d75277f689c55c519222",
+      "reviewedAuthorCommit": "79ec73e9a1c75fc6cebd6f555c6ea4952e98e53c",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary",
+      "sourceHash": "9389205ef4e97e4330e37e9e577d095775fe3b2b84c647dbf0995fcc9b66d07c",
+      "translationHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0",
+      "reviewedAuthorCommit": "0a2d5631a2cbfd47aee9262bdbe0fcd7c01daf23",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "sourceHash": "8618b23c4ab823f440ea078191a7345958fcd260c290033141d47847ad6f915a",
+      "translationHash": "69bd4c8ae6f747c478edb713b8efe67054e3b33250b82777364c9fab1cad5bb0",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "sourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91",
+      "translationHash": "5b44967000bbf20f89eecf21037c35a7428931d8623e0a45912dd63ed15e2a06",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "sourceHash": "24f5102fb30d59ebc8947457169dcc9e98583973d2ce5efe1cc44443300ecdc7",
+      "translationHash": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "sourceHash": "32af17329c5c6aaddd8964c45094df8b8996c326d0c9d22f1d50639c12fac201",
+      "translationHash": "06897ea09726703625d8aeb5ca76e7dbef1582714e0b9428236eb87699cd1c1c",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "sourceHash": "46a2a3be696a87b1059b9ea43819305463ce94a7a5cef23466e9d1824cb57a31",
+      "translationHash": "f1f4adb1b0b7f859b61ebbb24ea65d8c7a556e7482ef40f9e2aa784ebf35751d",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "sourceHash": "2ac674af54019c072f89a2f4154c27eab502e0f8e3219d9955d99cdd0fccccc5",
+      "translationHash": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "sourceHash": "bf7047388ba3589007a6b639945031883d4b4c04fc7b91b616db403e6c8430c3",
+      "translationHash": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "sourceHash": "b5563d1488719ae62eb792a3728a5c491e505e4cd9b9a22f0310cf85eb1b8275",
+      "translationHash": "26a9bbfe02f92f4f1fa9b481da4dfa7d924e8e5318c1405f64bc657f4e48ed47",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "sourceHash": "b27637eae07e7f28830ceae01e53d74088b04cf59237e669c5ab7992bb466a28",
+      "translationHash": "6f091d0428d7b4f73fdb429345bd8102710b5f3012a236ea09c37d038019a12b",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "sourceHash": "bf3c424b557017b8f77485ddff6e9f842695c7f97e97301775f31022e433d3a6",
+      "translationHash": "2ad1926f1f2876a937a9a95ba672f0d1c1d419bd6cc4e6825558dba75e7b1573",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "sourceHash": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b",
+      "translationHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "sourceHash": "5e5e09094864e5f7908dc7b6549ef4ecb6e941d382e19c1600b9ae4a33449c2e",
+      "translationHash": "9f67986cebc45eae52e8fd3eed63e27cf2bd4241c807f32738c4041882ef8084",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "sourceHash": "c9ef6830b4091bad3c8d788f4637ff40fe4b8a32cd9ab932526b2274174b293d",
+      "translationHash": "c55e88c70a1b0d574f50ee19b6374198f94e4f5a9bc218425299ca3a88fe503b",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "sourceHash": "d60dda2558ed3c7b15ef41a8a5dd31d35a6ab8846a77f55aad7e3853682f2346",
+      "translationHash": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "sourceHash": "fddd287107216dd4b1936c9f276da01188acdd91e67cec9386d70cae3b85c4f0",
+      "translationHash": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "sourceHash": "3a76ec521a78bd5050d60981b4fd1acad50e4cc607681de34db826270b43804d",
+      "translationHash": "4021cb508844311565f8f12a80d102cfd6eddde9d639a682302914901e78941b",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "sourceHash": "0465a48c9ee2d354bfbaa82b071f80b45616e7c8ad588b48f4cd1696786a7283",
+      "translationHash": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "sourceHash": "2a5b63536a30a69e910c5bd6180ba6e19492e759b20b38bcdcff060983442deb",
+      "translationHash": "c7b7dd9404a5e20e691ba4d9109594987f8be2844d762c08634584b981ba35b1",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "sourceHash": "0c15b23805522a808d4403bdf9ab5e696ea027a493dc5c758f343edd2305c811",
+      "translationHash": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "sourceHash": "e61c177f6e5426b1315a4390e94104187f012d0c63fdde2b59559c66aac4e4b1",
+      "translationHash": "b054c4a02ad3061cf79d11070977d95602bce8c83d52950cea589bba7dbeffa9",
+      "reviewedAuthorCommit": "ace7c9258de2324da97eee66eb9877f8c5541063",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "sourceHash": "41a0e5468e5b07e7ad96e188e82d8fdb8609b5f9068f9417bf6ef851f20f121b",
+      "translationHash": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330",
+      "reviewedAuthorCommit": "ace7c9258de2324da97eee66eb9877f8c5541063",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "sourceHash": "a7ffc549fb59a5ca758ea9324560f5df91d76eaad3b4766b57cbf77515524fb5",
+      "translationHash": "2b5bcbf713195ef12650d14b795f81d6279ec70918946e8000a97fcaef995ebe",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "sourceHash": "98354889478936729e33eb954204700f94c7583ee72201e3faca2fca7b3ccec3",
+      "translationHash": "d16ab61f90611dae91272fb5ff250fd8ea6fe4480b5797bc599b10ec1e401996",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "sourceHash": "5e10fc7459a6351d8025c7dabae66cc94ab99be566d27f7bab40fe53b736e342",
+      "translationHash": "ca9167eddfab6506465946a78ca6814d4467c24cf174a772b09891fb38f35fbc",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "sourceHash": "02912c45cf8c9b38e23f635fbc55fcaa14691576e5a1220bb78e489ac700a9f7",
+      "translationHash": "4f1f8d28fa461752472c085d5aec6edb91ad260706dab7640727a6340486d445",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "sourceHash": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc",
+      "translationHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+      "reviewedAuthorCommit": "41178f90e890b16d81e6af874433c4f7658508f6",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "sourceHash": "4b8d0cbe95e6f7c71907613a69a016178a40a5729ec6aff0372dfc12f558640c",
+      "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "sourceHash": "c3f330ccdd14c2d23d67e1252937ab5379296f8ed8878606dbd0b11d2468e508",
+      "translationHash": "4bb16d3c2891a5293d36efd8d754ceedd00abd1500c620ca4bb728975ef308b2",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "sourceHash": "d17dd0c5e14bddea3cfeace1c6071763b6bca069a2d7e75772ace458a353e2d5",
+      "translationHash": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "sourceHash": "e8fca4c2ddffb9f121b5f57f5721c3c06d941bf8c545c23ebdc5d70b727032f2",
+      "translationHash": "4385fb5496325123f5a12485ec6d2d919a00154a663e32ed644e5df636068441",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "sourceHash": "6730a600872ddbb9bb705fe5ad8f6ee0218c841576ea7fd3d9e572aedf975a50",
+      "translationHash": "36a2b738e345d63882ca23f41a1183b128c2a24f0e0c1d05ea283ba6801eed49",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "sourceHash": "dd479f1fd946c437f8660dad8405defd3f5846e2308d5ba59851822bfa4b7633",
+      "translationHash": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "sourceHash": "e7c23ce987d5e42225449309294ce00e4b2ee4ab83544f273078c73cdc1982fc",
+      "translationHash": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "sourceHash": "e30fae6e5812c5d913a7c5a8d034736e4f94bae6bbf06df20922e438e11c1363",
+      "translationHash": "abbccee08dfa232adfd8077a718c68cc3dea7a6c7f86283f9a9d3fd59d69242d",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "sourceHash": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46",
+      "translationHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "sourceHash": "dccbfda4cf19b526b54ea7b562903d89a1b7319f1cfc624c88465b82962e305c",
+      "translationHash": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/memory-system",
+      "sourceHash": "231f7764fd14458de5108a21924637c522c92c650b5c81dfbe77d29af2597258",
+      "translationHash": "69475a939a5bcdf64d816a1de64f161f915dc1443ed1e3be6fecaaba23684df9",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "sourceHash": "bda0dd8f7209f591b4d3e8169d0e40365130327004b73195c87df731b1a517a5",
+      "translationHash": "f12f343165c943279cb53b174cad12087ae71f9a19ac811337dba7264ed6e757",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "sourceHash": "de26bad57b92bee22e4c9042fe8262c8095bf44aa3b73fd70f74766bc98e8e0e",
+      "translationHash": "3df57d8c1c992024aba1a9396c3a1f7a00fe29e18f03686e06e3da82d0d1db8e",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "sourceHash": "9040123cac6dcfe99a1b6ee685b11fd0768bfe13792421c099b592bd59956888",
+      "translationHash": "06d5b7f0fce998498c0f30b8c57f66c88a046ebac6b39bda8b778913f7759561",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "sourceHash": "2e4540175092bb37efd464961daf8df3e6339d500464e6d16c8b162a247d8ed7",
+      "translationHash": "caf12bccfab0edcf2a2ce9457ba074045692901c6514316e254bec50c5aed686",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "sourceHash": "9d6bb88cb4d21da508ef3fb73b56707a9a0eb8d90b8606f470599dd1c14a6a84",
+      "translationHash": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "sourceHash": "dae408485b46660315f1a08c0ba1454a271460143f3b8ecd9375623acfbfdadf",
+      "translationHash": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "sourceHash": "f627cef476d8d54a9829f3c5c90e587ebcf6f73b25c6be5e9b4ef82a79b8e836",
+      "translationHash": "a673aba82075efd6e720e571a090d7070869eaf36f462420a737b6a2f3d1d2a7",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "sourceHash": "eea5dc47fbe93157d2f9c3447977f19edf5a98ab5e121a6eb1d55d768bd82c60",
+      "translationHash": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "sourceHash": "94dcba8b6b3a5e39bb5d6c646c19bc4b0ca82b5cb4abd1f4733194f53da44293",
+      "translationHash": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "sourceHash": "5cd646c35915de3e592f69439f459e638ed020068c5e8337c1ba715b5015c9c0",
+      "translationHash": "b0baee76ed0d94d37711c42ed89ffc30f27eb850abfd852df537660b9539bfa2",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "sourceHash": "9101031d9fd11f9e7f593a8ec5038ad595d6f0bda46622f0cb8ebe5634d3a295",
+      "translationHash": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "sourceHash": "d7de1ef47f677a3e0fd3ee8303be41617ae850964bb3ef5ce936e007ce8e1c91",
+      "translationHash": "9f9c37d1f3f958191afd1c1ced53e7de63fdac835d120001526459290e709d31",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "sourceHash": "5d66bc98fae76fc8d8df7eb8d4b0f6d514832a21b2340a224e8c33b791f3ec73",
+      "translationHash": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "sourceHash": "39d3ce1c188317f94c922a30c1652b2ef5ca993d7eb061cbc6d63f7a5543d97f",
+      "translationHash": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269",
+      "reviewedAuthorCommit": "41178f90e890b16d81e6af874433c4f7658508f6",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "sourceHash": "16a11caf345c12e3be8721de059a4c716dde5fec481256a6c0a833d5e016d751",
+      "translationHash": "f2da4f482d5a0b2fa54bd2b4e6343d6a540d505887d1307f42ae378b9de2f5c8",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "sourceHash": "b8d494d36341ef070bc29dc1c63b9251275301aa2420f32e661f163929fc971c",
+      "translationHash": "885423477c37ba1fb06634c16f587b8d1195c7502b28a2152e705c86f0c31dbf",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "sourceHash": "2ec9d99838359e3762586678be8930cea4457f46c48ab1c085427d0a1b5c9bdc",
+      "translationHash": "0f7b5d79ba37eac31e0a15ec07da91883af8d4ecb1f260b96ab66c0e5df8ce6f",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "sourceHash": "f3203e90c41b5e6eb0ed706dd6844860519201f6461484a7686b4e9667d2567a",
+      "translationHash": "477975137e42e1c36b76997ca56c5c9d998f09f12ec8f2b103bcf3679cfd999c",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "sourceHash": "89e7f3a6e7d2660d3305269ad0d1a150a7860cf8987b0c2c79fc5476c0f6fb5f",
+      "translationHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "sourceHash": "78107b16f9f8a4964fb482a016c114a292bfbf5c75ac79b9861a711b4c4a669b",
+      "translationHash": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83",
+      "reviewedAuthorCommit": "ace7c9258de2324da97eee66eb9877f8c5541063",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "sourceHash": "35400ab72d5c14a63214c73cab00ddf37fd63150cae3ea5fe2ae8b5297df684d",
+      "translationHash": "cbd2ae4002e6013decb42c3d77303219d796878830a6ad4cc98b23cf5c6d7e22",
+      "reviewedAuthorCommit": "41178f90e890b16d81e6af874433c4f7658508f6",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "sourceHash": "9b4d2356cc0fa4e0f63f623649506c40e38fe989571365fe7944c0c729a51eb7",
+      "translationHash": "bead311e9b537c7253bbd3794a1c8099c51cf280ade409df0b705c384e1c39b5",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "sourceHash": "061131442102c1e3677c71d5016077b613c6a6f14d6c860613cbe745d8cd6edd",
+      "translationHash": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "sourceHash": "50239cd38db25f2b441fda71d5bfca33fa36be01fc50bf07f1f7f10e347159f8",
+      "translationHash": "fd3603db152a6d2f867f656a1897c22164fa17320554f62f6996b546fb986ec4",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "sourceHash": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941",
+      "translationHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
+      "translationHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+      "reviewedAuthorCommit": null,
+      "basis": "unchanged preaccepted sample"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "sourceHash": "27a3bc6e5fd813af0d4ee8e5cd6742ef9020dc59693fa3cc3bcbf349a7a13702",
+      "translationHash": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf",
+      "reviewedAuthorCommit": "41178f90e890b16d81e6af874433c4f7658508f6",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "sourceHash": "d561b6c8ced690f7e6fdbfa8435342dfcc9cba275d1c4e0a8ddfd803571c27f1",
+      "translationHash": "8898ec3b4ffd54aa9f1cf9ec5588db3f21089e9c632fe2283a1f3de1598af5e3",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "sourceHash": "e40188419e080e42d781f684089b90456382657e37f0d3ba2100cb92a6540763",
+      "translationHash": "f094c8573d7307195caf83a27e4eace62fda2af963fcac0adb262e346d1fb4a3",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-call",
+      "sourceHash": "81172bf1e6f56b678163d6c9b2875043918ca48e19e96ecd87640271f9d84692",
+      "translationHash": "95ec8540dceadb7fac71d6539c17bc2a4acd1ee9354dac8fe994572678413e2a",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "sourceHash": "d86d038892bf2d6363762dbfc6a23ff563a3abe3aa08bbb1e6c9f8a935584f66",
+      "translationHash": "7574fffe1a0b24a5b25f4213060ea9765833f0d7c84468ae0a3df00772e688a5",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "sourceHash": "f962827db48b29c0c8cc4d6f7fdc692ecfdf37c09447acac4cfbecf57887cf15",
+      "translationHash": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "sourceHash": "4976a69badb154f1c5412701e7bf657594359cecb204191cb9c273f2e0a79402",
+      "translationHash": "0c222df5426fe704b42bdf8098d1c312e72dc12151f8782d61353587c51d8bc7",
+      "reviewedAuthorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "sourceHash": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861",
+      "translationHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+      "reviewedAuthorCommit": "ace7c9258de2324da97eee66eb9877f8c5541063",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ai-engineer-roadmap",
+      "sourceHash": "32552be89fe5159b367e64dc20745e0caa30180b9b3293594e7aacf28a73ec19",
+      "translationHash": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "sourceHash": "c5585ac7cfc22c4a4c40941343ac04119a28e962bb3f086dd351a95e689f64c6",
+      "translationHash": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/building-effective-agents",
+      "sourceHash": "231bef3b6e950255bed02786be3334a5c6c68ba93d1be77de32738b16492c985",
+      "translationHash": "5ce05ee6d2097318e648b7be94f0cf93a2e13c2438275eea11bc2490a0a27569",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/burn-through-your-backlog-with-my-triage-skill",
+      "sourceHash": "62b670caa860ccda0ca82c683536c48c6969dccc89770da11d06f8d8fdf948de",
+      "translationHash": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc",
+      "reviewedAuthorCommit": "16a77e3711a2d58f28df4613cc4e37d126d640aa",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/connect-claude-code-to-github",
+      "sourceHash": "19af8b59a3fa6e1ea8578c13b34f32c41c58cd6d4d6f4211356840cc05ebc929",
+      "translationHash": "15c0deb6be8f103a2b1afdcf63e77bf6498fb9d12f9581ec72137d44c1eab053",
+      "reviewedAuthorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/create-embeddings-with-vercel-ai-sdk",
+      "sourceHash": "1c9f4d39abbacb0ea4b57cab0d1aa3997ff33d722a93c55af33e9a5330fa08d0",
+      "translationHash": "346d21f2db7f47ec9ca64d78420e51a9b1e438e88d0a76418cfc60cf7cc61a0f",
+      "reviewedAuthorCommit": "79ec73e9a1c75fc6cebd6f555c6ea4952e98e53c",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/creating-the-perfect-claude-code-status-line",
+      "sourceHash": "f0d4b3e3484e695416f26c2f6fe9ebb3562891f350fc0d84d7b3eee615742ba4",
+      "translationHash": "c4d73264cfec2f015da8bcb63f78adc3de79cd91b3039f614d833b9d68c6cea6",
+      "reviewedAuthorCommit": "a6e6b02b8beed34a2e3cd50d9df8ba348f51606a",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/describe-images-with-vercel-ai-sdk",
+      "sourceHash": "daa614dfa0c260f4b44036479d4ebb02a6c039b2ad39708e419886e31b043bdc",
+      "translationHash": "e5f7633b3e95ecc9def83e95f2b097dcfb2e98e7e17847e13af1ab20b7aca652",
+      "reviewedAuthorCommit": "32fc55569901d9d401b87c5600ad451ec80937d7",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "sourceHash": "a40c2bb8ea0b2642d26f46d1263d8b42f69060efeabd09f7b61b77af5169b75f",
+      "translationHash": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec",
+      "reviewedAuthorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/evalite-an-early-preview",
+      "sourceHash": "ae3226b9243b252a992143d399e7d27b4eec4ddc0e1f0aaeed720d4d076417da",
+      "translationHash": "9d74e3cb9de0221318a08d001e170a3fe8a5f055e094cb44848fd083d35ade18",
+      "reviewedAuthorCommit": "38a959025dfc80563f11691d980b7ffa0f4fc1d3",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/evalite-v1-preview",
+      "sourceHash": "04424e7ff64a038df7cd73e3c57dee01fbaf4619c848aaaf6afd8f7362fcaf68",
+      "translationHash": "eceab41967b6c9c4e4b84a4d4bca70610b6c67bfa8af4bd395cb801f3e896cfc",
+      "reviewedAuthorCommit": "38a959025dfc80563f11691d980b7ffa0f4fc1d3",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/generate-arrays-with-vercel-ai-sdk",
+      "sourceHash": "c3ac3c7136777d4e6573c9587f5cd82de115195ea122e2b2f33713c120660a98",
+      "translationHash": "fabd04c397b92f771a2d7c08bb5e02741954c0146a3ac680a7405171eb2d57a1",
+      "reviewedAuthorCommit": "32fc55569901d9d401b87c5600ad451ec80937d7",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "sourceHash": "7d3dc4f00dc9f39f779d6c80e87c4acf108d5039afb3338fca028a002d4206b1",
+      "translationHash": "568201c264b205b55718c75614b38720ea5b37dca22497c6876769af845b4473",
+      "reviewedAuthorCommit": "32fc55569901d9d401b87c5600ad451ec80937d7",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/generate-text-with-vercel-ai-sdk",
+      "sourceHash": "ffb189c870c13f28284adc1898731ac1280cc663c8202a368ad6db94922341ea",
+      "translationHash": "efbcbe5f795191c368068df43b0b6b230212014b2860305cfc47bee294320c06",
+      "reviewedAuthorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/getting-started-with-ralph",
+      "sourceHash": "a4245d94257f1bd1dded562a619df5fd963c5cdc38590b6b027466f3a87fab13",
+      "translationHash": "654b5e428cf88d5fe1744c6490775a42f403fb6d55087d4be577caf50c1af24a",
+      "reviewedAuthorCommit": "ab96fdda6bbce9a4f70c59e26148623d8a769eba",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/google-agents-whitepaper-review",
+      "sourceHash": "569198702f52ca381d64e9f611feee8294585f6ebe087802f1ea9e6f52b73a8f",
+      "translationHash": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9",
+      "reviewedAuthorCommit": "38a959025dfc80563f11691d980b7ffa0f4fc1d3",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/grill-with-docs",
+      "sourceHash": "b85b3ecda8bfc87b933be848c968dcaf22bbc5fbe75f34e37652bb22f0b2065e",
+      "translationHash": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48",
+      "reviewedAuthorCommit": "16a77e3711a2d58f28df4613cc4e37d126d640aa",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "sourceHash": "8a75e0ba6738c7e18f3223d5cbcf26e21a1ad3b32795d4877f3ad8fbe3b501e9",
+      "translationHash": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e",
+      "reviewedAuthorCommit": "ab96fdda6bbce9a4f70c59e26148623d8a769eba",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/how-does-the-model-context-protocol-work",
+      "sourceHash": "d1fe112d6c98655fcea48a5ce8e13ad706371ee3305b5c47471fb207ee7da729",
+      "translationHash": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/how-to-choose-an-llm",
+      "sourceHash": "25b8b5bb3ebbe1fe88f002c69da7119362f3584029f07dbde2e6bd11070d09e5",
+      "translationHash": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/how-to-improve-your-llm-powered-app",
+      "sourceHash": "638af6b5b111de1fa8219209d191a708a37eb67bb3e38efca0008c3a60c61f80",
+      "translationHash": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120",
+      "reviewedAuthorCommit": "b6bf1fb21b4cc260b5660704f034ccd269455c66",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "sourceHash": "1a5db35027068789365ec4ebffa3e451e37b3d9e5aef22ed2c4d55cabe3db4d6",
+      "translationHash": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e",
+      "reviewedAuthorCommit": "a6e6b02b8beed34a2e3cd50d9df8ba348f51606a",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/how-to-make-codebases-ai-agents-love",
+      "sourceHash": "40a7ff2177718517f985097be09c6ea0be58f54b2d0b7eccdb10009edcbad2a7",
+      "translationHash": "7e5a3b8105bf097b71431b3f0950fff11f6292970f68ea60985b2ed8a6a8cd33",
+      "reviewedAuthorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "sourceHash": "fff11ed5db1e28bed540a1014770565b9bc19fc11894e5976de922a9cce0bdaf",
+      "translationHash": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b",
+      "reviewedAuthorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/implementing-anthropics-think-tool-in-typescript",
+      "sourceHash": "a854a81f6be2e647cb0140560a2e4e197094fb272c83133b111488d58a65bd4f",
+      "translationHash": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98",
+      "reviewedAuthorCommit": "79ec73e9a1c75fc6cebd6f555c6ea4952e98e53c",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/learn-anything-with-my-teach-skill",
+      "sourceHash": "55c64bc00a5b2704d8b2996c2fb268e9ab31bacde61fce090748e3c6df8b11a3",
+      "translationHash": "1e721a8c2a59f034088be00cfe54e1b11292d389b77b811eebb34f157cdad7ad",
+      "reviewedAuthorCommit": "91b0f79e05a616b2a0a508b8bef017e11144ae14",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/llm-fundamentals",
+      "sourceHash": "9a6205dcc625fe5356f4c303a3993bbb547760c6a77bd0c2bd098a3bff38693d",
+      "translationHash": "a89ce1b9aa7a7be217c28cb3bd8ae4ee4ce9f281c4f8a1623658ca66249140c6",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/logging-a-huge-mcp-footgun",
+      "sourceHash": "eef196ed9aa582bbfcc3ab7c3e5761f264461ce4a57c14a83642a71a925a1767",
+      "translationHash": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "sourceHash": "484c19f68976cc4aed0121229976cd80169a147181c2a3239c893bdb8339679a",
+      "translationHash": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/messages-system-prompts-and-reasoning-tokens",
+      "sourceHash": "6bdc0dcd24d6ccf1ee01d8cc799c13380cf647b668d2298676a07e970e7c2296",
+      "translationHash": "ff9940e3b294e84041d8c30b3dc0ecf791e24d94817de3bb9addc9240887dbbb",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/model-context-protocol-tutorial",
+      "sourceHash": "47c89dd78f37236aa983545d5f1440f11ebd3c56b7c05ad9ad8044df6bde0b94",
+      "translationHash": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/my-7-phases-of-ai-development",
+      "sourceHash": "276360ca1eb6c2a68ab7889498ad2351d9c355620f510ce7a73f1dcb1c251e6d",
+      "translationHash": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f",
+      "reviewedAuthorCommit": "e296a7c78e7c78d76a3500c4bf743af99b222296",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+      "sourceHash": "205716a0696332278a24c19c46539f26559bd3589c3835bfae83f52885b31693",
+      "translationHash": "a3ea323132daa07be646f4a6807739a548b12fd693262d2e2569534544d02e30",
+      "reviewedAuthorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/my-claude-code-cohort-a-teaser",
+      "sourceHash": "b3eaacc416b712a5a3c39d98481113511f241a93a0fea931bbd37860f3a04d37",
+      "translationHash": "355b49e0ca5dd58b6cc838e10e0f9f4bababe81544fd65158051af234884d545",
+      "reviewedAuthorCommit": "e296a7c78e7c78d76a3500c4bf743af99b222296",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "sourceHash": "c30f916e16afd14c70f12ae51f45d8faec6859f5aeb3325662ac78103365e8a5",
+      "translationHash": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f",
+      "reviewedAuthorCommit": "91b0f79e05a616b2a0a508b8bef017e11144ae14",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/never-run-claude-init",
+      "sourceHash": "8834ce41ac3d5bb27a9ceb4ccc89b7e690e20052fa2c2ebf5de3d2deadbb5e82",
+      "translationHash": "f79fd9a8e8f3985d66b4c05c0a0533e0d8c3ec5f734fca58046232320582e09d",
+      "reviewedAuthorCommit": "a6e6b02b8beed34a2e3cd50d9df8ba348f51606a",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/newsletter",
+      "sourceHash": "78254990f49b4c6626cb9c51b5195593ebce145071f8ee5970829f8ebe941f4d",
+      "translationHash": "7969aa22bd61af6379e0acf65e64f03a40a2dd9de69bcca6267301956e9c1bd1",
+      "reviewedAuthorCommit": "2a7d3f41c043836185b691e058d5f11f7b18a55f",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "sourceHash": "e72a837798d7079016531aea98e8b27b2ae0d7cc3e5b2e74ada212b2dfcabaee",
+      "translationHash": "fc7017f1939b17c4010116206b793478d0a84ef450853a8c669f199690be6e3b",
+      "reviewedAuthorCommit": "38a959025dfc80563f11691d980b7ffa0f4fc1d3",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/plan-mode-introduction",
+      "sourceHash": "55118fc919229b82366301dd98f0ad9704b528fd1dc2af719ccc6348af81b7d3",
+      "translationHash": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670",
+      "reviewedAuthorCommit": "e296a7c78e7c78d76a3500c4bf743af99b222296",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/publish-your-mcp-server-to-npm",
+      "sourceHash": "a9459952cfa26254258dc360cd31a17e54135a0df93098cad256c2b7e933b28b",
+      "translationHash": "2f528062fa9fcd9f42fdc96369373d99519d06197039303569a551d093133a8b",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/real-world-feature-build-with-claude-code",
+      "sourceHash": "d754b4f9de4b334c03a3b9704b333d5f1d610487703e487dbdab841a820f1cfc",
+      "translationHash": "4e9c84ff5e367d8c2101004197cd86f40939a6f2824aa3c5d25c4a5797b930a8",
+      "reviewedAuthorCommit": "a6e6b02b8beed34a2e3cd50d9df8ba348f51606a",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/securing-your-ai-app-with-guardrails",
+      "sourceHash": "7d76671b274c9f430d66f8afc9e2c51f40247d3e77120b08245b8e6432c3c212",
+      "translationHash": "66cdeb9aa8e48e54505f2ae0592f75306248637a3b0d76edd935153436f98f63",
+      "reviewedAuthorCommit": "38a959025dfc80563f11691d980b7ffa0f4fc1d3",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skill-test-driven-development-claude-code",
+      "sourceHash": "2587e7691b7370e55f1bb3f5bf4c7874e080784d6d99a97d4c04245f61ac2232",
+      "translationHash": "cb73062f5f3b4835dd2fc1e91c3713066063fdc56ed5fe1514d9a9c3b2ad7a36",
+      "reviewedAuthorCommit": "91b0f79e05a616b2a0a508b8bef017e11144ae14",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills",
+      "sourceHash": "5e98f53633747fe3a64f313fbfffa37486ff32aa986c5565f054d2000da1b01c",
+      "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-ask-matt",
+      "sourceHash": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685",
+      "translationHash": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-catalog",
+      "sourceHash": "3a8fda750dd040ae3c135a509a6f2778fd306b3217ab3ff0b1d112ad051076f1",
+      "translationHash": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sourceHash": "dff4f6aa67744c44986049e875369fae8501389676d4e005dafc85db057890b4",
+      "translationHash": "9e0bddfa4a5084074677dd9e87f58194d62c18ad6db338b519e7ecc076741a91",
+      "reviewedAuthorCommit": "49f4140c9dc9b341a061be2949e83ae3eb364f47",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sourceHash": "7d7b01efd489d56ac7fc3e2fbb7ef4a85ced5fa3343ef13c23cef4fab1055c30",
+      "translationHash": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+      "reviewedAuthorCommit": "8104e8d839defef689e01701f2098ae3d5d29206",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-code-review",
+      "sourceHash": "9aaa71a213cec3a4531edf9bce8cc39f0bf2ffe734f850753b2699da7e6302d7",
+      "translationHash": "9748862e5a248ec9f08121a1b77c3669084c3801d7e0d72724f10a83cb40cb9c",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-codebase-design",
+      "sourceHash": "db0ebbfc7918a688024c4c080dbbd8220fcd440948b50d82b672e214f6ff3996",
+      "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-diagnosing-bugs",
+      "sourceHash": "ef9ccd225e1b9caf5c2522174ffaf45e7a849490bbfbffc1e6d2dcd94020aca8",
+      "translationHash": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-domain-modeling",
+      "sourceHash": "9bb43ffb7d51e3f9357442a54fa0f516da2d7009709f955504c7bfadd4d4fb62",
+      "translationHash": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-grill-me",
+      "sourceHash": "d2f506fbfc88d0110f67f2f74f3a6f9e48eba43e36a574d66b2c983f5c3bff91",
+      "translationHash": "78f5a226289261163ef62d3bc4931aa3c55c5010ba2b9c7570694759e69a8e23",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-grill-with-docs",
+      "sourceHash": "7d562414cab61c24ebfed9382dcb18844240e3f30760ef7c3e4865fcff0f1a90",
+      "translationHash": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860",
+      "reviewedAuthorCommit": "6fd1d0f27a9cd962ad65b325e8fd47a78023ff76",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-grilling",
+      "sourceHash": "bf9046e1748f5473f2d5c843f7464289ccae5795560279208c2a53fabdc6396d",
+      "translationHash": "3df8022a3b6ce9a9aebfda8eec35f5d28b0b816c7a2f06b9bf92e71d91beac34",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-handoff",
+      "sourceHash": "f66de1f26fc55ee3263e5b3cdf4a5a96a3b26344c834cc918a930391f797a448",
+      "translationHash": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-implement",
+      "sourceHash": "42d4734446309c8658183428de2abda11f0239276f0b34016c5cb6d8c7b69a3b",
+      "translationHash": "f59c4fb6b637dc36349f7db0cc8303fec60e1172f620a2fa88146717cf988cc6",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-implement-spec",
+      "sourceHash": "5dbd4d76095c9dc54b60a9c89c453d74e2f2ab6f788250dd3d26ce6b74c75152",
+      "translationHash": "d3ca6a52c97daaf7161c2cfb98a8501d43a8d805cf0f820e5f9f0bb8b797c30f",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "sourceHash": "5215a048953e975ddf53527ed489c4d395ef8fc1558ac005f37f80175e90b6d0",
+      "translationHash": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+      "reviewedAuthorCommit": "6fd1d0f27a9cd962ad65b325e8fd47a78023ff76",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-pr",
+      "sourceHash": "d423f17fb516596112c9fb842a54a4a1c625c2094556ab4cdb3fca91f937e76b",
+      "translationHash": "6c2376028a46d715ddbdf0f71a8efaf248954c4548b7753fc5df2af55ed0b609",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-prototype",
+      "sourceHash": "2bb059ffc469453c3d98f9f04c1c3928bd020ac999709e20c86df88a95c5e821",
+      "translationHash": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+      "reviewedAuthorCommit": "18791590fbeba9f9a93df91fe87b27fa78260f52",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-research",
+      "sourceHash": "e91acc488a8e63d892982474c3c105793b4be460d72260c7662d2f6aab341874",
+      "translationHash": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-resolving-merge-conflicts",
+      "sourceHash": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710",
+      "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-retro",
+      "sourceHash": "a43dee00c077ebce4e43f5ada84b85770df73b2d3ade5a95981f5140e7fe112f",
+      "translationHash": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082",
+      "reviewedAuthorCommit": "a3bf8ae57b65bf7b2688c570e1ab53a4001b04e8",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-setup-matt-pocock-skills",
+      "sourceHash": "195b930507929eb63fbdc2adf3fa38f50945ed4ceaee9bcf8cfdda9d352c2495",
+      "translationHash": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7",
+      "reviewedAuthorCommit": "a3bf8ae57b65bf7b2688c570e1ab53a4001b04e8",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-tdd",
+      "sourceHash": "a58850bf7c649639f9bfec97451f07cb8bef87bcefd87d6b0afbfc20e8ed5c08",
+      "translationHash": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305",
+      "reviewedAuthorCommit": "18791590fbeba9f9a93df91fe87b27fa78260f52",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-teach",
+      "sourceHash": "9e15a9c39bccc9bf6ed72085209828712df422d9087aaccc2490fada45c2f71c",
+      "translationHash": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+      "reviewedAuthorCommit": "82c4bd0d3c8e179cb6cb2a480e669c1132aa043f",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-to-questionnaire",
+      "sourceHash": "c051d0d023f88945c673d7b0490c66e2786dd42702cbab363d3f542e5a4f6933",
+      "translationHash": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-to-spec",
+      "sourceHash": "1fb8c8987fc9548957d28253c6ac865de82519bf55b0ab757c3feedeb6274a53",
+      "translationHash": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-to-tickets",
+      "sourceHash": "90f8541cdf7a61504214d902b96602523da84f4cf9fc3ce6d09709be5e3aface",
+      "translationHash": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-triage",
+      "sourceHash": "52c5c6b3c93fd68b00abfc0f22e51f138afc532852a73ca0122a08addbdd8730",
+      "translationHash": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d",
+      "reviewedAuthorCommit": "4c2810e931079f6aa4b05e199165a898d0de333a",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-wait-what",
+      "sourceHash": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5",
+      "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-wayfinder",
+      "sourceHash": "b9233cc9fd083cf57da8c98c12179a9da92c005c3153f181782cc69f8b10e793",
+      "translationHash": "98ed068575ccbd2f102864f2e1d42c809af0eeb17f30c1a5cbf376144f4eba48",
+      "reviewedAuthorCommit": "3ae126eaa4cbab0d02fece725f44f935d0d15243",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-wizard",
+      "sourceHash": "29ed23c37badfd031173fb113491a8698884d9729aea053518c18ca2694aa8fa",
+      "translationHash": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8",
+      "reviewedAuthorCommit": "82c4bd0d3c8e179cb6cb2a480e669c1132aa043f",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills-writing-for-agents",
+      "sourceHash": "d830a22e3f1590c7a8daa55e69dc85b938f1995097056eb3625abb3ecd8a0544",
+      "translationHash": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+      "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+      "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+      "reviewedAuthorCommit": "49f4140c9dc9b341a061be2949e83ae3eb364f47",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+      "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+      "reviewedAuthorCommit": "3438b00d7c4b07fc3d1ceec9cada59d8d9326c7d",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "sourceHash": "c143f5999fd0b1e9dbcf0c9c9df0b9cb8a15731acc400fdaf2786f05de2b24b1",
+      "translationHash": "eaeb12cd6b9faa60f1fb603f85ae12bd6e4b7224753a1a5223362241fbf70607",
+      "reviewedAuthorCommit": "6d5528ea9def8c0c2a4a8257c408c4be9b2cdc6f",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+      "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+      "reviewedAuthorCommit": "3ae126eaa4cbab0d02fece725f44f935d0d15243",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sourceHash": "8f5dd02a02e0f99c1764faeeadee072c5b492794819cc1cfe575d21f4761d9d0",
+      "translationHash": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674",
+      "reviewedAuthorCommit": "8104e8d839defef689e01701f2098ae3d5d29206",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/skills/subscribe",
+      "sourceHash": "ff1c20f196e810ce444730c92bc9a3ad90cb81edc29370f212465823da402d1a",
+      "translationHash": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c",
+      "reviewedAuthorCommit": "c99fc9e222e62e5a4939f11b9b30fc9f05c43da0",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "sourceHash": "63f9786655d89c28f733d241cfbb1452ad8f3c546760c36a63cd6e1316c9e1db",
+      "translationHash": "f5f29c9f346eca8d316bc0b7382d131a8fa09410668a2492a8f464e2243cd4a4",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "sourceHash": "ee57548775269cf7d533ea7b81c1f11dea24ee991d2d33f808174bb5bd8e1f4c",
+      "translationHash": "b432198df9c4b14ea9650e92872cf954fc232fc8a42c031fca912f438a3e3f0d",
+      "reviewedAuthorCommit": "79ec73e9a1c75fc6cebd6f555c6ea4952e98e53c",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/streaming-objects-with-vercel-ai-sdk",
+      "sourceHash": "7759ded9ab743adaa00ed456bb6fddd55e7eaffedc19ab7ab68c79dbbe06a22c",
+      "translationHash": "bd42b6716c10bac8a0c4f54bbc9f2416e23424ff0ad6de93b1e5a69ea6225f19",
+      "reviewedAuthorCommit": "32fc55569901d9d401b87c5600ad451ec80937d7",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "sourceHash": "b7be79753832f1d6087f99f18cee294aff7541ddf54407e1c087d1f437a334cf",
+      "translationHash": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c",
+      "reviewedAuthorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "sourceHash": "f277e10827d20b167361744d27da8236be850b5652548b53e0ff36d3a1a73461",
+      "translationHash": "ecbb7283113651d9d4dae74453cf99e12fd1ef8cc3d05f7d4a387768c3ad0282",
+      "reviewedAuthorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/structured-outputs-with-vercel-ai-sdk",
+      "sourceHash": "57ffed296127324536388a2b4f0987dac992962eb8b98cc8399799592c417b10",
+      "translationHash": "cc31ab2700f602e27ecbdc30eccd5eea9e704ae5a9e2919daa5cfaa257e35d5a",
+      "reviewedAuthorCommit": "32fc55569901d9d401b87c5600ad451ec80937d7",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "sourceHash": "aac3e780421568244954473c45d09d24ba5acd4f4dbcd63a3937aede0a1e89b4",
+      "translationHash": "971ab2c8677e624acfdbee607f50e6a15cb6fd1fd661a8ca400794a20cfced7a",
+      "reviewedAuthorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/system-prompts-with-vercel-ai-sdk",
+      "sourceHash": "04ce96d05f56845bc10365c233094b95ebc9fd237d25dc5631042bc712b17c8f",
+      "translationHash": "98ae9e5576b442883f073dfdc1fa99cd87ab857affef849dd178cb435376c592",
+      "reviewedAuthorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/the-ai-engineer-mindset",
+      "sourceHash": "a38cc64310d21a913dac5ba1a74ce926de8e691ab59888a0638452c1d48ce8ac",
+      "translationHash": "cafb6b8d4ad4133b4791f2d21385ecfa4128962e4cd401e7607b645f2b6109db",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/the-problem-with-mcp-stateful-server",
+      "sourceHash": "c507dad06f3bc0d72d9a5c1c60af59882d5c63fe7264b2106491f9ca0d6fe8aa",
+      "translationHash": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/the-prompt-report",
+      "sourceHash": "1d14ac41bef2b6c45d7bcf8c20f49dd1e7f4cd0cd270fc05bee26dee66d985b6",
+      "translationHash": "e22eaa86066cf47b5c8269478962da8176444511292767120794605517f5b5d3",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sourceHash": "438655d047ea192d772e9ca192cf522dcb01cd6c3b3a7a3f27a97c69b168ccb3",
+      "translationHash": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c",
+      "reviewedAuthorCommit": "16a77e3711a2d58f28df4613cc4e37d126d640aa",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "sourceHash": "d6b944eb7ebee0bf5bda5267f7cd7f7ca5db44f7b1baa7315d467e75dd1a5a87",
+      "translationHash": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011",
+      "reviewedAuthorCommit": "fbea77cf9f4d435a48bce7d5b654945864b22b15",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/three-types-of-evals",
+      "sourceHash": "daed9213d7e4da9e384ec039e35080fe75ffeccd9f8d8a02860e3f0b7472d992",
+      "translationHash": "38579d6eed8a95d702e79a8871aab78b62a6a4bd58ef320481398b8d3b19eb7b",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "sourceHash": "6c2eac9161d4a74ab6239dfbacbde674ccfbf328486f177444fa359f59137462",
+      "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb",
+      "reviewedAuthorCommit": "ab96fdda6bbce9a4f70c59e26148623d8a769eba",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/tool-calls-with-vercel-ai-sdk",
+      "sourceHash": "4dd330bad3247eba4e575ef4298da6b8fa3c577490c53fc8d1aae35d3c7926d0",
+      "translationHash": "938a34e68735f5a6e2ea87dafe0b2d8361874a118a1a74e9e8f2c157b2533bc4",
+      "reviewedAuthorCommit": "32fc55569901d9d401b87c5600ad451ec80937d7",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/tracer-bullets",
+      "sourceHash": "9f19252ea92f8ce0232186eb07224670c9410b9c7fbbfc0bc7bcb12d4267ee57",
+      "translationHash": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7",
+      "reviewedAuthorCommit": "e296a7c78e7c78d76a3500c4bf743af99b222296",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/use-local-models-with-vercel-ai-sdk",
+      "sourceHash": "d3ee1fa746d5efb78938ca0539547b3ecf8db1fbfd0a5431f68620868d809b40",
+      "translationHash": "95e2cc953ba638f9117410ff649dbd1ade87877919753449b0656d129dc3c554",
+      "reviewedAuthorCommit": "79ec73e9a1c75fc6cebd6f555c6ea4952e98e53c",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/using-mcp-prompts",
+      "sourceHash": "bd0218127fa4a05f739be2f2d169efcadc57b726768760fd5d6025618e36f127",
+      "translationHash": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/vercel-ai-sdk",
+      "sourceHash": "9308ba148cf300569b21c782c6682fd9f38228470e38f3932cb7a18de907a674",
+      "translationHash": "1ef05776dea15bb2d16c958e952a7755adb2be4cc3e23d12e47d280a05440dbc",
+      "reviewedAuthorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/vercel-ai-sdk-messages-array",
+      "sourceHash": "73638ad959ce7e2179ac53ba3359e7fd62bba68424239e38bc0c6773596bab96",
+      "translationHash": "1fcd69e0fb88b7f08e13a8356a8365f520927e21e39c774a193341e0ffa107a9",
+      "reviewedAuthorCommit": "79ec73e9a1c75fc6cebd6f555c6ea4952e98e53c",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "sourceHash": "8f6395c1abdb055ef0c11102cf0363582a69f1439baef4e91ca29e358b3545e7",
+      "translationHash": "5ac4b8d2978128fa71304222dbbd3410dbcbf0d5d999d0172121052bdcd432b5",
+      "reviewedAuthorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/ways-ai-coding-has-rewired-my-brain",
+      "sourceHash": "c2c308cd0fdadada333cff3518d313a5f6fa5fb349b60fc38816bca99f6a1b0b",
+      "translationHash": "8203ac436a73d722dbb5ed631cd55e82071d48eb82e2c74869fecbc8b22f522b",
+      "reviewedAuthorCommit": "e296a7c78e7c78d76a3500c4bf743af99b222296",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/what-are-evals",
+      "sourceHash": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
+      "translationHash": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/what-are-llms-used-for",
+      "sourceHash": "7596c6c7d39b9b2c24b7dd6ae66a05bbad002c19e572fa20711594078b53a4a0",
+      "translationHash": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/what-are-tokens",
+      "sourceHash": "2a64fce2291858c58f05526228e575cd323663e0ca3a2dfbaed87ce3fe591013",
+      "translationHash": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a",
+      "reviewedAuthorCommit": "f37fafef6b449ce0c50c5b8109d0ac30de0c700f",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/what-are-tools",
+      "sourceHash": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049",
+      "translationHash": "e9e2d1d0795a237f8758217329dfd7f34abe6719fe4f647ac229e6c883a0e006",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/what-is-an-agent",
+      "sourceHash": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
+      "translationHash": "81ad23f66a99b7cd40ba3c465bb6a4d193f4e6f4c5c0d2c2d730f7bb458fceeb",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/what-is-an-ai-engineer",
+      "sourceHash": "77b72306faee34d21bef05d7f0ecb6b3cc4a4a015a7a84e4a62e721eac0b6484",
+      "translationHash": "f9cccdd3fc4d0bdf75404cfb90e92323e755f8791c98bbf10d8f81f378ba833e",
+      "reviewedAuthorCommit": "4965e4b81248c4988f449af38b0e11234a5190ef",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/what-is-an-llm",
+      "sourceHash": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
+      "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb",
+      "reviewedAuthorCommit": "f37fafef6b449ce0c50c5b8109d0ac30de0c700f",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "sourceHash": "860e5626279ac355abdcbf46c85c6c1a495441fd723493cb1c5b4502c3141605",
+      "translationHash": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca",
+      "reviewedAuthorCommit": "3d18dde2c005c4d582ea27cf1fd73ce93d2784c5",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/what-is-the-context-window",
+      "sourceHash": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3",
+      "translationHash": "4fb8555b800741de5f4939fdc6da0f9e98747dcddcbf124b01d09be64db0edc7",
+      "reviewedAuthorCommit": "f37fafef6b449ce0c50c5b8109d0ac30de0c700f",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/why-the-anthropic-ralph-plugin-sucks",
+      "sourceHash": "6ed9c1164a965fb931d345309e65cb0f8bbeff0cc7bb5d678a9d08108d6c55b4",
+      "translationHash": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420",
+      "reviewedAuthorCommit": "ab96fdda6bbce9a4f70c59e26148623d8a769eba",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/workshops/ai-coding-crash-course",
+      "sourceHash": "813177b824466b4737d38095d4a1e69b89226bdd7809f5cea4fed0bac0314f93",
+      "translationHash": "4e91df276632f002d146e3686d9226b297ff8682bbb0db2ab961af3a34931c4d",
+      "reviewedAuthorCommit": "2a7d3f41c043836185b691e058d5f11f7b18a55f",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "sourceHash": "b643005004e2b1c97e7a7a37f36f1208d37c93264b82c685dc2eddc3950a2b4c",
+      "translationHash": "766a728b31324c5ff191853786146b32fade0f98ad05fc09e638ec19cf3b153a",
+      "reviewedAuthorCommit": "2a7d3f41c043836185b691e058d5f11f7b18a55f",
+      "basis": "independently reviewed complete draft"
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5",
+      "translationHash": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
+      "reviewedAuthorCommit": null,
+      "basis": "unchanged preaccepted sample"
+    }
+  ]
+}

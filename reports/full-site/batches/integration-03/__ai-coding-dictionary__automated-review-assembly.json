@@ -1,0 +1,165 @@
+{
+  "config": "reports/full-site/content-a/A13/configs/automated-review.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/automated-review",
+      "manifest": {
+        "route": "/ai-coding-dictionary/automated-review",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+        "sourceHash": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b",
+        "translationPath": "content/zh/ai-coding-dictionary/automated-review.md",
+        "translationHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:08.845Z",
+        "assembly": {
+          "configHash": "bc5149032eaa18a1d8fbc692ae97453805f5d96ffa6f42651ff7637c7f239fb9",
+          "checkedAt": "2026-10-13T12:19:08.845Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-review",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/automated-review.md",
+          "sha256": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "b3fa6937e7a3f7b8006d20572937301446104db2eeb3136dad86309c6d07bbcf"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e8893f529f5512837d124a6869746e85831027460dbd365efc80e0e5f6e405ed"
+        }
+      ],
+      "rawOutputSha256": "2e0c51cc674b21ee9b8d9729f1311bcbb1285ca9ab2d3a9e10f69df360a0adb6"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/automated-review",
+      "manifest": {
+        "route": "/ai-coding-dictionary/automated-review",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+        "sourceHash": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b",
+        "translationPath": "content/zh/ai-coding-dictionary/automated-review.md",
+        "translationHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:09.053Z",
+        "assembly": {
+          "configHash": "bc5149032eaa18a1d8fbc692ae97453805f5d96ffa6f42651ff7637c7f239fb9",
+          "checkedAt": "2026-10-13T12:19:09.053Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-review",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/automated-review.md",
+          "sha256": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "b3fa6937e7a3f7b8006d20572937301446104db2eeb3136dad86309c6d07bbcf"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ac590484916cb5127079b780508e37c0dff2d6a723829aaa0fd1493a8720df98"
+        }
+      ],
+      "rawOutputSha256": "faf3a288d9a77a39f16da2c8defe042b75fe806524f3ce0be1efaa9fa56c336e"
+    }
+  ],
+  "nonTargetPagesPreserved": 80
+}

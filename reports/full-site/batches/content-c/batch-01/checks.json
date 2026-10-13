@@ -1,0 +1,75 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-codebase-design",
+      "sourcePath": "content/source/skills-codebase-design.md",
+      "sourceHash": "db0ebbfc7918a688024c4c080dbbd8220fcd440948b50d82b672e214f6ff3996",
+      "chineseFile": "reports/full-site/batches/content-c/batch-01/drafts/skills-codebase-design.md",
+      "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对 7 节正文、两张表和 7 个常见问题。保留原有完整稿，修正 extraction 的含义为减轻调用方复杂性；删除原文没有的 Matt/别处归因；已发生的 issue 449 案例改回过去事实叙述，没有把单个案例泛化为必然行为。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读完整旧稿并作局部修订，统一模块、接口、接缝、深度、适配器、局部性；删除设计工作台的新增比喻。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "保留已有中文背景术语，标题明确改为译注，解释 Skill、模块、monorepo、IIFE、linter 和 harness。原文时效性观点与 issue 状态按固定来源保留，不作为实时核验结论。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "源文无围栏代码。所有原行内技术标识与原资源 URL 保留。go、resume in /codebase-design and drive the open decisions、spawn 3+ sub-agents in parallel using the Agent tool 保留英文，并增加完整可复制中文 Prompt。原讨论引文保留英文并有中文理解。 真实 UI 审查发现的加粗边界已定点修正，仅移动标记或去除链接外层加粗；原文案、代码和 URL 不变。后续 AST 扫描无字面双星号/嵌套 strong，真实 UI 仍待工程重验。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 22
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "外部 issue 状态未重新查询，不将来源中的开放状态写作本次实时验证。"
+      ]
+    },
+    {
+      "route": "/skills-catalog",
+      "sourcePath": "content/source/skills-catalog.md",
+      "sourceHash": "3a8fda750dd040ae3c135a509a6f2778fd306b3217ab3ff0b1d112ad051076f1",
+      "chineseFile": "reports/full-site/batches/content-c/batch-01/drafts/skills-catalog.md",
+      "translationHash": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐段核对引言与 Skill 定义、安装、使用方式、开源四节；保留第一人称、全局/项目安装差别、单个安装选项及贡献邀请。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "完整中文通读，拆开安装说明与背景解释，保留作者强调个人判断与质量标准的语气。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "译注解释仓库、fork、PR、主目录和安装准备，正文说明 PRD 为产品需求文档，不补写不存在的 Skill 列表。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "唯一 shell 安装命令逐字保留，-g 与 ~/.claude/skills 技术值保留；两处 GitHub 入口及位置均保留。源文没有自然语言 Prompt 或对话。",
+          "originalFencedBlocks": 1,
+          "originalMarkdownResourceOccurrences": 2
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "固定来源文字提及下方 Skills，但没有取得逐项列表，页末译注已披露。",
+        "安装命令未执行，未验证用户机器 Node.js/npm 条件。"
+      ]
+    }
+  ]
+}

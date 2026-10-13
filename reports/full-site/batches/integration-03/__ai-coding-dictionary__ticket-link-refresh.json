@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A14/configs/ticket.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/ticket",
+      "manifest": {
+        "route": "/ai-coding-dictionary/ticket",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ticket",
+        "sourceHash": "27a3bc6e5fd813af0d4ee8e5cd6742ef9020dc59693fa3cc3bcbf349a7a13702",
+        "translationPath": "content/zh/ai-coding-dictionary/ticket.md",
+        "translationHash": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:49.913Z",
+        "assembly": {
+          "configHash": "6afe42b8b3bda1a15b075b78a9858ee0ff15fdfc0cd896a24fdcfa71a2f6e9f8",
+          "checkedAt": "2026-10-13T12:19:49.913Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/ticket.md",
+          "sha256": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a2905d0d94d433669cf1428d79c533d23406251658a877a1d55291627b912d89"
+        }
+      ],
+      "rawOutputSha256": "13a8174f99435d1cdf0ef2e251e2fcf78e18802f29a80b3c4e8744c11567f0cc"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/ticket",
+      "manifest": {
+        "route": "/ai-coding-dictionary/ticket",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ticket",
+        "sourceHash": "27a3bc6e5fd813af0d4ee8e5cd6742ef9020dc59693fa3cc3bcbf349a7a13702",
+        "translationPath": "content/zh/ai-coding-dictionary/ticket.md",
+        "translationHash": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:50.138Z",
+        "assembly": {
+          "configHash": "6afe42b8b3bda1a15b075b78a9858ee0ff15fdfc0cd896a24fdcfa71a2f6e9f8",
+          "checkedAt": "2026-10-13T12:19:50.138Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/ticket.md",
+          "sha256": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e8460a05cf3f756500cb2f02b6de44676c8e72424d73b9a42d955119d53f590c"
+        }
+      ],
+      "rawOutputSha256": "152e6a476424c9ff3ab76cf200375e22c5b44647af004f21972fa9da5c5af2b6"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

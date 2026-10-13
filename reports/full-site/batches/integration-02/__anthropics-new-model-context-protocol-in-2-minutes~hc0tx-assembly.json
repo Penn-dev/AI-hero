@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-02/configs/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "manifest": {
+        "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+        "sourceUrl": "https://www.aihero.dev/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+        "sourceHash": "c5585ac7cfc22c4a4c40941343ac04119a28e962bb3f086dd351a95e689f64c6",
+        "translationPath": "content/zh/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
+        "translationHash": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:20.075Z",
+        "assembly": {
+          "configHash": "159ac6ccde565a502f2a47881c056e1cf05dad37ebfb0f9ebf3e6d3e3d663ea8",
+          "checkedAt": "2026-10-13T11:56:20.075Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
+          "sha256": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3aa09978f5d055d2a47fa4757623f73a6f8f50856254e605b2b25a0290df5cf2"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "84a1bacab5bada8eef387c6700cefb529bc41b0da8143f9436b45ca2b2e145a3"
+        }
+      ],
+      "rawOutputSha256": "2a8542efd19e2b011f98c7a000d94548b8351af3dc98fff1b4d3af1448dc908a"
+    },
+    {
+      "mode": "apply",
+      "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "manifest": {
+        "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+        "sourceUrl": "https://www.aihero.dev/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+        "sourceHash": "c5585ac7cfc22c4a4c40941343ac04119a28e962bb3f086dd351a95e689f64c6",
+        "translationPath": "content/zh/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
+        "translationHash": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:20.270Z",
+        "assembly": {
+          "configHash": "159ac6ccde565a502f2a47881c056e1cf05dad37ebfb0f9ebf3e6d3e3d663ea8",
+          "checkedAt": "2026-10-13T11:56:20.270Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
+          "sha256": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3aa09978f5d055d2a47fa4757623f73a6f8f50856254e605b2b25a0290df5cf2"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "130c134ac453ee14e1115345d5eacc2a192b43c0016d61946de5fbd11827c9a4"
+        }
+      ],
+      "rawOutputSha256": "9bb3055e898caaf358c99fb784ac486313463b97ea7bcae3442d23763bed6e0e"
+    }
+  ],
+  "nonTargetPagesPreserved": 24
+}

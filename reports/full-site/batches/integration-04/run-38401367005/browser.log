@@ -1,0 +1,1031 @@
+{
+  "status": "failed",
+  "commit": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+  "pages": [
+    {
+      "id": "how-to-choose-an-llm",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "llm-fundamentals",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "messages-system-prompts-and-reasoning-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "what-are-llms-used-for",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "what-are-tools",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "what-is-an-agent",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-engineer-roadmap",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-engineer-roadmap",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "building-effective-agents",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "storm-generate-high-quality-articles-based-on-real-research",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "the-ai-engineer-mindset",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "the-prompt-report",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "three-types-of-evals",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "what-are-evals",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "what-is-an-ai-engineer",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "what-is-an-ai-engineer",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "generate-text-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "streaming-text-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "structured-data-from-pdfs-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "swap-ai-models-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "system-prompts-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "vercel-ai-sdk-tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "what-is-the-ai-sdk",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "what-is-the-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "describe-images-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "generate-arrays-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "generate-enums-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "streaming-objects-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "structured-outputs-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "tool-calls-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "agents-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "create-embeddings-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "implementing-anthropics-think-tool-in-typescript",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "use-local-models-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "vercel-ai-sdk-messages-array",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "evalite-an-early-preview",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "evalite-v1-preview",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "google-agents-whitepaper-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "securing-your-ai-app-with-guardrails",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "publish-your-mcp-server-to-npm",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "using-mcp-prompts",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-grill-me",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-skills-changelog-handoff-prototype-review-and-writing",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "AssertionError",
+        "message": "Document must not overflow horizontally",
+        "stack": "AssertionError [ERR_ASSERTION]: Document must not overflow horizontally\n    at check (file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:113:12)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "id": "skills-ask-matt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-writing-for-agents",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-handoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-to-questionnaire",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-pr",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-to-spec",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-implement-spec",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-implement",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-research",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-to-tickets",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-domain-modeling",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-grilling",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-code-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-diagnosing-bugs",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-retro",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "skills-setup-matt-pocock-skills",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-model-provider-request",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-session",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-stateful",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-stateless",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-turn",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-agents-md",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-context-pointer",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-environment",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-filesystem",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-skill",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-ai",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-inference",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-model-provider",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-parameters",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-training",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-cache-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-effort",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-input-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-next-token-prediction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-non-determinism",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-output-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-attention-budget",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-attention-degradation",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-attention-relationship",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-smart-zone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-autocompact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-clearing",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-compaction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-handoff-artifact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-handoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-contextual-knowledge",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-knowledge-cutoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-parametric-knowledge",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-primary-source",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-secondary-source",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-sycophancy",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-agent-mode",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-mcp",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-permission-mode",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-permission-request",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-sandbox",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-subagent",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-afk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-automated-check",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-automated-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-ax",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-dx",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-human-in-the-loop",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-human-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-grilling",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-prototyping",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-spec",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-ticket",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-dark-factory",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-design-concept",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-software-factory",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-vibe-coding",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    }
+  ]
+}

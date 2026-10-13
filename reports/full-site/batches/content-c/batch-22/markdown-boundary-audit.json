@@ -1,0 +1,10 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-22/drafts/skills__skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+      "sha256": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

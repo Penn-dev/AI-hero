@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-10/configs/this-hook-stops-claude-code-running-dangerous-git-commands.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "manifest": {
+        "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+        "sourceUrl": "https://www.aihero.dev/this-hook-stops-claude-code-running-dangerous-git-commands",
+        "sourceHash": "d6b944eb7ebee0bf5bda5267f7cd7f7ca5db44f7b1baa7315d467e75dd1a5a87",
+        "translationPath": "content/zh/this-hook-stops-claude-code-running-dangerous-git-commands.md",
+        "translationHash": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:29.483Z",
+        "assembly": {
+          "configHash": "4c9cd997111624a7bd75097730ac56cfdbee54ffb4bee0c25caa351c5e9f0ed8",
+          "checkedAt": "2026-10-13T13:04:29.483Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，待工程确认接入后刷新；保留英文原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/this-hook-stops-claude-code-running-dangerous-git-commands.md",
+          "sha256": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "975ffa6a726a78fd21c066bfd1f746816e51f8d17a83ec9663fd226997637bc4"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "79e5a6127edfbdbf9022c87921189a871fde540f1322b8564e5622efab8af549"
+        }
+      ],
+      "rawOutputSha256": "80baa664688aa922e9f7cfd05b9e4b48cae9d1da74aff7af10b2f905c203ea17"
+    },
+    {
+      "mode": "apply",
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "manifest": {
+        "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+        "sourceUrl": "https://www.aihero.dev/this-hook-stops-claude-code-running-dangerous-git-commands",
+        "sourceHash": "d6b944eb7ebee0bf5bda5267f7cd7f7ca5db44f7b1baa7315d467e75dd1a5a87",
+        "translationPath": "content/zh/this-hook-stops-claude-code-running-dangerous-git-commands.md",
+        "translationHash": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:29.700Z",
+        "assembly": {
+          "configHash": "4c9cd997111624a7bd75097730ac56cfdbee54ffb4bee0c25caa351c5e9f0ed8",
+          "checkedAt": "2026-10-13T13:04:29.700Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，待工程确认接入后刷新；保留英文原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/this-hook-stops-claude-code-running-dangerous-git-commands.md",
+          "sha256": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "975ffa6a726a78fd21c066bfd1f746816e51f8d17a83ec9663fd226997637bc4"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "08d4ff9ac55916137b667089754ebb7adfd383b1033c0f3405cc19cc4d285433"
+        }
+      ],
+      "rawOutputSha256": "c21379ab58a6e0862232aab80b43fb62b29b6b5f0586b44dc55562b9305dfefb"
+    }
+  ],
+  "nonTargetPagesPreserved": 172
+}

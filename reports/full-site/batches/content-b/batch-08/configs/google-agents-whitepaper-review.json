@@ -1,0 +1,15 @@
+{
+  "route": "/google-agents-whitepaper-review",
+  "source": {
+    "path": "content/source/google-agents-whitepaper-review.md",
+    "sha256": "569198702f52ca381d64e9f611feee8294585f6ebe087802f1ea9e6f52b73a8f"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-08/drafts/google-agents-whitepaper-review.md",
+  "translationPath": "content/zh/google-agents-whitepaper-review.md",
+  "linkTargets": [
+    {
+      "route": "/agents-with-vercel-ai-sdk",
+      "state": "available-chinese"
+    }
+  ]
+}

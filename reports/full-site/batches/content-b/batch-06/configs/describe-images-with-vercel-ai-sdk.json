@@ -1,0 +1,9 @@
+{
+  "route": "/describe-images-with-vercel-ai-sdk",
+  "source": {
+    "path": "content/source/describe-images-with-vercel-ai-sdk.md",
+    "sha256": "daa614dfa0c260f4b44036479d4ebb02a6c039b2ad39708e419886e31b043bdc"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-06/drafts/describe-images-with-vercel-ai-sdk.md",
+  "translationPath": "content/zh/describe-images-with-vercel-ai-sdk.md"
+}

@@ -7,172 +7,4691 @@
       "sourceUrl": "https://www.aihero.dev/a-complete-guide-to-agents-md",
       "sourceHash": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
       "translationPath": "content/learning/agents-md/article.md",
-      "translationHash": "cb1a80668e3dc15eed967e775bca4ec4612c1003ea892025d09d9d5e3ae94ac5",
-      "status": "translated-revised-learning-page",
-      "translatedAt": "2026-09-14T10:26:47.492Z",
-      "workflow": "Sol/medium edited revision; governance spot-check; deterministic page assembly and local browser acceptance",
-      "revisedAt": "2026-09-24"
+      "translationHash": "bf2c149382aada03300b6dacac483d315a148867fc0acc5f2abf43b6f4463562",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:15:53.790Z",
+      "assembly": {
+        "configHash": "27d5079105de87a4c0c0e81bf2aaaa2dbd3c096c24c143767c2ea75b38206090",
+        "checkedAt": "2026-10-13T11:15:53.790Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
       "sourceUrl": "https://www.aihero.dev/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
       "sourceHash": "c5585ac7cfc22c4a4c40941343ac04119a28e962bb3f086dd351a95e689f64c6",
       "translationPath": "content/zh/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
-      "translationHash": "9c6dc1734116231cceaaf9c29da3b9c1dc08e19faf0a85e3cb8c4a559f2323ec",
-      "status": "translated-estimate-sample",
-      "translatedAt": "2026-09-14T10:26:47.492Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:56:20.270Z",
+      "assembly": {
+        "configHash": "159ac6ccde565a502f2a47881c056e1cf05dad37ebfb0f9ebf3e6d3e3d663ea8",
+        "checkedAt": "2026-10-13T11:56:20.270Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/what-is-the-context-window",
       "sourceUrl": "https://www.aihero.dev/what-is-the-context-window",
       "sourceHash": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3",
       "translationPath": "content/zh/what-is-the-context-window.md",
-      "translationHash": "59f10df12d7813ef3d7d5e28f6437074c52e1f4b09002fd49b1cb886a584df49",
-      "status": "translated-estimate-sample",
-      "translatedAt": "2026-09-14T10:26:47.492Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "4fb8555b800741de5f4939fdc6da0f9e98747dcddcbf124b01d09be64db0edc7",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:11:53.534Z",
+      "assembly": {
+        "configHash": "6caefa60d29facfe50014787e570538f90ba93747c819d5d600a6ecd43adabe0",
+        "checkedAt": "2026-10-13T11:11:53.534Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/what-is-an-llm",
       "sourceUrl": "https://www.aihero.dev/what-is-an-llm",
       "sourceHash": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
       "translationPath": "content/zh/what-is-an-llm.md",
-      "translationHash": "681fe10a35b12c0df4316b31a9ccd3b240e560aeab92c7a1e31574f217496b15",
-      "status": "translated-estimate-sample",
-      "translatedAt": "2026-09-14T10:26:47.492Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:56:26.470Z",
+      "assembly": {
+        "configHash": "05e9093e4c56dcf3497d65bc6b3e5234e9f229fb4847b14a0e4643d87a88205b",
+        "checkedAt": "2026-10-13T11:56:26.470Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/structured-data-from-pdfs-with-vercel-ai-sdk",
       "sourceUrl": "https://www.aihero.dev/structured-data-from-pdfs-with-vercel-ai-sdk",
       "sourceHash": "f277e10827d20b167361744d27da8236be850b5652548b53e0ff36d3a1a73461",
       "translationPath": "content/zh/structured-data-from-pdfs-with-vercel-ai-sdk.md",
-      "translationHash": "1dfbe53dabdf187ea7a1042052514a42b58fd939ef63f4595734d18eaa365332",
-      "status": "translated-estimate-sample",
-      "translatedAt": "2026-09-14T10:26:47.492Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "ecbb7283113651d9d4dae74453cf99e12fd1ef8cc3d05f7d4a387768c3ad0282",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:59.386Z",
+      "assembly": {
+        "configHash": "32d3ac72ba6492bb172d15bef30b0d01f47835b0acff81f2730164f9340949c3",
+        "checkedAt": "2026-10-13T12:37:59.386Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/5-agent-skills-i-use-every-day",
       "sourceUrl": "https://www.aihero.dev/5-agent-skills-i-use-every-day",
       "sourceHash": "19cb0d155711f123378ecbe5ca2cc33a3b8704ac8399eed68e5c016cc211042b",
       "translationPath": "content/zh/5-agent-skills-i-use-every-day.md",
-      "translationHash": "e89e8f4ac6ed513b0283106296d070a43b9d0c92410a8a49a936d5b3b7c3ea8e",
-      "status": "translated-estimate-sample",
-      "translatedAt": "2026-09-14T10:26:47.492Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:08:03.602Z",
+      "assembly": {
+        "configHash": "e0256f5a3630589f27212cc2f0d45b2fb40c883234bb06573490aac769b4b0bf",
+        "checkedAt": "2026-10-13T13:08:03.602Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/skills-codebase-design",
       "sourceUrl": "https://www.aihero.dev/skills-codebase-design",
-      "sourceHash": "197b9aa5f43188ff8a6d5ed4c55998653b45c3d14f495a7185bb767c590bb15b",
+      "sourceHash": "db0ebbfc7918a688024c4c080dbbd8220fcd440948b50d82b672e214f6ff3996",
       "translationPath": "content/zh/skills-codebase-design.md",
-      "translationHash": "d27570a45c47a0ca50986ad8c18dc43bb35d8e8a50241dfa1ccc6db09d1baccd",
-      "status": "translated-estimate-sample",
-      "translatedAt": "2026-09-14T10:26:47.492Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:17.610Z",
+      "assembly": {
+        "configHash": "a386342059ee7eaa8105eec908b18970266e8aa2e24801fee3f378e3c31f429e",
+        "checkedAt": "2026-10-13T12:19:17.610Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/tips-for-ai-coding-with-ralph-wiggum",
       "sourceUrl": "https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum",
       "sourceHash": "6c2eac9161d4a74ab6239dfbacbde674ccfbf328486f177444fa359f59137462",
       "translationPath": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
-      "translationHash": "3b0fac1ab0ee12b87204fc2b744c9bfe6dad7465456b626a232e4cbb1ef680e7",
-      "status": "translated-estimate-sample",
-      "translatedAt": "2026-09-14T10:26:47.492Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "138f7dfe8b7fa8c54a0e5fed14adba4d85d3632708aaf64e8b442ce5a476dceb",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:59.242Z",
+      "assembly": {
+        "configHash": "891b90bcf6bd2d464dddd574678a5e571941587b1498482071a3a7daac5af81e",
+        "checkedAt": "2026-10-13T13:07:59.242Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/ai-coding-dictionary/system-prompt",
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
-      "sourceHash": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+      "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
       "translationPath": "content/learning/system-prompt/article.md",
-      "translationHash": "fc4a6abf24d7c9a83ba2c9860108074c4edba13c924f506aa335869b2bf83e76",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Single-page revision using shared knowledge and source review; previous Terra/Sol and A/B artifacts retained",
-      "revisedAt": "2026-09-22"
+      "translationHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:15.672Z",
+      "assembly": {
+        "configHash": "1f3c23a3f123e189edbc9111017fdf74630c9e1f63d6063f02374ab446998822",
+        "checkedAt": "2026-10-13T12:19:15.672Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/ai-coding-dictionary/agent",
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agent",
-      "sourceHash": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+      "sourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91",
       "translationPath": "content/zh/ai-coding-dictionary/agent.md",
-      "translationHash": "ed32aaa370202b4158b8e0bc9b8e4ba8bc31557cf40c2de932e1aec79b4bc5a5",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "5b44967000bbf20f89eecf21037c35a7428931d8623e0a45912dd63ed15e2a06",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:32.002Z",
+      "assembly": {
+        "configHash": "26a88714f69e23a77aa8425a01337ceb074feec0a8809bf2284a3e29d838ae67",
+        "checkedAt": "2026-10-13T12:19:32.002Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/ai-coding-dictionary/context-window",
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/context-window",
-      "sourceHash": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0",
+      "sourceHash": "2a5b63536a30a69e910c5bd6180ba6e19492e759b20b38bcdcff060983442deb",
       "translationPath": "content/zh/ai-coding-dictionary/context-window.md",
-      "translationHash": "d1757c31a88e79f64078d52e37a1efa708d226971d9a3ca35f60081855933844",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "c7b7dd9404a5e20e691ba4d9109594987f8be2844d762c08634584b981ba35b1",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:41.450Z",
+      "assembly": {
+        "configHash": "d974d94c365929d6ea86d6f37b4f5d671620cc7bd0ed67717942c6a87f9c6bcc",
+        "checkedAt": "2026-10-13T12:19:41.450Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/ai-coding-dictionary/tool-call",
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
-      "sourceHash": "dd5366630d7a0f4590bb53294974757a8e8918d457eac986a8e92d7f0d9a65ec",
+      "sourceHash": "81172bf1e6f56b678163d6c9b2875043918ca48e19e96ecd87640271f9d84692",
       "translationPath": "content/zh/ai-coding-dictionary/tool-call.md",
-      "translationHash": "cb5c90492f7e7a479b926e1954ec4ccbb8a38efed52070b0aedb24b08ed5ee35",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "95ec8540dceadb7fac71d6539c17bc2a4acd1ee9354dac8fe994572678413e2a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:47.014Z",
+      "assembly": {
+        "configHash": "fd7c1941bb3c4f5d306ab7a7eb589e6e66c5c8cfb77563dc8701643bb4daa1f2",
+        "checkedAt": "2026-10-13T12:19:47.014Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/ai-coding-dictionary/prefix-cache",
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
-      "sourceHash": "1b3aa55261ba6fa24279cef97d89074f7b9fdec0f9851077b8978bef63198e4f",
+      "sourceHash": "9101031d9fd11f9e7f593a8ec5038ad595d6f0bda46622f0cb8ebe5634d3a295",
       "translationPath": "content/zh/ai-coding-dictionary/prefix-cache.md",
-      "translationHash": "d0ce17cc25a6213287b7c84f91c2c2dbdec1f1a93a0241eaee9374a8bae617f9",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:28.361Z",
+      "assembly": {
+        "configHash": "07d57871ca4603bfe834b5e726e4c140abffc448410fc33c36d4af0b079bd1a8",
+        "checkedAt": "2026-10-13T12:19:28.361Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/ai-coding-dictionary/memory-system",
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
-      "sourceHash": "44c820f44f373ae51be4edb3b45a0aafaac43ea6e7bf28feaa32d2fece3110ac",
+      "sourceHash": "231f7764fd14458de5108a21924637c522c92c650b5c81dfbe77d29af2597258",
       "translationPath": "content/zh/ai-coding-dictionary/memory-system.md",
-      "translationHash": "8a7cf7696834bc9977873b669325735a262089dcfa60a39657ee264e877b5bd5",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "69475a939a5bcdf64d816a1de64f161f915dc1443ed1e3be6fecaaba23684df9",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:28.791Z",
+      "assembly": {
+        "configHash": "fb319d1589cd293939e3004e76517606a93511690749fb4d7d5711a24ba3114e",
+        "checkedAt": "2026-10-13T12:19:28.791Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/ai-coding-dictionary/hallucination",
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
-      "sourceHash": "da31a7a42c22c0a85709c942099e64e0f7bdb51056a02a9295601feeea97d10c",
+      "sourceHash": "4b8d0cbe95e6f7c71907613a69a016178a40a5729ec6aff0372dfc12f558640c",
       "translationPath": "content/zh/ai-coding-dictionary/hallucination.md",
-      "translationHash": "1ad3529dbcbe224e3eb230db5eb4554462ea6a86a31b62c4d2e7ecc9a97440c2",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:27.888Z",
+      "assembly": {
+        "configHash": "61b1bd782e00c277307af24df6cb5f7ba0d10533ec9013eb11e403ca057e402a",
+        "checkedAt": "2026-10-13T12:19:27.888Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/ai-coding-dictionary/progressive-disclosure",
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
-      "sourceHash": "572e1cc2312329cd09712c5649c08d41af96c27523965f75932dccba0ebcec45",
+      "sourceHash": "5d66bc98fae76fc8d8df7eb8d4b0f6d514832a21b2340a224e8c33b791f3ec73",
       "translationPath": "content/zh/ai-coding-dictionary/progressive-disclosure.md",
-      "translationHash": "834b5f2c69f0d25b25412d1a8a5da35c5ce928db6745998eeb7d8a92f9639a58",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:41.909Z",
+      "assembly": {
+        "configHash": "e0de7bbeb19298494ae23217fc816e78ce8fe4a94bbffad7f4da9b1edaed53a6",
+        "checkedAt": "2026-10-13T12:19:41.909Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     },
     {
       "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
       "sourceUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
-      "sourceHash": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+      "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5",
       "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
-      "translationHash": "16ee8dcba4363b5950861cc317a0d671137ed535dd2d19b6d9081e0861257548",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:53.852Z",
+      "assembly": {
+        "configHash": "51988c0c9401be39a91861bc905b7072e59e94b7b15fa9097eb7e8cd4796c919",
+        "checkedAt": "2026-10-13T13:07:53.852Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [
+          {
+            "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution",
+            "state": "planned-chinese",
+            "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+          },
+          {
+            "route": "/login",
+            "state": "planned-chinese",
+            "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+          }
+        ],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/what-are-tokens",
+      "sourceUrl": "https://www.aihero.dev/what-are-tokens",
+      "sourceHash": "2a64fce2291858c58f05526228e575cd323663e0ca3a2dfbaed87ce3fe591013",
+      "translationPath": "content/zh/what-are-tokens.md",
+      "translationHash": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:11:52.648Z",
+      "assembly": {
+        "configHash": "84f919d1e0473100e29fb004c5df7b05fda80db986e69daf04a039c32b8af1cf",
+        "checkedAt": "2026-10-13T11:11:52.648Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/model",
+      "sourceHash": "bda0dd8f7209f591b4d3e8169d0e40365130327004b73195c87df731b1a517a5",
+      "translationPath": "content/zh/ai-coding-dictionary/model.md",
+      "translationHash": "f12f343165c943279cb53b174cad12087ae71f9a19ac811337dba7264ed6e757",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:31.526Z",
+      "assembly": {
+        "configHash": "8a3f511f3bcd0aa6597923f2db73292be9b865a33dea81e0a7eed703bc8f5161",
+        "checkedAt": "2026-10-13T12:19:31.526Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/harness",
+      "sourceHash": "e8fca4c2ddffb9f121b5f57f5721c3c06d941bf8c545c23ebdc5d70b727032f2",
+      "translationPath": "content/zh/ai-coding-dictionary/harness.md",
+      "translationHash": "4385fb5496325123f5a12485ec6d2d919a00154a663e32ed644e5df636068441",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:31.068Z",
+      "assembly": {
+        "configHash": "177b32a5138166b856d5ffb7797dc5231435e64d107adb17a651398a3ae74247",
+        "checkedAt": "2026-10-13T12:19:31.068Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/context",
+      "sourceHash": "3a76ec521a78bd5050d60981b4fd1acad50e4cc607681de34db826270b43804d",
+      "translationPath": "content/zh/ai-coding-dictionary/context.md",
+      "translationHash": "4021cb508844311565f8f12a80d102cfd6eddde9d639a682302914901e78941b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:42.409Z",
+      "assembly": {
+        "configHash": "ff213f758ec1cfeb7e68b2d06c2a4cb74f4415ec3e22a300dc00920d4c34f51b",
+        "checkedAt": "2026-10-13T12:19:42.409Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/token",
+      "sourceHash": "d561b6c8ced690f7e6fdbfa8435342dfcc9cba275d1c4e0a8ddfd803571c27f1",
+      "translationPath": "content/zh/ai-coding-dictionary/token.md",
+      "translationHash": "8898ec3b4ffd54aa9f1cf9ec5588db3f21089e9c632fe2283a1f3de1598af5e3",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:40.976Z",
+      "assembly": {
+        "configHash": "991fae44e0d67c95f4e7c52797dca553c34a448793a90bd001235f979c42e34f",
+        "checkedAt": "2026-10-13T12:19:40.976Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-catalog",
+      "sourceUrl": "https://www.aihero.dev/skills-catalog",
+      "sourceHash": "3a8fda750dd040ae3c135a509a6f2778fd306b3217ab3ff0b1d112ad051076f1",
+      "translationPath": "content/zh/skills-catalog.md",
+      "translationHash": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:18.018Z",
+      "assembly": {
+        "configHash": "4f587050c269667283cfdb4e024dfed5e215201b2332b0f90243837ec21ca3d1",
+        "checkedAt": "2026-10-13T12:19:18.018Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
+      "sourceHash": "d86d038892bf2d6363762dbfc6a23ff563a3abe3aa08bbb1e6c9f8a935584f66",
+      "translationPath": "content/zh/ai-coding-dictionary/tool-result.md",
+      "translationHash": "7574fffe1a0b24a5b25f4213060ea9765833f0d7c84468ae0a3df00772e688a5",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:46.077Z",
+      "assembly": {
+        "configHash": "a4ced73d4710fc55f181913230e9a9781c21680fddfb8e4856da20ecfc29a039",
+        "checkedAt": "2026-10-13T12:19:46.077Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/tool",
+      "sourceHash": "e40188419e080e42d781f684089b90456382657e37f0d3ba2100cb92a6540763",
+      "translationPath": "content/zh/ai-coding-dictionary/tool.md",
+      "translationHash": "f094c8573d7307195caf83a27e4eace62fda2af963fcac0adb262e346d1fb4a3",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:46.551Z",
+      "assembly": {
+        "configHash": "73c0993ba7aad1ac2e3243cdf88996c1ecb01ebb7421ae7a47dd8dd4f70201a0",
+        "checkedAt": "2026-10-13T12:19:46.551Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/how-does-the-model-context-protocol-work",
+      "sourceUrl": "https://www.aihero.dev/how-does-the-model-context-protocol-work",
+      "sourceHash": "d1fe112d6c98655fcea48a5ce8e13ad706371ee3305b5c47471fb207ee7da729",
+      "translationPath": "content/zh/how-does-the-model-context-protocol-work.md",
+      "translationHash": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:56:20.743Z",
+      "assembly": {
+        "configHash": "a5de495cf93843ddb4dae664c30253792924fb38128c29d59f250deffe64038b",
+        "checkedAt": "2026-10-13T11:56:20.743Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/logging-a-huge-mcp-footgun",
+      "sourceUrl": "https://www.aihero.dev/logging-a-huge-mcp-footgun",
+      "sourceHash": "eef196ed9aa582bbfcc3ab7c3e5761f264461ce4a57c14a83642a71a925a1767",
+      "translationPath": "content/zh/logging-a-huge-mcp-footgun.md",
+      "translationHash": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:56:21.176Z",
+      "assembly": {
+        "configHash": "06e95ebe7b64011c3b0cd72b8a1cc9906e2b27fc93988cf2096f34e608e754bf",
+        "checkedAt": "2026-10-13T11:56:21.176Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "sourceUrl": "https://www.aihero.dev/mcp-server-from-a-single-typescript-file",
+      "sourceHash": "484c19f68976cc4aed0121229976cd80169a147181c2a3239c893bdb8339679a",
+      "translationPath": "content/zh/mcp-server-from-a-single-typescript-file.md",
+      "translationHash": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:56:21.580Z",
+      "assembly": {
+        "configHash": "ef6e0a310d86791d6819e1439ab5181ba7d51c3e9e03e73e064450277c74df8f",
+        "checkedAt": "2026-10-13T11:56:21.580Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/model-context-protocol-tutorial",
+      "sourceUrl": "https://www.aihero.dev/model-context-protocol-tutorial",
+      "sourceHash": "47c89dd78f37236aa983545d5f1440f11ebd3c56b7c05ad9ad8044df6bde0b94",
+      "translationPath": "content/zh/model-context-protocol-tutorial.md",
+      "translationHash": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:56:21.947Z",
+      "assembly": {
+        "configHash": "0c976d0a9b43f298859abd646593396f675ea628413247726b72da07612ad5f3",
+        "checkedAt": "2026-10-13T11:56:21.947Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/publish-your-mcp-server-to-npm",
+      "sourceUrl": "https://www.aihero.dev/publish-your-mcp-server-to-npm",
+      "sourceHash": "a9459952cfa26254258dc360cd31a17e54135a0df93098cad256c2b7e933b28b",
+      "translationPath": "content/zh/publish-your-mcp-server-to-npm.md",
+      "translationHash": "2f528062fa9fcd9f42fdc96369373d99519d06197039303569a551d093133a8b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:15.578Z",
+      "assembly": {
+        "configHash": "32ff9c7f3fe9fe9b8e9c63694b9d323b9f64bde0833777fa3d2d1c6d3ae904eb",
+        "checkedAt": "2026-10-13T12:38:15.578Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/the-problem-with-mcp-stateful-server",
+      "sourceUrl": "https://www.aihero.dev/the-problem-with-mcp-stateful-server",
+      "sourceHash": "c507dad06f3bc0d72d9a5c1c60af59882d5c63fe7264b2106491f9ca0d6fe8aa",
+      "translationPath": "content/zh/the-problem-with-mcp-stateful-server.md",
+      "translationHash": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:56:22.824Z",
+      "assembly": {
+        "configHash": "78c3a93c78781415f3940d761eb3c2f1146bac1fedc66d2ed453b8c0859b0b71",
+        "checkedAt": "2026-10-13T11:56:22.824Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/using-mcp-prompts",
+      "sourceUrl": "https://www.aihero.dev/using-mcp-prompts",
+      "sourceHash": "bd0218127fa4a05f739be2f2d169efcadc57b726768760fd5d6025618e36f127",
+      "translationPath": "content/zh/using-mcp-prompts.md",
+      "translationHash": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:16.051Z",
+      "assembly": {
+        "configHash": "adb34633df280ab820d6f0b1fc8ad5d4eab0bee300e7a9904da3e2590f90276a",
+        "checkedAt": "2026-10-13T12:38:16.051Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-wait-what",
+      "sourceUrl": "https://www.aihero.dev/skills-wait-what",
+      "sourceHash": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5",
+      "translationPath": "content/zh/skills-wait-what.md",
+      "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T11:56:28.707Z",
+      "assembly": {
+        "configHash": "a8dc98f796c1a4b9a8b9bdab1695903d986df0e8e1c9ba4606cbc47a41e8a705",
+        "checkedAt": "2026-10-13T11:56:28.707Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills/subscribe",
+      "sourceUrl": "https://www.aihero.dev/skills/subscribe",
+      "sourceHash": "ff1c20f196e810ce444730c92bc9a3ad90cb81edc29370f212465823da402d1a",
+      "translationPath": "content/zh/skills/subscribe.md",
+      "translationHash": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:17.097Z",
+      "assembly": {
+        "configHash": "b59ac65a355a2cd99d788f85d6ef34135b23038404a09c52a9175ab72ef4e502",
+        "checkedAt": "2026-10-13T12:19:17.097Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-resolving-merge-conflicts",
+      "sourceUrl": "https://www.aihero.dev/skills-resolving-merge-conflicts",
+      "sourceHash": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710",
+      "translationPath": "content/zh/skills-resolving-merge-conflicts.md",
+      "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:16.653Z",
+      "assembly": {
+        "configHash": "b5474450db3b97d774cc50fd0a6458610ec3eb2baff9ce842af9a63fa7c5ddd0",
+        "checkedAt": "2026-10-13T12:19:16.653Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills",
+      "sourceUrl": "https://www.aihero.dev/skills",
+      "sourceHash": "5e98f53633747fe3a64f313fbfffa37486ff32aa986c5565f054d2000da1b01c",
+      "translationPath": "content/zh/skills.md",
+      "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:16.163Z",
+      "assembly": {
+        "configHash": "1079d3937a59ecf620117d6995f98e041750cddca3be037e6519e327ef412808",
+        "checkedAt": "2026-10-13T12:19:16.163Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
+      "sourceHash": "9040123cac6dcfe99a1b6ee685b11fd0768bfe13792421c099b592bd59956888",
+      "translationPath": "content/zh/ai-coding-dictionary/model-provider-request.md",
+      "translationHash": "06d5b7f0fce998498c0f30b8c57f66c88a046ebac6b39bda8b778913f7759561",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:21.770Z",
+      "assembly": {
+        "configHash": "76998f55cdc52863f9467066409e1c2500a09793342cddc791d54d63ac1fcbe7",
+        "checkedAt": "2026-10-13T12:19:21.770Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/session",
+      "sourceHash": "2ec9d99838359e3762586678be8930cea4457f46c48ab1c085427d0a1b5c9bdc",
+      "translationPath": "content/zh/ai-coding-dictionary/session.md",
+      "translationHash": "0f7b5d79ba37eac31e0a15ec07da91883af8d4ecb1f260b96ab66c0e5df8ce6f",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:21.295Z",
+      "assembly": {
+        "configHash": "867892fd7ca60cea2bcbb8c3cb2748f14262aa804811dc24feacdf09c292fd96",
+        "checkedAt": "2026-10-13T12:19:21.295Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/stateful",
+      "sourceHash": "9b4d2356cc0fa4e0f63f623649506c40e38fe989571365fe7944c0c729a51eb7",
+      "translationPath": "content/zh/ai-coding-dictionary/stateful.md",
+      "translationHash": "bead311e9b537c7253bbd3794a1c8099c51cf280ade409df0b705c384e1c39b5",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:22.231Z",
+      "assembly": {
+        "configHash": "8dee9b2a707428e1ea916d46bddd2e349d66032da77bf8dc7920af9087d03170",
+        "checkedAt": "2026-10-13T12:19:22.231Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/stateless",
+      "sourceHash": "061131442102c1e3677c71d5016077b613c6a6f14d6c860613cbe745d8cd6edd",
+      "translationPath": "content/zh/ai-coding-dictionary/stateless.md",
+      "translationHash": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:22.706Z",
+      "assembly": {
+        "configHash": "b983afd8493d660fa18a1a8ecaa6ed143efa6dcef29eae89ddd9ac77afcdc211",
+        "checkedAt": "2026-10-13T12:19:22.706Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/turn",
+      "sourceHash": "4976a69badb154f1c5412701e7bf657594359cecb204191cb9c273f2e0a79402",
+      "translationPath": "content/zh/ai-coding-dictionary/turn.md",
+      "translationHash": "0c222df5426fe704b42bdf8098d1c312e72dc12151f8782d61353587c51d8bc7",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:23.218Z",
+      "assembly": {
+        "configHash": "e1df57b9c39cfdc4365a253b9380864f00eef4d76ec7b5b8658ed7ec01fcade1",
+        "checkedAt": "2026-10-13T12:19:23.218Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
+      "sourceHash": "32af17329c5c6aaddd8964c45094df8b8996c326d0c9d22f1d50639c12fac201",
+      "translationPath": "content/zh/ai-coding-dictionary/agents-md.md",
+      "translationHash": "06897ea09726703625d8aeb5ca76e7dbef1582714e0b9428236eb87699cd1c1c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:25.945Z",
+      "assembly": {
+        "configHash": "0f014a78f56995ed37175092fe01d4c5eed161a1c4277e5806be7899ea548763",
+        "checkedAt": "2026-10-13T12:19:25.945Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
+      "sourceHash": "0465a48c9ee2d354bfbaa82b071f80b45616e7c8ad588b48f4cd1696786a7283",
+      "translationPath": "content/zh/ai-coding-dictionary/context-pointer.md",
+      "translationHash": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:26.916Z",
+      "assembly": {
+        "configHash": "5f742e24c02f0599b7013c61824d741afbcda69196f60d92e7f858f3076b820d",
+        "checkedAt": "2026-10-13T12:19:26.916Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/environment",
+      "sourceHash": "5e10fc7459a6351d8025c7dabae66cc94ab99be566d27f7bab40fe53b736e342",
+      "translationPath": "content/zh/ai-coding-dictionary/environment.md",
+      "translationHash": "ca9167eddfab6506465946a78ca6814d4467c24cf174a772b09891fb38f35fbc",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:27.396Z",
+      "assembly": {
+        "configHash": "b0f60cb028384190d359a15507a4b5240ca9d421007d85150d0cfb4abbe18ff7",
+        "checkedAt": "2026-10-13T12:19:27.396Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
+      "sourceHash": "02912c45cf8c9b38e23f635fbc55fcaa14691576e5a1220bb78e489ac700a9f7",
+      "translationPath": "content/zh/ai-coding-dictionary/filesystem.md",
+      "translationHash": "4f1f8d28fa461752472c085d5aec6edb91ad260706dab7640727a6340486d445",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:25.492Z",
+      "assembly": {
+        "configHash": "8a4c4424d8ce715b3120e33c3e570e934c3b2e58aaf3e757f071a618744e80a1",
+        "checkedAt": "2026-10-13T12:19:25.492Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/skill",
+      "sourceHash": "f3203e90c41b5e6eb0ed706dd6844860519201f6461484a7686b4e9667d2567a",
+      "translationPath": "content/zh/ai-coding-dictionary/skill.md",
+      "translationHash": "477975137e42e1c36b76997ca56c5c9d998f09f12ec8f2b103bcf3679cfd999c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:26.402Z",
+      "assembly": {
+        "configHash": "530c72f81d4f913f0383c2a7013e307ef452e3bf97c335ab9f2bb263349b9a6a",
+        "checkedAt": "2026-10-13T12:19:26.402Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ai",
+      "sourceHash": "46a2a3be696a87b1059b9ea43819305463ce94a7a5cef23466e9d1824cb57a31",
+      "translationPath": "content/zh/ai-coding-dictionary/ai.md",
+      "translationHash": "f1f4adb1b0b7f859b61ebbb24ea65d8c7a556e7482ef40f9e2aa784ebf35751d",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:38.902Z",
+      "assembly": {
+        "configHash": "b04c6a2bd873f611d0d0e158f79bea71ece73a7e7af89a7b84ccdc1eae224fda",
+        "checkedAt": "2026-10-13T12:19:38.902Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/inference",
+      "sourceHash": "e7c23ce987d5e42225449309294ce00e4b2ee4ab83544f273078c73cdc1982fc",
+      "translationPath": "content/zh/ai-coding-dictionary/inference.md",
+      "translationHash": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:39.364Z",
+      "assembly": {
+        "configHash": "1710a8f292bf246ec3edaf5dcb543738b7acfba10aadcc002f1c36e7a0935fdf",
+        "checkedAt": "2026-10-13T12:19:39.364Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
+      "sourceHash": "de26bad57b92bee22e4c9042fe8262c8095bf44aa3b73fd70f74766bc98e8e0e",
+      "translationPath": "content/zh/ai-coding-dictionary/model-provider.md",
+      "translationHash": "3df57d8c1c992024aba1a9396c3a1f7a00fe29e18f03686e06e3da82d0d1db8e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:38.400Z",
+      "assembly": {
+        "configHash": "39b705b9b0431e7d39a3ffd663b55d55417c1cf44046f4df0fa27343a0f7caf4",
+        "checkedAt": "2026-10-13T12:19:38.400Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/parameters",
+      "sourceHash": "f627cef476d8d54a9829f3c5c90e587ebcf6f73b25c6be5e9b4ef82a79b8e836",
+      "translationPath": "content/zh/ai-coding-dictionary/parameters.md",
+      "translationHash": "a673aba82075efd6e720e571a090d7070869eaf36f462420a737b6a2f3d1d2a7",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:40.419Z",
+      "assembly": {
+        "configHash": "9e23e4aeb4a96cbb2b2f1e95cbd0266c486a8db56b5e2363fa15970444d946ee",
+        "checkedAt": "2026-10-13T12:19:40.419Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/training",
+      "sourceHash": "f962827db48b29c0c8cc4d6f7fdc692ecfdf37c09447acac4cfbecf57887cf15",
+      "translationPath": "content/zh/ai-coding-dictionary/training.md",
+      "translationHash": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:39.911Z",
+      "assembly": {
+        "configHash": "93e76a29797c4e96b37d544628190c690f76a451a853e9e125cea7b93de18864",
+        "checkedAt": "2026-10-13T12:19:39.911Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
+      "sourceHash": "c9ef6830b4091bad3c8d788f4637ff40fe4b8a32cd9ab932526b2274174b293d",
+      "translationPath": "content/zh/ai-coding-dictionary/cache-tokens.md",
+      "translationHash": "c55e88c70a1b0d574f50ee19b6374198f94e4f5a9bc218425299ca3a88fe503b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:20.378Z",
+      "assembly": {
+        "configHash": "c640c829b94d941308dd6627c22a1e06e0f9ea6cf386bf510bb47fc350a5316e",
+        "checkedAt": "2026-10-13T12:19:20.378Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/effort",
+      "sourceHash": "98354889478936729e33eb954204700f94c7583ee72201e3faca2fca7b3ccec3",
+      "translationPath": "content/zh/ai-coding-dictionary/effort.md",
+      "translationHash": "d16ab61f90611dae91272fb5ff250fd8ea6fe4480b5797bc599b10ec1e401996",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:20.838Z",
+      "assembly": {
+        "configHash": "7b8d9390af309104379983f7866a3bc4f510ef8b1f320e36bb5137e97fd31e81",
+        "checkedAt": "2026-10-13T12:19:20.838Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
+      "sourceHash": "e30fae6e5812c5d913a7c5a8d034736e4f94bae6bbf06df20922e438e11c1363",
+      "translationPath": "content/zh/ai-coding-dictionary/input-tokens.md",
+      "translationHash": "abbccee08dfa232adfd8077a718c68cc3dea7a6c7f86283f9a9d3fd59d69242d",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:19.408Z",
+      "assembly": {
+        "configHash": "34d5e9ff821f5cbd67f1bbb40ca0748ec53cf91616689908fabfa430d8da770f",
+        "checkedAt": "2026-10-13T12:19:19.408Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
+      "sourceHash": "2e4540175092bb37efd464961daf8df3e6339d500464e6d16c8b162a247d8ed7",
+      "translationPath": "content/zh/ai-coding-dictionary/next-token-prediction.md",
+      "translationHash": "caf12bccfab0edcf2a2ce9457ba074045692901c6514316e254bec50c5aed686",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:18.468Z",
+      "assembly": {
+        "configHash": "9d67d58aa2329407e5f3d9351658861d46d126041420a980adad256fc27627ff",
+        "checkedAt": "2026-10-13T12:19:18.468Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
+      "sourceHash": "9d6bb88cb4d21da508ef3fb73b56707a9a0eb8d90b8606f470599dd1c14a6a84",
+      "translationPath": "content/zh/ai-coding-dictionary/non-determinism.md",
+      "translationHash": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:18.929Z",
+      "assembly": {
+        "configHash": "a2e729574e88883fc5be3252f94e2b237c26be0e9df1a17203515cf77a515a8a",
+        "checkedAt": "2026-10-13T12:19:18.929Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
+      "sourceHash": "dae408485b46660315f1a08c0ba1454a271460143f3b8ecd9375623acfbfdadf",
+      "translationPath": "content/zh/ai-coding-dictionary/output-tokens.md",
+      "translationHash": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:19.858Z",
+      "assembly": {
+        "configHash": "623caec3c23255ff2288b5874a9fad1f97c80ebe870aea4f018459fa96c21bc2",
+        "checkedAt": "2026-10-13T12:19:19.858Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
+      "sourceHash": "2ac674af54019c072f89a2f4154c27eab502e0f8e3219d9955d99cdd0fccccc5",
+      "translationPath": "content/zh/ai-coding-dictionary/attention-budget.md",
+      "translationHash": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:23.685Z",
+      "assembly": {
+        "configHash": "7234031dff4d522327d7ad55075641262a3fee5215c34fca2dec31e3703f8401",
+        "checkedAt": "2026-10-13T12:19:23.685Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
+      "sourceHash": "bf7047388ba3589007a6b639945031883d4b4c04fc7b91b616db403e6c8430c3",
+      "translationPath": "content/zh/ai-coding-dictionary/attention-degradation.md",
+      "translationHash": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:25.053Z",
+      "assembly": {
+        "configHash": "d00c9e2cf1cfdde7555ec92b48c26c07fe609f5ae35f3b98e637bfa68f720ad5",
+        "checkedAt": "2026-10-13T12:19:25.053Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
+      "sourceHash": "b5563d1488719ae62eb792a3728a5c491e505e4cd9b9a22f0310cf85eb1b8275",
+      "translationPath": "content/zh/ai-coding-dictionary/attention-relationship.md",
+      "translationHash": "26a9bbfe02f92f4f1fa9b481da4dfa7d924e8e5318c1405f64bc657f4e48ed47",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:24.620Z",
+      "assembly": {
+        "configHash": "578295b1f8f91a49195bd6f6bcddc1e8e5ae627f833737c1d0867fbf9f92d3d4",
+        "checkedAt": "2026-10-13T12:19:24.620Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+      "sourceHash": "89e7f3a6e7d2660d3305269ad0d1a150a7860cf8987b0c2c79fc5476c0f6fb5f",
+      "translationPath": "content/zh/ai-coding-dictionary/smart-zone.md",
+      "translationHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:24.146Z",
+      "assembly": {
+        "configHash": "3b25420ea2f577912ea48e2a63ae7ab0d3a03e9b26b82808369fd2839f064a18",
+        "checkedAt": "2026-10-13T12:19:24.146Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
+      "sourceHash": "b27637eae07e7f28830ceae01e53d74088b04cf59237e669c5ab7992bb466a28",
+      "translationPath": "content/zh/ai-coding-dictionary/autocompact.md",
+      "translationHash": "6f091d0428d7b4f73fdb429345bd8102710b5f3012a236ea09c37d038019a12b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:37.525Z",
+      "assembly": {
+        "configHash": "8812003a53523cca6c0746b1db960911eb3c0ab7be9a4a1d27d95387c227fa95",
+        "checkedAt": "2026-10-13T12:19:37.525Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/clearing",
+      "sourceHash": "d60dda2558ed3c7b15ef41a8a5dd31d35a6ab8846a77f55aad7e3853682f2346",
+      "translationPath": "content/zh/ai-coding-dictionary/clearing.md",
+      "translationHash": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:37.093Z",
+      "assembly": {
+        "configHash": "ac7a1454a9ddf957963c6e428b32ef305dc6c41437b4178668df1801c0e85e17",
+        "checkedAt": "2026-10-13T12:19:37.093Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/compaction",
+      "sourceHash": "fddd287107216dd4b1936c9f276da01188acdd91e67cec9386d70cae3b85c4f0",
+      "translationPath": "content/zh/ai-coding-dictionary/compaction.md",
+      "translationHash": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:36.607Z",
+      "assembly": {
+        "configHash": "1007d0838fa9874542d6f98ae61ba8b472266254f4368a11baa2eb94cc3e23b7",
+        "checkedAt": "2026-10-13T12:19:36.607Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
+      "sourceHash": "d17dd0c5e14bddea3cfeace1c6071763b6bca069a2d7e75772ace458a353e2d5",
+      "translationPath": "content/zh/ai-coding-dictionary/handoff-artifact.md",
+      "translationHash": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:36.167Z",
+      "assembly": {
+        "configHash": "623306b0e3680904c4382f37fefa3657f637825b1596b6c0b24ed1a3c11d6647",
+        "checkedAt": "2026-10-13T12:19:36.167Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff",
+      "sourceHash": "c3f330ccdd14c2d23d67e1252937ab5379296f8ed8878606dbd0b11d2468e508",
+      "translationPath": "content/zh/ai-coding-dictionary/handoff.md",
+      "translationHash": "4bb16d3c2891a5293d36efd8d754ceedd00abd1500c620ca4bb728975ef308b2",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:37.980Z",
+      "assembly": {
+        "configHash": "e86c885d9a58de49927cacb6c9c94e41921c1b952e7d3c9d0c92a1a1cf2edb80",
+        "checkedAt": "2026-10-13T12:19:37.980Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
+      "sourceHash": "0c15b23805522a808d4403bdf9ab5e696ea027a493dc5c758f343edd2305c811",
+      "translationPath": "content/zh/ai-coding-dictionary/contextual-knowledge.md",
+      "translationHash": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:48.813Z",
+      "assembly": {
+        "configHash": "2c6f8a50acc9cf0466cf74662b0c4e4a3b373f48b6d36e6a53b0c915ec44b999",
+        "checkedAt": "2026-10-13T12:19:48.813Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+      "sourceHash": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46",
+      "translationPath": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+      "translationHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:47.893Z",
+      "assembly": {
+        "configHash": "86ed61452c1c2bd18a14f09cc4207f7b71e5922bb8da410e3125544babf73c15",
+        "checkedAt": "2026-10-13T12:19:47.893Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
+      "sourceHash": "eea5dc47fbe93157d2f9c3447977f19edf5a98ab5e121a6eb1d55d768bd82c60",
+      "translationPath": "content/zh/ai-coding-dictionary/parametric-knowledge.md",
+      "translationHash": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:47.437Z",
+      "assembly": {
+        "configHash": "632f7c0bc49a6950cb22c59713a378a93dc8790cf579078b67f4a046d5bd8e00",
+        "checkedAt": "2026-10-13T12:19:47.437Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
+      "sourceHash": "d7de1ef47f677a3e0fd3ee8303be41617ae850964bb3ef5ce936e007ce8e1c91",
+      "translationPath": "content/zh/ai-coding-dictionary/primary-source.md",
+      "translationHash": "9f9c37d1f3f958191afd1c1ced53e7de63fdac835d120001526459290e709d31",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:49.676Z",
+      "assembly": {
+        "configHash": "425be170a44f9770f844e3eff2232ad1751388f1bf1644be97f3c0d1b625028c",
+        "checkedAt": "2026-10-13T12:19:49.676Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
+      "sourceHash": "b8d494d36341ef070bc29dc1c63b9251275301aa2420f32e661f163929fc971c",
+      "translationPath": "content/zh/ai-coding-dictionary/secondary-source.md",
+      "translationHash": "885423477c37ba1fb06634c16f587b8d1195c7502b28a2152e705c86f0c31dbf",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:49.250Z",
+      "assembly": {
+        "configHash": "6a1ca49e360908e1e7b95cd72b52e65a5bb62cf32cf9caad822c87b2eed22088",
+        "checkedAt": "2026-10-13T12:19:49.250Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+      "sourceHash": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941",
+      "translationPath": "content/zh/ai-coding-dictionary/sycophancy.md",
+      "translationHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:48.345Z",
+      "assembly": {
+        "configHash": "4e7e9695835113d741a323e6f57d4b776a054b9c0a2369eb375156f202475cf8",
+        "checkedAt": "2026-10-13T12:19:48.345Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
+      "sourceHash": "24f5102fb30d59ebc8947457169dcc9e98583973d2ce5efe1cc44443300ecdc7",
+      "translationPath": "content/zh/ai-coding-dictionary/agent-mode.md",
+      "translationHash": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:33.454Z",
+      "assembly": {
+        "configHash": "b5e6d020de6a799ea50ddda3d5acf10431cd5538fb8aaf6a9eab7a0f47978b21",
+        "checkedAt": "2026-10-13T12:19:33.454Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/mcp",
+      "sourceHash": "dccbfda4cf19b526b54ea7b562903d89a1b7319f1cfc624c88465b82962e305c",
+      "translationPath": "content/zh/ai-coding-dictionary/mcp.md",
+      "translationHash": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:32.980Z",
+      "assembly": {
+        "configHash": "0d3fda143c8d1e02069060d68f754cd3e6198c402f41d24dfab707dbe8e06a9f",
+        "checkedAt": "2026-10-13T12:19:32.980Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
+      "sourceHash": "94dcba8b6b3a5e39bb5d6c646c19bc4b0ca82b5cb4abd1f4733194f53da44293",
+      "translationPath": "content/zh/ai-coding-dictionary/permission-mode.md",
+      "translationHash": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:34.370Z",
+      "assembly": {
+        "configHash": "e058afa4e6874444a4c74bd377fd7083509fee726985a926a7085601584eca3f",
+        "checkedAt": "2026-10-13T12:19:34.370Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
+      "sourceHash": "5cd646c35915de3e592f69439f459e638ed020068c5e8337c1ba715b5015c9c0",
+      "translationPath": "content/zh/ai-coding-dictionary/permission-request.md",
+      "translationHash": "b0baee76ed0d94d37711c42ed89ffc30f27eb850abfd852df537660b9539bfa2",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:34.887Z",
+      "assembly": {
+        "configHash": "c953090954b5d7b47f4b384c246be5d81afd752144287072ef19d7391a999bf1",
+        "checkedAt": "2026-10-13T12:19:34.887Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
+      "sourceHash": "16a11caf345c12e3be8721de059a4c716dde5fec481256a6c0a833d5e016d751",
+      "translationPath": "content/zh/ai-coding-dictionary/sandbox.md",
+      "translationHash": "f2da4f482d5a0b2fa54bd2b4e6343d6a540d505887d1307f42ae378b9de2f5c8",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:32.516Z",
+      "assembly": {
+        "configHash": "819ff4af6e4d28764ee097c2b58cbb9161463d7e870978aba1cea0eabb4c776f",
+        "checkedAt": "2026-10-13T12:19:32.516Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/subagent",
+      "sourceHash": "50239cd38db25f2b441fda71d5bfca33fa36be01fc50bf07f1f7f10e347159f8",
+      "translationPath": "content/zh/ai-coding-dictionary/subagent.md",
+      "translationHash": "fd3603db152a6d2f867f656a1897c22164fa17320554f62f6996b546fb986ec4",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:33.913Z",
+      "assembly": {
+        "configHash": "1c3d6db1b83a8f40149066fc51eee7dd4663e9e59e423dff3c56ee8da3b3d757",
+        "checkedAt": "2026-10-13T12:19:33.913Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/afk",
+      "sourceHash": "8618b23c4ab823f440ea078191a7345958fcd260c290033141d47847ad6f915a",
+      "translationPath": "content/zh/ai-coding-dictionary/afk.md",
+      "translationHash": "69bd4c8ae6f747c478edb713b8efe67054e3b33250b82777364c9fab1cad5bb0",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:44.708Z",
+      "assembly": {
+        "configHash": "27358304da3289d589b1d0b2c94dc8525a4707d7c8c2a954fa8103255836539b",
+        "checkedAt": "2026-10-13T12:19:44.708Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
+      "sourceHash": "bf3c424b557017b8f77485ddff6e9f842695c7f97e97301775f31022e433d3a6",
+      "translationPath": "content/zh/ai-coding-dictionary/automated-check.md",
+      "translationHash": "2ad1926f1f2876a937a9a95ba672f0d1c1d419bd6cc4e6825558dba75e7b1573",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:43.315Z",
+      "assembly": {
+        "configHash": "7c8296a35bc7b6e26fa837ff4c4b3027d45b95c936ca9a9533545cc9066f029b",
+        "checkedAt": "2026-10-13T12:19:43.315Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+      "sourceHash": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b",
+      "translationPath": "content/zh/ai-coding-dictionary/automated-review.md",
+      "translationHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:43.764Z",
+      "assembly": {
+        "configHash": "9a1a4dc0ff8e455519194e2c053bfb121a643672b96f2b91420713da91b8f178",
+        "checkedAt": "2026-10-13T12:19:43.764Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ax",
+      "sourceHash": "5e5e09094864e5f7908dc7b6549ef4ecb6e941d382e19c1600b9ae4a33449c2e",
+      "translationPath": "content/zh/ai-coding-dictionary/ax.md",
+      "translationHash": "9f67986cebc45eae52e8fd3eed63e27cf2bd4241c807f32738c4041882ef8084",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:45.172Z",
+      "assembly": {
+        "configHash": "cbfcba05644779f67907c40252d107051124e598788579144da88befad6f37bc",
+        "checkedAt": "2026-10-13T12:19:45.172Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/dx",
+      "sourceHash": "a7ffc549fb59a5ca758ea9324560f5df91d76eaad3b4766b57cbf77515524fb5",
+      "translationPath": "content/zh/ai-coding-dictionary/dx.md",
+      "translationHash": "2b5bcbf713195ef12650d14b795f81d6279ec70918946e8000a97fcaef995ebe",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:42.861Z",
+      "assembly": {
+        "configHash": "5f26481ee14974cb56e98045b74250044cca2162de113e2ac5ec8426e809c420",
+        "checkedAt": "2026-10-13T12:19:42.861Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
+      "sourceHash": "6730a600872ddbb9bb705fe5ad8f6ee0218c841576ea7fd3d9e572aedf975a50",
+      "translationPath": "content/zh/ai-coding-dictionary/human-in-the-loop.md",
+      "translationHash": "36a2b738e345d63882ca23f41a1183b128c2a24f0e0c1d05ea283ba6801eed49",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:44.205Z",
+      "assembly": {
+        "configHash": "fc18ec1d87c4759d51a30a871cbecf05a84d50a3cc090c292d350dc9129a7ad4",
+        "checkedAt": "2026-10-13T12:19:44.205Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/human-review",
+      "sourceHash": "dd479f1fd946c437f8660dad8405defd3f5846e2308d5ba59851822bfa4b7633",
+      "translationPath": "content/zh/ai-coding-dictionary/human-review.md",
+      "translationHash": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:45.615Z",
+      "assembly": {
+        "configHash": "6d1ca0cf4561dfb1bdff6fd2b4b94e146f64091cc212a8a0b1c610de499b5497",
+        "checkedAt": "2026-10-13T12:19:45.615Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+      "sourceHash": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc",
+      "translationPath": "content/zh/ai-coding-dictionary/grilling.md",
+      "translationHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:50.989Z",
+      "assembly": {
+        "configHash": "572f3d6bc2f81aab4fcea55e495f9fc54a37a7b2fc2a65e0fa3f95ab07f8673e",
+        "checkedAt": "2026-10-13T12:19:50.989Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
+      "sourceHash": "39d3ce1c188317f94c922a30c1652b2ef5ca993d7eb061cbc6d63f7a5543d97f",
+      "translationPath": "content/zh/ai-coding-dictionary/prototyping.md",
+      "translationHash": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:50.575Z",
+      "assembly": {
+        "configHash": "52cc0d9485adbf49d0f5ff3c19431685571b9cb0ef6827d706c375e389747e98",
+        "checkedAt": "2026-10-13T12:19:50.575Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/spec",
+      "sourceHash": "35400ab72d5c14a63214c73cab00ddf37fd63150cae3ea5fe2ae8b5297df684d",
+      "translationPath": "content/zh/ai-coding-dictionary/spec.md",
+      "translationHash": "cbd2ae4002e6013decb42c3d77303219d796878830a6ad4cc98b23cf5c6d7e22",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:51.433Z",
+      "assembly": {
+        "configHash": "40a0f10a83af67acc475d6f63ec76a30456aa4fb9b18b7e234fc05ddae25af0b",
+        "checkedAt": "2026-10-13T12:19:51.433Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ticket",
+      "sourceHash": "27a3bc6e5fd813af0d4ee8e5cd6742ef9020dc59693fa3cc3bcbf349a7a13702",
+      "translationPath": "content/zh/ai-coding-dictionary/ticket.md",
+      "translationHash": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:50.138Z",
+      "assembly": {
+        "configHash": "6afe42b8b3bda1a15b075b78a9858ee0ff15fdfc0cd896a24fdcfa71a2f6e9f8",
+        "checkedAt": "2026-10-13T12:19:50.138Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/dark-factory",
+      "sourceHash": "e61c177f6e5426b1315a4390e94104187f012d0c63fdde2b59559c66aac4e4b1",
+      "translationPath": "content/zh/ai-coding-dictionary/dark-factory.md",
+      "translationHash": "b054c4a02ad3061cf79d11070977d95602bce8c83d52950cea589bba7dbeffa9",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:30.161Z",
+      "assembly": {
+        "configHash": "3f2b5373832090d2c7e1ade6123792f08fe62deb45e37c3cd73fa41afc5e74d9",
+        "checkedAt": "2026-10-13T12:19:30.161Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
+      "sourceHash": "41a0e5468e5b07e7ad96e188e82d8fdb8609b5f9068f9417bf6ef851f20f121b",
+      "translationPath": "content/zh/ai-coding-dictionary/design-concept.md",
+      "translationHash": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:30.613Z",
+      "assembly": {
+        "configHash": "245fea967402c4c4a3e55682ded95393f2a99da05602082e23f6b72169407f60",
+        "checkedAt": "2026-10-13T12:19:30.613Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/software-factory",
+      "sourceHash": "78107b16f9f8a4964fb482a016c114a292bfbf5c75ac79b9861a711b4c4a669b",
+      "translationPath": "content/zh/ai-coding-dictionary/software-factory.md",
+      "translationHash": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:29.724Z",
+      "assembly": {
+        "configHash": "289b6035adccda25bc62ebe98f340c5313f269f70b38dc399b3d20821562bffd",
+        "checkedAt": "2026-10-13T12:19:29.724Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+      "sourceHash": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861",
+      "translationPath": "content/zh/ai-coding-dictionary/vibe-coding.md",
+      "translationHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:29.260Z",
+      "assembly": {
+        "configHash": "aefdc7416d88b4c39212d69fb81701690df9c0def9b196526a9a6354a29179e5",
+        "checkedAt": "2026-10-13T12:19:29.260Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary",
+      "sourceHash": "9389205ef4e97e4330e37e9e577d095775fe3b2b84c647dbf0995fcc9b66d07c",
+      "translationPath": "content/zh/ai-coding-dictionary.md",
+      "translationHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:35.591Z",
+      "assembly": {
+        "configHash": "bcb9cead8455e47c32e513b3608141352099783022b6d9eae344963f7d1c992f",
+        "checkedAt": "2026-10-13T12:19:35.591Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-grill-me",
+      "sourceUrl": "https://www.aihero.dev/skills-grill-me",
+      "sourceHash": "d2f506fbfc88d0110f67f2f74f3a6f9e48eba43e36a574d66b2c983f5c3bff91",
+      "translationPath": "content/zh/skills-grill-me.md",
+      "translationHash": "78f5a226289261163ef62d3bc4931aa3c55c5010ba2b9c7570694759e69a8e23",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:42.096Z",
+      "assembly": {
+        "configHash": "b3d20c43ff698df1486cdfc440e32b8f13ae505ccd62139de8e4557208f50a01",
+        "checkedAt": "2026-10-13T12:37:42.096Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+      "translationPath": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+      "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:41.639Z",
+      "assembly": {
+        "configHash": "452f79f3e191a7fe48e9fdfef81fe2a3225ad75d79d4bf42a85173d4cddea0cf",
+        "checkedAt": "2026-10-13T12:37:41.639Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-ask-matt",
+      "sourceUrl": "https://www.aihero.dev/skills-ask-matt",
+      "sourceHash": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685",
+      "translationPath": "content/zh/skills-ask-matt.md",
+      "translationHash": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:40.697Z",
+      "assembly": {
+        "configHash": "20d70f88b34d98cdda6787ceba93e2d5767c6fb8cc916be074d1102edf23bcd3",
+        "checkedAt": "2026-10-13T12:37:40.697Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-writing-for-agents",
+      "sourceUrl": "https://www.aihero.dev/skills-writing-for-agents",
+      "sourceHash": "d830a22e3f1590c7a8daa55e69dc85b938f1995097056eb3625abb3ecd8a0544",
+      "translationPath": "content/zh/skills-writing-for-agents.md",
+      "translationHash": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:41.183Z",
+      "assembly": {
+        "configHash": "7156abcc51fcfc58aeb681747014456b3a1c1f9c549833f54551c52c51977060",
+        "checkedAt": "2026-10-13T12:37:41.183Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-handoff",
+      "sourceUrl": "https://www.aihero.dev/skills-handoff",
+      "sourceHash": "f66de1f26fc55ee3263e5b3cdf4a5a96a3b26344c834cc918a930391f797a448",
+      "translationPath": "content/zh/skills-handoff.md",
+      "translationHash": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:45.714Z",
+      "assembly": {
+        "configHash": "e7f2836abd3b52319d8656d14ce4f75bda4f0c375a55f8b03c07e514c7e20f38",
+        "checkedAt": "2026-10-13T12:37:45.714Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-to-questionnaire",
+      "sourceUrl": "https://www.aihero.dev/skills-to-questionnaire",
+      "sourceHash": "c051d0d023f88945c673d7b0490c66e2786dd42702cbab363d3f542e5a4f6933",
+      "translationPath": "content/zh/skills-to-questionnaire.md",
+      "translationHash": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:46.181Z",
+      "assembly": {
+        "configHash": "338edc58fa8a54cfe8c937a80d6a02a21d573e4485348692b17403af081373d2",
+        "checkedAt": "2026-10-13T12:37:46.181Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-pr",
+      "sourceUrl": "https://www.aihero.dev/skills-pr",
+      "sourceHash": "d423f17fb516596112c9fb842a54a4a1c625c2094556ab4cdb3fca91f937e76b",
+      "translationPath": "content/zh/skills-pr.md",
+      "translationHash": "6c2376028a46d715ddbdf0f71a8efaf248954c4548b7753fc5df2af55ed0b609",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:39.085Z",
+      "assembly": {
+        "configHash": "f8302879b93fd5b71d0f1c8247f384db170f98215504ab97fdb092ddd7fb78e9",
+        "checkedAt": "2026-10-13T12:37:39.085Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-to-spec",
+      "sourceUrl": "https://www.aihero.dev/skills-to-spec",
+      "sourceHash": "1fb8c8987fc9548957d28253c6ac865de82519bf55b0ab757c3feedeb6274a53",
+      "translationPath": "content/zh/skills-to-spec.md",
+      "translationHash": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:38.557Z",
+      "assembly": {
+        "configHash": "102e5f50d31ea17d4485c8cd78b85f8e6559093bc4c195ab3a6c0ae29553cf89",
+        "checkedAt": "2026-10-13T12:37:38.557Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-implement-spec",
+      "sourceUrl": "https://www.aihero.dev/skills-implement-spec",
+      "sourceHash": "5dbd4d76095c9dc54b60a9c89c453d74e2f2ab6f788250dd3d26ce6b74c75152",
+      "translationPath": "content/zh/skills-implement-spec.md",
+      "translationHash": "d3ca6a52c97daaf7161c2cfb98a8501d43a8d805cf0f820e5f9f0bb8b797c30f",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:43.113Z",
+      "assembly": {
+        "configHash": "273572d14db423e1e26475d06f00ef83b7720a891e16caef0b2e4e594e919593",
+        "checkedAt": "2026-10-13T12:37:43.113Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-implement",
+      "sourceUrl": "https://www.aihero.dev/skills-implement",
+      "sourceHash": "42d4734446309c8658183428de2abda11f0239276f0b34016c5cb6d8c7b69a3b",
+      "translationPath": "content/zh/skills-implement.md",
+      "translationHash": "f59c4fb6b637dc36349f7db0cc8303fec60e1172f620a2fa88146717cf988cc6",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:42.608Z",
+      "assembly": {
+        "configHash": "7dab9aa3c277a7e7f33017f64461a02a2cecbacc27b18303b7bc6d95f1091a35",
+        "checkedAt": "2026-10-13T12:37:42.608Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-research",
+      "sourceUrl": "https://www.aihero.dev/skills-research",
+      "sourceHash": "e91acc488a8e63d892982474c3c105793b4be460d72260c7662d2f6aab341874",
+      "translationPath": "content/zh/skills-research.md",
+      "translationHash": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:45.220Z",
+      "assembly": {
+        "configHash": "5438fb3374615d9379e835260327b211939b64eb80776b7d25ef6b5d82d417a4",
+        "checkedAt": "2026-10-13T12:37:45.220Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-to-tickets",
+      "sourceUrl": "https://www.aihero.dev/skills-to-tickets",
+      "sourceHash": "90f8541cdf7a61504214d902b96602523da84f4cf9fc3ce6d09709be5e3aface",
+      "translationPath": "content/zh/skills-to-tickets.md",
+      "translationHash": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:44.770Z",
+      "assembly": {
+        "configHash": "59cd6568ba50910968bb753e57e4b2551e6d720611daf181b1d752c76f72cc5e",
+        "checkedAt": "2026-10-13T12:37:44.770Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-domain-modeling",
+      "sourceUrl": "https://www.aihero.dev/skills-domain-modeling",
+      "sourceHash": "9bb43ffb7d51e3f9357442a54fa0f516da2d7009709f955504c7bfadd4d4fb62",
+      "translationPath": "content/zh/skills-domain-modeling.md",
+      "translationHash": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:38.059Z",
+      "assembly": {
+        "configHash": "4f01278abeb6826f180ee81ab5138342ba1a8f1464a496ef275c28744376bbd6",
+        "checkedAt": "2026-10-13T12:37:38.059Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-grilling",
+      "sourceUrl": "https://www.aihero.dev/skills-grilling",
+      "sourceHash": "bf9046e1748f5473f2d5c843f7464289ccae5795560279208c2a53fabdc6396d",
+      "translationPath": "content/zh/skills-grilling.md",
+      "translationHash": "3df8022a3b6ce9a9aebfda8eec35f5d28b0b816c7a2f06b9bf92e71d91beac34",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:37.573Z",
+      "assembly": {
+        "configHash": "a9e082207bb4714082ebc068f7849f9520520a35b92f574f1886d83ae9a9b328",
+        "checkedAt": "2026-10-13T12:37:37.573Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-code-review",
+      "sourceUrl": "https://www.aihero.dev/skills-code-review",
+      "sourceHash": "9aaa71a213cec3a4531edf9bce8cc39f0bf2ffe734f850753b2699da7e6302d7",
+      "translationPath": "content/zh/skills-code-review.md",
+      "translationHash": "9748862e5a248ec9f08121a1b77c3669084c3801d7e0d72724f10a83cb40cb9c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:43.633Z",
+      "assembly": {
+        "configHash": "f5fdc057ccfc84beb8d16218c7f7ea2f4505d52919c42ee0d04a0225d31d0d7f",
+        "checkedAt": "2026-10-13T12:37:43.633Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-diagnosing-bugs",
+      "sourceUrl": "https://www.aihero.dev/skills-diagnosing-bugs",
+      "sourceHash": "ef9ccd225e1b9caf5c2522174ffaf45e7a849490bbfbffc1e6d2dcd94020aca8",
+      "translationPath": "content/zh/skills-diagnosing-bugs.md",
+      "translationHash": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:44.184Z",
+      "assembly": {
+        "configHash": "00f78c15435d81ee7f9ed7011a07a01ae2bf296d1419bb55104da6d26a20a0c0",
+        "checkedAt": "2026-10-13T12:37:44.184Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-retro",
+      "sourceUrl": "https://www.aihero.dev/skills-retro",
+      "sourceHash": "a43dee00c077ebce4e43f5ada84b85770df73b2d3ade5a95981f5140e7fe112f",
+      "translationPath": "content/zh/skills-retro.md",
+      "translationHash": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:39.624Z",
+      "assembly": {
+        "configHash": "7f83bfc4ea6c02b0da5cc1656a09bec469823d75911e2731bdbcd8a64c8d6c14",
+        "checkedAt": "2026-10-13T12:37:39.624Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-setup-matt-pocock-skills",
+      "sourceUrl": "https://www.aihero.dev/skills-setup-matt-pocock-skills",
+      "sourceHash": "195b930507929eb63fbdc2adf3fa38f50945ed4ceaee9bcf8cfdda9d352c2495",
+      "translationPath": "content/zh/skills-setup-matt-pocock-skills.md",
+      "translationHash": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:40.178Z",
+      "assembly": {
+        "configHash": "eed251fa16f133b9f5bce79e5525cedaeb9791be9eec606f91cc53f1c639b512",
+        "checkedAt": "2026-10-13T12:37:40.178Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/how-to-choose-an-llm",
+      "sourceUrl": "https://www.aihero.dev/how-to-choose-an-llm",
+      "sourceHash": "25b8b5bb3ebbe1fe88f002c69da7119362f3584029f07dbde2e6bd11070d09e5",
+      "translationPath": "content/zh/how-to-choose-an-llm.md",
+      "translationHash": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:15.074Z",
+      "assembly": {
+        "configHash": "01a41f9610e9a972bb25dfdf3d793f0b11dadcab85cfcd58d0710a64d904e607",
+        "checkedAt": "2026-10-13T12:38:15.074Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/llm-fundamentals",
+      "sourceUrl": "https://www.aihero.dev/llm-fundamentals",
+      "sourceHash": "9a6205dcc625fe5356f4c303a3993bbb547760c6a77bd0c2bd098a3bff38693d",
+      "translationPath": "content/zh/llm-fundamentals.md",
+      "translationHash": "a89ce1b9aa7a7be217c28cb3bd8ae4ee4ce9f281c4f8a1623658ca66249140c6",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:52.189Z",
+      "assembly": {
+        "configHash": "047e13804147aa155f33be98499ee88529a110851f03ad7392a1bf1bdc1c9352",
+        "checkedAt": "2026-10-13T12:37:52.189Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/messages-system-prompts-and-reasoning-tokens",
+      "sourceUrl": "https://www.aihero.dev/messages-system-prompts-and-reasoning-tokens",
+      "sourceHash": "6bdc0dcd24d6ccf1ee01d8cc799c13380cf647b668d2298676a07e970e7c2296",
+      "translationPath": "content/zh/messages-system-prompts-and-reasoning-tokens.md",
+      "translationHash": "ff9940e3b294e84041d8c30b3dc0ecf791e24d94817de3bb9addc9240887dbbb",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:52.624Z",
+      "assembly": {
+        "configHash": "65b86e6c2ea49cb3f34ad95065531219cb6d83ede5bd53bed6edeed3ad53efd7",
+        "checkedAt": "2026-10-13T12:37:52.624Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/what-are-llms-used-for",
+      "sourceUrl": "https://www.aihero.dev/what-are-llms-used-for",
+      "sourceHash": "7596c6c7d39b9b2c24b7dd6ae66a05bbad002c19e572fa20711594078b53a4a0",
+      "translationPath": "content/zh/what-are-llms-used-for.md",
+      "translationHash": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:14.533Z",
+      "assembly": {
+        "configHash": "3a476f9193a2eafd415b7422b43ab267b3cadb1327510f514097d2767dfb983d",
+        "checkedAt": "2026-10-13T12:38:14.533Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/what-are-tools",
+      "sourceUrl": "https://www.aihero.dev/what-are-tools",
+      "sourceHash": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049",
+      "translationPath": "content/zh/what-are-tools.md",
+      "translationHash": "e9e2d1d0795a237f8758217329dfd7f34abe6719fe4f647ac229e6c883a0e006",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:53.683Z",
+      "assembly": {
+        "configHash": "8a78405a6dd589bdad7fb78f906bcc29053c2b1e38f0587cd4ecf1382c1b1feb",
+        "checkedAt": "2026-10-13T12:37:53.683Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/what-is-an-agent",
+      "sourceUrl": "https://www.aihero.dev/what-is-an-agent",
+      "sourceHash": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
+      "translationPath": "content/zh/what-is-an-agent.md",
+      "translationHash": "81ad23f66a99b7cd40ba3c465bb6a4d193f4e6f4c5c0d2c2d730f7bb458fceeb",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:54.148Z",
+      "assembly": {
+        "configHash": "d541991ed008379230ad175164d3adc049132302e1757e284fcdaaf590f6dc30",
+        "checkedAt": "2026-10-13T12:37:54.148Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-engineer-roadmap",
+      "sourceUrl": "https://www.aihero.dev/ai-engineer-roadmap",
+      "sourceHash": "32552be89fe5159b367e64dc20745e0caa30180b9b3293594e7aacf28a73ec19",
+      "translationPath": "content/zh/ai-engineer-roadmap.md",
+      "translationHash": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:12.956Z",
+      "assembly": {
+        "configHash": "aa2ecc27e9d08c57ee8dde8c64e619f98d8f0bc059f893a18c9f479d76306956",
+        "checkedAt": "2026-10-13T12:38:12.956Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/building-effective-agents",
+      "sourceUrl": "https://www.aihero.dev/building-effective-agents",
+      "sourceHash": "231bef3b6e950255bed02786be3334a5c6c68ba93d1be77de32738b16492c985",
+      "translationPath": "content/zh/building-effective-agents.md",
+      "translationHash": "5ce05ee6d2097318e648b7be94f0cf93a2e13c2438275eea11bc2490a0a27569",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:55.125Z",
+      "assembly": {
+        "configHash": "f273c87fc83e88311e687ae66b02fd5f1aa6caa25be65e36d092bb9b44dd18f8",
+        "checkedAt": "2026-10-13T12:37:55.125Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "sourceUrl": "https://www.aihero.dev/storm-generate-high-quality-articles-based-on-real-research",
+      "sourceHash": "63f9786655d89c28f733d241cfbb1452ad8f3c546760c36a63cd6e1316c9e1db",
+      "translationPath": "content/zh/storm-generate-high-quality-articles-based-on-real-research.md",
+      "translationHash": "f5f29c9f346eca8d316bc0b7382d131a8fa09410668a2492a8f464e2243cd4a4",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:55.507Z",
+      "assembly": {
+        "configHash": "645b562c851fff532833d010fe303ac560b202da11ad537beb837e419bf2fef1",
+        "checkedAt": "2026-10-13T12:37:55.507Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/the-ai-engineer-mindset",
+      "sourceUrl": "https://www.aihero.dev/the-ai-engineer-mindset",
+      "sourceHash": "a38cc64310d21a913dac5ba1a74ce926de8e691ab59888a0638452c1d48ce8ac",
+      "translationPath": "content/zh/the-ai-engineer-mindset.md",
+      "translationHash": "cafb6b8d4ad4133b4791f2d21385ecfa4128962e4cd401e7607b645f2b6109db",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:56.010Z",
+      "assembly": {
+        "configHash": "a15e552c8b3209106061decdb98bec65532509572215c21f557a049360a9c8ee",
+        "checkedAt": "2026-10-13T12:37:56.010Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/the-prompt-report",
+      "sourceUrl": "https://www.aihero.dev/the-prompt-report",
+      "sourceHash": "1d14ac41bef2b6c45d7bcf8c20f49dd1e7f4cd0cd270fc05bee26dee66d985b6",
+      "translationPath": "content/zh/the-prompt-report.md",
+      "translationHash": "e22eaa86066cf47b5c8269478962da8176444511292767120794605517f5b5d3",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:56.438Z",
+      "assembly": {
+        "configHash": "a1926bd959caf72571399228cba616a53d4fb5c98de0f464796e446f9694178d",
+        "checkedAt": "2026-10-13T12:37:56.438Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/three-types-of-evals",
+      "sourceUrl": "https://www.aihero.dev/three-types-of-evals",
+      "sourceHash": "daed9213d7e4da9e384ec039e35080fe75ffeccd9f8d8a02860e3f0b7472d992",
+      "translationPath": "content/zh/three-types-of-evals.md",
+      "translationHash": "38579d6eed8a95d702e79a8871aab78b62a6a4bd58ef320481398b8d3b19eb7b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:56.914Z",
+      "assembly": {
+        "configHash": "63d2a1e629d6fffc1274f3cb1b7842bd9102823391fb9c1c2d7a1d225e568ed6",
+        "checkedAt": "2026-10-13T12:37:56.914Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/what-are-evals",
+      "sourceUrl": "https://www.aihero.dev/what-are-evals",
+      "sourceHash": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
+      "translationPath": "content/zh/what-are-evals.md",
+      "translationHash": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:12.501Z",
+      "assembly": {
+        "configHash": "32353d7c146f637ed368d10f4d61cb4d4ca04092969be7de282f1999baf30b86",
+        "checkedAt": "2026-10-13T12:38:12.501Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/what-is-an-ai-engineer",
+      "sourceUrl": "https://www.aihero.dev/what-is-an-ai-engineer",
+      "sourceHash": "77b72306faee34d21bef05d7f0ecb6b3cc4a4a015a7a84e4a62e721eac0b6484",
+      "translationPath": "content/zh/what-is-an-ai-engineer.md",
+      "translationHash": "f9cccdd3fc4d0bdf75404cfb90e92323e755f8791c98bbf10d8f81f378ba833e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:57.922Z",
+      "assembly": {
+        "configHash": "05cfb5605aca47cc7fa385127b5fe5c52448716a4b34f7020fa93dd177a0250d",
+        "checkedAt": "2026-10-13T12:37:57.922Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/generate-text-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/generate-text-with-vercel-ai-sdk",
+      "sourceHash": "ffb189c870c13f28284adc1898731ac1280cc663c8202a368ad6db94922341ea",
+      "translationPath": "content/zh/generate-text-with-vercel-ai-sdk.md",
+      "translationHash": "efbcbe5f795191c368068df43b0b6b230212014b2860305cfc47bee294320c06",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:58.389Z",
+      "assembly": {
+        "configHash": "a64509603a32a282645fefdb17f02520cb642899c397b197b661379382a10925",
+        "checkedAt": "2026-10-13T12:37:58.389Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/streaming-text-with-vercel-ai-sdk",
+      "sourceHash": "b7be79753832f1d6087f99f18cee294aff7541ddf54407e1c087d1f437a334cf",
+      "translationPath": "content/zh/streaming-text-with-vercel-ai-sdk.md",
+      "translationHash": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:11.950Z",
+      "assembly": {
+        "configHash": "6e2537332e08aa1007ff4170a093992b53d44ff9f9e748319b6cf38a94f72703",
+        "checkedAt": "2026-10-13T12:38:11.950Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/swap-ai-models-with-vercel-ai-sdk",
+      "sourceHash": "aac3e780421568244954473c45d09d24ba5acd4f4dbcd63a3937aede0a1e89b4",
+      "translationPath": "content/zh/swap-ai-models-with-vercel-ai-sdk.md",
+      "translationHash": "971ab2c8677e624acfdbee607f50e6a15cb6fd1fd661a8ca400794a20cfced7a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:37:59.821Z",
+      "assembly": {
+        "configHash": "292eb0644baedf0ddf84c772b7a03738450849f462897c28fa15650ecc1bc7ae",
+        "checkedAt": "2026-10-13T12:37:59.821Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/system-prompts-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/system-prompts-with-vercel-ai-sdk",
+      "sourceHash": "04ce96d05f56845bc10365c233094b95ebc9fd237d25dc5631042bc712b17c8f",
+      "translationPath": "content/zh/system-prompts-with-vercel-ai-sdk.md",
+      "translationHash": "98ae9e5576b442883f073dfdc1fa99cd87ab857affef849dd178cb435376c592",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:00.250Z",
+      "assembly": {
+        "configHash": "716aaff3dc812847f09e3d47fdf7c8b5e343b169ab3a81e74542022bce62437b",
+        "checkedAt": "2026-10-13T12:38:00.250Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "sourceUrl": "https://www.aihero.dev/vercel-ai-sdk-tutorial",
+      "sourceHash": "8f6395c1abdb055ef0c11102cf0363582a69f1439baef4e91ca29e358b3545e7",
+      "translationPath": "content/zh/vercel-ai-sdk-tutorial.md",
+      "translationHash": "5ac4b8d2978128fa71304222dbbd3410dbcbf0d5d999d0172121052bdcd432b5",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:00.677Z",
+      "assembly": {
+        "configHash": "cb8c3805cb4810cd7d02eed2bc682777d8021493edab404b51827ab2e55566e8",
+        "checkedAt": "2026-10-13T12:38:00.677Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/vercel-ai-sdk",
+      "sourceHash": "9308ba148cf300569b21c782c6682fd9f38228470e38f3932cb7a18de907a674",
+      "translationPath": "content/zh/vercel-ai-sdk.md",
+      "translationHash": "1ef05776dea15bb2d16c958e952a7755adb2be4cc3e23d12e47d280a05440dbc",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:01.126Z",
+      "assembly": {
+        "configHash": "93ea04abcdac203189a5825de9ab7c1d18b64fd37635d96d89323f01d113d3fb",
+        "checkedAt": "2026-10-13T12:38:01.126Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/what-is-the-ai-sdk",
+      "sourceHash": "860e5626279ac355abdcbf46c85c6c1a495441fd723493cb1c5b4502c3141605",
+      "translationPath": "content/zh/what-is-the-ai-sdk.md",
+      "translationHash": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:08:00.356Z",
+      "assembly": {
+        "configHash": "67a01d265998d110f47c2a59e2d2194bc0874e150bf890c091fb5e5d6d20ebdc",
+        "checkedAt": "2026-10-13T13:08:00.356Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/describe-images-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/describe-images-with-vercel-ai-sdk",
+      "sourceHash": "daa614dfa0c260f4b44036479d4ebb02a6c039b2ad39708e419886e31b043bdc",
+      "translationPath": "content/zh/describe-images-with-vercel-ai-sdk.md",
+      "translationHash": "e5f7633b3e95ecc9def83e95f2b097dcfb2e98e7e17847e13af1ab20b7aca652",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:02.046Z",
+      "assembly": {
+        "configHash": "abb42eb312123929258fcc7cf69e3007fbf0758429a301699cd5f3866dd0019a",
+        "checkedAt": "2026-10-13T12:38:02.046Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/generate-arrays-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/generate-arrays-with-vercel-ai-sdk",
+      "sourceHash": "c3ac3c7136777d4e6573c9587f5cd82de115195ea122e2b2f33713c120660a98",
+      "translationPath": "content/zh/generate-arrays-with-vercel-ai-sdk.md",
+      "translationHash": "fabd04c397b92f771a2d7c08bb5e02741954c0146a3ac680a7405171eb2d57a1",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:02.466Z",
+      "assembly": {
+        "configHash": "b9a3fa10114ac6db1617b85736bb36f7fb6bbb93c22261149fefef2bdfb77926",
+        "checkedAt": "2026-10-13T12:38:02.466Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/generate-enums-with-vercel-ai-sdk",
+      "sourceHash": "7d3dc4f00dc9f39f779d6c80e87c4acf108d5039afb3338fca028a002d4206b1",
+      "translationPath": "content/zh/generate-enums-with-vercel-ai-sdk.md",
+      "translationHash": "568201c264b205b55718c75614b38720ea5b37dca22497c6876769af845b4473",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:02.896Z",
+      "assembly": {
+        "configHash": "ce632294afc2724e18218fbc97797d1c6d24b05502a0e7c3785e06108aff5a41",
+        "checkedAt": "2026-10-13T12:38:02.896Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/streaming-objects-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/streaming-objects-with-vercel-ai-sdk",
+      "sourceHash": "7759ded9ab743adaa00ed456bb6fddd55e7eaffedc19ab7ab68c79dbbe06a22c",
+      "translationPath": "content/zh/streaming-objects-with-vercel-ai-sdk.md",
+      "translationHash": "bd42b6716c10bac8a0c4f54bbc9f2416e23424ff0ad6de93b1e5a69ea6225f19",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:03.319Z",
+      "assembly": {
+        "configHash": "d38643bcea9464f4c1c4352557d992ff7e899a36758c2edc33b6d0f3b8c292eb",
+        "checkedAt": "2026-10-13T12:38:03.319Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/structured-outputs-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/structured-outputs-with-vercel-ai-sdk",
+      "sourceHash": "57ffed296127324536388a2b4f0987dac992962eb8b98cc8399799592c417b10",
+      "translationPath": "content/zh/structured-outputs-with-vercel-ai-sdk.md",
+      "translationHash": "cc31ab2700f602e27ecbdc30eccd5eea9e704ae5a9e2919daa5cfaa257e35d5a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:03.816Z",
+      "assembly": {
+        "configHash": "b07342d2a90b0c570f454b4b3eb3ba2ca0a8c82ec1eb1d3d8ac4f9448c1ac51a",
+        "checkedAt": "2026-10-13T12:38:03.816Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/tool-calls-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/tool-calls-with-vercel-ai-sdk",
+      "sourceHash": "4dd330bad3247eba4e575ef4298da6b8fa3c577490c53fc8d1aae35d3c7926d0",
+      "translationPath": "content/zh/tool-calls-with-vercel-ai-sdk.md",
+      "translationHash": "938a34e68735f5a6e2ea87dafe0b2d8361874a118a1a74e9e8f2c157b2533bc4",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:04.323Z",
+      "assembly": {
+        "configHash": "60c67820ee50840de7223449e3c5a297ebf5bf9e725628cd1a18c017ab4944c4",
+        "checkedAt": "2026-10-13T12:38:04.323Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/agents-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/agents-with-vercel-ai-sdk",
+      "sourceHash": "9e004adff22f10204d7f6439510872e0490888d1363426a013cd8457395014c1",
+      "translationPath": "content/zh/agents-with-vercel-ai-sdk.md",
+      "translationHash": "847e8de8d3bcd998dd94153d104112f7c717fb1634e6d75277f689c55c519222",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:04.886Z",
+      "assembly": {
+        "configHash": "04b30783f8f5b98539dfefb201712be5f7d0766b5ade4ceee4f5c41b45834e24",
+        "checkedAt": "2026-10-13T12:38:04.886Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/create-embeddings-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/create-embeddings-with-vercel-ai-sdk",
+      "sourceHash": "1c9f4d39abbacb0ea4b57cab0d1aa3997ff33d722a93c55af33e9a5330fa08d0",
+      "translationPath": "content/zh/create-embeddings-with-vercel-ai-sdk.md",
+      "translationHash": "346d21f2db7f47ec9ca64d78420e51a9b1e438e88d0a76418cfc60cf7cc61a0f",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:05.367Z",
+      "assembly": {
+        "configHash": "45db96679969a0b3a034c5390d2fe80ad31b32a46380a6372b1258302ed22a6e",
+        "checkedAt": "2026-10-13T12:38:05.367Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/implementing-anthropics-think-tool-in-typescript",
+      "sourceUrl": "https://www.aihero.dev/implementing-anthropics-think-tool-in-typescript",
+      "sourceHash": "a854a81f6be2e647cb0140560a2e4e197094fb272c83133b111488d58a65bd4f",
+      "translationPath": "content/zh/implementing-anthropics-think-tool-in-typescript.md",
+      "translationHash": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:11.466Z",
+      "assembly": {
+        "configHash": "500c67be71c4b127c7ef1e47acfd3d6a3ca7ad60d86aaff3477fc23224464996",
+        "checkedAt": "2026-10-13T12:38:11.466Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "sourceHash": "ee57548775269cf7d533ea7b81c1f11dea24ee991d2d33f808174bb5bd8e1f4c",
+      "translationPath": "content/zh/streaming-in-next-question-suggestions-with-the-ai-sdk.md",
+      "translationHash": "b432198df9c4b14ea9650e92872cf954fc232fc8a42c031fca912f438a3e3f0d",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:06.392Z",
+      "assembly": {
+        "configHash": "7c068a5b2117542b3ea90db1ebb9cc35a73c7212744ed36a4d16039922aea94a",
+        "checkedAt": "2026-10-13T12:38:06.392Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/use-local-models-with-vercel-ai-sdk",
+      "sourceUrl": "https://www.aihero.dev/use-local-models-with-vercel-ai-sdk",
+      "sourceHash": "d3ee1fa746d5efb78938ca0539547b3ecf8db1fbfd0a5431f68620868d809b40",
+      "translationPath": "content/zh/use-local-models-with-vercel-ai-sdk.md",
+      "translationHash": "95e2cc953ba638f9117410ff649dbd1ade87877919753449b0656d129dc3c554",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:06.804Z",
+      "assembly": {
+        "configHash": "f1d3afa78004264233c7d3d06d04c1345fff8545927803f5f7ab4a1e8dca620d",
+        "checkedAt": "2026-10-13T12:38:06.804Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/vercel-ai-sdk-messages-array",
+      "sourceUrl": "https://www.aihero.dev/vercel-ai-sdk-messages-array",
+      "sourceHash": "73638ad959ce7e2179ac53ba3359e7fd62bba68424239e38bc0c6773596bab96",
+      "translationPath": "content/zh/vercel-ai-sdk-messages-array.md",
+      "translationHash": "1fcd69e0fb88b7f08e13a8356a8365f520927e21e39c774a193341e0ffa107a9",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:07.339Z",
+      "assembly": {
+        "configHash": "c69c51b45cd65e32d0c2c35ab4499aa5a85688fe8740a91ad1b11c9093c2720f",
+        "checkedAt": "2026-10-13T12:38:07.339Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "sourceUrl": "https://www.aihero.dev/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "sourceHash": "f5c7c3b1930d5c9ae4af3048ad4c787b9ccd9913ed5d4310ee0b13a8e0b6b1f6",
+      "translationPath": "content/zh/2025-the-year-building-with-gen-ais-gets-boring~d53hd.md",
+      "translationHash": "25461d617ac01914fa27ace477c3a0c07b5cf35c03ff04d034eb5fbeb6a42085",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:07.780Z",
+      "assembly": {
+        "configHash": "599f413a886bd1ce4ca91c53e6a6607f1bf6073f4567b2f3d422356d37019a52",
+        "checkedAt": "2026-10-13T12:38:07.780Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/evalite-an-early-preview",
+      "sourceUrl": "https://www.aihero.dev/evalite-an-early-preview",
+      "sourceHash": "ae3226b9243b252a992143d399e7d27b4eec4ddc0e1f0aaeed720d4d076417da",
+      "translationPath": "content/zh/evalite-an-early-preview.md",
+      "translationHash": "9d74e3cb9de0221318a08d001e170a3fe8a5f055e094cb44848fd083d35ade18",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:13.454Z",
+      "assembly": {
+        "configHash": "47e86cddee81d7e6d0b61ee21a5b8b71173d95d54ae64f8c643613c35cb0cfc7",
+        "checkedAt": "2026-10-13T12:38:13.454Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/evalite-v1-preview",
+      "sourceUrl": "https://www.aihero.dev/evalite-v1-preview",
+      "sourceHash": "04424e7ff64a038df7cd73e3c57dee01fbaf4619c848aaaf6afd8f7362fcaf68",
+      "translationPath": "content/zh/evalite-v1-preview.md",
+      "translationHash": "eceab41967b6c9c4e4b84a4d4bca70610b6c67bfa8af4bd395cb801f3e896cfc",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:08.691Z",
+      "assembly": {
+        "configHash": "2de71a36d785c8ae3870ef7c872adc7f8345b2d4e3f9cab2c8bbb2db0ca8c1b8",
+        "checkedAt": "2026-10-13T12:38:08.691Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/google-agents-whitepaper-review",
+      "sourceUrl": "https://www.aihero.dev/google-agents-whitepaper-review",
+      "sourceHash": "569198702f52ca381d64e9f611feee8294585f6ebe087802f1ea9e6f52b73a8f",
+      "translationPath": "content/zh/google-agents-whitepaper-review.md",
+      "translationHash": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:14.009Z",
+      "assembly": {
+        "configHash": "52b08539c73ddcbde0aa4f2b398ebe4744d60e0ca941cac896a7f40b90504886",
+        "checkedAt": "2026-10-13T12:38:14.009Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "sourceUrl": "https://www.aihero.dev/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "sourceHash": "e72a837798d7079016531aea98e8b27b2ae0d7cc3e5b2e74ada212b2dfcabaee",
+      "translationPath": "content/zh/personal-software-is-insane-in-the-age-of-ai-u2hx2.md",
+      "translationHash": "fc7017f1939b17c4010116206b793478d0a84ef450853a8c669f199690be6e3b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:09.563Z",
+      "assembly": {
+        "configHash": "9b4285f562b9769628ea0061d00f467f1b200f01c556591bd1403022d5387d5c",
+        "checkedAt": "2026-10-13T12:38:09.563Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/securing-your-ai-app-with-guardrails",
+      "sourceUrl": "https://www.aihero.dev/securing-your-ai-app-with-guardrails",
+      "sourceHash": "7d76671b274c9f430d66f8afc9e2c51f40247d3e77120b08245b8e6432c3c212",
+      "translationPath": "content/zh/securing-your-ai-app-with-guardrails.md",
+      "translationHash": "66cdeb9aa8e48e54505f2ae0592f75306248637a3b0d76edd935153436f98f63",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:38:10.002Z",
+      "assembly": {
+        "configHash": "d919ceb18be90b383afd18fc35a145af894a4cf724bf6be87dadc4749329e935",
+        "checkedAt": "2026-10-13T12:38:10.002Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sourceUrl": "https://www.aihero.dev/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sourceHash": "dff4f6aa67744c44986049e875369fae8501389676d4e005dafc85db057890b4",
+      "translationPath": "content/zh/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "translationHash": "9e0bddfa4a5084074677dd9e87f58194d62c18ad6db338b519e7ecc076741a91",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:43.546Z",
+      "assembly": {
+        "configHash": "a87d17bc9912e32ac6c81c823247980610cf23670626735ea25a49fe25fc94b2",
+        "checkedAt": "2026-10-13T13:02:43.546Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+      "translationPath": "content/zh/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:43.008Z",
+      "assembly": {
+        "configHash": "b4a2dbef223d0513efca4d0ce7e3dfeab4c1ae40f2035544a2fca0b2db7148d1",
+        "checkedAt": "2026-10-13T13:02:43.008Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sourceUrl": "https://www.aihero.dev/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sourceHash": "7d7b01efd489d56ac7fc3e2fbb7ef4a85ced5fa3343ef13c23cef4fab1055c30",
+      "translationPath": "content/zh/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "translationHash": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:38.471Z",
+      "assembly": {
+        "configHash": "33dcf7012064fb1f52a1c2c76ab214c68a1eff48f337538f4b6f647bff574482",
+        "checkedAt": "2026-10-13T13:02:38.471Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sourceHash": "8f5dd02a02e0f99c1764faeeadee072c5b492794819cc1cfe575d21f4761d9d0",
+      "translationPath": "content/zh/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "translationHash": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:38.994Z",
+      "assembly": {
+        "configHash": "3321bf2961d94429dfc28b63d68bc4874c568ddd0751264f03f2e806d02a20fa",
+        "checkedAt": "2026-10-13T13:02:38.994Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-prototype",
+      "sourceUrl": "https://www.aihero.dev/skills-prototype",
+      "sourceHash": "2bb059ffc469453c3d98f9f04c1c3928bd020ac999709e20c86df88a95c5e821",
+      "translationPath": "content/zh/skills-prototype.md",
+      "translationHash": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:37.369Z",
+      "assembly": {
+        "configHash": "39e008e2dce29691f6ec3a85dacd403f4e5d24bdf669574c9957b3b116304f62",
+        "checkedAt": "2026-10-13T13:02:37.369Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-tdd",
+      "sourceUrl": "https://www.aihero.dev/skills-tdd",
+      "sourceHash": "a58850bf7c649639f9bfec97451f07cb8bef87bcefd87d6b0afbfc20e8ed5c08",
+      "translationPath": "content/zh/skills-tdd.md",
+      "translationHash": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:37.928Z",
+      "assembly": {
+        "configHash": "6e997f48547ce14414617999711469e5047dc35a3649f4c6610ece7fffe1342a",
+        "checkedAt": "2026-10-13T13:02:37.928Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-grill-with-docs",
+      "sourceUrl": "https://www.aihero.dev/skills-grill-with-docs",
+      "sourceHash": "7d562414cab61c24ebfed9382dcb18844240e3f30760ef7c3e4865fcff0f1a90",
+      "translationPath": "content/zh/skills-grill-with-docs.md",
+      "translationHash": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:41.295Z",
+      "assembly": {
+        "configHash": "042dbf35b439790fdee66c6b3139fef80300898527b350a655b2184e14099421",
+        "checkedAt": "2026-10-13T13:02:41.295Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "sourceUrl": "https://www.aihero.dev/skills-improve-codebase-architecture",
+      "sourceHash": "5215a048953e975ddf53527ed489c4d395ef8fc1558ac005f37f80175e90b6d0",
+      "translationPath": "content/zh/skills-improve-codebase-architecture.md",
+      "translationHash": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:41.875Z",
+      "assembly": {
+        "configHash": "1e846de097b9828174b96cb7e4cec454d3eec2821baddff782ff19dc0d04f836",
+        "checkedAt": "2026-10-13T13:02:41.875Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-teach",
+      "sourceUrl": "https://www.aihero.dev/skills-teach",
+      "sourceHash": "9e15a9c39bccc9bf6ed72085209828712df422d9087aaccc2490fada45c2f71c",
+      "translationPath": "content/zh/skills-teach.md",
+      "translationHash": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:40.099Z",
+      "assembly": {
+        "configHash": "54fd79c65a82218a82a1211197a9ef51a21e5e23b0e34adc3f81e746fe059422",
+        "checkedAt": "2026-10-13T13:02:40.099Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-wizard",
+      "sourceUrl": "https://www.aihero.dev/skills-wizard",
+      "sourceHash": "29ed23c37badfd031173fb113491a8698884d9729aea053518c18ca2694aa8fa",
+      "translationPath": "content/zh/skills-wizard.md",
+      "translationHash": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:40.637Z",
+      "assembly": {
+        "configHash": "0c2a634fd73349009b53746fc1c3bad5b149196bb0b1a8420b020b55ed6e0393",
+        "checkedAt": "2026-10-13T13:02:40.637Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-triage",
+      "sourceUrl": "https://www.aihero.dev/skills-triage",
+      "sourceHash": "52c5c6b3c93fd68b00abfc0f22e51f138afc532852a73ca0122a08addbdd8730",
+      "translationPath": "content/zh/skills-triage.md",
+      "translationHash": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:44.636Z",
+      "assembly": {
+        "configHash": "abb797a304f9478bc6462bb05ee524b037242c8dfef930afb5a4234fd6056baa",
+        "checkedAt": "2026-10-13T13:02:44.636Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills-wayfinder",
+      "sourceUrl": "https://www.aihero.dev/skills-wayfinder",
+      "sourceHash": "b9233cc9fd083cf57da8c98c12179a9da92c005c3153f181782cc69f8b10e793",
+      "translationPath": "content/zh/skills-wayfinder.md",
+      "translationHash": "98ed068575ccbd2f102864f2e1d42c809af0eeb17f30c1a5cbf376144f4eba48",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:42.459Z",
+      "assembly": {
+        "configHash": "c238992b98ffed5142a5a158f98faaa7cc534dd6454255b0af45fd681f1fc7ef",
+        "checkedAt": "2026-10-13T13:02:42.459Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v1-announcement",
+      "sourceHash": "c143f5999fd0b1e9dbcf0c9c9df0b9cb8a15731acc400fdaf2786f05de2b24b1",
+      "translationPath": "content/zh/skills/skills-changelog-v1-announcement.md",
+      "translationHash": "eaeb12cd6b9faa60f1fb603f85ae12bd6e4b7224753a1a5223362241fbf70607",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:44.081Z",
+      "assembly": {
+        "configHash": "b874171b1fc9bff752a719f3749aec10eddda6c91f4c9d42fbaebf978ed12f60",
+        "checkedAt": "2026-10-13T13:02:44.081Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+      "translationPath": "content/zh/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+      "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:45.224Z",
+      "assembly": {
+        "configHash": "db45d671bf8cc81056be585f5b59878beb57b74d1c883efc9339970f1cd532f2",
+        "checkedAt": "2026-10-13T13:02:45.224Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+      "translationPath": "content/zh/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+      "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:02:39.572Z",
+      "assembly": {
+        "configHash": "c62293ee6b0b2835406de1f2bf09648522a14d2368c7f98d0ff8bc7054a20c8a",
+        "checkedAt": "2026-10-13T13:02:39.572Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/how-to-improve-your-llm-powered-app",
+      "sourceUrl": "https://www.aihero.dev/how-to-improve-your-llm-powered-app",
+      "sourceHash": "638af6b5b111de1fa8219209d191a708a37eb67bb3e38efca0008c3a60c61f80",
+      "translationPath": "content/zh/how-to-improve-your-llm-powered-app.md",
+      "translationHash": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:08:05.407Z",
+      "assembly": {
+        "configHash": "5f534b5c3d72afeb733320fb53ebcb19822b258598bf0fc3d4f42855fdd4f0ca",
+        "checkedAt": "2026-10-13T13:08:05.407Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/connect-claude-code-to-github",
+      "sourceUrl": "https://www.aihero.dev/connect-claude-code-to-github",
+      "sourceHash": "19af8b59a3fa6e1ea8578c13b34f32c41c58cd6d4d6f4211356840cc05ebc929",
+      "translationPath": "content/zh/connect-claude-code-to-github.md",
+      "translationHash": "15c0deb6be8f103a2b1afdcf63e77bf6498fb9d12f9581ec72137d44c1eab053",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:04:27.325Z",
+      "assembly": {
+        "configHash": "3ee24bf58fd6c338e68b096a145745f722f043337078b710f3af3327aa335e3f",
+        "checkedAt": "2026-10-13T13:04:27.325Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "sourceUrl": "https://www.aihero.dev/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "sourceHash": "a40c2bb8ea0b2642d26f46d1263d8b42f69060efeabd09f7b61b77af5169b75f",
+      "translationPath": "content/zh/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+      "translationHash": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:54.432Z",
+      "assembly": {
+        "configHash": "890321d620904d1b66d1c5d0681ab2aaff1f3ec4c22c24b3b02c6a24f1f28ed4",
+        "checkedAt": "2026-10-13T13:07:54.432Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/how-to-make-codebases-ai-agents-love",
+      "sourceUrl": "https://www.aihero.dev/how-to-make-codebases-ai-agents-love",
+      "sourceHash": "40a7ff2177718517f985097be09c6ea0be58f54b2d0b7eccdb10009edcbad2a7",
+      "translationPath": "content/zh/how-to-make-codebases-ai-agents-love.md",
+      "translationHash": "7e5a3b8105bf097b71431b3f0950fff11f6292970f68ea60985b2ed8a6a8cd33",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:55.535Z",
+      "assembly": {
+        "configHash": "2208be9e32bd2a1c45c4ab7a779dcc24c2787feff9b3cdb05012a33720a6bd1a",
+        "checkedAt": "2026-10-13T13:07:55.535Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "sourceUrl": "https://www.aihero.dev/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "sourceHash": "fff11ed5db1e28bed540a1014770565b9bc19fc11894e5976de922a9cce0bdaf",
+      "translationPath": "content/zh/how-to-use-claude-code-hooks-to-enforce-the-right-cli.md",
+      "translationHash": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:04:28.784Z",
+      "assembly": {
+        "configHash": "21f839f6ccdc1f55b22276267253a63daebce25ddc035138fcece016f1be526e",
+        "checkedAt": "2026-10-13T13:04:28.784Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+      "sourceUrl": "https://www.aihero.dev/my-agents-md-file-for-building-plans-you-actually-read",
+      "sourceHash": "205716a0696332278a24c19c46539f26559bd3589c3835bfae83f52885b31693",
+      "translationPath": "content/zh/my-agents-md-file-for-building-plans-you-actually-read.md",
+      "translationHash": "a3ea323132daa07be646f4a6807739a548b12fd693262d2e2569534544d02e30",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:04:29.246Z",
+      "assembly": {
+        "configHash": "975622d2d9f8a722acf7836b0e171d61e02f4c14c3da08c564e1ca3238d7ad34",
+        "checkedAt": "2026-10-13T13:04:29.246Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "sourceUrl": "https://www.aihero.dev/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "sourceHash": "d6b944eb7ebee0bf5bda5267f7cd7f7ca5db44f7b1baa7315d467e75dd1a5a87",
+      "translationPath": "content/zh/this-hook-stops-claude-code-running-dangerous-git-commands.md",
+      "translationHash": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:55.017Z",
+      "assembly": {
+        "configHash": "2c0bf8d9b643730c651669e4f01d12fcce060f94966953cfd1c6886ab0d837fb",
+        "checkedAt": "2026-10-13T13:07:55.017Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/creating-the-perfect-claude-code-status-line",
+      "sourceUrl": "https://www.aihero.dev/creating-the-perfect-claude-code-status-line",
+      "sourceHash": "f0d4b3e3484e695416f26c2f6fe9ebb3562891f350fc0d84d7b3eee615742ba4",
+      "translationPath": "content/zh/creating-the-perfect-claude-code-status-line.md",
+      "translationHash": "c4d73264cfec2f015da8bcb63f78adc3de79cd91b3039f614d833b9d68c6cea6",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:04:30.228Z",
+      "assembly": {
+        "configHash": "de6353f75dfbaabde827762b5d5463863775fc658142731d5925d3018230d8cd",
+        "checkedAt": "2026-10-13T13:04:30.228Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "sourceUrl": "https://www.aihero.dev/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "sourceHash": "1a5db35027068789365ec4ebffa3e451e37b3d9e5aef22ed2c4d55cabe3db4d6",
+      "translationPath": "content/zh/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+      "translationHash": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:08:04.677Z",
+      "assembly": {
+        "configHash": "4c07b0abe900a1c2e17675ab2e9d57c174f082924e4b86e9e9976a48e67f2905",
+        "checkedAt": "2026-10-13T13:08:04.677Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/never-run-claude-init",
+      "sourceUrl": "https://www.aihero.dev/never-run-claude-init",
+      "sourceHash": "8834ce41ac3d5bb27a9ceb4ccc89b7e690e20052fa2c2ebf5de3d2deadbb5e82",
+      "translationPath": "content/zh/never-run-claude-init.md",
+      "translationHash": "f79fd9a8e8f3985d66b4c05c0a0533e0d8c3ec5f734fca58046232320582e09d",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:04:31.280Z",
+      "assembly": {
+        "configHash": "959052bb40a2fc6983de0483eb7d80cdf5bcb6065bd94fe34e8cd36d035bfcde",
+        "checkedAt": "2026-10-13T13:04:31.280Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/real-world-feature-build-with-claude-code",
+      "sourceUrl": "https://www.aihero.dev/real-world-feature-build-with-claude-code",
+      "sourceHash": "d754b4f9de4b334c03a3b9704b333d5f1d610487703e487dbdab841a820f1cfc",
+      "translationPath": "content/zh/real-world-feature-build-with-claude-code.md",
+      "translationHash": "4e9c84ff5e367d8c2101004197cd86f40939a6f2824aa3c5d25c4a5797b930a8",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:04:31.736Z",
+      "assembly": {
+        "configHash": "25feee496c0db489977d8cace44475b6eb56a4f99da31092e3d4279eb52fd9f2",
+        "checkedAt": "2026-10-13T13:04:31.736Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/my-7-phases-of-ai-development",
+      "sourceUrl": "https://www.aihero.dev/my-7-phases-of-ai-development",
+      "sourceHash": "276360ca1eb6c2a68ab7889498ad2351d9c355620f510ce7a73f1dcb1c251e6d",
+      "translationPath": "content/zh/my-7-phases-of-ai-development.md",
+      "translationHash": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:57.263Z",
+      "assembly": {
+        "configHash": "f133ed210223babfdd14ccac1bf459eb5b6158ca0032434335192e83d9838eeb",
+        "checkedAt": "2026-10-13T13:07:57.263Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/my-claude-code-cohort-a-teaser",
+      "sourceUrl": "https://www.aihero.dev/my-claude-code-cohort-a-teaser",
+      "sourceHash": "b3eaacc416b712a5a3c39d98481113511f241a93a0fea931bbd37860f3a04d37",
+      "translationPath": "content/zh/my-claude-code-cohort-a-teaser.md",
+      "translationHash": "355b49e0ca5dd58b6cc838e10e0f9f4bababe81544fd65158051af234884d545",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:04:32.789Z",
+      "assembly": {
+        "configHash": "d353191eed1ec231a596a2eebb8d134d9cdddc7310a58c24bb97977058fa9af0",
+        "checkedAt": "2026-10-13T13:04:32.789Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/plan-mode-introduction",
+      "sourceUrl": "https://www.aihero.dev/plan-mode-introduction",
+      "sourceHash": "55118fc919229b82366301dd98f0ad9704b528fd1dc2af719ccc6348af81b7d3",
+      "translationPath": "content/zh/plan-mode-introduction.md",
+      "translationHash": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:56.671Z",
+      "assembly": {
+        "configHash": "7df37fd90604c986e03cef31c3bfa41e0bd8e9155598b24e3e1d7d0e21e9f369",
+        "checkedAt": "2026-10-13T13:07:56.671Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/tracer-bullets",
+      "sourceUrl": "https://www.aihero.dev/tracer-bullets",
+      "sourceHash": "9f19252ea92f8ce0232186eb07224670c9410b9c7fbbfc0bc7bcb12d4267ee57",
+      "translationPath": "content/zh/tracer-bullets.md",
+      "translationHash": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:56.086Z",
+      "assembly": {
+        "configHash": "fb8ceeeb0f15d7e46c8d3c502e457fa495fecd028ea0c17f878058aa234e71ea",
+        "checkedAt": "2026-10-13T13:07:56.086Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ways-ai-coding-has-rewired-my-brain",
+      "sourceUrl": "https://www.aihero.dev/ways-ai-coding-has-rewired-my-brain",
+      "sourceHash": "c2c308cd0fdadada333cff3518d313a5f6fa5fb349b60fc38816bca99f6a1b0b",
+      "translationPath": "content/zh/ways-ai-coding-has-rewired-my-brain.md",
+      "translationHash": "8203ac436a73d722dbb5ed631cd55e82071d48eb82e2c74869fecbc8b22f522b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:04:34.344Z",
+      "assembly": {
+        "configHash": "b36e430f27d43fb626656d6484930254909de459e26d81c704acfce6d5f7e3d4",
+        "checkedAt": "2026-10-13T13:04:34.344Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/learn-anything-with-my-teach-skill",
+      "sourceUrl": "https://www.aihero.dev/learn-anything-with-my-teach-skill",
+      "sourceHash": "55c64bc00a5b2704d8b2996c2fb268e9ab31bacde61fce090748e3c6df8b11a3",
+      "translationPath": "content/zh/learn-anything-with-my-teach-skill.md",
+      "translationHash": "1e721a8c2a59f034088be00cfe54e1b11292d389b77b811eebb34f157cdad7ad",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:04:35.498Z",
+      "assembly": {
+        "configHash": "6e59eee7f98653495d344a6079fd598695d9e81882c6e1ae3013ff1b7e517d61",
+        "checkedAt": "2026-10-13T13:04:35.498Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "sourceUrl": "https://www.aihero.dev/my-grill-me-skill-has-gone-viral",
+      "sourceHash": "c30f916e16afd14c70f12ae51f45d8faec6859f5aeb3325662ac78103365e8a5",
+      "translationPath": "content/zh/my-grill-me-skill-has-gone-viral.md",
+      "translationHash": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:08:04.153Z",
+      "assembly": {
+        "configHash": "056f023ede7b3bf9ebcd68032f5c1c9fa37ddc6df41a7ff8268195e7760fbd3d",
+        "checkedAt": "2026-10-13T13:08:04.153Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/skill-test-driven-development-claude-code",
+      "sourceUrl": "https://www.aihero.dev/skill-test-driven-development-claude-code",
+      "sourceHash": "2587e7691b7370e55f1bb3f5bf4c7874e080784d6d99a97d4c04245f61ac2232",
+      "translationPath": "content/zh/skill-test-driven-development-claude-code.md",
+      "translationHash": "cb73062f5f3b4835dd2fc1e91c3713066063fdc56ed5fe1514d9a9c3b2ad7a36",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:04:36.535Z",
+      "assembly": {
+        "configHash": "1da63e94eaeaff7e2eb44f6dc9c12a9a474f87d9a3223cee784d34dd2a77b0ba",
+        "checkedAt": "2026-10-13T13:04:36.535Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/burn-through-your-backlog-with-my-triage-skill",
+      "sourceUrl": "https://www.aihero.dev/burn-through-your-backlog-with-my-triage-skill",
+      "sourceHash": "62b670caa860ccda0ca82c683536c48c6969dccc89770da11d06f8d8fdf948de",
+      "translationPath": "content/zh/burn-through-your-backlog-with-my-triage-skill.md",
+      "translationHash": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:08:01.612Z",
+      "assembly": {
+        "configHash": "e92c6c8591ff35ca85e9133949115406be672e4a1106094ae288aa75ff13348f",
+        "checkedAt": "2026-10-13T13:08:01.612Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/grill-with-docs",
+      "sourceUrl": "https://www.aihero.dev/grill-with-docs",
+      "sourceHash": "b85b3ecda8bfc87b933be848c968dcaf22bbc5fbe75f34e37652bb22f0b2065e",
+      "translationPath": "content/zh/grill-with-docs.md",
+      "translationHash": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:08:02.245Z",
+      "assembly": {
+        "configHash": "d3e4bb5e3f0bb88ec4b8315f97b5bf1b3f91ba59377296e35aaa1dbaca402ab4",
+        "checkedAt": "2026-10-13T13:08:02.245Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sourceUrl": "https://www.aihero.dev/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "sourceHash": "438655d047ea192d772e9ca192cf522dcb01cd6c3b3a7a3f27a97c69b168ccb3",
+      "translationPath": "content/zh/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+      "translationHash": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:08:00.975Z",
+      "assembly": {
+        "configHash": "7417950d8c90e739382da86043a6a72e7421b35ae09ce368d9394c954a5f5e47",
+        "checkedAt": "2026-10-13T13:08:00.975Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/getting-started-with-ralph",
+      "sourceUrl": "https://www.aihero.dev/getting-started-with-ralph",
+      "sourceHash": "a4245d94257f1bd1dded562a619df5fd963c5cdc38590b6b027466f3a87fab13",
+      "translationPath": "content/zh/getting-started-with-ralph.md",
+      "translationHash": "654b5e428cf88d5fe1744c6490775a42f403fb6d55087d4be577caf50c1af24a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:58.418Z",
+      "assembly": {
+        "configHash": "834af3d6c9e18f5fd1eb0f1033a8ce1ba5eefd043a5d03879ea4f343b98089c3",
+        "checkedAt": "2026-10-13T13:07:58.418Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/workshops/ai-coding-crash-course",
+      "sourceUrl": "https://www.aihero.dev/workshops/ai-coding-crash-course",
+      "sourceHash": "813177b824466b4737d38095d4a1e69b89226bdd7809f5cea4fed0bac0314f93",
+      "translationPath": "content/zh/workshops/ai-coding-crash-course.md",
+      "translationHash": "4e91df276632f002d146e3686d9226b297ff8682bbb0db2ab961af3a34931c4d",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:13:30.599Z",
+      "assembly": {
+        "configHash": "c7e57db5457a4035d8ebeb20ebdaf7cd1cb50d6edf2b276fa2b855cbd9bab6c6",
+        "checkedAt": "2026-10-13T13:13:30.599Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "sourceUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course",
+      "sourceHash": "b643005004e2b1c97e7a7a37f36f1208d37c93264b82c685dc2eddc3950a2b4c",
+      "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course.md",
+      "translationHash": "766a728b31324c5ff191853786146b32fade0f98ad05fc09e638ec19cf3b153a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:13:31.165Z",
+      "assembly": {
+        "configHash": "e8c9853f0157d3b5ead2e5274f48366e8369068c260dee57158cb32213849d1b",
+        "checkedAt": "2026-10-13T13:13:31.165Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/",
+      "sourceUrl": "https://www.aihero.dev/",
+      "sourceHash": "3942208060725a8c24a3883fd703a9a975c65d0dc9cfc3ea14840001c83d4378",
+      "translationPath": "content/zh/home.md",
+      "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:19:27.728Z",
+      "assembly": {
+        "configHash": "668662ef16378bd42d1e1e6e55fc770d8492051d166a5765110ae96ac8c0fe5b",
+        "checkedAt": "2026-10-13T13:19:27.728Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/newsletter",
+      "sourceUrl": "https://www.aihero.dev/newsletter",
+      "sourceHash": "78254990f49b4c6626cb9c51b5195593ebce145071f8ee5970829f8ebe941f4d",
+      "translationPath": "content/zh/newsletter.md",
+      "translationHash": "7969aa22bd61af6379e0acf65e64f03a40a2dd9de69bcca6267301956e9c1bd1",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:13:32.311Z",
+      "assembly": {
+        "configHash": "4e5559d94f3da7e3f35aa36ee1e3e8f661cc0f9fa1368214db3c6345fe604247",
+        "checkedAt": "2026-10-13T13:13:32.311Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "sourceUrl": "https://www.aihero.dev/heres-how-to-stream-claude-code-with-afk-ralph",
+      "sourceHash": "8a75e0ba6738c7e18f3223d5cbcf26e21a1ad3b32795d4877f3ad8fbe3b501e9",
+      "translationPath": "content/zh/heres-how-to-stream-claude-code-with-afk-ralph.md",
+      "translationHash": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:57.811Z",
+      "assembly": {
+        "configHash": "ad0edac3c68b623b424eb94e4f61d650ddacbb036f2e9e5e82dba03e58c57e08",
+        "checkedAt": "2026-10-13T13:07:57.811Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/why-the-anthropic-ralph-plugin-sucks",
+      "sourceUrl": "https://www.aihero.dev/why-the-anthropic-ralph-plugin-sucks",
+      "sourceHash": "6ed9c1164a965fb931d345309e65cb0f8bbeff0cc7bb5d678a9d08108d6c55b4",
+      "translationPath": "content/zh/why-the-anthropic-ralph-plugin-sucks.md",
+      "translationHash": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T13:07:59.803Z",
+      "assembly": {
+        "configHash": "0681939ec327099638881e676fe9fd3cbd4bc9439abdd8347036910dae1b0f78",
+        "checkedAt": "2026-10-13T13:07:59.803Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
     }
   ]
 }

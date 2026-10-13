@@ -4,6 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { articleSections, firstGlossaryMatch, glossaryEntries, prepareArticle, splitGlossary } from '../lib/article-structure.ts';
 import { learningGlossary, learningKnowledge, learningProfile } from '../lib/article-learning.ts';
 import { articleLink } from '../lib/article-links.ts';
+import { assertOriginalBlocks } from './lib/page-content.mjs';
 
 const sha256 = (text) => createHash('sha256').update(text).digest('hex');
 const sources = new Map();
@@ -44,15 +45,18 @@ assert.equal(firstGlossaryMatch('系统提示词与提示词', promptTerms, new 
 const localRoutes = new Set(['/', '/ai-coding-dictionary/system-prompt']);
 assert.equal(articleLink('/ai-coding-dictionary/harness', localRoutes).href, 'https://www.aihero.dev/ai-coding-dictionary/harness');
 assert.equal(articleLink('/ai-coding-dictionary/harness', localRoutes).untranslated, true);
-assert.equal(articleLink('https://www.aihero.dev/ai-coding-dictionary/system-prompt', localRoutes).href, '/ai-coding-dictionary/system-prompt');
+assert.equal(articleLink('https://www.aihero.dev/ai-coding-dictionary/system-prompt', localRoutes).href, 'https://www.aihero.dev/ai-coding-dictionary/system-prompt');
 assert.equal(articleLink('/', localRoutes).href, '/');
 assert.equal(articleLink('#steps-to-complete', localRoutes).href, '#steps-to-complete');
 assert.equal(articleLink('https://ai-sdk.dev/docs/introduction', localRoutes).untranslated, false);
 assert.equal(prepareArticle('```md\n# Title\n```', 'Title').markdown, '```md\n# Title\n```');
 assert.deepEqual(prepareArticle('### 视频文字稿\n\n确有文字稿。', 'Title').emptySections, []);
+assert.deepEqual(prepareArticle('### 视频文字稿\n\n## 查看解答\n\n[解答](https://example.com)', 'Title'), {
+  markdown: '## 查看解答\n\n[解答](https://example.com)', emptySections: ['视频文字稿'],
+});
 
 const index = JSON.parse(await readFile('content/zh/index.json', 'utf8'));
-const fences = (markdown) => [...markdown.matchAll(/^[ \t]*```[^\n]*\n[\s\S]*?^[ \t]*```[ \t]*$/gm)].map((match) => match[0]);
+const manifest = JSON.parse(await readFile('content/zh/manifest.json', 'utf8'));
 const body = (markdown) => markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '').trim();
 const normalize = (text) => text.replaceAll('\r\n', '\n').trim();
 const reports = [];
@@ -67,12 +71,16 @@ for (const [route, profile] of Object.entries(learningKnowledge.pages)) {
   for (const id of profile.sourceIds) assert.ok(sources.has(id), `Unknown source: ${id}`);
   for (const id of profile.prerequisiteIds) assert.ok(profile.conceptIds.includes(id), `Prerequisite unavailable in glossary: ${id}`);
   const sourceId = profile.sourceIds.find((id) => id.endsWith('-source'));
-  const translationId = profile.sourceIds.find((id) => id.endsWith('-translation'));
+  const translationPath = manifest.pages.find((page) => page.route === route)?.translationPath;
+  const translationId = profile.sourceIds.find((id) => learningKnowledge.sources[id].path === translationPath)
+    ?? profile.sourceIds.find((id) => id.endsWith('-translation'));
+  assert.ok(translationId, `Translation source missing: ${route}`);
   const source = sources.get(sourceId);
   const translation = sources.get(translationId);
   assert.equal(normalize(page.markdown), normalize(body(translation)), `Indexed translation differs: ${route}`);
-  const expectedType = profile.kind === 'guide' ? 'post' : profile.kind;
-  assert.ok(source.includes(`type: "${expectedType}"`), `Content type mismatch: ${route}`);
+  const sourceType = source.match(/^type: [^\r\n]+/m)?.[0];
+  assert.ok(sourceType, `Source content type missing: ${route}`);
+  assert.equal(translation.match(/^type: [^\r\n]+/m)?.[0], sourceType, `Content type changed: ${route}`);
   const split = splitGlossary(page.markdown);
   const parsed = glossaryEntries(split.glossaryMarkdown);
   const glossary = learningGlossary(profile, parsed);
@@ -81,7 +89,7 @@ for (const [route, profile] of Object.entries(learningKnowledge.pages)) {
     for (const entry of glossary) assert.ok(entry.term && entry.definition && entry.aliases.length, `Incomplete page term: ${entry.id}`);
   }
   const article = prepareArticle(split.articleMarkdown, page.title);
-  assert.deepEqual(fences(article.markdown), fences(source), `Original code altered: ${route}`);
+  assertOriginalBlocks(source, article.markdown);
   assert.equal(new Set(glossary.map((item) => item.id)).size, glossary.length, `Duplicate glossary IDs: ${route}`);
   for (const link of profile.related) {
     if (link.href.startsWith('/')) assert.ok(index.pages[link.href], `Unavailable local related page: ${link.href}`);

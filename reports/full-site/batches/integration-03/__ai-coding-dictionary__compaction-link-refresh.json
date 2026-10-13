@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A10/configs/compaction.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/compaction",
+      "manifest": {
+        "route": "/ai-coding-dictionary/compaction",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/compaction",
+        "sourceHash": "fddd287107216dd4b1936c9f276da01188acdd91e67cec9386d70cae3b85c4f0",
+        "translationPath": "content/zh/ai-coding-dictionary/compaction.md",
+        "translationHash": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:36.398Z",
+        "assembly": {
+          "configHash": "1007d0838fa9874542d6f98ae61ba8b472266254f4368a11baa2eb94cc3e23b7",
+          "checkedAt": "2026-10-13T12:19:36.398Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/compaction.md",
+          "sha256": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "876e6389e754010795f7fb372dcf87c507268b37312235a300ccee3ec1b78278"
+        }
+      ],
+      "rawOutputSha256": "e5f04e33a29e1bc6f0cb439ea7c25302e2f7a2d27a792da4943aa287b9d4171a"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/compaction",
+      "manifest": {
+        "route": "/ai-coding-dictionary/compaction",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/compaction",
+        "sourceHash": "fddd287107216dd4b1936c9f276da01188acdd91e67cec9386d70cae3b85c4f0",
+        "translationPath": "content/zh/ai-coding-dictionary/compaction.md",
+        "translationHash": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:36.607Z",
+        "assembly": {
+          "configHash": "1007d0838fa9874542d6f98ae61ba8b472266254f4368a11baa2eb94cc3e23b7",
+          "checkedAt": "2026-10-13T12:19:36.607Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/compaction.md",
+          "sha256": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b62d2077c01cbeec66167ee10e34114d5a9c4472d4bca11a9852271a51a8fa0e"
+        }
+      ],
+      "rawOutputSha256": "600ea4615d708538494eca85b6bafc35952bdaca6452acfee6e197855f00c278"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

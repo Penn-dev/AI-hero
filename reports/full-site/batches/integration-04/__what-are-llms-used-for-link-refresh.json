@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-03/configs/what-are-llms-used-for.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/what-are-llms-used-for",
+      "manifest": {
+        "route": "/what-are-llms-used-for",
+        "sourceUrl": "https://www.aihero.dev/what-are-llms-used-for",
+        "sourceHash": "7596c6c7d39b9b2c24b7dd6ae66a05bbad002c19e572fa20711594078b53a4a0",
+        "translationPath": "content/zh/what-are-llms-used-for.md",
+        "translationHash": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:14.281Z",
+        "assembly": {
+          "configHash": "3a476f9193a2eafd415b7422b43ab267b3cadb1327510f514097d2767dfb983d",
+          "checkedAt": "2026-10-13T12:38:14.281Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-are-llms-used-for.md",
+          "sha256": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d557ce9b78c5e13643af4746dae51f28253dfcf555b612bbf9708baf138f5e43"
+        }
+      ],
+      "rawOutputSha256": "b82eb2602672ae5d660afa8d393b087937e07b6dc40106c8be679d9ccf7d03b4"
+    },
+    {
+      "mode": "apply",
+      "route": "/what-are-llms-used-for",
+      "manifest": {
+        "route": "/what-are-llms-used-for",
+        "sourceUrl": "https://www.aihero.dev/what-are-llms-used-for",
+        "sourceHash": "7596c6c7d39b9b2c24b7dd6ae66a05bbad002c19e572fa20711594078b53a4a0",
+        "translationPath": "content/zh/what-are-llms-used-for.md",
+        "translationHash": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:14.533Z",
+        "assembly": {
+          "configHash": "3a476f9193a2eafd415b7422b43ab267b3cadb1327510f514097d2767dfb983d",
+          "checkedAt": "2026-10-13T12:38:14.533Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-are-llms-used-for.md",
+          "sha256": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "68ce622facad44f8beb6b7f7ab3ed83b59ea5ad4eee2147a9c604837203a3285"
+        }
+      ],
+      "rawOutputSha256": "6a08bb29d46dd1427c6e8fbae87e5123f97197122208b017280272be7e69a4df"
+    }
+  ],
+  "nonTargetPagesPreserved": 150
+}

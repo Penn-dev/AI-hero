@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-10/configs/skills-domain-modeling.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-domain-modeling",
+      "manifest": {
+        "route": "/skills-domain-modeling",
+        "sourceUrl": "https://www.aihero.dev/skills-domain-modeling",
+        "sourceHash": "9bb43ffb7d51e3f9357442a54fa0f516da2d7009709f955504c7bfadd4d4fb62",
+        "translationPath": "content/zh/skills-domain-modeling.md",
+        "translationHash": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:33.953Z",
+        "assembly": {
+          "configHash": "df62ba0820de142e5c10b71b936161a33cb1f7c6bc778e0ba7b6c7395e1066b1",
+          "checkedAt": "2026-10-13T12:37:33.953Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-domain-modeling.md",
+          "sha256": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "f1e5cc5f31adccb9dce2cbc809fa0de4ffed8e26dfbea24f8ee3a897166a5cfb"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "5c8fc378387efe8df48f80c80374038968196bf35fdc42fc106693447ebb20ff"
+        }
+      ],
+      "rawOutputSha256": "767e166386ee3e3a1975a94ec01b981f75dff7247b150945b0c9452fb278858e"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-domain-modeling",
+      "manifest": {
+        "route": "/skills-domain-modeling",
+        "sourceUrl": "https://www.aihero.dev/skills-domain-modeling",
+        "sourceHash": "9bb43ffb7d51e3f9357442a54fa0f516da2d7009709f955504c7bfadd4d4fb62",
+        "translationPath": "content/zh/skills-domain-modeling.md",
+        "translationHash": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:34.253Z",
+        "assembly": {
+          "configHash": "df62ba0820de142e5c10b71b936161a33cb1f7c6bc778e0ba7b6c7395e1066b1",
+          "checkedAt": "2026-10-13T12:37:34.253Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-domain-modeling.md",
+          "sha256": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "f1e5cc5f31adccb9dce2cbc809fa0de4ffed8e26dfbea24f8ee3a897166a5cfb"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "95cc2acaded1e94d82f7a9de7c9cc303eed3aa89c6e481e98a80a67033909d3f"
+        }
+      ],
+      "rawOutputSha256": "69817ef11a52634a3889270d13a69e4d6e0430933d6d80f05575815306f74794"
+    }
+  ],
+  "nonTargetPagesPreserved": 106
+}

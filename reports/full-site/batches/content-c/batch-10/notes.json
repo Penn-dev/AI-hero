@@ -1,0 +1,16 @@
+{
+ "/skills-domain-modeling": {
+  "information": "全文逐节核对，保留主动过程、当场写词汇表、懒创建、ADR 三项全满足、只查代码及已提交文档、不查 tracker 等条件。固定来源的 GLOSSARY/映射命名问答自身重复矛盾，原样保留并明确译注，不擅自恢复旧名。",
+  "naturalChinese": "完整通读，术语词汇与实际建模的区别明确，保留作者质疑词汇表价值和一日任务可跳过的观点。",
+  "necessaryConcepts": "就近解释领域模型及两类文档，末尾补 session/context/spec 中文词条入口；没有把源文疑似错误写成正确操作指南。",
+  "codeAndLinks": "全部原行内技术值、两张表、资源 URL 保留；两条长 /grill-with-docs 英文 Prompt 逐字保留并紧邻完整可复制中文 Prompt；订单取消及用户引用附中文理解。",
+  "gaps": ["来源中的命名对比文本有相同名称重复，页面已明确说明，未猜测修复。", "中文导航登记 planned，工程按实际可用状态刷新；未实时核查外部 issue 状态。"]
+ },
+ "/skills-grilling": {
+  "information": "逐节核对设计树/frontier/轮次、事实与决定、最终用户确认、判断式依赖限制、外层入口区别及全部问答，保留不设问题上限、无异步模式、调用依赖漏载等边界。",
+  "naturalChinese": "通读全文，frontier 译作当前可提问范围，模型自行查事实与用户作决定严格区分，未把问题问完当作开始实现授权。",
+  "necessaryConcepts": "在确认条件旁作译注，末尾补 grilling/subagent/human-in-the-loop 中文词条；没有新增自定义调度机制。",
+  "codeAndLinks": "唯一原英文围栏、全部行内调用/符号和原 URL 保留；原围栏及 interview until shared understanding、run a /grilling session 两处英文指令均配完整可复制中文；编号回答例配中文理解。",
+  "gaps": ["没有执行追问或验证模型行为，中文导航先登记 planned，工程按实际可用状态刷新。"]
+ }
+}

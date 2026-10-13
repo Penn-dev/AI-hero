@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-05/configs/skills-ask-matt.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-ask-matt",
+      "manifest": {
+        "route": "/skills-ask-matt",
+        "sourceUrl": "https://www.aihero.dev/skills-ask-matt",
+        "sourceHash": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685",
+        "translationPath": "content/zh/skills-ask-matt.md",
+        "translationHash": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:28.467Z",
+        "assembly": {
+          "configHash": "b8998ade3676312b2bd911cee0353fcf8783ffd7f3e37c8ea823cab4624c222f",
+          "checkedAt": "2026-10-13T12:37:28.467Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/context-pointer",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-ask-matt.md",
+          "sha256": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e478c7888adbfea925a8d79c45ebe970a2a7b5ea41c627ed031bf0c622ee38db"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a4da9b34b91f7ff3ea4567dd07025fbd5c977fa06fcc90833b5d71d79d52b44a"
+        }
+      ],
+      "rawOutputSha256": "f9de2b0de4f26ddc4f06b1cd28af1520b7e03d24dd2e906470400c5f3b580820"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-ask-matt",
+      "manifest": {
+        "route": "/skills-ask-matt",
+        "sourceUrl": "https://www.aihero.dev/skills-ask-matt",
+        "sourceHash": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685",
+        "translationPath": "content/zh/skills-ask-matt.md",
+        "translationHash": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:28.735Z",
+        "assembly": {
+          "configHash": "b8998ade3676312b2bd911cee0353fcf8783ffd7f3e37c8ea823cab4624c222f",
+          "checkedAt": "2026-10-13T12:37:28.735Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/context-pointer",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-ask-matt.md",
+          "sha256": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e478c7888adbfea925a8d79c45ebe970a2a7b5ea41c627ed031bf0c622ee38db"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "835e498b3620309826fb4be5d6b6a1aa8a9147e3671b00fdcfdc981b5e7f0bd3"
+        }
+      ],
+      "rawOutputSha256": "d842b6f47120137dbe537de6c2704ef98b14c4d5fd3ddeb357573fe3a3aea24a"
+    }
+  ],
+  "nonTargetPagesPreserved": 96
+}

@@ -1,0 +1,74 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-prototype",
+      "sourcePath": "content/source/skills-prototype.md",
+      "sourceHash": "2bb059ffc469453c3d98f9f04c1c3928bd020ac999709e20c86df88a95c5e821",
+      "chineseFile": "reports/full-site/batches/content-c/batch-15/drafts/skills-prototype.md",
+      "translationHash": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对完整正文与全部问答，保留单一问题、两种产物、内存状态/无加固、原型分支永不入main、handoff往返、不能替代正式实现等约束。源description与正文删除/保留差异明确译注。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "全文通读，保持作者对范围和实验价值的直接语气，未把可丢弃等同必须销毁。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "解释状态模型、纯逻辑/DOM；补原型/第一手来源/上下文指针中文入口，译注声明来源元数据旧措辞。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "所有行内参数、分支、Skill标识和原 URL 保留。原英文反馈完整保留并配中文理解；源文无围栏代码或完整操作Prompt。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 16
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未创建或运行原型，未验证环境支持；导航 planned 待工程刷新。"
+      ]
+    },
+    {
+      "route": "/skills-tdd",
+      "sourcePath": "content/source/skills-tdd.md",
+      "sourceHash": "a58850bf7c649639f9bfec97451f07cb8bef87bcefd87d6b0afbfc20e8ed5c08",
+      "chineseFile": "reports/full-site/batches/content-c/batch-15/drafts/skills-tdd.md",
+      "translationHash": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对全部内容，保留先确认接缝、单测试红绿、不含重构、三反模式、只mock外部、不保证100%遵从、浏览器测试后置、无同级任务视野等边界。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，说明题述red-green-refactor与正文的差异，同义反复/耦合/纵向切片表达明确；保留作者对严格遵从的观点。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近解释 TDD/mock/接缝，并补自动检查/spec/stateless 中文入口。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "唯一流程围栏、全部行内命令/路径/技术值与原 URL 保留；原文对接缝和模型回答的英文引文及测试命名原例附完整中文理解。",
+          "originalFencedBlocks": 1,
+          "originalMarkdownResourceOccurrences": 25
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未执行测试、审阅或测量模型遵循率；导航 planned 待工程刷新。"
+      ]
+    }
+  ]
+}

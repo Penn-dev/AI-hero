@@ -1,0 +1,45 @@
+[
+  {
+    "action": "evaluate",
+    "args": {
+      "code": "(()=>{window.__sampleCopyErrors=[];window.addEventListener('unhandledrejection',e=>window.__sampleCopyErrors.push(String(e.reason)));const b=document.querySelector('button.copy-code');b.scrollIntoView({block:'center'});const r=b.getBoundingClientRect();return JSON.stringify({x:r.x+r.width/2,y:r.y+r.height/2})})()"
+    },
+    "checkedAt": "2026-10-13T05:09:20.088Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "type": "string",
+        "value": "{\"x\":867.5,\"y\":1167.03125}"
+      }
+    }
+  },
+  {
+    "action": "click",
+    "args": {
+      "selector": "@e130"
+    },
+    "checkedAt": "2026-10-13T05:09:20.144Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "success": true,
+        "tag": "BUTTON",
+        "text": "终端（terminal）"
+      }
+    }
+  },
+  {
+    "action": "evaluate",
+    "args": {
+      "code": "(()=>JSON.stringify({panel:document.querySelector('.desktop-glossary')?.textContent}))()"
+    },
+    "checkedAt": "2026-10-13T05:09:20.186Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "type": "string",
+        "value": "{\"panel\":\"查看全部术语终端（terminal）输入命令和查看程序输出的文字窗口。\"}"
+      }
+    }
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-11/configs/how-to-kill-the-bloat-in-claude-codes-system-prompt.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "manifest": {
+        "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+        "sourceUrl": "https://www.aihero.dev/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+        "sourceHash": "1a5db35027068789365ec4ebffa3e451e37b3d9e5aef22ed2c4d55cabe3db4d6",
+        "translationPath": "content/zh/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+        "translationHash": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:04.430Z",
+        "assembly": {
+          "configHash": "4c07b0abe900a1c2e17675ab2e9d57c174f082924e4b86e9e9976a48e67f2905",
+          "checkedAt": "2026-10-13T13:08:04.430Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+          "sha256": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "dc9bccfeca46a874f5d35d3ca4d564ba520329852c97f85afbbf4acd00cb01bc"
+        }
+      ],
+      "rawOutputSha256": "86a35cee6aa7ea93fe20c585e0830d212ec143c8d14bb24ea947ac20f1ae1b3e"
+    },
+    {
+      "mode": "apply",
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "manifest": {
+        "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+        "sourceUrl": "https://www.aihero.dev/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+        "sourceHash": "1a5db35027068789365ec4ebffa3e451e37b3d9e5aef22ed2c4d55cabe3db4d6",
+        "translationPath": "content/zh/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+        "translationHash": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:04.677Z",
+        "assembly": {
+          "configHash": "4c07b0abe900a1c2e17675ab2e9d57c174f082924e4b86e9e9976a48e67f2905",
+          "checkedAt": "2026-10-13T13:08:04.677Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+          "sha256": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b6f189d8a9dd16151846eae9e6bbd58b72fe2c554266d0b4e17e63048adb3169"
+        }
+      ],
+      "rawOutputSha256": "8d52449866850184de760cdc655f90e107eb33375c645f3b2180184b1f30ee5f"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

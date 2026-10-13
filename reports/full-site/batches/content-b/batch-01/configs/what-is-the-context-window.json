@@ -1,0 +1,9 @@
+{
+  "route": "/what-is-the-context-window",
+  "source": {
+    "path": "content/source/what-is-the-context-window.md",
+    "sha256": "c3a39f9c4b7a1506699965381ce08a0698ad3b277bbbf3991c2643f346841dd3"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-01/drafts/what-is-the-context-window.md",
+  "translationPath": "content/zh/what-is-the-context-window.md"
+}

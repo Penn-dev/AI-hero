@@ -1,0 +1,155 @@
+{
+  "config": "reports/full-site/samples/configs/system-prompt.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/system-prompt",
+      "manifest": {
+        "route": "/ai-coding-dictionary/system-prompt",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+        "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
+        "translationPath": "content/learning/system-prompt/article.md",
+        "translationHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:27.600Z",
+        "assembly": {
+          "configHash": "2b452bfafe2689170eaec2d9f41915d29ac86fd5853126de0e9ed2989570daff",
+          "checkedAt": "2026-10-13T11:56:27.600Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider-request",
+              "state": "planned-chinese",
+              "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+            },
+            {
+              "route": "/ai-coding-dictionary/turn",
+              "state": "planned-chinese",
+              "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+            },
+            {
+              "route": "/ai-coding-dictionary/input-tokens",
+              "state": "planned-chinese",
+              "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agents-md",
+              "state": "planned-chinese",
+              "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/learning/system-prompt/article.md",
+          "sha256": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "fd7fe3d2481662b9242f89c190e8f8370f945f4106516002b7e8cf6714ca9a17"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "679a0d4ff4c8e08640d1b335f8d25f80994e0b8f2c835195751f852022fd183d"
+        }
+      ],
+      "rawOutputSha256": "e700987751fc795777c498353c64a1d1914ccff599489e004baf5cfc20e67669"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/system-prompt",
+      "manifest": {
+        "route": "/ai-coding-dictionary/system-prompt",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+        "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
+        "translationPath": "content/learning/system-prompt/article.md",
+        "translationHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:27.797Z",
+        "assembly": {
+          "configHash": "2b452bfafe2689170eaec2d9f41915d29ac86fd5853126de0e9ed2989570daff",
+          "checkedAt": "2026-10-13T11:56:27.797Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider-request",
+              "state": "planned-chinese",
+              "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+            },
+            {
+              "route": "/ai-coding-dictionary/turn",
+              "state": "planned-chinese",
+              "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+            },
+            {
+              "route": "/ai-coding-dictionary/input-tokens",
+              "state": "planned-chinese",
+              "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agents-md",
+              "state": "planned-chinese",
+              "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/learning/system-prompt/article.md",
+          "sha256": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "fd7fe3d2481662b9242f89c190e8f8370f945f4106516002b7e8cf6714ca9a17"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8749d3b2870d3bf4a71ebb7857f808927f91375509a5e00e7ee09ed83aaf4a03"
+        }
+      ],
+      "rawOutputSha256": "67cb7eaa42d9ef74acdbf6fa565f69fd1ee7b1d0e902052c3ec41d73fd98c51b"
+    }
+  ],
+  "nonTargetPagesPreserved": 35
+}

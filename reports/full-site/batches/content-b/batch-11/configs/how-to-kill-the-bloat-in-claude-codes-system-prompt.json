@@ -1,0 +1,15 @@
+{
+  "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+  "source": {
+    "path": "content/source/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+    "sha256": "1a5db35027068789365ec4ebffa3e451e37b3d9e5aef22ed2c4d55cabe3db4d6"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-11/drafts/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+  "translationPath": "content/zh/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+  "linkTargets": [
+    {
+      "route": "/skills-setup-matt-pocock-skills",
+      "state": "available-chinese"
+    }
+  ]
+}

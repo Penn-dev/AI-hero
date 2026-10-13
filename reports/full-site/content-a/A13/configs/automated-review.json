@@ -1,0 +1,38 @@
+{
+  "route": "/ai-coding-dictionary/automated-review",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/automated-review.md",
+    "sha256": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b"
+  },
+  "chineseFile": "reports/full-site/content-a/A13/drafts/automated-review.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    }
+  ]
+}

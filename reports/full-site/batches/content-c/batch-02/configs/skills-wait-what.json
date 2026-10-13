@@ -1,0 +1,22 @@
+{
+  "route": "/skills-wait-what",
+  "source": {
+    "path": "content/source/skills-wait-what.md",
+    "sha256": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-02/drafts/skills-wait-what.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

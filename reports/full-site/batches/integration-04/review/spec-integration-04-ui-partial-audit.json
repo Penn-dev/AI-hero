@@ -1,0 +1,1534 @@
+{
+  "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+  "runId": "38401367005",
+  "viewports": 107,
+  "uniqueRoutes": 104,
+  "screenshots": 230,
+  "screenshotHashesPassed": true,
+  "manuallyViewedScreenshotFiles": [
+    "how-to-choose-an-llm-390-body.png",
+    "how-to-choose-an-llm-390-new-chinese-navigation-1.png",
+    "llm-fundamentals-390-failure.png",
+    "messages-system-prompts-and-reasoning-tokens-390-body.png",
+    "messages-system-prompts-and-reasoning-tokens-390-code-example.png",
+    "messages-system-prompts-and-reasoning-tokens-390-last-code-example.png",
+    "messages-system-prompts-and-reasoning-tokens-390-image.png",
+    "what-are-llms-used-for-390-body.png",
+    "what-are-llms-used-for-390-code-example.png",
+    "what-are-llms-used-for-390-last-code-example.png",
+    "what-are-llms-used-for-390-image.png",
+    "what-are-llms-used-for-390-new-chinese-navigation-1.png",
+    "what-are-llms-used-for-390-new-chinese-navigation-2.png",
+    "what-are-llms-used-for-390-new-chinese-navigation-3.png",
+    "what-are-tools-390-body.png",
+    "what-are-tools-390-code-example.png",
+    "what-are-tools-390-last-code-example.png",
+    "what-are-tools-390-image.png",
+    "what-is-an-agent-390-body.png",
+    "what-is-an-agent-390-image.png",
+    "ai-engineer-roadmap-1440-body.png",
+    "ai-engineer-roadmap-1440-image.png",
+    "ai-engineer-roadmap-1440-new-chinese-navigation-1.png",
+    "ai-engineer-roadmap-390-body.png",
+    "ai-engineer-roadmap-390-image.png",
+    "ai-engineer-roadmap-390-new-chinese-navigation-1.png",
+    "building-effective-agents-390-body.png",
+    "storm-generate-high-quality-articles-based-on-real-research-390-failure.png",
+    "the-ai-engineer-mindset-390-body.png",
+    "the-ai-engineer-mindset-390-image.png",
+    "the-prompt-report-390-failure.png",
+    "three-types-of-evals-390-body.png",
+    "what-are-evals-390-body.png",
+    "what-are-evals-390-code-example.png",
+    "what-are-evals-390-last-code-example.png",
+    "what-are-evals-390-image.png",
+    "what-are-evals-390-new-chinese-navigation-1.png",
+    "what-is-an-ai-engineer-1440-body.png",
+    "what-is-an-ai-engineer-1440-table-1.png",
+    "what-is-an-ai-engineer-390-body.png",
+    "what-is-an-ai-engineer-390-table-1.png",
+    "generate-text-with-vercel-ai-sdk-390-failure.png",
+    "streaming-text-with-vercel-ai-sdk-390-failure.png",
+    "structured-data-from-pdfs-with-vercel-ai-sdk-390-body.png",
+    "structured-data-from-pdfs-with-vercel-ai-sdk-390-code-example.png",
+    "structured-data-from-pdfs-with-vercel-ai-sdk-390-last-code-example.png",
+    "swap-ai-models-with-vercel-ai-sdk-390-failure.png",
+    "system-prompts-with-vercel-ai-sdk-390-failure.png",
+    "vercel-ai-sdk-tutorial-390-failure.png",
+    "vercel-ai-sdk-390-body.png",
+    "vercel-ai-sdk-390-table-1.png",
+    "vercel-ai-sdk-390-code-example.png",
+    "vercel-ai-sdk-390-last-code-example.png",
+    "what-is-the-ai-sdk-1440-body.png",
+    "what-is-the-ai-sdk-1440-code-example.png",
+    "what-is-the-ai-sdk-1440-last-code-example.png",
+    "what-is-the-ai-sdk-390-body.png",
+    "what-is-the-ai-sdk-390-code-example.png",
+    "what-is-the-ai-sdk-390-last-code-example.png",
+    "describe-images-with-vercel-ai-sdk-390-body.png",
+    "describe-images-with-vercel-ai-sdk-390-code-example.png",
+    "describe-images-with-vercel-ai-sdk-390-last-code-example.png",
+    "generate-arrays-with-vercel-ai-sdk-390-body.png",
+    "generate-arrays-with-vercel-ai-sdk-390-code-example.png",
+    "generate-arrays-with-vercel-ai-sdk-390-last-code-example.png",
+    "generate-enums-with-vercel-ai-sdk-390-failure.png",
+    "streaming-objects-with-vercel-ai-sdk-390-body.png",
+    "streaming-objects-with-vercel-ai-sdk-390-code-example.png",
+    "streaming-objects-with-vercel-ai-sdk-390-last-code-example.png",
+    "structured-outputs-with-vercel-ai-sdk-390-failure.png",
+    "tool-calls-with-vercel-ai-sdk-390-body.png",
+    "tool-calls-with-vercel-ai-sdk-390-code-example.png",
+    "tool-calls-with-vercel-ai-sdk-390-last-code-example.png",
+    "agents-with-vercel-ai-sdk-390-body.png",
+    "agents-with-vercel-ai-sdk-390-code-example.png",
+    "agents-with-vercel-ai-sdk-390-last-code-example.png",
+    "create-embeddings-with-vercel-ai-sdk-390-body.png",
+    "create-embeddings-with-vercel-ai-sdk-390-code-example.png",
+    "create-embeddings-with-vercel-ai-sdk-390-last-code-example.png",
+    "implementing-anthropics-think-tool-in-typescript-390-body.png",
+    "implementing-anthropics-think-tool-in-typescript-390-code-example.png",
+    "implementing-anthropics-think-tool-in-typescript-390-last-code-example.png",
+    "streaming-in-next-question-suggestions-with-the-ai-sdk-390-body.png",
+    "streaming-in-next-question-suggestions-with-the-ai-sdk-390-code-example.png",
+    "streaming-in-next-question-suggestions-with-the-ai-sdk-390-last-code-example.png",
+    "use-local-models-with-vercel-ai-sdk-390-failure.png",
+    "vercel-ai-sdk-messages-array-390-body.png",
+    "vercel-ai-sdk-messages-array-390-code-example.png",
+    "vercel-ai-sdk-messages-array-390-last-code-example.png",
+    "2025-the-year-building-with-gen-ais-gets-boring~d53hd-390-body.png",
+    "evalite-an-early-preview-390-failure.png",
+    "evalite-v1-preview-390-body.png",
+    "evalite-v1-preview-390-code-example.png",
+    "evalite-v1-preview-390-last-code-example.png",
+    "google-agents-whitepaper-review-390-body.png",
+    "personal-software-is-insane-in-the-age-of-ai-u2hx2-390-body.png",
+    "securing-your-ai-app-with-guardrails-390-body.png",
+    "securing-your-ai-app-with-guardrails-390-code-example.png",
+    "securing-your-ai-app-with-guardrails-390-last-code-example.png",
+    "publish-your-mcp-server-to-npm-390-body.png",
+    "publish-your-mcp-server-to-npm-390-code-example.png",
+    "publish-your-mcp-server-to-npm-390-last-code-example.png",
+    "publish-your-mcp-server-to-npm-390-new-chinese-navigation-1.png",
+    "using-mcp-prompts-390-body.png",
+    "using-mcp-prompts-390-code-example.png",
+    "using-mcp-prompts-390-last-code-example.png",
+    "using-mcp-prompts-390-image.png",
+    "using-mcp-prompts-390-new-chinese-navigation-1.png",
+    "skills-grill-me-390-body.png",
+    "skills-grill-me-390-code-example.png",
+    "skills-grill-me-390-last-code-example.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-390-body.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-390-image.png",
+    "skills-skills-changelog-handoff-prototype-review-and-writing-390-failure.png",
+    "skills-ask-matt-390-body.png",
+    "skills-ask-matt-390-table-1.png",
+    "skills-ask-matt-390-table-2.png",
+    "skills-ask-matt-390-code-example.png",
+    "skills-writing-for-agents-390-body.png",
+    "skills-writing-for-agents-390-code-example.png",
+    "skills-handoff-390-body.png",
+    "skills-handoff-390-table-1.png",
+    "skills-handoff-390-code-example.png",
+    "skills-to-questionnaire-390-body.png",
+    "skills-to-questionnaire-390-table-1.png",
+    "skills-to-questionnaire-390-code-example.png",
+    "skills-pr-390-body.png",
+    "skills-pr-390-table-1.png",
+    "skills-to-spec-390-body.png",
+    "skills-to-spec-390-table-1.png",
+    "skills-to-spec-390-code-example.png",
+    "skills-implement-spec-390-body.png",
+    "skills-implement-spec-390-table-1.png",
+    "skills-implement-spec-390-code-example.png",
+    "skills-implement-390-body.png",
+    "skills-implement-390-table-1.png",
+    "skills-implement-390-code-example.png",
+    "skills-implement-390-last-code-example.png",
+    "skills-research-390-body.png",
+    "skills-research-390-table-1.png",
+    "skills-research-390-code-example.png",
+    "skills-to-tickets-390-body.png",
+    "skills-to-tickets-390-table-1.png",
+    "skills-to-tickets-390-table-2.png",
+    "skills-to-tickets-390-code-example.png",
+    "skills-to-tickets-390-last-code-example.png",
+    "skills-domain-modeling-390-body.png",
+    "skills-domain-modeling-390-table-1.png",
+    "skills-domain-modeling-390-table-2.png",
+    "skills-domain-modeling-390-code-example.png",
+    "skills-domain-modeling-390-last-code-example.png",
+    "skills-grilling-390-body.png",
+    "skills-grilling-390-table-1.png",
+    "skills-grilling-390-table-2.png",
+    "skills-grilling-390-code-example.png",
+    "skills-grilling-390-last-code-example.png",
+    "skills-code-review-390-body.png",
+    "skills-code-review-390-table-1.png",
+    "skills-code-review-390-table-2.png",
+    "skills-code-review-390-code-example.png",
+    "skills-diagnosing-bugs-390-body.png",
+    "skills-diagnosing-bugs-390-table-1.png",
+    "skills-diagnosing-bugs-390-table-2.png",
+    "skills-diagnosing-bugs-390-code-example.png",
+    "skills-diagnosing-bugs-390-last-code-example.png",
+    "skills-retro-390-body.png",
+    "skills-retro-390-table-1.png",
+    "skills-retro-390-code-example.png",
+    "skills-setup-matt-pocock-skills-390-body.png",
+    "skills-setup-matt-pocock-skills-390-table-1.png",
+    "skills-setup-matt-pocock-skills-390-table-2.png",
+    "skills-setup-matt-pocock-skills-390-table-3.png",
+    "skills-setup-matt-pocock-skills-390-code-example.png",
+    "ai-coding-dictionary-model-provider-request-390-main-definition.png",
+    "ai-coding-dictionary-session-390-main-definition.png",
+    "ai-coding-dictionary-stateful-390-main-definition.png",
+    "ai-coding-dictionary-stateless-390-main-definition.png",
+    "ai-coding-dictionary-turn-390-main-definition.png",
+    "ai-coding-dictionary-agents-md-390-main-definition.png",
+    "ai-coding-dictionary-context-pointer-390-main-definition.png",
+    "ai-coding-dictionary-environment-390-main-definition.png",
+    "ai-coding-dictionary-filesystem-390-main-definition.png",
+    "ai-coding-dictionary-skill-390-main-definition.png",
+    "ai-coding-dictionary-ai-390-main-definition.png",
+    "ai-coding-dictionary-inference-390-main-definition.png",
+    "ai-coding-dictionary-model-provider-390-main-definition.png",
+    "ai-coding-dictionary-parameters-390-main-definition.png",
+    "ai-coding-dictionary-training-390-main-definition.png",
+    "ai-coding-dictionary-cache-tokens-390-main-definition.png",
+    "ai-coding-dictionary-effort-390-main-definition.png",
+    "ai-coding-dictionary-input-tokens-390-main-definition.png",
+    "ai-coding-dictionary-next-token-prediction-390-main-definition.png",
+    "ai-coding-dictionary-non-determinism-390-main-definition.png",
+    "ai-coding-dictionary-output-tokens-390-main-definition.png",
+    "ai-coding-dictionary-attention-budget-390-main-definition.png",
+    "ai-coding-dictionary-attention-degradation-390-main-definition.png",
+    "ai-coding-dictionary-attention-relationship-390-main-definition.png",
+    "ai-coding-dictionary-smart-zone-390-main-definition.png",
+    "ai-coding-dictionary-autocompact-390-main-definition.png",
+    "ai-coding-dictionary-clearing-390-main-definition.png",
+    "ai-coding-dictionary-compaction-390-main-definition.png",
+    "ai-coding-dictionary-handoff-artifact-390-main-definition.png",
+    "ai-coding-dictionary-handoff-390-main-definition.png",
+    "ai-coding-dictionary-contextual-knowledge-390-main-definition.png",
+    "ai-coding-dictionary-knowledge-cutoff-390-main-definition.png",
+    "ai-coding-dictionary-parametric-knowledge-390-main-definition.png",
+    "ai-coding-dictionary-primary-source-390-main-definition.png",
+    "ai-coding-dictionary-secondary-source-390-main-definition.png",
+    "ai-coding-dictionary-sycophancy-390-main-definition.png",
+    "ai-coding-dictionary-agent-mode-390-main-definition.png",
+    "ai-coding-dictionary-mcp-390-main-definition.png",
+    "ai-coding-dictionary-permission-mode-390-main-definition.png",
+    "ai-coding-dictionary-permission-request-390-main-definition.png",
+    "ai-coding-dictionary-sandbox-390-main-definition.png",
+    "ai-coding-dictionary-subagent-390-main-definition.png",
+    "ai-coding-dictionary-afk-390-main-definition.png",
+    "ai-coding-dictionary-automated-check-390-main-definition.png",
+    "ai-coding-dictionary-automated-review-390-main-definition.png",
+    "ai-coding-dictionary-ax-390-main-definition.png",
+    "ai-coding-dictionary-dx-390-main-definition.png",
+    "ai-coding-dictionary-human-in-the-loop-390-main-definition.png",
+    "ai-coding-dictionary-human-review-390-main-definition.png",
+    "ai-coding-dictionary-grilling-390-main-definition.png",
+    "ai-coding-dictionary-prototyping-390-main-definition.png",
+    "ai-coding-dictionary-spec-390-main-definition.png",
+    "ai-coding-dictionary-ticket-390-main-definition.png",
+    "ai-coding-dictionary-dark-factory-390-main-definition.png",
+    "ai-coding-dictionary-design-concept-390-main-definition.png",
+    "ai-coding-dictionary-software-factory-390-main-definition.png",
+    "ai-coding-dictionary-vibe-coding-390-main-definition.png"
+  ],
+  "manuallyViewedAll": true,
+  "failed": [
+    {
+      "route": "/llm-fundamentals",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/the-prompt-report",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/generate-text-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/system-prompts-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/structured-outputs-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/use-local-models-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/evalite-an-early-preview",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n",
+        "stack": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:103:21)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "error": {
+        "name": "AssertionError",
+        "message": "Document must not overflow horizontally",
+        "stack": "AssertionError [ERR_ASSERTION]: Document must not overflow horizontally\n    at check (file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:113:12)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:163:79"
+      }
+    }
+  ],
+  "clipboardMatches": 218,
+  "fencedClipboardMatches": 206,
+  "selectedParagraphClipboardMatches": 12,
+  "actualChineseLinkClicks": 27,
+  "dictionaryTermClicks": 0,
+  "originalAnchorChecks": 0,
+  "uiSpecFindings": [
+    "12 nonexistent h2 test targets need exact paragraph rerun",
+    "C04 changelog narrow viewport horizontal overflow pending repair"
+  ],
+  "mainDefinitionsViewed": 57,
+  "pages": [
+    {
+      "route": "/how-to-choose-an-llm",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/what-are-evals"
+      ]
+    },
+    {
+      "route": "/messages-system-prompts-and-reasoning-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": []
+    },
+    {
+      "route": "/what-are-llms-used-for",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": [
+        "/the-prompt-report",
+        "/generate-enums-with-vercel-ai-sdk?list=vercel-ai-sdk-tutorial",
+        "/tool-calls-with-vercel-ai-sdk"
+      ]
+    },
+    {
+      "route": "/what-are-tools",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": []
+    },
+    {
+      "route": "/what-is-an-agent",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-engineer-roadmap",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/vercel-ai-sdk-tutorial"
+      ]
+    },
+    {
+      "route": "/ai-engineer-roadmap",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/vercel-ai-sdk-tutorial"
+      ]
+    },
+    {
+      "route": "/building-effective-agents",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/the-ai-engineer-mindset",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/three-types-of-evals",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/what-are-evals",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 9,
+      "chineseTargets": [
+        "/the-ai-engineer-mindset"
+      ]
+    },
+    {
+      "route": "/what-is-an-ai-engineer",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/what-is-an-ai-engineer",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 10,
+      "chineseTargets": []
+    },
+    {
+      "route": "/vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": []
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": []
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": []
+    },
+    {
+      "route": "/describe-images-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 15,
+      "chineseTargets": []
+    },
+    {
+      "route": "/generate-arrays-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 6,
+      "chineseTargets": []
+    },
+    {
+      "route": "/streaming-objects-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 8,
+      "chineseTargets": []
+    },
+    {
+      "route": "/tool-calls-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 18,
+      "chineseTargets": []
+    },
+    {
+      "route": "/agents-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 15,
+      "chineseTargets": []
+    },
+    {
+      "route": "/create-embeddings-with-vercel-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 8,
+      "chineseTargets": []
+    },
+    {
+      "route": "/implementing-anthropics-think-tool-in-typescript",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 8,
+      "chineseTargets": [
+        "/vercel-ai-sdk-tutorial"
+      ]
+    },
+    {
+      "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 10,
+      "chineseTargets": []
+    },
+    {
+      "route": "/vercel-ai-sdk-messages-array",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 22,
+      "chineseTargets": []
+    },
+    {
+      "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/evalite-v1-preview",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 8,
+      "chineseTargets": []
+    },
+    {
+      "route": "/google-agents-whitepaper-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/securing-your-ai-app-with-guardrails",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 5,
+      "chineseTargets": []
+    },
+    {
+      "route": "/publish-your-mcp-server-to-npm",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": [
+        "/mcp-server-from-a-single-typescript-file"
+      ]
+    },
+    {
+      "route": "/using-mcp-prompts",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTargets": [
+        "/mcp-server-from-a-single-typescript-file"
+      ]
+    },
+    {
+      "route": "/skills-grill-me",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/ai-coding-dictionary/stateless"
+      ]
+    },
+    {
+      "route": "/skills-ask-matt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/context-pointer"
+      ]
+    },
+    {
+      "route": "/skills-writing-for-agents",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/context-pointer"
+      ]
+    },
+    {
+      "route": "/skills-handoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/handoff-artifact"
+      ]
+    },
+    {
+      "route": "/skills-to-questionnaire",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/grilling"
+      ]
+    },
+    {
+      "route": "/skills-pr",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary/human-review"
+      ]
+    },
+    {
+      "route": "/skills-to-spec",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/spec"
+      ]
+    },
+    {
+      "route": "/skills-implement-spec",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/subagent"
+      ]
+    },
+    {
+      "route": "/skills-implement",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": [
+        "/ai-coding-dictionary/ticket"
+      ]
+    },
+    {
+      "route": "/skills-research",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/primary-source"
+      ]
+    },
+    {
+      "route": "/skills-to-tickets",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/ai-coding-dictionary/ticket"
+      ]
+    },
+    {
+      "route": "/skills-domain-modeling",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/ai-coding-dictionary/session"
+      ]
+    },
+    {
+      "route": "/skills-grilling",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTargets": [
+        "/ai-coding-dictionary/grilling"
+      ]
+    },
+    {
+      "route": "/skills-code-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/subagent"
+      ]
+    },
+    {
+      "route": "/skills-diagnosing-bugs",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 3,
+      "chineseTargets": [
+        "/ai-coding-dictionary/human-in-the-loop"
+      ]
+    },
+    {
+      "route": "/skills-retro",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/environment"
+      ]
+    },
+    {
+      "route": "/skills-setup-matt-pocock-skills",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary/harness"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 3,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": []
+    }
+  ]
+}
