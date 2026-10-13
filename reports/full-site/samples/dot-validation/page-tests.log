@@ -1,0 +1,57 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:test
+> node --test scripts/assemble-page.test.mjs scripts/localized-article.test.mjs
+
+✔ Output source-relative Solution accepts the correct absolute URL without changing sources or other pages (118.676867ms)
+✔ Output rejects a wrong root Solution even when its later correct link remains, without writing (50.641926ms)
+✔ Output rejects bare relative URLs with an actionable message before writing (49.856592ms)
+✔ ordinary article previews without writing, then assembles through the existing index (26.193154ms)
+✔ optional learning profile uses the current knowledge file without replacing shared records (23.947535ms)
+✔ incorrect source hash fails before any write in preview and apply (8.955805ms)
+▶ invalid route, source path, output path and learning config fail without writes
+  ✔ source route mismatch (5.747402ms)
+  ✔ unsafe route (5.081703ms)
+  ✔ unsafe output (13.020362ms)
+  ✔ unknown config field (4.738734ms)
+  ✔ invalid learning kind (10.552806ms)
+  ✔ invalid learning cards (11.000812ms)
+✔ invalid route, source path, output path and learning config fail without writes (51.251324ms)
+✔ an available Chinese link whose indexed body is empty is rejected before writing (11.785399ms)
+✔ unfinished batch targets are explicitly recorded while available targets must still be valid (15.872581ms)
+✔ an actual renderable Chinese target with a stale source version permits assembly and retains the version difference (28.00385ms)
+✔ Chinese Prompt can be appended, but changing the English Prompt is rejected without writes (23.236468ms)
+▶ content structure, original inline code, resources and renderer support are checked before writes
+  ✔ missing heading (11.129406ms)
+  ✔ missing inline code (10.880592ms)
+  ✔ missing resource (8.674803ms)
+  ✔ unknown MDX (11.749746ms)
+  ✔ JavaScript expression (12.44532ms)
+  ✔ unmarked new code (12.404579ms)
+✔ content structure, original inline code, resources and renderer support are checked before writes (68.416554ms)
+✔ a filesystem failure after target replacement restores every file, including the previous translation (12.195104ms)
+✔ a target cannot overwrite another page translation or shared knowledge source (9.299972ms)
+✔ updating one of seventeen pages preserves the other sixteen pages and refreshes only its translation source (26.981005ms)
+✔ content validation checks every renderable translation status, file hash and indexed body (22.879873ms)
+✔ available Chinese targets are checked against their files and manifest, not just a nonempty index (14.686312ms)
+✔ unsafe symlink destinations fail during preview as well as apply (10.367032ms)
+✔ invalid auxiliary source hashes and changes to another page source are refused (13.142526ms)
+✔ interrupted writes keep a recovery journal and can restore the original files explicitly (26.019814ms)
+✔ a symlink within the workspace cannot redirect translation writes into source files (20.129212ms)
+✔ the actual existing site index and all seventeen manifest records survive adding an ordinary fixture page (17.391129ms)
+✔ shared records changed during preparation are preserved instead of overwritten by a stale plan (9.443056ms)
+✔ an auxiliary source used by another page cannot be silently replaced (15.283388ms)
+✔ shared evidence can move to a verified same-hash snapshot while other records and pages stay unchanged (39.313461ms)
+✔ changing the target translation path keeps its existing profile pointed at the newly assembled file (24.509142ms)
+✔ workshop text prompts are not labelled as original code (20.669507ms)
+✔ public articles with an independent glossary retain original resources and Chinese term controls (28.836258ms)
+✔ explicit historical review keeps Chinese-only links and its term controls (10.398128ms)
+✔ explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English (7.891969ms)
+ℹ tests 42
+ℹ suites 0
+ℹ pass 42
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 923.37678

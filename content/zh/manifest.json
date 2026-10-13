@@ -9,10 +9,10 @@
       "translationPath": "content/learning/agents-md/article.md",
       "translationHash": "bf2c149382aada03300b6dacac483d315a148867fc0acc5f2abf43b6f4463562",
       "status": "assembled",
-      "assembledAt": "2026-10-13T05:04:31.508Z",
+      "assembledAt": "2026-10-13T10:10:16.428Z",
       "assembly": {
-        "configHash": "53fe87b8ed59afe0d44b5527b769b0483e35c863f1ffc41af5b7d71ca6ffdf29",
-        "checkedAt": "2026-10-13T05:04:31.508Z",
+        "configHash": "27d5079105de87a4c0c0e81bf2aaaa2dbd3c096c24c143767c2ea75b38206090",
+        "checkedAt": "2026-10-13T10:10:16.428Z",
         "checks": [
           "source-hash",
           "config",
@@ -114,10 +114,10 @@
       "translationPath": "content/learning/system-prompt/article.md",
       "translationHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
       "status": "assembled",
-      "assembledAt": "2026-10-13T05:04:30.070Z",
+      "assembledAt": "2026-10-13T10:10:15.457Z",
       "assembly": {
-        "configHash": "4daee2e0fc614eb7c59faa0fe38a20332d16930115024a9107f4505751ecd247",
-        "checkedAt": "2026-10-13T05:04:30.070Z",
+        "configHash": "4bb6ba99452b4e48b58a5c67312dd81170349d941061ccfd38ff45af9b509230",
+        "checkedAt": "2026-10-13T10:10:15.457Z",
         "checks": [
           "source-hash",
           "config",
@@ -270,10 +270,10 @@
       "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
       "translationHash": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
       "status": "assembled",
-      "assembledAt": "2026-10-13T05:04:32.377Z",
+      "assembledAt": "2026-10-13T10:10:17.303Z",
       "assembly": {
-        "configHash": "fdf823ca9423b90a2f74d8f04fe6b77d2ff9bd98cb0e90fc1b76cd253d7140f1",
-        "checkedAt": "2026-10-13T05:04:32.377Z",
+        "configHash": "71e0de8724cf97b04381c61c7f525a1408aa1e937a4812766d9eeeab433bfda0",
+        "checkedAt": "2026-10-13T10:10:17.303Z",
         "checks": [
           "source-hash",
           "config",

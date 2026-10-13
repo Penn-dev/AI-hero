@@ -4,7 +4,7 @@
     "path": "content/source/ai-coding-dictionary/system-prompt.md",
     "sha256": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a"
   },
-  "chineseFile": "reports/full-site/samples/drafts/system-prompt.md",
+  "chineseFile": "content/learning/system-prompt/article.md",
   "learning": {
     "sources": {
       "samples-system-prompt-source": {
