@@ -87,6 +87,8 @@ async function anchorAndRefresh(page, result, explicitId) {
   assert.ok(id, 'The article heading must have a stable ID');
   const title = await heading.textContent();
   await page.goto(baseUrl + result.route + '#' + encodeURIComponent(id), { waitUntil: 'networkidle' });
+  await expect.poll(async () => Math.abs(await heading.evaluate(element => element.getBoundingClientRect().top) - 30)).toBeLessThan(2);
+  result.checks.push(`Deep link finishes scrolling before refresh: ${id}`);
   await page.reload({ waitUntil: 'networkidle' });
   await expect(page.locator(`[id="${id}"]`).first()).toHaveText(title);
   assert.equal(decodeURIComponent(new URL(page.url()).hash.slice(1)), id);
