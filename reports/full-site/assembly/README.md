@@ -51,5 +51,7 @@
 
 2026-10-13：三篇真实样本接入后，旧检查仍把绝对原站链接断言为本地、把展示模板类型等同于源文类型。检查已改为遵循显式原站链接规则，并验证译稿保留实际来源的 `type`。
 
+浏览器还确认 Output 的中文 Prompt 框误标“原文代码片段”。`b9b70a6` 将教程的 text/plaintext/md/markdown 框标为“文本片段”，保留其外部明确的中文版 Prompt 标签；程序代码和 TODO 标题不变。实际组件回归先失败后通过，4项渲染测试通过。定向 oxlint 只有原基线已记录的表格 tabindex 项（localized-markdown.tsx:263），新增0项；不声称全仓 lint 通过。
+
 同时发现真实 Output 的空“视频文字稿”后还有解答标题，旧展示仅识别文末空标题。先用该结构确认回归失败，再将空标题识别扩展到紧邻同级或上级标题的情况，保留解答入口和材料缺口提示；已有文字稿正文不受影响。使用当前样本数据和修正后的解析代码运行完整学习检查通过，见 [检查日志](E:/dev/projects/AIHero/reports/full-site/assembly/current-sample-learning-check.log)。改动文件 oxlint 通过；实际 Output 页面验证随样本浏览器记录补齐。
 
