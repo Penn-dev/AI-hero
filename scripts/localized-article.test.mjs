@@ -14,6 +14,17 @@ const server = await createServer({
 });
 after(() => server.close());
 const { LocalizedArticle } = await server.ssrLoadModule('/components/localized-article.tsx');
+const { LocalizedMarkdown } = await server.ssrLoadModule('/components/localized-markdown.tsx');
+
+void test('workshop text prompts are not labelled as original code', () => {
+  const markdown = ['中文版 Prompt（译注）：', '```text\n请写出一个故事。\n```', '```typescript\nconst value = 1;\n```', '```typescript\nconst factsResult = TODO;\n```'].join('\n\n');
+  const html = renderToStaticMarkup(createElement(LocalizedMarkdown, { markdown, exercise: true }));
+  const frames = html.match(/<figure\b[^>]*>[\s\S]*?<\/figure>/g);
+  assert.match(frames[0], /<figcaption><span>文本片段<\/span>/);
+  assert.ok(!frames[0].includes('原文代码片段'));
+  assert.match(frames[1], /<figcaption><span>原文代码片段<\/span>/);
+  assert.match(frames[2], /<figcaption><span>待你完成的片段<\/span>/);
+});
 
 const sourceUrl = 'https://www.aihero.dev/a-complete-guide-to-agents-md';
 const conceptRoute = '/ai-coding-dictionary/agent';
