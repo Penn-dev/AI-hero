@@ -102,6 +102,8 @@ def inline(node):
         return "  \n"
     if node.tag == "a":
         href = node.attrs.get("href")
+        if href and re.search(r"\s", href):
+            href = f"<{href}>"
         return f"[{body.strip()}]({href})" if href else body
     if node.tag == "img":
         return f"![{node.attrs.get('alt', '')}]({node.attrs.get('src', '')})"

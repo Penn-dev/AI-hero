@@ -150,6 +150,6 @@ Build a repeatable workflow for coding agents without giving up your engineering
 
 **Share**
 
-[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v13-implement-spec-pr-retro-and-glossary-mdv1.3%3A%20%2Fimplement-spec%2C%20%2Fpr%2C%20%2Fretro%2C%20and%20GLOSSARY.md%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=v1.3%3A%20%2Fimplement-spec%2C%20%2Fpr%2C%20%2Fretro%2C%20and%20GLOSSARY.md%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v13-implement-spec-pr-retro-and-glossary-md)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md?author=Matt Pocock)
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v13-implement-spec-pr-retro-and-glossary-mdv1.3%3A%20%2Fimplement-spec%2C%20%2Fpr%2C%20%2Fretro%2C%20and%20GLOSSARY.md%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=v1.3%3A%20%2Fimplement-spec%2C%20%2Fpr%2C%20%2Fretro%2C%20and%20GLOSSARY.md%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v13-implement-spec-pr-retro-and-glossary-md)[](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md?author=Matt Pocock>)
 
 Copy URL

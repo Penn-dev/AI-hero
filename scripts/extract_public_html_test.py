@@ -4,6 +4,15 @@ from extract_public_html import extract
 
 
 class ExtractionTests(unittest.TestCase):
+    def test_link_with_space_keeps_full_original_href_in_markdown(self):
+        html = '''<main><h1>System prompt</h1><p>Original body.</p>
+<a href="https://linkedin.com/shareArticle?mini=true&amp;url=https://www.aihero.dev/ai-coding-dictionary/system-prompt?author=Matt Pocock">Share</a></main>'''
+        result = extract(html, {"route": "/ai-coding-dictionary/system-prompt"})
+        self.assertIn(
+            "[Share](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/system-prompt?author=Matt Pocock>)",
+            result["markdown"],
+        )
+
     def test_public_body_keeps_code_conditions_and_cta_without_script_text(self):
         html = '''<html><main><h1>Guide</h1><article><p>If ready, run it.</p>
 <pre><code class="language-ts">const x = 1 &lt; 2;\n</code></pre>

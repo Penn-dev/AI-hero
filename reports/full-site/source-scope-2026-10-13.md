@@ -23,6 +23,8 @@
 
 与旧清单相比，7 个地址新增，9 页首次取得正文（含原先未纳入的两个订阅介绍页）；80 份原文哈希相同、106 份变化，无旧地址移出。变化包含原站内容变化、HTML 提取表示方式和页面外壳差异，不能仅凭哈希变化判断语义变化。详细地址在固定清单的 `sourceChanges` 中。
 
+2026-10-13 离线提取修正：原 HTML 的 77 份链接含空格，旧 Markdown 表示会截断 href。修正后用尖括号包裹完整 URL，并从同一批已保存 HTML 离线重提取；没有网络请求，没有更改 195 页范围、原取得时间或 HTML 原件。仅链接表示改变，教学文字与 14 个原代码块不变。195 文件及清单 hash 再核对通过，77 个含空格原 href 经实际 Markdown 解析核对完整保留。详见[提取修正记录](E:/dev/projects/AIHero/reports/full-site/source-url-extraction-correction-2026-10-13.json)；系统提示词下列 hash 为修正后的值。
+
 ## 来源缺口与使用边界
 
 | 材料 | 已取得 | 未取得或未验证 |
@@ -53,7 +55,7 @@ HTML 提取稿保留了 `main` 中的正文、CTA、导航、作者和订阅/分
 
 #4 复用以下本次原文：
 
-- [系统提示词](E:/dev/projects/AIHero/content/source/ai-coding-dictionary/system-prompt.md)，哈希 `4c0625b324b0a92f31e5ae0ea0aa0df6e95d4150555c76881b807b63e00c3d31`。
+- [系统提示词](E:/dev/projects/AIHero/content/source/ai-coding-dictionary/system-prompt.md)，哈希 `280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a`。
 - [AGENTS.md 指南](E:/dev/projects/AIHero/content/source/a-complete-guide-to-agents-md.md)，哈希 `eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5`，与旧源文相同。
 - [Output 教程](E:/dev/projects/AIHero/content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md)，哈希 `c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5`。运行与文字稿缺项沿用上表，特别核对 CTA、原 Prompt 与页面外壳。
 

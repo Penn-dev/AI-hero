@@ -49,5 +49,24 @@
     "stableLocalLinksChecked": 20,
     "temporaryWorktreeLinks": 0,
     "unexpectedStagedPaths": 0
-  }
+  },
+  "extractionCorrections": [
+    {
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "reason": "Offline extraction correction for whitespace in original hrefs; no fetch, scope or acquisition time change.",
+      "htmlPagesCompared": 82,
+      "sourceFilesChanged": 77,
+      "originalCodeBlocksCompared": 14,
+      "originalCodeBlocksUnchanged": true,
+      "onlyUrlWrappingChanged": true,
+      "evidencePath": "reports/full-site/source-url-extraction-correction-2026-10-13.json",
+      "checkedAt": "2026-10-13T04:43:14.083Z",
+      "sourceFilesChecked": 195,
+      "sourceHashesMatch": true,
+      "scopeAndExtractionHashesMatch": true,
+      "fullSpacedHrefsChecked": 77,
+      "fullSpacedHrefsPreserved": true,
+      "errors": []
+    }
+  ]
 }
