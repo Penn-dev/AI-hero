@@ -1,0 +1,153 @@
+{
+  "mode": "preview",
+  "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+  "page": {
+    "title": "通过 Output 生成对象",
+    "markdown": "# 通过 Output 生成对象\n\n[获取完整课程访问权限（原站）](https://www.aihero.dev/workshops/ai-sdk-v6-crash-course)\n\n[解答入口（原站，未取得正文）](https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution)\n\n大多数时候，你希望大语言模型（LLM）返回的不只是一段文字，还要让这些文字按照明确的结构排列。比如，可以先生成一个发生在虚构星球上的故事，再从故事中提取事实，整理成清晰的字符串数组。\n\n[AI SDK](https://ai-sdk.dev/docs/introduction) 让这件事变得非常简单。你不必先让模型生成文字，再自己解析内容（或者使用 [Zod](https://zod.dev) 之类的库验证结果），而是可以直接使用框架内置的结构化输出功能。\n\n在 AI SDK 中，这件事其实有两种实现方式：一种更符合第 5 版的用法，另一种更符合第 6 版的用法，但两种都可以在第 6 版中运行。你的任务是实现结构化输出。\n\n> **译注：本页取得了什么。** 2026-10-13 固定的公开来源包含以下练习说明、两个代码片段和课程、解答入口。没有取得课程视频、项目准备材料或解答正文，也没有取得视频文字稿内容。动手需要已有课程项目、可用的模型配置，以及运行项目命令的基础；本页没有提供安装、导入、模型初始化、依赖锁定版本或完整运行环境。以下片段不是可独立运行的程序，本次也未运行课程代码。\n\n## [需要完成的步骤](#steps-to-complete)\n\n- 使用 [`streamText()`](https://ai-sdk.dev/docs/reference/ai-sdk-core/stream-text) 将文字流式输出到终端\n\n第一步，让模型写出一个虚构星球故事的第一段，并在生成过程中将文字逐步显示在终端中。\n\n```typescript\nconst stream = streamText({\n  model,\n  prompt:\n    'Give me the first paragraph of a story about an imaginary planet.',\n});\n\nfor await (const chunk of stream.textStream) {\n  process.stdout.write(chunk);\n}\n\nconst finalText = await stream.text;\n```\n\n中文版 Prompt（译注）：\n\n```text\n请写出一个发生在虚构星球上的故事的第一段。\n```\n\n> **译注：这段代码做什么。** 故事生成一点，就在终端显示一点；结束后，程序把完整文字保存到 `finalText`，供下一步提取事实时使用。英文 Prompt 保留在原代码中，上面另附完整中文版。\n\n- 调用支持结构化输出的 [`generateText()`](https://ai-sdk.dev/docs/reference/ai-sdk-core/generate-text)\n\n第二步，等故事文字全部输出完后，调用 `generateText()`，通过提示词让模型列出这颗星球的事实，并把上一步保存的 `finalText` 作为故事内容传入。\n\n```typescript\n// TODO: Replace this with a call to generateText, passing:\n// - The model, same as above\n// - The prompt, asking for facts about the imaginary planet,\n//   passing in the finalText as the story\n// - The output, which should be Output.object({}), passing\n//   the schema: z.object({\n//     facts: z.array(z.string()).describe('The facts about the imaginary planet. Write as if you are a scientist.'),\n//   })\nconst factsResult = TODO;\n```\n\n中文理解（学习辅助，译注）：把 `TODO` 替换为一次 `generateText` 调用。传入与上一步相同的模型、要求提取虚构星球事实的提示词，并把 `finalText` 作为故事传入。`output` 使用 `Output.object({})`，其中的 `schema` 使用注释中给出的 Zod 对象规则：`facts` 是字符串数组。这里保留的是待你完成的练习，没有补写函数调用或答案。\n\n中文版 Prompt（译注，对应 `.describe()` 中的完整英文指令）：\n\n```text\n关于这个虚构星球的事实。请用科学家的口吻写。\n```\n\n你还需要从 AI SDK 导入 [`Output`](https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data)，并与 `generateText` 配合使用。\n\n- 使用 [`Output.object()`](https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data) 方法定义结构化输出\n\n第三步，向这个方法传入一个带有 `schema` 属性的对象。这里的 schema 是一份结果格式说明：它应当是一个 [Zod](https://zod.dev) 对象，并规定 `facts` 字段必须是字符串数组。\n\n记得在字段上使用 [`.describe()`](https://zod.dev/metadata)，用文字说明字段应当包含什么，从而引导模型生成更符合要求的结果。\n\n- 输出结构化结果\n\n第四步，从结果对象中取得结构化输出，并将它显示在终端中。\n\n- 运行你的解决方案\n\n最后，使用 `pnpm run dev` 运行代码，并确认：\n\n1. 虚构星球的故事会在生成过程中逐步显示在终端中。\n2. 返回的事实是一个结构化对象，其中包含一个字符串数组。\n3. 这些事实采用了科学家的写作口吻。\n\n- （可选）尝试另一种做法\n\n完成练习后，看看你能否用 [`generateObject()`](https://ai-sdk.dev/docs/reference/ai-sdk-core/generate-object) 实现第 6 版方案，而不使用 `generateText()` 与 `Output.object()` 的组合。两种方式都能使用，不过其中一种是较新的模式。\n\n> **更新说明（2026-10-13）：版本表述有差异。** 上一段保留了原文对“第 6 版方案”的说法。AI SDK 官方的 [5.x → 6.0 迁移指南](https://ai-sdk.dev/docs/migration-guides/migration-guide-6-0)说明：第 6 版已弃用 `generateObject` 和 `streamObject`，建议改用带 `output` 设置的 `generateText` 或 `streamText`。因此，不能把上一段理解为“`generateObject()` 是第 6 版较新的推荐模式”。“弃用”表示不再推荐继续采用，并不等于在第 6 版立即不可用。这里没有替换原例，也没有补写解答；实际练习仍需核对课程项目的依赖版本。\n\n### 视频文字稿\n\n## 查看 Matt 的解答：\n\n- [通过 Output 生成对象：解答入口（原站）](https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution)\n\n[登录原站](https://www.aihero.dev/login)以保存课程进度。\n\n> **译注：材料缺口。** 本次来源只有“视频文字稿”标题，没有取得文字稿内容；不据此判断原站是否另有文字稿。以上课程访问、解答和登录均为原站入口，本地页不提供视频、答案或保存学习进度的功能。\n\n## 中文学习辅助：术语小词典\n\n- LLM：Large Language Model（大语言模型）的简称，指能够理解和生成文字的 AI 模型。\n- structured output：结构化输出，指让模型按照预先规定的格式返回信息，而不是只返回一段自由文本。\n- stream：流式输出，指内容生成一点就显示一点，不必等到全部生成完成。\n- terminal：终端，用来输入命令和查看程序输出的文字窗口。\n- object：对象，一种按字段组织数据的形式；这里的结果对象中会有专门存放事实的字段。\n- array：数组，一种把多项数据按顺序放在一起的形式。\n- string：字符串，程序中用来表示文字的数据类型。\n- schema：数据结构规则，用来规定结果中应当有哪些字段，以及每个字段的数据形式。\n- Zod：JavaScript 和 TypeScript 常用的数据验证库，可以用来描述并检查数据是否符合规则。",
+    "sourceUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+    "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5",
+    "sourceUpdatedAt": "2025-09-09T14:47:27.928Z",
+    "readingTime": "5 分钟"
+  },
+  "learning": {
+    "kind": "workshop-lesson",
+    "sourceIds": [
+      "workshop-source",
+      "samples-output-translation"
+    ],
+    "conceptIds": [
+      "llm",
+      "structured-output",
+      "stream",
+      "terminal",
+      "object",
+      "array",
+      "string",
+      "schema",
+      "zod",
+      "prompt"
+    ],
+    "prerequisiteIds": [
+      "terminal",
+      "object",
+      "string",
+      "array",
+      "schema"
+    ],
+    "start": {
+      "title": "这节练习，要把故事变成有格式的数据",
+      "summary": "先让模型写一段星球故事，再保存完整文本，最后按规定格式提取事实。你需要补上中间的函数调用。",
+      "cards": [
+        {
+          "title": "先了解练习流程",
+          "text": "先看每段代码下面的中文解释，理解“生成故事→保存全文→提取事实”这条流程。陌生词可随时点开查阅。"
+        },
+        {
+          "title": "动手前需要准备",
+          "text": "需要已有的课程项目、可用的模型配置，以及运行项目命令的基础。本页片段没有包含安装、导入和模型初始化；缺少这些准备时，先回课程原页确认。"
+        },
+        {
+          "title": "哪些地方由你完成",
+          "text": "带TODO的代码是待完成部分；其余也是原文片段，需要放回项目的相应位置。复制片段不等于得到一份可独立运行的程序。"
+        }
+      ]
+    },
+    "check": {
+      "title": "运行后，检查这三项结果",
+      "items": [
+        "星球故事会在终端中边生成、边显示。",
+        "程序返回一个对象，其中的 `facts` 字段是字符串数组，每一项都是从故事中提取的星球信息。",
+        "这些信息读起来像科学家对这颗虚构星球的描述。"
+      ]
+    },
+    "related": [
+      {
+        "format": "课程原页",
+        "title": "回到本节英文课程",
+        "description": "确认课程准备材料和上下文，再开始动手练习。",
+        "href": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+      },
+      {
+        "format": "官方文档",
+        "title": "AI SDK结构化数据说明",
+        "description": "需要查阅Output及结构化输出的详细用法时，再打开原文引用的文档。",
+        "href": "https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data"
+      }
+    ]
+  },
+  "manifest": {
+    "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+    "sourceUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+    "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5",
+    "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+    "translationHash": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T05:04:32.094Z",
+    "assembly": {
+      "configHash": "fdf823ca9423b90a2f74d8f04fe6b77d2ff9bd98cb0e90fc1b76cd253d7140f1",
+      "checkedAt": "2026-10-13T05:04:32.094Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/workshops/ai-sdk-v6-crash-course",
+          "state": "planned-chinese",
+          "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+        },
+        {
+          "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution",
+          "state": "planned-chinese",
+          "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+        },
+        {
+          "route": "/login",
+          "state": "planned-chinese",
+          "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+        }
+      ],
+      "staleChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "state": "planned-chinese",
+      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution",
+      "state": "planned-chinese",
+      "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+    },
+    {
+      "route": "/login",
+      "state": "planned-chinese",
+      "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sha256": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "68a3e3d7eba9c7e59a918fd2b7a407974891db10727de97c62e23eabdb18b104"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "2645ab82e7ee9d6779901199d585fb9f5728cb53e8cccb2abcf9654520fc03bd"
+    },
+    {
+      "path": "content/learning/pilot-knowledge.json",
+      "sha256": "e3160fb373e478279366603ffb6ca4e887f81862f2beed5635f07c80d70962ac"
+    }
+  ]
+}

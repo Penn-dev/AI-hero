@@ -1,0 +1,424 @@
+{
+  "mode": "apply",
+  "route": "/ai-coding-dictionary/system-prompt",
+  "page": {
+    "title": "系统提示词",
+    "markdown": "# 系统提示词\n\n[AI 编码词典](/ai-coding-dictionary)\n\n会话、上下文窗口与工作轮次\n\n执行框架在每次模型提供商请求的开头加入的指令——智能体的长期工作说明。通常在一次会话中保持稳定。\n\n![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)\n\nMatt Pocock\n\n[智能体执行框架（harness）](/ai-coding-dictionary/harness)在每次[模型提供商请求](/ai-coding-dictionary/model-provider-request)的开头加入的指令，就是[智能体](/ai-coding-dictionary/agent)的长期工作说明：它是谁、应该怎样做事、可以调用哪些[工具](/ai-coding-dictionary/tool)，以及需要遵守哪些约定。通常在一次[会话](/ai-coding-dictionary/session)中保持稳定。\n\n系统提示词由执行框架的开发商编写，而不是由你编写。在编程类执行框架中，它的篇幅很大——行为规则、工具说明和特殊情况的处理要求加起来，经常达到数万个 [Token](/ai-coding-dictionary/token)，每个[工作轮次](/ai-coding-dictionary/turn)都作为[输入 Token](/ai-coding-dictionary/input-tokens)计费。你自己的长期指令也会一同加入：[AGENTS.md](/ai-coding-dictionary/agents-md) 等文件会在会话开始时加载到系统提示词旁边，因此，[模型](/ai-coding-dictionary/model)在看到你的消息之前，就会一起读到开发商的工作说明和你的规则。\n\n由于系统提示词在每次请求中都相同，它会构成[前缀缓存](/ai-coding-dictionary/prefix-cache)的开头。这也是执行框架通常在整个会话中保持它不变，而不会边用边改的部分原因。\n\n模型经过训练，会优先遵循系统提示词，而不是用户消息。所以，如果智能体坚持某种你从未要求过的约定，或者总用一种你怎么也改不掉的格式输出，它通常是在遵循自己的系统提示词——你的消息没能说服它。有些执行框架允许自定义：你可以完整查看系统提示词，了解智能体实际收到的指令，也可以修改它。\n\n_用法：_\n\n**英文原例**\n\n> Two harnesses, same model, totally different behavior on the same prompt.\n\n**中文理解**\n\n“两个执行框架使用同一个模型，面对同一条提示词，表现却完全不同。”\n\n**英文原例**\n\n> Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives.\n\n**中文理解**\n\n“因为系统提示词不同。一个侧重简洁地修改代码，另一个侧重解释——差别就在这里，在你的消息到来之前就已经存在。”\n\n> **译注：理解这里的输入与计费。** “看到消息之前”描述的是请求中规则与消息的排列关系。一个工作轮次可能包含多次模型请求；实际计费、缓存是否命中，以及项目规则的加载方式，都取决于具体服务和执行框架。开头保持相同并不保证缓存命中或固定折扣。“由开发商编写”描述的是这里讨论的默认工作说明；末段已说明，有些执行框架也允许你修改它。\n\n[上一个词条：智能体](/ai-coding-dictionary/agent) · [下一个词条：会话](/ai-coding-dictionary/session)\n\n## 想学的不只是词汇？\n\n加入 AI Hero，获取实用技能、关于 AI 工程的思考，以及帮助你走在前面的资源。\n\n> **译注：原站订阅入口。** 这一部分是原页面的订阅区，不是上面的教学正文。原站表单包含“名字”和“电子邮箱（必填）”，按钮为“获取 AI Hero 更新”，并说明“不会发送垃圾邮件，随时可以退订”。需要订阅时，请打开[原站页面](https://www.aihero.dev/ai-coding-dictionary/system-prompt)使用其表单；本页不提供订阅服务。\n\n**分享（原站入口）**\n\n[分享到 X](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fsystem-promptSystem%20prompt%20%20by%20%40mattpocockuk) · [分享到 Bluesky](https://bsky.app/intent/compose?text=System%20prompt%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fsystem-prompt) · [分享到 LinkedIn](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/system-prompt?author=Matt Pocock>)\n\n“复制网址”是原站的分享控件；需要分享原文时可从[原文页面](https://www.aihero.dev/ai-coding-dictionary/system-prompt)复制地址。\n\n## 中文学习辅助：术语小词典\n\n- **系统提示词**：随模型请求提供的基础指令，用来约定角色和行为等要求。\n- **智能体执行框架**：围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。\n- **Token**：模型读取和生成文本时使用的基本单位，不等同于一个汉字或一个英文单词。\n- **前缀缓存**：复用多次请求中相同开头的已处理结果；不保证命中或固定折扣。",
+    "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+    "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
+    "sourceUpdatedAt": "2026-09-24T11:59:36.000Z",
+    "readingTime": "3 分钟"
+  },
+  "learning": {
+    "kind": "dictionary",
+    "sourceIds": [
+      "samples-system-prompt-source",
+      "dictionary-revised-translation",
+      "guide-source"
+    ],
+    "conceptIds": [
+      "system-prompt",
+      "prompt",
+      "model-provider-request",
+      "model",
+      "harness",
+      "tool",
+      "token",
+      "prefix-cache",
+      "agent",
+      "session",
+      "turn",
+      "input-tokens",
+      "agents-md",
+      "markdown",
+      "context",
+      "tool-call",
+      "tool-result"
+    ],
+    "prerequisiteIds": [
+      "prompt",
+      "harness",
+      "model-provider-request"
+    ],
+    "start": {
+      "title": "一句话理解",
+      "summary": "系统提示词，就是随请求交给模型的一份基础工作说明：你是谁、怎样做事、要遵守哪些约定。",
+      "cards": [
+        {
+          "title": "系统提示词：基础行为",
+          "text": "例如，要求助手侧重解释思路。这类规则会影响它如何回应不同任务。"
+        },
+        {
+          "title": "用户消息：本次任务",
+          "text": "例如，“请解释这段代码”。模型回答时会同时参考本次任务和适用的基础规则。"
+        },
+        {
+          "title": "项目规则：另一种来源",
+          "text": "AGENTS.md可以提供项目约定。它和系统提示词可能一起进入请求，但不是同一个文件，加载方式取决于工具。"
+        }
+      ]
+    },
+    "bodyTitle": "定义与用法",
+    "originalExamples": [
+      {
+        "sourceId": "samples-system-prompt-source",
+        "text": "Two harnesses, same model, totally different behavior on the same prompt."
+      },
+      {
+        "sourceId": "samples-system-prompt-source",
+        "text": "Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives."
+      }
+    ],
+    "related": [
+      {
+        "format": "中文指南",
+        "title": "AGENTS.md完整指南",
+        "description": "想给AI加入自己的长期项目规则？继续了解AGENTS.md与系统提示词的关系。",
+        "href": "/a-complete-guide-to-agents-md"
+      },
+      {
+        "format": "英文词条",
+        "title": "智能体执行框架（harness）",
+        "description": "进一步理解谁把模型、规则和工具组织在一起。",
+        "href": "https://www.aihero.dev/ai-coding-dictionary/harness"
+      }
+    ],
+    "glossary": [
+      {
+        "id": "term-system-prompt",
+        "term": "系统提示词（system prompt）",
+        "aliases": [
+          "系统提示词",
+          "system prompt"
+        ],
+        "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。"
+      },
+      {
+        "id": "term-prompt",
+        "term": "提示词（prompt）",
+        "aliases": [
+          "提示词",
+          "prompt",
+          "Prompt 文本"
+        ],
+        "definition": "交给 AI 的任务说明、指令或输入文本。"
+      },
+      {
+        "id": "term-model-provider-request",
+        "term": "模型提供商请求（model provider request）",
+        "aliases": [
+          "模型提供商请求",
+          "model provider request",
+          "模型请求"
+        ],
+        "definition": "执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。"
+      },
+      {
+        "id": "term-model",
+        "term": "模型（model）",
+        "aliases": [
+          "模型",
+          "model",
+          "AI 模型"
+        ],
+        "definition": "根据输入产生预测或回答的计算模型；在本文本模型语境中，它接收文字片段并预测后续片段。"
+      },
+      {
+        "id": "term-harness",
+        "term": "智能体执行框架（harness）",
+        "aliases": [
+          "智能体执行框架",
+          "harness",
+          "执行框架"
+        ],
+        "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。"
+      },
+      {
+        "id": "term-tool",
+        "term": "工具（tool）",
+        "aliases": [
+          "工具",
+          "tool",
+          "工具函数"
+        ],
+        "definition": "供 AI 助手请求调用、由软件执行的功能，例如读取文件或运行命令。"
+      },
+      {
+        "id": "term-token",
+        "term": "Token",
+        "aliases": [
+          "Token",
+          "token",
+          "词元"
+        ],
+        "definition": "模型读取和生成文本时使用的基本单位，不等同于一个汉字或一个英文单词。"
+      },
+      {
+        "id": "term-prefix-cache",
+        "term": "前缀缓存（prefix cache）",
+        "aliases": [
+          "前缀缓存",
+          "prefix cache"
+        ],
+        "definition": "模型服务复用请求开头相同部分的已处理结果的机制。"
+      },
+      {
+        "id": "term-agent",
+        "term": "智能体（agent）",
+        "aliases": [
+          "智能体",
+          "agent",
+          "AI 编码智能体",
+          "AI coding agent"
+        ],
+        "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。"
+      },
+      {
+        "id": "term-session",
+        "term": "会话（session）",
+        "aliases": [
+          "会话",
+          "session"
+        ],
+        "definition": "与 AI 助手进行的一段有边界的交互，期间积累消息与工作记录。"
+      },
+      {
+        "id": "term-turn",
+        "term": "工作轮次（turn）",
+        "aliases": [
+          "工作轮次",
+          "turn",
+          "轮次"
+        ],
+        "definition": "从用户发来一条消息，到助手完成本次响应并交回控制权的一轮交互，可包含多次模型请求。"
+      },
+      {
+        "id": "term-input-tokens",
+        "term": "输入 Token（input tokens）",
+        "aliases": [
+          "输入 Token",
+          "input tokens"
+        ],
+        "definition": "一次模型请求中交给模型读取的 Token，包括指令、消息及提供的工具结果等。"
+      },
+      {
+        "id": "term-agents-md",
+        "term": "AGENTS.md",
+        "aliases": [
+          "AGENTS.md"
+        ],
+        "definition": "供支持这一约定的 AI 编码工具读取的项目说明文件，用来提供项目规则与工作指引。"
+      },
+      {
+        "id": "term-markdown",
+        "term": "Markdown",
+        "aliases": [
+          "Markdown"
+        ],
+        "definition": "用简单文字标记表示标题、列表和链接等格式的写法。"
+      },
+      {
+        "id": "term-context",
+        "term": "上下文（context）",
+        "aliases": [
+          "上下文",
+          "context"
+        ],
+        "definition": "当前任务相关、已提供给助手使用的信息。"
+      },
+      {
+        "id": "term-tool-call",
+        "term": "工具调用请求（tool call）",
+        "aliases": [
+          "工具调用请求",
+          "tool call"
+        ],
+        "definition": "模型给出的工具名称和参数等调用指令；指令本身不等于动作已经执行。"
+      },
+      {
+        "id": "term-tool-result",
+        "term": "工具结果（tool result）",
+        "aliases": [
+          "工具结果",
+          "tool result"
+        ],
+        "definition": "执行工具后返回给助手的信息，例如文件内容、命令输出或错误。"
+      }
+    ],
+    "check": {
+      "title": "读完后，试着回答",
+      "items": [],
+      "questions": [
+        {
+          "question": "为什么同一个模型，在两个工具里可能表现不同？",
+          "answer": "执行框架可能提供了不同的系统提示词和其他输入。"
+        },
+        {
+          "question": "你发出消息前，模型是否已经读过系统提示词？",
+          "answer": "不能这样推断；输入排列顺序不代表提前处理。"
+        },
+        {
+          "question": "系统提示词不变，就一定更省钱吗？",
+          "answer": "不一定，还要看缓存是否命中和服务如何计费。"
+        }
+      ]
+    },
+    "originalExamplesInline": true
+  },
+  "manifest": {
+    "route": "/ai-coding-dictionary/system-prompt",
+    "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+    "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
+    "translationPath": "content/learning/system-prompt/article.md",
+    "translationHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T05:04:30.070Z",
+    "assembly": {
+      "configHash": "4daee2e0fc614eb7c59faa0fe38a20332d16930115024a9107f4505751ecd247",
+      "checkedAt": "2026-10-13T05:04:30.070Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary",
+          "state": "planned-chinese",
+          "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+        },
+        {
+          "route": "/ai-coding-dictionary/harness",
+          "state": "planned-chinese",
+          "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+        },
+        {
+          "route": "/ai-coding-dictionary/model-provider-request",
+          "state": "planned-chinese",
+          "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+        },
+        {
+          "route": "/ai-coding-dictionary/model",
+          "state": "planned-chinese",
+          "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+        },
+        {
+          "route": "/ai-coding-dictionary/tool",
+          "state": "planned-chinese",
+          "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+        },
+        {
+          "route": "/ai-coding-dictionary/session",
+          "state": "planned-chinese",
+          "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+        },
+        {
+          "route": "/ai-coding-dictionary/token",
+          "state": "planned-chinese",
+          "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+        },
+        {
+          "route": "/ai-coding-dictionary/turn",
+          "state": "planned-chinese",
+          "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+        },
+        {
+          "route": "/ai-coding-dictionary/input-tokens",
+          "state": "planned-chinese",
+          "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+        },
+        {
+          "route": "/ai-coding-dictionary/agents-md",
+          "state": "planned-chinese",
+          "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+        }
+      ],
+      "staleChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/agent",
+          "sourceHash": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+          "currentSourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91"
+        },
+        {
+          "route": "/ai-coding-dictionary/prefix-cache",
+          "sourceHash": "1b3aa55261ba6fa24279cef97d89074f7b9fdec0f9851077b8978bef63198e4f",
+          "currentSourceHash": "9101031d9fd11f9e7f593a8ec5038ad595d6f0bda46622f0cb8ebe5634d3a295"
+        }
+      ]
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "planned-chinese",
+      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "planned-chinese",
+      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "planned-chinese",
+      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "planned-chinese",
+      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/learning/system-prompt/article.md",
+      "sha256": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "7c596993411e2afbab585e3b5c50edaa78e443af09091f6b14cf9d98088c0598"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "c6b4e9c6e05b2d91a6fb441372a2629c17d274f8a85fb2d79c55d9f4f063321b"
+    },
+    {
+      "path": "content/learning/pilot-knowledge.json",
+      "sha256": "506636130ad111e770002c08775778fc8b1dabc1114e4875ed6f72af01d42856"
+    }
+  ]
+}

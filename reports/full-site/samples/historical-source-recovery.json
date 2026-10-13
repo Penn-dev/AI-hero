@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-13T04:33:58.395Z",
+  "gitBase": "071bde50a3d470a70fa931169c647e85c3598d0b",
+  "gitObject": "071bde5:content/source/ai-coding-dictionary/system-prompt.md",
+  "sourceId": "dictionary-source",
+  "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+  "archivePath": "content/learning/shared/source-snapshots/system-prompt-071bde5.md",
+  "bytes": 2167,
+  "archiveHash": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+  "currentProfileSourceId": "samples-system-prompt-source",
+  "note": "Historical evidence only; not a current source acquisition. ID, SHA and concept definitions unchanged. Path relocation must pass the unified assembly entry."
+}

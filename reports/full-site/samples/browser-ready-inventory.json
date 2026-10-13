@@ -1,0 +1,14 @@
+[
+  {
+    "action": "list_tabs",
+    "args": {},
+    "checkedAt": "2026-10-13T05:04:52.154Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "success": true,
+        "tabs": []
+      }
+    }
+  }
+]

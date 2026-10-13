@@ -1,0 +1,3413 @@
+[
+  {
+    "action": "cdp",
+    "args": {
+      "method": "Emulation.setFocusEmulationEnabled",
+      "params": {
+        "enabled": false
+      }
+    },
+    "checkedAt": "2026-10-13T05:11:16.788Z",
+    "result": {
+      "ok": true,
+      "data": {}
+    }
+  },
+  {
+    "action": "cdp",
+    "args": {
+      "method": "Emulation.setDeviceMetricsOverride",
+      "params": {
+        "width": 390,
+        "height": 844,
+        "deviceScaleFactor": 1,
+        "mobile": true
+      }
+    },
+    "checkedAt": "2026-10-13T05:11:16.984Z",
+    "result": {
+      "ok": true,
+      "data": {}
+    }
+  },
+  {
+    "action": "navigate",
+    "args": {
+      "url": "http://127.0.0.1:4322/a-complete-guide-to-agents-md",
+      "newTab": false
+    },
+    "checkedAt": "2026-10-13T05:11:18.064Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "success": true,
+        "url": "http://127.0.0.1:4322/a-complete-guide-to-agents-md",
+        "tabId": 1478889070,
+        "frameId": "A22567C9AEA4E4C79B70794E0C207BB1"
+      }
+    }
+  },
+  {
+    "action": "evaluate",
+    "args": {
+      "code": "(async()=>{await new Promise(r=>setTimeout(r,700));return JSON.stringify({ready:document.readyState,width:innerWidth,client:document.documentElement.clientWidth,scroll:document.documentElement.scrollWidth,headings:[...document.querySelectorAll('.markdown-body h2,.markdown-body h3')].map(e=>({id:e.id,text:e.textContent})),details:[...document.querySelectorAll('details')].map(d=>({open:d.open,summary:d.querySelector('summary')?.textContent})),codes:[...document.querySelectorAll('figure.code-frame')].map((f,i)=>({i,language:f.getAttribute('data-language'),caption:f.querySelector('figcaption span').textContent,text:f.querySelector('pre').textContent})),links:[...document.querySelectorAll('.markdown-body a')].map(a=>({text:a.textContent,href:a.getAttribute('href')}))})})()"
+    },
+    "checkedAt": "2026-10-13T05:11:19.178Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "type": "string",
+        "value": "{\"ready\":\"complete\",\"width\":390,\"client\":390,\"scroll\":390,\"headings\":[{\"id\":\"什么是-agents-md\",\"text\":\"什么是 AGENTS.md？\"},{\"id\":\"为什么超大的-agents-md-文件是个问题\",\"text\":\"为什么超大的 AGENTS.md 文件是个问题\"},{\"id\":\"指令预算\",\"text\":\"指令预算\"},{\"id\":\"过时的文档会污染上下文\",\"text\":\"过时的文档会污染上下文\"},{\"id\":\"缩减庞大的-agents-md-文件\",\"text\":\"缩减庞大的 AGENTS.md 文件\"},{\"id\":\"一句话项目说明\",\"text\":\"一句话项目说明\"},{\"id\":\"指定包管理器\",\"text\":\"指定包管理器\"},{\"id\":\"使用渐进式披露\",\"text\":\"使用渐进式披露\"},{\"id\":\"多项目单仓库中的-agents-md\",\"text\":\"多项目单仓库中的 AGENTS.md\"},{\"id\":\"各层分别放什么\",\"text\":\"各层分别放什么\"},{\"id\":\"用这个提示词-prompt-修复有问题的-agents-md\",\"text\":\"用这个提示词（Prompt）修复有问题的 AGENTS.md\"},{\"id\":\"别让-agents-md-变成难以维护的-大杂烩\",\"text\":\"别让 AGENTS.md 变成难以维护的“大杂烩”\"},{\"id\":\"译注-做一次放置判断\",\"text\":\"译注：做一次放置判断\"}],\"details\":[{\"open\":false,\"summary\":\"CLAUDE.md\"},{\"open\":false,\"summary\":\"Corepack 也很好用\"}],\"codes\":[{\"i\":0,\"language\":\"bash\",\"caption\":\"bash\",\"text\":\"# Create a symlink from AGENTS.md to CLAUDE.md\\nln -s AGENTS.md CLAUDE.md\\n\"},{\"i\":1,\"language\":\"markdown\",\"caption\":\"markdown\",\"text\":\"This is a React component library for accessible data visualization.\\n\"},{\"i\":2,\"language\":\"text\",\"caption\":\"text\",\"text\":\"这是一个用于无障碍数据可视化的 React 组件库。\\n\"},{\"i\":3,\"language\":\"markdown\",\"caption\":\"markdown\",\"text\":\"This project uses pnpm workspaces.\\n\"},{\"i\":4,\"language\":\"text\",\"caption\":\"text\",\"text\":\"本项目使用 pnpm workspaces。\\n\"},{\"i\":5,\"language\":\"markdown\",\"caption\":\"markdown\",\"text\":\"Always use const instead of let.\\nNever use var.\\nUse interface instead of type when possible.\\nUse strict null checks.\\n...\\n\"},{\"i\":6,\"language\":\"text\",\"caption\":\"text\",\"text\":\"始终使用 const，而不要使用 let。\\n绝不使用 var。\\n只要条件允许，就使用 interface 而不是 type。\\n使用严格的空值检查。\\n……\\n\"},{\"i\":7,\"language\":\"markdown\",\"caption\":\"markdown\",\"text\":\"For TypeScript conventions, see docs/TYPESCRIPT.md\\n\"},{\"i\":8,\"language\":\"text\",\"caption\":\"text\",\"text\":\"TypeScript 编码约定请参阅 docs/TYPESCRIPT.md。\\n\"},{\"i\":9,\"language\":\"code\",\"caption\":\"代码示例\",\"text\":\"docs/\\n├── TYPESCRIPT.md\\n│   └── references TESTING.md\\n├── TESTING.md\\n│   └── references specific test runners\\n└── BUILD.md\\n    └── references esbuild configuration\\n\"},{\"i\":10,\"language\":\"markdown\",\"caption\":\"markdown\",\"text\":\"This is a monorepo containing web services and CLI tools.\\nUse pnpm workspaces to manage dependencies.\\nSee each package's AGENTS.md for specific guidelines.\\n\"},{\"i\":11,\"language\":\"text\",\"caption\":\"text\",\"text\":\"这是一个包含 Web 服务和 CLI 工具的多项目单仓库。项目使用 pnpm workspaces 管理依赖；每个软件包的具体规范，请查看该包自己的 AGENTS.md。\\n\"},{\"i\":12,\"language\":\"markdown\",\"caption\":\"markdown\",\"text\":\"This package is a Node.js GraphQL API using Prisma.\\nFollow docs/API_CONVENTIONS.md for API design patterns.\\n\"},{\"i\":13,\"language\":\"text\",\"caption\":\"text\",\"text\":\"这个包提供一个使用 Prisma 的 Node.js GraphQL API。API 设计请遵循 docs/API_CONVENTIONS.md 中的规范。\\n\"},{\"i\":14,\"language\":\"txt\",\"caption\":\"txt\",\"text\":\"I want you to refactor my AGENTS.md file to follow progressive disclosure principles.\\n\\nFollow these steps:\\n\\n1. **Find contradictions**: Identify any instructions that conflict with each other. For each contradiction, ask me which version I want to keep.\\n\\n2. **Identify the essentials**: Extract only what belongs in the root AGENTS.md:\\n   - One-sentence project description\\n   - Package manager (if not npm)\\n   - Non-standard build/typecheck commands\\n   - Anything truly relevant to every single task\\n\\n3. **Group the rest**: Organize remaining instructions into logical categories (e.g., TypeScript conventions, testing patterns, API design, Git workflow). For each group, create a separate markdown file.\\n\\n4. **Create the file structure**: Output:\\n   - A minimal root AGENTS.md with markdown links to the separate files\\n   - Each separate file with its relevant instructions\\n   - A suggested docs/ folder structure\\n\\n5. **Flag for deletion**: Identify any instructions that are:\\n   - Redundant (the agent already knows this)\\n   - Too vague to be actionable\\n   - Overly obvious (like \\\"write clean code\\\")\\n\"},{\"i\":15,\"language\":\"text\",\"caption\":\"text\",\"text\":\"我希望你重构我的 AGENTS.md 文件，使它遵循渐进式披露原则。\\n\\n请按以下步骤操作：\\n\\n1. **找出冲突**：找出所有相互冲突的指令。每发现一处冲突，都询问我想保留哪个版本。\\n\\n2. **找出核心内容**：只提取适合放在根目录 AGENTS.md 中的内容：\\n   - 一句话的项目说明\\n   - 包管理器（如果使用的不是 npm）\\n   - 非标准的构建/类型检查命令\\n   - 确实与每一项任务都相关的内容\\n\\n3. **归类其余内容**：把剩余指令按合理的类别整理（例如 TypeScript 约定、测试模式、API 设计、Git 工作流），并为每个类别创建一份单独的 Markdown 文件。\\n\\n4. **创建文件结构**：输出以下内容：\\n   - 一份精简的根目录 AGENTS.md，其中包含指向各个独立文件的 Markdown 链接\\n   - 每份独立文件，以及属于该文件的相关指令\\n   - 建议采用的 `docs/` 文件夹结构\\n\\n5. **标记建议删除的内容**：找出以下几类指令：\\n   - 重复多余（智能体本来就知道）\\n   - 太模糊，无法实际执行\\n   - 过于显而易见（例如“写干净的代码”）\\n\"}],\"links\":[{\"text\":\"\",\"href\":\"#什么是-agents-md\"},{\"text\":\"↗\",\"href\":\"/ai-coding-dictionary/agent\"},{\"text\":\"↗\",\"href\":\"/ai-coding-dictionary/system-prompt\"},{\"text\":\"\",\"href\":\"#为什么超大的-agents-md-文件是个问题\"},{\"text\":\"\",\"href\":\"#指令预算\"},{\"text\":\"这篇文章\",\"href\":\"https://www.humanlayer.dev/blog/writing-a-good-claude-md\"},{\"text\":\"\",\"href\":\"#过时的文档会污染上下文\"},{\"text\":\"\",\"href\":\"#缩减庞大的-agents-md-文件\"},{\"text\":\"\",\"href\":\"#一句话项目说明\"},{\"text\":\"\",\"href\":\"#指定包管理器\"},{\"text\":\"corepack\",\"href\":\"https://github.com/nodejs/corepack\"},{\"text\":\"\",\"href\":\"#使用渐进式披露\"},{\"text\":\"↗\",\"href\":\"/ai-coding-dictionary/progressive-disclosure\"},{\"text\":\"\",\"href\":\"#把特定编程语言的规则移到单独文件中\"},{\"text\":\"\",\"href\":\"#嵌套渐进式披露\"},{\"text\":\"\",\"href\":\"#使用智能体-skill\"},{\"text\":\"查看 Skill 集合（原站入口）\",\"href\":\"https://www.aihero.dev/a-complete-guide-to-agents-md\"},{\"text\":\"\",\"href\":\"#多项目单仓库中的-agents-md\"},{\"text\":\"\",\"href\":\"#各层分别放什么\"},{\"text\":\"\",\"href\":\"#用这个提示词-prompt-修复有问题的-agents-md\"},{\"text\":\"查看原站订阅入口\",\"href\":\"https://www.aihero.dev/a-complete-guide-to-agents-md\"},{\"text\":\"\",\"href\":\"#别让-agents-md-变成难以维护的-大杂烩\"},{\"text\":\"\",\"href\":\"#译注-做一次放置判断\"}]}"
+      }
+    }
+  },
+  {
+    "action": "snapshot",
+    "args": {},
+    "checkedAt": "2026-10-13T05:11:19.329Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "url": "http://127.0.0.1:4322/a-complete-guide-to-agents-md",
+        "title": "AGENTS.md 完整指南 | AI Hero 中文学习版",
+        "tree": [
+          {
+            "role": "main",
+            "children": [
+              {
+                "role": "StaticText",
+                "name": "中文"
+              },
+              {
+                "role": "StaticText",
+                "name": "AI Hero 授权中文学习版"
+              },
+              {
+                "role": "sectionheader",
+                "children": [
+                  {
+                    "role": "link",
+                    "name": "AIHero",
+                    "ref": "@e177",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "AI"
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "Hero"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "navigation",
+                    "name": "文章导航",
+                    "children": [
+                      {
+                        "role": "link",
+                        "name": "首页",
+                        "ref": "@e178",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "首页"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "开始阅读",
+                        "ref": "@e179",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "开始阅读"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "英文原文",
+                        "ref": "@e180",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "英文原文"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "link",
+                    "name": "查看英文原文 ↗",
+                    "ref": "@e181",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "查看英文原文 ↗"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "role": "StaticText",
+                "name": "AI HERO 中文教程"
+              },
+              {
+                "role": "heading",
+                "name": "AGENTS.md 完整指南",
+                "children": [
+                  {
+                    "role": "StaticText",
+                    "name": "AGENTS.md 完整指南"
+                  }
+                ]
+              },
+              {
+                "role": "StaticText",
+                "name": "了解如何为 AI 编码智能体优化 AGENTS.md 文件。掌握渐进式披露，让指令保持聚焦，并充分发挥智能体的能力。"
+              },
+              {
+                "role": "StaticText",
+                "name": "Matt Pocock"
+              },
+              {
+                "role": "StaticText",
+                "name": "·"
+              },
+              {
+                "role": "StaticText",
+                "name": "18 分钟"
+              },
+              {
+                "role": "StaticText",
+                "name": "阅读"
+              },
+              {
+                "role": "StaticText",
+                "name": "·"
+              },
+              {
+                "role": "StaticText",
+                "name": "原文更新于 "
+              },
+              {
+                "role": "StaticText",
+                "name": "2026/1/18"
+              },
+              {
+                "role": "article",
+                "children": [
+                  {
+                    "role": "region",
+                    "name": "开始前，先知道三件事",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "中文学习辅助"
+                      },
+                      {
+                        "role": "heading",
+                        "name": "开始前，先知道三件事",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "开始前，先知道三件事"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "strong",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "学完能做什么"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "判断哪些规则该留在根目录，并写出一份简洁、不会拖累 AI 的 AGENTS.md。"
+                      },
+                      {
+                        "role": "strong",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "需要准备什么"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "无需编程基础。只要能找到项目文件夹，并能用文本编辑器或 AI 编码工具创建文件即可。"
+                      },
+                      {
+                        "role": "strong",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "遇到陌生词怎么办"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "点击正文中带虚线的术语，或随时使用右侧／底部的术语速查。"
+                      },
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "先认识这几个词 "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "点击即可查看解释"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "button",
+                        "name": "Markdown",
+                        "ref": "@e182",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Markdown"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "button",
+                        "name": "智能体（agent）",
+                        "ref": "@e183",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "智能体（agent）"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "可直接理解的最小示例"
+                      },
+                      {
+                        "role": "button",
+                        "name": "复制代码",
+                        "ref": "@e184",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "复制"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "This project is a web application.\nUse npm for dependencies.\nRun npm test before submitting changes."
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "译注：这三句依次表示“这是一个 Web 应用程序项目；使用 npm 管理依赖；提交更改前运行 npm test”。这是中文学习辅助示例，不是英文原文中的示例，也不要求你现在执行这些命令。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "点击带虚线的术语查看解释；旁边的 ↗ 打开对应中文词条或原文资源。"
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "你是否担心过自己的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 文件太大？"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "或许你确实该担心。写得不好的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 会让"
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“智能体（agent）”的术语解释",
+                        "description": "查看术语解释：智能体（agent）",
+                        "ref": "@e185",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "智能体"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "无所适从，给维护带来麻烦，而且每次请求都会额外消耗 "
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“Token”的术语解释",
+                        "description": "查看术语解释：Token",
+                        "ref": "@e186",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Token"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "所以，你最好了解该怎样解决这些问题。"
+                  },
+                  {
+                    "role": "heading",
+                    "name": "什么是 AGENTS.md？ 前往“什么是 AGENTS.md？”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "什么是 AGENTS.md？"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“什么是 AGENTS.md？”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e187"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 是一个提交到 "
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“Git”的术语解释",
+                        "description": "查看术语解释：Git",
+                        "ref": "@e188",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Git"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 仓库的 "
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“Markdown”的术语解释",
+                        "description": "查看术语解释：Markdown",
+                        "ref": "@e189",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Markdown"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 文件，用来定制 AI 编码"
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“智能体（agent）”的术语解释",
+                        "ref": "@e190",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "智能体"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "查看“智能体（agent）”的来源",
+                        "description": "查看来源",
+                        "ref": "@e191",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "↗"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "在代码库中的行为。它位于对话历史的开头，紧接在"
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“系统提示词（system prompt）”的术语解释",
+                        "ref": "@e192",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "系统提示词"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "查看“系统提示词（system prompt）”的来源",
+                        "description": "查看来源",
+                        "ref": "@e193",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "↗"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "之后。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注：先认识三个名字。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " Git 是记录和管理文件版本变化的工具；Markdown 是用简单文字标记表示标题、列表和链接等格式的写法；智能体是由模型和配套软件等组成、可以接收任务并使用工具开展工作的 AI 助手。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注：这里说的“位置”有范围。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "button",
+                            "name": "查看“系统提示词（system prompt）”的术语解释",
+                            "description": "查看术语解释：系统提示词（system prompt）",
+                            "ref": "@e194",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "系统提示词（system prompt）"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "是随一次模型请求提供的基础指令，用来约定角色和行为等要求。负责组织输入、提供工具并管理交互的软件称为"
+                          },
+                          {
+                            "role": "button",
+                            "name": "查看“智能体执行框架（harness）”的术语解释",
+                            "description": "查看术语解释：智能体执行框架（harness）",
+                            "ref": "@e195",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "智能体执行框架（harness）"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "。原文描述的是作者所用工具组织输入的方式；输入中的先后位置不等于一条适用于所有产品的固定优先级结论。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "你可以把它理解为一层配置，连接智能体的基础指令和你的实际代码库。文件里可以包含两类指引："
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "个人范围"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "：你偏好的提交风格和编码模式"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "项目范围"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "：项目的用途、使用的"
+                          },
+                          {
+                            "role": "button",
+                            "name": "查看“包管理器”的术语解释",
+                            "description": "查看术语解释：包管理器",
+                            "ref": "@e196",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "包管理器"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "和架构决策"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 是一项开放标准，许多工具支持它，但并非所有工具都支持。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "group",
+                    "children": [
+                      {
+                        "role": "DisclosureTriangle",
+                        "name": "CLAUDE.md",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "CLAUDE.md"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "为什么超大的 AGENTS.md 文件是个问题 前往“为什么超大的 AGENTS.md 文件是个问题”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "为什么超大的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 文件是个问题"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“为什么超大的 AGENTS.md 文件是个问题”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e197"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 往往会在一种自然形成的反馈循环中越写越大，最终膨胀到危险的程度："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "1. "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "智能体做了你不喜欢的事"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "2. "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "你添加一条规则，防止它再这样做"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "3. "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "几个月里重复数百次"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "4. "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "文件变成难以维护的“大杂烩”"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "不同的开发者会加入彼此冲突的意见，却没有人从头到尾统一梳理文件风格。最终得到的不是一份好用的说明，而是一堆难以维护、甚至会降低智能体表现的混乱内容。"
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "另一个罪魁祸首是自动生成的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "。绝不要用初始化脚本自动生成它。这类脚本会把“对大多数场景有用”的内容一股脑塞进文件，而这些内容更适合在需要时逐步提供。自动生成的文件追求面面俱到，却缺少必要的克制。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "指令预算 前往“指令预算”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "指令预算"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“指令预算”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e198"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "Humanlayer 的 Kyle 在"
+                      },
+                      {
+                        "role": "link",
+                        "name": "这篇文章",
+                        "ref": "@e199",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "这篇文章"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "中提到“指令预算”这个概念："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "具备推理能力的前沿大语言模型（LLM），通常能较为稳定地遵循约 150～200 条指令。小模型能兼顾的指令通常少于大模型；不进行显式推理的模型，能兼顾的指令也通常少于推理模型。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注：这是一项引用估计。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " “约 150～200 条”不是所有模型都适用的固定上限。它在这里用来说明：规则越多，彼此竞争注意力或发生冲突的机会通常越大。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "无论内容与当前任务是否相关，"
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 中的每个 Token 都会在"
+                      },
+                      {
+                        "role": "strong",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "每一次请求"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "时加载。这就带来了严格的预算限制："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "table",
+                    "children": [
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "columnheader",
+                            "name": "情况",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "情况"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "columnheader",
+                            "name": "影响",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "影响"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "cell",
+                            "name": "小而聚焦的 AGENTS.md",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "小而聚焦的 "
+                              },
+                              {
+                                "role": "code",
+                                "children": [
+                                  {
+                                    "role": "StaticText",
+                                    "name": "AGENTS.md"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "role": "cell",
+                            "name": "能为当前任务的专属指令留出更多 Token",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "能为当前任务的专属指令留出更多 Token"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "cell",
+                            "name": "大而臃肿的 AGENTS.md",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "大而臃肿的 "
+                              },
+                              {
+                                "role": "code",
+                                "children": [
+                                  {
+                                    "role": "StaticText",
+                                    "name": "AGENTS.md"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "role": "cell",
+                            "name": "真正用于工作的 Token 更少，智能体也更容易困惑",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "真正用于工作的 Token 更少，智能体也更容易困惑"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "cell",
+                            "name": "无关指令",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "无关指令"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "cell",
+                            "name": "浪费 Token，又分散智能体注意力，表现因而变差",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "浪费 Token，又分散智能体注意力，表现因而变差"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "综合来看，"
+                      },
+                      {
+                        "role": "strong",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "理想的 "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "AGENTS.md"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 应当尽可能精简。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注：这里的“每次请求”指模型请求。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 一次用户操作可能触发一次或多次模型请求；不同工具和版本加载项目规则的时机、范围和方式也可能不同。实际使用时，应以所用工具的当前说明为准。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "过时的文档会污染上下文 前往“过时的文档会污染上下文”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "过时的文档会污染上下文"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“过时的文档会污染上下文”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e200"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "大型 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 还有一个问题：内容容易过时。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "文档很快就可能跟不上实际情况。对人类开发者来说，过时的文档固然麻烦，但人通常能凭经验察觉其中的问题，不会全盘照信。对于每次请求都会读取文档的 AI 智能体来说，过时信息会直接"
+                      },
+                      {
+                        "role": "emphasis",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "污染"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“上下文（context）”的术语解释",
+                        "description": "查看术语解释：上下文（context）",
+                        "ref": "@e201",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "上下文"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "记录文件系统结构时尤其危险，因为文件路径经常变化。如果 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 写着“认证逻辑位于 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "src/auth/handlers.ts"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "”，而这个文件后来改了名或换了位置，智能体仍可能信心十足地去错误的位置查找。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "与其详细记录目录结构，不如描述项目具备哪些能力。你可以提示相关内容可能在哪里，并说明项目的大致组织方式。让智能体在规划时按需整理当前需要的文档。"
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "领域概念（例如“organization”“group”和“workspace”之间的区别）通常比文件路径稳定，因此更适合写进文档。不过，在快速迭代、由 AI 辅助开发的代码库中，就连这些概念也可能变化。记录时不要写得过细、过死。"
+                  },
+                  {
+                    "role": "heading",
+                    "name": "缩减庞大的 AGENTS.md 文件 前往“缩减庞大的 AGENTS.md 文件”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "缩减庞大的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 文件"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“缩减庞大的 AGENTS.md 文件”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e202"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "要严格筛选哪些内容值得放在这里。把下面几项视为绝对最低限度："
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "一句话的项目说明"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "（作用类似于为智能体设定角色的"
+                          },
+                          {
+                            "role": "button",
+                            "name": "查看“提示词（Prompt）”的术语解释",
+                            "description": "查看术语解释：提示词（Prompt）",
+                            "ref": "@e203",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "提示词"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "）"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "包管理器"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "（如果使用的不是 npm；也可以用 "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "corepack"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 自动给出警告）"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "构建/类型检查命令"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "（如果不是常见的标准命令）"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "说真的，这些就够了。其他内容都应该放到别处。"
+                  },
+                  {
+                    "role": "heading",
+                    "name": "一句话项目说明 前往“一句话项目说明”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "一句话项目说明"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“一句话项目说明”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e204"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "这一句话能让智能体明白自己"
+                      },
+                      {
+                        "role": "emphasis",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "为什么"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "要在这个仓库里工作，并为它后续的决定提供基本方向。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "示例："
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "markdown"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e205",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "This is a React component library for accessible data visualization.\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "中文版 Prompt（译注）："
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "text"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e206",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "这是一个用于无障碍数据可视化的 React 组件库。\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "这就是最基本的背景。有了它，智能体便知道自己的工作范围。"
+                  },
+                  {
+                    "role": "heading",
+                    "name": "指定包管理器 前往“指定包管理器”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "指定包管理器"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“指定包管理器”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e207"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "如果你在 JavaScript 项目中使用的不是 npm，请明确告诉智能体："
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "markdown"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e208",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "This project uses pnpm workspaces.\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "中文版 Prompt（译注）："
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "text"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e209",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "本项目使用 pnpm workspaces。\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "如果没有这条说明，智能体可能会默认使用 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "npm"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "，从而生成不适用于当前项目的命令。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "group",
+                    "children": [
+                      {
+                        "role": "DisclosureTriangle",
+                        "name": "Corepack 也很好用",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Corepack 也很好用"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "使用渐进式披露 前往“使用渐进式披露”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "使用渐进式披露"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“使用渐进式披露”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e210"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "不要把所有内容都塞进 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "。应该采用"
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“渐进式披露”的术语解释",
+                        "ref": "@e211",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "渐进式披露"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "查看“渐进式披露”的来源",
+                        "description": "查看来源",
+                        "ref": "@e212",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "↗"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "：先只提供眼下需要的信息，再通过清晰的入口告诉智能体去哪里查找细节。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "智能体很擅长快速浏览层层组织的文档，也能根据上下文找到自己需要的内容。"
+                  },
+                  {
+                    "role": "heading",
+                    "name": "把特定编程语言的规则移到单独文件中 前往“把特定编程语言的规则移到单独文件中”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "把特定编程语言的规则移到单独文件中"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“把特定编程语言的规则移到单独文件中”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e213"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "如果你的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 目前写着："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "markdown"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e214",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Always use const instead of let.\nNever use var.\nUse interface instead of type when possible.\nUse strict null checks.\n...\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "中文版 Prompt（译注）："
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "text"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e215",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "始终使用 const，而不要使用 let。\n绝不使用 var。\n只要条件允许，就使用 interface 而不是 type。\n使用严格的空值检查。\n……\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注："
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 这些是“待迁移规则”的原例，用来说明专用规则不宜长期塞在根文件里，并不是本教程要求所有项目普遍采用的编码规范。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "请把这些内容移到单独的文件中。然后在根目录的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 里写："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "markdown"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e216",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "For TypeScript conventions, see docs/TYPESCRIPT.md\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "中文版 Prompt（译注）："
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "text"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e217",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "TypeScript 编码约定请参阅 docs/TYPESCRIPT.md。\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "注意，这句话写得很克制：没有使用“always”，也没有用全大写来强调命令，只是自然地告诉智能体去哪里查阅规则。"
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "这样做有几个好处："
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "在编写 TypeScript 时，智能体才需要查阅 TypeScript 规则"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "处理其他任务时，例如调试 CSS 或管理依赖，不必让这些规则占据当前上下文"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "根文件保持聚焦，也更容易适配模型变化"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注："
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 按需查阅以工具能读取目标文件、入口有效为前提，具体加载方式取决于工具。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "嵌套渐进式披露 前往“嵌套渐进式披露”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "嵌套渐进式披露"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“嵌套渐进式披露”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e218"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "你还可以把文档分得更细。例如，"
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "docs/TYPESCRIPT.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 可以再引用 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "docs/TESTING.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "，由此形成一棵容易查找的资源树："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "代码示例"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e219",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "docs/\n├── TYPESCRIPT.md\n│   └── references TESTING.md\n├── TESTING.md\n│   └── references specific test runners\n└── BUILD.md\n    └── references esbuild configuration\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注：如何读这幅图。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "references"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 表示相应文档还会引导智能体继续查阅另一份资料；图中展示的是文档之间的指向关系，并不是要求你创建名为 "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "references"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 的目录。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "你甚至可以链接到 Prisma、Next.js 等项目的外部文档。智能体能够高效地沿着这些层级查找资料。"
+                  },
+                  {
+                    "role": "heading",
+                    "name": "使用智能体 Skill 前往“使用智能体 Skill”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "使用智能体 Skill"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“使用智能体 Skill”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e220"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "许多工具支持“智能体 "
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“Skill”的术语解释",
+                        "description": "查看术语解释：Skill",
+                        "ref": "@e221",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Skill"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "”：可供智能体调用的命令或工作流，帮助它了解怎样完成一项具体任务。这也是"
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“渐进式披露”的术语解释",
+                        "description": "查看术语解释：渐进式披露",
+                        "ref": "@e222",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "渐进式披露"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "的一种形式，因为智能体只会在需要时加载相关知识。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注：Skill 不是所有工具共有的固定功能。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 不同产品可能使用不同名称、文件格式和加载机制，使用时应查看对应工具的说明。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "我们会在另一篇文章中深入介绍智能体 Skill。"
+                  },
+                  {
+                    "role": "strong",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "出色的 AGENTS.md 是第一步"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "看看我在 AGENTS.md 基础上使用哪些 Skill，把文件里的规则变成真正交付的成果。"
+                  },
+                  {
+                    "role": "link",
+                    "name": "查看 Skill 集合（原站入口）",
+                    "ref": "@e223",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "查看 Skill 集合（原站入口）"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注："
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 这是原文的 Skill 推广区。来源组件没有给出具体按钮地址，因此保留原文章入口，供你查看原站的 Skill 集合按钮。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "多项目单仓库中的 AGENTS.md 前往“多项目单仓库中的 AGENTS.md”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "多项目单仓库中的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“多项目单仓库中的 AGENTS.md”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e224"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 不必只放在仓库根目录。你还可以在子目录中放置 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 文件，它们会"
+                      },
+                      {
+                        "role": "strong",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "与根目录文件合并"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "这对"
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“多项目单仓库（monorepo）”的术语解释",
+                        "description": "查看术语解释：多项目单仓库（monorepo）",
+                        "ref": "@e225",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "多项目单仓库"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "（monorepo，也就是把多个相关项目或软件包放在同一个仓库中管理）尤其有用："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注：合并规则取决于具体工具。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 哪些文件会被发现、按什么顺序组合、冲突时谁生效，都可能随工具和版本变化。以下分层方法可以帮助组织内容，实际加载行为应以所用工具的说明为准。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "各层分别放什么 前往“各层分别放什么”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "各层分别放什么"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“各层分别放什么”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e226"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "table",
+                    "children": [
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "columnheader",
+                            "name": "层级",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "层级"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "columnheader",
+                            "name": "内容",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "内容"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "cell",
+                            "name": "根目录",
+                            "children": [
+                              {
+                                "role": "strong",
+                                "children": [
+                                  {
+                                    "role": "StaticText",
+                                    "name": "根目录"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "role": "cell",
+                            "name": "整个多项目单仓库的用途、如何找到各个包、共用工具（pnpm workspaces）",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "整个多项目单仓库的用途、如何找到各个包、共用工具（pnpm workspaces）"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "cell",
+                            "name": "包",
+                            "children": [
+                              {
+                                "role": "strong",
+                                "children": [
+                                  {
+                                    "role": "StaticText",
+                                    "name": "包"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "role": "cell",
+                            "name": "该软件包的用途、具体技术栈和专属约定",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "该软件包的用途、具体技术栈和专属约定"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "根目录的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "markdown"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e227",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "This is a monorepo containing web services and CLI tools.\nUse pnpm workspaces to manage dependencies.\nSee each package's AGENTS.md for specific guidelines.\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "中文版 Prompt（译注）："
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "text"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e228",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "这是一个包含 Web 服务和 CLI 工具的多项目单仓库。项目使用 pnpm workspaces 管理依赖；每个软件包的具体规范，请查看该包自己的 AGENTS.md。\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "包级的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "（位于 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "packages/api/AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "）："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "markdown"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e229",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "This package is a Node.js GraphQL API using Prisma.\nFollow docs/API_CONVENTIONS.md for API design patterns.\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "中文版 Prompt（译注）："
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "text"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e230",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "这个包提供一个使用 Prisma 的 Node.js GraphQL API。API 设计请遵循 docs/API_CONVENTIONS.md 中的规范。\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "strong",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "任何一层都不要塞入过多内容。"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 智能体会在上下文中看到所有合并后的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "。每个层级只需保留与该范围直接相关的内容。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "用这个提示词（Prompt）修复有问题的 AGENTS.md 前往“用这个提示词（Prompt）修复有问题的 AGENTS.md”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "用这个提示词（Prompt）修复有问题的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“用这个提示词（Prompt）修复有问题的 AGENTS.md”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e231"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "如果你开始担心仓库里的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "，并想按照渐进式披露原则重构它，可以把下面这段提示词直接复制到你的编码智能体中。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注："
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 提示词就是交给 AI 的任务说明、指令或输入文本。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "txt"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e232",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "I want you to refactor my AGENTS.md file to follow progressive disclosure principles.\n\nFollow these steps:\n\n1. **Find contradictions**: Identify any instructions that conflict with each other. For each contradiction, ask me which version I want to keep.\n\n2. **Identify the essentials**: Extract only what belongs in the root AGENTS.md:\n   - One-sentence project description\n   - Package manager (if not npm)\n   - Non-standard build/typecheck commands\n   - Anything truly relevant to every single task\n\n3. **Group the rest**: Organize remaining instructions into logical categories (e.g., TypeScript conventions, testing patterns, API design, Git workflow). For each group, create a separate markdown file.\n\n4. **Create the file structure**: Output:\n   - A minimal root AGENTS.md with markdown links to the separate files\n   - Each separate file with its relevant instructions\n   - A suggested docs/ folder structure\n\n5. **Flag for deletion**: Identify any instructions that are:\n   - Redundant (the agent already knows this)\n   - Too vague to be actionable\n   - Overly obvious (like \"write clean code\")\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "中文版 Prompt（译注）："
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "text"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e233",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "我希望你重构我的 AGENTS.md 文件，使它遵循渐进式披露原则。\n\n请按以下步骤操作：\n\n1. **找出冲突**：找出所有相互冲突的指令。每发现一处冲突，都询问我想保留哪个版本。\n\n2. **找出核心内容**：只提取适合放在根目录 AGENTS.md 中的内容：\n   - 一句话的项目说明\n   - 包管理器（如果使用的不是 npm）\n   - 非标准的构建/类型检查命令\n   - 确实与每一项任务都相关的内容\n\n3. **归类其余内容**：把剩余指令按合理的类别整理（例如 TypeScript 约定、测试模式、API 设计、Git 工作流），并为每个类别创建一份单独的 Markdown 文件。\n\n4. **创建文件结构**：输出以下内容：\n   - 一份精简的根目录 AGENTS.md，其中包含指向各个独立文件的 Markdown 链接\n   - 每份独立文件，以及属于该文件的相关指令\n   - 建议采用的 `docs/` 文件夹结构\n\n5. **标记建议删除的内容**：找出以下几类指令：\n   - 重复多余（智能体本来就知道）\n   - 太模糊，无法实际执行\n   - 过于显而易见（例如“写干净的代码”）\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "strong",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "通过邮件获取下一次 AGENTS.md 升级"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "当 Matt 改进智能体读取的内容时，接收 Skill 文章和更新日志。"
+                  },
+                  {
+                    "role": "link",
+                    "name": "查看原站订阅入口",
+                    "ref": "@e234",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "查看原站订阅入口"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注："
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 这是原文的邮件订阅区。请在原站使用其订阅服务；本页不提供本地订阅表单。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "别让 AGENTS.md 变成难以维护的“大杂烩” 前往“别让 AGENTS.md 变成难以维护的“大杂烩””章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "别让 AGENTS.md 变成难以维护的“大杂烩”"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“别让 AGENTS.md 变成难以维护的“大杂烩””章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e235"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "每当你准备向 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 添加内容时，先问问自己：它究竟应该放在哪里？"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "table",
+                    "children": [
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "columnheader",
+                            "name": "位置",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "位置"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "columnheader",
+                            "name": "适用时机",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "适用时机"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "cell",
+                            "name": "根目录 AGENTS.md",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "根目录 "
+                              },
+                              {
+                                "role": "code",
+                                "children": [
+                                  {
+                                    "role": "StaticText",
+                                    "name": "AGENTS.md"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "role": "cell",
+                            "name": "与仓库中的每一项任务都相关",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "与仓库中的每一项任务都相关"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "cell",
+                            "name": "单独文件",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "单独文件"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "cell",
+                            "name": "只与某个领域相关（TypeScript、测试等）",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "只与某个领域相关（TypeScript、测试等）"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "row",
+                        "children": [
+                          {
+                            "role": "cell",
+                            "name": "嵌套文档树",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "嵌套文档树"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "cell",
+                            "name": "内容可以按层级组织",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "内容可以按层级组织"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "理想的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 应该小而专注，并把智能体引向其他资料。它只提供足够智能体开始工作的上下文，同时留下线索，方便智能体继续查找更详细的指引。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "其他内容通过渐进式披露来提供：可以放在单独的文件、嵌套的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AGENTS.md"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "，也可以做成 Skill。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "这样可以更有效地利用指令预算，让智能体专注于当前任务。即使工具和最佳实践不断演进，这套配置也更容易随之调整。"
+                  },
+                  {
+                    "role": "heading",
+                    "name": "译注：做一次放置判断 前往“译注：做一次放置判断”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "译注：做一次放置判断"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“译注：做一次放置判断”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e236"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "读完后，可以拿自己仓库里的一条规则问两个问题："
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "1. "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "它是否与仓库中的每一项任务都直接相关？如果是，它可能适合留在根目录 "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "AGENTS.md"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "。"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "2. "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "它是否只在某种语言、测试、API 或发布任务中有用？如果是，把它放进对应文档，并在根文件留下清楚、有效的入口。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "判断的关键不是把根文件删到某个固定行数，而是让通用规则常驻，让专用规则在需要时仍然找得到。"
+                  },
+                  {
+                    "role": "region",
+                    "name": "学完后，用一分钟自检",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "中文学习辅助"
+                      },
+                      {
+                        "role": "heading",
+                        "name": "学完后，用一分钟自检",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "学完后，用一分钟自检"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "list",
+                        "children": [
+                          {
+                            "role": "listitem",
+                            "children": [
+                              {
+                                "role": "ListMarker",
+                                "name": "• "
+                              },
+                              {
+                                "role": "StaticText",
+                                "name": "我能解释为什么 AGENTS.md 不是越长越好。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "listitem",
+                            "children": [
+                              {
+                                "role": "ListMarker",
+                                "name": "• "
+                              },
+                              {
+                                "role": "StaticText",
+                                "name": "我能找出只在特定任务中使用的规则，并把它们移到单独文档。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "listitem",
+                            "children": [
+                              {
+                                "role": "ListMarker",
+                                "name": "• "
+                              },
+                              {
+                                "role": "StaticText",
+                                "name": "我能写出一份包含项目说明、必要工具和检查命令的最小文件。"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "region",
+                    "name": "关联阅读",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "下一步学习"
+                      },
+                      {
+                        "role": "heading",
+                        "name": "关联阅读",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "关联阅读"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "中文词条 智能体（agent） 先理解是谁读取项目规则、调用工具并完成任务。 继续阅读中文内容",
+                        "ref": "@e237",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "中文词条"
+                          },
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "智能体（agent）"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "先理解是谁读取项目规则、调用工具并完成任务。"
+                          },
+                          {
+                            "role": "emphasis",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "继续阅读中文内容"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "中文词条 渐进式披露 继续理解怎样只在需要时提供专用规则与资料。 继续阅读中文内容",
+                        "ref": "@e238",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "中文词条"
+                          },
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "渐进式披露"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "继续理解怎样只在需要时提供专用规则与资料。"
+                          },
+                          {
+                            "role": "emphasis",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "继续阅读中文内容"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "sectionfooter",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "作者："
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "Matt Pocock"
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "原文更新："
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "2026/1/18"
+                      },
+                      {
+                        "role": "link",
+                        "name": "查看英文原文 ↗",
+                        "ref": "@e239",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "查看英文原文 ↗"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "role": "button",
+                "name": "目录",
+                "ref": "@e240",
+                "children": [
+                  {
+                    "role": "StaticText",
+                    "name": "目录"
+                  }
+                ]
+              },
+              {
+                "role": "button",
+                "name": "术语",
+                "ref": "@e241",
+                "children": [
+                  {
+                    "role": "StaticText",
+                    "name": "术语"
+                  }
+                ]
+              },
+              {
+                "role": "StaticText",
+                "name": "0"
+              },
+              {
+                "role": "StaticText",
+                "name": "%"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "action": "screenshot",
+    "args": {
+      "format": "png",
+      "path": "E:/dev/projects/AIHero/work/full-site-samples/reports/full-site/samples/screenshots/agents-md-390-top.png"
+    },
+    "checkedAt": "2026-10-13T05:11:19.517Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "format": "png",
+        "path": "E:/dev/projects/AIHero/work/full-site-samples/reports/full-site/samples/screenshots/agents-md-390-top.png",
+        "sizeBytes": 103010,
+        "mimeType": "image/png"
+      }
+    }
+  }
+]

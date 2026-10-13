@@ -8,10 +8,10 @@
     },
     "workshop-source": {
       "path": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
-      "sha256": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54"
+      "sha256": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5"
     },
     "dictionary-source": {
-      "path": "content/source/ai-coding-dictionary/system-prompt.md",
+      "path": "content/learning/shared/source-snapshots/system-prompt-071bde5.md",
       "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0"
     },
     "guide-translation": {
@@ -28,11 +28,19 @@
     },
     "dictionary-revised-translation": {
       "path": "content/learning/system-prompt/article.md",
-      "sha256": "fc4a6abf24d7c9a83ba2c9860108074c4edba13c924f506aa335869b2bf83e76"
+      "sha256": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99"
     },
     "guide-revised-translation": {
       "path": "content/learning/agents-md/article.md",
-      "sha256": "cb1a80668e3dc15eed967e775bca4ec4612c1003ea892025d09d9d5e3ae94ac5"
+      "sha256": "bf2c149382aada03300b6dacac483d315a148867fc0acc5f2abf43b6f4463562"
+    },
+    "samples-system-prompt-source": {
+      "path": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sha256": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a"
+    },
+    "samples-output-translation": {
+      "path": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sha256": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf"
     }
   },
   "writingRules": [
@@ -374,7 +382,7 @@
         ],
         "example": {
           "text": "This project is a web application.\nUse npm for dependencies.\nRun npm test before submitting changes.",
-          "explanation": "中文学习辅助：它依次说明这是什么项目、使用什么依赖管理工具、提交前运行什么检查。它不是英文原文中的示例，也不要求你现在执行这些命令。"
+          "explanation": "译注：这三句依次表示“这是一个 Web 应用程序项目；使用 npm 管理依赖；提交更改前运行 npm test”。这是中文学习辅助示例，不是英文原文中的示例，也不要求你现在执行这些命令。"
         }
       },
       "check": {
@@ -568,7 +576,7 @@
       "kind": "workshop-lesson",
       "sourceIds": [
         "workshop-source",
-        "workshop-translation"
+        "samples-output-translation"
       ],
       "conceptIds": [
         "llm",
@@ -633,7 +641,7 @@
     "/ai-coding-dictionary/system-prompt": {
       "kind": "dictionary",
       "sourceIds": [
-        "dictionary-source",
+        "samples-system-prompt-source",
         "dictionary-revised-translation",
         "guide-source"
       ],
@@ -682,11 +690,11 @@
       "bodyTitle": "定义与用法",
       "originalExamples": [
         {
-          "sourceId": "dictionary-source",
+          "sourceId": "samples-system-prompt-source",
           "text": "Two harnesses, same model, totally different behavior on the same prompt."
         },
         {
-          "sourceId": "dictionary-source",
+          "sourceId": "samples-system-prompt-source",
           "text": "Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives."
         }
       ],

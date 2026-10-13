@@ -1,0 +1,19 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Unavailable Chinese target: /ai-coding-dictionary/agent: Source route/hash mismatch
+
+1 !== 0
+
+    at assemblePage (file:///E:/dev/projects/AIHero/work/full-site-samples/scripts/assemble-page.mjs:110:12)
+    at async file:///E:/dev/projects/AIHero/work/full-site-samples/scripts/assemble-page.mjs:124:32 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 1,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.14.0
