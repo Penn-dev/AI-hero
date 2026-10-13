@@ -1,0 +1,66 @@
+{
+  "route": "/ai-coding-dictionary/context-window",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/context-window.md",
+    "sha256": "2a5b63536a30a69e910c5bd6180ba6e19492e759b20b38bcdcff060983442deb"
+  },
+  "chineseFile": "reports/full-site/content-a/A02/drafts/context-window.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    }
+  ]
+}

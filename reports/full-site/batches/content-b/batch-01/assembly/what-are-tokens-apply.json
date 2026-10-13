@@ -1,0 +1,51 @@
+{
+  "mode": "apply",
+  "route": "/what-are-tokens",
+  "page": {
+    "title": "什么是 Token？",
+    "description": "了解 Token 如何帮助 LLM 处理文本、影响成本与效率，以及编码、解码和词表大小的作用。",
+    "markdown": "Token 是大语言模型（LLM）处理文本时使用的基本单位。理解它们很重要，尤其是因为模型会按你的 Token 用量收费。\n\n## 什么是 Token？\n\n简单来说，Token 就是一些数字，用来表示 LLM 如何“看待”你提供的文本。把文本转换成 Token 的过程叫作**编码**。\n\n分词过程分两步：\n\n1. 分词器把文本切分成自己认识的 Token。\n2. 再把这些 Token 转换成数字。\n\n![编码](https://res.cloudinary.com/total-typescript/image/upload/v1759238445/ai-hero-images/vqsgrg2rv79rqgxhvsmc.png)\n\n译注：本篇有时用 Token 指文本片段，有时指该片段对应的数字编号。分词器负责在两者之间转换；一个 Token 不一定对应一个完整单词或一个汉字。\n\n解码则是反过来的过程：\n\n1. 把数字转换回文本 Token。\n2. 将这些 Token 拼接起来，形成输出。\n\n![解码](https://res.cloudinary.com/total-typescript/image/upload/v1759238446/ai-hero-images/t4k9fszkfkcbm1mrthwj.png)\n\n## LLM 的处理流程\n\n完整的 LLM 处理过程如下：\n\n1. 分词器把你输入的文本编码成 Token。\n2. LLM 处理这些 Token。\n3. LLM 生成输出 Token。\n4. 输出 Token 被解码回可读的文本。\n\n![LLM 的处理流程](https://res.cloudinary.com/total-typescript/image/upload/v1759238447/ai-hero-images/hs0gx3ozagimhl5xunxn.png)\n\n说得具体一些，输入 Token 包括：\n\n- 你与 LLM 的对话历史。\n- 系统提示词。\n- 工具定义。\n\n输出 Token 则是 LLM 返回给你的回复。\n\n译注：系统提示词用于约定模型的角色和行为；工具定义告诉模型有哪些外部操作可用，以及调用它们需要哪些信息。即使不是你刚输入的那句话，它们也可能占用输入 Token。\n\n输入和输出 Token 都会计费，两者的单价通常不同。节省费用的一种方法，是设计提示词，让模型少生成一些输出 Token。\n\n## Token 是怎样产生的？\n\n分词过程首先需要大量文本，类似于训练 LLM 本身时使用的文本。我们先设想一个极小的语料库，里面只有一句话：“the cat sat on the mat.”\n\n译注：语料库就是用于分析或训练的一批文本。这句英文的意思是“猫坐在垫子上”。下面保留英文，是为了让你能对照原文观察字母如何组合。\n\n![分词过程](https://res.cloudinary.com/total-typescript/image/upload/v1759238448/ai-hero-images/ekv9gq9bvk9efycqow1p.png)\n\n首先，提取出所有单独的字符：\n\n```\nT H E space C A T space S A T space O N space T H E space M A T\n```\n\n译注：原例中的 space 表示空格。\n\n每个字符都成为词表中的一个 Token。\n\n接下来，识别常见的字符组合：\n\n- “TH” 在 “the” 中出现，共两次。\n- “HE” 在 “the” 中出现，共两次。\n- “AT” 出现在 “cat”“sat” 和 “mat” 中。\n\n每种组合也会获得自己的 Token。\n\n然后，再找出这些组合之间的组合。例如，原文用 “TH” + “HE” 组成 “THE”（也就是单词 “the”），并为它分配一个 Token。\n\n译注：原文这个例子里的两组字母都有 H，直接拼接会重复 H。因此，这里保留原例并指出疑点，不能把它当作精确的字符合并步骤；本段想说明的是，常见的更长组合也会进入词表。\n\n## 词表大小很重要\n\n目标是建立一个较大的 Token 词表。词表越大，单词就可能被切成更少的 Token，处理也就更高效。\n\n![词表大小](https://res.cloudinary.com/total-typescript/image/upload/v1759238449/ai-hero-images/mcsd9qzjf4cz1ulsrblz.png)\n\n例如，只有 1,000 个 Token 的词表，可能会把 “understanding” 切成 5 个 Token。50,000 个 Token 的词表可能把它切成 3 个，200,000 个 Token 的词表可能把它切成 2 个。\n\n译注：“understanding” 在这里是用来演示分词的英文单词，意思是“理解”。这些数字是原文的说明性例子，没有指定某个实际分词器。\n\n词表更大，就能把单词切成更少的 Token，从而提高处理效率。\n\n## 怎样处理不常见的词？\n\n分词器不太擅长处理少见的词。例如，Lewis Carroll 诗中的 “O Frabjous Day” 会被切成很多个 Token，因为 “Frabjous” 是一个自创词，在训练语料中不常出现。\n\n![不常见的词](https://res.cloudinary.com/total-typescript/image/upload/v1759238450/ai-hero-images/pcnihurikeetpfh01xss.png)\n\n译注：这句诗大意是“啊，多么美妙的一天！”这里保留原文，方便对照这个自创词的拼写与分词结果。\n\n可以看到，它被切成了 7 个 Token。仅有 15 个字符，却用了比我们预想更多的 Token。\n\n## 最后说几句\n\n希望这些说明能帮你更好地理解 Token。我觉得 [tiktokenizer 交互工具](https://tiktokenizer.vercel.app/) 对理解这些概念很有帮助。\n\n有问题就告诉我。你还希望我接下来讲什么？\n\nMatt",
+    "sourceUpdatedAt": "2025-09-30T09:47:04.967Z",
+    "sourceUrl": "https://www.aihero.dev/what-are-tokens",
+    "sourceHash": "2a64fce2291858c58f05526228e575cd323663e0ca3a2dfbaed87ce3fe591013"
+  },
+  "manifest": {
+    "route": "/what-are-tokens",
+    "sourceUrl": "https://www.aihero.dev/what-are-tokens",
+    "sourceHash": "2a64fce2291858c58f05526228e575cd323663e0ca3a2dfbaed87ce3fe591013",
+    "translationPath": "content/zh/what-are-tokens.md",
+    "translationHash": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T11:11:52.648Z",
+    "assembly": {
+      "configHash": "84f919d1e0473100e29fb004c5df7b05fda80db986e69daf04a039c32b8af1cf",
+      "checkedAt": "2026-10-13T11:11:52.648Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [],
+      "staleChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [],
+  "outputs": [
+    {
+      "path": "content/zh/what-are-tokens.md",
+      "sha256": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "892275ac39db9d37178fdb97e2283323a367febd09f655bb455d058e080648b9"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "d804a527283b5358fe7e76419c5590a6dcd7b12c4452c5c045f00683b857d4fe"
+    }
+  ]
+}

@@ -4,15 +4,15 @@
 
 ## 下一任务
 
-进入 #5，沿用 [production-assignment.json](../full-site/production-assignment.json)：样本3、内容A词条/Skills110、内容B文章/教程82。只使用固定195来源，不重新同步、不使用API翻译器。每页先检查旧稿，保留合格内容；依据 [制作规范](../../docs/localization.md)逐节核对并保存五项实际检查。
+进入 #5，沿用 [production-assignment.json](../full-site/production-assignment.json)：样本3、内容A词条71、内容B文章/教程82、内容C Skills39。只使用固定195来源，不重新同步、不使用API翻译器。每页先检查旧稿，保留合格内容；依据 [制作规范](../../docs/localization.md)逐节核对并保存五项实际检查。
 
 内容检查仍有8篇旧稿来源差异，均属于内容A分组：skills-codebase-design、agent、context-window、tool-call、prefix-cache、memory-system、hallucination、progressive-disclosure。必须对照新旧原文处理，不能只改hash。
 
 ## 隔离与合入
 
-内容A与B各用独立worktree/分支，从本次确认的实施tip开始，路径由整合负责人提供。各自负责分组内的正文、对应接页配置和批次检查/进度文件，不直接修改其他工作树。批次目录分别用 `reports/full-site/batches/content-a/` 与 `reports/full-site/batches/content-b/`，避免报告路径冲突。
+内容A、B、C各用独立worktree/分支，从本次确认的实施tip开始，路径由整合负责人提供。各自负责分组内的正文、对应接页配置和批次检查/进度文件，不直接修改其他工作树。批次目录分别用 `reports/full-site/content-a/`、`reports/full-site/batches/content-b/` 和 `reports/full-site/batches/content-c/`，避免报告路径冲突。
 
-每批保持完整文章单位，先preview、再apply，只记录实际完成的检查。可复用本轮未受影响的公共展示证据；新结构或公共渲染变化交整合负责人补实际页面验证，不以构建代替看图。不同来源中的不支持/动态组件按规范转为等价静态文字和明确原站入口，不扩建renderer或编造课程内容。
+每批保持完整文章单位。内容制作人提交正文、配置和前四项检查；整合负责人统一执行preview/apply并补第五项，只记录实际完成的检查。可复用本轮未受影响的公共展示证据；新结构或公共渲染变化交整合负责人补实际页面验证，不以构建代替看图。不同来源中的不支持/动态组件按规范转为等价静态文字和明确原站入口，不扩建renderer或编造课程内容。
 
 完成批次前取得实施分支最新tip并合入自己的分支。若共享index、manifest或知识记录冲突，保留两边目标的证据并交整合负责人逐目标处理，不整份选择ours/theirs。整合负责人是共享记录唯一写入人，以目标配置串行preview/apply核验并合入；不得在同一工作树并行运行接页写入。报告批次分支/准确SHA、完整目标route、正文与配置、五项记录、展示证据复用依据、新结构/未决项。
 

@@ -1,0 +1,56 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-01/configs/skills-catalog.json
+
+{
+  "mode": "preview",
+  "route": "/skills-catalog",
+  "page": {
+    "title": "为认真做工程的人准备的 AI Skills",
+    "description": "一套实用的 Skill 体系，帮助工程师在使用 AI 时依然坚持自己的标准。",
+    "markdown": "这些是我每天都会用到的智能体 Skills。它们放在我的 `~/.claude` 目录里，也发布在公开仓库中。任何人都可以安装、创建自己的分支版本，或提交 PR，贡献自己的 Skill。\n\n译注：仓库是保存项目文件和修改历史的地方。这里的“创建自己的分支版本”指 fork，也就是在自己的账号下复制一份仓库；PR 是向原仓库提出修改请求。\n\n## Skill 是什么？\n\nSkill 是一套专注于特定任务、可重复执行的工作流程，供智能体使用。它把明确的指令、所需输入和预期输出放在一起。Skill 以小型 Markdown 文件保存，兼容 Claude 的智能体都可以读取它们。\n\n我的目的，是把自己面对某类问题时会采取的具体步骤写下来，让智能体每次都按同样的方法执行，而不是在智能体外面再堆一层框架。\n\n## 安装\n\n用一条命令，就能把整个目录安装到你的全局 Skills 目录：\n\n```sh\nnpx skills add mattpocock/skills -y -g\n```\n\n去掉 `-g`，就只安装到当前项目中。安装之后，任何会读取 `~/.claude/skills` 的智能体都能从目录中选用 Skill 并执行，Claude Code 就是最直接的例子。\n\n译注：`~` 表示当前用户的主目录；“全局”安装通常供多个项目共用。上述命令需要可用的 Node.js/npm 环境，本页未验证你电脑上的安装条件。\n\n如果不想安装整套，也可以只安装个别 Skill。到源代码仓库查看各个 Skill 的名称标识：[github.com/mattpocock/skills](https://github.com/mattpocock/skills)。\n\n## 我怎样使用它们\n\n下面的每个 Skill 都对应一种我会遇到的情况：追问一份含糊的规格、梳理领域模型、撰写产品需求文档（PRD）、拆分待办工作，或用测试驱动的方式开发功能。它们不是所谓的“AI 效率技巧”。这是我让智能体做事，同时保留自己判断力和质量标准的方法。\n\n## 开源\n\n这份目录放在 [github.com/mattpocock/skills](https://github.com/mattpocock/skills)。如果你打磨出一个真正融入日常工作流程的 Skill，欢迎分享出来。\n\n译注：固定来源正文提到了“下面的每个 Skill”，但取得的文字没有附带逐项列表。本页保留这段原意；完整源代码入口见上方仓库链接。",
+    "sourceUpdatedAt": "2026-05-05T11:14:31.998Z",
+    "sourceUrl": "https://www.aihero.dev/skills-catalog",
+    "sourceHash": "3a8fda750dd040ae3c135a509a6f2778fd306b3217ab3ff0b1d112ad051076f1"
+  },
+  "manifest": {
+    "route": "/skills-catalog",
+    "sourceUrl": "https://www.aihero.dev/skills-catalog",
+    "sourceHash": "3a8fda750dd040ae3c135a509a6f2778fd306b3217ab3ff0b1d112ad051076f1",
+    "translationPath": "content/zh/skills-catalog.md",
+    "translationHash": "a54bca6474e19ef7db74ffe8dcadb71168cdef9546749168847cacd4c917b210",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T11:13:52.410Z",
+    "assembly": {
+      "configHash": "e79ccd1a1ee26f3c44f38e48808a201ca4fe2d6057e6be03d995020efb0871b6",
+      "checkedAt": "2026-10-13T11:13:52.410Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [],
+      "staleChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [],
+  "outputs": [
+    {
+      "path": "content/zh/skills-catalog.md",
+      "sha256": "a54bca6474e19ef7db74ffe8dcadb71168cdef9546749168847cacd4c917b210"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "5d6a898a40201b881968e4d51339a61ee075e791dc1f95b50aa04064a241ad95"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "3d2349f6065f83f04fb6ee47e2d5bbbb5a9e312cb2e67bfc8d0ca40762ddd71e"
+    }
+  ]
+}

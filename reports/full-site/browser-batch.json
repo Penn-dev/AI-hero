@@ -1,0 +1,140 @@
+{
+  "id": "production-01",
+  "pages": [
+    {
+      "id": "what-are-tokens",
+      "config": "reports/full-site/batches/content-b/batch-01/configs/what-are-tokens.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "figure.code-frame"
+        }
+      ]
+    },
+    {
+      "id": "what-is-an-llm",
+      "config": "reports/full-site/batches/content-b/batch-01/configs/what-is-an-llm.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "figure.code-frame"
+        }
+      ]
+    },
+    {
+      "id": "what-is-the-context-window",
+      "config": "reports/full-site/batches/content-b/batch-01/configs/what-is-the-context-window.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "img"
+        }
+      ]
+    },
+    {
+      "id": "skills-catalog",
+      "config": "reports/full-site/batches/content-c/batch-01/configs/skills-catalog.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "figure.code-frame"
+        }
+      ]
+    },
+    {
+      "id": "skills-codebase-design",
+      "config": "reports/full-site/batches/content-c/batch-01/configs/skills-codebase-design.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "figure.code-frame"
+        },
+        {
+          "label": "design-table",
+          "selector": "table"
+        },
+        {
+          "label": "symptom-table",
+          "selector": "table",
+          "nth": 1
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-dictionary-agent",
+      "config": "reports/full-site/content-a/A01/configs/agent.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "blockquote",
+          "text": "Which agent are you using for the migration?"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-dictionary-harness",
+      "config": "reports/full-site/content-a/A01/configs/harness.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "blockquote",
+          "text": "Same model, why is Claude Code editing files and Claude"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-dictionary-model",
+      "config": "reports/full-site/content-a/A01/configs/model.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "blockquote",
+          "text": "Should we switch the model from Sonnet to Opus for the "
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-dictionary-context-window",
+      "config": "reports/full-site/content-a/A02/configs/context-window.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "blockquote",
+          "text": "Can I just paste the whole monorepo into the prompt?"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-dictionary-context",
+      "config": "reports/full-site/content-a/A02/configs/context.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "table"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-dictionary-progressive-disclosure",
+      "config": "reports/full-site/content-a/A02/configs/progressive-disclosure.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "blockquote",
+          "text": "Should I dump the entire style guide into AGENTS.md?"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-dictionary-token",
+      "config": "reports/full-site/content-a/A02/configs/token.json",
+      "features": [
+        {
+          "label": "content",
+          "selector": "blockquote",
+          "text": "How big is this prompt going to be?"
+        }
+      ]
+    }
+  ]
+}

@@ -10,13 +10,19 @@ updatedAt: "2026-08-24T09:14:47.195Z"
 
 `codebase-design` 统一了设计模块时所用的词汇：**模块（module）**、**接口（interface）**、**深度（depth）**、**接缝（seam）**、**适配器（adapter）**、**杠杆效应（leverage）**和**局部性（locality）**。它会精确定义每个词，禁止使用含义宽泛的替代说法（如“组件”“服务”“API”“边界”），并给出由这些定义推导出的几条原则。
 
-它是一份参考资料，不是一套执行流程：没有要反复运行的步骤，不会产出特定文档，也不会在检查点向你提问。其他涉及设计的 Skill 都会借用它的词汇；单独使用时，它只负责提供这套语言，到此为止。调用前一定要明白这一点，因为如果你把一个[会话](https://www.aihero.dev/ai-coding-dictionary/session)交给没有流程和停止规则的 Skill，然后只说 “go”（中文理解版：开始执行），它很可能自行编出一套流程。下文的常见问题会说明实际可能发生什么。
+它是一份参考资料，不是一套执行流程：没有要反复运行的步骤，不会产出特定文档，也不会在检查点向你提问。其他涉及设计的 Skill 都会借用它的词汇；单独使用时，它只负责提供这套语言，到此为止。调用前一定要明白这一点，因为如果你把一个[会话](https://www.aihero.dev/ai-coding-dictionary/session)交给没有流程和停止规则的 Skill，然后只说 “go”（中文理解版：开始执行），智能体就会自行编出一套流程。下文的常见问题会说明实际可能发生什么。
+
+中文 Prompt（译注）：
+
+```text
+开始执行。
+```
 
 ## 什么时候该用它
 
 输入 `/codebase-design`；当设计任务符合条件时，智能体也会自动选用它。
 
-当你已经知道要重新设计哪部分代码，需要思考它应该呈现什么结构时，就该使用它：接缝应该放在哪里、接口能缩小到什么程度、把代码提取成独立模块是否真的值得。它也能用来解决团队对某个设计术语含义不一致的问题。
+当你已经知道要重新设计哪部分代码，需要思考它应该呈现什么结构时，就该使用它：接缝应该放在哪里、接口能缩小到什么程度、把代码提取成独立模块后，是否减轻了调用方需要处理的复杂性。它也能用来解决团队对某个设计术语含义不一致的问题。
 
 有几个 Skill 与它相近。该选哪一个，取决于你真正要解决的问题：
 
@@ -61,13 +67,19 @@ updatedAt: "2026-08-24T09:14:47.195Z"
 
 中文理解版（学习辅助）：假设我们已经认可这个接口，它也确实隐藏了实现细节。但怎样强制所有人遵守它？如果没有 lint（代码静态检查）或明确的约束，无论人还是大语言模型，时间一长都可能把代码弄乱。
 
-Matt 在该讨论中给出三种选择：用类或 IIFE 包住模块，并接受这个类会变得非常庞大；在 monorepo 中把模块做成独立软件包，并接受 monorepo 带来的工具链；或者使用 [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) 之类的 linter，禁止任何绕过接口的 import。他还在别处表示，Effect 是最佳机制，dependency-cruiser 位居第二。仓库的 `setup-ts-deep-modules` Skill 位于 `in-progress/` 分类中，它会建立 `src/packages/<name>/index.ts` 这一目录约定；但它仍是 beta 渠道的 Skill，没有独立文档页，也没有附带 lint 规则。
+该讨论中的答复给出了三种选择：用类或 IIFE 包住模块，并接受这个类会变得非常庞大；在 monorepo 中把模块做成独立软件包，并接受 monorepo 带来的工具链；或者使用 [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) 之类的 linter，禁止任何绕过接口的 import。这些机制中，Effect 最好，dependency-cruiser 次之。仓库的 `setup-ts-deep-modules` Skill 位于 `in-progress/` 分类中，它会建立 `src/packages/<name>/index.ts` 这一目录约定；但它仍是 beta 渠道的 Skill，没有独立文档页，也没有附带 lint 规则。
 
 **我让一个会话使用它，结果它花了 100k [Token](https://www.aihero.dev/ai-coding-dictionary/token)，重新设计了一堆我根本没要求修改的东西。**
 
-这是一个已知问题，记录在 [issue #449](https://github.com/mattpocock/skills/issues/449)。该 Skill 由模型自动调用，并把自己描述为一份词汇参考；但其中没有规则硬性阻止智能体把它当作可执行流程。如果收到 “resume in /codebase-design and drive the open decisions” 这样的要求，智能体就会选择它能找到的、最像具体行动的内容：`DESIGN-IT-TWICE.md` 中的并行子智能体。它会重新探索上一个会话已经梳理过的代码，并在真正提问前一路运行很久。驱动型 Skill 通常具备检查点、一次只问一个问题、不自动进入下一步等护栏；这里都没有，因为参考资料本来就不包含这些流程规则。解决办法是明确指定一个驱动型 Skill，让本 Skill 只在底层提供词汇，例如 `/grill-with-docs`、`/improve-codebase-architecture`，或使用 `/tdd` 并把 `codebase-design` 作为词汇基础。这个 issue 目前仍未关闭。
+这是一个已知问题，记录在 [issue #449](https://github.com/mattpocock/skills/issues/449)。该 Skill 由模型自动调用，并把自己描述为一份词汇参考；但其中没有规则硬性阻止智能体把它当作可执行流程。在一个案例中，智能体收到 “resume in /codebase-design and drive the open decisions” 这条要求后，选择了 Skill 中最像执行流程的部分：`DESIGN-IT-TWICE.md` 中的并行子智能体。它重新探索了上一个会话已经梳理过的代码，工作了很久才开始提问。驱动型 Skill 通常具备检查点、一次只问一个问题、不自动进入下一步等护栏；这里都没有，因为参考资料本来就不包含这些流程规则。解决办法是明确指定一个驱动型 Skill，让本 Skill 只在底层提供词汇，例如 `/grill-with-docs`、`/improve-codebase-architecture`，或使用 `/tdd` 并把 `codebase-design` 作为词汇基础。这个 issue 仍未关闭。
 
 中文理解版（学习辅助）：“resume in /codebase-design and drive the open decisions” 的意思是“回到 /codebase-design，主动推进尚未决定的问题”。这是一条要求智能体继续行动的英文指令，并非普通的背景说明。
+
+中文 Prompt（译注）：
+
+```text
+回到 /codebase-design，主动推进尚未决定的问题。
+```
 
 **`design-an-interface` 去哪里了？有 `/interface-design` 这个 Skill 吗？**
 
@@ -85,13 +97,17 @@ Matt 在该讨论中给出三种选择：用类或 IIFE 包住模块，并接受
 
 **`tdd` 真的使用这套词汇吗？**
 
-现在会用，但过去很长一段时间并不会。原先写在 `tdd` 内部的深层模块说明在 v1.0 中被移除，改为采用这份共享 Skill；然而替代说明的链接一直没有补上，导致 `tdd` 仍自行定义“接缝”，却没有引用本 Skill。这个缺口现已补齐：当尚待解决的问题是接口应该是什么形状，而不是测试应该怎么写时，就会跳转到本 Skill。`tdd` 仍负责把“接缝”定义为测试所跨越的边界；本 Skill 则负责接缝背后的模块结构。
+现在会用，但过去很长一段时间并不会。原先写在 `tdd` 内部的深层模块说明在 v1.0 中被移除，改为采用这份共享 Skill；然而替代说明的链接一直没有补上，导致 `tdd` 仍自行定义“接缝”，却没有引用本 Skill。`tdd` 现在已补上指向本 Skill 的入口。当尚待解决的问题是接口应该是什么形状，而不是测试应该怎么写时，就会跳转到本 Skill。`tdd` 仍负责把“接缝”定义为测试所跨越的边界；本 Skill 则负责接缝背后的模块结构。
 
 **“设计两次”模式能在 Claude Code 之外正常工作吗？**
 
 不能完全顺畅地工作。`DESIGN-IT-TWICE.md` 写的是 “spawn 3+ sub-agents in parallel using the Agent tool”。
 
-中文理解版（学习辅助）：使用 Agent 工具，并行启动至少 3 个子智能体。
+中文 Prompt（译注）：
+
+```text
+使用 Agent 工具，并行启动至少 3 个子智能体。
+```
 
 这里的 Agent tool 是 Claude Code 对其[工具](https://www.aihero.dev/ai-coding-dictionary/tool)的命名。该仓库也为 Codex 等其他[智能体执行框架](https://www.aihero.dev/ai-coding-dictionary/harness)提供元数据，但这些框架不一定存在这个名称的工具。因此，“并行设计”阶段的可移植性不如 Skill 元数据所暗示的那样好。这个问题记录在尚未关闭的 [issue #564](https://github.com/mattpocock/skills/issues/564) 中。
 
@@ -109,9 +125,9 @@ Matt 在该讨论中给出三种选择：用类或 IIFE 包住模块，并接受
 
 ## 它处在什么位置
 
-`codebase-design` 是一个**随时可以选用的独立 Skill**，也是位于各类工程 Skill 底层的词汇层，并不是某条流程链中的一个步骤。与它最接近的是 [domain-modeling](https://aihero.dev/skills-domain-modeling)：后者同样是一份参考资料，但关注的是*问题领域*的词汇，而不是模块应有的结构。两者通常需要配合使用，因为要恰当地命名一个深层模块，既要理解模块设计，也要理解业务领域。另一个相关 Skill 是 [improve-codebase-architecture](https://aihero.dev/skills-improve-codebase-architecture)：它会检查代码库，找出适合加深的候选模块，并使用本词汇表描述每个候选对象。也就是说，它负责找到模块，本 Skill 则像一张设计工作台，供你推敲模块的结构。不确定应该选用哪个 Skill 或流程时，可以让 [ask-matt](https://aihero.dev/skills-ask-matt) 帮你分流。
+`codebase-design` 是一个**随时可以选用的独立 Skill**，也是位于各类工程 Skill 底层的词汇层，并不是某条流程链中的一个步骤。与它最接近的是 [domain-modeling](https://aihero.dev/skills-domain-modeling)：后者同样是一份参考资料，但关注的是*问题领域*的词汇，而不是模块应有的结构。两者通常需要配合使用，因为要恰当地命名一个深层模块，既要理解模块设计，也要理解业务领域。另一个相关 Skill 是 [improve-codebase-architecture](https://aihero.dev/skills-improve-codebase-architecture)：它会检查代码库，找出适合加深的候选模块，并使用本词汇表描述每个候选对象。它负责找到模块，你再使用本 Skill 的词汇设计模块。不确定应该选用哪个 Skill 或流程时，可以让 [ask-matt](https://aihero.dev/skills-ask-matt) 帮你分流。
 
-## 中文学习辅助：术语小词典
+## 译注：本页涉及的背景术语
 
 - **Skill**：一组提供给 AI 编码智能体的专门说明，帮助它按特定方法处理某类任务。
 - **代码库（codebase）**：一个软件项目中源代码、配置及相关文件的集合。

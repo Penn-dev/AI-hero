@@ -281,8 +281,7 @@
     },
     {
       "route": "/ai-coding-dictionary/harness",
-      "state": "planned-chinese",
-      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/model-provider-request",
@@ -291,8 +290,7 @@
     },
     {
       "route": "/ai-coding-dictionary/model",
-      "state": "planned-chinese",
-      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/tool",
@@ -306,8 +304,7 @@
     },
     {
       "route": "/ai-coding-dictionary/token",
-      "state": "planned-chinese",
-      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/turn",

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "sourceManifest": "content/source/manifest.json",
+  "sourceManifestSha256": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "assignedRouteCount": 71,
+  "batches": [
+    {
+      "id": "A01",
+      "routes": [
+        "/ai-coding-dictionary/model",
+        "/ai-coding-dictionary/harness",
+        "/ai-coding-dictionary/agent"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A01/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A01/structure-validation.jsonl"
+    },
+    {
+      "id": "A02",
+      "routes": [
+        "/ai-coding-dictionary/token",
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/context-window",
+        "/ai-coding-dictionary/progressive-disclosure"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A02/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A02/structure-validation.jsonl"
+    }
+  ],
+  "next": [
+    "/ai-coding-dictionary/tool",
+    "/ai-coding-dictionary/tool-call",
+    "/ai-coding-dictionary/tool-result"
+  ],
+  "note": "Preparation and structural validation do not count as completed localized pages. Integration owner maintains runtime index/manifest and final browser results.",
+  "scope": "Dictionary landing page and 70 dictionary terms; Skills transferred to content C by the approved updated assignment."
+}

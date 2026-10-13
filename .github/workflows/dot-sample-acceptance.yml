@@ -70,7 +70,11 @@ jobs:
             cat "$DOT_EVIDENCE_DIR/server.log"
             exit 1
           fi
-          node scripts/dot-sample-acceptance.mjs 2>&1 | tee "$DOT_EVIDENCE_DIR/browser.log"
+          if [ -f reports/full-site/browser-batch.json ]; then
+            node scripts/dot-production-acceptance.mjs 2>&1 | tee "$DOT_EVIDENCE_DIR/browser.log"
+          else
+            node scripts/dot-sample-acceptance.mjs 2>&1 | tee "$DOT_EVIDENCE_DIR/browser.log"
+          fi
       - name: Confirm tracked project files are unchanged
         if: ${{ always() }}
         run: git diff --exit-code
