@@ -31,6 +31,7 @@ export async function assemblePage({ root = process.cwd(), config, mode = 'previ
   }
   assert.equal(new Set((config.linkTargets ?? []).map(target => target.route)).size, (config.linkTargets ?? []).length, 'Duplicate link target');
   const plannedChineseTargets = (config.linkTargets ?? []).filter(target => target.state === 'planned-chinese');
+  const staleChineseTargets = [];
   const source = sources.pages.find(page => page.route === config.route);
   assert.equal(sources.pages.filter(page => page.route === config.route).length, 1, 'Duplicate or missing source route');
   assert.ok(new Set(manifest.pages.map(page => page.route)).size === manifest.pages.length, 'Duplicate translation manifest route');
@@ -40,7 +41,7 @@ export async function assemblePage({ root = process.cwd(), config, mode = 'previ
   const sourceText = await read(config.source.path);
   assert.equal(sha256(sourceText), config.source.sha256, 'Source hash mismatch: supplied hash');
   assert.equal(sha256(sourceText), source.sourceHash, 'Source hash mismatch: manifest hash');
-  const { article, tree } = validateArticle(sourceText, text);
+  const { article, tree } = validateArticle(sourceText, text, source.url);
   const previousRecord = manifest.pages.find(page => page.route === config.route);
   const requestedPath = config.translationPath ?? previousRecord?.translationPath ?? (config.route === '/' ? 'content/zh/home.md' : `content/zh${config.route}.md`);
   const translationPath = relative(resolve(root), resolve(root, requestedPath)).replaceAll('\\', '/');
@@ -52,16 +53,11 @@ export async function assemblePage({ root = process.cwd(), config, mode = 'previ
   const nextIndex = updateIndexedPage(index, config.route, article, metadata);
   if (manifest.pages.find(page => page.route === config.route)?.translationHash !== sha256(text)) delete nextIndex.pages[config.route].translatedAt;
   const nextManifest = structuredClone(manifest);
-  const record = { route: config.route, ...metadata, translationPath, translationHash: sha256(text), status: 'assembled', assembledAt, assembly: { configHash: sha256(JSON.stringify(config)), checkedAt: assembledAt, checks: ['source-hash', 'config', 'content-structure', 'original-blocks', 'inline-code', 'source-resources', 'chinese-targets'], plannedChineseTargets } };
+  const record = { route: config.route, ...metadata, translationPath, translationHash: sha256(text), status: 'assembled', assembledAt, assembly: { configHash: sha256(JSON.stringify(config)), checkedAt: assembledAt, checks: ['source-hash', 'config', 'content-structure', 'original-blocks', 'inline-code', 'source-resources', 'chinese-targets'], plannedChineseTargets, staleChineseTargets } };
   const at = nextManifest.pages.findIndex(page => page.route === config.route);
   if (at < 0) nextManifest.pages.push(record);
   else nextManifest.pages[at] = record;
   const stringify = value => `${JSON.stringify(value, null, 2)}\n`;
-  const outputs = [
-    { path: translationPath, text },
-    { path: 'content/zh/index.json', text: stringify(nextIndex) },
-    { path: 'content/zh/manifest.json', text: stringify(nextManifest) },
-  ];
   const knowledge = await json('content/learning/pilot-knowledge.json');
   const previousKnowledge = JSON.stringify(knowledge);
   const sharedSource = id => Object.entries(knowledge.pages).some(([route, page]) => route !== config.route && page.sourceIds?.includes(id)) || Object.values(knowledge.concepts).some(concept => concept.evidence?.some(item => item.sourceId === id));
@@ -75,7 +71,9 @@ export async function assemblePage({ root = process.cwd(), config, mode = 'previ
     assert.ok(config.learning.profile && typeof config.learning === 'object', 'Invalid learning config');
     for (const [id, source] of Object.entries(config.learning.sources ?? {})) {
       assert.ok(nonempty(source.path) && /^[a-f\d]{64}$/.test(source.sha256), 'Invalid learning source');
-      if (knowledge.sources[id] && JSON.stringify(source) !== JSON.stringify(knowledge.sources[id])) assert.ok(!sharedSource(id), `Shared learning source cannot change: ${id}`);
+      const previous = knowledge.sources[id];
+      // Shared evidence may move, but its hash and other metadata must stay unchanged.
+      if (previous && sharedSource(id)) assert.deepEqual({ ...source, path: previous.path }, previous, `Shared learning source cannot change: ${id}`);
       const bytes = resolve(root, source.path) === resolve(root, translationPath) ? text : await read(source.path);
       assert.equal(sha256(bytes), source.sha256, `Learning source hash mismatch: ${id}`);
     }
@@ -94,21 +92,29 @@ export async function assemblePage({ root = process.cwd(), config, mode = 'previ
   }
   const requiredTargets = new Set((config.linkTargets ?? []).filter(target => target.state === 'available-chinese').map(target => target.route));
   for (const link of nodes(tree, node => ['link', 'definition'].includes(node.type))) {
-    if (!link.url.startsWith('#') && !link.url.startsWith('http')) {
+    if (link.url.startsWith('/') && !link.url.startsWith('//')) {
       const route = localRoute(link.url);
       if (route && (nextIndex.pages[route] || !plannedChineseTargets.some(target => target.route === route))) requiredTargets.add(route);
     }
   }
   for (const link of profile?.related ?? []) {
+    if (!link.href.startsWith('/') || link.href.startsWith('//')) continue;
     const route = localRoute(link.href);
     if (route) requiredTargets.add(route);
   }
   for (const route of requiredTargets) {
     const errors = await indexedTranslationErrors({ root, route, index: nextIndex, manifest: nextManifest, text: route === config.route ? text : undefined });
     const original = sources.pages.find(page => page.route === route);
-    if (!original || original.sourceHash !== nextManifest.pages.find(page => page.route === route)?.sourceHash) errors.push('Source route/hash mismatch');
+    const target = nextManifest.pages.find(page => page.route === route);
+    if (!original?.sourceHash || !/^[a-f\d]{64}$/.test(target?.sourceHash ?? '')) errors.push('Source route/hash missing or invalid');
     assert.equal(errors.length, 0, `Unavailable Chinese target: ${route}: ${errors.join('; ')}`);
+    if (original.sourceHash !== target.sourceHash) staleChineseTargets.push({ route, sourceHash: target.sourceHash, currentSourceHash: original.sourceHash });
   }
+  const outputs = [
+    { path: translationPath, text },
+    { path: 'content/zh/index.json', text: stringify(nextIndex) },
+    { path: 'content/zh/manifest.json', text: stringify(nextManifest) },
+  ];
   if (JSON.stringify(knowledge) !== previousKnowledge) outputs.push({ path: 'content/learning/pilot-knowledge.json', text: stringify(knowledge) });
   for (const item of outputs) await safeOutputPath(root, item.path);
   if (mode === 'apply') await writeAssembly(root, config.route, outputs, fs, inputs);
