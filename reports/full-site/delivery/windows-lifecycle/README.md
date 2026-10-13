@@ -9,3 +9,5 @@
 真实 RED：3385c7b / run38408904274 / windows-preview job115335887902，旧停止入口返回成功却结束了自建无关测试进程，survivor=false。修复仅通过当前进程句柄、Node 可执行文件和当前项目绝对服务器脚本命令行确认身份后停止；不再 taskkill 历史 PID 或整个进程树。依据微软 [Process 句柄文档](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.process) 与 [进程 ID 复用说明](https://devblogs.microsoft.com/oldnewthing/20110107-00/?p=11803)。Inspect 仅查询当前实例及监听所属，供启动入口复用。
 
 第一条 GREEN：c9545805 / run38409450389 / windows-preview job115337603098，实际停止入口以明确身份不符拒绝，测试无关进程仍存活。下一条纵向回归验证启动入口不会把 4321 上仅含 AI Hero 字样的其他测试服务认成本项目；先保留旧启动实现取得 RED。
+
+启动真实 RED：fa3b09f5 / run38409811514 / windows-preview job115342023868，旧入口把自建无关 HTTP 服务的“AI Hero”字符串当作项目就绪并返回0。启动修复先查询受当前项目命令行约束的活进程及4321监听所属，再检查页面；没有本项目状态时直接探测端口，其他监听一律拒绝，不采用也不终止。失败清理只用当次 ChildProcess 对象，且仅删除当次写入、未被替换的状态；启动锁避免并发覆写，死锁状态仅清理文件、不结束PID。死进程状态经端口空闲检查后归档。`--no-open` 只用于终端/自动验收不打开浏览器，默认仍打开本机首页。

@@ -1,0 +1,39 @@
+TAP version 13
+2026-10-13T14:08:39.2706032Z # {"stopExitCode":1,"stdout":"","stderr":"\\u001b[31;1mException: \\u001b[0mD:\\\\a\\\\AI-hero\\\\AI-hero\\\\.preview-test-qGSCBI\\\\scripts\\\\preview-stop.ps1:31\\u001b[0m\\r\\n\\u001b[31;1m\\u001b[0m\\u001b[36;1mLine |\\u001b[0m\\r\\n\\u001b[31;1m\\u001b[0m\\u001b[36;1m\\u001b[36;1m  31 | \\u001b[0m       \\u001b[36;1mthrow '预览进程身份不匹配 (identity mismatch)，已拒绝停止；没有结束任何其他程序。'\\u001b[0m\\r\\n\\u001b[31;1m\\u001b[0m\\u001b[36;1m\\u001b[36;1m\\u001b[0m\\u001b[36;1m\\u001b[0m\\u001b[36;1m     | \\u001b[31;1m       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\u001b[0m\\r\\n\\u001b[31;1m\\u001b[0m\\u001b[36;1m\\u001b[36;1m\\u001b[0m\\u001b[36;1m\\u001b[0m\\u001b[36;1m\\u001b[31;1m\\u001b[31;1m\\u001b[36;1m     | \\u001b[31;1m预览进程身份不匹配 (identity mismatch)，已拒绝停止；没有结束任何其他程序。\\u001b[0m\\r\\n","survivor":true}
+2026-10-13T14:08:39.2731725Z # Subtest: stopping a stale preview state leaves the unrelated live process untouched
+2026-10-13T14:08:39.2739969Z ok 1 - stopping a stale preview state leaves the unrelated live process untouched
+2026-10-13T14:08:39.2741785Z   ---
+2026-10-13T14:08:39.2743682Z   duration_ms: 705.717
+2026-10-13T14:08:39.2746324Z   type: 'test'
+2026-10-13T14:08:39.2748084Z   ...
+2026-10-13T14:08:39.4247350Z # {"startExitCode":0,"stdout":"AI Hero 中文预览已经在运行：http://127.0.0.1:4321/a-complete-guide-to-agents-md\\n","stderr":""}
+2026-10-13T14:08:39.4332660Z # Subtest: starting preview refuses an unrelated AI Hero response on port 4321
+2026-10-13T14:08:39.4339815Z not ok 2 - starting preview refuses an unrelated AI Hero response on port 4321
+2026-10-13T14:08:39.4341617Z   ---
+2026-10-13T14:08:39.4344034Z   duration_ms: 159.2957
+2026-10-13T14:08:39.4346396Z   type: 'test'
+2026-10-13T14:08:39.4349359Z   location: 'D:\\a\\AI-hero\\AI-hero\\scripts\\preview-lifecycle.test.mjs:39:6'
+2026-10-13T14:08:39.4351567Z   failureType: 'testCodeFailure'
+2026-10-13T14:08:39.4353500Z   error: 'A matching page name is not proof that this project owns the listener'
+2026-10-13T14:08:39.4355551Z   code: 'ERR_ASSERTION'
+2026-10-13T14:08:39.4357333Z   name: 'AssertionError'
+2026-10-13T14:08:39.4359160Z   expected: 0
+2026-10-13T14:08:39.4360934Z   actual: 0
+2026-10-13T14:08:39.4363082Z   operator: 'notStrictEqual'
+2026-10-13T14:08:39.4364766Z   stack: |-
+2026-10-13T14:08:39.4366818Z     TestContext.<anonymous> (file:///D:/a/AI-hero/AI-hero/scripts/preview-lifecycle.test.mjs:54:12)
+2026-10-13T14:08:39.4368851Z     process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-10-13T14:08:39.4370055Z     async Test.run (node:internal/test_runner/test:1054:7)
+2026-10-13T14:08:39.4371785Z     async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+2026-10-13T14:08:39.4373043Z   ...
+2026-10-13T14:08:39.4867509Z 1..2
+2026-10-13T14:08:39.4868288Z # tests 2
+2026-10-13T14:08:39.4874604Z # suites 0
+2026-10-13T14:08:39.4879066Z # pass 1
+2026-10-13T14:08:39.4879491Z # fail 1
+2026-10-13T14:08:39.4879932Z # cancelled 0
+2026-10-13T14:08:39.4880325Z # skipped 0
+2026-10-13T14:08:39.4880695Z # todo 0
+2026-10-13T14:08:39.4881076Z # duration_ms 1527.3929
+2026-10-13T14:08:39.8550018Z ##[error]Process completed with exit code 1.
+2026-10-13T14:08:39.8730088Z 

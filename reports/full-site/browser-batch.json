@@ -1,95 +1,7 @@
 {
-  "id": "integration-06-targeted-home-and-chinese-anchors",
-  "reuse": "Only homepage directory and Ralph Chinese-anchor regression. Other fifth-round pages and body renderers unchanged; retain all original failure evidence.",
+  "id": "delivery-preview-smoke",
+  "reuse": "The full 195-page content UI and 194 actual directory clicks are independently accepted at c9545805/run38409450389. Only Windows launcher code changes here; retain a fresh desktop/mobile homepage response smoke instead of repeating the unchanged directory loop.",
   "pages": [
-    {
-      "id": "tips-for-ai-coding-with-ralph-wiggum",
-      "config": "reports/full-site/batches/content-b/batch-15/configs/tips-for-ai-coding-with-ralph-wiggum.json",
-      "features": [
-        {
-          "label": "main-body",
-          "selector": "p",
-          "exactText": "如果你正在使用 Claude Code、Copilot CLI、OpenCode 或 Codex 这类 AI 编码命令行工具，这篇文章就是为你写的。",
-          "nth": 0
-        },
-        {
-          "label": "table-1",
-          "selector": "table",
-          "nth": 0
-        },
-        {
-          "label": "table-2",
-          "selector": "table",
-          "nth": 1
-        },
-        {
-          "label": "table-3",
-          "selector": "table",
-          "nth": 2
-        },
-        {
-          "label": "table-4",
-          "selector": "table",
-          "nth": 3
-        },
-        {
-          "label": "table-5",
-          "selector": "table",
-          "nth": 4
-        },
-        {
-          "label": "table-6",
-          "selector": "table",
-          "nth": 5
-        },
-        {
-          "label": "table-7",
-          "selector": "table",
-          "nth": 6
-        },
-        {
-          "label": "table-8",
-          "selector": "table",
-          "nth": 7
-        },
-        {
-          "label": "code-example",
-          "selector": "figure.code-frame"
-        },
-        {
-          "label": "last-code-example",
-          "selector": "figure.code-frame",
-          "nth": 32
-        }
-      ],
-      "chineseLinks": [
-        "/getting-started-with-ralph",
-        "/newsletter"
-      ],
-      "anchors": [
-        "1-ralph-本质上是一个循环",
-        "2-先用-hitl-再转-afk",
-        "3-界定范围",
-        "4-追踪-ralph-的进度",
-        "5-使用反馈循环",
-        "6-小步推进",
-        "7-优先处理高风险任务",
-        "8-明确软件质量标准",
-        "9-使用-docker-沙箱",
-        "10-为能力付费",
-        "11-按自己的方式改造"
-      ],
-      "viewports": [
-        {
-          "width": 1440,
-          "height": 1000
-        },
-        {
-          "width": 390,
-          "height": 844
-        }
-      ]
-    },
     {
       "id": "home",
       "config": "reports/full-site/batches/content-b/batch-16/configs/home.json",
@@ -109,7 +21,6 @@
         "/skills/subscribe",
         "/skills"
       ],
-      "siteDirectory": 194,
       "captureTop": true,
       "viewports": [
         {
