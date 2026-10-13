@@ -1,0 +1,22 @@
+{
+  "route": "/skills-grill-me",
+  "source": {
+    "path": "content/source/skills-grill-me.md",
+    "sha256": "d2f506fbfc88d0110f67f2f74f3a6f9e48eba43e36a574d66b2c983f5c3bff91"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-04/drafts/skills-grill-me.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "state": "available-chinese"
+    }
+  ]
+}

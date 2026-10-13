@@ -10,7 +10,7 @@ updatedAt: "2025-03-12T11:08:57.628Z"
 
 MCP 的设计有一个很大的好处：你可以利用免费可用的工具，轻松分发 MCP 服务器。
 
-这次，我们要把[之前写的简单 MCP 服务器](https://www.aihero.dev/mcp-server-from-a-single-typescript-file)发布到 NPM。
+这次，我们要把[之前写的简单 MCP 服务器（中文）](/mcp-server-from-a-single-typescript-file)（[英文原文](https://www.aihero.dev/mcp-server-from-a-single-typescript-file)）发布到 NPM。
 
 完成后，任何安装了 [Node](https://nodejs.org/en) 的人都能立即通过 `npx` 运行它。我们可以发布更新，用户也会自动获得这些更新。
 

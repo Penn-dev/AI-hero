@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-04/configs/the-prompt-report.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/the-prompt-report",
+      "manifest": {
+        "route": "/the-prompt-report",
+        "sourceUrl": "https://www.aihero.dev/the-prompt-report",
+        "sourceHash": "1d14ac41bef2b6c45d7bcf8c20f49dd1e7f4cd0cd270fc05bee26dee66d985b6",
+        "translationPath": "content/zh/the-prompt-report.md",
+        "translationHash": "e22eaa86066cf47b5c8269478962da8176444511292767120794605517f5b5d3",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:56.247Z",
+        "assembly": {
+          "configHash": "a1926bd959caf72571399228cba616a53d4fb5c98de0f464796e446f9694178d",
+          "checkedAt": "2026-10-13T12:37:56.247Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/the-prompt-report.md",
+          "sha256": "e22eaa86066cf47b5c8269478962da8176444511292767120794605517f5b5d3"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "86c4f41043a04cbafc3bb27805a7b824f6a4315de8d56a93f3f02636486d952b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d2f0ed38fd30590e0ec19392d21bbad5741a3ce742ba37525c8201e9ab736be7"
+        }
+      ],
+      "rawOutputSha256": "a957c2b3a0bd8b5821f983a906c449958db63356f5c756adc3ee62c4d1d375cb"
+    },
+    {
+      "mode": "apply",
+      "route": "/the-prompt-report",
+      "manifest": {
+        "route": "/the-prompt-report",
+        "sourceUrl": "https://www.aihero.dev/the-prompt-report",
+        "sourceHash": "1d14ac41bef2b6c45d7bcf8c20f49dd1e7f4cd0cd270fc05bee26dee66d985b6",
+        "translationPath": "content/zh/the-prompt-report.md",
+        "translationHash": "e22eaa86066cf47b5c8269478962da8176444511292767120794605517f5b5d3",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:56.438Z",
+        "assembly": {
+          "configHash": "a1926bd959caf72571399228cba616a53d4fb5c98de0f464796e446f9694178d",
+          "checkedAt": "2026-10-13T12:37:56.438Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/the-prompt-report.md",
+          "sha256": "e22eaa86066cf47b5c8269478962da8176444511292767120794605517f5b5d3"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "86c4f41043a04cbafc3bb27805a7b824f6a4315de8d56a93f3f02636486d952b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7d5ee2a7125ff554ea4e43eafcdea22722039982df19411bccf56585f983cfd3"
+        }
+      ],
+      "rawOutputSha256": "e38d93d3c73d976a477e7694640916703dbadb732b508cabbe6b150d2047ab25"
+    }
+  ],
+  "nonTargetPagesPreserved": 122
+}

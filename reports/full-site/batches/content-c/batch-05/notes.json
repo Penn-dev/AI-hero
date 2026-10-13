@@ -1,0 +1,20 @@
+{
+  "/skills-ask-matt": {
+    "information": "逐节核对八节、两张表、七个常见问题，完整保留推荐即停止、不安装/不扫描、五类流程、五项阶段决策顺序及两种未修复问题。版本/16 of 27/退役与改名信息未改成实时结论。",
+    "naturalChinese": "完整通读，router 以路线选择表达，phase boundary 统一为阶段交界处；保留原文批评和条件，未简化成固定单线执行清单。",
+    "necessaryConcepts": "就近说明任务跟踪系统和宿主上下文命令，明确旧问题状态与固定来源时点；没有新增执行流程。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。",
+    "codeAndLinks": "源文无围栏代码，全部行内技术值与原 URL 保留；just give me the sequence 保留英文并紧邻完整可复制中文 Prompt。静态路线原例保留整条命令序列。",
+    "gaps": [
+      "未重查外部 issue 或当前 Skill 安装状态；网页忠实保留固定来源叙述。"
+    ]
+  },
+  "/skills-writing-for-agents": {
+    "information": "逐节对照七节、五项写作手段与九个问答。保留过程而非相同输出、默认删除、两种负担、人承担认知成本、行为无变化整句删除、人工运行而无自动 eval 等关键含义。",
+    "naturalChinese": "通读全文，no-op 明确为不改变行为的无效指令；对 leading words、pruning、sediment 采用稳定中文，保留作者强烈主张。",
+    "necessaryConcepts": "就近译注解释 frontmatter/智能体说明文件，原文 tight/red/tracer bullet 以示例身份保留并说明领域含义。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。",
+    "codeAndLinks": "原文无围栏代码，所有文件名、调用名与链接保留；streamline 原英文指令紧邻完整可复制中文 Prompt。",
+    "gaps": [
+      "未执行文档或测量模型行为，本文不据此宣称某种指令效果已运行验证。"
+    ]
+  }
+}

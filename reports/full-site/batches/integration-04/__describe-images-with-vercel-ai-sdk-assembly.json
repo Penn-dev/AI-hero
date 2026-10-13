@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-06/configs/describe-images-with-vercel-ai-sdk.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/describe-images-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/describe-images-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/describe-images-with-vercel-ai-sdk",
+        "sourceHash": "daa614dfa0c260f4b44036479d4ebb02a6c039b2ad39708e419886e31b043bdc",
+        "translationPath": "content/zh/describe-images-with-vercel-ai-sdk.md",
+        "translationHash": "e5f7633b3e95ecc9def83e95f2b097dcfb2e98e7e17847e13af1ab20b7aca652",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:01.832Z",
+        "assembly": {
+          "configHash": "abb42eb312123929258fcc7cf69e3007fbf0758429a301699cd5f3866dd0019a",
+          "checkedAt": "2026-10-13T12:38:01.832Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/describe-images-with-vercel-ai-sdk.md",
+          "sha256": "e5f7633b3e95ecc9def83e95f2b097dcfb2e98e7e17847e13af1ab20b7aca652"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ab0cc0b9ea8c00753bad5c05a8e895641989d85f2045e0b8635739a3d336d01a"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0c79259ab9c0809e0a4909a3d41f37bed83403fc31538d2e22f92bb39eba0a0e"
+        }
+      ],
+      "rawOutputSha256": "3250837da8f98e9c4d72eb70e7e7c8b3bbbee290f5a44f2ae9b0f7adb5ffcf2d"
+    },
+    {
+      "mode": "apply",
+      "route": "/describe-images-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/describe-images-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/describe-images-with-vercel-ai-sdk",
+        "sourceHash": "daa614dfa0c260f4b44036479d4ebb02a6c039b2ad39708e419886e31b043bdc",
+        "translationPath": "content/zh/describe-images-with-vercel-ai-sdk.md",
+        "translationHash": "e5f7633b3e95ecc9def83e95f2b097dcfb2e98e7e17847e13af1ab20b7aca652",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:02.046Z",
+        "assembly": {
+          "configHash": "abb42eb312123929258fcc7cf69e3007fbf0758429a301699cd5f3866dd0019a",
+          "checkedAt": "2026-10-13T12:38:02.046Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/describe-images-with-vercel-ai-sdk.md",
+          "sha256": "e5f7633b3e95ecc9def83e95f2b097dcfb2e98e7e17847e13af1ab20b7aca652"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ab0cc0b9ea8c00753bad5c05a8e895641989d85f2045e0b8635739a3d336d01a"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "709ff094d1d0037691fd6a95b45f3c121884b794a854ec864fa905d452899439"
+        }
+      ],
+      "rawOutputSha256": "01ea4417e46bc0a6a84eb95138098b37f8bfec4a9062cd5634c17a3dbea1f90a"
+    }
+  ],
+  "nonTargetPagesPreserved": 133
+}

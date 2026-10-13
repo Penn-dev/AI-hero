@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-03/configs/what-is-an-agent.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/what-is-an-agent",
+      "manifest": {
+        "route": "/what-is-an-agent",
+        "sourceUrl": "https://www.aihero.dev/what-is-an-agent",
+        "sourceHash": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
+        "translationPath": "content/zh/what-is-an-agent.md",
+        "translationHash": "81ad23f66a99b7cd40ba3c465bb6a4d193f4e6f4c5c0d2c2d730f7bb458fceeb",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:53.942Z",
+        "assembly": {
+          "configHash": "d541991ed008379230ad175164d3adc049132302e1757e284fcdaaf590f6dc30",
+          "checkedAt": "2026-10-13T12:37:53.942Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-is-an-agent.md",
+          "sha256": "81ad23f66a99b7cd40ba3c465bb6a4d193f4e6f4c5c0d2c2d730f7bb458fceeb"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "69dcc6de68363feb674ff7458d6678208aa24de92226174a516dcb0b0b5fece3"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "36d667577a80e064f98fc555de5955e0716692a492a3d82767c741c570f7ef97"
+        }
+      ],
+      "rawOutputSha256": "63b1e99517a1a7f8003a9aff552f2cbc8a6874f4ab82411cbad0816c0d0ed25a"
+    },
+    {
+      "mode": "apply",
+      "route": "/what-is-an-agent",
+      "manifest": {
+        "route": "/what-is-an-agent",
+        "sourceUrl": "https://www.aihero.dev/what-is-an-agent",
+        "sourceHash": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
+        "translationPath": "content/zh/what-is-an-agent.md",
+        "translationHash": "81ad23f66a99b7cd40ba3c465bb6a4d193f4e6f4c5c0d2c2d730f7bb458fceeb",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:54.148Z",
+        "assembly": {
+          "configHash": "d541991ed008379230ad175164d3adc049132302e1757e284fcdaaf590f6dc30",
+          "checkedAt": "2026-10-13T12:37:54.148Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-is-an-agent.md",
+          "sha256": "81ad23f66a99b7cd40ba3c465bb6a4d193f4e6f4c5c0d2c2d730f7bb458fceeb"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "69dcc6de68363feb674ff7458d6678208aa24de92226174a516dcb0b0b5fece3"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "9794d3858717e7acd5ba35393a538c9a110bd0d1836373c08642844b81a9d7fc"
+        }
+      ],
+      "rawOutputSha256": "191c309d6dbb5f8cb362812abc3b7e57564cd2ad9a74cb4b13241462e5ceab87"
+    }
+  ],
+  "nonTargetPagesPreserved": 117
+}

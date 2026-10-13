@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-08/configs/evalite-an-early-preview.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/evalite-an-early-preview",
+      "manifest": {
+        "route": "/evalite-an-early-preview",
+        "sourceUrl": "https://www.aihero.dev/evalite-an-early-preview",
+        "sourceHash": "ae3226b9243b252a992143d399e7d27b4eec4ddc0e1f0aaeed720d4d076417da",
+        "translationPath": "content/zh/evalite-an-early-preview.md",
+        "translationHash": "9d74e3cb9de0221318a08d001e170a3fe8a5f055e094cb44848fd083d35ade18",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:07.998Z",
+        "assembly": {
+          "configHash": "ac442f6a40be486daa41af5bc8430a1165c7aa9a15cae0809fae85becd8b13c5",
+          "checkedAt": "2026-10-13T12:38:07.998Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/what-are-evals",
+              "state": "planned-chinese",
+              "reason": "已交对应完整中文批次，待工程确认接入后刷新；保留原站资源入口。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/evalite-an-early-preview.md",
+          "sha256": "9d74e3cb9de0221318a08d001e170a3fe8a5f055e094cb44848fd083d35ade18"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "08ff612b35000f43dc75a3630a40eaa0fac39969bbc895c15172cd7ce6fdcc4b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "dc0c1a061cb65f6375c7cab59ef9b8c0390aabb63cf8a1af15dccb8d0bee01a9"
+        }
+      ],
+      "rawOutputSha256": "57822ad977d69943e872d9e31ac47573564cf1cdb946b1cec225ace4a043e9e5"
+    },
+    {
+      "mode": "apply",
+      "route": "/evalite-an-early-preview",
+      "manifest": {
+        "route": "/evalite-an-early-preview",
+        "sourceUrl": "https://www.aihero.dev/evalite-an-early-preview",
+        "sourceHash": "ae3226b9243b252a992143d399e7d27b4eec4ddc0e1f0aaeed720d4d076417da",
+        "translationPath": "content/zh/evalite-an-early-preview.md",
+        "translationHash": "9d74e3cb9de0221318a08d001e170a3fe8a5f055e094cb44848fd083d35ade18",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:08.190Z",
+        "assembly": {
+          "configHash": "ac442f6a40be486daa41af5bc8430a1165c7aa9a15cae0809fae85becd8b13c5",
+          "checkedAt": "2026-10-13T12:38:08.190Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/what-are-evals",
+              "state": "planned-chinese",
+              "reason": "已交对应完整中文批次，待工程确认接入后刷新；保留原站资源入口。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/evalite-an-early-preview.md",
+          "sha256": "9d74e3cb9de0221318a08d001e170a3fe8a5f055e094cb44848fd083d35ade18"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "08ff612b35000f43dc75a3630a40eaa0fac39969bbc895c15172cd7ce6fdcc4b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4c8b116f528f5f3759af5d5c2afc3b81d6865c5b20d408670cf4a8c29c4bdc7c"
+        }
+      ],
+      "rawOutputSha256": "4dccc3c2b5901043cac90807b1fd24ebdfcbb95b59de848a1b3074252ff3e143"
+    }
+  ],
+  "nonTargetPagesPreserved": 146
+}

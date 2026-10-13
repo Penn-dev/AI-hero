@@ -1,0 +1,9 @@
+{
+  "route": "/securing-your-ai-app-with-guardrails",
+  "source": {
+    "path": "content/source/securing-your-ai-app-with-guardrails.md",
+    "sha256": "7d76671b274c9f430d66f8afc9e2c51f40247d3e77120b08245b8e6432c3c212"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-08/drafts/securing-your-ai-app-with-guardrails.md",
+  "translationPath": "content/zh/securing-your-ai-app-with-guardrails.md"
+}

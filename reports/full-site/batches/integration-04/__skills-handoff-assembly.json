@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-06/configs/skills-handoff.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-handoff",
+      "manifest": {
+        "route": "/skills-handoff",
+        "sourceUrl": "https://www.aihero.dev/skills-handoff",
+        "sourceHash": "f66de1f26fc55ee3263e5b3cdf4a5a96a3b26344c834cc918a930391f797a448",
+        "translationPath": "content/zh/skills-handoff.md",
+        "translationHash": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:29.537Z",
+        "assembly": {
+          "configHash": "4ebb708f4ec09c788d5037955c8d629c947376d6d7159db3453a43c0ff8b5199",
+          "checkedAt": "2026-10-13T12:37:29.537Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/handoff-artifact",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-handoff.md",
+          "sha256": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "46127ca7b5bbd503c6686c3bbc03d40f8a89773a0b85d86c44adc8cf38f9b4e6"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0e8bbcc9fb4333cd2797ea4197ea9ec1211e3d8026a6d01f0ca2ae468aec2adf"
+        }
+      ],
+      "rawOutputSha256": "a626eab80f2eedcdd72a06ffbe2f4313f65c45b5ccc8b17f21c6b1d410cc2e23"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-handoff",
+      "manifest": {
+        "route": "/skills-handoff",
+        "sourceUrl": "https://www.aihero.dev/skills-handoff",
+        "sourceHash": "f66de1f26fc55ee3263e5b3cdf4a5a96a3b26344c834cc918a930391f797a448",
+        "translationPath": "content/zh/skills-handoff.md",
+        "translationHash": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:29.816Z",
+        "assembly": {
+          "configHash": "4ebb708f4ec09c788d5037955c8d629c947376d6d7159db3453a43c0ff8b5199",
+          "checkedAt": "2026-10-13T12:37:29.816Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/handoff-artifact",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-handoff.md",
+          "sha256": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "46127ca7b5bbd503c6686c3bbc03d40f8a89773a0b85d86c44adc8cf38f9b4e6"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8e9ebe241988cb266078c80ecca87456582d03afec0665eccb8f625578744744"
+        }
+      ],
+      "rawOutputSha256": "f763bf46d840f3f6c53243b726c33865a406faf41148684271f13ca411c1af9a"
+    }
+  ],
+  "nonTargetPagesPreserved": 98
+}

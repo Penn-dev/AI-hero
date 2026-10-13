@@ -1,0 +1,94 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-05/configs/skills-ask-matt.json
+
+{
+  "mode": "preview",
+  "route": "/skills-ask-matt",
+  "page": {
+    "title": "/ask-matt Skill",
+    "description": "根据你眼下的情况，判断该用哪个 Skill。",
+    "markdown": "## 它能做什么\n\n`ask-matt` 帮你在这个仓库的 Skills 之间选择路线。你描述眼下的情况，例如有一个无从下手的想法、收到一堆 bug 报告，或某个[会话](https://www.aihero.dev/ai-coding-dictionary/session)已经持续很久，它就会指出合适的 Skill 或 Skill 顺序，以及这条路线中哪些地方需要人来决定。\n\n它提出建议后就停下。不会开始追问、写[规格](https://www.aihero.dev/ai-coding-dictionary/spec)、打开文件，或启动刚刚推荐的 Skill。你得到的是下一条该输入的命令，由你自己输入。另外，它是一份手工维护的本仓库 Skills 地图，不会扫描你实际安装的内容，因此不会推荐你自写或其他作者的 Skills。\n\n## 什么时候该用它\n\n输入 `/ask-matt` 来调用；智能体不会自行选用它。\n\n| 你的情况 | 它会给出什么 |\n| --- | --- |\n| 有一个想法，却不知道从哪里开始 | 主要流程的起点，以及工作是否小到可以省略规格 |\n| 收到别人的 bug 报告和需求 | [triage](https://aihero.dev/skills-triage) 入口，以及为什么自己生成的[任务单](https://www.aihero.dev/ai-coding-dictionary/ticket)不应走这条路 |\n| 两个 Skills 看起来可以互换 | 两者的分界，通常是一条具体判断，而非口味差别。选 [grill-me](https://aihero.dev/skills-grill-me) 还是 [grill-with-docs](https://aihero.dev/skills-grill-with-docs)，取决于是否在工作目录中；选 [grill-with-docs](https://aihero.dev/skills-grill-with-docs) 还是 [wayfinder](https://aihero.dev/skills-wayfinder)，取决于工作能否在一次会话内完成 |\n| 会话已经很长，需要决定怎么处理[上下文](https://www.aihero.dev/ai-coding-dictionary/context) | 在阶段交界处，按顺序判断五个选项的决策树 |\n| 已经选好一个 Skill | 没什么帮助，直接调用选好的 Skill 即可 |\n\n## 使用前提\n\n它会说出 Skill 的名字，但不会安装。推荐要能执行，所指向的 Skills 就必须已经安装；而它只知道本仓库正式发布的 Skills。\n\n依赖任务跟踪系统的路线，包括 triage、`to-spec`、`to-tickets`、`implement`，都假定 [setup-matt-pocock-skills](https://aihero.dev/skills-setup-matt-pocock-skills) 已经为仓库配置了跟踪系统。即使还没配置，它仍会推荐这些路线。\n\n译注：任务跟踪系统用来保存 issue、规格和工作状态，例如 GitHub Issues。推荐一条路线，不等于已经具备执行条件。\n\n## 关注整条流程\n\n这个 Skill 的引导词是**流程（flow）**，也就是*穿过多个 Skills 的路线*，而非某个单独 Skill。你描述情况后，它会把你放在流程的某一步。这与“找到关键词最匹配的 Skill”是不同的答案。路线有五类，Skill 本体有完整说明：\n\n- **主要流程**，从想法到交付。追问、规格、任务单、实现，可以一次实现一张任务单，也可以用 [implement-spec](https://aihero.dev/skills-implement-spec) 并行实现整张任务图；之后审阅，再进行 [retro](https://aihero.dev/skills-retro)，把开发中学到的东西反馈到智能体环境。它有两个分支：遇到必须用可运行代码才能回答的问题，就暂时做原型；工作跨越多次会话时，才值得付出拆成规格与任务单的成本。\n- **工作入口**，某种情况产生了工作，再接入主要流程，例如收到 bug 报告、某处坏了，或工作过于模糊庞大，一次会话装不下。\n- **代码库维护**，关注日常维护而非新增功能。[improve-codebase-architecture](https://aihero.dev/skills-improve-codebase-architecture) 扫描代码，寻找加深模块的机会，每个机会再作为一个想法进入主要流程。\n- **独立工具**，不属于任何流程，可以单独使用，例如原型、问卷和研究。\n- **底层词汇资料**，包括两份参考文档。当问题出在词语而非步骤时，其他 Skills 会读取它们。\n\n## 阶段交界处\n\n另一个关键概念是**阶段交界处**。阶段是会话中的一块工作，例如[追问讨论](https://www.aihero.dev/ai-coding-dictionary/grilling)、实现或质量检查。只有从一个阶段切换到下一个阶段时，才该问“这些上下文该怎么处理”。阶段中途不必作这个决定：继续做，或把剩余工作拆给[子智能体](https://www.aihero.dev/ai-coding-dictionary/subagent)。\n\n| 选项 | 什么时候选 |\n| --- | --- |\n| **继续当前会话** | 下一阶段需要逐字保留当前阶段的信息，或还有[高效区](https://www.aihero.dev/ai-coding-dictionary/smart-zone)容量。这是唯一能保留当前会话作为[第一手来源](https://www.aihero.dev/ai-coding-dictionary/primary-source)的办法，因此要先排除它，再考虑其他选项 |\n| **`/clear`** | 之前的内容全部可以丢弃。这最省成本，但判断错了就无法撤销 |\n| **[handoff](https://aihero.dev/skills-handoff)** | 有内容需要迁移，例如换[智能体执行框架](https://www.aihero.dev/ai-coding-dictionary/harness)、换目录、交给同事，或在阶段中途分出一项支线任务 |\n| **子智能体** | 任务范围足够明确，可以在你[离开键盘](https://www.aihero.dev/ai-coding-dictionary/afk)时自行执行 |\n| **`/compact`** | 以上都不适用。这是默认选项，决策树往往最后走到这里 |\n\n人们常把其中两项弄错，因此这个 Skill 给出了顺序，而不只是清单。`/handoff` 看起来像跨上下文窗口的通用办法，其实不是；它提供的只是可迁移性。`/compact` 放在最后而非最前，因为前面四项要么成本更低，要么更精准。\n\n译注：`/clear` 和 `/compact` 是原文宿主中的上下文管理命令。前者清空，后者压缩；不同工具是否提供同名命令，需要在各自环境中确认。\n\n## 常见问题\n\n**难道不能直接列出 Skills 的正确顺序吗？**\n\n大家一直要求在 README 中放这样一张清单。这个 Skill 就承担了这项工作。静态表格会写出 `wayfinder → to-spec → to-tickets → implement → code-review → retro`，但对大多数情况都是错的。重要的是分支条件：有没有代码库，开发是否跨会话，这个问题能否通过讨论解决。代价是，这张路线图由人手动维护，会落后于仓库。`/grilling` 已经发布很久后，它才被写进来。\n\n**它告诉我，一半的 Skills 都没安装。**\n\n这是一个已知且尚未修复的问题。它推荐的大多数 Skills 都设置了 `disable-model-invocation: true`，意味着宿主不会把这些 Skills 放进注入到智能体上下文的清单。智能体误以为该清单包含全部 Skills，便报告缺失。有一次已报告的会话中，它说整个规格与任务单流程都不存在，转而推荐只用 `/grilling` 和 `/tdd`。插件二十七个 Skills 中有十六个带有这个标记，因此这是常见情况，而非边角问题。它们其实已经安装。直接输入斜杠命令，或检查 `.claude-plugin/plugin.json`；这个文件才是判断有哪些 Skills 的权威依据。\n\n**它描述了某个 Skill 的行为，但那个 Skill 根本不这样做。**\n\n这也是确实存在、尚未修复的问题。它依据的是自己为每个 Skill 写的一行摘要，而非 Skill 本文。一份详细报告记录了同一会话里的三次此类错误，其中一次仅凭“把对话变成规格”的摘要，就建议跳过 [to-spec](https://aihero.dev/skills-to-spec)。它从未打开 `to-spec/SKILL.md`。每次都等用户质疑后才核实，没有主动检查。那次跳过 `to-spec`，漏掉了一项真实的接口接缝检查，最终生成的任务单低估了工作量。如果你准备依据它对其他 Skill 的描述采取行动，就要求它先打开对应的 `SKILL.md`。路线图没有涵盖的问题也一样，例如是否要使用[计划模式](https://www.aihero.dev/ai-coding-dictionary/agent-mode)：那是[模型](https://www.aihero.dev/ai-coding-dictionary/model)的推断，不是这里写好的规则。\n\n**为什么写成文字，而不是编号清单？**\n\n这个意见有道理。一条尚未关闭的 issue 指出，大部分分流其实是确定的，叙述式写法却不好扫读。你完全可以要求压缩版，说“just give me the sequence”，就会得到顺序。\n\n中文 Prompt（译注）：\n\n```text\n只给我执行顺序。\n```\n\n文字承载的是条件：有哪些分支，哪里需要人决定，步骤之间哪里该清空或压缩上下文。单层清单恰恰会丢掉这些。\n\n**它能推荐我自己的 Skills，或其他作者的吗？**\n\n不能。有三个不同提案要求做一个读取本地 `skills/` 目录、根据实际安装内容推荐的工具。`ask-matt` 不是这种工具。它是一份手工维护的特定 Skills 地图，对你自己写或从别处安装的内容一无所知。\n\n**它让我修改一个 SKILL.md。**\n\n这个建议通常没错，但修改很难长期保留。有人问怎样让 [implement](https://aihero.dev/skills-implement) 关闭任务单，得到的建议是在 Skill 中加一行，于是马上发现问题：`npx skills update` 会覆盖文件，插件安装又是只读的。长期行为要求应写进自己的 `CLAUDE.md` 或 `AGENTS.md`，也可以在调用时直接说。写在提示词中的要求不会因更新而丢失。有人就用这种方式把流程从 GitHub 改到 Linear，或询问哪些未完成任务可以并行执行。\n\n**它推荐了我没有的 Skill，或漏掉了我有的。**\n\n先检查更新日志里是否发生重命名，不要立刻认为它消失了。`writing-great-skills` 改名为 [writing-for-agents](https://aihero.dev/skills-writing-for-agents)，没有保留别名；`to-prd` 改为 [to-spec](https://aihero.dev/skills-to-spec)；`pathfinder` 改为 [wayfinder](https://aihero.dev/skills-wayfinder)。另外四个 Skills 已退役，内容被其他 Skills 吸收：`ubiquitous-language`、`design-an-interface`、`qa` 和 `request-refactor-plan`。如果它漏掉了已安装的 Skill，那就是前面说的路线图更新滞后。\n\n## 出现这些迹象，就说明它在发挥作用\n\n- 最后告诉你该输入什么，然后停下，而非自己开始工作。\n- 给出的路线说明哪里清空或压缩上下文、哪里需要你审阅，而不只列 Skill 名。\n- 两个 Skills 相近时，说明该选哪一个，以及另一个为什么不适合。\n- 它声称某个 Skill 会做什么时，执行记录中能看到它读取了对应的 `SKILL.md`。\n- 你能从结果中认出自己的真实情况，而非一个最相近的通用场景。\n\n## 它处在什么位置\n\n`ask-matt` 是位于整套 Skills 之上的**独立路线选择工具**，从来不是流程链中的一步。它指向各条流程，其他文档页也链接回它，避免每页都重新画一张图。从这里，你最常进入 [grill-with-docs](https://aihero.dev/skills-grill-with-docs)，也就是主要流程的起点；或进入 [triage](https://aihero.dev/skills-triage)，处理别人带来的工作，而非自己发起的工作。\n\n相对于所介绍的 Skills，它是[第二手来源](https://www.aihero.dev/ai-coding-dictionary/secondary-source)。它与某份 `SKILL.md` 冲突时，以 `SKILL.md` 为准。\n\n译注：本页中的未修复问题、插件数量和版本名称均按固定来源保留，并非对当前安装状态或最新 issue 状态的实时查询。\n\n译注：本页相关中文词条：[上下文指针](/ai-coding-dictionary/context-pointer)、[上下文窗口](/ai-coding-dictionary/context-window)、[上下文压缩](/ai-coding-dictionary/compaction)。链接优先打开已接入的中文页；尚未接入时会回到原站英文页。",
+    "sourceUpdatedAt": "2026-08-24T09:14:47.195Z",
+    "sourceUrl": "https://www.aihero.dev/skills-ask-matt",
+    "sourceHash": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685"
+  },
+  "manifest": {
+    "route": "/skills-ask-matt",
+    "sourceUrl": "https://www.aihero.dev/skills-ask-matt",
+    "sourceHash": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685",
+    "translationPath": "content/zh/skills-ask-matt.md",
+    "translationHash": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T11:40:14.647Z",
+    "assembly": {
+      "configHash": "b8998ade3676312b2bd911cee0353fcf8783ffd7f3e37c8ea823cab4624c222f",
+      "checkedAt": "2026-10-13T11:40:14.647Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/context-pointer",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/context-window",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/compaction",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        }
+      ],
+      "staleChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/context-window",
+          "sourceHash": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0",
+          "currentSourceHash": "2a5b63536a30a69e910c5bd6180ba6e19492e759b20b38bcdcff060983442deb"
+        }
+      ]
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/skills-ask-matt.md",
+      "sha256": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "fe6e3016b021ae0604d542329fbae39ece49073a208bf26befea61adaf5ceaef"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "87159480d71ee7624557385818c80495ea31b50e9b21e3105b48337c93e930c1"
+    }
+  ]
+}

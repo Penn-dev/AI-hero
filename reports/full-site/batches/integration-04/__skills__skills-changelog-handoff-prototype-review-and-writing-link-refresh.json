@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-04/configs/skills__skills-changelog-handoff-prototype-review-and-writing.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "manifest": {
+        "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+        "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+        "translationPath": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+        "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:41.440Z",
+        "assembly": {
+          "configHash": "452f79f3e191a7fe48e9fdfef81fe2a3225ad75d79d4bf42a85173d4cddea0cf",
+          "checkedAt": "2026-10-13T12:37:41.440Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+          "sha256": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "774accdf8cac40002e23d6237aab101658a3e63ee8a15449d3543b937af25131"
+        }
+      ],
+      "rawOutputSha256": "65e974a08ac3b80cd91936003670f717e25edc70b1bc0fc468348367e06d80cd"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "manifest": {
+        "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+        "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+        "translationPath": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+        "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:41.639Z",
+        "assembly": {
+          "configHash": "452f79f3e191a7fe48e9fdfef81fe2a3225ad75d79d4bf42a85173d4cddea0cf",
+          "checkedAt": "2026-10-13T12:37:41.639Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+          "sha256": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "08169d0ff57d5cdf403573c7c5facb939bc9515cac52da8165f71cd301a74dbe"
+        }
+      ],
+      "rawOutputSha256": "0b82efd04b4406429a1e67af1807e862d44eeda3cd1a44f8643e6f021aaa3938"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

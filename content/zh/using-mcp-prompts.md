@@ -158,7 +158,7 @@ Vercel
 
 ## 演示
 
-我们可以用[之前介绍的方法](https://www.aihero.dev/mcp-server-from-a-single-typescript-file)，从 Claude Code 连接这个服务器。
+我们可以用[之前介绍的方法（中文）](/mcp-server-from-a-single-typescript-file)（[英文原文](https://www.aihero.dev/mcp-server-from-a-single-typescript-file)），从 Claude Code 连接这个服务器。
 
 连接后，提示词模板会作为 Claude 内部可执行的命令提供。我们可以在 Claude Code 界面输入 `/cleanTranscription` 来使用它，自动补全里会显示这个提示词：
 

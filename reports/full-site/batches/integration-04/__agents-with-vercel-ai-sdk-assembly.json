@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-07/configs/agents-with-vercel-ai-sdk.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/agents-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/agents-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/agents-with-vercel-ai-sdk",
+        "sourceHash": "9e004adff22f10204d7f6439510872e0490888d1363426a013cd8457395014c1",
+        "translationPath": "content/zh/agents-with-vercel-ai-sdk.md",
+        "translationHash": "847e8de8d3bcd998dd94153d104112f7c717fb1634e6d75277f689c55c519222",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:04.638Z",
+        "assembly": {
+          "configHash": "04b30783f8f5b98539dfefb201712be5f7d0766b5ade4ceee4f5c41b45834e24",
+          "checkedAt": "2026-10-13T12:38:04.638Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/agents-with-vercel-ai-sdk.md",
+          "sha256": "847e8de8d3bcd998dd94153d104112f7c717fb1634e6d75277f689c55c519222"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a8c38dad5c62730d88c2fea0ebc78438497773a88c3b082682339420f0d6ff89"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e14e66ba1f0860ea5e5a23577e2926e075c575ab716378c2b761e19be75b14a3"
+        }
+      ],
+      "rawOutputSha256": "3df739d1df55e0a5ab0f219b6c3af4cc5fe137460db957a39405ef81d607fb10"
+    },
+    {
+      "mode": "apply",
+      "route": "/agents-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/agents-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/agents-with-vercel-ai-sdk",
+        "sourceHash": "9e004adff22f10204d7f6439510872e0490888d1363426a013cd8457395014c1",
+        "translationPath": "content/zh/agents-with-vercel-ai-sdk.md",
+        "translationHash": "847e8de8d3bcd998dd94153d104112f7c717fb1634e6d75277f689c55c519222",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:04.886Z",
+        "assembly": {
+          "configHash": "04b30783f8f5b98539dfefb201712be5f7d0766b5ade4ceee4f5c41b45834e24",
+          "checkedAt": "2026-10-13T12:38:04.886Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/agents-with-vercel-ai-sdk.md",
+          "sha256": "847e8de8d3bcd998dd94153d104112f7c717fb1634e6d75277f689c55c519222"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a8c38dad5c62730d88c2fea0ebc78438497773a88c3b082682339420f0d6ff89"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "51c594d197e44af523e9ba7ceebcd9364b1d492d50bfb7302318bda040673cd2"
+        }
+      ],
+      "rawOutputSha256": "a5bc7dc01f69f462d79f460096393aea6f9a9d582800de0e5371ea315a18cfd7"
+    }
+  ],
+  "nonTargetPagesPreserved": 139
+}

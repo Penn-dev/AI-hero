@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-12/configs/skills-setup-matt-pocock-skills.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-setup-matt-pocock-skills",
+      "manifest": {
+        "route": "/skills-setup-matt-pocock-skills",
+        "sourceUrl": "https://www.aihero.dev/skills-setup-matt-pocock-skills",
+        "sourceHash": "195b930507929eb63fbdc2adf3fa38f50945ed4ceaee9bcf8cfdda9d352c2495",
+        "translationPath": "content/zh/skills-setup-matt-pocock-skills.md",
+        "translationHash": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:39.919Z",
+        "assembly": {
+          "configHash": "eed251fa16f133b9f5bce79e5525cedaeb9791be9eec606f91cc53f1c639b512",
+          "checkedAt": "2026-10-13T12:37:39.919Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-setup-matt-pocock-skills.md",
+          "sha256": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "079483c37de62603085ada66309190e35c31d789c98f32c662c3ae384aadc840"
+        }
+      ],
+      "rawOutputSha256": "e3eccbf7e12af523e377000c707c623aa1d7e5628005b0c392b8c299974e4c1b"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-setup-matt-pocock-skills",
+      "manifest": {
+        "route": "/skills-setup-matt-pocock-skills",
+        "sourceUrl": "https://www.aihero.dev/skills-setup-matt-pocock-skills",
+        "sourceHash": "195b930507929eb63fbdc2adf3fa38f50945ed4ceaee9bcf8cfdda9d352c2495",
+        "translationPath": "content/zh/skills-setup-matt-pocock-skills.md",
+        "translationHash": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:40.178Z",
+        "assembly": {
+          "configHash": "eed251fa16f133b9f5bce79e5525cedaeb9791be9eec606f91cc53f1c639b512",
+          "checkedAt": "2026-10-13T12:37:40.178Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-setup-matt-pocock-skills.md",
+          "sha256": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "9ba68a5c7dc27f2dd2416a0e4bcc49c519a72ecadf799ca7d6801b9daa7c3f3c"
+        }
+      ],
+      "rawOutputSha256": "412460d200c79f6d4c86f00838d01305b39eccd3a221190e7446d9cb5e3e35b5"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

@@ -15,6 +15,7 @@ const index = JSON.parse(await readFile('content/zh/index.json', 'utf8'));
 const manifest = JSON.parse(await readFile('content/zh/manifest.json', 'utf8'));
 const baseUrl = 'http://127.0.0.1:4321';
 const hash = value => createHash('sha256').update(value).digest('hex');
+const exactText = value => new RegExp('^' + value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '$');
 const report = {
   batch: batch.id, commit: process.env.GITHUB_SHA, runId: process.env.GITHUB_RUN_ID,
   scope: 'Actual assembled production pages and content-specific structures; reuses unchanged sample interaction evidence. Not semantic review or tutorial execution.',
@@ -76,7 +77,7 @@ async function check(target, viewport) {
       const quote = tree.children[i + 1];
       if (label.type !== 'paragraph' || !/中文(?:版)?\s*Prompt/.test(plain(label)) || quote.type !== 'blockquote') continue;
       const prompt = plain(quote);
-      const paragraph = page.locator('#reading-body blockquote p').filter({ hasText: prompt }).first();
+      const paragraph = page.locator('#reading-body blockquote p').filter({ hasText: exactText(prompt) }).first();
       await expect(paragraph).toHaveText(prompt);
       const rendered = await paragraph.innerText();
       await paragraph.click();
@@ -98,7 +99,7 @@ async function check(target, viewport) {
       result.images.push(await img.evaluate(element => ({ src: element.currentSrc, width: element.naturalWidth, alt: element.alt })));
     }
     for (const feature of target.features ?? []) {
-      const element = page.locator('#reading-body').locator(feature.selector).filter(feature.text ? { hasText: feature.text } : {}).nth(feature.nth ?? 0);
+      const element = page.locator('#reading-body').locator(feature.selector).filter(feature.exactText ? { hasText: exactText(feature.exactText) } : feature.text ? { hasText: feature.text } : {}).nth(feature.nth ?? 0);
       await element.scrollIntoViewIfNeeded();
       await expect(element).toBeVisible();
       await screenshot(page, result, feature.label);
@@ -133,12 +134,13 @@ async function check(target, viewport) {
         await page.goBack({ waitUntil: 'networkidle' });
       }
     }
-    if (target.chineseLink) {
-      const link = page.locator('#reading-body').locator(`a[href="${target.chineseLink}"]`).first();
+    for (const href of target.chineseLinks ?? (target.chineseLink ? [target.chineseLink] : [])) {
+      const link = page.locator('#reading-body').locator(`a[href="${href}"]`).first();
       await link.click();
-      await page.waitForURL(baseUrl + target.chineseLink);
-      await expect(page.getByRole('heading', { level: 1 }).first()).toHaveText(index.pages[target.chineseLink].title);
-      result.checks.push(`Actual Chinese concept link click: ${target.chineseLink}`);
+      await page.waitForURL(baseUrl + href);
+      const route = new URL(href, baseUrl).pathname;
+      await expect(page.getByRole('heading', { level: 1 }).first()).toHaveText(index.pages[route].title);
+      result.checks.push(`Actual Chinese concept link click: ${href}`);
       await page.goBack({ waitUntil: 'networkidle' });
     }
     await page.reload({ waitUntil: 'networkidle' });

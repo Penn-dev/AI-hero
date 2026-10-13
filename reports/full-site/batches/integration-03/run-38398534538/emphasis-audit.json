@@ -1,0 +1,478 @@
+{
+  "scope": "Review non-code emphasis markers and nested strong nodes. Never auto-replace a finding. Intentional literal prose examples need a recorded human decision. This is not visual or semantic acceptance.",
+  "files": 94,
+  "pagesWithFindings": 0,
+  "findings": 0,
+  "results": [
+    {
+      "file": "content/learning/agents-md/article.md",
+      "sha256": "bf2c149382aada03300b6dacac483d315a148867fc0acc5f2abf43b6f4463562",
+      "findings": []
+    },
+    {
+      "file": "content/zh/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
+      "sha256": "00b8465e3e612df8f2af889a8d5cb40c12acdd16b84fb2bdb81bdd5002e61986",
+      "findings": []
+    },
+    {
+      "file": "content/zh/what-is-the-context-window.md",
+      "sha256": "4fb8555b800741de5f4939fdc6da0f9e98747dcddcbf124b01d09be64db0edc7",
+      "findings": []
+    },
+    {
+      "file": "content/zh/what-is-an-llm.md",
+      "sha256": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb",
+      "findings": []
+    },
+    {
+      "file": "content/zh/structured-data-from-pdfs-with-vercel-ai-sdk.md",
+      "sha256": "1dfbe53dabdf187ea7a1042052514a42b58fd939ef63f4595734d18eaa365332",
+      "findings": []
+    },
+    {
+      "file": "content/zh/5-agent-skills-i-use-every-day.md",
+      "sha256": "e89e8f4ac6ed513b0283106296d070a43b9d0c92410a8a49a936d5b3b7c3ea8e",
+      "findings": []
+    },
+    {
+      "file": "content/zh/skills-codebase-design.md",
+      "sha256": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+      "findings": []
+    },
+    {
+      "file": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+      "sha256": "3b0fac1ab0ee12b87204fc2b744c9bfe6dad7465456b626a232e4cbb1ef680e7",
+      "findings": []
+    },
+    {
+      "file": "content/learning/system-prompt/article.md",
+      "sha256": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/agent.md",
+      "sha256": "5b44967000bbf20f89eecf21037c35a7428931d8623e0a45912dd63ed15e2a06",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/context-window.md",
+      "sha256": "c7b7dd9404a5e20e691ba4d9109594987f8be2844d762c08634584b981ba35b1",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/tool-call.md",
+      "sha256": "95ec8540dceadb7fac71d6539c17bc2a4acd1ee9354dac8fe994572678413e2a",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/prefix-cache.md",
+      "sha256": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/memory-system.md",
+      "sha256": "69475a939a5bcdf64d816a1de64f161f915dc1443ed1e3be6fecaaba23684df9",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/hallucination.md",
+      "sha256": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/progressive-disclosure.md",
+      "sha256": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621",
+      "findings": []
+    },
+    {
+      "file": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sha256": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
+      "findings": []
+    },
+    {
+      "file": "content/zh/what-are-tokens.md",
+      "sha256": "2b468c37230a869e3cd332481a3f288a19b4b348aaf166b0774091b1d677834a",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/model.md",
+      "sha256": "f12f343165c943279cb53b174cad12087ae71f9a19ac811337dba7264ed6e757",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/harness.md",
+      "sha256": "4385fb5496325123f5a12485ec6d2d919a00154a663e32ed644e5df636068441",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/context.md",
+      "sha256": "4021cb508844311565f8f12a80d102cfd6eddde9d639a682302914901e78941b",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/token.md",
+      "sha256": "8898ec3b4ffd54aa9f1cf9ec5588db3f21089e9c632fe2283a1f3de1598af5e3",
+      "findings": []
+    },
+    {
+      "file": "content/zh/skills-catalog.md",
+      "sha256": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/tool-result.md",
+      "sha256": "7574fffe1a0b24a5b25f4213060ea9765833f0d7c84468ae0a3df00772e688a5",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/tool.md",
+      "sha256": "f094c8573d7307195caf83a27e4eace62fda2af963fcac0adb262e346d1fb4a3",
+      "findings": []
+    },
+    {
+      "file": "content/zh/how-does-the-model-context-protocol-work.md",
+      "sha256": "9eaae5711012ae53dce64acae7cbfd54eff8177a64d3f0f7b4627554ba974cb7",
+      "findings": []
+    },
+    {
+      "file": "content/zh/logging-a-huge-mcp-footgun.md",
+      "sha256": "be6738bc15e1dabc51fbd97804a890228a2790f750693c94f05a00e7b576dde5",
+      "findings": []
+    },
+    {
+      "file": "content/zh/mcp-server-from-a-single-typescript-file.md",
+      "sha256": "50eec8635306086028be34c9bb9307364ffe4ec500fec179aa88e76fbc556def",
+      "findings": []
+    },
+    {
+      "file": "content/zh/model-context-protocol-tutorial.md",
+      "sha256": "abbfb899f7a2969b8c3dffc95244a150aff2ff04e7004a43f1713841e35c618f",
+      "findings": []
+    },
+    {
+      "file": "content/zh/publish-your-mcp-server-to-npm.md",
+      "sha256": "266a6329ddbe8f0cd24322187c0b08ee59a1bf6f3d4c2f6bb8287c150b8bc207",
+      "findings": []
+    },
+    {
+      "file": "content/zh/the-problem-with-mcp-stateful-server.md",
+      "sha256": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b",
+      "findings": []
+    },
+    {
+      "file": "content/zh/using-mcp-prompts.md",
+      "sha256": "fcfd3d1edb3ec3dc068b5165bc38289cbcc5aa52856ee704c7450455ec77326e",
+      "findings": []
+    },
+    {
+      "file": "content/zh/skills-wait-what.md",
+      "sha256": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+      "findings": []
+    },
+    {
+      "file": "content/zh/skills/subscribe.md",
+      "sha256": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c",
+      "findings": []
+    },
+    {
+      "file": "content/zh/skills-resolving-merge-conflicts.md",
+      "sha256": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+      "findings": []
+    },
+    {
+      "file": "content/zh/skills.md",
+      "sha256": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/model-provider-request.md",
+      "sha256": "06d5b7f0fce998498c0f30b8c57f66c88a046ebac6b39bda8b778913f7759561",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/session.md",
+      "sha256": "0f7b5d79ba37eac31e0a15ec07da91883af8d4ecb1f260b96ab66c0e5df8ce6f",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/stateful.md",
+      "sha256": "bead311e9b537c7253bbd3794a1c8099c51cf280ade409df0b705c384e1c39b5",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/stateless.md",
+      "sha256": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/turn.md",
+      "sha256": "0c222df5426fe704b42bdf8098d1c312e72dc12151f8782d61353587c51d8bc7",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/agents-md.md",
+      "sha256": "06897ea09726703625d8aeb5ca76e7dbef1582714e0b9428236eb87699cd1c1c",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/context-pointer.md",
+      "sha256": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/environment.md",
+      "sha256": "ca9167eddfab6506465946a78ca6814d4467c24cf174a772b09891fb38f35fbc",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/filesystem.md",
+      "sha256": "4f1f8d28fa461752472c085d5aec6edb91ad260706dab7640727a6340486d445",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/skill.md",
+      "sha256": "477975137e42e1c36b76997ca56c5c9d998f09f12ec8f2b103bcf3679cfd999c",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/ai.md",
+      "sha256": "f1f4adb1b0b7f859b61ebbb24ea65d8c7a556e7482ef40f9e2aa784ebf35751d",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/inference.md",
+      "sha256": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/model-provider.md",
+      "sha256": "3df57d8c1c992024aba1a9396c3a1f7a00fe29e18f03686e06e3da82d0d1db8e",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/parameters.md",
+      "sha256": "a673aba82075efd6e720e571a090d7070869eaf36f462420a737b6a2f3d1d2a7",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/training.md",
+      "sha256": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/cache-tokens.md",
+      "sha256": "c55e88c70a1b0d574f50ee19b6374198f94e4f5a9bc218425299ca3a88fe503b",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/effort.md",
+      "sha256": "d16ab61f90611dae91272fb5ff250fd8ea6fe4480b5797bc599b10ec1e401996",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/input-tokens.md",
+      "sha256": "abbccee08dfa232adfd8077a718c68cc3dea7a6c7f86283f9a9d3fd59d69242d",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/next-token-prediction.md",
+      "sha256": "caf12bccfab0edcf2a2ce9457ba074045692901c6514316e254bec50c5aed686",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/non-determinism.md",
+      "sha256": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/output-tokens.md",
+      "sha256": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/attention-budget.md",
+      "sha256": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/attention-degradation.md",
+      "sha256": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/attention-relationship.md",
+      "sha256": "26a9bbfe02f92f4f1fa9b481da4dfa7d924e8e5318c1405f64bc657f4e48ed47",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/smart-zone.md",
+      "sha256": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/autocompact.md",
+      "sha256": "6f091d0428d7b4f73fdb429345bd8102710b5f3012a236ea09c37d038019a12b",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/clearing.md",
+      "sha256": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/compaction.md",
+      "sha256": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/handoff-artifact.md",
+      "sha256": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/handoff.md",
+      "sha256": "4bb16d3c2891a5293d36efd8d754ceedd00abd1500c620ca4bb728975ef308b2",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/contextual-knowledge.md",
+      "sha256": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+      "sha256": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/parametric-knowledge.md",
+      "sha256": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/primary-source.md",
+      "sha256": "9f9c37d1f3f958191afd1c1ced53e7de63fdac835d120001526459290e709d31",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/secondary-source.md",
+      "sha256": "885423477c37ba1fb06634c16f587b8d1195c7502b28a2152e705c86f0c31dbf",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/sycophancy.md",
+      "sha256": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/agent-mode.md",
+      "sha256": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/mcp.md",
+      "sha256": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/permission-mode.md",
+      "sha256": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/permission-request.md",
+      "sha256": "b0baee76ed0d94d37711c42ed89ffc30f27eb850abfd852df537660b9539bfa2",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/sandbox.md",
+      "sha256": "f2da4f482d5a0b2fa54bd2b4e6343d6a540d505887d1307f42ae378b9de2f5c8",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/subagent.md",
+      "sha256": "fd3603db152a6d2f867f656a1897c22164fa17320554f62f6996b546fb986ec4",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/afk.md",
+      "sha256": "69bd4c8ae6f747c478edb713b8efe67054e3b33250b82777364c9fab1cad5bb0",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/automated-check.md",
+      "sha256": "2ad1926f1f2876a937a9a95ba672f0d1c1d419bd6cc4e6825558dba75e7b1573",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/automated-review.md",
+      "sha256": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/ax.md",
+      "sha256": "9f67986cebc45eae52e8fd3eed63e27cf2bd4241c807f32738c4041882ef8084",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/dx.md",
+      "sha256": "2b5bcbf713195ef12650d14b795f81d6279ec70918946e8000a97fcaef995ebe",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/human-in-the-loop.md",
+      "sha256": "36a2b738e345d63882ca23f41a1183b128c2a24f0e0c1d05ea283ba6801eed49",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/human-review.md",
+      "sha256": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/grilling.md",
+      "sha256": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/prototyping.md",
+      "sha256": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/spec.md",
+      "sha256": "cbd2ae4002e6013decb42c3d77303219d796878830a6ad4cc98b23cf5c6d7e22",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/ticket.md",
+      "sha256": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/dark-factory.md",
+      "sha256": "b054c4a02ad3061cf79d11070977d95602bce8c83d52950cea589bba7dbeffa9",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/design-concept.md",
+      "sha256": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/software-factory.md",
+      "sha256": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary/vibe-coding.md",
+      "sha256": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+      "findings": []
+    },
+    {
+      "file": "content/zh/ai-coding-dictionary.md",
+      "sha256": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0",
+      "findings": []
+    }
+  ]
+}

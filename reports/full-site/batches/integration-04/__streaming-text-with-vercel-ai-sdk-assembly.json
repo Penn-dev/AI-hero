@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-05/configs/streaming-text-with-vercel-ai-sdk.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/streaming-text-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/streaming-text-with-vercel-ai-sdk",
+        "sourceHash": "b7be79753832f1d6087f99f18cee294aff7541ddf54407e1c087d1f437a334cf",
+        "translationPath": "content/zh/streaming-text-with-vercel-ai-sdk.md",
+        "translationHash": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:58.671Z",
+        "assembly": {
+          "configHash": "d61b5258442b2a9a8a9013ea82bff58771d2885836f8722575af537675dc9e41",
+          "checkedAt": "2026-10-13T12:37:58.671Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/generate-text-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "完整中文目标由工程接入后刷新；暂缺阶段由现有入口回退原站，不计作中文目标已完成。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/streaming-text-with-vercel-ai-sdk.md",
+          "sha256": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "822c6ac26d0f36c365a391446ee0db6cdd6572af1a5121e8104cfc667b292cbe"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1a68da571aa859d0aea148b7b6c489804cee79f71fb0cd3edde981b4f515ad67"
+        }
+      ],
+      "rawOutputSha256": "61d4e3bc889294d63d903a17d3a48b57dc855b6259fc554a2693d8a60c4b129a"
+    },
+    {
+      "mode": "apply",
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/streaming-text-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/streaming-text-with-vercel-ai-sdk",
+        "sourceHash": "b7be79753832f1d6087f99f18cee294aff7541ddf54407e1c087d1f437a334cf",
+        "translationPath": "content/zh/streaming-text-with-vercel-ai-sdk.md",
+        "translationHash": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:58.909Z",
+        "assembly": {
+          "configHash": "d61b5258442b2a9a8a9013ea82bff58771d2885836f8722575af537675dc9e41",
+          "checkedAt": "2026-10-13T12:37:58.909Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/generate-text-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "完整中文目标由工程接入后刷新；暂缺阶段由现有入口回退原站，不计作中文目标已完成。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/streaming-text-with-vercel-ai-sdk.md",
+          "sha256": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "822c6ac26d0f36c365a391446ee0db6cdd6572af1a5121e8104cfc667b292cbe"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ba07dbb137407bebffe3cd1987e1535f74eeb8a61f2a38b634175f34d2ce11ed"
+        }
+      ],
+      "rawOutputSha256": "602523d8614d71c210c20a0e5a1257082afd9daef2599a90b19597037d416c79"
+    }
+  ],
+  "nonTargetPagesPreserved": 127
+}

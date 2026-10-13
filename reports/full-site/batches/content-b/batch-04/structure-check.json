@@ -1,0 +1,150 @@
+{
+  "batch": "batch-04",
+  "results": [
+    {
+      "route": "/ai-engineer-roadmap",
+      "sourceHash": "32552be89fe5159b367e64dc20745e0caa30180b9b3293594e7aacf28a73ec19",
+      "translationHash": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 1,
+      "resources": [
+        "/vercel-ai-sdk-tutorial",
+        "https://www.aihero.dev/vercel-ai-sdk-tutorial",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1743077873/aihero.dev/ai-roadmap/ai-engineer-roadmap_qeny18.pdf",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1743079065/aihero.dev/ai-roadmap/what-are-llms-useful-for/light/ai-engineer-diagram-pack-cta_2x_gssvkp.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1743077873/aihero.dev/ai-roadmap/ai-engineer-roadmap_qeny18.pdf",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1743078925/aihero.dev/ai-roadmap/what-are-llms-useful-for/dark/ai-engineer-diagram-pack-cta_2x_pd3c8w.png"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/building-effective-agents",
+      "sourceHash": "231bef3b6e950255bed02786be3334a5c6c68ba93d1be77de32738b16492c985",
+      "translationHash": "5ce05ee6d2097318e648b7be94f0cf93a2e13c2438275eea11bc2490a0a27569",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 3,
+      "resources": [
+        "https://www.anthropic.com/research/building-effective-agents",
+        "https://langchain-ai.github.io/langgraph/",
+        "https://aws.amazon.com/bedrock/agents/",
+        "https://rivet.ironcladapp.com/",
+        "https://www.vellum.ai/",
+        "https://sdk.vercel.ai/docs/introduction"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "sourceHash": "63f9786655d89c28f733d241cfbb1452ad8f3c546760c36a63cd6e1316c9e1db",
+      "translationHash": "f5f29c9f346eca8d316bc0b7382d131a8fa09410668a2492a8f464e2243cd4a4",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 0,
+      "resources": [
+        "https://arxiv.org/pdf/2402.14207",
+        "http://res.cloudinary.com/total-typescript/image/upload/v1738668528/posts/post_5qmh2/tfcsfvncbttu3eixe6hi.png"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/the-ai-engineer-mindset",
+      "sourceHash": "a38cc64310d21a913dac5ba1a74ce926de8e691ab59888a0638452c1d48ce8ac",
+      "translationHash": "cafb6b8d4ad4133b4791f2d21385ecfa4128962e4cd401e7607b645f2b6109db",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 4,
+      "resources": [
+        "https://res.cloudinary.com/total-typescript/image/upload/v1742898035/aihero.dev/ai-roadmap/what-are-llms-useful-for/light/How_Good_AI_Apps_Get_Built_xhw24q.svg",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1742898012/aihero.dev/ai-roadmap/what-are-llms-useful-for/dark/How_Good_AI_Apps_Get_Built_wbdrhf.svg",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1742900613/aihero.dev/ai-roadmap/what-are-llms-useful-for/light/AI_Engineering_Is_Experimental_h0tdax.svg",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1742900549/aihero.dev/ai-roadmap/what-are-llms-useful-for/dark/AI_Engineering_Is_Experimental_ygyths.svg",
+        "https://docs.anthropic.com/en/docs/build-with-claude/define-success",
+        "https://www.aihero.dev/the-ai-engineer-mindset"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/the-prompt-report",
+      "sourceHash": "1d14ac41bef2b6c45d7bcf8c20f49dd1e7f4cd0cd270fc05bee26dee66d985b6",
+      "translationHash": "e22eaa86066cf47b5c8269478962da8176444511292767120794605517f5b5d3",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 2,
+      "headings": 0,
+      "resources": [
+        "https://arxiv.org/abs/2406.06608",
+        "https://x.com/latentspacepod/status/1872719928618565646"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/three-types-of-evals",
+      "sourceHash": "daed9213d7e4da9e384ec039e35080fe75ffeccd9f8d8a02860e3f0b7472d992",
+      "translationHash": "38579d6eed8a95d702e79a8871aab78b62a6a4bd58ef320481398b8d3b19eb7b",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 3,
+      "resources": [
+        "https://www.youtube.com/watch?v=OrtBEBLMXdM",
+        "https://www.youtube.com/watch?v=OrtBEBLMXdM",
+        "https://github.com/braintrustdata/autoevals/tree/main/templates",
+        "https://github.com/braintrustdata/autoevals/blob/main/templates/humor.yaml",
+        "https://github.com/braintrustdata/autoevals/blob/main/templates/battle.yaml"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/what-are-evals",
+      "sourceHash": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee",
+      "translationHash": "15350152f1a1bd5cc75e79f76065aa17ff5ceb591a33442fdb1bcb44d63249fc",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 9,
+      "headings": 14,
+      "resources": [
+        "/the-ai-engineer-mindset",
+        "https://aihero.dev/the-ai-engineer-mindset",
+        "https://www.evalite.dev/guides/scorers#creating-llm-as-a-judge-scorers",
+        "https://v0.dev/",
+        "https://vercel.com/blog/eval-driven-development-build-better-ai-faster#the-ai-native-flywheel",
+        "https://braintrust.dev/",
+        "https://www.evalite.dev/",
+        "https://vitest.dev",
+        "https://github.com/braintrustdata/autoevals",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1742902000/aihero.dev/ai-roadmap/what-are-llms-useful-for/light/It_s_The_Evals_Stupid_vukpmx.svg",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1742902084/aihero.dev/ai-roadmap/what-are-llms-useful-for/dark/It_s_The_Evals_Stupid_otd3h5.svg"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/what-is-an-ai-engineer",
+      "sourceHash": "77b72306faee34d21bef05d7f0ecb6b3cc4a4a015a7a84e4a62e721eac0b6484",
+      "translationHash": "f9cccdd3fc4d0bdf75404cfb90e92323e755f8791c98bbf10d8f81f378ba833e",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 6,
+      "resources": [
+        "https://www.latent.space/p/ai-engineer",
+        "https://x.com/karpathy/status/1617979122625712128?lang=en",
+        "https://www.aihero.dev/what-is-an-ai-engineer"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-11/configs/skills-code-review.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-code-review",
+      "manifest": {
+        "route": "/skills-code-review",
+        "sourceUrl": "https://www.aihero.dev/skills-code-review",
+        "sourceHash": "9aaa71a213cec3a4531edf9bce8cc39f0bf2ffe734f850753b2699da7e6302d7",
+        "translationPath": "content/zh/skills-code-review.md",
+        "translationHash": "9748862e5a248ec9f08121a1b77c3669084c3801d7e0d72724f10a83cb40cb9c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:43.399Z",
+        "assembly": {
+          "configHash": "f5fdc057ccfc84beb8d16218c7f7ea2f4505d52919c42ee0d04a0225d31d0d7f",
+          "checkedAt": "2026-10-13T12:37:43.399Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-code-review.md",
+          "sha256": "9748862e5a248ec9f08121a1b77c3669084c3801d7e0d72724f10a83cb40cb9c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "abc0c70050b9e5bf74bfe87b54263beb0f3169aadf873038f75fab4676e6b6a0"
+        }
+      ],
+      "rawOutputSha256": "64074bb95b5c47bf067f6695ce2ba7fe2e785554ed8740bdd311d5bef722ff81"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-code-review",
+      "manifest": {
+        "route": "/skills-code-review",
+        "sourceUrl": "https://www.aihero.dev/skills-code-review",
+        "sourceHash": "9aaa71a213cec3a4531edf9bce8cc39f0bf2ffe734f850753b2699da7e6302d7",
+        "translationPath": "content/zh/skills-code-review.md",
+        "translationHash": "9748862e5a248ec9f08121a1b77c3669084c3801d7e0d72724f10a83cb40cb9c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:43.633Z",
+        "assembly": {
+          "configHash": "f5fdc057ccfc84beb8d16218c7f7ea2f4505d52919c42ee0d04a0225d31d0d7f",
+          "checkedAt": "2026-10-13T12:37:43.633Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-code-review.md",
+          "sha256": "9748862e5a248ec9f08121a1b77c3669084c3801d7e0d72724f10a83cb40cb9c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4856fda6d3310a56d5205c26b266d026326b8c82000a70901088d12086586153"
+        }
+      ],
+      "rawOutputSha256": "92ae8fd73b23802e999730fb255242aa85ec8366b1e8bd9fdc3dc3936fd372fb"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

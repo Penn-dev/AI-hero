@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-02/configs/using-mcp-prompts.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/using-mcp-prompts",
+      "manifest": {
+        "route": "/using-mcp-prompts",
+        "sourceUrl": "https://www.aihero.dev/using-mcp-prompts",
+        "sourceHash": "bd0218127fa4a05f739be2f2d169efcadc57b726768760fd5d6025618e36f127",
+        "translationPath": "content/zh/using-mcp-prompts.md",
+        "translationHash": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:15.831Z",
+        "assembly": {
+          "configHash": "adb34633df280ab820d6f0b1fc8ad5d4eab0bee300e7a9904da3e2590f90276a",
+          "checkedAt": "2026-10-13T12:38:15.831Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/using-mcp-prompts.md",
+          "sha256": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "effdaf31729fa6593b26d4b73a4785d797b042d77ea67e086bd2e0ca7f50c9c1"
+        }
+      ],
+      "rawOutputSha256": "d0b0aa54931f946b4cc546a480c204b89b6660598dff8b87f4379a43530af0cc"
+    },
+    {
+      "mode": "apply",
+      "route": "/using-mcp-prompts",
+      "manifest": {
+        "route": "/using-mcp-prompts",
+        "sourceUrl": "https://www.aihero.dev/using-mcp-prompts",
+        "sourceHash": "bd0218127fa4a05f739be2f2d169efcadc57b726768760fd5d6025618e36f127",
+        "translationPath": "content/zh/using-mcp-prompts.md",
+        "translationHash": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:16.051Z",
+        "assembly": {
+          "configHash": "adb34633df280ab820d6f0b1fc8ad5d4eab0bee300e7a9904da3e2590f90276a",
+          "checkedAt": "2026-10-13T12:38:16.051Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/using-mcp-prompts.md",
+          "sha256": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "df7532d502fb98554da5262bf0dccb8fce23eaa51511f4615d01da3788e85c23"
+        }
+      ],
+      "rawOutputSha256": "97318aa081643431f1e41071807ec243f5026738f1ebbb531ef8d77ed5feefa4"
+    }
+  ],
+  "nonTargetPagesPreserved": 150
+}

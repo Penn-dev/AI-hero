@@ -1,0 +1,9 @@
+{
+  "route": "/create-embeddings-with-vercel-ai-sdk",
+  "source": {
+    "path": "content/source/create-embeddings-with-vercel-ai-sdk.md",
+    "sha256": "1c9f4d39abbacb0ea4b57cab0d1aa3997ff33d722a93c55af33e9a5330fa08d0"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-07/drafts/create-embeddings-with-vercel-ai-sdk.md",
+  "translationPath": "content/zh/create-embeddings-with-vercel-ai-sdk.md"
+}

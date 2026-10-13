@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-02/configs/using-mcp-prompts.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/using-mcp-prompts",
+      "manifest": {
+        "route": "/using-mcp-prompts",
+        "sourceUrl": "https://www.aihero.dev/using-mcp-prompts",
+        "sourceHash": "bd0218127fa4a05f739be2f2d169efcadc57b726768760fd5d6025618e36f127",
+        "translationPath": "content/zh/using-mcp-prompts.md",
+        "translationHash": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:10.740Z",
+        "assembly": {
+          "configHash": "fc705586ceeec0fb617482ffbbda80d32a934daebb5277735c0524ee883e71ec",
+          "checkedAt": "2026-10-13T12:38:10.740Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/mcp-server-from-a-single-typescript-file",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/using-mcp-prompts.md",
+          "sha256": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4d8802df9f8cbf5b0d6e1d721df5081d2b6da35d91546f02db03abc878de6bff"
+        }
+      ],
+      "rawOutputSha256": "3d3a39fba0e6793db27a357b3e156af89a3bba34d416a32d6547ea2bca12d786"
+    },
+    {
+      "mode": "apply",
+      "route": "/using-mcp-prompts",
+      "manifest": {
+        "route": "/using-mcp-prompts",
+        "sourceUrl": "https://www.aihero.dev/using-mcp-prompts",
+        "sourceHash": "bd0218127fa4a05f739be2f2d169efcadc57b726768760fd5d6025618e36f127",
+        "translationPath": "content/zh/using-mcp-prompts.md",
+        "translationHash": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:10.985Z",
+        "assembly": {
+          "configHash": "fc705586ceeec0fb617482ffbbda80d32a934daebb5277735c0524ee883e71ec",
+          "checkedAt": "2026-10-13T12:38:10.985Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/mcp-server-from-a-single-typescript-file",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/using-mcp-prompts.md",
+          "sha256": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0fe57eb17a0b939235d785f5b47ab357db5cf032acad49bb496448d0ba25e6a9"
+        }
+      ],
+      "rawOutputSha256": "93a1f848a14b7e93924f704e78aba1d21887307cf32a4762c8d9e1ca2ee1eb7d"
+    }
+  ],
+  "nonTargetPagesPreserved": 150
+}

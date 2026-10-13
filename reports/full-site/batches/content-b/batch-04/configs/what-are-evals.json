@@ -1,0 +1,15 @@
+{
+  "route": "/what-are-evals",
+  "source": {
+    "path": "content/source/what-are-evals.md",
+    "sha256": "077d10cd380d3ce659dc47b94e98e982f9d18202ff34b1ea199b527c067eeaee"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-04/drafts/what-are-evals.md",
+  "translationPath": "content/zh/what-are-evals.md",
+  "linkTargets": [
+    {
+      "route": "/the-ai-engineer-mindset",
+      "state": "available-chinese"
+    }
+  ]
+}

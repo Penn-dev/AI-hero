@@ -5,5 +5,11 @@
     "sha256": "bd0218127fa4a05f739be2f2d169efcadc57b726768760fd5d6025618e36f127"
   },
   "chineseFile": "reports/full-site/batches/content-b/batch-02/drafts/using-mcp-prompts.md",
-  "translationPath": "content/zh/using-mcp-prompts.md"
+  "translationPath": "content/zh/using-mcp-prompts.md",
+  "linkTargets": [
+    {
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "state": "available-chinese"
+    }
+  ]
 }

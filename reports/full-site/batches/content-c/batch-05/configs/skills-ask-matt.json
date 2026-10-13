@@ -1,0 +1,22 @@
+{
+  "route": "/skills-ask-matt",
+  "source": {
+    "path": "content/source/skills-ask-matt.md",
+    "sha256": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-05/drafts/skills-ask-matt.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "available-chinese"
+    }
+  ]
+}

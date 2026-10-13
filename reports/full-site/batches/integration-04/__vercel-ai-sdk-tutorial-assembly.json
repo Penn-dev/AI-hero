@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-05/configs/vercel-ai-sdk-tutorial.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/vercel-ai-sdk-tutorial",
+      "manifest": {
+        "route": "/vercel-ai-sdk-tutorial",
+        "sourceUrl": "https://www.aihero.dev/vercel-ai-sdk-tutorial",
+        "sourceHash": "8f6395c1abdb055ef0c11102cf0363582a69f1439baef4e91ca29e358b3545e7",
+        "translationPath": "content/zh/vercel-ai-sdk-tutorial.md",
+        "translationHash": "5ac4b8d2978128fa71304222dbbd3410dbcbf0d5d999d0172121052bdcd432b5",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:00.481Z",
+        "assembly": {
+          "configHash": "cb8c3805cb4810cd7d02eed2bc682777d8021493edab404b51827ab2e55566e8",
+          "checkedAt": "2026-10-13T12:38:00.481Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/vercel-ai-sdk-tutorial.md",
+          "sha256": "5ac4b8d2978128fa71304222dbbd3410dbcbf0d5d999d0172121052bdcd432b5"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "4fb7855ff661bb81bfb323b13dabda50882b1d72cc3a9558fc499181f0bf44af"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "30cf8b4030b0415c591edb7480b4983432f3d9726ab85e641d540bd54eeba91f"
+        }
+      ],
+      "rawOutputSha256": "00bb3ee13091d1ac2a4d87053215577c8bfe393da2be9d2afb43f657cdae19db"
+    },
+    {
+      "mode": "apply",
+      "route": "/vercel-ai-sdk-tutorial",
+      "manifest": {
+        "route": "/vercel-ai-sdk-tutorial",
+        "sourceUrl": "https://www.aihero.dev/vercel-ai-sdk-tutorial",
+        "sourceHash": "8f6395c1abdb055ef0c11102cf0363582a69f1439baef4e91ca29e358b3545e7",
+        "translationPath": "content/zh/vercel-ai-sdk-tutorial.md",
+        "translationHash": "5ac4b8d2978128fa71304222dbbd3410dbcbf0d5d999d0172121052bdcd432b5",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:00.677Z",
+        "assembly": {
+          "configHash": "cb8c3805cb4810cd7d02eed2bc682777d8021493edab404b51827ab2e55566e8",
+          "checkedAt": "2026-10-13T12:38:00.677Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/vercel-ai-sdk-tutorial.md",
+          "sha256": "5ac4b8d2978128fa71304222dbbd3410dbcbf0d5d999d0172121052bdcd432b5"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "4fb7855ff661bb81bfb323b13dabda50882b1d72cc3a9558fc499181f0bf44af"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8175057685232808c2e86b7161b694bb58a3ae31c264ba68d50e67ea07a2c1d9"
+        }
+      ],
+      "rawOutputSha256": "99afac67cd42aa88b656f24cf2d5f780d65d01e7e83f2005f8882954e432384d"
+    }
+  ],
+  "nonTargetPagesPreserved": 130
+}

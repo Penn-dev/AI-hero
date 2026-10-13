@@ -1,0 +1,81 @@
+{
+  "batch": "batch-06",
+  "results": [
+    {
+      "route": "/describe-images-with-vercel-ai-sdk",
+      "sourceHash": "daa614dfa0c260f4b44036479d4ebb02a6c039b2ad39708e419886e31b043bdc",
+      "translationHash": "e5f7633b3e95ecc9def83e95f2b097dcfb2e98e7e17847e13af1ab20b7aca652",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 15,
+      "headings": 6,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/generate-arrays-with-vercel-ai-sdk",
+      "sourceHash": "c3ac3c7136777d4e6573c9587f5cd82de115195ea122e2b2f33713c120660a98",
+      "translationHash": "fabd04c397b92f771a2d7c08bb5e02741954c0146a3ac680a7405171eb2d57a1",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 6,
+      "headings": 4,
+      "resources": [
+        "https://www.totaltypescript.com/tutorials/zod"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "sourceHash": "7d3dc4f00dc9f39f779d6c80e87c4acf108d5039afb3338fca028a002d4206b1",
+      "translationHash": "568201c264b205b55718c75614b38720ea5b37dca22497c6876769af845b4473",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 12,
+      "headings": 6,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/streaming-objects-with-vercel-ai-sdk",
+      "sourceHash": "7759ded9ab743adaa00ed456bb6fddd55e7eaffedc19ab7ab68c79dbbe06a22c",
+      "translationHash": "bd42b6716c10bac8a0c4f54bbc9f2416e23424ff0ad6de93b1e5a69ea6225f19",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 8,
+      "headings": 4,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/structured-outputs-with-vercel-ai-sdk",
+      "sourceHash": "57ffed296127324536388a2b4f0987dac992962eb8b98cc8399799592c417b10",
+      "translationHash": "cc31ab2700f602e27ecbdc30eccd5eea9e704ae5a9e2919daa5cfaa257e35d5a",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 11,
+      "headings": 4,
+      "resources": [
+        "https://www.totaltypescript.com/tutorials/zod"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/tool-calls-with-vercel-ai-sdk",
+      "sourceHash": "4dd330bad3247eba4e575ef4298da6b8fa3c577490c53fc8d1aae35d3c7926d0",
+      "translationHash": "938a34e68735f5a6e2ea87dafe0b2d8361874a118a1a74e9e8f2c157b2533bc4",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 18,
+      "headings": 11,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

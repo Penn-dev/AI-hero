@@ -1,0 +1,201 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "draftCount": 39,
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-01/drafts/skills-catalog.md",
+      "sha256": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-01/drafts/skills-codebase-design.md",
+      "sha256": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-02/drafts/skills-wait-what.md",
+      "sha256": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-02/drafts/skills__subscribe.md",
+      "sha256": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-03/drafts/skills-resolving-merge-conflicts.md",
+      "sha256": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-03/drafts/skills.md",
+      "sha256": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-04/drafts/skills-grill-me.md",
+      "sha256": "78f5a226289261163ef62d3bc4931aa3c55c5010ba2b9c7570694759e69a8e23",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-04/drafts/skills__skills-changelog-handoff-prototype-review-and-writing.md",
+      "sha256": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-05/drafts/skills-ask-matt.md",
+      "sha256": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-05/drafts/skills-writing-for-agents.md",
+      "sha256": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-06/drafts/skills-handoff.md",
+      "sha256": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-06/drafts/skills-to-questionnaire.md",
+      "sha256": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-07/drafts/skills-pr.md",
+      "sha256": "6c2376028a46d715ddbdf0f71a8efaf248954c4548b7753fc5df2af55ed0b609",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-07/drafts/skills-to-spec.md",
+      "sha256": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-08/drafts/skills-implement-spec.md",
+      "sha256": "d3ca6a52c97daaf7161c2cfb98a8501d43a8d805cf0f820e5f9f0bb8b797c30f",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-08/drafts/skills-implement.md",
+      "sha256": "f59c4fb6b637dc36349f7db0cc8303fec60e1172f620a2fa88146717cf988cc6",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-09/drafts/skills-research.md",
+      "sha256": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-09/drafts/skills-to-tickets.md",
+      "sha256": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-10/drafts/skills-domain-modeling.md",
+      "sha256": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-10/drafts/skills-grilling.md",
+      "sha256": "3df8022a3b6ce9a9aebfda8eec35f5d28b0b816c7a2f06b9bf92e71d91beac34",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-11/drafts/skills-code-review.md",
+      "sha256": "9748862e5a248ec9f08121a1b77c3669084c3801d7e0d72724f10a83cb40cb9c",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-11/drafts/skills-diagnosing-bugs.md",
+      "sha256": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-12/drafts/skills-retro.md",
+      "sha256": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-12/drafts/skills-setup-matt-pocock-skills.md",
+      "sha256": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-13/drafts/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "sha256": "9e0bddfa4a5084074677dd9e87f58194d62c18ad6db338b519e7ecc076741a91",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-13/drafts/skills__skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "sha256": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-14/drafts/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "sha256": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-14/drafts/skills__skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "sha256": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-15/drafts/skills-prototype.md",
+      "sha256": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-15/drafts/skills-tdd.md",
+      "sha256": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-16/drafts/skills-grill-with-docs.md",
+      "sha256": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-16/drafts/skills-improve-codebase-architecture.md",
+      "sha256": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-17/drafts/skills-teach.md",
+      "sha256": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-17/drafts/skills-wizard.md",
+      "sha256": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-18/drafts/skills-triage.md",
+      "sha256": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-19/drafts/skills-wayfinder.md",
+      "sha256": "98ed068575ccbd2f102864f2e1d42c809af0eeb17f30c1a5cbf376144f4eba48",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-20/drafts/skills__skills-changelog-v1-announcement.md",
+      "sha256": "eaeb12cd6b9faa60f1fb603f85ae12bd6e4b7224753a1a5223362241fbf70607",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-21/drafts/skills__skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+      "sha256": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-22/drafts/skills__skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+      "sha256": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

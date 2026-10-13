@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-07/configs/create-embeddings-with-vercel-ai-sdk.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/create-embeddings-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/create-embeddings-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/create-embeddings-with-vercel-ai-sdk",
+        "sourceHash": "1c9f4d39abbacb0ea4b57cab0d1aa3997ff33d722a93c55af33e9a5330fa08d0",
+        "translationPath": "content/zh/create-embeddings-with-vercel-ai-sdk.md",
+        "translationHash": "346d21f2db7f47ec9ca64d78420e51a9b1e438e88d0a76418cfc60cf7cc61a0f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:05.131Z",
+        "assembly": {
+          "configHash": "45db96679969a0b3a034c5390d2fe80ad31b32a46380a6372b1258302ed22a6e",
+          "checkedAt": "2026-10-13T12:38:05.131Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/create-embeddings-with-vercel-ai-sdk.md",
+          "sha256": "346d21f2db7f47ec9ca64d78420e51a9b1e438e88d0a76418cfc60cf7cc61a0f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "8047b65db1bee4e48ba1cb40c77157d4c0a09ac4bb2cbb287cf09c245f15abff"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ac8036c21212bf21ddfceea6b4f910d98aa226a00a39fd26cf3712596cc4d995"
+        }
+      ],
+      "rawOutputSha256": "22aab3f20ff5ed45d683a9af85f2bceef7b1cb5d2438c62e08727d8e9d12cee6"
+    },
+    {
+      "mode": "apply",
+      "route": "/create-embeddings-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/create-embeddings-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/create-embeddings-with-vercel-ai-sdk",
+        "sourceHash": "1c9f4d39abbacb0ea4b57cab0d1aa3997ff33d722a93c55af33e9a5330fa08d0",
+        "translationPath": "content/zh/create-embeddings-with-vercel-ai-sdk.md",
+        "translationHash": "346d21f2db7f47ec9ca64d78420e51a9b1e438e88d0a76418cfc60cf7cc61a0f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:05.367Z",
+        "assembly": {
+          "configHash": "45db96679969a0b3a034c5390d2fe80ad31b32a46380a6372b1258302ed22a6e",
+          "checkedAt": "2026-10-13T12:38:05.367Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/create-embeddings-with-vercel-ai-sdk.md",
+          "sha256": "346d21f2db7f47ec9ca64d78420e51a9b1e438e88d0a76418cfc60cf7cc61a0f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "8047b65db1bee4e48ba1cb40c77157d4c0a09ac4bb2cbb287cf09c245f15abff"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "258508ca427c34335fa2639aac7815ac103916b9ec4049b75bf22aa46dfd8607"
+        }
+      ],
+      "rawOutputSha256": "93d5f9b413f66070f3837350ad4a6bb0f824ba632c946d054c11270d885784e2"
+    }
+  ],
+  "nonTargetPagesPreserved": 140
+}

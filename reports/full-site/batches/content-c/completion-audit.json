@@ -1,0 +1,651 @@
+{
+  "scope": "C fixed 39 Skills routes only. Content/config/evidence audit; not full site, independent review, browser UI or publication approval.",
+  "baseline": "68c107143560cf63017411e604c06ba8e599fc51",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "expectedCount": 39,
+  "deliveredCount": 39,
+  "missing": [],
+  "extra": [],
+  "duplicateRoutes": [],
+  "allSourceHashesVerified": true,
+  "allTranslationEvidenceHashesVerified": true,
+  "allConfiguredRootTargetsInFixedManifest": true,
+  "allPreviewChecksPassed": true,
+  "sourceScopeUnchanged": true,
+  "pages": [
+    {
+      "route": "/skills-catalog",
+      "config": "reports/full-site/batches/content-c/batch-01/configs/skills-catalog.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-01/drafts/skills-catalog.md",
+      "translationHash": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34",
+      "sourceHash": "3a8fda750dd040ae3c135a509a6f2778fd306b3217ab3ff0b1d112ad051076f1",
+      "checksFile": "reports/full-site/batches/content-c/batch-01/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/skill",
+        "/ai-coding-dictionary/agent"
+      ]
+    },
+    {
+      "route": "/skills-codebase-design",
+      "config": "reports/full-site/batches/content-c/batch-01/configs/skills-codebase-design.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-01/drafts/skills-codebase-design.md",
+      "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+      "sourceHash": "db0ebbfc7918a688024c4c080dbbd8220fcd440948b50d82b672e214f6ff3996",
+      "checksFile": "reports/full-site/batches/content-c/batch-01/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/skill",
+        "/ai-coding-dictionary/agent",
+        "/ai-coding-dictionary/subagent"
+      ]
+    },
+    {
+      "route": "/skills-wait-what",
+      "config": "reports/full-site/batches/content-c/batch-02/configs/skills-wait-what.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-02/drafts/skills-wait-what.md",
+      "translationHash": "b1053ae8d36e7c1a9353cd3535a3bee76e9cc9bf0eefef6bcf826ef0500a9802",
+      "sourceHash": "b3477cc7e42c8f8f8a03e293da90d05be53dff684abbc2a7f1e2356915a71df5",
+      "checksFile": "reports/full-site/batches/content-c/batch-02/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/agent",
+        "/ai-coding-dictionary/model",
+        "/ai-coding-dictionary/token"
+      ]
+    },
+    {
+      "route": "/skills/subscribe",
+      "config": "reports/full-site/batches/content-c/batch-02/configs/skills__subscribe.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-02/drafts/skills__subscribe.md",
+      "translationHash": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c",
+      "sourceHash": "ff1c20f196e810ce444730c92bc9a3ad90cb81edc29370f212465823da402d1a",
+      "checksFile": "reports/full-site/batches/content-c/batch-02/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/skill",
+        "/ai-coding-dictionary/afk"
+      ]
+    },
+    {
+      "route": "/skills-resolving-merge-conflicts",
+      "config": "reports/full-site/batches/content-c/batch-03/configs/skills-resolving-merge-conflicts.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-03/drafts/skills-resolving-merge-conflicts.md",
+      "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+      "sourceHash": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710",
+      "checksFile": "reports/full-site/batches/content-c/batch-03/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/primary-source",
+        "/ai-coding-dictionary/automated-check"
+      ]
+    },
+    {
+      "route": "/skills",
+      "config": "reports/full-site/batches/content-c/batch-03/configs/skills.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-03/drafts/skills.md",
+      "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
+      "sourceHash": "5e98f53633747fe3a64f313fbfffa37486ff32aa986c5565f054d2000da1b01c",
+      "checksFile": "reports/full-site/batches/content-c/batch-03/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/skill",
+        "/ai-coding-dictionary/agent"
+      ]
+    },
+    {
+      "route": "/skills-grill-me",
+      "config": "reports/full-site/batches/content-c/batch-04/configs/skills-grill-me.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-04/drafts/skills-grill-me.md",
+      "translationHash": "78f5a226289261163ef62d3bc4931aa3c55c5010ba2b9c7570694759e69a8e23",
+      "sourceHash": "d2f506fbfc88d0110f67f2f74f3a6f9e48eba43e36a574d66b2c983f5c3bff91",
+      "checksFile": "reports/full-site/batches/content-c/batch-04/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/stateless",
+        "/ai-coding-dictionary/stateful",
+        "/ai-coding-dictionary/context-window"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "config": "reports/full-site/batches/content-c/batch-04/configs/skills__skills-changelog-handoff-prototype-review-and-writing.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-04/drafts/skills__skills-changelog-handoff-prototype-review-and-writing.md",
+      "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+      "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+      "checksFile": "reports/full-site/batches/content-c/batch-04/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/skills",
+        "/ai-coding-dictionary/handoff",
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/token",
+        "/ai-coding-dictionary/afk"
+      ]
+    },
+    {
+      "route": "/skills-ask-matt",
+      "config": "reports/full-site/batches/content-c/batch-05/configs/skills-ask-matt.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-05/drafts/skills-ask-matt.md",
+      "translationHash": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e",
+      "sourceHash": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685",
+      "checksFile": "reports/full-site/batches/content-c/batch-05/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/context-pointer",
+        "/ai-coding-dictionary/context-window",
+        "/ai-coding-dictionary/compaction"
+      ]
+    },
+    {
+      "route": "/skills-writing-for-agents",
+      "config": "reports/full-site/batches/content-c/batch-05/configs/skills-writing-for-agents.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-05/drafts/skills-writing-for-agents.md",
+      "translationHash": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631",
+      "sourceHash": "d830a22e3f1590c7a8daa55e69dc85b938f1995097056eb3625abb3ecd8a0544",
+      "checksFile": "reports/full-site/batches/content-c/batch-05/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/context-pointer",
+        "/ai-coding-dictionary/progressive-disclosure",
+        "/ai-coding-dictionary/token"
+      ]
+    },
+    {
+      "route": "/skills-handoff",
+      "config": "reports/full-site/batches/content-c/batch-06/configs/skills-handoff.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-06/drafts/skills-handoff.md",
+      "translationHash": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c",
+      "sourceHash": "f66de1f26fc55ee3263e5b3cdf4a5a96a3b26344c834cc918a930391f797a448",
+      "checksFile": "reports/full-site/batches/content-c/batch-06/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/handoff-artifact",
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/compaction"
+      ]
+    },
+    {
+      "route": "/skills-to-questionnaire",
+      "config": "reports/full-site/batches/content-c/batch-06/configs/skills-to-questionnaire.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-06/drafts/skills-to-questionnaire.md",
+      "translationHash": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941",
+      "sourceHash": "c051d0d023f88945c673d7b0490c66e2786dd42702cbab363d3f542e5a4f6933",
+      "checksFile": "reports/full-site/batches/content-c/batch-06/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/grilling",
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/skill"
+      ]
+    },
+    {
+      "route": "/skills-pr",
+      "config": "reports/full-site/batches/content-c/batch-07/configs/skills-pr.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-07/drafts/skills-pr.md",
+      "translationHash": "6c2376028a46d715ddbdf0f71a8efaf248954c4548b7753fc5df2af55ed0b609",
+      "sourceHash": "d423f17fb516596112c9fb842a54a4a1c625c2094556ab4cdb3fca91f937e76b",
+      "checksFile": "reports/full-site/batches/content-c/batch-07/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/human-review",
+        "/ai-coding-dictionary/spec",
+        "/ai-coding-dictionary/ticket"
+      ]
+    },
+    {
+      "route": "/skills-to-spec",
+      "config": "reports/full-site/batches/content-c/batch-07/configs/skills-to-spec.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-07/drafts/skills-to-spec.md",
+      "translationHash": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e",
+      "sourceHash": "1fb8c8987fc9548957d28253c6ac865de82519bf55b0ab757c3feedeb6274a53",
+      "checksFile": "reports/full-site/batches/content-c/batch-07/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/spec",
+        "/ai-coding-dictionary/ticket",
+        "/ai-coding-dictionary/context-window"
+      ]
+    },
+    {
+      "route": "/skills-implement-spec",
+      "config": "reports/full-site/batches/content-c/batch-08/configs/skills-implement-spec.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-08/drafts/skills-implement-spec.md",
+      "translationHash": "d3ca6a52c97daaf7161c2cfb98a8501d43a8d805cf0f820e5f9f0bb8b797c30f",
+      "sourceHash": "5dbd4d76095c9dc54b60a9c89c453d74e2f2ab6f788250dd3d26ce6b74c75152",
+      "checksFile": "reports/full-site/batches/content-c/batch-08/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/subagent",
+        "/ai-coding-dictionary/ticket",
+        "/ai-coding-dictionary/environment"
+      ]
+    },
+    {
+      "route": "/skills-implement",
+      "config": "reports/full-site/batches/content-c/batch-08/configs/skills-implement.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-08/drafts/skills-implement.md",
+      "translationHash": "f59c4fb6b637dc36349f7db0cc8303fec60e1172f620a2fa88146717cf988cc6",
+      "sourceHash": "42d4734446309c8658183428de2abda11f0239276f0b34016c5cb6d8c7b69a3b",
+      "checksFile": "reports/full-site/batches/content-c/batch-08/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/ticket",
+        "/ai-coding-dictionary/automated-check",
+        "/ai-coding-dictionary/context-window"
+      ]
+    },
+    {
+      "route": "/skills-research",
+      "config": "reports/full-site/batches/content-c/batch-09/configs/skills-research.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-09/drafts/skills-research.md",
+      "translationHash": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0",
+      "sourceHash": "e91acc488a8e63d892982474c3c105793b4be460d72260c7662d2f6aab341874",
+      "checksFile": "reports/full-site/batches/content-c/batch-09/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/primary-source",
+        "/ai-coding-dictionary/secondary-source",
+        "/ai-coding-dictionary/context-pointer"
+      ]
+    },
+    {
+      "route": "/skills-to-tickets",
+      "config": "reports/full-site/batches/content-c/batch-09/configs/skills-to-tickets.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-09/drafts/skills-to-tickets.md",
+      "translationHash": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172",
+      "sourceHash": "90f8541cdf7a61504214d902b96602523da84f4cf9fc3ce6d09709be5e3aface",
+      "checksFile": "reports/full-site/batches/content-c/batch-09/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/ticket",
+        "/ai-coding-dictionary/spec",
+        "/ai-coding-dictionary/context-window"
+      ]
+    },
+    {
+      "route": "/skills-domain-modeling",
+      "config": "reports/full-site/batches/content-c/batch-10/configs/skills-domain-modeling.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-10/drafts/skills-domain-modeling.md",
+      "translationHash": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690",
+      "sourceHash": "9bb43ffb7d51e3f9357442a54fa0f516da2d7009709f955504c7bfadd4d4fb62",
+      "checksFile": "reports/full-site/batches/content-c/batch-10/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/session",
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/spec"
+      ]
+    },
+    {
+      "route": "/skills-grilling",
+      "config": "reports/full-site/batches/content-c/batch-10/configs/skills-grilling.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-10/drafts/skills-grilling.md",
+      "translationHash": "3df8022a3b6ce9a9aebfda8eec35f5d28b0b816c7a2f06b9bf92e71d91beac34",
+      "sourceHash": "bf9046e1748f5473f2d5c843f7464289ccae5795560279208c2a53fabdc6396d",
+      "checksFile": "reports/full-site/batches/content-c/batch-10/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/grilling",
+        "/ai-coding-dictionary/subagent",
+        "/ai-coding-dictionary/human-in-the-loop"
+      ]
+    },
+    {
+      "route": "/skills-code-review",
+      "config": "reports/full-site/batches/content-c/batch-11/configs/skills-code-review.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-11/drafts/skills-code-review.md",
+      "translationHash": "9748862e5a248ec9f08121a1b77c3669084c3801d7e0d72724f10a83cb40cb9c",
+      "sourceHash": "9aaa71a213cec3a4531edf9bce8cc39f0bf2ffe734f850753b2699da7e6302d7",
+      "checksFile": "reports/full-site/batches/content-c/batch-11/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/subagent",
+        "/ai-coding-dictionary/spec",
+        "/ai-coding-dictionary/primary-source"
+      ]
+    },
+    {
+      "route": "/skills-diagnosing-bugs",
+      "config": "reports/full-site/batches/content-c/batch-11/configs/skills-diagnosing-bugs.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-11/drafts/skills-diagnosing-bugs.md",
+      "translationHash": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90",
+      "sourceHash": "ef9ccd225e1b9caf5c2522174ffaf45e7a849490bbfbffc1e6d2dcd94020aca8",
+      "checksFile": "reports/full-site/batches/content-c/batch-11/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/human-in-the-loop",
+        "/ai-coding-dictionary/environment",
+        "/ai-coding-dictionary/model"
+      ]
+    },
+    {
+      "route": "/skills-retro",
+      "config": "reports/full-site/batches/content-c/batch-12/configs/skills-retro.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-12/drafts/skills-retro.md",
+      "translationHash": "45145c44612eb654e7ce33469efb6202f953998af49def0b4cb64ee74887f082",
+      "sourceHash": "a43dee00c077ebce4e43f5ada84b85770df73b2d3ade5a95981f5140e7fe112f",
+      "checksFile": "reports/full-site/batches/content-c/batch-12/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/environment",
+        "/ai-coding-dictionary/automated-check",
+        "/ai-coding-dictionary/human-in-the-loop"
+      ]
+    },
+    {
+      "route": "/skills-setup-matt-pocock-skills",
+      "config": "reports/full-site/batches/content-c/batch-12/configs/skills-setup-matt-pocock-skills.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-12/drafts/skills-setup-matt-pocock-skills.md",
+      "translationHash": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7",
+      "sourceHash": "195b930507929eb63fbdc2adf3fa38f50945ed4ceaee9bcf8cfdda9d352c2495",
+      "checksFile": "reports/full-site/batches/content-c/batch-12/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/harness",
+        "/ai-coding-dictionary/mcp",
+        "/ai-coding-dictionary/ticket"
+      ]
+    },
+    {
+      "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+      "config": "reports/full-site/batches/content-c/batch-13/configs/skills-changelog-ubiquitous-language-grill-with-docs.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-13/drafts/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "translationHash": "9e0bddfa4a5084074677dd9e87f58194d62c18ad6db338b519e7ecc076741a91",
+      "sourceHash": "dff4f6aa67744c44986049e875369fae8501389676d4e005dafc85db057890b4",
+      "checksFile": "reports/full-site/batches/content-c/batch-13/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/skill",
+        "/ai-coding-dictionary/progressive-disclosure",
+        "/ai-coding-dictionary/afk"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "config": "reports/full-site/batches/content-c/batch-13/configs/skills__skills-changelog-ubiquitous-language-grill-with-docs.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-13/drafts/skills__skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+      "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+      "checksFile": "reports/full-site/batches/content-c/batch-13/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/skills",
+        "/ai-coding-dictionary/skill",
+        "/ai-coding-dictionary/progressive-disclosure",
+        "/ai-coding-dictionary/afk"
+      ]
+    },
+    {
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "config": "reports/full-site/batches/content-c/batch-14/configs/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-14/drafts/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "translationHash": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+      "sourceHash": "7d7b01efd489d56ac7fc3e2fbb7ef4a85ced5fa3343ef13c23cef4fab1055c30",
+      "checksFile": "reports/full-site/batches/content-c/batch-14/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/subagent",
+        "/ai-coding-dictionary/automated-check",
+        "/ai-coding-dictionary/human-in-the-loop"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "config": "reports/full-site/batches/content-c/batch-14/configs/skills__skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-14/drafts/skills__skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "translationHash": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674",
+      "sourceHash": "8f5dd02a02e0f99c1764faeeadee072c5b492794819cc1cfe575d21f4761d9d0",
+      "checksFile": "reports/full-site/batches/content-c/batch-14/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/skills",
+        "/skills-resolving-merge-conflicts",
+        "/ai-coding-dictionary/subagent",
+        "/ai-coding-dictionary/automated-check",
+        "/ai-coding-dictionary/human-in-the-loop"
+      ]
+    },
+    {
+      "route": "/skills-prototype",
+      "config": "reports/full-site/batches/content-c/batch-15/configs/skills-prototype.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-15/drafts/skills-prototype.md",
+      "translationHash": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+      "sourceHash": "2bb059ffc469453c3d98f9f04c1c3928bd020ac999709e20c86df88a95c5e821",
+      "checksFile": "reports/full-site/batches/content-c/batch-15/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/prototyping",
+        "/ai-coding-dictionary/primary-source",
+        "/ai-coding-dictionary/context-pointer"
+      ]
+    },
+    {
+      "route": "/skills-tdd",
+      "config": "reports/full-site/batches/content-c/batch-15/configs/skills-tdd.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-15/drafts/skills-tdd.md",
+      "translationHash": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305",
+      "sourceHash": "a58850bf7c649639f9bfec97451f07cb8bef87bcefd87d6b0afbfc20e8ed5c08",
+      "checksFile": "reports/full-site/batches/content-c/batch-15/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/automated-check",
+        "/ai-coding-dictionary/spec",
+        "/ai-coding-dictionary/stateless"
+      ]
+    },
+    {
+      "route": "/skills-grill-with-docs",
+      "config": "reports/full-site/batches/content-c/batch-16/configs/skills-grill-with-docs.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-16/drafts/skills-grill-with-docs.md",
+      "translationHash": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860",
+      "sourceHash": "7d562414cab61c24ebfed9382dcb18844240e3f30760ef7c3e4865fcff0f1a90",
+      "checksFile": "reports/full-site/batches/content-c/batch-16/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/stateful",
+        "/ai-coding-dictionary/context-window",
+        "/ai-coding-dictionary/spec"
+      ]
+    },
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "config": "reports/full-site/batches/content-c/batch-16/configs/skills-improve-codebase-architecture.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-16/drafts/skills-improve-codebase-architecture.md",
+      "translationHash": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+      "sourceHash": "5215a048953e975ddf53527ed489c4d395ef8fc1558ac005f37f80175e90b6d0",
+      "checksFile": "reports/full-site/batches/content-c/batch-16/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/grilling",
+        "/ai-coding-dictionary/context-window",
+        "/ai-coding-dictionary/harness"
+      ]
+    },
+    {
+      "route": "/skills-teach",
+      "config": "reports/full-site/batches/content-c/batch-17/configs/skills-teach.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-17/drafts/skills-teach.md",
+      "translationHash": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+      "sourceHash": "9e15a9c39bccc9bf6ed72085209828712df422d9087aaccc2490fada45c2f71c",
+      "checksFile": "reports/full-site/batches/content-c/batch-17/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/parametric-knowledge",
+        "/ai-coding-dictionary/stateful",
+        "/ai-coding-dictionary/primary-source"
+      ]
+    },
+    {
+      "route": "/skills-wizard",
+      "config": "reports/full-site/batches/content-c/batch-17/configs/skills-wizard.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-17/drafts/skills-wizard.md",
+      "translationHash": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8",
+      "sourceHash": "29ed23c37badfd031173fb113491a8698884d9729aea053518c18ca2694aa8fa",
+      "checksFile": "reports/full-site/batches/content-c/batch-17/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/skill",
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/harness"
+      ]
+    },
+    {
+      "route": "/skills-triage",
+      "config": "reports/full-site/batches/content-c/batch-18/configs/skills-triage.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-18/drafts/skills-triage.md",
+      "translationHash": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d",
+      "sourceHash": "52c5c6b3c93fd68b00abfc0f22e51f138afc532852a73ca0122a08addbdd8730",
+      "checksFile": "reports/full-site/batches/content-c/batch-18/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/ticket",
+        "/ai-coding-dictionary/afk",
+        "/ai-coding-dictionary/context"
+      ]
+    },
+    {
+      "route": "/skills-wayfinder",
+      "config": "reports/full-site/batches/content-c/batch-19/configs/skills-wayfinder.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-19/drafts/skills-wayfinder.md",
+      "translationHash": "98ed068575ccbd2f102864f2e1d42c809af0eeb17f30c1a5cbf376144f4eba48",
+      "sourceHash": "b9233cc9fd083cf57da8c98c12179a9da92c005c3153f181782cc69f8b10e793",
+      "checksFile": "reports/full-site/batches/content-c/batch-19/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/ai-coding-dictionary/session",
+        "/ai-coding-dictionary/ticket",
+        "/ai-coding-dictionary/human-in-the-loop",
+        "/ai-coding-dictionary/afk",
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/effort"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "config": "reports/full-site/batches/content-c/batch-20/configs/skills__skills-changelog-v1-announcement.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-20/drafts/skills__skills-changelog-v1-announcement.md",
+      "translationHash": "eaeb12cd6b9faa60f1fb603f85ae12bd6e4b7224753a1a5223362241fbf70607",
+      "sourceHash": "c143f5999fd0b1e9dbcf0c9c9df0b9cb8a15731acc400fdaf2786f05de2b24b1",
+      "checksFile": "reports/full-site/batches/content-c/batch-20/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/skills",
+        "/ai-coding-dictionary/token",
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/skill"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "config": "reports/full-site/batches/content-c/batch-21/configs/skills__skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-21/drafts/skills__skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+      "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+      "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+      "checksFile": "reports/full-site/batches/content-c/batch-21/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/skills",
+        "/ai-coding-dictionary/spec",
+        "/ai-coding-dictionary/ticket",
+        "/ai-coding-dictionary/afk",
+        "/ai-coding-dictionary/context"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "config": "reports/full-site/batches/content-c/batch-22/configs/skills__skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.json",
+      "chineseFile": "reports/full-site/batches/content-c/batch-22/drafts/skills__skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+      "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+      "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+      "checksFile": "reports/full-site/batches/content-c/batch-22/checks.json",
+      "firstFourRecorded": "passed by content author; independent review tracked separately",
+      "pageDisplay": "unverified; engineer owns actual UI",
+      "preview": "passed on final C drafts",
+      "rootNavigationTargets": [
+        "/skills",
+        "/ai-coding-dictionary/skill",
+        "/ai-coding-dictionary/context",
+        "/ai-coding-dictionary/afk",
+        "/ai-coding-dictionary/subagent",
+        "/ai-coding-dictionary/ticket"
+      ]
+    }
+  ]
+}

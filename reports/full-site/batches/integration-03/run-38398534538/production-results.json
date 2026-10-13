@@ -1,0 +1,3004 @@
+{
+  "batch": "production-03",
+  "commit": "d41b9a8703917c0eef4c0891703ad70e97e2e46a",
+  "runId": "38398534538",
+  "scope": "Actual assembled production pages and content-specific structures; reuses unchanged sample interaction evidence. Not semantic review or tutorial execution.",
+  "startedAt": "2026-10-13T12:37:30.122Z",
+  "pages": [
+    {
+      "id": "ai-coding-dictionary-model-provider-request",
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "06d5b7f0fce998498c0f30b8c57f66c88a046ebac6b39bda8b778913f7759561",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "kind": "rendered Chinese Prompt paragraph selected then copied with Control+C",
+          "chars": 7,
+          "sha256": "83b8c65af77026d62167dff7f49153d40a368d6bf497ca4f736177bef250bda8",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-session",
+      "route": "/ai-coding-dictionary/session",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "0f7b5d79ba37eac31e0a15ec07da91883af8d4ecb1f260b96ab66c0e5df8ce6f",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-stateful",
+      "route": "/ai-coding-dictionary/stateful",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "bead311e9b537c7253bbd3794a1c8099c51cf280ade409df0b705c384e1c39b5",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-stateless",
+      "route": "/ai-coding-dictionary/stateless",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-turn",
+      "route": "/ai-coding-dictionary/turn",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "0c222df5426fe704b42bdf8098d1c312e72dc12151f8782d61353587c51d8bc7",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-agents-md",
+      "route": "/ai-coding-dictionary/agents-md",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "06897ea09726703625d8aeb5ca76e7dbef1582714e0b9428236eb87699cd1c1c",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "kind": "rendered Chinese Prompt paragraph selected then copied with Control+C",
+          "chars": 15,
+          "sha256": "0533c4b4d8f85383e06bc6c452a1b267dd1b7aa601f9ea084c9d00dc483e6829",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-context-pointer",
+      "route": "/ai-coding-dictionary/context-pointer",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry"
+      ],
+      "clipboard": [
+        {
+          "kind": "rendered Chinese Prompt paragraph selected then copied with Control+C",
+          "chars": 27,
+          "sha256": "346aa5224ca0c6b5bee2f4e4ef84243dfdcc71e225f4ace5fe578e6c3fb6e23e",
+          "match": true
+        }
+      ],
+      "images": [],
+      "errors": [],
+      "status": "failed",
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toHaveText(expected) failed\n\nLocator:  locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first()\nExpected: \"请查看 internal/deploy.md\"\nReceived: \"部署流程：请查看 internal/deploy.md\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveText\" locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first() with timeout 5000ms\n  - waiting for locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first()\n    14 × locator resolved to <p>…</p>\n       - unexpected value \"部署流程：请查看 internal/deploy.md\"\n",
+        "stack": "Error: expect(locator).toHaveText(expected) failed\n\nLocator:  locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first()\nExpected: \"请查看 internal/deploy.md\"\nReceived: \"部署流程：请查看 internal/deploy.md\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveText\" locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first() with timeout 5000ms\n  - waiting for locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first()\n    14 × locator resolved to <p>…</p>\n       - unexpected value \"部署流程：请查看 internal/deploy.md\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveText (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:80:31)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:161:79"
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-environment",
+      "route": "/ai-coding-dictionary/environment",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "ca9167eddfab6506465946a78ca6814d4467c24cf174a772b09891fb38f35fbc",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-filesystem",
+      "route": "/ai-coding-dictionary/filesystem",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "4f1f8d28fa461752472c085d5aec6edb91ad260706dab7640727a6340486d445",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-skill",
+      "route": "/ai-coding-dictionary/skill",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "477975137e42e1c36b76997ca56c5c9d998f09f12ec8f2b103bcf3679cfd999c",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-ai",
+      "route": "/ai-coding-dictionary/ai",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "f1f4adb1b0b7f859b61ebbb24ea65d8c7a556e7482ef40f9e2aa784ebf35751d",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-inference",
+      "route": "/ai-coding-dictionary/inference",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-inference",
+      "route": "/ai-coding-dictionary/inference",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-model-provider",
+      "route": "/ai-coding-dictionary/model-provider",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "3df57d8c1c992024aba1a9396c3a1f7a00fe29e18f03686e06e3da82d0d1db8e",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-parameters",
+      "route": "/ai-coding-dictionary/parameters",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "a673aba82075efd6e720e571a090d7070869eaf36f462420a737b6a2f3d1d2a7",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-training",
+      "route": "/ai-coding-dictionary/training",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-cache-tokens",
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "c55e88c70a1b0d574f50ee19b6374198f94e4f5a9bc218425299ca3a88fe503b",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-cache-tokens",
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "c55e88c70a1b0d574f50ee19b6374198f94e4f5a9bc218425299ca3a88fe503b",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-effort",
+      "route": "/ai-coding-dictionary/effort",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "d16ab61f90611dae91272fb5ff250fd8ea6fe4480b5797bc599b10ec1e401996",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-input-tokens",
+      "route": "/ai-coding-dictionary/input-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "abbccee08dfa232adfd8077a718c68cc3dea7a6c7f86283f9a9d3fd59d69242d",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-next-token-prediction",
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "caf12bccfab0edcf2a2ce9457ba074045692901c6514316e254bec50c5aed686",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-non-determinism",
+      "route": "/ai-coding-dictionary/non-determinism",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-output-tokens",
+      "route": "/ai-coding-dictionary/output-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-attention-budget",
+      "route": "/ai-coding-dictionary/attention-budget",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-attention-degradation",
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-attention-relationship",
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "26a9bbfe02f92f4f1fa9b481da4dfa7d924e8e5318c1405f64bc657f4e48ed47",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-smart-zone",
+      "route": "/ai-coding-dictionary/smart-zone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-autocompact",
+      "route": "/ai-coding-dictionary/autocompact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "6f091d0428d7b4f73fdb429345bd8102710b5f3012a236ea09c37d038019a12b",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-clearing",
+      "route": "/ai-coding-dictionary/clearing",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-compaction",
+      "route": "/ai-coding-dictionary/compaction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "kind": "rendered Chinese Prompt paragraph selected then copied with Control+C",
+          "chars": 13,
+          "sha256": "6e3ebec97ecad2f959bdc3a1a5bac39b99b63211bee9a7e6d4922ab3236c5ded",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-handoff-artifact",
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "kind": "rendered Chinese Prompt paragraph selected then copied with Control+C",
+          "chars": 24,
+          "sha256": "f40199f4372dd58b5cc2aa9d95cb9255649fee245daf3526f0414425a654f3fe",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-handoff",
+      "route": "/ai-coding-dictionary/handoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "4bb16d3c2891a5293d36efd8d754ceedd00abd1500c620ca4bb728975ef308b2",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-contextual-knowledge",
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-knowledge-cutoff",
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-parametric-knowledge",
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-primary-source",
+      "route": "/ai-coding-dictionary/primary-source",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "9f9c37d1f3f958191afd1c1ced53e7de63fdac835d120001526459290e709d31",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-secondary-source",
+      "route": "/ai-coding-dictionary/secondary-source",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "885423477c37ba1fb06634c16f587b8d1195c7502b28a2152e705c86f0c31dbf",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-sycophancy",
+      "route": "/ai-coding-dictionary/sycophancy",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "kind": "rendered Chinese Prompt paragraph selected then copied with Control+C",
+          "chars": 6,
+          "sha256": "e5826d46c1da6cb604cc0a2a7ed2e28cf41fc02ea914a3c6d284e2391d7493c4",
+          "match": true
+        },
+        {
+          "kind": "rendered Chinese Prompt paragraph selected then copied with Control+C",
+          "chars": 7,
+          "sha256": "c7acdeafc787357fdc1828a6c5215f58ee858a27e3d47071985a8e873f854a83",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-agent-mode",
+      "route": "/ai-coding-dictionary/agent-mode",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-mcp",
+      "route": "/ai-coding-dictionary/mcp",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-permission-mode",
+      "route": "/ai-coding-dictionary/permission-mode",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-permission-mode",
+      "route": "/ai-coding-dictionary/permission-mode",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-permission-request",
+      "route": "/ai-coding-dictionary/permission-request",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "b0baee76ed0d94d37711c42ed89ffc30f27eb850abfd852df537660b9539bfa2",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "kind": "rendered Chinese Prompt paragraph selected then copied with Control+C",
+          "chars": 12,
+          "sha256": "55922c18821a11dcff5e8ea1c2ac8c54b313f125e0f671c72fe015257d46d7c0",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-sandbox",
+      "route": "/ai-coding-dictionary/sandbox",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "f2da4f482d5a0b2fa54bd2b4e6343d6a540d505887d1307f42ae378b9de2f5c8",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-subagent",
+      "route": "/ai-coding-dictionary/subagent",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "fd3603db152a6d2f867f656a1897c22164fa17320554f62f6996b546fb986ec4",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-afk",
+      "route": "/ai-coding-dictionary/afk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "69bd4c8ae6f747c478edb713b8efe67054e3b33250b82777364c9fab1cad5bb0",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-automated-check",
+      "route": "/ai-coding-dictionary/automated-check",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "2ad1926f1f2876a937a9a95ba672f0d1c1d419bd6cc4e6825558dba75e7b1573",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-automated-review",
+      "route": "/ai-coding-dictionary/automated-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "kind": "rendered Chinese Prompt paragraph selected then copied with Control+C",
+          "chars": 4,
+          "sha256": "934e76b66bdae925aa9eeab6b94fa5a3a1bef42e580bfff957357feb13007712",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-ax",
+      "route": "/ai-coding-dictionary/ax",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "9f67986cebc45eae52e8fd3eed63e27cf2bd4241c807f32738c4041882ef8084",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [
+        {
+          "kind": "rendered Chinese Prompt paragraph selected then copied with Control+C",
+          "chars": 18,
+          "sha256": "819d893e1240e035a28bd05a09d2bb005a5b3c6c5cf914881278d8160c97123b",
+          "match": true
+        }
+      ],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-dx",
+      "route": "/ai-coding-dictionary/dx",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "2b5bcbf713195ef12650d14b795f81d6279ec70918946e8000a97fcaef995ebe",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-human-in-the-loop",
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "36a2b738e345d63882ca23f41a1183b128c2a24f0e0c1d05ea283ba6801eed49",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-human-review",
+      "route": "/ai-coding-dictionary/human-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-grilling",
+      "route": "/ai-coding-dictionary/grilling",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-prototyping",
+      "route": "/ai-coding-dictionary/prototyping",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-spec",
+      "route": "/ai-coding-dictionary/spec",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "cbd2ae4002e6013decb42c3d77303219d796878830a6ad4cc98b23cf5c6d7e22",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-ticket",
+      "route": "/ai-coding-dictionary/ticket",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-dark-factory",
+      "route": "/ai-coding-dictionary/dark-factory",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "b054c4a02ad3061cf79d11070977d95602bce8c83d52950cea589bba7dbeffa9",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-design-concept",
+      "route": "/ai-coding-dictionary/design-concept",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-software-factory",
+      "route": "/ai-coding-dictionary/software-factory",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: table-1",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-vibe-coding",
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: body",
+        "Visible content-specific structure: example",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Actual Chinese concept link click: /ai-coding-dictionary",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    },
+    {
+      "id": "ai-coding-dictionary",
+      "route": "/ai-coding-dictionary",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "translationHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: category-1",
+        "Visible content-specific structure: category-2",
+        "Visible content-specific structure: category-3",
+        "Visible content-specific structure: category-4",
+        "Visible content-specific structure: category-5",
+        "Visible content-specific structure: category-6",
+        "Visible content-specific structure: category-7",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Cold-open and refresh original anchor: the-model",
+        "Cold-open and refresh original anchor: sessions-context-windows-turns",
+        "Cold-open and refresh original anchor: tools-environment",
+        "Cold-open and refresh original anchor: failure-modes",
+        "Cold-open and refresh original anchor: handoffs",
+        "Cold-open and refresh original anchor: memory-and-steering",
+        "Cold-open and refresh original anchor: patterns-of-work",
+        "Actual Chinese concept link click: /ai-coding-dictionary/afk",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 1440,
+        "client": 1440
+      }
+    },
+    {
+      "id": "ai-coding-dictionary",
+      "route": "/ai-coding-dictionary",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: category-1",
+        "Visible content-specific structure: category-2",
+        "Visible content-specific structure: category-3",
+        "Visible content-specific structure: category-4",
+        "Visible content-specific structure: category-5",
+        "Visible content-specific structure: category-6",
+        "Visible content-specific structure: category-7",
+        "All section headings reachable; images loaded; document has no horizontal overflow",
+        "Cold-open and refresh original anchor: the-model",
+        "Cold-open and refresh original anchor: sessions-context-windows-turns",
+        "Cold-open and refresh original anchor: tools-environment",
+        "Cold-open and refresh original anchor: failure-modes",
+        "Cold-open and refresh original anchor: handoffs",
+        "Cold-open and refresh original anchor: memory-and-steering",
+        "Cold-open and refresh original anchor: patterns-of-work",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/ai",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/model",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/parameters",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/training",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/inference",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/effort",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/token",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/next-token-prediction",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/non-determinism",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/model-provider",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/harness",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/model-provider-request",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/input-tokens",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/output-tokens",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/prefix-cache",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/cache-tokens",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/stateless",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/context",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/context-window",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/stateful",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/agent",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/system-prompt",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/session",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/turn",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/environment",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/filesystem",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/tool",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/tool-call",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/tool-result",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/mcp",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/permission-request",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/permission-mode",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/agent-mode",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/sandbox",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/sycophancy",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/hallucination",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/parametric-knowledge",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/knowledge-cutoff",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/contextual-knowledge",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/attention-relationship",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/attention-budget",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/attention-degradation",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/smart-zone",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/clearing",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/handoff",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/primary-source",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/secondary-source",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/handoff-artifact",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/spec",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/ticket",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/compaction",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/autocompact",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/memory-system",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/agents-md",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/progressive-disclosure",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/context-pointer",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/skill",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/subagent",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/human-in-the-loop",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/afk",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/automated-check",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/automated-review",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/human-review",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/vibe-coding",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/design-concept",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/grilling",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/prototyping",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/dx",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/ax",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/software-factory",
+        "Dictionary term link actually opens its Chinese page: /ai-coding-dictionary/dark-factory",
+        "Actual Chinese concept link click: /ai-coding-dictionary/afk",
+        "Direct route refresh returns the same Chinese page"
+      ],
+      "clipboard": [],
+      "images": [],
+      "errors": [],
+      "status": "passed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "ai-coding-dictionary-model-provider-request-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider-request",
+      "sha256": "e5902de8b090ce7c38fded330be508b1ff461072997a2b57d9de0907830df0cc",
+      "bytes": 101142
+    },
+    {
+      "file": "ai-coding-dictionary-model-provider-request-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider-request",
+      "sha256": "577fdd93bbd957e6c0c9ce13f7ccf0943c1e1790bef26b41aaf8e0af225aa8c4",
+      "bytes": 67792
+    },
+    {
+      "file": "ai-coding-dictionary-model-provider-request-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider-request",
+      "sha256": "9aeed21c6d45a7d7396aa129658bbecb1ea47903c6a45857408bb67c650abb21",
+      "bytes": 79175
+    },
+    {
+      "file": "ai-coding-dictionary-session-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/session",
+      "sha256": "99b7cb5558f3741731ec12b35eebf1830fac2e291d49588ddfae8da634456082",
+      "bytes": 103393
+    },
+    {
+      "file": "ai-coding-dictionary-session-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/session",
+      "sha256": "bf01baafe813f809509eedc913b8a61e26ca0f06ece33596f9a50ea12915e1b1",
+      "bytes": 113190
+    },
+    {
+      "file": "ai-coding-dictionary-stateful-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateful",
+      "sha256": "db2a6a71ae5454fb4ac0daa709747f35c8352231cccd6f7efaa3606dd7f1eeb4",
+      "bytes": 101947
+    },
+    {
+      "file": "ai-coding-dictionary-stateful-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateful",
+      "sha256": "8c9caf458ac99454bfaf81f08b872cd21eccafbfe8a7b1348afed27007f94023",
+      "bytes": 108656
+    },
+    {
+      "file": "ai-coding-dictionary-stateful-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateful",
+      "sha256": "9be70a72191598fd1c8ad814da4b1c4e93d7e292b270bf5baeedf8ee00d3f3ef",
+      "bytes": 107395
+    },
+    {
+      "file": "ai-coding-dictionary-stateless-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateless",
+      "sha256": "cfeed20ad2ff873117c04c85d27ddfbfc3101b918a45691114c1c9dbc1f81fe4",
+      "bytes": 102336
+    },
+    {
+      "file": "ai-coding-dictionary-stateless-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateless",
+      "sha256": "09737b0da3b606f7cd76b0da4eaae79f7deb701e197544d5a3827fa81c2de4ed",
+      "bytes": 110754
+    },
+    {
+      "file": "ai-coding-dictionary-turn-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/turn",
+      "sha256": "7c5786e9b6e4f45c74b272f33af5de8675c7db56a946592226dd247d40604523",
+      "bytes": 101158
+    },
+    {
+      "file": "ai-coding-dictionary-turn-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/turn",
+      "sha256": "65e9ad25efbb46ae0bd07672b80697ee751b4205a61f0bc69ffeb29104fbf7f1",
+      "bytes": 108151
+    },
+    {
+      "file": "ai-coding-dictionary-agents-md-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agents-md",
+      "sha256": "4e2f81f0987b0924fee059111d08e0075afededaf2160201a0bdd7e08c13d4ea",
+      "bytes": 94329
+    },
+    {
+      "file": "ai-coding-dictionary-agents-md-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agents-md",
+      "sha256": "dc3d0be64168ecae38aec6b6dbd45102bea83f7a4d93e14430e5c463a5d6b9d6",
+      "bytes": 109292
+    },
+    {
+      "file": "ai-coding-dictionary-context-pointer-390-failure.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/context-pointer",
+      "sha256": "68c398d052d21cd5d371f3c44eda693da77782f7c62105f39d0d80d1fa128016",
+      "bytes": 90351
+    },
+    {
+      "file": "ai-coding-dictionary-environment-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/environment",
+      "sha256": "ea8e7d7146c8a5e97dace484369a93a9d702f6783411bdcdf4a98e15d2002965",
+      "bytes": 109532
+    },
+    {
+      "file": "ai-coding-dictionary-environment-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/environment",
+      "sha256": "6800f14496e018194e09fdc34c0d460b159eac2fd9200523ad36319ace14a62a",
+      "bytes": 120794
+    },
+    {
+      "file": "ai-coding-dictionary-filesystem-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/filesystem",
+      "sha256": "42167ad2f819d31c5f04bdd3ac9124ea6d0a1b397af6c02518899a28f391d42c",
+      "bytes": 104141
+    },
+    {
+      "file": "ai-coding-dictionary-filesystem-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/filesystem",
+      "sha256": "00aba04314f941cde74fce972fb8df2e5c9ccdfa75afe4125647d30eed3479f3",
+      "bytes": 99576
+    },
+    {
+      "file": "ai-coding-dictionary-skill-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/skill",
+      "sha256": "0b65c1f5f3886ad6c297505f7ac3c258b8ff714bcd4acd77050788064a7b36bb",
+      "bytes": 102443
+    },
+    {
+      "file": "ai-coding-dictionary-skill-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/skill",
+      "sha256": "c1e63b79046673d4dcdb2da953d348437a178b7f4c58c2138e7dc83443530876",
+      "bytes": 108856
+    },
+    {
+      "file": "ai-coding-dictionary-ai-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ai",
+      "sha256": "c481b4ad4caa689f79302dc335432daf411edfdebe35f4dac2259c8920b5d2a0",
+      "bytes": 107898
+    },
+    {
+      "file": "ai-coding-dictionary-ai-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ai",
+      "sha256": "7a4dea51ad8a4d674af3b861958ad7edf4c2dfff36dd47807fbe957fa8e82c37",
+      "bytes": 83071
+    },
+    {
+      "file": "ai-coding-dictionary-ai-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ai",
+      "sha256": "95e9d128275c1f5cbfc8170e58775f10d9f3d476fc0eb4b71bab620e2c2a4955",
+      "bytes": 93111
+    },
+    {
+      "file": "ai-coding-dictionary-inference-1440-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "8dd7019d786fccb935ecc7545d1d53f7c25aa2c3dd1c3c5de9d88a27c8ccc6d5",
+      "bytes": 137807
+    },
+    {
+      "file": "ai-coding-dictionary-inference-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "632dd49f0f29c327ee39ec1fea3ff3a30e22b04aa7efe1476a49f2b79d236e01",
+      "bytes": 212844
+    },
+    {
+      "file": "ai-coding-dictionary-inference-1440-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "08c82cda2ef1dc11b80fefdc92be081a2f1a2040fc01771bc4c54e6a6e2dc397",
+      "bytes": 212844
+    },
+    {
+      "file": "ai-coding-dictionary-inference-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "8abc790ecc46252ff32fdf690838ff41cd80aea04d26d49a3969c25fde4a5caf",
+      "bytes": 106851
+    },
+    {
+      "file": "ai-coding-dictionary-inference-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "e70b264f8a2148b9f88d5d0de23d87bdd8df4b9a800cf76aabe305a08f40ef6c",
+      "bytes": 100194
+    },
+    {
+      "file": "ai-coding-dictionary-inference-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "a8dd8cc9e47374fde5d078c50d07cf1ffdbdba0def87ba72c89aa8dec0ea786e",
+      "bytes": 100061
+    },
+    {
+      "file": "ai-coding-dictionary-model-provider-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider",
+      "sha256": "e18010e5cae0e638ff10c808d25aed74cfd0466c2a6a79292d79fe04eb8a82cd",
+      "bytes": 104414
+    },
+    {
+      "file": "ai-coding-dictionary-model-provider-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider",
+      "sha256": "ebb5915feb10b650b7b70fff2484689c0b9fe46fabcafca6988c48b42c0bfa1a",
+      "bytes": 104379
+    },
+    {
+      "file": "ai-coding-dictionary-parameters-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/parameters",
+      "sha256": "328075b10288af013e8419ff0d5710c7ac9bd73117d9e78ab191e8c6f3a4acce",
+      "bytes": 105234
+    },
+    {
+      "file": "ai-coding-dictionary-parameters-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/parameters",
+      "sha256": "4ef18723a9a902a36dcf8cf0e9a9327c028bf2f70665279008702f0f932d0f0a",
+      "bytes": 104530
+    },
+    {
+      "file": "ai-coding-dictionary-training-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/training",
+      "sha256": "40407dd93a12dd8c0b4ea88b6f19962820bdba60aad07054424c85c6ebeeab48",
+      "bytes": 97046
+    },
+    {
+      "file": "ai-coding-dictionary-training-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/training",
+      "sha256": "2acde77e3db0091ff6cde7378b919621b53daa2726b814a426c6d09915e354a8",
+      "bytes": 112256
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-1440-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "db25a636ab1610636b6711f6c13d051a8d444e05f4d844c42b188c406f0e952b",
+      "bytes": 139960
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "8a33eb1a6913f0ad4dfe9053000e51e2b94c5bf854216823f3836280e954d523",
+      "bytes": 265271
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-1440-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "9739d6e07fcbfc782dc31da08931fd717d665d11620910d600ab1979900cd781",
+      "bytes": 266529
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "58f5e15dd6d3df9c1b679386db9fa71f6dc00527c2b91d0a25a291772172fa5b",
+      "bytes": 103593
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "df1d332f332db9b294e39aa47841ab9eeb1a14ca2634862583d9b59ebe39845c",
+      "bytes": 92470
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "e5575b1827cd0d984f37c6e9794885c981e8050faf787530f29c28226ee2bc28",
+      "bytes": 93870
+    },
+    {
+      "file": "ai-coding-dictionary-effort-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/effort",
+      "sha256": "14c2fbd33e7aff388003e2fa88296be6213ccb735ef9a6def951c375769de1c0",
+      "bytes": 97568
+    },
+    {
+      "file": "ai-coding-dictionary-effort-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/effort",
+      "sha256": "e39416844152c0e8a179fb413965c414c08dec728ce2e1beb17d477862d64438",
+      "bytes": 102500
+    },
+    {
+      "file": "ai-coding-dictionary-effort-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/effort",
+      "sha256": "66c32e9b2b2dc0f076b8c4328a0dd3f341d14479e906a3d7ca8af1de39e5b5f7",
+      "bytes": 102502
+    },
+    {
+      "file": "ai-coding-dictionary-input-tokens-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/input-tokens",
+      "sha256": "40fba87369888f2728d2ca375a720b2ec4da75423b79609e423ced2f7ff1e0c8",
+      "bytes": 98022
+    },
+    {
+      "file": "ai-coding-dictionary-input-tokens-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/input-tokens",
+      "sha256": "3dfc3603869f50c78630f01ffeb4eb790af0a1a3086f1ff3830e678fc6b25cf1",
+      "bytes": 106799
+    },
+    {
+      "file": "ai-coding-dictionary-next-token-prediction-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/next-token-prediction",
+      "sha256": "d0070b5ba5bf02da055756acaf5e37340120a3bbfc9249433198168822a68310",
+      "bytes": 98431
+    },
+    {
+      "file": "ai-coding-dictionary-next-token-prediction-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/next-token-prediction",
+      "sha256": "a2d7fa68cd3dd3c700f179408dcfc284e4da8d51b913e3e1d2ed0f1ec5bbe21d",
+      "bytes": 100314
+    },
+    {
+      "file": "ai-coding-dictionary-non-determinism-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/non-determinism",
+      "sha256": "3b2daa61a5e62430c40dca4d66d46b93da1192d24a053f27f88e3b070b4244bb",
+      "bytes": 94089
+    },
+    {
+      "file": "ai-coding-dictionary-non-determinism-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/non-determinism",
+      "sha256": "55c4863ea457e7fb82c7a8dbcec36562f299cb57c71f2ce8f0f72913ceaad2d6",
+      "bytes": 107278
+    },
+    {
+      "file": "ai-coding-dictionary-output-tokens-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/output-tokens",
+      "sha256": "227318082b74511d793bd05e9af851f88d601197175714d12f0b035ab92c6c4c",
+      "bytes": 108881
+    },
+    {
+      "file": "ai-coding-dictionary-output-tokens-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/output-tokens",
+      "sha256": "d37ddaeb6532d69bdabb864974c87ccc153c3224c09aa60afb6ad9c3b1001397",
+      "bytes": 111654
+    },
+    {
+      "file": "ai-coding-dictionary-attention-budget-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-budget",
+      "sha256": "a5717336c4b546d1eedf1cc39a08123b577f33a9c20262a4e5070e79dfe3ed36",
+      "bytes": 97720
+    },
+    {
+      "file": "ai-coding-dictionary-attention-budget-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-budget",
+      "sha256": "2267273be963e708a5237d5c65fb19db026c3b7213f8ddbd89badd8afe44aa93",
+      "bytes": 98272
+    },
+    {
+      "file": "ai-coding-dictionary-attention-degradation-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-degradation",
+      "sha256": "ddfa72746130c8a18a1394506a6925fb0eece7d6ad1b01b6eec0d44e7def33ef",
+      "bytes": 104787
+    },
+    {
+      "file": "ai-coding-dictionary-attention-degradation-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-degradation",
+      "sha256": "d16ec93b85f4480239a240b0290a5ba9ed79decbfc34f430d8e0412848572e6e",
+      "bytes": 104250
+    },
+    {
+      "file": "ai-coding-dictionary-attention-relationship-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-relationship",
+      "sha256": "92c86632fd21ee8fb9b4c6d56e36b55c05cae69425316d87668b3bc03e8b6aeb",
+      "bytes": 97897
+    },
+    {
+      "file": "ai-coding-dictionary-attention-relationship-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-relationship",
+      "sha256": "fe326b69e1d4e1a3c6bc7cbcd7e268483c0b9890bd5e959e97698d7457d4d795",
+      "bytes": 107101
+    },
+    {
+      "file": "ai-coding-dictionary-attention-relationship-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-relationship",
+      "sha256": "35a23d60803607b4c7b1e88e92a8b7c4c0cfbf97a074af4934abc767b5dd23ea",
+      "bytes": 106955
+    },
+    {
+      "file": "ai-coding-dictionary-smart-zone-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/smart-zone",
+      "sha256": "1a253c649def3d5895278ac23324fde1ce278532f4d3cb180de73d78c71a4187",
+      "bytes": 96231
+    },
+    {
+      "file": "ai-coding-dictionary-smart-zone-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/smart-zone",
+      "sha256": "d8239a30a35060093cca5aa7cb596544d3cd29687b79a005bdb85d45f377fcdf",
+      "bytes": 101831
+    },
+    {
+      "file": "ai-coding-dictionary-autocompact-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/autocompact",
+      "sha256": "9aeab18ee7a77003c6d1cd526ffb51e3a01add9ee5ccbd55ba3f9b9605c25dc2",
+      "bytes": 103995
+    },
+    {
+      "file": "ai-coding-dictionary-autocompact-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/autocompact",
+      "sha256": "c35ea8304a91ff120169663edf3df666c3be4c2f8a9660b729c8ada5249859d7",
+      "bytes": 101410
+    },
+    {
+      "file": "ai-coding-dictionary-clearing-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/clearing",
+      "sha256": "88cb31d5e25289eff0bb13cea7ba6fcf2113f719f96b8933629c9ebc4034a8ce",
+      "bytes": 91043
+    },
+    {
+      "file": "ai-coding-dictionary-clearing-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/clearing",
+      "sha256": "04a6625cd81cad0da5a3b55c4b7fe881f9813101a743c3ac23e42aef55f3cd14",
+      "bytes": 98100
+    },
+    {
+      "file": "ai-coding-dictionary-compaction-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/compaction",
+      "sha256": "3031e076c3a2937c40f0da68710d21b54bd19bc2f61785e4ca2f0cd840910443",
+      "bytes": 98199
+    },
+    {
+      "file": "ai-coding-dictionary-compaction-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/compaction",
+      "sha256": "0cd2e1d22c20c6371b515bb4a7ab81d5fd28b24737677329952096fc79d61a11",
+      "bytes": 108292
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-artifact-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff-artifact",
+      "sha256": "e2cb90543cfe185cc5551e2462c80d78d87caee9464c59d4db9172a359bf0e72",
+      "bytes": 96873
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-artifact-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff-artifact",
+      "sha256": "e3cc4890b887bbe70e1dc619cec735085cb424af045514388774f62e362187f7",
+      "bytes": 98476
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff",
+      "sha256": "328d67b5c985f1dc7a8a5a764e9c85f14ecb31ae8c7762342988217797538b84",
+      "bytes": 89836
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff",
+      "sha256": "79716c6698fb6f4bc70b1f9cab89c10695c999cc01099a382ce6d026006df095",
+      "bytes": 116168
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff",
+      "sha256": "20fe1ea7bccd344498c670dd68a804d5193f21b74785e30506405f05b0367b03",
+      "bytes": 116941
+    },
+    {
+      "file": "ai-coding-dictionary-contextual-knowledge-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/contextual-knowledge",
+      "sha256": "aa93c841d01d9da57abc1e38d753bc4a34ea5dbe21da22030087aeaef9d108bf",
+      "bytes": 96880
+    },
+    {
+      "file": "ai-coding-dictionary-contextual-knowledge-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/contextual-knowledge",
+      "sha256": "66407a46afbcb1ae0fb128b60f1ef4b75fd5c4b7a2f68980f73ec0706c0d5ef8",
+      "bytes": 98907
+    },
+    {
+      "file": "ai-coding-dictionary-knowledge-cutoff-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/knowledge-cutoff",
+      "sha256": "a31892a105f945d1b5cbdb0d5244df5015f04edf0ad1af87f15ddb6252d57b71",
+      "bytes": 97996
+    },
+    {
+      "file": "ai-coding-dictionary-knowledge-cutoff-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/knowledge-cutoff",
+      "sha256": "b42c8e9e8ac15445e69f9925702123f9527be10b1c0fc7f7af1cf2e2810085c6",
+      "bytes": 101309
+    },
+    {
+      "file": "ai-coding-dictionary-parametric-knowledge-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/parametric-knowledge",
+      "sha256": "1cbb05eaf8cee939e1cdc7a7ce269f724f295399e05d2380a647c42e401faf02",
+      "bytes": 109021
+    },
+    {
+      "file": "ai-coding-dictionary-parametric-knowledge-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/parametric-knowledge",
+      "sha256": "d0b7c93e47bf5a37bafd92508100d46af71359cbaa2e65bfcd3fe60383228785",
+      "bytes": 102090
+    },
+    {
+      "file": "ai-coding-dictionary-primary-source-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/primary-source",
+      "sha256": "7679779ed67470e54b2983452f89a3a7055d76551ab862ad8d3bba3f1f1887d2",
+      "bytes": 98560
+    },
+    {
+      "file": "ai-coding-dictionary-primary-source-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/primary-source",
+      "sha256": "47fec6b8d8b6c46bf28b8551e21285458938531d48f7ba231c7d3ee442e24ee9",
+      "bytes": 107620
+    },
+    {
+      "file": "ai-coding-dictionary-secondary-source-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/secondary-source",
+      "sha256": "df1eac7ca8713ba3044850493fe3985a7f37f83b7ac7f50a685b6ea561055bf4",
+      "bytes": 107962
+    },
+    {
+      "file": "ai-coding-dictionary-secondary-source-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/secondary-source",
+      "sha256": "db041d71eae8d3628473acedf7658159e5f12c4ccd196378251fde705c46b7ca",
+      "bytes": 96970
+    },
+    {
+      "file": "ai-coding-dictionary-sycophancy-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sycophancy",
+      "sha256": "0924bd05d1bf05ae0c4645341e66b6721ab1ee77d6f32a5397bdf6f95a57d606",
+      "bytes": 106504
+    },
+    {
+      "file": "ai-coding-dictionary-sycophancy-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sycophancy",
+      "sha256": "3f587c1beb6a62a7a276ba4f9d6103853b15237ec0d31cd63fddb0989a92420e",
+      "bytes": 73935
+    },
+    {
+      "file": "ai-coding-dictionary-agent-mode-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agent-mode",
+      "sha256": "2c57ef1019f014f6be20058f01c625bbd3ded80b63b36d2aa21a89dbb87cbb02",
+      "bytes": 85185
+    },
+    {
+      "file": "ai-coding-dictionary-agent-mode-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agent-mode",
+      "sha256": "d901eb18d8dfde7243236014d3087d96714677655a7af28ed689643aaa2bf4f1",
+      "bytes": 104425
+    },
+    {
+      "file": "ai-coding-dictionary-mcp-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/mcp",
+      "sha256": "e735c1902b4c0e689456f79b1848d8b2496ee322b4496ddd29a762ca29b75804",
+      "bytes": 100691
+    },
+    {
+      "file": "ai-coding-dictionary-mcp-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/mcp",
+      "sha256": "4059cf49cb316afc39e4f30141c0043be4f7f64b9e8c57ee4f7f940178c4639b",
+      "bytes": 103088
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-1440-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "97aaddc4e67de65ee4af61eb3207fac85bfe1412e61baad79ccf3790286544ee",
+      "bytes": 141083
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "a2f81d8cc4db11d1dc01be634d11e98612c089d0e5fdb49fd7214b73c8f2095f",
+      "bytes": 204218
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-1440-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "343c2b594485f853718123c8137ab6b8eb66113ace286b1130f982b527280e50",
+      "bytes": 204217
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "4fd7184cee053505495e93ecdf87075f0e7bc0bd7b8eb28779f655b9f3343d33",
+      "bytes": 106070
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "972fa1bdbfcc05480b251259b20160ff96462c18897147dfd2d6036b8892eccc",
+      "bytes": 98371
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "4fa228674995ac5a1b013202ef512041362556181419470794aaf9609d806edf",
+      "bytes": 98415
+    },
+    {
+      "file": "ai-coding-dictionary-permission-request-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-request",
+      "sha256": "b623d1dc08d6739be355b5dba38a24cb27027744ce9189d80ca7efd67034a0a1",
+      "bytes": 104191
+    },
+    {
+      "file": "ai-coding-dictionary-permission-request-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-request",
+      "sha256": "5f071f3c0714e8b5a07ffea0b0862f34883f4d03d0c5832bf829d739e6bbb549",
+      "bytes": 92209
+    },
+    {
+      "file": "ai-coding-dictionary-permission-request-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-request",
+      "sha256": "36379d3c6e23545ff86e13873eab007bcac574d82ccba3b6f90b01dc4151993e",
+      "bytes": 92494
+    },
+    {
+      "file": "ai-coding-dictionary-sandbox-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sandbox",
+      "sha256": "b73ae1a30dbd66f706c6575d95592addef70ad98dc02a9bc46de13f444e17807",
+      "bytes": 108541
+    },
+    {
+      "file": "ai-coding-dictionary-sandbox-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sandbox",
+      "sha256": "528e579e5f0af2142b75ada84d675618e63345ccd1a9d63619348369775da826",
+      "bytes": 115705
+    },
+    {
+      "file": "ai-coding-dictionary-sandbox-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sandbox",
+      "sha256": "635c59666eb5ae61e8cbcd26218f6e183cab36a585fddbd91f640d0bedb431f5",
+      "bytes": 117286
+    },
+    {
+      "file": "ai-coding-dictionary-subagent-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/subagent",
+      "sha256": "443dce8f5918c15e9ce15ad2049ad67084c97c010aace4cd065865490682e1a7",
+      "bytes": 95996
+    },
+    {
+      "file": "ai-coding-dictionary-subagent-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/subagent",
+      "sha256": "1da442e7f09d94505a6d95d6071ba2fcfd3636eb220e5c416506d6fd97720dd4",
+      "bytes": 103809
+    },
+    {
+      "file": "ai-coding-dictionary-afk-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/afk",
+      "sha256": "29c4901467dd09f7c73369bb2d1d3ec439a25ffb52f037dfcec9bfbd8b45b977",
+      "bytes": 112532
+    },
+    {
+      "file": "ai-coding-dictionary-afk-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/afk",
+      "sha256": "1d55306137b098174b6269f73fd66ef43dd6cd18149e5b002862a0a513567d13",
+      "bytes": 75473
+    },
+    {
+      "file": "ai-coding-dictionary-automated-check-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/automated-check",
+      "sha256": "fcd53c36c4f912a4170a99a700dd699d5ec633db209bbf4dcb842397c465bf89",
+      "bytes": 98104
+    },
+    {
+      "file": "ai-coding-dictionary-automated-check-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/automated-check",
+      "sha256": "d143fbf45284d83eabbf40cf93ea3ea3c01ab4355c3ddac2fe10ba04636201e8",
+      "bytes": 106056
+    },
+    {
+      "file": "ai-coding-dictionary-automated-review-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/automated-review",
+      "sha256": "3bb2be72547a294d7c1ee52d7bc5416902b47e85abc65b617728db57abe023a9",
+      "bytes": 95003
+    },
+    {
+      "file": "ai-coding-dictionary-automated-review-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/automated-review",
+      "sha256": "58f883b0bfd29ad39fe24f98e45d3a820707ed867430c33f943af30173f5cd91",
+      "bytes": 116208
+    },
+    {
+      "file": "ai-coding-dictionary-ax-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ax",
+      "sha256": "5315ac235da6704db6107044d4adf4b5d55a027500e20b682ce8406b8e87a0e4",
+      "bytes": 98433
+    },
+    {
+      "file": "ai-coding-dictionary-ax-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ax",
+      "sha256": "f6cd88dfed6043328d511c92247740dae7da5113479f5885b850a6c74804d3f1",
+      "bytes": 110108
+    },
+    {
+      "file": "ai-coding-dictionary-ax-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ax",
+      "sha256": "70b486c397b29f702f9addb0eb2f101ec736aa83ece45855f60fbb5bc5712b42",
+      "bytes": 110353
+    },
+    {
+      "file": "ai-coding-dictionary-dx-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/dx",
+      "sha256": "0d26598b028c9110abf8d7b70c40a33d1120dcaccf5bcb72bb8977b872dc2e59",
+      "bytes": 91350
+    },
+    {
+      "file": "ai-coding-dictionary-dx-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/dx",
+      "sha256": "9f749ff365013ca566cd3ccf45618f563c5de81bdb221b0554dba9cb7dbad64a",
+      "bytes": 109342
+    },
+    {
+      "file": "ai-coding-dictionary-human-in-the-loop-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/human-in-the-loop",
+      "sha256": "1c4ddee6fa30ad34e2d19352c95793df807e06d383ad89406bc8f1dfd7dd834f",
+      "bytes": 97865
+    },
+    {
+      "file": "ai-coding-dictionary-human-in-the-loop-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/human-in-the-loop",
+      "sha256": "d89762cbbed0b83a7afdc749d1d3988e555e143ce9c708e350bd6259f339f32f",
+      "bytes": 97512
+    },
+    {
+      "file": "ai-coding-dictionary-human-review-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/human-review",
+      "sha256": "0f812de8d263ba35eeb746488a0b65f91fb5ee6e3befc52183b293eae971e511",
+      "bytes": 92317
+    },
+    {
+      "file": "ai-coding-dictionary-human-review-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/human-review",
+      "sha256": "9e87701d5b18b8f0d68ee9f460a6d66665d8bcef33add214da6c7bb6428b7bab",
+      "bytes": 86640
+    },
+    {
+      "file": "ai-coding-dictionary-grilling-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/grilling",
+      "sha256": "34dbaf1568e88a1dd8f294f78b3935923c5a0eab3ef85e3e57b1976dc9678d22",
+      "bytes": 99794
+    },
+    {
+      "file": "ai-coding-dictionary-grilling-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/grilling",
+      "sha256": "13fd83d74e4dfa29572793513dbf7e336001fb14c40cce1c5d1e6a8e4f37fc68",
+      "bytes": 101122
+    },
+    {
+      "file": "ai-coding-dictionary-prototyping-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/prototyping",
+      "sha256": "559cfc3a5d85d3ec5d7c545630c61d45136b552736afec9a237ff347eff876e2",
+      "bytes": 93201
+    },
+    {
+      "file": "ai-coding-dictionary-prototyping-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/prototyping",
+      "sha256": "f6eeb36ce64201975e56ec3817f3ac364268089bc353700bea6396f5d0aa9659",
+      "bytes": 106722
+    },
+    {
+      "file": "ai-coding-dictionary-spec-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/spec",
+      "sha256": "d36e22c4a0972accfdff5a0cd159549b6462107b1a48ccd2e5c056979903403e",
+      "bytes": 95498
+    },
+    {
+      "file": "ai-coding-dictionary-spec-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/spec",
+      "sha256": "3987043b1156ca29d89fd1a09ea928cb14b35ff0b3a7f849b93d38baf0599f93",
+      "bytes": 103927
+    },
+    {
+      "file": "ai-coding-dictionary-ticket-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ticket",
+      "sha256": "3d66649976b0ab1e3b22fcb9f7d19887c1ada1bc08eb5da6ce31835c71d46b90",
+      "bytes": 101132
+    },
+    {
+      "file": "ai-coding-dictionary-ticket-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ticket",
+      "sha256": "3666d2d726ebb2b2a182835759c59e218ca837e086334ace261780dc4ebe4985",
+      "bytes": 93475
+    },
+    {
+      "file": "ai-coding-dictionary-dark-factory-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/dark-factory",
+      "sha256": "98a75a0903a1353a7bba3471fc633824ea3b1b8a0b4679cb5f2cab0cce780231",
+      "bytes": 90124
+    },
+    {
+      "file": "ai-coding-dictionary-dark-factory-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/dark-factory",
+      "sha256": "f3b52d736872ebd057f8d09dba14ad143a6a486592d3596392befb7d34d577c5",
+      "bytes": 87031
+    },
+    {
+      "file": "ai-coding-dictionary-design-concept-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/design-concept",
+      "sha256": "d832e8a688cd8b6762bd57671c5d420a4f7441b4348883e5b439e0df0ca2aa39",
+      "bytes": 103220
+    },
+    {
+      "file": "ai-coding-dictionary-design-concept-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/design-concept",
+      "sha256": "753676829151209a0a8b8c9ba509ed483b590e11ef43299416dc6c4f7e33aee4",
+      "bytes": 109075
+    },
+    {
+      "file": "ai-coding-dictionary-software-factory-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/software-factory",
+      "sha256": "27016fe4de9cdca8944b77d7bea3d0330c6cf935d5da78c2cb3f84567fe3a34b",
+      "bytes": 99889
+    },
+    {
+      "file": "ai-coding-dictionary-software-factory-390-table-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/software-factory",
+      "sha256": "5bb0cc5eaab6d41697ae590c88d5aab0f0c29514b8db36e22bcb1e3b00753431",
+      "bytes": 103904
+    },
+    {
+      "file": "ai-coding-dictionary-software-factory-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/software-factory",
+      "sha256": "d9972f1ed03a9feab1026e6b0f9c2abfac82178e21bfada8d57bc7647642c57b",
+      "bytes": 102375
+    },
+    {
+      "file": "ai-coding-dictionary-vibe-coding-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/vibe-coding",
+      "sha256": "53b823e8b22b237c431a1b9b128d729be6f3c75ca569759ad28a3e49947b534f",
+      "bytes": 94001
+    },
+    {
+      "file": "ai-coding-dictionary-vibe-coding-390-example.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/vibe-coding",
+      "sha256": "dbfc9c7d0756e912f176b56e9841f0b4a529ffd28e935e642fd0f6d40a224ef0",
+      "bytes": 106493
+    },
+    {
+      "file": "ai-coding-dictionary-1440-top.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "9e6b44b157cede82d361f7644ee030b2a2887bfdf0a63bdaf1b4a3a92f893ef3",
+      "bytes": 143749
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "ed2752aa2c137db2ccf156bbf5b8fba7ef32b4b2945d0f2ab54b03340dd383cf",
+      "bytes": 155574
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-2.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "4ee24bf26a121e5bb688e87de0e36eb6ca914c627c6a41d0ba1a9e76ed2e1cf5",
+      "bytes": 201756
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-3.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "4670c7172d1aa4485cd329a21fe978353e0486201788d668a4183454c61dc4a1",
+      "bytes": 222292
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-4.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "acb4086b6af15e922dc0e6181a968480885abf68bded8b8e51bb2381c1fc0fab",
+      "bytes": 203640
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-5.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "8cd6ba61d064a1f48e88d6040513a9f204f9c23717cf199c2106bc6d5a484110",
+      "bytes": 193311
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-6.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "e9905853ce86b024031f213d3b55576abc8f1f13fe360fd3c477d61725c028b5",
+      "bytes": 197412
+    },
+    {
+      "file": "ai-coding-dictionary-1440-category-7.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "905b7041303587864e0042cbb10bc9ff94dbb9b89a42db98b0c79eb6c802aa71",
+      "bytes": 203282
+    },
+    {
+      "file": "ai-coding-dictionary-390-top.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "d645267dd6e39ed52d37084ed96017ac52605352e6a2435c11d2b4e31f71e41f",
+      "bytes": 71227
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-1.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "fe100a1170aff7c6f81129e5778a0d9b7bb3eb5eacbba4f9333c657086a44178",
+      "bytes": 82610
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-2.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "3902ddb2a9a4538a3aace907316cb4ec8ff8c714178fe980faec8d9700011f31",
+      "bytes": 96109
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-3.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "6f8a923cb5b933b68389fb7573d74a7964431d5c4ca5ac40aa3135cd78cce123",
+      "bytes": 117936
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-4.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "254df4900f7edfd6663e520833d11fa514902d56a6065b1c5de2421941244d72",
+      "bytes": 109876
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-5.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "f974ef58fed0c52adc4ae0caad661714d9f2edc90c6a5a5619b3a782e714be4b",
+      "bytes": 101974
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-6.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "31fcd26206efcaddbc91b0ba648391d19697fd512626da4199c251c65aae2139",
+      "bytes": 110812
+    },
+    {
+      "file": "ai-coding-dictionary-390-category-7.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary",
+      "sha256": "b3c212abb887b4c614c5826bf001035267e4e8d2eb89a6be14a42866e3c29125",
+      "bytes": 98138
+    }
+  ],
+  "status": "failed",
+  "browser": {
+    "name": "Chromium",
+    "version": "156.0.8078.4",
+    "playwright": "1.64.0"
+  },
+  "finishedAt": "2026-10-13T12:42:06.058Z"
+}

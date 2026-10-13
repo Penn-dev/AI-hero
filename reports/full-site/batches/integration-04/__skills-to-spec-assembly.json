@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-07/configs/skills-to-spec.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-to-spec",
+      "manifest": {
+        "route": "/skills-to-spec",
+        "sourceUrl": "https://www.aihero.dev/skills-to-spec",
+        "sourceHash": "1fb8c8987fc9548957d28253c6ac865de82519bf55b0ab757c3feedeb6274a53",
+        "translationPath": "content/zh/skills-to-spec.md",
+        "translationHash": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:31.112Z",
+        "assembly": {
+          "configHash": "26f1ceaf6f3007c1ecf2e9074f64be851736a80afb9dc84a19dca5da6613be02",
+          "checkedAt": "2026-10-13T12:37:31.112Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-to-spec.md",
+          "sha256": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ea26f98a81ed1476dac0a510a3fbb10541ba32a28180ef9c583b2882fd64ad36"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "73642e877e542910ac09386997f2b3c4a045d85ecceecf4fc88a8b6f897e149a"
+        }
+      ],
+      "rawOutputSha256": "0aa60c106db3cdea5fd33eab70ec72be406531d970528389582be062649c06f4"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-to-spec",
+      "manifest": {
+        "route": "/skills-to-spec",
+        "sourceUrl": "https://www.aihero.dev/skills-to-spec",
+        "sourceHash": "1fb8c8987fc9548957d28253c6ac865de82519bf55b0ab757c3feedeb6274a53",
+        "translationPath": "content/zh/skills-to-spec.md",
+        "translationHash": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:31.354Z",
+        "assembly": {
+          "configHash": "26f1ceaf6f3007c1ecf2e9074f64be851736a80afb9dc84a19dca5da6613be02",
+          "checkedAt": "2026-10-13T12:37:31.354Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-to-spec.md",
+          "sha256": "09fd2694ca340cb66b4427e20088a79a679ada59ed5041a88905d4374d0ddc1e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ea26f98a81ed1476dac0a510a3fbb10541ba32a28180ef9c583b2882fd64ad36"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "6f380e4b1aa0440e0a64bcf5b572d68f3b96514b7022ade2c8c0c51b17c5040d"
+        }
+      ],
+      "rawOutputSha256": "0a84ec2d48ade2c12272647d4b36c8f9451700b0a018e6553c0be4cbc75abf28"
+    }
+  ],
+  "nonTargetPagesPreserved": 101
+}

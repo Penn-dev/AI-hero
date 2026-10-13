@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-06/configs/generate-enums-with-vercel-ai-sdk.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/generate-enums-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/generate-enums-with-vercel-ai-sdk",
+        "sourceHash": "7d3dc4f00dc9f39f779d6c80e87c4acf108d5039afb3338fca028a002d4206b1",
+        "translationPath": "content/zh/generate-enums-with-vercel-ai-sdk.md",
+        "translationHash": "568201c264b205b55718c75614b38720ea5b37dca22497c6876769af845b4473",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:02.700Z",
+        "assembly": {
+          "configHash": "ce632294afc2724e18218fbc97797d1c6d24b05502a0e7c3785e06108aff5a41",
+          "checkedAt": "2026-10-13T12:38:02.700Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/generate-enums-with-vercel-ai-sdk.md",
+          "sha256": "568201c264b205b55718c75614b38720ea5b37dca22497c6876769af845b4473"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "b79905f384091d7927683df04fe2517f7504e40cd0dc17d64b4873a26c3eebd9"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a17815efaaf22ff5be3eee07b1c81e6baa3d480e3821b49dadb23a3399ba958b"
+        }
+      ],
+      "rawOutputSha256": "3191273bc843a5771c56d6d64c0b4e492933a1f253ba0dc245a03ada48d553ef"
+    },
+    {
+      "mode": "apply",
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/generate-enums-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/generate-enums-with-vercel-ai-sdk",
+        "sourceHash": "7d3dc4f00dc9f39f779d6c80e87c4acf108d5039afb3338fca028a002d4206b1",
+        "translationPath": "content/zh/generate-enums-with-vercel-ai-sdk.md",
+        "translationHash": "568201c264b205b55718c75614b38720ea5b37dca22497c6876769af845b4473",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:02.896Z",
+        "assembly": {
+          "configHash": "ce632294afc2724e18218fbc97797d1c6d24b05502a0e7c3785e06108aff5a41",
+          "checkedAt": "2026-10-13T12:38:02.896Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/generate-enums-with-vercel-ai-sdk.md",
+          "sha256": "568201c264b205b55718c75614b38720ea5b37dca22497c6876769af845b4473"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "b79905f384091d7927683df04fe2517f7504e40cd0dc17d64b4873a26c3eebd9"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "36b83108dfa51e35a5a8f6772a3e81feffdd1a5b3b39973a4e119e551254c677"
+        }
+      ],
+      "rawOutputSha256": "95dac51ff173b2901c55ce18adb06c1b4d43a6942180cc9bf12e3e2d11716c2b"
+    }
+  ],
+  "nonTargetPagesPreserved": 135
+}

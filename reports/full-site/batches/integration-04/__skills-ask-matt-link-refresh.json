@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-05/configs/skills-ask-matt.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-ask-matt",
+      "manifest": {
+        "route": "/skills-ask-matt",
+        "sourceUrl": "https://www.aihero.dev/skills-ask-matt",
+        "sourceHash": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685",
+        "translationPath": "content/zh/skills-ask-matt.md",
+        "translationHash": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:40.451Z",
+        "assembly": {
+          "configHash": "20d70f88b34d98cdda6787ceba93e2d5767c6fb8cc916be074d1102edf23bcd3",
+          "checkedAt": "2026-10-13T12:37:40.451Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-ask-matt.md",
+          "sha256": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f98682f249d5731e2b37019ba363ae7ae863520b0e8157252732845aa5159d24"
+        }
+      ],
+      "rawOutputSha256": "52b904d4f801b32c5127739d627d993d4455a748b1c1c62f80f5ed3b69e36215"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-ask-matt",
+      "manifest": {
+        "route": "/skills-ask-matt",
+        "sourceUrl": "https://www.aihero.dev/skills-ask-matt",
+        "sourceHash": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685",
+        "translationPath": "content/zh/skills-ask-matt.md",
+        "translationHash": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:40.697Z",
+        "assembly": {
+          "configHash": "20d70f88b34d98cdda6787ceba93e2d5767c6fb8cc916be074d1102edf23bcd3",
+          "checkedAt": "2026-10-13T12:37:40.697Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-ask-matt.md",
+          "sha256": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "3a3e94a12a26d49cf1a3ebc5e006014ccab7e73b3ddf75bb53e990ff80295f66"
+        }
+      ],
+      "rawOutputSha256": "ef07a1f9e8ccd061b66fa71f5b4c0a2bc69724ef2536b8056ba4d7783ca182a9"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

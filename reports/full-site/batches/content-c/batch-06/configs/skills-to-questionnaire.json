@@ -1,0 +1,22 @@
+{
+  "route": "/skills-to-questionnaire",
+  "source": {
+    "path": "content/source/skills-to-questionnaire.md",
+    "sha256": "c051d0d023f88945c673d7b0490c66e2786dd42702cbab363d3f542e5a4f6933"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-06/drafts/skills-to-questionnaire.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    }
+  ]
+}

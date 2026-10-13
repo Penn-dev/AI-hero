@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-07/configs/implementing-anthropics-think-tool-in-typescript.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/implementing-anthropics-think-tool-in-typescript",
+      "manifest": {
+        "route": "/implementing-anthropics-think-tool-in-typescript",
+        "sourceUrl": "https://www.aihero.dev/implementing-anthropics-think-tool-in-typescript",
+        "sourceHash": "a854a81f6be2e647cb0140560a2e4e197094fb272c83133b111488d58a65bd4f",
+        "translationPath": "content/zh/implementing-anthropics-think-tool-in-typescript.md",
+        "translationHash": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:11.238Z",
+        "assembly": {
+          "configHash": "500c67be71c4b127c7ef1e47acfd3d6a3ca7ad60d86aaff3477fc23224464996",
+          "checkedAt": "2026-10-13T12:38:11.238Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/implementing-anthropics-think-tool-in-typescript.md",
+          "sha256": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "3d2a278fd16cf5492bf60ea0033a5da17ba70c899371b8935bcc61d418d7249b"
+        }
+      ],
+      "rawOutputSha256": "6dc52ace0047f4858c2216189487a216d7bace53238aaf865f57af59b0754659"
+    },
+    {
+      "mode": "apply",
+      "route": "/implementing-anthropics-think-tool-in-typescript",
+      "manifest": {
+        "route": "/implementing-anthropics-think-tool-in-typescript",
+        "sourceUrl": "https://www.aihero.dev/implementing-anthropics-think-tool-in-typescript",
+        "sourceHash": "a854a81f6be2e647cb0140560a2e4e197094fb272c83133b111488d58a65bd4f",
+        "translationPath": "content/zh/implementing-anthropics-think-tool-in-typescript.md",
+        "translationHash": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:11.466Z",
+        "assembly": {
+          "configHash": "500c67be71c4b127c7ef1e47acfd3d6a3ca7ad60d86aaff3477fc23224464996",
+          "checkedAt": "2026-10-13T12:38:11.466Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/implementing-anthropics-think-tool-in-typescript.md",
+          "sha256": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "3e8ccb842ef82d774811642faf6dbe7b6eb848e400e47817c21797d7ed6544ff"
+        }
+      ],
+      "rawOutputSha256": "08de017e7fa577245ff97591f59ae0a0df888f8aa3e231c0ed90331108e49ff4"
+    }
+  ],
+  "nonTargetPagesPreserved": 150
+}

@@ -1,0 +1,9 @@
+{
+  "route": "/generate-enums-with-vercel-ai-sdk",
+  "source": {
+    "path": "content/source/generate-enums-with-vercel-ai-sdk.md",
+    "sha256": "7d3dc4f00dc9f39f779d6c80e87c4acf108d5039afb3338fca028a002d4206b1"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-06/drafts/generate-enums-with-vercel-ai-sdk.md",
+  "translationPath": "content/zh/generate-enums-with-vercel-ai-sdk.md"
+}

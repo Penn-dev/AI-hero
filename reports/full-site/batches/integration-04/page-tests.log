@@ -1,0 +1,57 @@
+
+> sites-project@0.1.0 page:test
+> node --test scripts/assemble-page.test.mjs scripts/localized-article.test.mjs
+
+✔ Output source-relative Solution accepts the correct absolute URL without changing sources or other pages (107.527173ms)
+✔ Output rejects a wrong root Solution even when its later correct link remains, without writing (49.588641ms)
+✔ Output rejects bare relative URLs with an actionable message before writing (48.071004ms)
+✔ ordinary article previews without writing, then assembles through the existing index (22.259687ms)
+✔ optional learning profile uses the current knowledge file without replacing shared records (16.078353ms)
+✔ incorrect source hash fails before any write in preview and apply (8.860999ms)
+▶ invalid route, source path, output path and learning config fail without writes
+  ✔ source route mismatch (5.765891ms)
+  ✔ unsafe route (4.96227ms)
+  ✔ unsafe output (16.389541ms)
+  ✔ unknown config field (4.990007ms)
+  ✔ invalid learning kind (15.554978ms)
+  ✔ invalid learning cards (10.202657ms)
+✔ invalid route, source path, output path and learning config fail without writes (59.091333ms)
+✔ an available Chinese link whose indexed body is empty is rejected before writing (11.325702ms)
+✔ unfinished batch targets are explicitly recorded while available targets must still be valid (19.790773ms)
+✔ an actual renderable Chinese target with a stale source version permits assembly and retains the version difference (31.761088ms)
+✔ Chinese Prompt can be appended, but changing the English Prompt is rejected without writes (23.491766ms)
+▶ content structure, original inline code, resources and renderer support are checked before writes
+  ✔ missing heading (10.961095ms)
+  ✔ missing inline code (13.784332ms)
+  ✔ missing resource (9.802427ms)
+  ✔ unknown MDX (12.409789ms)
+  ✔ JavaScript expression (14.049549ms)
+  ✔ unmarked new code (13.371412ms)
+✔ content structure, original inline code, resources and renderer support are checked before writes (75.638004ms)
+✔ a filesystem failure after target replacement restores every file, including the previous translation (23.005006ms)
+✔ a target cannot overwrite another page translation or shared knowledge source (10.890099ms)
+✔ updating one of seventeen pages preserves the other sixteen pages and refreshes only its translation source (19.491394ms)
+✔ content validation checks every renderable translation status, file hash and indexed body (28.827512ms)
+✔ available Chinese targets are checked against their files and manifest, not just a nonempty index (14.475328ms)
+✔ unsafe symlink destinations fail during preview as well as apply (12.398552ms)
+✔ invalid auxiliary source hashes and changes to another page source are refused (12.632593ms)
+✔ interrupted writes keep a recovery journal and can restore the original files explicitly (24.780269ms)
+✔ a symlink within the workspace cannot redirect translation writes into source files (12.97648ms)
+✔ the actual existing site index and all seventeen manifest records survive adding an ordinary fixture page (55.374236ms)
+✔ shared records changed during preparation are preserved instead of overwritten by a stale plan (11.536078ms)
+✔ an auxiliary source used by another page cannot be silently replaced (10.928346ms)
+✔ shared evidence can move to a verified same-hash snapshot while other records and pages stay unchanged (27.644727ms)
+✔ changing the target translation path keeps its existing profile pointed at the newly assembled file (23.611535ms)
+9:38:51 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ workshop text prompts are not labelled as original code (18.753587ms)
+✔ public articles with an independent glossary retain original resources and Chinese term controls (25.655593ms)
+✔ explicit historical review keeps Chinese-only links and its term controls (9.225831ms)
+✔ explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English (8.207494ms)
+ℹ tests 42
+ℹ suites 0
+ℹ pass 42
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1005.861139

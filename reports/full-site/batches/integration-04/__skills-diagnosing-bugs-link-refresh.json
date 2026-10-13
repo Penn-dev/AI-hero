@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-11/configs/skills-diagnosing-bugs.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-diagnosing-bugs",
+      "manifest": {
+        "route": "/skills-diagnosing-bugs",
+        "sourceUrl": "https://www.aihero.dev/skills-diagnosing-bugs",
+        "sourceHash": "ef9ccd225e1b9caf5c2522174ffaf45e7a849490bbfbffc1e6d2dcd94020aca8",
+        "translationPath": "content/zh/skills-diagnosing-bugs.md",
+        "translationHash": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:43.917Z",
+        "assembly": {
+          "configHash": "00f78c15435d81ee7f9ed7011a07a01ae2bf296d1419bb55104da6d26a20a0c0",
+          "checkedAt": "2026-10-13T12:37:43.917Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-diagnosing-bugs.md",
+          "sha256": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c94413236c9519b7a1836f25c3c3538f37d0768ad723b12194d35041efe44945"
+        }
+      ],
+      "rawOutputSha256": "bc48992e66a94b0f9eb923321546a87b14040e065b2c3b644c3e6b14415b055a"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-diagnosing-bugs",
+      "manifest": {
+        "route": "/skills-diagnosing-bugs",
+        "sourceUrl": "https://www.aihero.dev/skills-diagnosing-bugs",
+        "sourceHash": "ef9ccd225e1b9caf5c2522174ffaf45e7a849490bbfbffc1e6d2dcd94020aca8",
+        "translationPath": "content/zh/skills-diagnosing-bugs.md",
+        "translationHash": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:44.184Z",
+        "assembly": {
+          "configHash": "00f78c15435d81ee7f9ed7011a07a01ae2bf296d1419bb55104da6d26a20a0c0",
+          "checkedAt": "2026-10-13T12:37:44.184Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-diagnosing-bugs.md",
+          "sha256": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "6c4fc214edb86a6b54eae6b0b4250b27b5fc2eb4755dccac30e723f38cc1ba68"
+        }
+      ],
+      "rawOutputSha256": "e0693ab96dd872f377737cf44ca7958982d7d34f18b891cbe1c81f71b3bd62a0"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

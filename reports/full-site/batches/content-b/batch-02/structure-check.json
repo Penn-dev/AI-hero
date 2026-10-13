@@ -80,12 +80,13 @@
     {
       "route": "/publish-your-mcp-server-to-npm",
       "sourceHash": "a9459952cfa26254258dc360cd31a17e54135a0df93098cad256c2b7e933b28b",
-      "translationHash": "266a6329ddbe8f0cd24322187c0b08ee59a1bf6f3d4c2f6bb8287c150b8bc207",
+      "translationHash": "2f528062fa9fcd9f42fdc96369373d99519d06197039303569a551d093133a8b",
       "structuralValidation": "passed",
       "emphasisAst": "no literal double-asterisk text or nested strong nodes",
       "fencedBlocks": 7,
       "headings": 8,
       "resources": [
+        "/mcp-server-from-a-single-typescript-file",
         "https://www.aihero.dev/mcp-server-from-a-single-typescript-file",
         "https://nodejs.org/en",
         "https://www.totaltypescript.com/how-to-create-an-npm-package",
@@ -112,12 +113,13 @@
     {
       "route": "/using-mcp-prompts",
       "sourceHash": "bd0218127fa4a05f739be2f2d169efcadc57b726768760fd5d6025618e36f127",
-      "translationHash": "fcfd3d1edb3ec3dc068b5165bc38289cbcc5aa52856ee704c7450455ec77326e",
+      "translationHash": "334c35fd0fdacfb072c4abf5c38019197af6d0be0b46193ee3aebfc0f8e5c156",
       "structuralValidation": "passed",
       "emphasisAst": "no literal double-asterisk text or nested strong nodes",
       "fencedBlocks": 7,
       "headings": 8,
       "resources": [
+        "/mcp-server-from-a-single-typescript-file",
         "https://www.aihero.dev/mcp-server-from-a-single-typescript-file",
         "http://res.cloudinary.com/total-typescript/image/upload/v1741618645/posts/post_k3ou7/ewbqn3782ztrpafxlmdf.png",
         "http://res.cloudinary.com/total-typescript/image/upload/v1741618644/posts/post_k3ou7/johh2yqdfn6jndtvrk0b.png"

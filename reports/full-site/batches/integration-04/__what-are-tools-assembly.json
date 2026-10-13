@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-03/configs/what-are-tools.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/what-are-tools",
+      "manifest": {
+        "route": "/what-are-tools",
+        "sourceUrl": "https://www.aihero.dev/what-are-tools",
+        "sourceHash": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049",
+        "translationPath": "content/zh/what-are-tools.md",
+        "translationHash": "e9e2d1d0795a237f8758217329dfd7f34abe6719fe4f647ac229e6c883a0e006",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:53.423Z",
+        "assembly": {
+          "configHash": "8a78405a6dd589bdad7fb78f906bcc29053c2b1e38f0587cd4ecf1382c1b1feb",
+          "checkedAt": "2026-10-13T12:37:53.423Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-are-tools.md",
+          "sha256": "e9e2d1d0795a237f8758217329dfd7f34abe6719fe4f647ac229e6c883a0e006"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a2d5a0da9b58617f75036cc1bfcb4b6a8713db40fc78b3ec4667caacaa0ff0e4"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "43bd92c4c0da54d1d5c5ea750b2f5841a92afb8fa35a1bc89840b154ccda505d"
+        }
+      ],
+      "rawOutputSha256": "c4d44fb5d0ce68006daa33a0cacc4c706c965eac60a199dfa5ef616eaf162010"
+    },
+    {
+      "mode": "apply",
+      "route": "/what-are-tools",
+      "manifest": {
+        "route": "/what-are-tools",
+        "sourceUrl": "https://www.aihero.dev/what-are-tools",
+        "sourceHash": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049",
+        "translationPath": "content/zh/what-are-tools.md",
+        "translationHash": "e9e2d1d0795a237f8758217329dfd7f34abe6719fe4f647ac229e6c883a0e006",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:53.683Z",
+        "assembly": {
+          "configHash": "8a78405a6dd589bdad7fb78f906bcc29053c2b1e38f0587cd4ecf1382c1b1feb",
+          "checkedAt": "2026-10-13T12:37:53.683Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-are-tools.md",
+          "sha256": "e9e2d1d0795a237f8758217329dfd7f34abe6719fe4f647ac229e6c883a0e006"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a2d5a0da9b58617f75036cc1bfcb4b6a8713db40fc78b3ec4667caacaa0ff0e4"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "fb8566e7297fcc91aaf725828364b9484f71ac9ff932a71f4d657681bc57f753"
+        }
+      ],
+      "rawOutputSha256": "f5d42fb4b164b1caeef4bb7a058011e0ffec2b082e02e809f400ebe560d6e9ea"
+    }
+  ],
+  "nonTargetPagesPreserved": 116
+}

@@ -1,0 +1,9 @@
+{
+  "route": "/tool-calls-with-vercel-ai-sdk",
+  "source": {
+    "path": "content/source/tool-calls-with-vercel-ai-sdk.md",
+    "sha256": "4dd330bad3247eba4e575ef4298da6b8fa3c577490c53fc8d1aae35d3c7926d0"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-06/drafts/tool-calls-with-vercel-ai-sdk.md",
+  "translationPath": "content/zh/tool-calls-with-vercel-ai-sdk.md"
+}

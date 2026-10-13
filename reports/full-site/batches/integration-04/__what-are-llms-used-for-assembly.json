@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-03/configs/what-are-llms-used-for.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/what-are-llms-used-for",
+      "manifest": {
+        "route": "/what-are-llms-used-for",
+        "sourceUrl": "https://www.aihero.dev/what-are-llms-used-for",
+        "sourceHash": "7596c6c7d39b9b2c24b7dd6ae66a05bbad002c19e572fa20711594078b53a4a0",
+        "translationPath": "content/zh/what-are-llms-used-for.md",
+        "translationHash": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:52.900Z",
+        "assembly": {
+          "configHash": "493dcf81d9995d21344cb8ad6af81052e1df7e72e9cd467b0bff74c1500aa855",
+          "checkedAt": "2026-10-13T12:37:52.900Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/the-prompt-report",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            },
+            {
+              "route": "/generate-enums-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            },
+            {
+              "route": "/tool-calls-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-are-llms-used-for.md",
+          "sha256": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3683f4254f1fbbb3a5d04a871e3e57ee1924d88739c4e5646d36bbf73f83ed3d"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0b8ef2c2c1a4b8c09a725542cdf0f33543d1ac1d9ee40369e300cc837a483cc4"
+        }
+      ],
+      "rawOutputSha256": "8a7d8099fe5f4eff44a7389c0915d627932182d6a97a3dfeda6e74d0d618454d"
+    },
+    {
+      "mode": "apply",
+      "route": "/what-are-llms-used-for",
+      "manifest": {
+        "route": "/what-are-llms-used-for",
+        "sourceUrl": "https://www.aihero.dev/what-are-llms-used-for",
+        "sourceHash": "7596c6c7d39b9b2c24b7dd6ae66a05bbad002c19e572fa20711594078b53a4a0",
+        "translationPath": "content/zh/what-are-llms-used-for.md",
+        "translationHash": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:53.172Z",
+        "assembly": {
+          "configHash": "493dcf81d9995d21344cb8ad6af81052e1df7e72e9cd467b0bff74c1500aa855",
+          "checkedAt": "2026-10-13T12:37:53.172Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/the-prompt-report",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            },
+            {
+              "route": "/generate-enums-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            },
+            {
+              "route": "/tool-calls-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-are-llms-used-for.md",
+          "sha256": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3683f4254f1fbbb3a5d04a871e3e57ee1924d88739c4e5646d36bbf73f83ed3d"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "64503f7a14b7474d14e363ab082ac0fba206e51d2f5025b34dba40cfddb67b9f"
+        }
+      ],
+      "rawOutputSha256": "67c59b4304258ebb6a6008e8d79a78b516caaf2216bc4cd6383d6f3428f86c6b"
+    }
+  ],
+  "nonTargetPagesPreserved": 115
+}

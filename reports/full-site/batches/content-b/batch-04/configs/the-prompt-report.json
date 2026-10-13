@@ -1,0 +1,9 @@
+{
+  "route": "/the-prompt-report",
+  "source": {
+    "path": "content/source/the-prompt-report.md",
+    "sha256": "1d14ac41bef2b6c45d7bcf8c20f49dd1e7f4cd0cd270fc05bee26dee66d985b6"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-04/drafts/the-prompt-report.md",
+  "translationPath": "content/zh/the-prompt-report.md"
+}

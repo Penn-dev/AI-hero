@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-08/configs/securing-your-ai-app-with-guardrails.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/securing-your-ai-app-with-guardrails",
+      "manifest": {
+        "route": "/securing-your-ai-app-with-guardrails",
+        "sourceUrl": "https://www.aihero.dev/securing-your-ai-app-with-guardrails",
+        "sourceHash": "7d76671b274c9f430d66f8afc9e2c51f40247d3e77120b08245b8e6432c3c212",
+        "translationPath": "content/zh/securing-your-ai-app-with-guardrails.md",
+        "translationHash": "66cdeb9aa8e48e54505f2ae0592f75306248637a3b0d76edd935153436f98f63",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:09.802Z",
+        "assembly": {
+          "configHash": "d919ceb18be90b383afd18fc35a145af894a4cf724bf6be87dadc4749329e935",
+          "checkedAt": "2026-10-13T12:38:09.802Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/securing-your-ai-app-with-guardrails.md",
+          "sha256": "66cdeb9aa8e48e54505f2ae0592f75306248637a3b0d76edd935153436f98f63"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "89b4acead146a648d69607481b79ff9ed2d7e96d26effe544b14a291010016d2"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d91850740eab13e0b6bba0e7eb5f99cfbe91764f1d181761cfa84c2a141b18e9"
+        }
+      ],
+      "rawOutputSha256": "d6102011b6695c8aedde8f3391c834f42a362bee89819d39d4dd7b078e436f04"
+    },
+    {
+      "mode": "apply",
+      "route": "/securing-your-ai-app-with-guardrails",
+      "manifest": {
+        "route": "/securing-your-ai-app-with-guardrails",
+        "sourceUrl": "https://www.aihero.dev/securing-your-ai-app-with-guardrails",
+        "sourceHash": "7d76671b274c9f430d66f8afc9e2c51f40247d3e77120b08245b8e6432c3c212",
+        "translationPath": "content/zh/securing-your-ai-app-with-guardrails.md",
+        "translationHash": "66cdeb9aa8e48e54505f2ae0592f75306248637a3b0d76edd935153436f98f63",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:10.002Z",
+        "assembly": {
+          "configHash": "d919ceb18be90b383afd18fc35a145af894a4cf724bf6be87dadc4749329e935",
+          "checkedAt": "2026-10-13T12:38:10.002Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/securing-your-ai-app-with-guardrails.md",
+          "sha256": "66cdeb9aa8e48e54505f2ae0592f75306248637a3b0d76edd935153436f98f63"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "89b4acead146a648d69607481b79ff9ed2d7e96d26effe544b14a291010016d2"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b0360b8b87e7bb27afe606c333da01a7f8fae79eb4ce0a424a924a348afd228f"
+        }
+      ],
+      "rawOutputSha256": "70d7426f1c8f252e2c378269182f07cbef4bf3827e18b76c4eb5aebcaddd86b3"
+    }
+  ],
+  "nonTargetPagesPreserved": 150
+}

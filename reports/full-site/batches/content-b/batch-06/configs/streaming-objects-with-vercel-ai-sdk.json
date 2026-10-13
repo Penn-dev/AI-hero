@@ -1,0 +1,9 @@
+{
+  "route": "/streaming-objects-with-vercel-ai-sdk",
+  "source": {
+    "path": "content/source/streaming-objects-with-vercel-ai-sdk.md",
+    "sha256": "7759ded9ab743adaa00ed456bb6fddd55e7eaffedc19ab7ab68c79dbbe06a22c"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-06/drafts/streaming-objects-with-vercel-ai-sdk.md",
+  "translationPath": "content/zh/streaming-objects-with-vercel-ai-sdk.md"
+}

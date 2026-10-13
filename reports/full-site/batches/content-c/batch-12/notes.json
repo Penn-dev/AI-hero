@@ -1,0 +1,16 @@
+{
+ "/skills-retro": {
+  "information": "逐节对照全文和分类表，保留环境而非代码、仅提议等选择、机械检查/判断规范区分、不审旧检查、不自动hook、单会话偏差、当前会话优先及 smooth 可跳过的边界。",
+  "naturalChinese": "完整通读，保留作者对 AGENTS/CLAUDE 只放导航的强烈主张，未把环境改进建议转为已获授权的动作。",
+  "necessaryConcepts": "译注解释 hook/CI，明确环境权限与历史日志依实际宿主能力；末尾给环境、自动检查、人工参与中文入口。",
+  "codeAndLinks": "唯一原流程围栏及全部行内文件名/命令/原 URL 保留，原用户引文保留英文并附完整中文理解；无自然语言操作 Prompt。",
+  "gaps": ["未读取受限日志、修改环境或执行自动检查；中文导航 planned 待工程刷新。"]
+ },
+ "/skills-setup-matt-pocock-skills": {
+  "information": "全文逐节核对三张表及全部问答，保留三个设置范围、写入前确认、每仓库配置、选一tracker、标签只映射不创建、宿主文件选择缺口、个人配置不支持等事实。",
+  "naturalChinese": "通读全文，设置/安装/外部连接边界清楚，保留版本更新是否重跑的两种说法及解释。",
+  "necessaryConcepts": "译注解释设置文件不等于创建访问凭据、monorepo/CLI，补 harness/MCP/ticket 中文入口。",
+  "codeAndLinks": "所有路径、标签、原命令/参数、表格和原 URL 保留；link the skills to a custom issue tracker 英文 Prompt 配完整可复制中文；用户疑问原文配中文理解。",
+  "gaps": ["未实际设置仓库、创建标签、申请权限或运行命令；中文导航 planned 待工程刷新。"]
+ }
+}

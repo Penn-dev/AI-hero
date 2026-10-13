@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-10/configs/skills-grilling.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-grilling",
+      "manifest": {
+        "route": "/skills-grilling",
+        "sourceUrl": "https://www.aihero.dev/skills-grilling",
+        "sourceHash": "bf9046e1748f5473f2d5c843f7464289ccae5795560279208c2a53fabdc6396d",
+        "translationPath": "content/zh/skills-grilling.md",
+        "translationHash": "3df8022a3b6ce9a9aebfda8eec35f5d28b0b816c7a2f06b9bf92e71d91beac34",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:34.542Z",
+        "assembly": {
+          "configHash": "4082bf0151585f86f8d22ddd968aa7a9bd67e4773dc2506327a7850f1a4c0270",
+          "checkedAt": "2026-10-13T12:37:34.542Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-grilling.md",
+          "sha256": "3df8022a3b6ce9a9aebfda8eec35f5d28b0b816c7a2f06b9bf92e71d91beac34"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3f3d22276bb79a554fa7868e0079e90094b7ca3f73999e3a5776849ee773d0c0"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0b2f365bfe2b7ca270ec529d3df8d80c66442e311a1b225245f619538bff6e4f"
+        }
+      ],
+      "rawOutputSha256": "8f6359c6b7b7db5c3c5262c778d04bbf16d791e946681bea26edd4f17b0071e2"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-grilling",
+      "manifest": {
+        "route": "/skills-grilling",
+        "sourceUrl": "https://www.aihero.dev/skills-grilling",
+        "sourceHash": "bf9046e1748f5473f2d5c843f7464289ccae5795560279208c2a53fabdc6396d",
+        "translationPath": "content/zh/skills-grilling.md",
+        "translationHash": "3df8022a3b6ce9a9aebfda8eec35f5d28b0b816c7a2f06b9bf92e71d91beac34",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:34.793Z",
+        "assembly": {
+          "configHash": "4082bf0151585f86f8d22ddd968aa7a9bd67e4773dc2506327a7850f1a4c0270",
+          "checkedAt": "2026-10-13T12:37:34.793Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-grilling.md",
+          "sha256": "3df8022a3b6ce9a9aebfda8eec35f5d28b0b816c7a2f06b9bf92e71d91beac34"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3f3d22276bb79a554fa7868e0079e90094b7ca3f73999e3a5776849ee773d0c0"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "946678ce8b90a705ccda78d7d5dd1c7f54ec29521274800abe1ed52ec6368423"
+        }
+      ],
+      "rawOutputSha256": "eeaa7f453039de04ca4d26273a53ae155731c92c6229f88e4f48e1d5f3580708"
+    }
+  ],
+  "nonTargetPagesPreserved": 107
+}
