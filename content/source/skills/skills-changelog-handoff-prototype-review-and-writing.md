@@ -59,6 +59,6 @@ Build a repeatable workflow for coding agents without giving up your engineering
 
 **Share**
 
-[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-handoff-prototype-review-and-writingSkills%20Changelog%3A%20%2Fhandoff%2C%20%2Fprototype%2C%20%2Freview%20and%20%2Fwriting%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Skills%20Changelog%3A%20%2Fhandoff%2C%20%2Fprototype%2C%20%2Freview%20and%20%2Fwriting%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-handoff-prototype-review-and-writing)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing?author=Matt Pocock)
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-handoff-prototype-review-and-writingSkills%20Changelog%3A%20%2Fhandoff%2C%20%2Fprototype%2C%20%2Freview%20and%20%2Fwriting%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Skills%20Changelog%3A%20%2Fhandoff%2C%20%2Fprototype%2C%20%2Freview%20and%20%2Fwriting%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-handoff-prototype-review-and-writing)[](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing?author=Matt Pocock>)
 
 Copy URL

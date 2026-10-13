@@ -205,5 +205,5 @@
   ],
   "note": "Route ownership only. Each actual batch is chosen after reading its full articles; this file does not mark any page translated or checked.",
   "sourceManifest": "content/source/manifest.json",
-  "sourceManifestSha256": "c319c7571224004edb75182af2646e5bacd2b9f8bc8ba1e7d40a993768b0f38c"
+  "sourceManifestSha256": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557"
 }

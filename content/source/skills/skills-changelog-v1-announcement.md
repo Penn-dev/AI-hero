@@ -152,6 +152,6 @@ Build a repeatable workflow for coding agents without giving up your engineering
 
 **Share**
 
-[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v1-announcementv1%3A%2063%25%20Token%20Reduction%2C%20%2Fask-matt%2C%20%2Fwriting-great-skills%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=v1%3A%2063%25%20Token%20Reduction%2C%20%2Fask-matt%2C%20%2Fwriting-great-skills%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v1-announcement)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-v1-announcement?author=Matt Pocock)
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v1-announcementv1%3A%2063%25%20Token%20Reduction%2C%20%2Fask-matt%2C%20%2Fwriting-great-skills%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=v1%3A%2063%25%20Token%20Reduction%2C%20%2Fask-matt%2C%20%2Fwriting-great-skills%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v1-announcement)[](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-v1-announcement?author=Matt Pocock>)
 
 Copy URL

@@ -189,8 +189,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/afk",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/afk.md",
-      "sourceHash": "d43a82ec07c359a55b7cb30f1f7c72f7393a9638a17d2edd2fb5285ac3481b66",
-      "sourceLength": 3513,
+      "sourceHash": "8618b23c4ab823f440ea078191a7345958fcd260c290033141d47847ad6f915a",
+      "sourceLength": 3515,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/4b4e62c9285e7133a299ae95e7233dc3a740b9166599b04fbe3deddec6a02289.html.gz",
@@ -198,6 +198,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/afk"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "d43a82ec07c359a55b7cb30f1f7c72f7393a9638a17d2edd2fb5285ac3481b66",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -226,8 +231,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agent",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/agent.md",
-      "sourceHash": "1dbd38a917e264d5f744e58c29ee094783f4a8083a5668ab05204c8c605e394b",
-      "sourceLength": 2735,
+      "sourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91",
+      "sourceLength": 2737,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/5e40da12df420d7e075a12117ac50f89fb7e39cb8c07a3b09504d717cfd8bd0e.html.gz",
@@ -235,6 +240,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agent"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "1dbd38a917e264d5f744e58c29ee094783f4a8083a5668ab05204c8c605e394b",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -263,8 +273,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/agent-mode.md",
-      "sourceHash": "89a0f73c76a3d875e9a3846144e8ea677e84fc5d87de1db5db0d389892f3e661",
-      "sourceLength": 3404,
+      "sourceHash": "24f5102fb30d59ebc8947457169dcc9e98583973d2ce5efe1cc44443300ecdc7",
+      "sourceLength": 3406,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/777c5b2d7470b9406979022d8a45d6cee899c7eb289ba06b7b292355c35b3873.html.gz",
@@ -272,6 +282,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agent-mode"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "89a0f73c76a3d875e9a3846144e8ea677e84fc5d87de1db5db0d389892f3e661",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -300,8 +315,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/agents-md.md",
-      "sourceHash": "eb1611f497cf14a65b48ad31acbf26abdcee80bb083ec7628c427dbde1072379",
-      "sourceLength": 3405,
+      "sourceHash": "32af17329c5c6aaddd8964c45094df8b8996c326d0c9d22f1d50639c12fac201",
+      "sourceLength": 3407,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/d8df17c7a59b11f6b411457987407122b417bf3dd7f88f270e67f64e91e4c0ae.html.gz",
@@ -309,6 +324,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agents-md"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "eb1611f497cf14a65b48ad31acbf26abdcee80bb083ec7628c427dbde1072379",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -337,8 +357,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ai",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/ai.md",
-      "sourceHash": "081592c539577cc153acefa12df0b6adf0c162378c2feea6ff688528ee79b2be",
-      "sourceLength": 3494,
+      "sourceHash": "46a2a3be696a87b1059b9ea43819305463ce94a7a5cef23466e9d1824cb57a31",
+      "sourceLength": 3496,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7e58121a24e27829842898b657fca42e9a2fc784e1493ee21dc882d98ddead10.html.gz",
@@ -346,6 +366,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ai"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "081592c539577cc153acefa12df0b6adf0c162378c2feea6ff688528ee79b2be",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -374,8 +399,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/attention-budget.md",
-      "sourceHash": "a261d140d7ee5c1cce7de2308a00fac6ffa5b9bb23ee524da7544b438e886148",
-      "sourceLength": 3248,
+      "sourceHash": "2ac674af54019c072f89a2f4154c27eab502e0f8e3219d9955d99cdd0fccccc5",
+      "sourceLength": 3250,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/c6328cbd84c61fa487449400634ba49ae13e28baf449399743d07558a3089d11.html.gz",
@@ -383,6 +408,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-budget"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "a261d140d7ee5c1cce7de2308a00fac6ffa5b9bb23ee524da7544b438e886148",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -411,8 +441,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/attention-degradation.md",
-      "sourceHash": "1c12842e7cbe0025c0d533a2f00458e8f87c5cecf90a94ea9c62b54bbe963c54",
-      "sourceLength": 3216,
+      "sourceHash": "bf7047388ba3589007a6b639945031883d4b4c04fc7b91b616db403e6c8430c3",
+      "sourceLength": 3218,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/ebbc0a3ae7dedc437fb593b0d28f41cd2b60d0c64b479ec946f825c3cf0ce1fa.html.gz",
@@ -420,6 +450,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "1c12842e7cbe0025c0d533a2f00458e8f87c5cecf90a94ea9c62b54bbe963c54",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -448,8 +483,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/attention-relationship.md",
-      "sourceHash": "fce54533f6bc0dfda8e9d39dd664b12263e3db276af9c96f623530ecb21cc5ee",
-      "sourceLength": 3985,
+      "sourceHash": "b5563d1488719ae62eb792a3728a5c491e505e4cd9b9a22f0310cf85eb1b8275",
+      "sourceLength": 3987,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/723eb404ed57adfc5b05914a60589f32cdc47e7d82a67d0737a4b31299dfe62a.html.gz",
@@ -457,6 +492,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "fce54533f6bc0dfda8e9d39dd664b12263e3db276af9c96f623530ecb21cc5ee",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -485,8 +525,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/autocompact.md",
-      "sourceHash": "05abe20e755f0c71f461eb78865fe4fb6f84383bd9976adcb0bcf733977a0665",
-      "sourceLength": 3072,
+      "sourceHash": "b27637eae07e7f28830ceae01e53d74088b04cf59237e669c5ab7992bb466a28",
+      "sourceLength": 3074,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/994b06f90a78ac4f330f3a34572e6c67d7e8f27aa3d5b13110ea05bfdba2d00e.html.gz",
@@ -494,6 +534,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/autocompact"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "05abe20e755f0c71f461eb78865fe4fb6f84383bd9976adcb0bcf733977a0665",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -522,8 +567,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/automated-check.md",
-      "sourceHash": "20470abb36546a203ee21d817fd23dd6f07fb72ce0a149a4379da87023382143",
-      "sourceLength": 3479,
+      "sourceHash": "bf3c424b557017b8f77485ddff6e9f842695c7f97e97301775f31022e433d3a6",
+      "sourceLength": 3481,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7ec796c7013f08cdd1a5e92a05c451580a931070b06fb0c9a6d061f57c41e764.html.gz",
@@ -531,6 +576,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-check"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "20470abb36546a203ee21d817fd23dd6f07fb72ce0a149a4379da87023382143",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -559,8 +609,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/automated-review.md",
-      "sourceHash": "f728adbd0e4aaf56df66c3f9b7f68ba8a0ffdf39f53a8396ca283eacea0d1803",
-      "sourceLength": 3438,
+      "sourceHash": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b",
+      "sourceLength": 3440,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/a1f39a1e9302b916ce639e51307c230ea7eb0602764b5efecaec54b46bc8d508.html.gz",
@@ -568,6 +618,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "f728adbd0e4aaf56df66c3f9b7f68ba8a0ffdf39f53a8396ca283eacea0d1803",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -596,8 +651,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ax",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/ax.md",
-      "sourceHash": "fd1e64c6dfd20d3319d1337911275f8e98b867003a6cf438aab4f8c303061c8a",
-      "sourceLength": 3215,
+      "sourceHash": "5e5e09094864e5f7908dc7b6549ef4ecb6e941d382e19c1600b9ae4a33449c2e",
+      "sourceLength": 3217,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7f8ba8577ecd8de7b1398f4f8cbe9dce428fe191144d491563cc3dd4380a28e3.html.gz",
@@ -605,6 +660,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ax"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "fd1e64c6dfd20d3319d1337911275f8e98b867003a6cf438aab4f8c303061c8a",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -633,8 +693,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/cache-tokens.md",
-      "sourceHash": "eeb1beee00f437f666dec5c2ba453325b233169d04d40ab88d395b04de7b04d3",
-      "sourceLength": 3908,
+      "sourceHash": "c9ef6830b4091bad3c8d788f4637ff40fe4b8a32cd9ab932526b2274174b293d",
+      "sourceLength": 3910,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/bfd1031b46b8b3461abf50daf022c801b23bc8c19ddc26cdb658378706838cf8.html.gz",
@@ -642,6 +702,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "eeb1beee00f437f666dec5c2ba453325b233169d04d40ab88d395b04de7b04d3",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -670,8 +735,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/clearing",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/clearing.md",
-      "sourceHash": "1636567ae3c72e752d9719fd96ff3fe6afc8848d1e6dce0ecd3720773ffa7efb",
-      "sourceLength": 3018,
+      "sourceHash": "d60dda2558ed3c7b15ef41a8a5dd31d35a6ab8846a77f55aad7e3853682f2346",
+      "sourceLength": 3020,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/877ad3bc3c9a173482ca6f498ce1469e0f9ecb3a6ed50a85c08ce9c95d9c6ff9.html.gz",
@@ -679,6 +744,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/clearing"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "1636567ae3c72e752d9719fd96ff3fe6afc8848d1e6dce0ecd3720773ffa7efb",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -707,8 +777,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/compaction",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/compaction.md",
-      "sourceHash": "bd58f341bcff62dc9c9969c44ef45318aa6ef46e76300cb81466d85fccf61fda",
-      "sourceLength": 3227,
+      "sourceHash": "fddd287107216dd4b1936c9f276da01188acdd91e67cec9386d70cae3b85c4f0",
+      "sourceLength": 3229,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/673ae9fa00ec21ab0e8b32505d7da170f6728c65dbe15d4b8ad71a2c90b33bdd.html.gz",
@@ -716,6 +786,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/compaction"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "bd58f341bcff62dc9c9969c44ef45318aa6ef46e76300cb81466d85fccf61fda",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -744,8 +819,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/context",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/context.md",
-      "sourceHash": "5da380211dc9b5a4e2339c47530444f99555d62643675a25a701d6fdba568bfe",
-      "sourceLength": 2956,
+      "sourceHash": "3a76ec521a78bd5050d60981b4fd1acad50e4cc607681de34db826270b43804d",
+      "sourceLength": 2958,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/a76c61efa9a238dd5a4b4c718268fed3822a72cefa36cef2f63b58043c3aa013.html.gz",
@@ -753,6 +828,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "5da380211dc9b5a4e2339c47530444f99555d62643675a25a701d6fdba568bfe",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -781,8 +861,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/context-pointer.md",
-      "sourceHash": "0ab6d547ff0f513d7b2a1df86c05af55e67bd246942d146b8c49ea9befe7638c",
-      "sourceLength": 3703,
+      "sourceHash": "0465a48c9ee2d354bfbaa82b071f80b45616e7c8ad588b48f4cd1696786a7283",
+      "sourceLength": 3705,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/51ace8b5d8ca121c55594794844804281b12dcc6da9932eeeffb186bcb39913c.html.gz",
@@ -790,6 +870,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context-pointer"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "0ab6d547ff0f513d7b2a1df86c05af55e67bd246942d146b8c49ea9befe7638c",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -818,8 +903,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/context-window",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/context-window.md",
-      "sourceHash": "de09f4f1d82bc4265af5b592073ab0c561740e521e1c2d15b6323ebde8ada1e1",
-      "sourceLength": 3150,
+      "sourceHash": "2a5b63536a30a69e910c5bd6180ba6e19492e759b20b38bcdcff060983442deb",
+      "sourceLength": 3152,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/3abdf3add7c7b0276046bea2be6c33b779a4f7bd7ca705725c6e0f3408956816.html.gz",
@@ -827,6 +912,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context-window"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "de09f4f1d82bc4265af5b592073ab0c561740e521e1c2d15b6323ebde8ada1e1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -855,8 +945,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/contextual-knowledge.md",
-      "sourceHash": "c3109b52aa9cc80d36202a9d27189f1fcd8daf1a7ac8f8ef6845aee64e7f389d",
-      "sourceLength": 3960,
+      "sourceHash": "0c15b23805522a808d4403bdf9ab5e696ea027a493dc5c758f343edd2305c811",
+      "sourceLength": 3962,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/08748a2c706313f4a364b62c4432fef2238708c98dd5879e9255a9645a742194.html.gz",
@@ -864,6 +954,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "c3109b52aa9cc80d36202a9d27189f1fcd8daf1a7ac8f8ef6845aee64e7f389d",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -892,8 +987,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/dark-factory",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/dark-factory.md",
-      "sourceHash": "f95001a6f8956db8bc5cf893f8e1e449389d9faafd1e41a274ab5a616e4552d2",
-      "sourceLength": 2937,
+      "sourceHash": "e61c177f6e5426b1315a4390e94104187f012d0c63fdde2b59559c66aac4e4b1",
+      "sourceLength": 2939,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/f5452977b8bd0ad19ad7b68040057d79c4ba4f6de14c8cea606942ebc2a83101.html.gz",
@@ -901,6 +996,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/dark-factory"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "f95001a6f8956db8bc5cf893f8e1e449389d9faafd1e41a274ab5a616e4552d2",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -929,8 +1029,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/design-concept.md",
-      "sourceHash": "456b4ad512b770cc06e3865307fa5b0c27e58eb8fe8193d9b6462c3ac96abd81",
-      "sourceLength": 3105,
+      "sourceHash": "41a0e5468e5b07e7ad96e188e82d8fdb8609b5f9068f9417bf6ef851f20f121b",
+      "sourceLength": 3107,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/38ae9a74d7088ca3f9560c24b86f8e989d6b145b57b8592a8c8754096daf26ae.html.gz",
@@ -938,6 +1038,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/design-concept"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "456b4ad512b770cc06e3865307fa5b0c27e58eb8fe8193d9b6462c3ac96abd81",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -966,8 +1071,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/dx",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/dx.md",
-      "sourceHash": "06d4401c1f2eb83cd8c569431c9f1ec7a07326c28e4723d709cd44c1d88884c4",
-      "sourceLength": 3348,
+      "sourceHash": "a7ffc549fb59a5ca758ea9324560f5df91d76eaad3b4766b57cbf77515524fb5",
+      "sourceLength": 3350,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/09637e87cad386852ca8a493d7e79f126de6b008913e2124e75fa41243be3740.html.gz",
@@ -975,6 +1080,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/dx"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "06d4401c1f2eb83cd8c569431c9f1ec7a07326c28e4723d709cd44c1d88884c4",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1003,8 +1113,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/effort",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/effort.md",
-      "sourceHash": "adce7a2256dcdb202df0e571540a868e36ce9edad28de9841576cc6466aefb22",
-      "sourceLength": 3244,
+      "sourceHash": "98354889478936729e33eb954204700f94c7583ee72201e3faca2fca7b3ccec3",
+      "sourceLength": 3246,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/38f02c750f073301a99b0cb1629961769464f9fe2df9d3bd1a783a8d57bcca07.html.gz",
@@ -1012,6 +1122,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/effort"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "adce7a2256dcdb202df0e571540a868e36ce9edad28de9841576cc6466aefb22",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1040,8 +1155,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/environment",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/environment.md",
-      "sourceHash": "d89dc72c84a7016da026b1581a1f80bc9c49a52dea41529f4dc83853a531336d",
-      "sourceLength": 3801,
+      "sourceHash": "5e10fc7459a6351d8025c7dabae66cc94ab99be566d27f7bab40fe53b736e342",
+      "sourceLength": 3803,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7ea6b12deaa70dd9b3b0e012814478aa971d6f65b253e096ed153f589b0f1750.html.gz",
@@ -1049,6 +1164,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/environment"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "d89dc72c84a7016da026b1581a1f80bc9c49a52dea41529f4dc83853a531336d",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1077,8 +1197,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/filesystem.md",
-      "sourceHash": "fd9e5b79e9b82745e298953ab8e32e99905537a82608326f7768edcbcff9c5a7",
-      "sourceLength": 2841,
+      "sourceHash": "02912c45cf8c9b38e23f635fbc55fcaa14691576e5a1220bb78e489ac700a9f7",
+      "sourceLength": 2843,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/1862e23504231fd2fd7ebc464ffee4c39458c50aec2a7a1fae9a439230a3485f.html.gz",
@@ -1086,6 +1206,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/filesystem"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "fd9e5b79e9b82745e298953ab8e32e99905537a82608326f7768edcbcff9c5a7",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1114,8 +1239,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/grilling.md",
-      "sourceHash": "7b95bba865f2416f619051621c0446757b28efa92abb3317ee0ef7f485e9d9d4",
-      "sourceLength": 2620,
+      "sourceHash": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc",
+      "sourceLength": 2622,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7ca100cd40b5be00ac593a3109449fd9d506bc9088fa948b36b0af8f106deabf.html.gz",
@@ -1123,6 +1248,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "7b95bba865f2416f619051621c0446757b28efa92abb3317ee0ef7f485e9d9d4",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1151,8 +1281,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/hallucination.md",
-      "sourceHash": "a7d3ea346e26b0536fc5ca9a56085b392f2a8681cd8d5eed877b09e8a6538b8c",
-      "sourceLength": 3663,
+      "sourceHash": "4b8d0cbe95e6f7c71907613a69a016178a40a5729ec6aff0372dfc12f558640c",
+      "sourceLength": 3665,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/bcc9342407a11d9eabc3ad9a2d42a900e1d3f74cebd73e86e07450b2804030a3.html.gz",
@@ -1160,6 +1290,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "a7d3ea346e26b0536fc5ca9a56085b392f2a8681cd8d5eed877b09e8a6538b8c",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1188,8 +1323,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/handoff.md",
-      "sourceHash": "52983b26f3079cd027a3d7393d09cbf14e4aee53c7a26886376870dd09e33a5f",
-      "sourceLength": 3104,
+      "sourceHash": "c3f330ccdd14c2d23d67e1252937ab5379296f8ed8878606dbd0b11d2468e508",
+      "sourceLength": 3106,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/b5adbe116677446c2deed6db570dfdeb31d643e1e5e9c22197d589b332fb1414.html.gz",
@@ -1197,6 +1332,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "52983b26f3079cd027a3d7393d09cbf14e4aee53c7a26886376870dd09e33a5f",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1225,8 +1365,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/handoff-artifact.md",
-      "sourceHash": "6ad75d6ac4c4efd12177435901738bc66a277714a356862b559dc90aae3a9aa7",
-      "sourceLength": 3550,
+      "sourceHash": "d17dd0c5e14bddea3cfeace1c6071763b6bca069a2d7e75772ace458a353e2d5",
+      "sourceLength": 3552,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/18151fdb4f573904a135fe63560aa0e10bafecb5d717fdff6519960f00b006bd.html.gz",
@@ -1234,6 +1374,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "6ad75d6ac4c4efd12177435901738bc66a277714a356862b559dc90aae3a9aa7",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1262,8 +1407,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/harness",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/harness.md",
-      "sourceHash": "b51de762045f5db093a3872076f47e4b8728d09dbfcb09d6c373f55b294fe819",
-      "sourceLength": 3341,
+      "sourceHash": "e8fca4c2ddffb9f121b5f57f5721c3c06d941bf8c545c23ebdc5d70b727032f2",
+      "sourceLength": 3343,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/6953ecf53d65d7b54c4c9c9f70e804b08beb3fd2600a7990ac3839a0bbe9aae2.html.gz",
@@ -1271,6 +1416,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/harness"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "b51de762045f5db093a3872076f47e4b8728d09dbfcb09d6c373f55b294fe819",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1299,8 +1449,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/human-in-the-loop.md",
-      "sourceHash": "52447a75eb5a74986e9de03e0b7e70d99cd25f760533c7580524f800930b1f62",
-      "sourceLength": 3437,
+      "sourceHash": "6730a600872ddbb9bb705fe5ad8f6ee0218c841576ea7fd3d9e572aedf975a50",
+      "sourceLength": 3439,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/76d9b4be5686ac76b33f9c347d246d748b920b9a3bde30cf4a52e41d1a8d5371.html.gz",
@@ -1308,6 +1458,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "52447a75eb5a74986e9de03e0b7e70d99cd25f760533c7580524f800930b1f62",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1336,8 +1491,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/human-review",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/human-review.md",
-      "sourceHash": "c5881bfa5f9598231ac1104a835f4505be9c1fcf942757a326c4d8fef9aaf112",
-      "sourceLength": 2852,
+      "sourceHash": "dd479f1fd946c437f8660dad8405defd3f5846e2308d5ba59851822bfa4b7633",
+      "sourceLength": 2854,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/9c5e325c06a4bf1d7c8018ed1dcd3386706133113f9cea7bcf2fb3ccf3fb9979.html.gz",
@@ -1345,6 +1500,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/human-review"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "c5881bfa5f9598231ac1104a835f4505be9c1fcf942757a326c4d8fef9aaf112",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1373,8 +1533,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/inference",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/inference.md",
-      "sourceHash": "6aa691b881a14c5674cbd70c7780f8a398119ed42df5b38b0af0a53e88048bf1",
-      "sourceLength": 3437,
+      "sourceHash": "e7c23ce987d5e42225449309294ce00e4b2ee4ab83544f273078c73cdc1982fc",
+      "sourceLength": 3439,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/da136d5db991a067ac6aab6f4f185a4dc30a2e242687653b866b3efe23754d96.html.gz",
@@ -1382,6 +1542,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/inference"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "6aa691b881a14c5674cbd70c7780f8a398119ed42df5b38b0af0a53e88048bf1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1410,8 +1575,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/input-tokens.md",
-      "sourceHash": "0a48f68d83f49bef2a4399b6eb8c39865eb838ea971c35a58236d1faa0d5b5ba",
-      "sourceLength": 2969,
+      "sourceHash": "e30fae6e5812c5d913a7c5a8d034736e4f94bae6bbf06df20922e438e11c1363",
+      "sourceLength": 2971,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/a8fe4144a68c33c5a51040c6472b71c1d78af04871a8ab6b86cc525226f4cb81.html.gz",
@@ -1419,6 +1584,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/input-tokens"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "0a48f68d83f49bef2a4399b6eb8c39865eb838ea971c35a58236d1faa0d5b5ba",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1447,8 +1617,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/knowledge-cutoff.md",
-      "sourceHash": "9cf10c7102f9934e3cf45ad85506710a8172fb97368287f2e33caef905bdf688",
-      "sourceLength": 2744,
+      "sourceHash": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46",
+      "sourceLength": 2746,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/3dd42d834093af506f4a659471d111dba651a239991814fb316a1ae817d3ad4c.html.gz",
@@ -1456,6 +1626,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "9cf10c7102f9934e3cf45ad85506710a8172fb97368287f2e33caef905bdf688",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1484,8 +1659,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/mcp",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/mcp.md",
-      "sourceHash": "8f1ad1c0d5910af58ae01294abdb93a5cb95b48e71215b819acc12deb2798178",
-      "sourceLength": 3443,
+      "sourceHash": "dccbfda4cf19b526b54ea7b562903d89a1b7319f1cfc624c88465b82962e305c",
+      "sourceLength": 3445,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/eeb71fdfe3f413de595e8e535ecae61e0625e243af520530e9b556d9422761d2.html.gz",
@@ -1493,6 +1668,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/mcp"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "8f1ad1c0d5910af58ae01294abdb93a5cb95b48e71215b819acc12deb2798178",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1521,8 +1701,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/memory-system.md",
-      "sourceHash": "6598554fe2baa4377c46c4badbcf769206b5924f40161898e39445da0be7a20d",
-      "sourceLength": 3192,
+      "sourceHash": "231f7764fd14458de5108a21924637c522c92c650b5c81dfbe77d29af2597258",
+      "sourceLength": 3194,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/f161f295461dc654a245ea1f1aa32c78242abba1a22be99cab23cba937c59f3d.html.gz",
@@ -1530,6 +1710,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/memory-system"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "6598554fe2baa4377c46c4badbcf769206b5924f40161898e39445da0be7a20d",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1558,8 +1743,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/model",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/model.md",
-      "sourceHash": "7d701ec4df061c1cad9eba30f71cc11ad1aefd36f6d71804bfc87ee60c93b826",
-      "sourceLength": 3018,
+      "sourceHash": "bda0dd8f7209f591b4d3e8169d0e40365130327004b73195c87df731b1a517a5",
+      "sourceLength": 3020,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/af368b281cfc76de3482ecf8de924d76b8fd161927490750d95085842b462bb4.html.gz",
@@ -1567,6 +1752,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "7d701ec4df061c1cad9eba30f71cc11ad1aefd36f6d71804bfc87ee60c93b826",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1595,8 +1785,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/model-provider.md",
-      "sourceHash": "5b24d071a02565638a3f92ef5a89b75de6829c517a642cf166b12585f8db5a0a",
-      "sourceLength": 3131,
+      "sourceHash": "de26bad57b92bee22e4c9042fe8262c8095bf44aa3b73fd70f74766bc98e8e0e",
+      "sourceLength": 3133,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/644a5c18777fb6b5820c34ef59fa4d1dd421be2ac0e91185f39e4076aaa212e9.html.gz",
@@ -1604,6 +1794,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "5b24d071a02565638a3f92ef5a89b75de6829c517a642cf166b12585f8db5a0a",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1632,8 +1827,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/model-provider-request.md",
-      "sourceHash": "7adeaf3c819f9808362776018d9f0c5b0aa2ebfc102411002b0d46a23e0f2705",
-      "sourceLength": 3877,
+      "sourceHash": "9040123cac6dcfe99a1b6ee685b11fd0768bfe13792421c099b592bd59956888",
+      "sourceLength": 3879,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/062558630f524371d547ea8eff2123be691c8cd1bf13b142d35c429b2ce44b7c.html.gz",
@@ -1641,6 +1836,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "7adeaf3c819f9808362776018d9f0c5b0aa2ebfc102411002b0d46a23e0f2705",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1669,8 +1869,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/next-token-prediction.md",
-      "sourceHash": "e5096ab8d6812f3362a935a4702d829a726c6475b7218f56f3530315d3d1b4cb",
-      "sourceLength": 3119,
+      "sourceHash": "2e4540175092bb37efd464961daf8df3e6339d500464e6d16c8b162a247d8ed7",
+      "sourceLength": 3121,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/72fefb361f2bc087136545aaed87c7910f768097d7aa7cda86cbec7ad1faf835.html.gz",
@@ -1678,6 +1878,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e5096ab8d6812f3362a935a4702d829a726c6475b7218f56f3530315d3d1b4cb",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1706,8 +1911,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/non-determinism.md",
-      "sourceHash": "e9ac75ea3ee89681d112a03f33be777ff1941566706e55cf48ca1ee339e9cac9",
-      "sourceLength": 3726,
+      "sourceHash": "9d6bb88cb4d21da508ef3fb73b56707a9a0eb8d90b8606f470599dd1c14a6a84",
+      "sourceLength": 3728,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7f824a717bdda5bf2130e21602ba3043ff92197a275f9055169d16a84c17892b.html.gz",
@@ -1715,6 +1920,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/non-determinism"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e9ac75ea3ee89681d112a03f33be777ff1941566706e55cf48ca1ee339e9cac9",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1743,8 +1953,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/output-tokens.md",
-      "sourceHash": "a894b348d02c1434dfe9b3922d196a360fb8804fc53c298f049faf48dbea2e7b",
-      "sourceLength": 2532,
+      "sourceHash": "dae408485b46660315f1a08c0ba1454a271460143f3b8ecd9375623acfbfdadf",
+      "sourceLength": 2534,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/0895795dbbb81c801e2f8adf0c5352dbdc65b25ddb792768fd327a44b9a94539.html.gz",
@@ -1752,6 +1962,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/output-tokens"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "a894b348d02c1434dfe9b3922d196a360fb8804fc53c298f049faf48dbea2e7b",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1780,8 +1995,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/parameters",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/parameters.md",
-      "sourceHash": "1b7a7336a5613f763d515b6d5267c83ed249efb385600c5e8e5c19d30b6b5da1",
-      "sourceLength": 3095,
+      "sourceHash": "f627cef476d8d54a9829f3c5c90e587ebcf6f73b25c6be5e9b4ef82a79b8e836",
+      "sourceLength": 3097,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/d306ca0a146063fa0f055cb343cfa6fc545f454d0d8ad0d864bb87f8fd6a63c4.html.gz",
@@ -1789,6 +2004,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/parameters"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "1b7a7336a5613f763d515b6d5267c83ed249efb385600c5e8e5c19d30b6b5da1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1817,8 +2037,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/parametric-knowledge.md",
-      "sourceHash": "d6a28ab81bd95b1a9db2cf11364a4a5064d344ce719df0372b5424e82cf8c6b8",
-      "sourceLength": 3333,
+      "sourceHash": "eea5dc47fbe93157d2f9c3447977f19edf5a98ab5e121a6eb1d55d768bd82c60",
+      "sourceLength": 3335,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/91fe188805067a2132cf71a4c472d4e2d3a2845d3457a6333366f1fd982bdd1d.html.gz",
@@ -1826,6 +2046,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "d6a28ab81bd95b1a9db2cf11364a4a5064d344ce719df0372b5424e82cf8c6b8",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1854,8 +2079,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/permission-mode.md",
-      "sourceHash": "0c0283688d98fb6b9961ccd8ede5ad2d54952037f2ebdf22378a36bbf67e685f",
-      "sourceLength": 3170,
+      "sourceHash": "94dcba8b6b3a5e39bb5d6c646c19bc4b0ca82b5cb4abd1f4733194f53da44293",
+      "sourceLength": 3172,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/20b6971ca09af3d24d6e0902ef7ea1145bbdba910556dbe5e7a36f7326969130.html.gz",
@@ -1863,6 +2088,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-mode"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "0c0283688d98fb6b9961ccd8ede5ad2d54952037f2ebdf22378a36bbf67e685f",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1891,8 +2121,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/permission-request.md",
-      "sourceHash": "3e670ac52537f5a5e8a03400c1c17db85514797d6a75ba2bc7616f99c3da551b",
-      "sourceLength": 3525,
+      "sourceHash": "5cd646c35915de3e592f69439f459e638ed020068c5e8337c1ba715b5015c9c0",
+      "sourceLength": 3527,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/1c27d7bfdb880370bbfd147d14bda290a285c3318e2b70ad7348cbf79aa0d560.html.gz",
@@ -1900,6 +2130,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-request"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "3e670ac52537f5a5e8a03400c1c17db85514797d6a75ba2bc7616f99c3da551b",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1928,8 +2163,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/prefix-cache.md",
-      "sourceHash": "6584039cb2e3668b8260f737995fce0818e21038f8998d6e7b11a1ec66404c3a",
-      "sourceLength": 3012,
+      "sourceHash": "9101031d9fd11f9e7f593a8ec5038ad595d6f0bda46622f0cb8ebe5634d3a295",
+      "sourceLength": 3014,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/1af6972ba816b921ea3e86cc3f79063b453283ff8725a182d7b8487a292d3590.html.gz",
@@ -1937,6 +2172,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "6584039cb2e3668b8260f737995fce0818e21038f8998d6e7b11a1ec66404c3a",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -1965,8 +2205,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/primary-source.md",
-      "sourceHash": "09b5d6e1c25b2d16f357d2db0a80963beb67503aba686afa8dd5c8a618046a52",
-      "sourceLength": 3119,
+      "sourceHash": "d7de1ef47f677a3e0fd3ee8303be41617ae850964bb3ef5ce936e007ce8e1c91",
+      "sourceLength": 3121,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/520c900bd3879f7117b70f09bc6d792750325fd5563868f3bd2b4fa92d06292c.html.gz",
@@ -1974,6 +2214,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/primary-source"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "09b5d6e1c25b2d16f357d2db0a80963beb67503aba686afa8dd5c8a618046a52",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2002,8 +2247,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/progressive-disclosure.md",
-      "sourceHash": "971ce0b4e04eab4d2f0acc160516900661838b57caac60291ecfb0dd4ff95553",
-      "sourceLength": 3136,
+      "sourceHash": "5d66bc98fae76fc8d8df7eb8d4b0f6d514832a21b2340a224e8c33b791f3ec73",
+      "sourceLength": 3138,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/07a3ea88cedc344e61ec4f76868f37603fb37bd8029ba8e5c40a4f41914a57db.html.gz",
@@ -2011,6 +2256,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "971ce0b4e04eab4d2f0acc160516900661838b57caac60291ecfb0dd4ff95553",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2039,8 +2289,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/prototyping.md",
-      "sourceHash": "3b341c7b53d70878153bc9b552772fcd742adde39284b85cb5c713c4f76fb96f",
-      "sourceLength": 3021,
+      "sourceHash": "39d3ce1c188317f94c922a30c1652b2ef5ca993d7eb061cbc6d63f7a5543d97f",
+      "sourceLength": 3023,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/14b1bf682f1f47d93bf0ae81ac1ebe3911e94a9d7ef389403eeba6245246a4e1.html.gz",
@@ -2048,6 +2298,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/prototyping"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "3b341c7b53d70878153bc9b552772fcd742adde39284b85cb5c713c4f76fb96f",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2076,8 +2331,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/sandbox.md",
-      "sourceHash": "e80dcf9eefd3c4b348dab4e3b17d0ae3d40dd5e6d074b54d29049e2c23664636",
-      "sourceLength": 3157,
+      "sourceHash": "16a11caf345c12e3be8721de059a4c716dde5fec481256a6c0a833d5e016d751",
+      "sourceLength": 3159,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/fa08e075592812a8cf37ccd24a8d25b58a1993adc8d8ce5da6e1687844c57805.html.gz",
@@ -2085,6 +2340,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/sandbox"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e80dcf9eefd3c4b348dab4e3b17d0ae3d40dd5e6d074b54d29049e2c23664636",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2113,8 +2373,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/secondary-source.md",
-      "sourceHash": "2ebef252eed26fc6a7f97a9c7e2c766480f45e1baa6e6a6b310d5cd170f4db55",
-      "sourceLength": 3813,
+      "sourceHash": "b8d494d36341ef070bc29dc1c63b9251275301aa2420f32e661f163929fc971c",
+      "sourceLength": 3815,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/29be073f50d7f36ef9dd78534ad983139e02b32ad37124eaef5c83efcf1a7c4d.html.gz",
@@ -2122,6 +2382,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/secondary-source"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "2ebef252eed26fc6a7f97a9c7e2c766480f45e1baa6e6a6b310d5cd170f4db55",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2150,8 +2415,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/session",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/session.md",
-      "sourceHash": "b790940ce5d4ca13c531f8244aa02e20bfc80c7b032a43c5fc6bd13909be88db",
-      "sourceLength": 3251,
+      "sourceHash": "2ec9d99838359e3762586678be8930cea4457f46c48ab1c085427d0a1b5c9bdc",
+      "sourceLength": 3253,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/3d15272ea62711eff846807bb8dd9a77a5ef4e2fc0088f8000eb883b80205b0c.html.gz",
@@ -2159,6 +2424,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/session"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "b790940ce5d4ca13c531f8244aa02e20bfc80c7b032a43c5fc6bd13909be88db",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2187,8 +2457,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/skill",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/skill.md",
-      "sourceHash": "e217aff8ce39a4f30c61f02de9824423adf0839d54a25012e5438b1f50a573f1",
-      "sourceLength": 3129,
+      "sourceHash": "f3203e90c41b5e6eb0ed706dd6844860519201f6461484a7686b4e9667d2567a",
+      "sourceLength": 3131,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/d3f480ca9b8ffd5adf8917dbfda725c32a71bcedc0368dca4dae1ce1f3ebf6e1.html.gz",
@@ -2196,6 +2466,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/skill"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e217aff8ce39a4f30c61f02de9824423adf0839d54a25012e5438b1f50a573f1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2224,8 +2499,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/smart-zone.md",
-      "sourceHash": "940f95e4d4521ad9cc048dcfa165dfca1eb17d361054978cd347fccb0e73ce30",
-      "sourceLength": 3669,
+      "sourceHash": "89e7f3a6e7d2660d3305269ad0d1a150a7860cf8987b0c2c79fc5476c0f6fb5f",
+      "sourceLength": 3671,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/297aa57e2ad47547f607a90e0b8f05f4478712bc8e739166192d7232928e5462.html.gz",
@@ -2233,6 +2508,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "940f95e4d4521ad9cc048dcfa165dfca1eb17d361054978cd347fccb0e73ce30",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2261,8 +2541,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/software-factory",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/software-factory.md",
-      "sourceHash": "c83329f7ae0231b83cee9bc5272e5215482cbc98b822f006ebde1789249a41b1",
-      "sourceLength": 3601,
+      "sourceHash": "78107b16f9f8a4964fb482a016c114a292bfbf5c75ac79b9861a711b4c4a669b",
+      "sourceLength": 3603,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/351db2d25198d3135c0d2278d4ad4ce24f3945e12e3dae51329c5fab127e3d32.html.gz",
@@ -2270,6 +2550,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/software-factory"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "c83329f7ae0231b83cee9bc5272e5215482cbc98b822f006ebde1789249a41b1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2298,8 +2583,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/spec",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/spec.md",
-      "sourceHash": "ab7023817d93f94b330c9e7c1e726845f8b7655a15e65e8eb3cdb79c7c6efc48",
-      "sourceLength": 3087,
+      "sourceHash": "35400ab72d5c14a63214c73cab00ddf37fd63150cae3ea5fe2ae8b5297df684d",
+      "sourceLength": 3089,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/0e7d22545aa6911dd0026160656f2c65c0d0f914c63a8abab1024a0954c1de50.html.gz",
@@ -2307,6 +2592,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/spec"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "ab7023817d93f94b330c9e7c1e726845f8b7655a15e65e8eb3cdb79c7c6efc48",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2335,8 +2625,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/stateful",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/stateful.md",
-      "sourceHash": "e8ba5ca2a97af8cbfd5edd4d2fba2bccab7dbfe86c5253f408c7ad011b9a47ff",
-      "sourceLength": 3521,
+      "sourceHash": "9b4d2356cc0fa4e0f63f623649506c40e38fe989571365fe7944c0c729a51eb7",
+      "sourceLength": 3523,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/b444ab4571dc009e6724d34e710b2c1fac7443faa91b3a68b425bf955db3440c.html.gz",
@@ -2344,6 +2634,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/stateful"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e8ba5ca2a97af8cbfd5edd4d2fba2bccab7dbfe86c5253f408c7ad011b9a47ff",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2372,8 +2667,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/stateless",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/stateless.md",
-      "sourceHash": "cd63a6e1c04ee8db6e9d07ec33c822395a6b2e5841a2948fcc5a8e8cc3a264cc",
-      "sourceLength": 3386,
+      "sourceHash": "061131442102c1e3677c71d5016077b613c6a6f14d6c860613cbe745d8cd6edd",
+      "sourceLength": 3388,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/f13b77eb123ca2aeee7f3d666a1a86349abad1110c0ea04ef93e137e564e1122.html.gz",
@@ -2381,6 +2676,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/stateless"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "cd63a6e1c04ee8db6e9d07ec33c822395a6b2e5841a2948fcc5a8e8cc3a264cc",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2409,8 +2709,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/subagent",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/subagent.md",
-      "sourceHash": "91ae5b7985f203d87841041bd57aaae7777112d8c8498d81ed70bf53f8e4fd34",
-      "sourceLength": 2820,
+      "sourceHash": "50239cd38db25f2b441fda71d5bfca33fa36be01fc50bf07f1f7f10e347159f8",
+      "sourceLength": 2822,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/bc09d0385d3fd4a775ccdf5b699a2adf2a9e83eb23ce148b312f58c59cc40499.html.gz",
@@ -2418,6 +2718,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/subagent"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "91ae5b7985f203d87841041bd57aaae7777112d8c8498d81ed70bf53f8e4fd34",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2446,8 +2751,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/sycophancy.md",
-      "sourceHash": "6c18e4a2c8c9bbd9e85e599aef854269714411bc6f88ba120d059c7a0d1aaf89",
-      "sourceLength": 2791,
+      "sourceHash": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941",
+      "sourceLength": 2793,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/ef8b05b652dde19dafbda3b5d7ccafde03c9326fc0e539b47f5645b5c7a120a9.html.gz",
@@ -2455,6 +2760,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "6c18e4a2c8c9bbd9e85e599aef854269714411bc6f88ba120d059c7a0d1aaf89",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2483,8 +2793,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/system-prompt.md",
-      "sourceHash": "4c0625b324b0a92f31e5ae0ea0aa0df6e95d4150555c76881b807b63e00c3d31",
-      "sourceLength": 3198,
+      "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
+      "sourceLength": 3200,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-probe-system-prompt.html.gz",
@@ -2492,6 +2802,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "4c0625b324b0a92f31e5ae0ea0aa0df6e95d4150555c76881b807b63e00c3d31",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2520,8 +2835,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ticket",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/ticket.md",
-      "sourceHash": "eab78b5cf183f3669e2160ccf84e541d1f3dfd62217ff18f8cefb82478bf6a2a",
-      "sourceLength": 2855,
+      "sourceHash": "27a3bc6e5fd813af0d4ee8e5cd6742ef9020dc59693fa3cc3bcbf349a7a13702",
+      "sourceLength": 2857,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/a20c6871cee1ed4eaf454db43eefd121bb3211d78f6ae9958a3d8aaed1d1b69f.html.gz",
@@ -2529,6 +2844,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ticket"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "eab78b5cf183f3669e2160ccf84e541d1f3dfd62217ff18f8cefb82478bf6a2a",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2557,8 +2877,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/token",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/token.md",
-      "sourceHash": "76d8d5da4d354a10ccb0374e613f637981ca03dd36346d432cbb97c608de7a9e",
-      "sourceLength": 3347,
+      "sourceHash": "d561b6c8ced690f7e6fdbfa8435342dfcc9cba275d1c4e0a8ddfd803571c27f1",
+      "sourceLength": 3349,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7cf71bac59bbeee7044a60371eb05c159cc0b3a5839e1b315ddfea524189b27a.html.gz",
@@ -2566,6 +2886,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/token"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "76d8d5da4d354a10ccb0374e613f637981ca03dd36346d432cbb97c608de7a9e",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2594,8 +2919,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/tool",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/tool.md",
-      "sourceHash": "e3fb776ffb3cc457abc7c36b089ae0a3fa3532f4b8b0b6cf2d46335644876692",
-      "sourceLength": 3518,
+      "sourceHash": "e40188419e080e42d781f684089b90456382657e37f0d3ba2100cb92a6540763",
+      "sourceLength": 3520,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/4b34131d5e8325a98fcde44a68187b3ebb461cf25faf107c02272f98b8ccd660.html.gz",
@@ -2603,6 +2928,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e3fb776ffb3cc457abc7c36b089ae0a3fa3532f4b8b0b6cf2d46335644876692",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2631,8 +2961,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/tool-call.md",
-      "sourceHash": "d56ca4fa43944adfe43928d6cfbfa4ccee1ecbc198c434f2c794e672b672899c",
-      "sourceLength": 2970,
+      "sourceHash": "81172bf1e6f56b678163d6c9b2875043918ca48e19e96ecd87640271f9d84692",
+      "sourceLength": 2972,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/1520302e47dfcba351d66e3b064d7179af8e1797fe2a7e77cce320ec90b5c4bf.html.gz",
@@ -2640,6 +2970,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-call"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "d56ca4fa43944adfe43928d6cfbfa4ccee1ecbc198c434f2c794e672b672899c",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2668,8 +3003,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/tool-result.md",
-      "sourceHash": "b78d3af564d5171ec1901865ac7af025a99019266c0e4bf19b083a51df0fc6d2",
-      "sourceLength": 3541,
+      "sourceHash": "d86d038892bf2d6363762dbfc6a23ff563a3abe3aa08bbb1e6c9f8a935584f66",
+      "sourceLength": 3543,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/e461011f16fd1857422bdb563c4220910f31273b4edee9d1ba040ad294d408fa.html.gz",
@@ -2677,6 +3012,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-result"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "b78d3af564d5171ec1901865ac7af025a99019266c0e4bf19b083a51df0fc6d2",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2705,8 +3045,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/training",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/training.md",
-      "sourceHash": "2e5949672cb447893c27a82832fb0e4324de9a1c8b4310caf75322d01c6e4188",
-      "sourceLength": 2916,
+      "sourceHash": "f962827db48b29c0c8cc4d6f7fdc692ecfdf37c09447acac4cfbecf57887cf15",
+      "sourceLength": 2918,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/58a3644e1d96ca0fb3ccebd7f726bfbe4314d921dd500db181e4a37b5844d751.html.gz",
@@ -2714,6 +3054,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/training"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "2e5949672cb447893c27a82832fb0e4324de9a1c8b4310caf75322d01c6e4188",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2742,8 +3087,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/turn",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/turn.md",
-      "sourceHash": "fb4f5269389421d18e7c76e79bbbfb797dd67cb11e11b1947d0275080e63ab67",
-      "sourceLength": 2998,
+      "sourceHash": "4976a69badb154f1c5412701e7bf657594359cecb204191cb9c273f2e0a79402",
+      "sourceLength": 3000,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/ddd87aa113026f7905f2c32b5c8722ccc93b4e6efe15fc649c77fd816fdd7729.html.gz",
@@ -2751,6 +3096,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/turn"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "fb4f5269389421d18e7c76e79bbbfb797dd67cb11e11b1947d0275080e63ab67",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -2779,8 +3129,8 @@
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/ai-coding-dictionary/vibe-coding.md",
-      "sourceHash": "ea55209e4bc359e3fa588694d7568616f1266b0aa34a73e8ca0bba6d887b1e46",
-      "sourceLength": 3327,
+      "sourceHash": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861",
+      "sourceLength": 3329,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/abaa1e9f804934172955b19c438b458299a7c04491d36bdbeab4717ed992a743.html.gz",
@@ -2788,6 +3138,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "ea55209e4bc359e3fa588694d7568616f1266b0aa34a73e8ca0bba6d887b1e46",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -4481,8 +4836,8 @@
       "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/skills/skills-changelog-handoff-prototype-review-and-writing.md",
-      "sourceHash": "0cc9b4ef24d22704542d39504d4ec44ef398c40f0ba6849a18864595a0b808d1",
-      "sourceLength": 5286,
+      "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+      "sourceLength": 5288,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/46ce3f819b3b41c1e7f440598a39eed992f8558e55babb32c2cbac5c15428d4f.html.gz",
@@ -4490,6 +4845,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "0cc9b4ef24d22704542d39504d4ec44ef398c40f0ba6849a18864595a0b808d1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -4518,8 +4878,8 @@
       "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
-      "sourceHash": "1205274d4b0e7e633970ce661afbd8aa3c78c1da30864912a6ba7d3a3ab0cae4",
-      "sourceLength": 9336,
+      "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+      "sourceLength": 9338,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/ec603dcf3c254f0a00f424dbab1bc262722505bb319fe8428c3a6efec45af567.html.gz",
@@ -4527,6 +4887,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "1205274d4b0e7e633970ce661afbd8aa3c78c1da30864912a6ba7d3a3ab0cae4",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -4555,8 +4920,8 @@
       "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
-      "sourceHash": "59a691f1e95e2b59f47a44e26fca1e1de6a74609c550a21b663aced4407c9730",
-      "sourceLength": 14669,
+      "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+      "sourceLength": 14671,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/565873d22046ff0fad85efb6daa073292644425e64035fb27952b3e606be9875.html.gz",
@@ -4564,6 +4929,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "59a691f1e95e2b59f47a44e26fca1e1de6a74609c550a21b663aced4407c9730",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -4592,8 +4962,8 @@
       "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v1-announcement",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/skills/skills-changelog-v1-announcement.md",
-      "sourceHash": "60e5fb40d047324858f758ac330495320f57fb87ea1eb1605ca95cef89027d5e",
-      "sourceLength": 8126,
+      "sourceHash": "c143f5999fd0b1e9dbcf0c9c9df0b9cb8a15731acc400fdaf2786f05de2b24b1",
+      "sourceLength": 8128,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/4e95c6ed66a243190a6fda4e55c2eaf567de80dd055c503c02cdb992cbde1476.html.gz",
@@ -4601,6 +4971,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v1-announcement"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "60e5fb40d047324858f758ac330495320f57fb87ea1eb1605ca95cef89027d5e",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -4629,8 +5004,8 @@
       "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
-      "sourceHash": "f139d5b48dbd08c4d3babb246c57a1569dc5ce69ef4298a2402fb02b8153e291",
-      "sourceLength": 16311,
+      "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+      "sourceLength": 16313,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/18b99cb518e5f4dc74eb41f56ebc995bc59866754e7125252fc94742d8d3c8ed.html.gz",
@@ -4638,6 +5013,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "f139d5b48dbd08c4d3babb246c57a1569dc5ce69ef4298a2402fb02b8153e291",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -4666,8 +5046,8 @@
       "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
       "contentType": "text/markdown; extracted-from-public-html",
       "sourcePath": "content/source/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
-      "sourceHash": "33f46f838c2315ce654d38d168977c1bab6f12fbb2b70d8546e26d3da77ee273",
-      "sourceLength": 11894,
+      "sourceHash": "8f5dd02a02e0f99c1764faeeadee072c5b492794819cc1cfe575d21f4761d9d0",
+      "sourceLength": 11896,
       "recoveryMethod": "anonymous public HTML semantic extraction",
       "htmlEvidence": {
         "bodyPath": "reports/full-site/source-html-probe-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.html.gz",
@@ -4675,6 +5055,11 @@
         "bodyEncoding": "gzip",
         "httpStatus": 200,
         "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md"
+      },
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "33f46f838c2315ce654d38d168977c1bab6f12fbb2b70d8546e26d3da77ee273",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
       }
     },
     {
@@ -5530,5 +5915,17 @@
     "markdownReport": "reports/full-site/source-sync-2026-10-13.json",
     "htmlReport": "reports/full-site/source-html-2026-10-13.json",
     "extractionReport": "reports/full-site/source-extraction-2026-10-13.json"
-  }
+  },
+  "extractionCorrections": [
+    {
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "reason": "Offline extraction correction for whitespace in original hrefs; no fetch, scope or acquisition time change.",
+      "htmlPagesCompared": 82,
+      "sourceFilesChanged": 77,
+      "originalCodeBlocksCompared": 14,
+      "originalCodeBlocksUnchanged": true,
+      "onlyUrlWrappingChanged": true,
+      "evidencePath": "reports/full-site/source-url-extraction-correction-2026-10-13.json"
+    }
+  ]
 }
