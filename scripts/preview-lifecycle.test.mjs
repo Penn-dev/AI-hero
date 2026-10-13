@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { execFile, spawn, spawnSync } from 'node:child_process';
 import { once } from 'node:events';
-import { access, cp, mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+import { access, cp, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { createServer } from 'node:http';
 import { promisify } from 'node:util';
@@ -58,5 +58,70 @@ void test('starting preview refuses an unrelated AI Hero response on port 4321',
   } finally {
     await new Promise(resolve => foreign.close(resolve));
     await rm(fixture, { recursive: true, force: true });
+  }
+});
+
+void test('an existing startup lock is refused and preserved byte for byte', { skip: process.platform !== 'win32' }, async () => {
+  const fixture = await mkdtemp(path.join(projectRoot, '.preview-test-'));
+  const finished = spawn(process.execPath, ['-e', ''], { stdio: 'ignore' });
+  await once(finished, 'exit');
+  try {
+    await mkdir(path.join(fixture, 'scripts'));
+    await mkdir(path.join(fixture, '.sites-runtime'));
+    for (const name of ['preview-start.mjs', 'preview-stop.ps1']) await cp(path.join(projectRoot, 'scripts', name), path.join(fixture, 'scripts', name));
+    const lock = path.join(fixture, '.sites-runtime', 'preview-start.lock');
+    const original = JSON.stringify({ processId: finished.pid, projectRoot: fixture });
+    await writeFile(lock, original);
+    let result;
+    try { result = { status: 0, ...await promisify(execFile)(process.execPath, [path.join(fixture, 'scripts', 'preview-start.mjs'), '--no-open'], { timeout: 20000 }) }; }
+    catch (error) { result = { status: error.code, stdout: error.stdout, stderr: error.stderr }; }
+    console.log(JSON.stringify({ existingLockExitCode: result.status, stdout: result.stdout, stderr: result.stderr }));
+    assert.notEqual(result.status, 0);
+    assert.equal(await readFile(lock, 'utf8'), original, 'Never remove a preexisting lock while another launch may be acquiring it');
+    assert.match(result.stdout + result.stderr, /启动锁/);
+  } finally { await rm(fixture, { recursive: true, force: true }); }
+});
+
+void test('the real Windows project starts, reuses its own instance, stops, restarts and stops again', { skip: process.platform !== 'win32', timeout: 240000 }, async () => {
+  const statePath = path.join(projectRoot, '.sites-runtime', 'local-preview.json');
+  await assert.rejects(access(statePath), 'Lifecycle test requires a fresh isolated runner, never an existing user service');
+  const invoke = async (file, args) => {
+    const result = await promisify(execFile)(file, args, { cwd: projectRoot, timeout: 120000, maxBuffer: 8 * 1024 * 1024 });
+    console.log(JSON.stringify({ command: path.basename(file), args, stdout: result.stdout, stderr: result.stderr }));
+    return result;
+  };
+  const start = () => invoke(process.execPath, [path.join(projectRoot, 'scripts', 'preview-start.mjs'), '--no-open']);
+  const stop = () => invoke('pwsh.exe', ['-NoLogo', '-NoProfile', '-File', path.join(projectRoot, 'scripts', 'preview-stop.ps1')]);
+  const expected = JSON.parse(await readFile(path.join(projectRoot, 'content', 'zh', 'index.json'), 'utf8')).pages;
+  const routes = ['/', '/ai-coding-dictionary/system-prompt', '/a-complete-guide-to-agents-md', '/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k'];
+  const readRoutes = async () => {
+    for (const route of routes) {
+      for (let refresh = 0; refresh < 2; refresh++) {
+        const response = await fetch('http://127.0.0.1:4321' + route, { signal: AbortSignal.timeout(10000) });
+        assert.equal(response.status, 200);
+        assert.ok((await response.text()).includes(expected[route].title), `Chinese route and repeated request: ${route}`);
+      }
+    }
+  };
+  try {
+    await start();
+    const first = await readFile(statePath, 'utf8');
+    await readRoutes();
+    await start();
+    assert.equal(await readFile(statePath, 'utf8'), first, 'A second start reuses only the verified own instance');
+    const inspection = JSON.parse((await invoke('pwsh.exe', ['-NoLogo', '-NoProfile', '-File', path.join(projectRoot, 'scripts', 'preview-stop.ps1'), '-Inspect'])).stdout);
+    assert.equal(inspection.processId, JSON.parse(first).processId);
+    assert.equal(inspection.ownsPort, true);
+    await stop();
+    await assert.rejects(access(statePath));
+    await assert.rejects(fetch('http://127.0.0.1:4321/', { signal: AbortSignal.timeout(2000) }));
+    await stop();
+    await start();
+    await readRoutes();
+    await stop();
+    await assert.rejects(access(statePath));
+    await assert.rejects(fetch('http://127.0.0.1:4321/', { signal: AbortSignal.timeout(2000) }));
+  } finally {
+    try { await access(statePath); await stop(); } catch (error) { if (error.code !== 'ENOENT') throw error; }
   }
 });

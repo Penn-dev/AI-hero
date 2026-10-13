@@ -105,6 +105,11 @@ jobs:
         with:
           node-version: '22'
           package-manager-cache: false
+      - name: Install locked dependencies for real Windows startup
+        shell: pwsh
+        run: |
+          npm ci --no-audit --no-fund
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
       - name: Verify project-specific Windows preview lifecycle
         shell: pwsh
         run: |
