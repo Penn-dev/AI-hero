@@ -47,3 +47,9 @@
 两项行为均观察到修改前失败、修改后通过。恢复断点后，只运行相关 **5 项定向测试，全部通过**：真实旧版 agent 目标接页及待复核事实、不可用目标拒绝、译稿哈希与索引检查、真实组件渲染中的原站/中文链接区分。旧版 agent 的[测试 fixture](E:/dev/projects/AIHero/scripts/fixtures/stale-agent.json)保留 `1fcf51c` 中的真实译稿、索引及 manifest；临时接页前后，`validateContent` 都报告同一来源版本差异，目标内容与旧 hash 不变。改动文件定向 lint 退出 0、无诊断。
 
 使用本工程入口读取 `E:/dev/projects/AIHero/work/full-site-samples` 的真实 AGENTS.md 配置，**preview 退出 0**；记录 agent、system-prompt、progressive-disclosure 三个旧版本中文目标及双方真实 hash。只预览，未向样本工作树写入。没有重跑此前三项返修验收或全量 build；三样本桌面/窄屏真实验收仍由内容 A 接续，#6 等待依赖。
+# 当前样本学习检查修正
+
+2026-10-13：三篇真实样本接入后，旧检查仍把绝对原站链接断言为本地、把展示模板类型等同于源文类型。检查已改为遵循显式原站链接规则，并验证译稿保留实际来源的 `type`。
+
+同时发现真实 Output 的空“视频文字稿”后还有解答标题，旧展示仅识别文末空标题。先用该结构确认回归失败，再将空标题识别扩展到紧邻同级或上级标题的情况，保留解答入口和材料缺口提示；已有文字稿正文不受影响。使用当前样本数据和修正后的解析代码运行完整学习检查通过，见 [检查日志](E:/dev/projects/AIHero/reports/full-site/assembly/current-sample-learning-check.log)。改动文件 oxlint 通过；实际 Output 页面验证随样本浏览器记录补齐。
+

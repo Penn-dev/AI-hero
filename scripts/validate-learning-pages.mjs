@@ -51,6 +51,9 @@ assert.equal(articleLink('#steps-to-complete', localRoutes).href, '#steps-to-com
 assert.equal(articleLink('https://ai-sdk.dev/docs/introduction', localRoutes).untranslated, false);
 assert.equal(prepareArticle('```md\n# Title\n```', 'Title').markdown, '```md\n# Title\n```');
 assert.deepEqual(prepareArticle('### 视频文字稿\n\n确有文字稿。', 'Title').emptySections, []);
+assert.deepEqual(prepareArticle('### 视频文字稿\n\n## 查看解答\n\n[解答](https://example.com)', 'Title'), {
+  markdown: '## 查看解答\n\n[解答](https://example.com)', emptySections: ['视频文字稿'],
+});
 
 const index = JSON.parse(await readFile('content/zh/index.json', 'utf8'));
 const manifest = JSON.parse(await readFile('content/zh/manifest.json', 'utf8'));
@@ -75,8 +78,9 @@ for (const [route, profile] of Object.entries(learningKnowledge.pages)) {
   const source = sources.get(sourceId);
   const translation = sources.get(translationId);
   assert.equal(normalize(page.markdown), normalize(body(translation)), `Indexed translation differs: ${route}`);
-  const expectedType = profile.kind === 'guide' ? 'post' : profile.kind;
-  assert.ok(source.includes(`type: "${expectedType}"`), `Content type mismatch: ${route}`);
+  const sourceType = source.match(/^type: [^\r\n]+/m)?.[0];
+  assert.ok(sourceType, `Source content type missing: ${route}`);
+  assert.equal(translation.match(/^type: [^\r\n]+/m)?.[0], sourceType, `Content type changed: ${route}`);
   const split = splitGlossary(page.markdown);
   const parsed = glossaryEntries(split.glossaryMarkdown);
   const glossary = learningGlossary(profile, parsed);
