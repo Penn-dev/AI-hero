@@ -2,9 +2,21 @@
 title: "Environment"
 slug: "environment"
 type: "dictionary"
-description: "The world the agent acts on — anything outside the harness that the agent perceives via tool results and changes via tool calls."
-updatedAt: "2026-07-01T08:46:18.000Z"
+updatedAt: "2026-09-24T11:59:36.000Z"
 ---
+
+[AI Coding Dictionary](/ai-coding-dictionary)
+
+Tools & Environment
+
+# Environment
+
+The world the agent acts on — anything outside the harness that the agent perceives via tool results and changes via tool calls.
+
+![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)
+
+Matt Pocock
+
 The world the [agent](/ai-coding-dictionary/agent) acts on — anything outside the [harness](/ai-coding-dictionary/harness) that the agent perceives through [tool results](/ai-coding-dictionary/tool-result) and changes through [tool calls](/ai-coding-dictionary/tool-call). The harness _runs_ the agent; the environment is what the agent _works in_. A file like [`AGENTS.md`](/ai-coding-dictionary/agents-md) lives in the environment; the harness is what loads it into the [context window](/ai-coding-dictionary/context-window). A [filesystem](/ai-coding-dictionary/filesystem) is the most common kind of environment, but not the only one (a database, a remote API, a browser session can all be environments).
 
 The agent only sees the environment when it looks. Everything it knows about the environment arrived through a tool result, so its picture is a collection of snapshots, each accurate at the moment it was taken. If a file changes after the agent read it — you edit it by hand, a build step regenerates it — the agent keeps reasoning from the stale copy until something prompts a re-read. An agent confidently describing a file that no longer looks like that is usually this: the environment moved, the snapshot didn't.
@@ -20,3 +32,23 @@ _Usage:_
 "The agent can't see the staging DB schema."
 
 "Wire it into the environment — give it a `psql` tool scoped to read-only on staging. The harness is fine, it just has nothing to act on."
+
+[Previous term**Turn**](/ai-coding-dictionary/turn)[Next term**Filesystem**](/ai-coding-dictionary/filesystem)
+
+## Want more than vocabulary?
+
+Join AI Hero for practical skills, thinking on AI engineering, and resources that keep you ahead of the curve.
+
+First Name
+
+Email*
+
+Get AI Hero updates
+
+No spam. Unsubscribe anytime.
+
+**Share**
+
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2FenvironmentEnvironment%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Environment%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fenvironment)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/environment?author=Matt Pocock)
+
+Copy URL

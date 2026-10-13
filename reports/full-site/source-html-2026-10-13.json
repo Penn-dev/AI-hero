@@ -1,0 +1,2552 @@
+{
+  "version": 1,
+  "inputPath": "reports/full-site/source-sync-2026-10-13.json",
+  "startedAt": "2026-10-13T03:43:27.310Z",
+  "pages": [
+    {
+      "url": "https://www.aihero.dev/",
+      "lastmod": "2026-05-16T00:00:00.000Z",
+      "route": "/",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/",
+          "finalUrl": "https://www.aihero.dev/",
+          "httpStatus": 200,
+          "contentType": "text/markdown; charset=utf-8",
+          "checkedAt": "2026-10-13T03:37:36.154Z"
+        }
+      ],
+      "sourceUrl": "https://www.aihero.dev/",
+      "contentType": "text/html; charset=utf-8",
+      "sourcePath": "content/source/index.md",
+      "sourceHash": "47866d189286ddb868c55733ef7745ecc43c4fcc0902224ad86758a02ba3c60b",
+      "sourceLength": 668,
+      "checkedAt": "2026-10-13T03:43:27.813Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/a17063002c5a3e4a5c56e871f51d22ddfb41f6b125ceb49e43279204e77d53f4.html.gz",
+      "bodyHash": "87680cfeabb371249b17945b0f5696d88b5642b94093ff501280c518af97fee9",
+      "bodyEncoding": "gzip",
+      "archiveHash": "bffe3117ace353e32ee30de63b0f7218efa94902dbc2ef19259d98340deb2d51"
+    },
+    {
+      "url": "https://www.aihero.dev/newsletter",
+      "lastmod": "2026-05-16T00:00:00.000Z",
+      "route": "/newsletter",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/newsletter.md",
+          "finalUrl": "https://www.aihero.dev/newsletter.md",
+          "httpStatus": 404,
+          "contentType": "text/plain;charset=UTF-8",
+          "checkedAt": "2026-10-13T03:37:36.823Z"
+        },
+        {
+          "url": "https://www.aihero.dev/newsletter",
+          "finalUrl": "https://www.aihero.dev/newsletter",
+          "httpStatus": 404,
+          "contentType": "text/plain;charset=UTF-8",
+          "checkedAt": "2026-10-13T03:37:37.060Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:40:48.418Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/newsletter",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-probe-newsletter.html.gz",
+      "bodyHash": "e300435513ff7edb3b2a7be291c74a53c58a33c126f2fd99bbe847681664967d",
+      "reusedCurrentRunProbe": true,
+      "bodyEncoding": "gzip",
+      "archiveHash": "a212831b7db8796246d9bdd4fc27c28267ab97b2f0c4445a9f21eceeb2556496"
+    },
+    {
+      "url": "https://www.aihero.dev/skills/subscribe",
+      "lastmod": "2026-05-16T00:00:00.000Z",
+      "route": "/skills/subscribe",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/skills/subscribe.md",
+          "finalUrl": "https://www.aihero.dev/skills/subscribe.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:37:37.915Z"
+        },
+        {
+          "url": "https://www.aihero.dev/skills/subscribe",
+          "finalUrl": "https://www.aihero.dev/skills/subscribe",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:37:37.997Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:29.220Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/skills/subscribe",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/c076d2b5997e05e13eb6acd2e794e9ae4d18a88e75f5541a66ffde2de95f40eb.html.gz",
+      "bodyHash": "4edfae83914cdbe2cfb065617492d73b3be6b3433a30e6d7f1e14e3634fc290a",
+      "bodyEncoding": "gzip",
+      "archiveHash": "37e768fd492f6cb4195cf7898f5d4c775943b489b6f9884ac66287a590a2abdc"
+    },
+    {
+      "url": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "lastmod": "2025-09-09T14:47:27.928Z",
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+          "finalUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+          "httpStatus": 404,
+          "contentType": "text/plain;charset=UTF-8",
+          "checkedAt": "2026-10-13T03:37:39.507Z"
+        },
+        {
+          "url": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+          "finalUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+          "httpStatus": 404,
+          "contentType": "text/plain;charset=UTF-8",
+          "checkedAt": "2026-10-13T03:37:39.776Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:40:48.906Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-probe-generating-objects-via-output~dkm2k.html.gz",
+      "bodyHash": "04e0008f451aac59a746efe99214519ecf1f9eb34590960c03ee909cd91f883f",
+      "reusedCurrentRunProbe": true,
+      "bodyEncoding": "gzip",
+      "archiveHash": "477cea6c7a34723667cb2ad7583eada2dd4d5df7a39a965dd12c834c3d20457e"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary.md",
+          "httpStatus": 404,
+          "contentType": "text/plain;charset=UTF-8",
+          "checkedAt": "2026-10-13T03:38:40.755Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary",
+          "httpStatus": 404,
+          "contentType": "text/plain;charset=UTF-8",
+          "checkedAt": "2026-10-13T03:38:40.986Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:40:48.114Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-probe-ai-coding-dictionary.html.gz",
+      "bodyHash": "9af3c1da8b2626dca3473daecd4181060a4b0a4eb08db99a0ae515cf4f037cf7",
+      "reusedCurrentRunProbe": true,
+      "bodyEncoding": "gzip",
+      "archiveHash": "9f4081d1bb77d84987c53e7c3bc0a31f2b8c93b94279208932a61f7ec6162b68"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/ai",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/ai",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/ai.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ai.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:41.291Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/ai",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ai",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:41.377Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:30.176Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ai",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7e58121a24e27829842898b657fca42e9a2fc784e1493ee21dc882d98ddead10.html.gz",
+      "bodyHash": "ff3dc2457d19e6f4e8f69bcf23e57c0ba57461bdaa247d7cd02444493c6adc58",
+      "bodyEncoding": "gzip",
+      "archiveHash": "33ee94b75de68cc6a556e67996da4c7ab40a7cbdc0c8a20ecb0939ea5228000f"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/model",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/model",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/model.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:41.691Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/model",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:41.762Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:30.694Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/af368b281cfc76de3482ecf8de924d76b8fd161927490750d95085842b462bb4.html.gz",
+      "bodyHash": "734033b9f1d047903df0619afdda0d8b1775bb6836522203c5cce5d75dcc3456",
+      "bodyEncoding": "gzip",
+      "archiveHash": "f8e9cbaf6e494a06f6fca3bbd49485e4a907892089c663b89282d70bb309d486"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/parameters",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/parameters",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/parameters.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/parameters.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:42.057Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/parameters",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/parameters",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:42.128Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:31.199Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/parameters",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/d306ca0a146063fa0f055cb343cfa6fc545f454d0d8ad0d864bb87f8fd6a63c4.html.gz",
+      "bodyHash": "a4f124bca34cc2866a02d594c5c12f1cb90a3741f8924489de0c248bfc7204bc",
+      "bodyEncoding": "gzip",
+      "archiveHash": "6b4db30e2195b10dc5dc76688fd5f7fb02725871d4f92758fa84685b714e0998"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/training",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/training",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/training.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/training.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:42.438Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/training",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/training",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:42.511Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:31.727Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/training",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/58a3644e1d96ca0fb3ccebd7f726bfbe4314d921dd500db181e4a37b5844d751.html.gz",
+      "bodyHash": "009bbc803a39656b33aa0df1433b646877339118d128ba33ae2fa34c7906a2c3",
+      "bodyEncoding": "gzip",
+      "archiveHash": "ae26b2a01dc3a55c828281023407c6c2691758b527648daa7523f1197dd1bb7d"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/inference",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/inference",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/inference.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/inference.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:42.813Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/inference",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/inference",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:42.894Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:32.390Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/inference",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/da136d5db991a067ac6aab6f4f185a4dc30a2e242687653b866b3efe23754d96.html.gz",
+      "bodyHash": "6d75a920fd7ac04ba4d5d23e22a20f737725b361f93a3bdff8b1dc0c3da61cd0",
+      "bodyEncoding": "gzip",
+      "archiveHash": "eeba5c72392d8b8f62999ee8c19cd82187dc52be0d09d7bb997b9c14ff7d8c1e"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/effort",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/effort",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/effort.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/effort.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:43.186Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/effort",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/effort",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:43.256Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:32.887Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/effort",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/38f02c750f073301a99b0cb1629961769464f9fe2df9d3bd1a783a8d57bcca07.html.gz",
+      "bodyHash": "6b3eba2fbb89340ccb514dc6b6fd4ecf32f26b10c1cb316bb7e5513da332d85e",
+      "bodyEncoding": "gzip",
+      "archiveHash": "3b38377c553109ad06adfb0007645f9c6d3c5fe759f9366d2b0674c759f2cb29"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/token",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/token",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/token.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/token.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:43.603Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/token",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/token",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:43.678Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:33.385Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/token",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7cf71bac59bbeee7044a60371eb05c159cc0b3a5839e1b315ddfea524189b27a.html.gz",
+      "bodyHash": "0b18bfcb248e59c2aef1cfa30dbb6ee5b2e006f120a607ee8b7f1658e04560e3",
+      "bodyEncoding": "gzip",
+      "archiveHash": "4007915668a2e720d2b2fcdc4bf6729e83f24966d164b77b48ff6d614da9969a"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:43.985Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:44.055Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:33.874Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/72fefb361f2bc087136545aaed87c7910f768097d7aa7cda86cbec7ad1faf835.html.gz",
+      "bodyHash": "42ebbb63927cee2f7ec3a9eec57a7bf06612db5dac0c4ca52c3d2607bb33f9e3",
+      "bodyEncoding": "gzip",
+      "archiveHash": "29ce7a97431488331303d7b7175618839362669407aa92b82b3c15b507d03a6b"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/non-determinism",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/non-determinism.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/non-determinism.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:44.348Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:44.427Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:34.382Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7f824a717bdda5bf2130e21602ba3043ff92197a275f9055169d16a84c17892b.html.gz",
+      "bodyHash": "dc23d3e2ca13cb268507252b16d9051372b31c4ab6caf2e0b1e61c7f49dac5dd",
+      "bodyEncoding": "gzip",
+      "archiveHash": "9cfab5a0411e00e7a49b25ae4d9a6dde81e359d69975f5888479d089ef9d2ae8"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/model-provider",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/model-provider.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:44.733Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:44.806Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:34.880Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/644a5c18777fb6b5820c34ef59fa4d1dd421be2ac0e91185f39e4076aaa212e9.html.gz",
+      "bodyHash": "60fd3e923cb48826627a030b47e7d5d8a7401d56b6c5cd3ffeb41f7d500cc918",
+      "bodyEncoding": "gzip",
+      "archiveHash": "f3bc18f111c464573cf1c9d16040cd26c743721af8daedc7446362b14222f922"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/harness",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/harness",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/harness.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/harness.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:45.117Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/harness",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/harness",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:45.236Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:35.396Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/harness",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/6953ecf53d65d7b54c4c9c9f70e804b08beb3fd2600a7990ac3839a0bbe9aae2.html.gz",
+      "bodyHash": "1f15b30ba4b8047d6644ca1ea99571e6ce77ba755bafed9447815a406c35fa4c",
+      "bodyEncoding": "gzip",
+      "archiveHash": "c809b68d73309aeeddecf7d7dd3be05890a02c2fdd6239e827bde373b7e197a5"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:45.529Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:45.621Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:35.893Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/062558630f524371d547ea8eff2123be691c8cd1bf13b142d35c429b2ce44b7c.html.gz",
+      "bodyHash": "73a2db4de253eab8c4fa518e807ec184181d431e906531358b311a8a98989cae",
+      "bodyEncoding": "gzip",
+      "archiveHash": "42a1cb2c70da2d9dac340e5394edd1dbd444b4bf5c3f41ba2a04c07ad94f3cdf"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/input-tokens",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/input-tokens.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/input-tokens.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:45.977Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:46.047Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:36.393Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/a8fe4144a68c33c5a51040c6472b71c1d78af04871a8ab6b86cc525226f4cb81.html.gz",
+      "bodyHash": "17dced42ef90e9bb0cb179fbacb32fc29b4183a87fed667db094db16d75bc26e",
+      "bodyEncoding": "gzip",
+      "archiveHash": "79a24a1c0d207afe1a63911ac8a18e78bc2b32eb8ccc24b1e00172bd678e80d9"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/output-tokens",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/output-tokens.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/output-tokens.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:46.369Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:46.443Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:36.873Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/0895795dbbb81c801e2f8adf0c5352dbdc65b25ddb792768fd327a44b9a94539.html.gz",
+      "bodyHash": "d084ee22e95e9f840cda7bfa86edc86b9481bacf70a6a5c3fe93a3d66f3bf4eb",
+      "bodyEncoding": "gzip",
+      "archiveHash": "b6d575f4408f45ff4452f4675aeacc79dfe6e3a4078983b7f10eac8182310ca1"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:46.745Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:46.869Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:37.391Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/1af6972ba816b921ea3e86cc3f79063b453283ff8725a182d7b8487a292d3590.html.gz",
+      "bodyHash": "aa7acd6adc6363b98f75b34e2055b493c90679403cc4c00d9e93d73dcc5ffb1a",
+      "bodyEncoding": "gzip",
+      "archiveHash": "3a6fd52c9d97cdc66822b528f0cb8bbfdc9c5fd2b09167a9b36ac68cf5bb8fef"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:47.169Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:47.294Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:37.887Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/bfd1031b46b8b3461abf50daf022c801b23bc8c19ddc26cdb658378706838cf8.html.gz",
+      "bodyHash": "4ef115ca970e9bdae3ecf131638936c6f736a45e914a0a42e5f929e01f0f850a",
+      "bodyEncoding": "gzip",
+      "archiveHash": "a17d6199f3ae15e31d7598f5ad113e5f0a7f318ee7c9da41e50d94938d025355"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/stateless",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/stateless",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/stateless.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/stateless.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:47.622Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/stateless",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/stateless",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:47.701Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:38.353Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/stateless",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/f13b77eb123ca2aeee7f3d666a1a86349abad1110c0ea04ef93e137e564e1122.html.gz",
+      "bodyHash": "d93efce669d33b7969ac839c9d0c5cf8f13c6b79e6b182755e78370bad2d99d4",
+      "bodyEncoding": "gzip",
+      "archiveHash": "35fbbd8a4b1619e9cd3d7014fd371d03678f44a97e8367a0201376cabf915d4b"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/context",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/context",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/context.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:47.998Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/context",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:48.071Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:38.846Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/a76c61efa9a238dd5a4b4c718268fed3822a72cefa36cef2f63b58043c3aa013.html.gz",
+      "bodyHash": "ba3c441931ace7373f23be29dddcae5b13215a81d6509d73b402181710203858",
+      "bodyEncoding": "gzip",
+      "archiveHash": "896e9f95918bee35bc422e36c8570a8bad2cf574629897a34d0b06fb6d5a8489"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/context-window",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/context-window",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/context-window.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context-window.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:48.367Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/context-window",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context-window",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:48.440Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:39.357Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context-window",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/3abdf3add7c7b0276046bea2be6c33b779a4f7bd7ca705725c6e0f3408956816.html.gz",
+      "bodyHash": "96cdfe2f072a3a43214f77a2ec31310a4137a68ca0d3de4ab7f0e1ab7a329c34",
+      "bodyEncoding": "gzip",
+      "archiveHash": "b1d022ac8c6cc39d2db99bdcb6940fcbd72d7f28f2fa3e239426b947b6b91d33"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/stateful",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/stateful",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/stateful.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/stateful.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:48.746Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/stateful",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/stateful",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:48.821Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:39.835Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/stateful",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/b444ab4571dc009e6724d34e710b2c1fac7443faa91b3a68b425bf955db3440c.html.gz",
+      "bodyHash": "54916e514b3f1c482f1701d0a3618898bbbff22b210ecf2373f9e8c2bb378703",
+      "bodyEncoding": "gzip",
+      "archiveHash": "6302fb8567feda69e2c4017b77b60b9776ee32b26a7dd0596b964ac951ffe41b"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/agent",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/agent",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/agent.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agent.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:49.123Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/agent",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agent",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:49.196Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:40.678Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agent",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/5e40da12df420d7e075a12117ac50f89fb7e39cb8c07a3b09504d717cfd8bd0e.html.gz",
+      "bodyHash": "ddd705a758b331603cd7daf74a639d58d30e370dee37720e593b3667fd37dbe6",
+      "bodyEncoding": "gzip",
+      "archiveHash": "9d319e755b6360b451e2e3bfa3ba7b9c13d5a6c737a75ff6cac759cabf4b04ca"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/system-prompt",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/system-prompt.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:49.498Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:49.891Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:40:47.755Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-probe-system-prompt.html.gz",
+      "bodyHash": "8f265a20022d1c9b9bf0f08a1bb23d767b77df719cd97198b58db7a507d90c87",
+      "reusedCurrentRunProbe": true,
+      "bodyEncoding": "gzip",
+      "archiveHash": "55d1aa0e92fc599b51fa851833dc885491ab9dcba585159a0d8403a0a6b31771"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/session",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/session",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/session.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/session.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:50.188Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/session",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/session",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:50.259Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:41.393Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/session",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/3d15272ea62711eff846807bb8dd9a77a5ef4e2fc0088f8000eb883b80205b0c.html.gz",
+      "bodyHash": "5b1c6f2576d1694cd8442a73d6d8d131a9228ac2f7ff2095cdafb65d48fbe2a5",
+      "bodyEncoding": "gzip",
+      "archiveHash": "9fbc6cc5d58bc1254780732f5ddc2dbac66b12a95ea385a83acb3d5b236cdffe"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/turn",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/turn",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/turn.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/turn.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:50.568Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/turn",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/turn",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:50.638Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:41.897Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/turn",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/ddd87aa113026f7905f2c32b5c8722ccc93b4e6efe15fc649c77fd816fdd7729.html.gz",
+      "bodyHash": "0f9d36a473609f6bdb17bd83386edc18180419e6955c3a5cd5d7d28f8ef7653e",
+      "bodyEncoding": "gzip",
+      "archiveHash": "5db58451843eec1c06dd00f65be8d7bf9997c67323b663b691c43a0a008a0f89"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/environment",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/environment",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/environment.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/environment.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:50.961Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/environment",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/environment",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:51.041Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:42.428Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/environment",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7ea6b12deaa70dd9b3b0e012814478aa971d6f65b253e096ed153f589b0f1750.html.gz",
+      "bodyHash": "92e0853d798a137258b3faa5d8c98dca31b813aef6ec1eda43fcfdc8a1265754",
+      "bodyEncoding": "gzip",
+      "archiveHash": "a0170d44bb22717c4e1a6e83823773f56504359032f3ad41ddcd23d31e9d2600"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/filesystem",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/filesystem.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/filesystem.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:51.346Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:51.421Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:42.937Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/1862e23504231fd2fd7ebc464ffee4c39458c50aec2a7a1fae9a439230a3485f.html.gz",
+      "bodyHash": "25b1f869873c9b78f610f0ccd9731ad3bb3b4e1aadc3dcb2f882821318e0422d",
+      "bodyEncoding": "gzip",
+      "archiveHash": "e80e92eb360a295dc8dd67dc1afb6121530c1ba3371c5815b7680f8575c80c6c"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/tool",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/tool",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/tool.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:51.723Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/tool",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:51.800Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:43.479Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/4b34131d5e8325a98fcde44a68187b3ebb461cf25faf107c02272f98b8ccd660.html.gz",
+      "bodyHash": "7104cf39dfdff6ad3d897254cc688d2b0c2384b9144d2b6d705bbff6f3b63bc4",
+      "bodyEncoding": "gzip",
+      "archiveHash": "44af876c92d3ed66bbb5ce4fc1666a09021440c7c85be8e9e239ef99cd744cb8"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/tool-call",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/tool-call.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-call.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:52.101Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:52.183Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:44.080Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-call",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/1520302e47dfcba351d66e3b064d7179af8e1797fe2a7e77cce320ec90b5c4bf.html.gz",
+      "bodyHash": "715750f477766e590cd9cb4bd7cedcead892c54aefd260718c4aa158de3d08a0",
+      "bodyEncoding": "gzip",
+      "archiveHash": "c70c0073c09d0c77814f60288ba45be7cb9ce256b389f249fe7bf5477f3df9eb"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/tool-result",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/tool-result.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-result.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:52.483Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:52.580Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:44.687Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/tool-result",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/e461011f16fd1857422bdb563c4220910f31273b4edee9d1ba040ad294d408fa.html.gz",
+      "bodyHash": "5188474f9e4264cf48338176e201a31bb95326015123176ccd883421a61248a9",
+      "bodyEncoding": "gzip",
+      "archiveHash": "605b2b7489ce080150017cafe3ae7f3031b46c9e49babe7bfc2b51dc6041c5de"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/mcp",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/mcp",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/mcp.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/mcp.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:52.886Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/mcp",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/mcp",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:52.964Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:45.179Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/mcp",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/eeb71fdfe3f413de595e8e535ecae61e0625e243af520530e9b556d9422761d2.html.gz",
+      "bodyHash": "1ac893427bdae13755f8a2369a214a327b8f1fbf669789c3c0aaf14a537a31ff",
+      "bodyEncoding": "gzip",
+      "archiveHash": "f3d28db818900a7d8052cf05399ad2aa64665e64fe5cbd64725dc2ccf5f5246c"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/permission-request",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/permission-request.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-request.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:53.283Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:53.354Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:45.923Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/1c27d7bfdb880370bbfd147d14bda290a285c3318e2b70ad7348cbf79aa0d560.html.gz",
+      "bodyHash": "86d254ccffa1172bbe54eb4a978d2c6ab4c4a7f803faeda8bafc091e83fd484b",
+      "bodyEncoding": "gzip",
+      "archiveHash": "4ba7a01669048b606b7919015fe99d8fe4baedfeea942538208b93c76d07adb8"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/permission-mode",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/permission-mode.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-mode.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:53.669Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:53.745Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:46.401Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/20b6971ca09af3d24d6e0902ef7ea1145bbdba910556dbe5e7a36f7326969130.html.gz",
+      "bodyHash": "49c19024f46127ba599e6e865a07bf2391e230227f28f2d437d3a940799eb8e8",
+      "bodyEncoding": "gzip",
+      "archiveHash": "0bce60ecb29878055e97730d0387a78ff42154b2a8dd2371a6d281a392dcec8f"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/agent-mode",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/agent-mode.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agent-mode.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:54.050Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:54.131Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:46.888Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/777c5b2d7470b9406979022d8a45d6cee899c7eb289ba06b7b292355c35b3873.html.gz",
+      "bodyHash": "3ca6507da2de5ee329ba2dbb3b04de372dec4c845bc78f057c57a426e4355534",
+      "bodyEncoding": "gzip",
+      "archiveHash": "5c9f9026f931b0bc25bdf8c0d9e2148b08f8add4b9f9a03a0fb20ac0296128b1"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/sandbox",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/sandbox.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/sandbox.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:54.442Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:54.515Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:47.372Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/fa08e075592812a8cf37ccd24a8d25b58a1993adc8d8ce5da6e1687844c57805.html.gz",
+      "bodyHash": "d070e32cb38ec4ec510007c5efbcc9d606b839d140f7aa6adea34d3e53f860e1",
+      "bodyEncoding": "gzip",
+      "archiveHash": "ec9f9df68caad128e388787ead7b61d598f517ddb2bbd92b691b374a45ca5f3e"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/sycophancy",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/sycophancy.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:54.820Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:54.893Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:47.853Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/ef8b05b652dde19dafbda3b5d7ccafde03c9326fc0e539b47f5645b5c7a120a9.html.gz",
+      "bodyHash": "b61d8a8083f0df5631db619b1e9db7b00dfa0e9c569fcb09a29eca8ece651de2",
+      "bodyEncoding": "gzip",
+      "archiveHash": "6fd171269a703c56e3e32dbbcae415e9c86975431bbc4cd3c618b08b4a61d32f"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/hallucination",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/hallucination.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:55.187Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:55.265Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:48.623Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/bcc9342407a11d9eabc3ad9a2d42a900e1d3f74cebd73e86e07450b2804030a3.html.gz",
+      "bodyHash": "4b02ded26230852a66031484672f613f495fbda7c6be356c8f941aa5f3c2e370",
+      "bodyEncoding": "gzip",
+      "archiveHash": "6eb6b75638fc9dbe5034a0b897a30077a499d137860bba34f5bc718ea2b0a9c5"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:55.561Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:55.933Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:49.120Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/91fe188805067a2132cf71a4c472d4e2d3a2845d3457a6333366f1fd982bdd1d.html.gz",
+      "bodyHash": "060894178dbb8524a8807160683aea1dd580cdf9a2714ff0931f225cb76cbe34",
+      "bodyEncoding": "gzip",
+      "archiveHash": "974b6117df9df7b5e0268c0a8e205f430a503d5658de983f4ba4c3852e184c34"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:56.230Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:56.305Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:49.950Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/3dd42d834093af506f4a659471d111dba651a239991814fb316a1ae817d3ad4c.html.gz",
+      "bodyHash": "20c9eae1a3f03fc3c514240fc4ba61f732b068083aa2b9b4c5827547a6fd782e",
+      "bodyEncoding": "gzip",
+      "archiveHash": "e36d1699dfc30e1606e05bafe27b40391a237654c278e8a0754b4cff5180e244"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:56.611Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:56.682Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:50.488Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/08748a2c706313f4a364b62c4432fef2238708c98dd5879e9255a9645a742194.html.gz",
+      "bodyHash": "944faaa18daf05ec6ed938c7d43c361856206928bceb2e6f664bfd9ad1877d81",
+      "bodyEncoding": "gzip",
+      "archiveHash": "52acfe11415a6e7b1cbf0b365ce0116e01e7c29439b77946d685cd4bbfe2a43a"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:56.985Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:57.063Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:51.020Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/723eb404ed57adfc5b05914a60589f32cdc47e7d82a67d0737a4b31299dfe62a.html.gz",
+      "bodyHash": "3c01d5188dec9c33e599c68f214739accd039b2cbac70162fb248226c90bf80b",
+      "bodyEncoding": "gzip",
+      "archiveHash": "f1fbb2b853517fb41d81530da36c67c92505bbdfee39be7997a7d33608805e98"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/attention-budget",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/attention-budget.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-budget.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:57.351Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:57.421Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:51.589Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/c6328cbd84c61fa487449400634ba49ae13e28baf449399743d07558a3089d11.html.gz",
+      "bodyHash": "0fa0a9d2ef13df89f797033ea0ae784e6a42ae1f64dd540facb2342ca24688ca",
+      "bodyEncoding": "gzip",
+      "archiveHash": "7926c051da36a38a0f6e5063afaa3d80375e6c9ed61b9472145b82882ce0a2c5"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:57.715Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:57.785Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:52.132Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/ebbc0a3ae7dedc437fb593b0d28f41cd2b60d0c64b479ec946f825c3cf0ce1fa.html.gz",
+      "bodyHash": "6a830ae4c9d6ff7100041aa6a20c2ad3deed8a00d34e85ca3f3414ca8b3a7dd2",
+      "bodyEncoding": "gzip",
+      "archiveHash": "685cabca65b023fe7d4d244ed0c22b59309973f56264c035f739ade12c5d7320"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/smart-zone",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/smart-zone.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:58.087Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:58.163Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:52.665Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/297aa57e2ad47547f607a90e0b8f05f4478712bc8e739166192d7232928e5462.html.gz",
+      "bodyHash": "dcaf942f57df2c1aab7547fb926d2fa611fa178b754fbcb913e2961fde37922f",
+      "bodyEncoding": "gzip",
+      "archiveHash": "d83a5d795b07f3de954173343cd10dbbcb870d8aab23cf3d26767be5326ac0fb"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/clearing",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/clearing",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/clearing.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/clearing.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:58.471Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/clearing",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/clearing",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:58.546Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:53.146Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/clearing",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/877ad3bc3c9a173482ca6f498ce1469e0f9ecb3a6ed50a85c08ce9c95d9c6ff9.html.gz",
+      "bodyHash": "c2c251ac7284ec8bcaaea35f5f040d3baba14ea8b73b29d2d15529a68555b8f7",
+      "bodyEncoding": "gzip",
+      "archiveHash": "060423e421d0214356b7eea2b38897d56ec0465cd4399969d02b5db1170519e0"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/handoff",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/handoff",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/handoff.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:58.854Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/handoff",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:58.925Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:53.730Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/b5adbe116677446c2deed6db570dfdeb31d643e1e5e9c22197d589b332fb1414.html.gz",
+      "bodyHash": "68438a3a3f4e1953d77e9b4158f03c0fc32021739bfbdde43fe0f37cdfb2a639",
+      "bodyEncoding": "gzip",
+      "archiveHash": "addac64245056c678ebac8d31bdbb3f584d317c3426b2b1eca9f6a5da0ff72d7"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/primary-source",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/primary-source.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/primary-source.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:59.221Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:59.292Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:54.309Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/520c900bd3879f7117b70f09bc6d792750325fd5563868f3bd2b4fa92d06292c.html.gz",
+      "bodyHash": "41211aaa6d5702fb447b5b846a7097bb19a97bb999584b1409f29e7d4cfb51cc",
+      "bodyEncoding": "gzip",
+      "archiveHash": "b0e882bfa81811ac6b789cdfbfe7cb6d5d5377b6815358255dcdc05ddd98f4b0"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/secondary-source",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/secondary-source.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/secondary-source.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:59.599Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:59.670Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:54.776Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/29be073f50d7f36ef9dd78534ad983139e02b32ad37124eaef5c83efcf1a7c4d.html.gz",
+      "bodyHash": "12b835e11a31a333c9f4caf68b19ae67be411b478134c957041de3e8cce89eb0",
+      "bodyEncoding": "gzip",
+      "archiveHash": "07c773bac27ef0192d21a4a5fb4efba12c11f12d7e2bb52dbd7be4c0ca5ce9ed"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:38:59.998Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:00.071Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:55.289Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/18151fdb4f573904a135fe63560aa0e10bafecb5d717fdff6519960f00b006bd.html.gz",
+      "bodyHash": "62d83cd43eea3ff66bef1fc7fc8ff9906332cbbf71cc4ea94d4fd12041128821",
+      "bodyEncoding": "gzip",
+      "archiveHash": "17c8d693d7dda439fedf5f042f198149d1f9f3544f43e80ce4ad7cf3d95e5691"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/spec",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/spec",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/spec.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/spec.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:00.372Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/spec",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/spec",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:00.446Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:55.899Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/spec",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/0e7d22545aa6911dd0026160656f2c65c0d0f914c63a8abab1024a0954c1de50.html.gz",
+      "bodyHash": "b752ead2997c48191ade02ec16cbcda3f9b7f753beb5365bb092aee47928e736",
+      "bodyEncoding": "gzip",
+      "archiveHash": "de13e1925df0c11cd5bf0157dded37f0d35ee1b8fe5d36603c37aa6480e0fcb5"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/ticket",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/ticket",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/ticket.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ticket.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:00.739Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/ticket",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ticket",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:00.809Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:56.418Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ticket",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/a20c6871cee1ed4eaf454db43eefd121bb3211d78f6ae9958a3d8aaed1d1b69f.html.gz",
+      "bodyHash": "7fbc57892e6bb275476522ab8747999af487dac15ac1974dd7f5971253d1a7e9",
+      "bodyEncoding": "gzip",
+      "archiveHash": "006578a4859f7ed3930f26948feabf3120cf17c4a33a9fccbbe5cf4c448580c2"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/compaction",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/compaction",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/compaction.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/compaction.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:01.113Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/compaction",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/compaction",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:01.182Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:56.940Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/compaction",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/673ae9fa00ec21ab0e8b32505d7da170f6728c65dbe15d4b8ad71a2c90b33bdd.html.gz",
+      "bodyHash": "04cb6298cae2834ab4ed5dafd7dcc6dfd5989e0f97328ecfa0e9f420680dae9e",
+      "bodyEncoding": "gzip",
+      "archiveHash": "13e735123405aa686b4db37765e50279c3b021968bce818a2eeef5d4e26f7e2f"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/autocompact",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/autocompact.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/autocompact.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:01.482Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:01.557Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:57.429Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/994b06f90a78ac4f330f3a34572e6c67d7e8f27aa3d5b13110ea05bfdba2d00e.html.gz",
+      "bodyHash": "8e8d0a75c0f821f5a39d0ac531deb04a0916dd4411db372b98abfb3582a1fe5c",
+      "bodyEncoding": "gzip",
+      "archiveHash": "2ccb087107b0afeb04a5a3af669e30749d0c64c6c9085ee6a3e5f40328e1bb90"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/memory-system",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/memory-system.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/memory-system.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:01.848Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:01.924Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:57.905Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/memory-system",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/f161f295461dc654a245ea1f1aa32c78242abba1a22be99cab23cba937c59f3d.html.gz",
+      "bodyHash": "d3f918683b2ab918111a638f05010ae0a6323ada66d1e7c14262b937e6ec8353",
+      "bodyEncoding": "gzip",
+      "archiveHash": "ba7d9014fa1f7f84848fd8460148e2fe690b22046f5905dc6d8ddb0fd8ce4938"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/agents-md",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/agents-md.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agents-md.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:02.552Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:02.622Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:58.419Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/d8df17c7a59b11f6b411457987407122b417bf3dd7f88f270e67f64e91e4c0ae.html.gz",
+      "bodyHash": "57f0d74adced4a63818c348720f803424fc2949cd99ed1af14baba22b8a8f80e",
+      "bodyEncoding": "gzip",
+      "archiveHash": "9c0c6397bfb00a79fc566ee733bab237889f7b9fbe28bc1bd7585016e75a7665"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:02.911Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:03.000Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:58.928Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/07a3ea88cedc344e61ec4f76868f37603fb37bd8029ba8e5c40a4f41914a57db.html.gz",
+      "bodyHash": "2ca334b3afd54a9e27a97392bb6437ac04e97df7ae418ef59f7d8edde2073424",
+      "bodyEncoding": "gzip",
+      "archiveHash": "e5bc55d4295815d8b7a9fc24cdb33ddde80d06f85a84d600a1f954fe6d2df6f5"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/context-pointer",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/context-pointer.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context-pointer.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:03.305Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:03.374Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:59.411Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/51ace8b5d8ca121c55594794844804281b12dcc6da9932eeeffb186bcb39913c.html.gz",
+      "bodyHash": "b2fd836bfb270b62fba3fd655286bd86effefc5c91c5644d33a9b89b11a9d44a",
+      "bodyEncoding": "gzip",
+      "archiveHash": "237a815252545b53f87f5517d9397d72e782c781708008cb7bd4d729473cfe6a"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/skill",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/skill",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/skill.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/skill.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:03.665Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/skill",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/skill",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:03.737Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:43:59.958Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/skill",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/d3f480ca9b8ffd5adf8917dbfda725c32a71bcedc0368dca4dae1ce1f3ebf6e1.html.gz",
+      "bodyHash": "a38a2647c6af73c8494ee5bbf2ec3850d85c0d65c2ff9458b9712a0c5d72e444",
+      "bodyEncoding": "gzip",
+      "archiveHash": "a72df1785efb9bec8054946ef2d8c3990eb5bd85bf659f2a4c75ed8b9f04adad"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/subagent",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/subagent",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/subagent.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/subagent.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:04.028Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/subagent",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/subagent",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:04.102Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:00.505Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/subagent",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/bc09d0385d3fd4a775ccdf5b699a2adf2a9e83eb23ce148b312f58c59cc40499.html.gz",
+      "bodyHash": "c95ed928d71664611e76be204ac61eb72d7993b95ebbb02de964706318949dc9",
+      "bodyEncoding": "gzip",
+      "archiveHash": "87b27e18895ae4474ba80f0e559e60f583c396ebf0b88cec9a520dca09504125"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:04.396Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:04.470Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:00.998Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/76d9b4be5686ac76b33f9c347d246d748b920b9a3bde30cf4a52e41d1a8d5371.html.gz",
+      "bodyHash": "f7b36db59fd3cf29c03afde26450f34ce7b6484901d5d2deb768305c344ffdd5",
+      "bodyEncoding": "gzip",
+      "archiveHash": "2bd6fe828b25f82baa3ec4f2f71d2e3c0d5c4935a3aec2647bd541e6b6bb90a1"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/afk",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/afk",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/afk.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/afk.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:04.771Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/afk",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/afk",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:04.841Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:01.514Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/afk",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/4b4e62c9285e7133a299ae95e7233dc3a740b9166599b04fbe3deddec6a02289.html.gz",
+      "bodyHash": "daed02703d26c26b741410c4825c6eb84743878f3d3df582fc2c4eb67e40dff8",
+      "bodyEncoding": "gzip",
+      "archiveHash": "2770010766fa3a6a1c4badaadb1b83bd25a3aaf87a73e9412f352f6dd7a4cf81"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/automated-check",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/automated-check.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-check.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:05.148Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:05.276Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:02.107Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7ec796c7013f08cdd1a5e92a05c451580a931070b06fb0c9a6d061f57c41e764.html.gz",
+      "bodyHash": "7d19199af1e347372868438f2b0e0a505f680337806529b14798d82716258bdb",
+      "bodyEncoding": "gzip",
+      "archiveHash": "3bbbfc6a0672322f273f5441ba50201d5c73a48dc3f4bc66e17ce7aa22720ac8"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/automated-review",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/automated-review.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:05.571Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:05.642Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:02.644Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/a1f39a1e9302b916ce639e51307c230ea7eb0602764b5efecaec54b46bc8d508.html.gz",
+      "bodyHash": "a7c3d2d97cb1977f9660fa77d5016af61b5bb47aef3cbb6b79245525d640ba0d",
+      "bodyEncoding": "gzip",
+      "archiveHash": "b27bb62e41c92196e31daa0865080cd6152f4c3d98f942366b7acfe217cdedd9"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/human-review",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/human-review",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/human-review.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/human-review.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:05.942Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/human-review",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/human-review",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:06.013Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:03.152Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/human-review",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/9c5e325c06a4bf1d7c8018ed1dcd3386706133113f9cea7bcf2fb3ccf3fb9979.html.gz",
+      "bodyHash": "c0ba86b19783c1099c28237990af461f420d1fa854e7a7699a7ac77f268d5cea",
+      "bodyEncoding": "gzip",
+      "archiveHash": "4f7934fe0bf584e47e5163b9c2c905257068eb87aa717576a6df8ec8fadf13a1"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:06.320Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:06.396Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:03.656Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/abaa1e9f804934172955b19c438b458299a7c04491d36bdbeab4717ed992a743.html.gz",
+      "bodyHash": "5a3e5bdec3fec26d7842e350f1053a3d9d5c9e2856cbcbf9fcdf8b74c7aa482a",
+      "bodyEncoding": "gzip",
+      "archiveHash": "2ba0389eec0d795a144d76160ff0fd8167acce7e3e03cea23bef4e1c109e862b"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/design-concept",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/design-concept.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/design-concept.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:06.702Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:06.843Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:04.141Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/38ae9a74d7088ca3f9560c24b86f8e989d6b145b57b8592a8c8754096daf26ae.html.gz",
+      "bodyHash": "cece01addb1488839f1c1ace9938fa58f98ec6b7dabe61671cb3628a08605bce",
+      "bodyEncoding": "gzip",
+      "archiveHash": "eb713bcf62ba0ad55e63691b3f4ac85e365a58ebfbeb9cf9df741c20ebfc026b"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/grilling",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/grilling.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:07.151Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:07.226Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:04.631Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7ca100cd40b5be00ac593a3109449fd9d506bc9088fa948b36b0af8f106deabf.html.gz",
+      "bodyHash": "bbebb28f63e3c5d8ce26df9aea8c7d92514975095d33abb8d1bbed1a1a7fb2ac",
+      "bodyEncoding": "gzip",
+      "archiveHash": "b93a2ea05074568349cd57a3f5d0a8363e2cb92cf6f03818c6cfa0228bc09b45"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/prototyping",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/prototyping.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/prototyping.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:07.528Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:07.598Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:05.103Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/14b1bf682f1f47d93bf0ae81ac1ebe3911e94a9d7ef389403eeba6245246a4e1.html.gz",
+      "bodyHash": "1792d0c2e2e76ac14f32a014a12b6c2f4270d2be010dc1c3164956f9ef67d9cd",
+      "bodyEncoding": "gzip",
+      "archiveHash": "b792a4d371cbf605d416ae319ed35b86928b331055808e71e84d5ad3a4217076"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/dx",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/dx",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/dx.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/dx.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:07.901Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/dx",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/dx",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:07.983Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:05.653Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/dx",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/09637e87cad386852ca8a493d7e79f126de6b008913e2124e75fa41243be3740.html.gz",
+      "bodyHash": "b77167586d3cf0466cbb9215f06c5671c76080351e4fb409995a6c3a6754c1da",
+      "bodyEncoding": "gzip",
+      "archiveHash": "16c8de58dc5c23ca3b92240eb3bd11afc24d43bb34f459cc6988a5af5480e8e0"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/ax",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/ax",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/ax.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ax.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:08.290Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/ax",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ax",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:08.360Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:06.243Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/ax",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/7f8ba8577ecd8de7b1398f4f8cbe9dce428fe191144d491563cc3dd4380a28e3.html.gz",
+      "bodyHash": "b507d2d17917fa9836f9d9ae26f72075e0b2d5be09e8339c23b699a21f7d14d7",
+      "bodyEncoding": "gzip",
+      "archiveHash": "d1ecd8b93d94a59a581699040e3083e1b566c714805edbd5724399de918fc37a"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/software-factory",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/software-factory",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/software-factory.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/software-factory.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:08.658Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/software-factory",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/software-factory",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:08.735Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:07.416Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/software-factory",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/351db2d25198d3135c0d2278d4ad4ce24f3945e12e3dae51329c5fab127e3d32.html.gz",
+      "bodyHash": "977bdbd4ae4c49d5ddcb37925376a0971f6507cac044ab49d9331558b10ebc5c",
+      "bodyEncoding": "gzip",
+      "archiveHash": "4c7614eae2864a0dd4b83aaa093661cac4a1b6d236822cac5380d719b9717565"
+    },
+    {
+      "url": "https://www.aihero.dev/ai-coding-dictionary/dark-factory",
+      "lastmod": "2026-09-24T11:59:36.000Z",
+      "route": "/ai-coding-dictionary/dark-factory",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/dark-factory.md",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/dark-factory.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:09.049Z"
+        },
+        {
+          "url": "https://www.aihero.dev/ai-coding-dictionary/dark-factory",
+          "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/dark-factory",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:09.134Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:08.187Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/ai-coding-dictionary/dark-factory",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/f5452977b8bd0ad19ad7b68040057d79c4ba4f6de14c8cea606942ebc2a83101.html.gz",
+      "bodyHash": "79806615528e123f6ddd0adf9fbfc9ffb3565a3df09a388d3d81b61b9617522e",
+      "bodyEncoding": "gzip",
+      "archiveHash": "1edd900cd324bb416ece13fdc42ab5be68ecf5d35b347440d1c42e57cdf64d52"
+    },
+    {
+      "url": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "lastmod": "2026-10-05T10:57:45.922Z",
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:09.432Z"
+        },
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:09.504Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:40:49.280Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-probe-skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.html.gz",
+      "bodyHash": "cdf3b381b9e3bf7b568ca4e2f451da718979cf879981250247a0631eaa098128",
+      "reusedCurrentRunProbe": true,
+      "bodyEncoding": "gzip",
+      "archiveHash": "20269921560381cc2eb760f63b04b07bb4d23481b96256aaf14af4bd27e17e3f"
+    },
+    {
+      "url": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "lastmod": "2026-08-05T15:43:10.190Z",
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:09.804Z"
+        },
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:09.874Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:09.480Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/18b99cb518e5f4dc74eb41f56ebc995bc59866754e7125252fc94742d8d3c8ed.html.gz",
+      "bodyHash": "6954daad0959dd76191393edcb189b4acb1fddc6009cdefd7cbd13f5d5d5d3ad",
+      "bodyEncoding": "gzip",
+      "archiveHash": "5efe67a8160a3e2963ee67ee3cf39a3c8569c3c8c75d69a09e16d1633924a6c3"
+    },
+    {
+      "url": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "lastmod": "2026-07-08T14:13:51.609Z",
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:10.171Z"
+        },
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:10.242Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:10.090Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/565873d22046ff0fad85efb6daa073292644425e64035fb27952b3e606be9875.html.gz",
+      "bodyHash": "8c96fb57dc097fa3b9d3f94b6afd7e7ffe0be3f5774b3e1338aa59bbe4d7e900",
+      "bodyEncoding": "gzip",
+      "archiveHash": "6bd263dfd8d0f2884703887c8be346a8797bbaf7787acb809f4344438b143310"
+    },
+    {
+      "url": "https://www.aihero.dev/skills/skills-changelog-v1-announcement",
+      "lastmod": "2026-06-18T11:43:30.135Z",
+      "route": "/skills/skills-changelog-v1-announcement",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-v1-announcement.md",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v1-announcement.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:10.566Z"
+        },
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-v1-announcement",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v1-announcement",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:10.640Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:10.382Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/skills/skills-changelog-v1-announcement",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/4e95c6ed66a243190a6fda4e55c2eaf567de80dd055c503c02cdb992cbde1476.html.gz",
+      "bodyHash": "f078c66ce46a158a95714133bf9eb07503bc675ea271701fdce5775bbc38f3b6",
+      "bodyEncoding": "gzip",
+      "archiveHash": "2cb06aaf034d528823cc2c5e1620f3eca60f65af6de9de2fca324325cfd7df56"
+    },
+    {
+      "url": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "lastmod": "2026-05-11T10:38:47.822Z",
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:10.959Z"
+        },
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:11.095Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:10.914Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/46ce3f819b3b41c1e7f440598a39eed992f8558e55babb32c2cbac5c15428d4f.html.gz",
+      "bodyHash": "e0b835e7a009056a552f0cfd666ebb500efeb6880372ffa20027e01658b0badf",
+      "bodyEncoding": "gzip",
+      "archiveHash": "4f5af0889f6656ed4fec6b709f9dee1849cb6207be950ed3ae70e9c9667668ae"
+    },
+    {
+      "url": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "lastmod": "2026-04-30T10:36:43.176Z",
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "status": "html-acquired",
+      "acquiredThisRun": true,
+      "attempts": [
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:11.406Z"
+        },
+        {
+          "url": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+          "finalUrl": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+          "httpStatus": 404,
+          "contentType": "text/html; charset=utf-8",
+          "checkedAt": "2026-10-13T03:39:11.476Z"
+        }
+      ],
+      "checkedAt": "2026-10-13T03:44:11.422Z",
+      "httpStatus": 200,
+      "finalUrl": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "contentType": "text/html; charset=utf-8",
+      "bodyPath": "reports/full-site/source-html-2026-10-13.json.responses/ec603dcf3c254f0a00f424dbab1bc262722505bb319fe8428c3a6efec45af567.html.gz",
+      "bodyHash": "510cef6f4eea5e0e4b7f139109a485150f92793ce1f63a788ea1472685731420",
+      "bodyEncoding": "gzip",
+      "archiveHash": "81317be6c2039295ec51efcef816f542356ef67284331ffcd9718f14930864b0"
+    }
+  ],
+  "completedAt": "2026-10-13T03:44:11.422Z"
+}

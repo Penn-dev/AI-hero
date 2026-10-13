@@ -1,10 +1,20 @@
 ---
 title: "v1.1: /wayfinder, /to-spec, /to-tickets, /grilling improvements, and much more"
 slug: "skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements"
-type: "post"
-description: "Skills v1.1 released: Learn new agent skills for AI coding including Wayfinder for planning, spec improvements, and TDD refactoring."
+type: "page"
 updatedAt: "2026-07-08T14:13:51.609Z"
 ---
+
+[AI Skills Changelog](/skills)
+
+# v1.1: /wayfinder, /to-spec, /to-tickets, /grilling improvements, and much more
+
+![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)
+
+Matt Pocock
+
+Share
+
 After an extended development period, version 1.1 of the skills repo is finally ready to merge. This release contains an astonishing amount of changes, including an entirely new approach to grilling, a bunch of updates to existing skills, and a rename of two main flow skills.
 
 Rather than try to summarize everything here, we're just going to dive into the changes.
@@ -70,6 +80,8 @@ In some odd situations, the model would grill itself—exploring the code base a
 | **Facts** | Things you find by exploring the code base | Code patterns, existing implementations |
 | **Decisions** | Things the user needs to decide | Architecture choices, feature scope |
 
+View Table
+
 Just a couple of sentences added and a few things rearranged has made the skill much more consistent. These tweaks have significantly reduced the weird issues people were reporting.
 
 ## [Complete Development Lifecycle Flow](#complete-development-lifecycle-flow)
@@ -121,6 +133,8 @@ The code review skill reviews code on two axes, using a sub-agent for each:
 | --- | --- | --- |
 | **Standards** | Compliance with coding standards | Reads `codingstandards.md` or similar files in your repo |
 | **Spec** | Correctness against requirements | Does the code faithfully implement the originating spec or ticket? |
+
+View Table
 
 Both run as parallel sub-agents, walking through each part of the code.
 
@@ -209,6 +223,8 @@ The `/prototype` skill is now model-invoked so that Wayfinder can invoke it itse
 | **Logic prototype** | Test behavior and logic | Backend APIs, business logic |
 | **UI prototype** | Test appearance and interaction | Frontend components, user flows |
 
+View Table
+
 They react quite differently and help you explore design space before committing to a spec.
 
 ## [TDD Skill Updates](#tdd-skill-updates)
@@ -237,3 +253,15 @@ The key change: refactoring is no longer part of the TDD loop. It's now handled 
 - **`/to-tickets` replaces `/to-plan` and `/to-issues`** – These are now unified
 - **New workflow** – Consider adopting the new flow: Grilling → Spec → Tickets → Implement → Code Review
 - **Wayfinder everywhere** – Try using `/wayfinder` instead of `/grill-with-docs` for larger planning tasks
+
+AI Hero · Free email course
+
+### AI Skills for Real Engineers
+
+Build a repeatable workflow for coding agents without giving up your engineering standards.
+
+**Share**
+
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvementsv1.1%3A%20%2Fwayfinder%2C%20%2Fto-spec%2C%20%2Fto-tickets%2C%20%2Fgrilling%20improvements%2C%20and%20much%20more%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=v1.1%3A%20%2Fwayfinder%2C%20%2Fto-spec%2C%20%2Fto-tickets%2C%20%2Fgrilling%20improvements%2C%20and%20much%20more%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements?author=Matt Pocock)
+
+Copy URL

@@ -1,10 +1,13 @@
 ---
 title: "Generating Objects via Output"
 slug: "generating-objects-via-output~dkm2k"
-type: "workshop-lesson"
-description: "Structured outputs with AI SDK. Generate typed objects using Zod schemas, validate LLM responses, and extract data reliably."
+type: "page"
 updatedAt: "2025-09-09T14:47:27.928Z"
 ---
+
+[Get Full Access](/workshops/ai-sdk-v6-crash-course)
+
+[Solution](generating-objects-via-output~dkm2k/solution)
 
 # Generating Objects via Output
 
@@ -56,27 +59,11 @@ You'll need to import [`Output`](https://ai-sdk.dev/docs/ai-sdk-core/generating-
 
 Pass an object with a `schema` property. The schema should be a [Zod](https://zod.dev) object with a `facts` field containing an array of strings.
 
-```typescript
-output: Output.object({
-  schema: z.object({
-    facts: z
-      .array(z.string())
-      .describe(
-        'The facts about the imaginary planet. Write as if you are a scientist.',
-      ),
-  }),
-});
-```
-
 Remember to use [`.describe()`](https://zod.dev/metadata) on your fields to guide the model toward better outputs.
 
 - Log the structured result
 
 Access the output from your result object and log it to the terminal.
-
-```typescript
-console.log(factsResult.output);
-```
 
 - Run your solution
 
@@ -91,3 +78,7 @@ Execute your code with `pnpm run dev` and verify that:
 Once you've completed the exercise, check if you can implement the version 6 solution using [`generateObject()`](https://ai-sdk.dev/docs/reference/ai-sdk-core/generate-object) instead of `generateText()` with `Output.object()`. Both approaches work, but one is the newer pattern.
 
 ### Video Transcript
+
+## View Matt's Solution:
+
+- [Generating Objects via Output Solution](/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution)[Log in](/login) to save progress

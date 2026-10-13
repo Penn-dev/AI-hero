@@ -2,9 +2,21 @@
 title: "Attention degradation"
 slug: "attention-degradation"
 type: "dictionary"
-description: "As a session grows, each token's attention budget spreads across more competitors; signal on meaningful relationships shrinks."
-updatedAt: "2026-07-01T08:46:18.000Z"
+updatedAt: "2026-09-24T11:59:36.000Z"
 ---
+
+[AI Coding Dictionary](/ai-coding-dictionary)
+
+Failure Modes
+
+# Attention degradation
+
+As a session grows, each token's attention budget spreads across more competitors; signal on meaningful relationships shrinks.
+
+![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)
+
+Matt Pocock
+
 As a [session](/ai-coding-dictionary/session) grows, each [token](/ai-coding-dictionary/token)'s [attention budget](/ai-coding-dictionary/attention-budget) is spread across more competitors. The signal on any one [meaningful relationship](/ai-coding-dictionary/attention-relationship) shrinks; noise from irrelevant [context](/ai-coding-dictionary/context) crowds in. Same [model](/ai-coding-dictionary/model), same [parameters](/ai-coding-dictionary/parameters) — just more mouths to feed from the same plate. Cause of the smart zone / dumb [zone effect](/ai-coding-dictionary/smart-zone).
 
 It presents as the model getting worse mid-session: constraints it followed for an hour start slipping, it re-asks things it was told, it writes code that ignores a file it read earlier. Nothing about the model changed — the only variable is how much context it's now attending over.
@@ -18,3 +30,23 @@ _Usage:_
 "It's deep in the dumb zone — inventing generics that aren't in the type file."
 
 "Attention degradation. The type definitions are still in context, but the signal on them is buried under everything we've added since. Clear and reload."
+
+[Previous term**Attention budget**](/ai-coding-dictionary/attention-budget)[Next term**Smart zone**](/ai-coding-dictionary/smart-zone)
+
+## Want more than vocabulary?
+
+Join AI Hero for practical skills, thinking on AI engineering, and resources that keep you ahead of the curve.
+
+First Name
+
+Email*
+
+Get AI Hero updates
+
+No spam. Unsubscribe anytime.
+
+**Share**
+
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fattention-degradationAttention%20degradation%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Attention%20degradation%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fattention-degradation)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/attention-degradation?author=Matt Pocock)
+
+Copy URL

@@ -2,9 +2,21 @@
 title: "Token"
 slug: "token"
 type: "dictionary"
-description: "The atomic unit a model reads and writes. Roughly word-sized but not exactly. Context window size, cost, and latency all count tokens."
-updatedAt: "2026-07-01T08:46:18.000Z"
+updatedAt: "2026-09-24T11:59:36.000Z"
 ---
+
+[AI Coding Dictionary](/ai-coding-dictionary)
+
+The Model
+
+# Token
+
+The atomic unit a model reads and writes. Roughly word-sized but not exactly. Context window size, cost, and latency all count tokens.
+
+![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)
+
+Matt Pocock
+
 The atomic unit a [model](/ai-coding-dictionary/model) reads and writes. Roughly word-sized but not exactly — common words are one token, rare or long ones split into several. [Context window](/ai-coding-dictionary/context-window) size, cost, and latency are all counted in tokens.
 
 Text becomes tokens via a tokenizer: a fixed vocabulary of tens of thousands of fragments, learned before [training](/ai-coding-dictionary/training), that splits any input into a sequence of vocabulary entries. The model never sees characters or words — every piece of text is converted to tokens on the way in, and [next-token prediction](/ai-coding-dictionary/next-token-prediction) produces output one token at a time on the way out.
@@ -20,3 +32,23 @@ _Usage:_
 "How big is this prompt going to be?"
 
 "Run it through the tokenizer — the schema's compact but the JSON keys are weird, so they'll split into more tokens than you think."
+
+[Previous term**Effort**](/ai-coding-dictionary/effort)[Next term**Next-token prediction**](/ai-coding-dictionary/next-token-prediction)
+
+## Want more than vocabulary?
+
+Join AI Hero for practical skills, thinking on AI engineering, and resources that keep you ahead of the curve.
+
+First Name
+
+Email*
+
+Get AI Hero updates
+
+No spam. Unsubscribe anytime.
+
+**Share**
+
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2FtokenToken%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Token%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Ftoken)[](https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/token?author=Matt Pocock)
+
+Copy URL
