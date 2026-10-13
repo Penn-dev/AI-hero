@@ -1,0 +1,111 @@
+{
+  "startedAt": "2026-10-13T04:28:55.676Z",
+  "baseCommit": "81cc249411827dafba454f405f2af3cfe5c6ad2b",
+  "pages": [
+    {
+      "id": "system-prompt",
+      "route": "/ai-coding-dictionary/system-prompt",
+      "sourcePath": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
+      "sourceBytesMatch": true,
+      "chineseDraft": "reports/full-site/samples/drafts/system-prompt.md",
+      "draftHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+      "structure": {
+        "passed": true,
+        "evidence": "system-prompt-preview-final.log"
+      },
+      "browser": "not-checked",
+      "semantic": {
+        "completeAccurate": "reviewed",
+        "naturalChinese": "read-in-full",
+        "necessaryConcepts": "reviewed"
+      },
+      "codePreservation": {
+        "passed": true,
+        "sourceBlocks": 0
+      },
+      "assembly": "applied",
+      "chinesePath": "content/learning/system-prompt/article.md",
+      "initialStructure": {
+        "passed": false,
+        "error": "Source resource missing: https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/system-prompt?author=Matt"
+      },
+      "browserEvidence": "三篇统一入口已成功 preview/apply。本页尚未执行本地浏览器检查；1440/390、术语独立跳转、深链和溢出均待续接。"
+    },
+    {
+      "id": "agents-md",
+      "route": "/a-complete-guide-to-agents-md",
+      "sourcePath": "content/source/a-complete-guide-to-agents-md.md",
+      "sourceHash": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "sourceBytesMatch": true,
+      "chineseDraft": "reports/full-site/samples/drafts/agents-md.md",
+      "draftHash": "bf2c149382aada03300b6dacac483d315a148867fc0acc5f2abf43b6f4463562",
+      "structure": {
+        "passed": true,
+        "evidence": "agents-md-preview-final.log"
+      },
+      "browser": "partial-390",
+      "semantic": {
+        "completeAccurate": "reviewed",
+        "naturalChinese": "read-in-full",
+        "necessaryConcepts": "reviewed"
+      },
+      "codePreservation": {
+        "passed": true,
+        "sourceBlocks": 9
+      },
+      "assembly": "applied",
+      "chinesePath": "content/learning/agents-md/article.md",
+      "initialStructure": {
+        "passed": true
+      },
+      "browserEvidence": "390×844：整体宽度 390；术语弹层正常；两处 details 可开关；完整中文五步 Prompt 实际复制且系统剪贴板 514 字符完全相符。1440 仅切换视口，下一条验收语句 SyntaxError 中断；桌面、完整深链/术语跳转尚未验证。390 页首/术语截图已看，折叠/Prompt 截图已保存但未看。"
+    },
+    {
+      "id": "output",
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "sourcePath": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5",
+      "sourceBytesMatch": true,
+      "chineseDraft": "reports/full-site/samples/drafts/output.md",
+      "draftHash": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
+      "structure": {
+        "passed": true,
+        "evidence": "output-preview-final.log"
+      },
+      "browser": "partial-1440-before-final-render-repairs",
+      "semantic": {
+        "completeAccurate": "reviewed",
+        "naturalChinese": "read-in-full",
+        "necessaryConcepts": "reviewed"
+      },
+      "codePreservation": {
+        "passed": true,
+        "sourceBlocks": 2
+      },
+      "assembly": "applied",
+      "chinesePath": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "initialStructure": {
+        "passed": false,
+        "error": "Source resource missing: generating-objects-via-output~dkm2k/solution"
+      },
+      "browserEvidence": "1440：原站入口及正确 Solution href 存在；整体宽度 1425/1425；终端术语面板正常；原 steps-to-complete 实际 DOM 存在，刷新后标题距顶约29.5px。390、复制、以及4da28cf/b9b70a6修复后空文字稿/代码框标签的实际显示尚未验证。"
+    }
+  ],
+  "updatedAt": "2026-10-13T05:19:19.564Z",
+  "status": "paused-by-user-wip",
+  "issue4Complete": false,
+  "integratedEngineeringCommit": "b9b70a6",
+  "validation": {
+    "content": "8 out-of-scope stale translation source hashes",
+    "learning": "passed; sourceFiles=10",
+    "build": "passed after b9b70a6",
+    "browser": "partial; see checkpoint.md",
+    "fullTestOrLintRun": "not run in sample tree this continuation"
+  },
+  "previewService": {
+    "port": 4322,
+    "stopped": true,
+    "evidence": "preview-service-stop.json"
+  }
+}

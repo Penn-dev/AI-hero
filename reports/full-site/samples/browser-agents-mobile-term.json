@@ -1,0 +1,129 @@
+[
+  {
+    "action": "click",
+    "args": {
+      "selector": "@e182"
+    },
+    "checkedAt": "2026-10-13T05:12:22.382Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "success": true,
+        "tag": "BUTTON",
+        "text": "Markdown"
+      }
+    }
+  },
+  {
+    "action": "snapshot",
+    "args": {},
+    "checkedAt": "2026-10-13T05:12:22.474Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "url": "http://127.0.0.1:4322/a-complete-guide-to-agents-md",
+        "title": "AGENTS.md 完整指南 | AI Hero 中文学习版",
+        "tree": [
+          {
+            "role": "dialog",
+            "name": "术语解释",
+            "description": "这里显示你刚才点击的词及其解释。",
+            "children": [
+              {
+                "role": "heading",
+                "name": "术语解释",
+                "children": [
+                  {
+                    "role": "StaticText",
+                    "name": "术语解释"
+                  }
+                ]
+              },
+              {
+                "role": "StaticText",
+                "name": "这里显示你刚才点击的词及其解释。"
+              },
+              {
+                "role": "button",
+                "name": "查看全部术语",
+                "ref": "@e242",
+                "children": [
+                  {
+                    "role": "StaticText",
+                    "name": "查看全部术语"
+                  }
+                ]
+              },
+              {
+                "role": "DescriptionList",
+                "children": [
+                  {
+                    "role": "term",
+                    "name": "Markdown",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "Markdown"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "definition",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "用简单文字标记表示标题、列表和链接等格式的写法。"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "role": "button",
+                "name": "关闭",
+                "ref": "@e243",
+                "children": [
+                  {
+                    "role": "StaticText",
+                    "name": "关闭"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "action": "screenshot",
+    "args": {
+      "format": "png",
+      "path": "E:/dev/projects/AIHero/work/full-site-samples/reports/full-site/samples/screenshots/agents-md-390-term.png"
+    },
+    "checkedAt": "2026-10-13T05:12:27.865Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "format": "png",
+        "path": "E:/dev/projects/AIHero/work/full-site-samples/reports/full-site/samples/screenshots/agents-md-390-term.png",
+        "sizeBytes": 126664,
+        "mimeType": "image/png"
+      }
+    }
+  },
+  {
+    "action": "evaluate",
+    "args": {
+      "code": "(()=>JSON.stringify({dialog:[...document.querySelectorAll('[role=dialog]')].map(d=>d.textContent),width:innerWidth,scroll:document.documentElement.scrollWidth}))()"
+    },
+    "checkedAt": "2026-10-13T05:12:27.909Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "type": "string",
+        "value": "{\"dialog\":[\"术语解释这里显示你刚才点击的词及其解释。查看全部术语Markdown用简单文字标记表示标题、列表和链接等格式的写法。关闭\"],\"width\":390,\"scroll\":390}"
+      }
+    }
+  }
+]

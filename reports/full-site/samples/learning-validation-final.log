@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "sourceFiles": 10,
+  "sharedConcepts": 15,
+  "pages": [
+    {
+      "route": "/a-complete-guide-to-agents-md",
+      "kind": "guide",
+      "parsedTerms": 13,
+      "usableTerms": 13,
+      "bodySections": 13,
+      "disclosedEmptySections": []
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "kind": "workshop-lesson",
+      "parsedTerms": 9,
+      "usableTerms": 10,
+      "bodySections": 2,
+      "disclosedEmptySections": [
+        "视频文字稿"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "kind": "dictionary",
+      "parsedTerms": 4,
+      "usableTerms": 17,
+      "bodySections": 1,
+      "disclosedEmptySections": []
+    }
+  ]
+}

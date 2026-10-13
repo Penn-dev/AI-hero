@@ -1,0 +1,23 @@
+[
+  {
+    "action": "list_tabs",
+    "args": {},
+    "checkedAt": "2026-10-13T04:31:24.683Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "success": true,
+        "tabs": [
+          {
+            "tabId": 1478889064,
+            "url": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+            "title": "System prompt | AI Coding Dictionary",
+            "active": false,
+            "groupTitle": "AI Hero 本地交付",
+            "borrowed": false
+          }
+        ]
+      }
+    }
+  }
+]

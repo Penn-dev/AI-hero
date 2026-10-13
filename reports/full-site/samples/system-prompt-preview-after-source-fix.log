@@ -1,0 +1,16 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Shared learning source cannot change: dictionary-source
+    at assemblePage (file:///E:/dev/projects/AIHero/work/full-site-samples/scripts/assemble-page.mjs:78:109)
+    at async file:///E:/dev/projects/AIHero/work/full-site-samples/scripts/assemble-page.mjs:124:32 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.14.0

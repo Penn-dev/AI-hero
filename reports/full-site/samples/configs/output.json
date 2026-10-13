@@ -1,0 +1,103 @@
+{
+  "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+  "source": {
+    "path": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+    "sha256": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5"
+  },
+  "chineseFile": "reports/full-site/samples/drafts/output.md",
+  "learning": {
+    "sources": {
+      "workshop-source": {
+        "path": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+        "sha256": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5"
+      },
+      "samples-output-translation": {
+        "path": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+        "sha256": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf"
+      }
+    },
+    "profile": {
+      "kind": "workshop-lesson",
+      "sourceIds": [
+        "workshop-source",
+        "samples-output-translation"
+      ],
+      "conceptIds": [
+        "llm",
+        "structured-output",
+        "stream",
+        "terminal",
+        "object",
+        "array",
+        "string",
+        "schema",
+        "zod",
+        "prompt"
+      ],
+      "prerequisiteIds": [
+        "terminal",
+        "object",
+        "string",
+        "array",
+        "schema"
+      ],
+      "start": {
+        "title": "这节练习，要把故事变成有格式的数据",
+        "summary": "先让模型写一段星球故事，再保存完整文本，最后按规定格式提取事实。你需要补上中间的函数调用。",
+        "cards": [
+          {
+            "title": "先了解练习流程",
+            "text": "先看每段代码下面的中文解释，理解“生成故事→保存全文→提取事实”这条流程。陌生词可随时点开查阅。"
+          },
+          {
+            "title": "动手前需要准备",
+            "text": "需要已有的课程项目、可用的模型配置，以及运行项目命令的基础。本页片段没有包含安装、导入和模型初始化；缺少这些准备时，先回课程原页确认。"
+          },
+          {
+            "title": "哪些地方由你完成",
+            "text": "带TODO的代码是待完成部分；其余也是原文片段，需要放回项目的相应位置。复制片段不等于得到一份可独立运行的程序。"
+          }
+        ]
+      },
+      "check": {
+        "title": "运行后，检查这三项结果",
+        "items": [
+          "星球故事会在终端中边生成、边显示。",
+          "程序返回一个对象，其中的 `facts` 字段是字符串数组，每一项都是从故事中提取的星球信息。",
+          "这些信息读起来像科学家对这颗虚构星球的描述。"
+        ]
+      },
+      "related": [
+        {
+          "format": "课程原页",
+          "title": "回到本节英文课程",
+          "description": "确认课程准备材料和上下文，再开始动手练习。",
+          "href": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+        },
+        {
+          "format": "官方文档",
+          "title": "AI SDK结构化数据说明",
+          "description": "需要查阅Output及结构化输出的详细用法时，再打开原文引用的文档。",
+          "href": "https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data"
+        }
+      ]
+    }
+  },
+  "linkTargets": [
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "state": "planned-chinese",
+      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution",
+      "state": "planned-chinese",
+      "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+    },
+    {
+      "route": "/login",
+      "state": "planned-chinese",
+      "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+    }
+  ]
+}

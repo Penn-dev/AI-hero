@@ -1,0 +1,1815 @@
+[
+  {
+    "action": "evaluate",
+    "args": {
+      "code": "(async()=>{const results=[];for(const [i,f] of [...document.querySelectorAll('figure.code-frame')].entries()){const b=f.querySelector('button');b.click();await new Promise(r=>setTimeout(r,200));const copied=b.textContent.includes('已复制');results.push({i,copied,match:copied?(await navigator.clipboard.readText()).replaceAll('\\r\\n','\\n')===f.querySelector('pre').textContent.replace(/\\n$/,''):false});}return JSON.stringify({ready:document.readyState,anchor:{hash:location.hash,top:document.getElementById('steps-to-complete')?.getBoundingClientRect().top,scrollY},results})})()"
+    },
+    "checkedAt": "2026-10-13T05:07:58.763Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "type": "string",
+        "value": "{\"ready\":\"complete\",\"anchor\":{\"hash\":\"#steps-to-complete\",\"top\":29.53125,\"scrollY\":1688},\"results\":[{\"i\":0,\"copied\":false,\"match\":false},{\"i\":1,\"copied\":false,\"match\":false},{\"i\":2,\"copied\":false,\"match\":false},{\"i\":3,\"copied\":false,\"match\":false}]}"
+      }
+    }
+  },
+  {
+    "action": "snapshot",
+    "args": {},
+    "checkedAt": "2026-10-13T05:07:58.853Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "url": "http://127.0.0.1:4322/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k#steps-to-complete",
+        "title": "通过 Output 生成对象 | AI Hero 中文学习版",
+        "tree": [
+          {
+            "role": "main",
+            "children": [
+              {
+                "role": "StaticText",
+                "name": "中文"
+              },
+              {
+                "role": "StaticText",
+                "name": "AI Hero 授权中文学习版"
+              },
+              {
+                "role": "sectionheader",
+                "children": [
+                  {
+                    "role": "link",
+                    "name": "AIHero",
+                    "ref": "@e125",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "AI"
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "Hero"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "navigation",
+                    "name": "文章导航",
+                    "children": [
+                      {
+                        "role": "link",
+                        "name": "首页",
+                        "ref": "@e126",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "首页"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "开始阅读",
+                        "ref": "@e127",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "开始阅读"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "英文原文",
+                        "ref": "@e128",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "英文原文"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "link",
+                    "name": "查看英文原文 ↗",
+                    "ref": "@e129",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "查看英文原文 ↗"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "role": "StaticText",
+                "name": "AI HERO 课程练习"
+              },
+              {
+                "role": "heading",
+                "name": "通过 Output 生成对象",
+                "children": [
+                  {
+                    "role": "StaticText",
+                    "name": "通过 Output 生成对象"
+                  }
+                ]
+              },
+              {
+                "role": "StaticText",
+                "name": "Matt Pocock"
+              },
+              {
+                "role": "StaticText",
+                "name": "·"
+              },
+              {
+                "role": "StaticText",
+                "name": "5 分钟"
+              },
+              {
+                "role": "StaticText",
+                "name": "阅读"
+              },
+              {
+                "role": "StaticText",
+                "name": "·"
+              },
+              {
+                "role": "StaticText",
+                "name": "原文更新于 "
+              },
+              {
+                "role": "StaticText",
+                "name": "2025/9/9"
+              },
+              {
+                "role": "article",
+                "children": [
+                  {
+                    "role": "region",
+                    "name": "这节练习，要把故事变成有格式的数据",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "中文学习辅助"
+                      },
+                      {
+                        "role": "heading",
+                        "name": "这节练习，要把故事变成有格式的数据",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "这节练习，要把故事变成有格式的数据"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "先让模型写一段星球故事，再保存完整文本，最后按规定格式提取事实。你需要补上中间的函数调用。"
+                      },
+                      {
+                        "role": "strong",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "先了解练习流程"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "先看每段代码下面的中文解释，理解“生成故事→保存全文→提取事实”这条流程。陌生词可随时点开查阅。"
+                      },
+                      {
+                        "role": "strong",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "动手前需要准备"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "需要已有的课程项目、可用的模型配置，以及运行项目命令的基础。本页片段没有包含安装、导入和模型初始化；缺少这些准备时，先回课程原页确认。"
+                      },
+                      {
+                        "role": "strong",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "哪些地方由你完成"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "带TODO的代码是待完成部分；其余也是原文片段，需要放回项目的相应位置。复制片段不等于得到一份可独立运行的程序。"
+                      },
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "先认识这几个词 "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "点击即可查看解释"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "button",
+                        "name": "终端（terminal）",
+                        "ref": "@e130",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "终端（terminal）"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "button",
+                        "name": "对象（object）",
+                        "ref": "@e131",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "对象（object）"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "button",
+                        "name": "数组（array）",
+                        "ref": "@e132",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "数组（array）"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "button",
+                        "name": "字符串（string）",
+                        "ref": "@e133",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "字符串（string）"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "button",
+                        "name": "数据结构规则（schema）",
+                        "ref": "@e134",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "数据结构规则（schema）"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "↗ 表示英文原文链接。"
+                  },
+                  {
+                    "role": "link",
+                    "name": "获取完整课程访问权限（原站）",
+                    "ref": "@e135",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "获取完整课程访问权限（原站）"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "link",
+                    "name": "解答入口（原站，未取得正文）",
+                    "ref": "@e136",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "解答入口（原站，未取得正文）"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "大多数时候，你希望"
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“大语言模型（LLM）”的术语解释",
+                        "description": "查看术语解释：大语言模型（LLM）",
+                        "ref": "@e137",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "大语言模型（LLM）"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "返回的不只是一段文字，还要让这些文字按照明确的结构排列。比如，可以先生成一个发生在虚构星球上的故事，再从故事中提取事实，整理成清晰的"
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“字符串（string）”的术语解释",
+                        "description": "查看术语解释：字符串（string）",
+                        "ref": "@e138",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "字符串"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“数组（array）”的术语解释",
+                        "description": "查看术语解释：数组（array）",
+                        "ref": "@e139",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "数组"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "link",
+                        "name": "AI SDK",
+                        "ref": "@e140",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "AI SDK"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 让这件事变得非常简单。你不必先让模型生成文字，再自己解析内容（或者使用 "
+                      },
+                      {
+                        "role": "link",
+                        "name": "Zod",
+                        "ref": "@e141",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Zod"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 之类的库验证结果），而是可以直接使用框架内置的"
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“结构化输出（structured output）”的术语解释",
+                        "description": "查看术语解释：结构化输出（structured output）",
+                        "ref": "@e142",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "结构化输出"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "功能。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "在 AI SDK 中，这件事其实有两种实现方式：一种更符合第 5 版的用法，另一种更符合第 6 版的用法，但两种都可以在第 6 版中运行。你的任务是实现结构化输出。"
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注：本页取得了什么。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 2026-10-13 固定的公开来源包含以下练习说明、两个代码片段和课程、解答入口。没有取得课程视频、项目准备材料或解答正文，也没有取得视频文字稿内容。动手需要已有课程项目、可用的模型配置，以及运行项目命令的基础；本页没有提供安装、导入、模型初始化、依赖锁定版本或完整运行环境。以下片段不是可独立运行的程序，本次也未运行课程代码。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "需要完成的步骤 前往“需要完成的步骤”章节",
+                    "children": [
+                      {
+                        "role": "link",
+                        "name": "需要完成的步骤",
+                        "ref": "@e143",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "需要完成的步骤"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“需要完成的步骤”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e144"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "使用 "
+                          },
+                          {
+                            "role": "link",
+                            "name": "streamText()",
+                            "ref": "@e145",
+                            "children": [
+                              {
+                                "role": "code",
+                                "children": [
+                                  {
+                                    "role": "StaticText",
+                                    "name": "streamText()"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 将文字"
+                          },
+                          {
+                            "role": "button",
+                            "name": "查看“流式输出（stream）”的术语解释",
+                            "description": "查看术语解释：流式输出（stream）",
+                            "ref": "@e146",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "流式输出"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "到"
+                          },
+                          {
+                            "role": "button",
+                            "name": "查看“终端（terminal）”的术语解释",
+                            "description": "查看术语解释：终端（terminal）",
+                            "ref": "@e147",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "终端"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "第一步，让模型写出一个虚构星球故事的第一段，并在生成过程中将文字逐步显示在终端中。"
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "原文代码片段"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e148",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "const stream = streamText({\n  model,\n  prompt:\n    'Give me the first paragraph of a story about an imaginary planet.',\n});\n\nfor await (const chunk of stream.textStream) {\n  process.stdout.write(chunk);\n}\n\nconst finalText = await stream.text;\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "中文版 "
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“提示词（Prompt）”的术语解释",
+                        "description": "查看术语解释：提示词（Prompt）",
+                        "ref": "@e149",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Prompt"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "（译注）："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "原文代码片段"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e150",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "请写出一个发生在虚构星球上的故事的第一段。\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注：这段代码做什么。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 故事生成一点，就在终端显示一点；结束后，程序把完整文字保存到 "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "finalText"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "，供下一步提取事实时使用。英文 Prompt 保留在原代码中，上面另附完整中文版。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "调用支持结构化输出的 "
+                          },
+                          {
+                            "role": "link",
+                            "name": "generateText()",
+                            "ref": "@e151",
+                            "children": [
+                              {
+                                "role": "code",
+                                "children": [
+                                  {
+                                    "role": "StaticText",
+                                    "name": "generateText()"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "第二步，等故事文字全部输出完后，调用 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "generateText()"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "，通过提示词让模型列出这颗星球的事实，并把上一步保存的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "finalText"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 作为故事内容传入。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "待你完成的片段"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e152",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "// TODO: Replace this with a call to generateText, passing:\n// - The model, same as above\n// - The prompt, asking for facts about the imaginary planet,\n//   passing in the finalText as the story\n// - The output, which should be Output.object({}), passing\n//   the schema: z.object({\n//     facts: z.array(z.string()).describe('The facts about the imaginary planet. Write as if you are a scientist.'),\n//   })\nconst factsResult = TODO;\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "中文理解（学习辅助，译注）：把 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "TODO"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 替换为一次 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "generateText"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 调用。传入与上一步相同的模型、要求提取虚构星球事实的提示词，并把 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "finalText"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 作为故事传入。"
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "output"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 使用 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Output.object({})"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "，其中的 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "schema"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 使用注释中给出的 "
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“Zod”的术语解释",
+                        "description": "查看术语解释：Zod",
+                        "ref": "@e153",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Zod"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“对象（object）”的术语解释",
+                        "description": "查看术语解释：对象（object）",
+                        "ref": "@e154",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "对象"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "规则："
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "facts"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 是字符串数组。这里保留的是待你完成的练习，没有补写函数调用或答案。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "中文版 Prompt（译注，对应 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": ".describe()"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 中的完整英文指令）："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "figure",
+                    "children": [
+                      {
+                        "role": "Figcaption",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "原文代码片段"
+                          },
+                          {
+                            "role": "button",
+                            "name": "复制代码",
+                            "ref": "@e155",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "复制"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "关于这个虚构星球的事实。请用科学家的口吻写。\n"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "你还需要从 AI SDK 导入 "
+                      },
+                      {
+                        "role": "link",
+                        "name": "Output",
+                        "ref": "@e156",
+                        "children": [
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "Output"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "，并与 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "generateText"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 配合使用。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "使用 "
+                          },
+                          {
+                            "role": "link",
+                            "name": "Output.object()",
+                            "ref": "@e157",
+                            "children": [
+                              {
+                                "role": "code",
+                                "children": [
+                                  {
+                                    "role": "StaticText",
+                                    "name": "Output.object()"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 方法定义结构化输出"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "第三步，向这个方法传入一个带有 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "schema"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 属性的对象。这里的 "
+                      },
+                      {
+                        "role": "button",
+                        "name": "查看“数据结构规则（schema）”的术语解释",
+                        "description": "查看术语解释：数据结构规则（schema）",
+                        "ref": "@e158",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "schema"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 是一份结果格式说明：它应当是一个 "
+                      },
+                      {
+                        "role": "link",
+                        "name": "Zod",
+                        "ref": "@e159",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Zod"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 对象，并规定 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "facts"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 字段必须是字符串数组。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "记得在字段上使用 "
+                      },
+                      {
+                        "role": "link",
+                        "name": ".describe()",
+                        "ref": "@e160",
+                        "children": [
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": ".describe()"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "，用文字说明字段应当包含什么，从而引导模型生成更符合要求的结果。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "输出结构化结果"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "第四步，从结果对象中取得结构化输出，并将它显示在终端中。"
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "运行你的解决方案"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "最后，使用 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "pnpm run dev"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 运行代码，并确认："
+                      }
+                    ]
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "1. "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "虚构星球的故事会在生成过程中逐步显示在终端中。"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "2. "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "返回的事实是一个结构化对象，其中包含一个字符串数组。"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "3. "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "这些事实采用了科学家的写作口吻。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "（可选）尝试另一种做法"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "完成练习后，看看你能否用 "
+                      },
+                      {
+                        "role": "link",
+                        "name": "generateObject()",
+                        "ref": "@e161",
+                        "children": [
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "generateObject()"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 实现第 6 版方案，而不使用 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "generateText()"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 与 "
+                      },
+                      {
+                        "role": "code",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "Output.object()"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": " 的组合。两种方式都能使用，不过其中一种是较新的模式。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "更新说明（2026-10-13）：版本表述有差异。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 上一段保留了原文对“第 6 版方案”的说法。AI SDK 官方的 "
+                          },
+                          {
+                            "role": "link",
+                            "name": "5.x → 6.0 迁移指南",
+                            "ref": "@e162",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "5.x → 6.0 迁移指南"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "说明：第 6 版已弃用 "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "generateObject"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 和 "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "streamObject"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "，建议改用带 "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "output"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 设置的 "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "generateText"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 或 "
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "streamText"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "。因此，不能把上一段理解为“"
+                          },
+                          {
+                            "role": "code",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "generateObject()"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 是第 6 版较新的推荐模式”。“弃用”表示不再推荐继续采用，并不等于在第 6 版立即不可用。这里没有替换原例，也没有补写解答；实际练习仍需核对课程项目的依赖版本。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "视频文字稿 前往“视频文字稿”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "视频文字稿"
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“视频文字稿”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e163"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "heading",
+                    "name": "查看 Matt 的解答： 前往“查看 Matt 的解答：”章节",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "查看 Matt 的解答："
+                      },
+                      {
+                        "role": "link",
+                        "name": "前往“查看 Matt 的解答：”章节",
+                        "description": "复制或分享本节链接",
+                        "ref": "@e164"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "list",
+                    "children": [
+                      {
+                        "role": "listitem",
+                        "children": [
+                          {
+                            "role": "ListMarker",
+                            "name": "• "
+                          },
+                          {
+                            "role": "link",
+                            "name": "通过 Output 生成对象：解答入口（原站）",
+                            "ref": "@e165",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "通过 Output 生成对象：解答入口（原站）"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "paragraph",
+                    "children": [
+                      {
+                        "role": "link",
+                        "name": "登录原站",
+                        "ref": "@e166",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "登录原站"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "以保存课程进度。"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "blockquote",
+                    "children": [
+                      {
+                        "role": "paragraph",
+                        "children": [
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "译注：材料缺口。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": " 本次来源只有“视频文字稿”标题，没有取得文字稿内容；不据此判断原站是否另有文字稿。以上课程访问、解答和登录均为原站入口，本地页不提供视频、答案或保存学习进度的功能。"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "region",
+                    "name": "运行后，检查这三项结果",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "中文学习辅助"
+                      },
+                      {
+                        "role": "heading",
+                        "name": "运行后，检查这三项结果",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "运行后，检查这三项结果"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "list",
+                        "children": [
+                          {
+                            "role": "listitem",
+                            "children": [
+                              {
+                                "role": "ListMarker",
+                                "name": "1. "
+                              },
+                              {
+                                "role": "StaticText",
+                                "name": "星球故事会在终端中边生成、边显示。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "listitem",
+                            "children": [
+                              {
+                                "role": "ListMarker",
+                                "name": "2. "
+                              },
+                              {
+                                "role": "StaticText",
+                                "name": "程序返回一个对象，其中的 "
+                              },
+                              {
+                                "role": "code",
+                                "children": [
+                                  {
+                                    "role": "StaticText",
+                                    "name": "facts"
+                                  }
+                                ]
+                              },
+                              {
+                                "role": "StaticText",
+                                "name": " 字段是字符串数组，每一项都是从故事中提取的星球信息。"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "listitem",
+                            "children": [
+                              {
+                                "role": "ListMarker",
+                                "name": "3. "
+                              },
+                              {
+                                "role": "StaticText",
+                                "name": "这些信息读起来像科学家对这颗虚构星球的描述。"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "region",
+                    "name": "关联阅读",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "下一步学习"
+                      },
+                      {
+                        "role": "heading",
+                        "name": "关联阅读",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "关联阅读"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "课程原页 回到本节英文课程 确认课程准备材料和上下文，再开始动手练习。 打开原文资源 ↗",
+                        "ref": "@e167",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "课程原页"
+                          },
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "回到本节英文课程"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "确认课程准备材料和上下文，再开始动手练习。"
+                          },
+                          {
+                            "role": "emphasis",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "打开原文资源 ↗"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "官方文档 AI SDK结构化数据说明 需要查阅Output及结构化输出的详细用法时，再打开原文引用的文档。 打开原文资源 ↗",
+                        "ref": "@e168",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "官方文档"
+                          },
+                          {
+                            "role": "strong",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "AI SDK结构化数据说明"
+                              }
+                            ]
+                          },
+                          {
+                            "role": "StaticText",
+                            "name": "需要查阅Output及结构化输出的详细用法时，再打开原文引用的文档。"
+                          },
+                          {
+                            "role": "emphasis",
+                            "children": [
+                              {
+                                "role": "StaticText",
+                                "name": "打开原文资源 ↗"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "role": "sectionfooter",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "作者："
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "Matt Pocock"
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "原文更新："
+                      },
+                      {
+                        "role": "StaticText",
+                        "name": "2025/9/9"
+                      },
+                      {
+                        "role": "link",
+                        "name": "查看英文原文 ↗",
+                        "ref": "@e169",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "查看英文原文 ↗"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "role": "complementary",
+                "name": "学习工具",
+                "children": [
+                  {
+                    "role": "button",
+                    "name": "术语速查 · 10",
+                    "ref": "@e170",
+                    "children": [
+                      {
+                        "role": "StaticText",
+                        "name": "术语速查 · 10"
+                      }
+                    ]
+                  },
+                  {
+                    "role": "StaticText",
+                    "name": "本文目录"
+                  },
+                  {
+                    "role": "navigation",
+                    "name": "本文目录",
+                    "children": [
+                      {
+                        "role": "link",
+                        "name": "学习起点",
+                        "ref": "@e171",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "学习起点"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "需要完成的步骤",
+                        "ref": "@e172",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "需要完成的步骤"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "视频文字稿",
+                        "ref": "@e173",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "视频文字稿"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "查看 Matt 的解答：",
+                        "ref": "@e174",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "查看 Matt 的解答："
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "完成检查",
+                        "ref": "@e175",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "完成检查"
+                          }
+                        ]
+                      },
+                      {
+                        "role": "link",
+                        "name": "关联阅读",
+                        "ref": "@e176",
+                        "children": [
+                          {
+                            "role": "StaticText",
+                            "name": "关联阅读"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

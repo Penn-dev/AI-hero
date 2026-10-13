@@ -7,11 +7,35 @@
       "sourceUrl": "https://www.aihero.dev/a-complete-guide-to-agents-md",
       "sourceHash": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
       "translationPath": "content/learning/agents-md/article.md",
-      "translationHash": "cb1a80668e3dc15eed967e775bca4ec4612c1003ea892025d09d9d5e3ae94ac5",
-      "status": "translated-revised-learning-page",
-      "translatedAt": "2026-09-14T10:26:47.492Z",
-      "workflow": "Sol/medium edited revision; governance spot-check; deterministic page assembly and local browser acceptance",
-      "revisedAt": "2026-09-24"
+      "translationHash": "bf2c149382aada03300b6dacac483d315a148867fc0acc5f2abf43b6f4463562",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T05:04:31.508Z",
+      "assembly": {
+        "configHash": "53fe87b8ed59afe0d44b5527b769b0483e35c863f1ffc41af5b7d71ca6ffdf29",
+        "checkedAt": "2026-10-13T05:04:31.508Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": [
+          {
+            "route": "/ai-coding-dictionary/agent",
+            "sourceHash": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+            "currentSourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91"
+          },
+          {
+            "route": "/ai-coding-dictionary/progressive-disclosure",
+            "sourceHash": "572e1cc2312329cd09712c5649c08d41af96c27523965f75932dccba0ebcec45",
+            "currentSourceHash": "5d66bc98fae76fc8d8df7eb8d4b0f6d514832a21b2340a224e8c33b791f3ec73"
+          }
+        ]
+      }
     },
     {
       "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
@@ -86,13 +110,88 @@
     {
       "route": "/ai-coding-dictionary/system-prompt",
       "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/system-prompt",
-      "sourceHash": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+      "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
       "translationPath": "content/learning/system-prompt/article.md",
-      "translationHash": "fc4a6abf24d7c9a83ba2c9860108074c4edba13c924f506aa335869b2bf83e76",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Single-page revision using shared knowledge and source review; previous Terra/Sol and A/B artifacts retained",
-      "revisedAt": "2026-09-22"
+      "translationHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T05:04:30.070Z",
+      "assembly": {
+        "configHash": "4daee2e0fc614eb7c59faa0fe38a20332d16930115024a9107f4505751ecd247",
+        "checkedAt": "2026-10-13T05:04:30.070Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [
+          {
+            "route": "/ai-coding-dictionary",
+            "state": "planned-chinese",
+            "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+          },
+          {
+            "route": "/ai-coding-dictionary/harness",
+            "state": "planned-chinese",
+            "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+          },
+          {
+            "route": "/ai-coding-dictionary/model-provider-request",
+            "state": "planned-chinese",
+            "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+          },
+          {
+            "route": "/ai-coding-dictionary/model",
+            "state": "planned-chinese",
+            "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+          },
+          {
+            "route": "/ai-coding-dictionary/tool",
+            "state": "planned-chinese",
+            "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+          },
+          {
+            "route": "/ai-coding-dictionary/session",
+            "state": "planned-chinese",
+            "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+          },
+          {
+            "route": "/ai-coding-dictionary/token",
+            "state": "planned-chinese",
+            "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+          },
+          {
+            "route": "/ai-coding-dictionary/turn",
+            "state": "planned-chinese",
+            "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+          },
+          {
+            "route": "/ai-coding-dictionary/input-tokens",
+            "state": "planned-chinese",
+            "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+          },
+          {
+            "route": "/ai-coding-dictionary/agents-md",
+            "state": "planned-chinese",
+            "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+          }
+        ],
+        "staleChineseTargets": [
+          {
+            "route": "/ai-coding-dictionary/agent",
+            "sourceHash": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+            "currentSourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91"
+          },
+          {
+            "route": "/ai-coding-dictionary/prefix-cache",
+            "sourceHash": "1b3aa55261ba6fa24279cef97d89074f7b9fdec0f9851077b8978bef63198e4f",
+            "currentSourceHash": "9101031d9fd11f9e7f593a8ec5038ad595d6f0bda46622f0cb8ebe5634d3a295"
+          }
+        ]
+      }
     },
     {
       "route": "/ai-coding-dictionary/agent",
@@ -167,12 +266,42 @@
     {
       "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
       "sourceUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
-      "sourceHash": "df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54",
+      "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5",
       "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
-      "translationHash": "16ee8dcba4363b5950861cc317a0d671137ed535dd2d19b6d9081e0861257548",
-      "status": "translated-estimate-special-sample",
-      "translatedAt": "2026-09-14T16:26:06.637Z",
-      "workflow": "Terra/medium initial translation; Sol/medium editorial review"
+      "translationHash": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T05:04:32.377Z",
+      "assembly": {
+        "configHash": "fdf823ca9423b90a2f74d8f04fe6b77d2ff9bd98cb0e90fc1b76cd253d7140f1",
+        "checkedAt": "2026-10-13T05:04:32.377Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [
+          {
+            "route": "/workshops/ai-sdk-v6-crash-course",
+            "state": "planned-chinese",
+            "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+          },
+          {
+            "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution",
+            "state": "planned-chinese",
+            "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+          },
+          {
+            "route": "/login",
+            "state": "planned-chinese",
+            "reason": "原站功能或未取得材料，仅保留原入口，不计为中文完成。"
+          }
+        ],
+        "staleChineseTargets": []
+      }
     }
   ]
 }

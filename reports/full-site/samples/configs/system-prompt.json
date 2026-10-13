@@ -1,0 +1,328 @@
+{
+  "route": "/ai-coding-dictionary/system-prompt",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/system-prompt.md",
+    "sha256": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a"
+  },
+  "chineseFile": "reports/full-site/samples/drafts/system-prompt.md",
+  "learning": {
+    "sources": {
+      "samples-system-prompt-source": {
+        "path": "content/source/ai-coding-dictionary/system-prompt.md",
+        "sha256": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a"
+      },
+      "dictionary-source": {
+        "path": "content/learning/shared/source-snapshots/system-prompt-071bde5.md",
+        "sha256": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0"
+      }
+    },
+    "profile": {
+      "kind": "dictionary",
+      "sourceIds": [
+        "samples-system-prompt-source",
+        "dictionary-revised-translation",
+        "guide-source"
+      ],
+      "conceptIds": [
+        "system-prompt",
+        "prompt",
+        "model-provider-request",
+        "model",
+        "harness",
+        "tool",
+        "token",
+        "prefix-cache",
+        "agent",
+        "session",
+        "turn",
+        "input-tokens",
+        "agents-md",
+        "markdown",
+        "context",
+        "tool-call",
+        "tool-result"
+      ],
+      "prerequisiteIds": [
+        "prompt",
+        "harness",
+        "model-provider-request"
+      ],
+      "start": {
+        "title": "一句话理解",
+        "summary": "系统提示词，就是随请求交给模型的一份基础工作说明：你是谁、怎样做事、要遵守哪些约定。",
+        "cards": [
+          {
+            "title": "系统提示词：基础行为",
+            "text": "例如，要求助手侧重解释思路。这类规则会影响它如何回应不同任务。"
+          },
+          {
+            "title": "用户消息：本次任务",
+            "text": "例如，“请解释这段代码”。模型回答时会同时参考本次任务和适用的基础规则。"
+          },
+          {
+            "title": "项目规则：另一种来源",
+            "text": "AGENTS.md可以提供项目约定。它和系统提示词可能一起进入请求，但不是同一个文件，加载方式取决于工具。"
+          }
+        ]
+      },
+      "bodyTitle": "定义与用法",
+      "originalExamples": [
+        {
+          "sourceId": "samples-system-prompt-source",
+          "text": "Two harnesses, same model, totally different behavior on the same prompt."
+        },
+        {
+          "sourceId": "samples-system-prompt-source",
+          "text": "Different system prompts. One's tuned for terse code edits, the other for explaining — that's where the divergence lives, before your message even arrives."
+        }
+      ],
+      "related": [
+        {
+          "format": "中文指南",
+          "title": "AGENTS.md完整指南",
+          "description": "想给AI加入自己的长期项目规则？继续了解AGENTS.md与系统提示词的关系。",
+          "href": "/a-complete-guide-to-agents-md"
+        },
+        {
+          "format": "英文词条",
+          "title": "智能体执行框架（harness）",
+          "description": "进一步理解谁把模型、规则和工具组织在一起。",
+          "href": "https://www.aihero.dev/ai-coding-dictionary/harness"
+        }
+      ],
+      "glossary": [
+        {
+          "id": "term-system-prompt",
+          "term": "系统提示词（system prompt）",
+          "aliases": [
+            "系统提示词",
+            "system prompt"
+          ],
+          "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。"
+        },
+        {
+          "id": "term-prompt",
+          "term": "提示词（prompt）",
+          "aliases": [
+            "提示词",
+            "prompt",
+            "Prompt 文本"
+          ],
+          "definition": "交给 AI 的任务说明、指令或输入文本。"
+        },
+        {
+          "id": "term-model-provider-request",
+          "term": "模型提供商请求（model provider request）",
+          "aliases": [
+            "模型提供商请求",
+            "model provider request",
+            "模型请求"
+          ],
+          "definition": "执行框架向模型服务发送一次输入，并取得一次模型回应的往返过程。"
+        },
+        {
+          "id": "term-model",
+          "term": "模型（model）",
+          "aliases": [
+            "模型",
+            "model",
+            "AI 模型"
+          ],
+          "definition": "根据输入产生预测或回答的计算模型；在本文本模型语境中，它接收文字片段并预测后续片段。"
+        },
+        {
+          "id": "term-harness",
+          "term": "智能体执行框架（harness）",
+          "aliases": [
+            "智能体执行框架",
+            "harness",
+            "执行框架"
+          ],
+          "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。"
+        },
+        {
+          "id": "term-tool",
+          "term": "工具（tool）",
+          "aliases": [
+            "工具",
+            "tool",
+            "工具函数"
+          ],
+          "definition": "供 AI 助手请求调用、由软件执行的功能，例如读取文件或运行命令。"
+        },
+        {
+          "id": "term-token",
+          "term": "Token",
+          "aliases": [
+            "Token",
+            "token",
+            "词元"
+          ],
+          "definition": "模型读取和生成文本时使用的基本单位，不等同于一个汉字或一个英文单词。"
+        },
+        {
+          "id": "term-prefix-cache",
+          "term": "前缀缓存（prefix cache）",
+          "aliases": [
+            "前缀缓存",
+            "prefix cache"
+          ],
+          "definition": "模型服务复用请求开头相同部分的已处理结果的机制。"
+        },
+        {
+          "id": "term-agent",
+          "term": "智能体（agent）",
+          "aliases": [
+            "智能体",
+            "agent",
+            "AI 编码智能体",
+            "AI coding agent"
+          ],
+          "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。"
+        },
+        {
+          "id": "term-session",
+          "term": "会话（session）",
+          "aliases": [
+            "会话",
+            "session"
+          ],
+          "definition": "与 AI 助手进行的一段有边界的交互，期间积累消息与工作记录。"
+        },
+        {
+          "id": "term-turn",
+          "term": "工作轮次（turn）",
+          "aliases": [
+            "工作轮次",
+            "turn",
+            "轮次"
+          ],
+          "definition": "从用户发来一条消息，到助手完成本次响应并交回控制权的一轮交互，可包含多次模型请求。"
+        },
+        {
+          "id": "term-input-tokens",
+          "term": "输入 Token（input tokens）",
+          "aliases": [
+            "输入 Token",
+            "input tokens"
+          ],
+          "definition": "一次模型请求中交给模型读取的 Token，包括指令、消息及提供的工具结果等。"
+        },
+        {
+          "id": "term-agents-md",
+          "term": "AGENTS.md",
+          "aliases": [
+            "AGENTS.md"
+          ],
+          "definition": "供支持这一约定的 AI 编码工具读取的项目说明文件，用来提供项目规则与工作指引。"
+        },
+        {
+          "id": "term-markdown",
+          "term": "Markdown",
+          "aliases": [
+            "Markdown"
+          ],
+          "definition": "用简单文字标记表示标题、列表和链接等格式的写法。"
+        },
+        {
+          "id": "term-context",
+          "term": "上下文（context）",
+          "aliases": [
+            "上下文",
+            "context"
+          ],
+          "definition": "当前任务相关、已提供给助手使用的信息。"
+        },
+        {
+          "id": "term-tool-call",
+          "term": "工具调用请求（tool call）",
+          "aliases": [
+            "工具调用请求",
+            "tool call"
+          ],
+          "definition": "模型给出的工具名称和参数等调用指令；指令本身不等于动作已经执行。"
+        },
+        {
+          "id": "term-tool-result",
+          "term": "工具结果（tool result）",
+          "aliases": [
+            "工具结果",
+            "tool result"
+          ],
+          "definition": "执行工具后返回给助手的信息，例如文件内容、命令输出或错误。"
+        }
+      ],
+      "check": {
+        "title": "读完后，试着回答",
+        "items": [],
+        "questions": [
+          {
+            "question": "为什么同一个模型，在两个工具里可能表现不同？",
+            "answer": "执行框架可能提供了不同的系统提示词和其他输入。"
+          },
+          {
+            "question": "你发出消息前，模型是否已经读过系统提示词？",
+            "answer": "不能这样推断；输入排列顺序不代表提前处理。"
+          },
+          {
+            "question": "系统提示词不变，就一定更省钱吗？",
+            "answer": "不一定，还要看缓存是否命中和服务如何计费。"
+          }
+        ]
+      },
+      "originalExamplesInline": true
+    }
+  },
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "planned-chinese",
+      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "planned-chinese",
+      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "planned-chinese",
+      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "planned-chinese",
+      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "planned-chinese",
+      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+    }
+  ]
+}
