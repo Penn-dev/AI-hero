@@ -1,0 +1,27 @@
+{
+  "route": "/how-to-improve-your-llm-powered-app",
+  "source": {
+    "path": "content/source/how-to-improve-your-llm-powered-app.md",
+    "sha256": "638af6b5b111de1fa8219209d191a708a37eb67bb3e38efca0008c3a60c61f80"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-09/drafts/how-to-improve-your-llm-powered-app.md",
+  "translationPath": "content/zh/how-to-improve-your-llm-powered-app.md",
+  "linkTargets": [
+    {
+      "route": "/the-ai-engineer-mindset",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/system-prompts-with-vercel-ai-sdk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/structured-outputs-with-vercel-ai-sdk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/tool-calls-with-vercel-ai-sdk",
+      "state": "available-chinese"
+    }
+  ]
+}

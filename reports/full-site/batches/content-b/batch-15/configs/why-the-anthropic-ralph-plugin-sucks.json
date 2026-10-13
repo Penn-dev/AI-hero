@@ -1,0 +1,23 @@
+{
+  "route": "/why-the-anthropic-ralph-plugin-sucks",
+  "source": {
+    "path": "content/source/why-the-anthropic-ralph-plugin-sucks.md",
+    "sha256": "6ed9c1164a965fb931d345309e65cb0f8bbeff0cc7bb5d678a9d08108d6c55b4"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-15/drafts/why-the-anthropic-ralph-plugin-sucks.md",
+  "translationPath": "content/zh/why-the-anthropic-ralph-plugin-sucks.md",
+  "linkTargets": [
+    {
+      "route": "/getting-started-with-ralph",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "state": "available-chinese"
+    }
+  ]
+}

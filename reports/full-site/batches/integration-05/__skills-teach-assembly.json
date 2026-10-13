@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-17/configs/skills-teach.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-teach",
+      "manifest": {
+        "route": "/skills-teach",
+        "sourceUrl": "https://www.aihero.dev/skills-teach",
+        "sourceHash": "9e15a9c39bccc9bf6ed72085209828712df422d9087aaccc2490fada45c2f71c",
+        "translationPath": "content/zh/skills-teach.md",
+        "translationHash": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:32.875Z",
+        "assembly": {
+          "configHash": "0fd807a18451e68441d3dd9670eedbbdcb21af66b54e0fa97c65d3f2f58a4d20",
+          "checkedAt": "2026-10-13T13:02:32.875Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/parametric-knowledge",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/stateful",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-teach.md",
+          "sha256": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a3f0a525de2e476e7fc81fe2540288f5aa847f6dce09a1acb8acc7b9996ee8cf"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "5aa0ed449872f66399f11bd83951416dc79e3a596124f1298698e7c6cc4a2571"
+        }
+      ],
+      "rawOutputSha256": "3a6f2cdd84de434da81d8ba11c9b58619a8b5083a9a78e59553fe0c408d94df0"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-teach",
+      "manifest": {
+        "route": "/skills-teach",
+        "sourceUrl": "https://www.aihero.dev/skills-teach",
+        "sourceHash": "9e15a9c39bccc9bf6ed72085209828712df422d9087aaccc2490fada45c2f71c",
+        "translationPath": "content/zh/skills-teach.md",
+        "translationHash": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:33.101Z",
+        "assembly": {
+          "configHash": "0fd807a18451e68441d3dd9670eedbbdcb21af66b54e0fa97c65d3f2f58a4d20",
+          "checkedAt": "2026-10-13T13:02:33.101Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/parametric-knowledge",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/stateful",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-teach.md",
+          "sha256": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a3f0a525de2e476e7fc81fe2540288f5aa847f6dce09a1acb8acc7b9996ee8cf"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "78b546db1a41d5a424000b43be97bbcd605de51d3acd86c9775f126dfc2207da"
+        }
+      ],
+      "rawOutputSha256": "3b84ff6a53d81ac153a510cb02d82fc6e761fd8dc8b86f44b98d39c189364c17"
+    }
+  ],
+  "nonTargetPagesPreserved": 159
+}

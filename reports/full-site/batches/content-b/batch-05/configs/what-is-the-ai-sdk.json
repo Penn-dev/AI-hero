@@ -9,8 +9,7 @@
   "linkTargets": [
     {
       "route": "/workshops/ai-sdk-v6-crash-course",
-      "state": "planned-chinese",
-      "reason": "完整中文目标由工程接入后刷新；暂缺阶段由现有入口回退原站，不计作中文目标已完成。"
+      "state": "available-chinese"
     }
   ]
 }

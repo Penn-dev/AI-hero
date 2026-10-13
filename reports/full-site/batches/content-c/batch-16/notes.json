@@ -1,0 +1,16 @@
+{
+ "/skills-grill-with-docs": {
+  "information": "逐节核对所有正文/两表/问答，保留stateful、按需文件、两依赖、三类决定去向、非所有决定持久化、缺文档两种原因和依赖漏载等限制。",
+  "naturalChinese": "完整通读，单/多会话范围、词汇表与规格区别清晰，保留作者与反对意见，不统一转述。",
+  "necessaryConcepts": "就近解释GLOSSARY/ADR，补stateful/context-window/spec中文导航；没有把文件未生成一律当bug。",
+  "codeAndLinks": "唯一原流程围栏、全部行内调用/文件名及原URL保留；help me document my repo 英文保留并配完整中文Prompt。",
+  "gaps": ["未运行访谈或创建项目文档；导航 planned 待工程刷新。"]
+ },
+ "/skills-improve-codebase-architecture": {
+  "information": "逐节核对完整调查流程、表格、全部问答和阶段行为。保留删除测试方向、热路径、候选强度、先报告后选择、CDN/SRI问题、宿主工具限制、无TypeScript布局等内容。",
+  "naturalChinese": "全文通读，明确只调查不改代码、后续正常开发；保留作者关于低收益候选、传统代码库效果有限等判断。",
+  "necessaryConcepts": "解释接缝/ADR、局部性/杠杆效应、CDN/SRI，原文仅新增报告检查项与后续词汇表写入差别在译注指出；补中文概念导航。",
+  "codeAndLinks": "全部原行内路径/标签/工具参数与URL保留；how can we make this change easy 两处及 don't grill me 完整英文保留并附可复制中文，用户引用配中文理解。",
+  "gaps": ["没有运行架构扫描或HTML报告，未验证CDN脚本或宿主支持；导航 planned 待工程刷新。"]
+ }
+}

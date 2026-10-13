@@ -1,0 +1,106 @@
+{
+  "batch": "batch-10",
+  "results": [
+    {
+      "route": "/connect-claude-code-to-github",
+      "sourceHash": "19af8b59a3fa6e1ea8578c13b34f32c41c58cd6d4d6f4211356840cc05ebc929",
+      "translationHash": "15c0deb6be8f103a2b1afdcf63e77bf6498fb9d12f9581ec72137d44c1eab053",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 1,
+      "headings": 0,
+      "resources": [
+        "https://www.aihero.dev/connect-claude-code-to-github",
+        "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview",
+        "https://github.com/settings/personal-access-tokens"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "sourceHash": "a40c2bb8ea0b2642d26f46d1263d8b42f69060efeabd09f7b61b77af5169b75f",
+      "translationHash": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 6,
+      "headings": 5,
+      "resources": [
+        "https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum",
+        "/tips-for-ai-coding-with-ralph-wiggum",
+        "https://www.typescriptlang.org/",
+        "https://vitest.dev/",
+        "https://typicode.github.io/husky/",
+        "https://www.youtube.com/watch?v=pSritFeoYFo",
+        "https://github.com/lint-staged/lint-staged",
+        "https://prettier.io/",
+        "https://eslint.org/"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/how-to-make-codebases-ai-agents-love",
+      "sourceHash": "40a7ff2177718517f985097be09c6ea0be58f54b2d0b7eccdb10009edcbad2a7",
+      "translationHash": "7e5a3b8105bf097b71431b3f0950fff11f6292970f68ea60985b2ed8a6a8cd33",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 7,
+      "resources": [
+        "https://res.cloudinary.com/total-typescript/image/upload/v1772100427/ai-hero-images/fowryjzju9yyefcquhpw.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1772100428/ai-hero-images/alyzcymusoj0qby2wfhc.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1772100429/ai-hero-images/ik0zge6zd8iljkpot3ge.png",
+        "/skills-improve-codebase-architecture",
+        "https://www.aihero.dev/skills-improve-codebase-architecture",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1772100430/ai-hero-images/ht6pvgjykcliwinioaxx.png"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/how-to-use-claude-code-hooks-to-enforce-the-right-cli",
+      "sourceHash": "fff11ed5db1e28bed540a1014770565b9bc19fc11894e5976de922a9cce0bdaf",
+      "translationHash": "a9c04527153350bda7888ab5021b91dcbbac6208f5f06afea4fead1b0c9ec73b",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 7,
+      "headings": 3,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+      "sourceHash": "205716a0696332278a24c19c46539f26559bd3589c3835bfae83f52885b31693",
+      "translationHash": "a3ea323132daa07be646f4a6807739a548b12fd693262d2e2569534544d02e30",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 4,
+      "headings": 3,
+      "resources": [
+        "https://res.cloudinary.com/total-typescript/image/upload/v1768312499/ai-hero-images/xovcskktfuk5pii70fxe.png",
+        "https://www.aihero.dev/my-agents-md-file-for-building-plans-you-actually-read"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "sourceHash": "d6b944eb7ebee0bf5bda5267f7cd7f7ca5db44f7b1baa7315d467e75dd1a5a87",
+      "translationHash": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 4,
+      "headings": 8,
+      "resources": [
+        "https://www.aihero.dev/getting-started-with-ralph",
+        "/getting-started-with-ralph",
+        "https://docs.docker.com/ai/sandboxes/",
+        "https://www.aihero.dev/this-hook-stops-claude-code-running-dangerous-git-commands"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

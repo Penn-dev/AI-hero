@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-13/configs/skills__skills-changelog-ubiquitous-language-grill-with-docs.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "manifest": {
+        "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+        "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+        "translationPath": "content/zh/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+        "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:42.744Z",
+        "assembly": {
+          "configHash": "b4a2dbef223d0513efca4d0ce7e3dfeab4c1ae40f2035544a2fca0b2db7148d1",
+          "checkedAt": "2026-10-13T13:02:42.744Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+          "sha256": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b5c7cde2fbbc20bcf60dd545918de1e5e448cb600dec7845a9d09321713d15eb"
+        }
+      ],
+      "rawOutputSha256": "a982f2b94cb9d3500f3ed69fb58f191e247793eb1a655b910340785719280738"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "manifest": {
+        "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+        "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+        "translationPath": "content/zh/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+        "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:43.008Z",
+        "assembly": {
+          "configHash": "b4a2dbef223d0513efca4d0ce7e3dfeab4c1ae40f2035544a2fca0b2db7148d1",
+          "checkedAt": "2026-10-13T13:02:43.008Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+          "sha256": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "225dd614606d5af21c87819ed6a7800b3d167390a51be4e466f141248d1f7db2"
+        }
+      ],
+      "rawOutputSha256": "8fa24c2210bf435225e3bcb6d3c2f33d0f75293111bab62968dbd8c49057e7c4"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

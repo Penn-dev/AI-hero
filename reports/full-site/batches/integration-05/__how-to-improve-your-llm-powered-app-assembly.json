@@ -1,0 +1,135 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-09/configs/how-to-improve-your-llm-powered-app.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/how-to-improve-your-llm-powered-app",
+      "manifest": {
+        "route": "/how-to-improve-your-llm-powered-app",
+        "sourceUrl": "https://www.aihero.dev/how-to-improve-your-llm-powered-app",
+        "sourceHash": "638af6b5b111de1fa8219209d191a708a37eb67bb3e38efca0008c3a60c61f80",
+        "translationPath": "content/zh/how-to-improve-your-llm-powered-app.md",
+        "translationHash": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:26.451Z",
+        "assembly": {
+          "configHash": "2852d564eead62ee3bedc9ebe0e420b5c872df2fc22ed5f6855037532ae0bafd",
+          "checkedAt": "2026-10-13T13:04:26.451Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/the-ai-engineer-mindset",
+              "state": "planned-chinese",
+              "reason": "完整中文已交对应批次，待工程确认接入后刷新；同时保留英文原站。"
+            },
+            {
+              "route": "/system-prompts-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "完整中文已交对应批次，待工程确认接入后刷新；同时保留英文原站。"
+            },
+            {
+              "route": "/structured-outputs-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "完整中文已交对应批次，待工程确认接入后刷新；同时保留英文原站。"
+            },
+            {
+              "route": "/tool-calls-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "完整中文已交对应批次，待工程确认接入后刷新；同时保留英文原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-improve-your-llm-powered-app.md",
+          "sha256": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "9540978573c29951486eeb1db31f08524a79e682981f8f0293fa1f41c92abe20"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "221e0604cdde8d90a8a59d4b50c4261fac41f548291a7a9dfe2ac8387de43ec9"
+        }
+      ],
+      "rawOutputSha256": "1a537e2e2fa2e852f51edf0e60dac243a9e898b2a4111c99789a95dcf430f699"
+    },
+    {
+      "mode": "apply",
+      "route": "/how-to-improve-your-llm-powered-app",
+      "manifest": {
+        "route": "/how-to-improve-your-llm-powered-app",
+        "sourceUrl": "https://www.aihero.dev/how-to-improve-your-llm-powered-app",
+        "sourceHash": "638af6b5b111de1fa8219209d191a708a37eb67bb3e38efca0008c3a60c61f80",
+        "translationPath": "content/zh/how-to-improve-your-llm-powered-app.md",
+        "translationHash": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:26.845Z",
+        "assembly": {
+          "configHash": "2852d564eead62ee3bedc9ebe0e420b5c872df2fc22ed5f6855037532ae0bafd",
+          "checkedAt": "2026-10-13T13:04:26.845Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/the-ai-engineer-mindset",
+              "state": "planned-chinese",
+              "reason": "完整中文已交对应批次，待工程确认接入后刷新；同时保留英文原站。"
+            },
+            {
+              "route": "/system-prompts-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "完整中文已交对应批次，待工程确认接入后刷新；同时保留英文原站。"
+            },
+            {
+              "route": "/structured-outputs-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "完整中文已交对应批次，待工程确认接入后刷新；同时保留英文原站。"
+            },
+            {
+              "route": "/tool-calls-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "完整中文已交对应批次，待工程确认接入后刷新；同时保留英文原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-improve-your-llm-powered-app.md",
+          "sha256": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "9540978573c29951486eeb1db31f08524a79e682981f8f0293fa1f41c92abe20"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a8bf53724f9b7fb4d99e0c36978753ce3b404c3ab7818cecd2f280f1a6caec09"
+        }
+      ],
+      "rawOutputSha256": "adf04972236ec380d380a49299d0c19f89e28262264fe514ee937dd02b740d5b"
+    }
+  ],
+  "nonTargetPagesPreserved": 166
+}

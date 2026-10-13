@@ -1,0 +1,9 @@
+{
+  "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+  "source": {
+    "path": "content/source/my-agents-md-file-for-building-plans-you-actually-read.md",
+    "sha256": "205716a0696332278a24c19c46539f26559bd3589c3835bfae83f52885b31693"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-10/drafts/my-agents-md-file-for-building-plans-you-actually-read.md",
+  "translationPath": "content/zh/my-agents-md-file-for-building-plans-you-actually-read.md"
+}

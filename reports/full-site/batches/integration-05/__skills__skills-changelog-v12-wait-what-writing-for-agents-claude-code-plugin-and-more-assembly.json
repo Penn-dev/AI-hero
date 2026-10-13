@@ -1,0 +1,155 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-22/configs/skills__skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "manifest": {
+        "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+        "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+        "translationPath": "content/zh/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+        "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:36.537Z",
+        "assembly": {
+          "configHash": "6d8502a957b9be6b67c8dc56d616205d06e9704ba65c5abe182fadd14c3373e4",
+          "checkedAt": "2026-10-13T13:02:36.537Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+          "sha256": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "5aa1410dfdf533f70a935fdf1fa0d467bceeaba15202af57f94849bd94cfe798"
+        }
+      ],
+      "rawOutputSha256": "f2a03ac2b27fba6e162825b815ba11e347278cceadd238b45abf9fce050e6b42"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "manifest": {
+        "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+        "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+        "translationPath": "content/zh/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+        "translationHash": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:36.822Z",
+        "assembly": {
+          "configHash": "6d8502a957b9be6b67c8dc56d616205d06e9704ba65c5abe182fadd14c3373e4",
+          "checkedAt": "2026-10-13T13:02:36.822Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+          "sha256": "c75146dabcb56a1aeb926db81d186dc8608110cfb3ed1a7230142f9c4001d560"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b299caf7e38f04eda6c07cae120a2fa0a5da8d3cb3335da26fa49b8174e764a1"
+        }
+      ],
+      "rawOutputSha256": "3261165e83d8e3a8bfbdde23a98a48491fd3acf110d0380d31e126f8d40203a4"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

@@ -1,0 +1,10 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-21/drafts/skills__skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+      "sha256": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

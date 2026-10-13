@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-18/configs/skills-triage.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-triage",
+      "manifest": {
+        "route": "/skills-triage",
+        "sourceUrl": "https://www.aihero.dev/skills-triage",
+        "sourceHash": "52c5c6b3c93fd68b00abfc0f22e51f138afc532852a73ca0122a08addbdd8730",
+        "translationPath": "content/zh/skills-triage.md",
+        "translationHash": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:44.405Z",
+        "assembly": {
+          "configHash": "abb797a304f9478bc6462bb05ee524b037242c8dfef930afb5a4234fd6056baa",
+          "checkedAt": "2026-10-13T13:02:44.405Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-triage.md",
+          "sha256": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b7dc49f1150554aca72cec393ea8b6481d72882a6ecd229117d84456d640ce4f"
+        }
+      ],
+      "rawOutputSha256": "9386279d5520cffbfd0f922ee5964a7b1d062c6b7ab7629c1f8fed8bee28bb1e"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-triage",
+      "manifest": {
+        "route": "/skills-triage",
+        "sourceUrl": "https://www.aihero.dev/skills-triage",
+        "sourceHash": "52c5c6b3c93fd68b00abfc0f22e51f138afc532852a73ca0122a08addbdd8730",
+        "translationPath": "content/zh/skills-triage.md",
+        "translationHash": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:44.636Z",
+        "assembly": {
+          "configHash": "abb797a304f9478bc6462bb05ee524b037242c8dfef930afb5a4234fd6056baa",
+          "checkedAt": "2026-10-13T13:02:44.636Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-triage.md",
+          "sha256": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1c90ff50d9901d2eeb98ee82314ca6b21efbe1d0e5216495ecfd86fedeed222d"
+        }
+      ],
+      "rawOutputSha256": "d646e556c0a87033f65c53a6bf22837c20ed43bfb3940ccd776123a7adaecc2a"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

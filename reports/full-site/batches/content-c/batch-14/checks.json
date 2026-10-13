@@ -1,0 +1,75 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sourcePath": "content/source/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "sourceHash": "7d7b01efd489d56ac7fc3e2fbb7ef4a85ced5fa3343ef13c23cef4fab1055c30",
+      "chineseFile": "reports/full-site/batches/content-c/batch-14/drafts/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "translationHash": "374ab717f7f8c3831359856416ae6cbb82f5ccb86a04e7db84c0c43810caa7ad",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "完整逐节核对升级、重命名、三新Skill、移除及小调整。保留团队单提交重命名、三种执行方式及作者推荐、整合分支与PR条件、代码审阅证据/风险、retro七方面且人工选择、十一调用方和六安装修复项。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "全文通读，保留第一人称判断、短句节奏与历史发布语境，未把命令执行或模型可靠性作为本次保证。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近解释 DDD、git mv、worktree、AFK；补子智能体/自动检查/人工参与中文导航。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "两段 bash 原命令按该页固定来源原样保留；全部行内名字、命令、元数据和原 URL 保留；两条人工执行、一条无效指令和新旧Skill调用原英文均附完整可复制中文，英文回答例有中文理解。",
+          "originalFencedBlocks": 2,
+          "originalMarkdownResourceOccurrences": 4
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未升级、删除、重命名或验证模型行为；中文导航 planned 待工程刷新。"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sourcePath": "content/source/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "sourceHash": "8f5dd02a02e0f99c1764faeeadee072c5b492794819cc1cfe575d21f4761d9d0",
+      "chineseFile": "reports/full-site/batches/content-c/batch-14/drafts/skills__skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "translationHash": "d7a8bfff7b2f860b12a08d09e31a6771d408bbc7a88e96983aef13481bebe674",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "正文逐节对照同题 post 后，单独核 page 版本的 H1/头像/作者、九处锚点、/skills入口、归档本地入口、CTA和分享包装，全部保留并区分来源。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "正文与同题页一致，页面外壳文案完整中文化，避免把发布日志叙述改写为当前操作保证。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "正文同样补必要背景和中文概念入口，CTA缺少链接在原位置披露。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "该页两段 shellscript 围栏单独从 page 源文取得，不沿用 post 的 bash 标签。全部原资源/头像/分享查询参数及标题锚点保留；中文 Prompt 完整。",
+          "originalFencedBlocks": 2,
+          "originalMarkdownResourceOccurrences": 18
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "课程推广源文没有入口，已披露。",
+        "/skills、归档页及中文概念导航配置 planned，工程按最终状态刷新。"
+      ]
+    }
+  ]
+}

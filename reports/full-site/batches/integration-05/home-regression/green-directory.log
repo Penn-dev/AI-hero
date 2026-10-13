@@ -1,0 +1,14 @@
+✔ workshop text prompts are not labelled as original code (20.246628ms)
+✔ public articles with an independent glossary retain original resources and Chinese term controls (30.49912ms)
+✔ explicit historical review keeps Chinese-only links and its term controls (16.790873ms)
+✔ explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English (10.529027ms)
+✔ the home page displays the frozen original homepage content instead of historical placeholder statistics (162.108363ms)
+✔ the home page offers a separate directory with every available Chinese deep route (87.859002ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1349.54996

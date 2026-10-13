@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-14/configs/things-people-get-wrong-with-grill-me-and-grill-with-docs.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "manifest": {
+        "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+        "sourceHash": "438655d047ea192d772e9ca192cf522dcb01cd6c3b3a7a3f27a97c69b168ccb3",
+        "translationPath": "content/zh/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+        "translationHash": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:38.019Z",
+        "assembly": {
+          "configHash": "df059c2ac0b9c3867b399df99e49fa186f3a57c96e9c11edcbdc4c1dd4e6f60d",
+          "checkedAt": "2026-10-13T13:04:38.019Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "同批中文正文待工程接入确认，保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+          "sha256": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "7cd746e8c0028d5ce372b4f3034d38a891fb4d72a0fd847a51a03e53620d65df"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "985bee7e21394cf9cb1a685c3a88db76f30a37b55c5801860fa90acfeccab9fc"
+        }
+      ],
+      "rawOutputSha256": "4eb9436af748b6d8c67136fe4051c7fb49b3834e17f11b686e54900591339e63"
+    },
+    {
+      "mode": "apply",
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "manifest": {
+        "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+        "sourceHash": "438655d047ea192d772e9ca192cf522dcb01cd6c3b3a7a3f27a97c69b168ccb3",
+        "translationPath": "content/zh/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+        "translationHash": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:38.319Z",
+        "assembly": {
+          "configHash": "df059c2ac0b9c3867b399df99e49fa186f3a57c96e9c11edcbdc4c1dd4e6f60d",
+          "checkedAt": "2026-10-13T13:04:38.319Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "同批中文正文待工程接入确认，保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+          "sha256": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "7cd746e8c0028d5ce372b4f3034d38a891fb4d72a0fd847a51a03e53620d65df"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4afb38a0076756d29816f6b850b021328160c42860ef42275ee98ea1c8a80055"
+        }
+      ],
+      "rawOutputSha256": "e6885825da03c2cffabe72b90bd14042d6dc45e4dd0c82fcca8023f8a13a5c08"
+    }
+  ],
+  "nonTargetPagesPreserved": 187
+}

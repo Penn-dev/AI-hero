@@ -1,0 +1,145 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-21/configs/skills__skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "manifest": {
+        "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+        "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+        "translationPath": "content/zh/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+        "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:35.907Z",
+        "assembly": {
+          "configHash": "9f99dec99c2a1cab58c2e38a5e81174362748ac802421c131c32cd8ff4fed4ea",
+          "checkedAt": "2026-10-13T13:02:35.907Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+          "sha256": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "9fc4f7da2a2a0ba474f93be434c41286ec51ffc1da9dd6cb4e7084dadfb48913"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "72c753c969da5c548d7567cb3f266c6616b63bd80dd159e24804702517bb2083"
+        }
+      ],
+      "rawOutputSha256": "1894ee21c21540e7017ff38d2f80db0482f71443476a10108e876f05306774d9"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "manifest": {
+        "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+        "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+        "translationPath": "content/zh/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+        "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:36.187Z",
+        "assembly": {
+          "configHash": "9f99dec99c2a1cab58c2e38a5e81174362748ac802421c131c32cd8ff4fed4ea",
+          "checkedAt": "2026-10-13T13:02:36.187Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+          "sha256": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "9fc4f7da2a2a0ba474f93be434c41286ec51ffc1da9dd6cb4e7084dadfb48913"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e67ba599e67d101308e170c348f791e10e2a619ec836f9af034e2b5e550ba23a"
+        }
+      ],
+      "rawOutputSha256": "a0905e5e93f080dffbbba3abcd7f1f1e69467043dc36666021fa1f48cfcdb481"
+    }
+  ],
+  "nonTargetPagesPreserved": 164
+}

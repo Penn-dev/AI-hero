@@ -9,7 +9,7 @@ import { createServer } from 'vite';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const server = await createServer({
   root, configFile: false, appType: 'custom',
-  resolve: { alias: { '@': root, 'next/link': fileURLToPath(import.meta.resolve('vinext/shims/link')) } },
+  resolve: { alias: { '@': root, 'next/link': fileURLToPath(import.meta.resolve('vinext/shims/link')), 'next/navigation': fileURLToPath(import.meta.resolve('vinext/shims/navigation')) } },
   server: { middlewareMode: true, hmr: false, watch: null },
 });
 after(() => server.close());
@@ -84,4 +84,26 @@ void test('explicit original-site URLs stay external while root paths prefer Chi
     assert.ok(anchors.some(anchor => anchor.includes(label) && anchor.includes(`href="${route}"`) && !anchor.includes('target=')), `${label} stays local`);
   }
   assert.ok(anchors.some(anchor => anchor.includes('未制作课程') && anchor.includes('href="https://www.aihero.dev/workshops/not-yet-assembled"') && anchor.includes('target="_blank"')));
+});
+
+void test('the home page displays the frozen original homepage content instead of historical placeholder statistics', async () => {
+  const { default: Home } = await server.ssrLoadModule('/app/page.tsx');
+  const html = renderToStaticMarkup(createElement(Home));
+  assert.ok(html.includes('128,900+'), 'Frozen homepage source records 128,900+ developers');
+  assert.ok(!html.includes('112,800+'), 'Do not display the superseded placeholder statistic');
+});
+
+void test('the home page offers a separate directory with every available Chinese deep route', async () => {
+  const { default: Home } = await server.ssrLoadModule('/app/page.tsx');
+  const html = renderToStaticMarkup(createElement(Home));
+  const directory = html.match(/<nav\b[^>]*aria-label="全部中文页面"[^>]*>[\s\S]*?<\/nav>/)?.[0];
+  assert.ok(directory, 'A labelled directory distinguishes site navigation from the translated source');
+  for (const route of ['/ai-coding-dictionary/dark-factory', '/skills-wayfinder', '/workshops/ai-sdk-v6-crash-course']) {
+    assert.ok(directory.includes(`href="${route}"`), `Available deep route must be reachable: ${route}`);
+  }
+});
+
+void test('deep-page static routes exclude the separately owned homepage', async () => {
+  const { generateStaticParams } = await server.ssrLoadModule('/app/[...slug]/page.tsx');
+  assert.ok(generateStaticParams().every(({ slug }) => slug.length > 0), 'The root belongs to app/page, not an empty catch-all slug');
 });

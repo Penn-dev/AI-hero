@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-13/configs/my-grill-me-skill-has-gone-viral.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "manifest": {
+        "route": "/my-grill-me-skill-has-gone-viral",
+        "sourceUrl": "https://www.aihero.dev/my-grill-me-skill-has-gone-viral",
+        "sourceHash": "c30f916e16afd14c70f12ae51f45d8faec6859f5aeb3325662ac78103365e8a5",
+        "translationPath": "content/zh/my-grill-me-skill-has-gone-viral.md",
+        "translationHash": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:03.907Z",
+        "assembly": {
+          "configHash": "056f023ede7b3bf9ebcd68032f5c1c9fa37ddc6df41a7ff8268195e7760fbd3d",
+          "checkedAt": "2026-10-13T13:08:03.907Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-grill-me-skill-has-gone-viral.md",
+          "sha256": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "adc6052ef6a5bc95bc2acb551a644478b4b19973667627c376a21976fccf36f3"
+        }
+      ],
+      "rawOutputSha256": "2f23770ee2431037e98806a2b0cf80b629d50f5b083d2237b789d6fd707cd3aa"
+    },
+    {
+      "mode": "apply",
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "manifest": {
+        "route": "/my-grill-me-skill-has-gone-viral",
+        "sourceUrl": "https://www.aihero.dev/my-grill-me-skill-has-gone-viral",
+        "sourceHash": "c30f916e16afd14c70f12ae51f45d8faec6859f5aeb3325662ac78103365e8a5",
+        "translationPath": "content/zh/my-grill-me-skill-has-gone-viral.md",
+        "translationHash": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:04.153Z",
+        "assembly": {
+          "configHash": "056f023ede7b3bf9ebcd68032f5c1c9fa37ddc6df41a7ff8268195e7760fbd3d",
+          "checkedAt": "2026-10-13T13:08:04.153Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-grill-me-skill-has-gone-viral.md",
+          "sha256": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "54f9500c4d375094b62a702cdfb2d6288a2527b7841c590b57c30c58b05b609c"
+        }
+      ],
+      "rawOutputSha256": "bd618f70357ee108aa079788dd1002fa47bcd71a9683cc7e6784eef608f47aa0"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

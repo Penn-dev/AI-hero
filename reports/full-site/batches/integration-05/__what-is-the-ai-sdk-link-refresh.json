@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-05/configs/what-is-the-ai-sdk.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/what-is-the-ai-sdk",
+      "manifest": {
+        "route": "/what-is-the-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/what-is-the-ai-sdk",
+        "sourceHash": "860e5626279ac355abdcbf46c85c6c1a495441fd723493cb1c5b4502c3141605",
+        "translationPath": "content/zh/what-is-the-ai-sdk.md",
+        "translationHash": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:00.095Z",
+        "assembly": {
+          "configHash": "67a01d265998d110f47c2a59e2d2194bc0874e150bf890c091fb5e5d6d20ebdc",
+          "checkedAt": "2026-10-13T13:08:00.095Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-is-the-ai-sdk.md",
+          "sha256": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d79724c685fbf593fe536b871e2c0f1392cdae0a00737d0c1223c7a66159c0ab"
+        }
+      ],
+      "rawOutputSha256": "f88410349b7f1c94200be375a57c638ae6d1243b1c7143937470019a2e7df020"
+    },
+    {
+      "mode": "apply",
+      "route": "/what-is-the-ai-sdk",
+      "manifest": {
+        "route": "/what-is-the-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/what-is-the-ai-sdk",
+        "sourceHash": "860e5626279ac355abdcbf46c85c6c1a495441fd723493cb1c5b4502c3141605",
+        "translationPath": "content/zh/what-is-the-ai-sdk.md",
+        "translationHash": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:00.356Z",
+        "assembly": {
+          "configHash": "67a01d265998d110f47c2a59e2d2194bc0874e150bf890c091fb5e5d6d20ebdc",
+          "checkedAt": "2026-10-13T13:08:00.356Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-is-the-ai-sdk.md",
+          "sha256": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c5dfbccad259eb86b5ee51c7f92c13b26d03f343a6fc83b0454ad1fc60d05c02"
+        }
+      ],
+      "rawOutputSha256": "467b57300857c4bf490a2990afbf344f6bf548b3d223de2203f20f64edd9fea2"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

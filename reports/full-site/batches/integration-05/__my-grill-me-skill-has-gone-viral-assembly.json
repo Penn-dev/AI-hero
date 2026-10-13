@@ -1,0 +1,115 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-13/configs/my-grill-me-skill-has-gone-viral.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "manifest": {
+        "route": "/my-grill-me-skill-has-gone-viral",
+        "sourceUrl": "https://www.aihero.dev/my-grill-me-skill-has-gone-viral",
+        "sourceHash": "c30f916e16afd14c70f12ae51f45d8faec6859f5aeb3325662ac78103365e8a5",
+        "translationPath": "content/zh/my-grill-me-skill-has-gone-viral.md",
+        "translationHash": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:35.771Z",
+        "assembly": {
+          "configHash": "2cdc753d0e3dd8f17c2a06e002360870603785b07a57e4a66b6628fcdb9923f8",
+          "checkedAt": "2026-10-13T13:04:35.771Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/5-agent-skills-i-use-every-day",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grill-me",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-grill-me-skill-has-gone-viral.md",
+          "sha256": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "76157437ee63a995b9db895b8b104caaa9997b214258a32775c14771cbecb209"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "9f01c2dd878c034e73469e0c6cd417554774e111dacce6442e57cb27cbc94e9c"
+        }
+      ],
+      "rawOutputSha256": "33260168dcb6bebfad79639d1932de1d9ec742fdfeb3440a015991dfa0b562dd"
+    },
+    {
+      "mode": "apply",
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "manifest": {
+        "route": "/my-grill-me-skill-has-gone-viral",
+        "sourceUrl": "https://www.aihero.dev/my-grill-me-skill-has-gone-viral",
+        "sourceHash": "c30f916e16afd14c70f12ae51f45d8faec6859f5aeb3325662ac78103365e8a5",
+        "translationPath": "content/zh/my-grill-me-skill-has-gone-viral.md",
+        "translationHash": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:35.992Z",
+        "assembly": {
+          "configHash": "2cdc753d0e3dd8f17c2a06e002360870603785b07a57e4a66b6628fcdb9923f8",
+          "checkedAt": "2026-10-13T13:04:35.992Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/5-agent-skills-i-use-every-day",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grill-me",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-grill-me-skill-has-gone-viral.md",
+          "sha256": "b2440fc1132e6be571f58b39ca36aa2cc254a3637f78e0fabe7a555efddf720f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "76157437ee63a995b9db895b8b104caaa9997b214258a32775c14771cbecb209"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a8ae7f21b052f201ca5b65a7d0b1da81d5f72b41cef0d43c0d0a21a74e099834"
+        }
+      ],
+      "rawOutputSha256": "6f4a59beb36508185cf012694382df5e52099e1675819241f014c348d7d04d37"
+    }
+  ],
+  "nonTargetPagesPreserved": 183
+}

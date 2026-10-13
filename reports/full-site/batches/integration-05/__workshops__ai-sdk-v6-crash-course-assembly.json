@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-16/configs/ai-sdk-v6-crash-course.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "manifest": {
+        "route": "/workshops/ai-sdk-v6-crash-course",
+        "sourceUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course",
+        "sourceHash": "b643005004e2b1c97e7a7a37f36f1208d37c93264b82c685dc2eddc3950a2b4c",
+        "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course.md",
+        "translationHash": "766a728b31324c5ff191853786146b32fade0f98ad05fc09e638ec19cf3b153a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:13:30.890Z",
+        "assembly": {
+          "configHash": "e8c9853f0157d3b5ead2e5274f48366e8369068c260dee57158cb32213849d1b",
+          "checkedAt": "2026-10-13T13:13:30.890Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/workshops/ai-sdk-v6-crash-course.md",
+          "sha256": "766a728b31324c5ff191853786146b32fade0f98ad05fc09e638ec19cf3b153a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "62af20694bdcb5648997ec481d0a4acffbbb2699440e0f643751003341b5965b"
+        }
+      ],
+      "rawOutputSha256": "9cfa898a8b2f6c4b1e24f81bb6f7e7d9a6639a683871d4111a162994d67c0e0a"
+    },
+    {
+      "mode": "apply",
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "manifest": {
+        "route": "/workshops/ai-sdk-v6-crash-course",
+        "sourceUrl": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course",
+        "sourceHash": "b643005004e2b1c97e7a7a37f36f1208d37c93264b82c685dc2eddc3950a2b4c",
+        "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course.md",
+        "translationHash": "766a728b31324c5ff191853786146b32fade0f98ad05fc09e638ec19cf3b153a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:13:31.165Z",
+        "assembly": {
+          "configHash": "e8c9853f0157d3b5ead2e5274f48366e8369068c260dee57158cb32213849d1b",
+          "checkedAt": "2026-10-13T13:13:31.165Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/workshops/ai-sdk-v6-crash-course.md",
+          "sha256": "766a728b31324c5ff191853786146b32fade0f98ad05fc09e638ec19cf3b153a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8fe4ed4b7561f576dde9527c73d89eac0d2daaabe24175bf5e652a39f96df9c5"
+        }
+      ],
+      "rawOutputSha256": "dbaa2570236ac59d834742db895d8e81e166f0f8adeb2a9fdbe278696c72fc89"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

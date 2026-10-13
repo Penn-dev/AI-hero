@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-15/configs/skills-prototype.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-prototype",
+      "manifest": {
+        "route": "/skills-prototype",
+        "sourceUrl": "https://www.aihero.dev/skills-prototype",
+        "sourceHash": "2bb059ffc469453c3d98f9f04c1c3928bd020ac999709e20c86df88a95c5e821",
+        "translationPath": "content/zh/skills-prototype.md",
+        "translationHash": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:30.733Z",
+        "assembly": {
+          "configHash": "0ed0646736b5ae8b0d37fcbd8676917099ad763c21ed1232e43495440732e8c8",
+          "checkedAt": "2026-10-13T13:02:30.733Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/prototyping",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-pointer",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-prototype.md",
+          "sha256": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "c7ff2494084716c95785f79b5c9762734e93008fa6a8278ced09f5d6ad9703cf"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "528d6dfdcde6e6dee424efbfec2476297a79b406b41c60ad895accd230b9e24d"
+        }
+      ],
+      "rawOutputSha256": "b8c24f44f850685a95c8deb4608cc7ab0b2bc5ba0c4f13649e409fc6c0185806"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-prototype",
+      "manifest": {
+        "route": "/skills-prototype",
+        "sourceUrl": "https://www.aihero.dev/skills-prototype",
+        "sourceHash": "2bb059ffc469453c3d98f9f04c1c3928bd020ac999709e20c86df88a95c5e821",
+        "translationPath": "content/zh/skills-prototype.md",
+        "translationHash": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:30.982Z",
+        "assembly": {
+          "configHash": "0ed0646736b5ae8b0d37fcbd8676917099ad763c21ed1232e43495440732e8c8",
+          "checkedAt": "2026-10-13T13:02:30.982Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/prototyping",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-pointer",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-prototype.md",
+          "sha256": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "c7ff2494084716c95785f79b5c9762734e93008fa6a8278ced09f5d6ad9703cf"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "06915bb11d50be6c55b741268d64e2b294e38d849574ccaa9667a365d3fd7354"
+        }
+      ],
+      "rawOutputSha256": "bb85b85e3d2efc1b0ea35c10081825f70acec29b638d96a3d9e29dbd5a9d23e5"
+    }
+  ],
+  "nonTargetPagesPreserved": 155
+}

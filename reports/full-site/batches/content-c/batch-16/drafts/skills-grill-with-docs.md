@@ -1,0 +1,109 @@
+---
+title: "/grill-with-docs Skill"
+slug: "skills-grill-with-docs"
+type: "post"
+description: "围绕计划接受追问，并记录决定。"
+updatedAt: "2026-08-24T09:14:47.195Z"
+---
+
+## 它能做什么
+
+`grill-with-docs` 围绕计划或设计向你提问，直到你与[智能体](https://www.aihero.dev/ai-coding-dictionary/agent)理解一致，同时把词汇和重要决定写入仓库。它与 [grill-me](https://aihero.dev/skills-grill-me) 使用同样的访谈方式，一轮问题、等待回答、再下一轮，只是面向代码库。
+
+它是[有状态的](https://www.aihero.dev/ai-coding-dictionary/stateful)。其他追问 Skills 把[会话](https://www.aihero.dev/ai-coding-dictionary/session)结果留在脑中，它把文件留在磁盘。术语一确定，立刻写进 `GLOSSARY.md`，不等结束再批量写。决定通过三个门槛时，写成 ADR。这就是全部区别，也带来大部分使用问题。产物是真实仓库中的真实文件，因此可能在你期待时没有出现，也可能因多人修改而偏离。
+
+## 什么时候该用它
+
+输入 `/grill-with-docs`；智能体不会自行选用。
+
+在仓库开始一项修改，计划还模糊、相关词语还没确定时使用。它面向单次会话。选择哪种追问 Skill，取决于情况：
+
+| 你有什么 | 使用什么 |
+| --- | --- |
+| 完全不在工作目录里 | [grill-me](https://aihero.dev/skills-grill-me) |
+| 一个仓库，一次会话能谈清的修改 | `grill-with-docs` |
+| 一次会话容纳不了的工作，例如从零开发或大功能 | [wayfinder](https://aihero.dev/skills-wayfinder) |
+| 仓库没有任何领域文档，也没有特定功能要做 | 用 `grill-with-docs`，面向仓库整体，而非某项修改 |
+| 决定被另一个人掌握的知识卡住 | [to-questionnaire](https://aihero.dev/skills-to-questionnaire) |
+
+与 wayfinder 的分界就是会话数：`/grill-with-docs` 做单会话规划，`/wayfinder` 做多会话规划。
+
+## 使用前提
+
+Skill 会写入仓库，因此必须位于可以安全写入的位置。确定的术语进入根目录 `GLOSSARY.md`，或者相应领域的 `GLOSSARY.md`，后一种用于根目录已有 `GLOSSARY-MAP.md`、标明包含多个领域的仓库。决定写进 `docs/adr/`。这些文件都按需创建，第一个术语或决定确定前不会出现，不必提前设置。
+
+还需要另外两个 Skills，因为自身 `SKILL.md` 只有一行，把工作委派给它们。[grilling](https://aihero.dev/skills-grilling) 负责访谈，[domain-modeling](https://aihero.dev/skills-domain-modeling) 负责记录。只安装 `grill-with-docs`，得到的是无法工作的 Skill。
+
+译注：`GLOSSARY.md` 是项目词汇表；ADR 是架构决策记录，说明某个选择的背景与理由。
+
+## 留下哪些记录
+
+一次会话会得到三类内容，但保存方式不同：
+
+| 确定了什么 | 存在哪里 |
+| --- | --- |
+| 项目为某个事物选定的术语 | 确定当下，随讨论写入 `GLOSSARY.md` |
+| 难以逆转、缺少背景时令人意外、来自真实取舍的决定 | `docs/adr/` 下的 ADR |
+| 其他决定 | 只留在对话中，别处不存 |
+
+第三行常让人意外。`GLOSSARY.md` 只应是词汇表，不放实现细节、[规格](https://www.aihero.dev/ai-coding-dictionary/spec)或随手笔记。ADR 需要三个条件同时满足，因此大部分决定不符合，大部分会话也不会产出 ADR。词汇更准确、零 ADR，完全符合设计，但这意味着大多数约定只存在于当时的[上下文窗口](https://www.aihero.dev/ai-coding-dictionary/context-window)。把同一段对话直接交给 [to-spec](https://aihero.dev/skills-to-spec)，不要[清空](https://www.aihero.dev/ai-coding-dictionary/clearing)。
+
+词汇表是主要产物。它建立项目自己的语言，一次谈妥，让你、智能体和同事不必反复理解。不是人人都认为这能提高智能体表现。最强的反对意见是，术语与其直白英语解释，会让[模型](https://www.aihero.dev/ai-coding-dictionary/model)产生相同结果；共同词汇主要缩短的是人与人的沟通。这样看，词汇表仍有价值，只是价值归于人。
+
+## 常见问题
+
+**该用它，还是 `/wayfinder`？**
+
+范围决定。一次会话能谈清，就用它；太大就用 [wayfinder](https://aihero.dev/skills-wayfinder)，先把工作画成决策[任务单](https://www.aihero.dev/ai-coding-dictionary/ticket)地图。wayfinder 更慢、内容更密，范围明确的功能也选它，是常见错误。它不替代本 Skill，而且能为地图中适合的部分启动一次追问会话。
+
+**运行了，却没出现 `GLOSSARY.md` 或 ADR。**
+
+有两个已知原因。第一，没有符合条件的内容：ADR 要过三道门槛，没有新词汇的修改也没东西可写。第二是真实 bug：在其他协调层内部运行时，例如规格驱动开发包装、多智能体框架，或某个流程中调用它的规则，用户报告访谈照常，写文件部分却悄悄没做。问题已提交，尚未修复。这种环境里，信任会话产出前先检查工作目录。
+
+**它一次问完全部问题，没有推荐，也没提 `GLOSSARY.md`。**
+
+这是没加载两个依赖。`SKILL.md` 只有一行委派，智能体没有取得 [grilling](https://aihero.dev/skills-grilling) 和 [domain-modeling](https://aihero.dev/skills-domain-modeling)，就自己猜追问是什么意思，于是把问题一股脑问出来，没有结构。部分加载更迷惑：加载 `grilling`，没加载 `domain-modeling`，访谈很好，却没有记录。频率取决于模型和[推理强度](https://www.aihero.dev/ai-coding-dictionary/effort)，这是反馈最多的问题。怀疑时，直接问加载了哪些 Skills。
+
+**其他决定都去哪了？**
+
+只在对话里。这是最严重、尚未解决的抱怨。词汇表不是规格，大多数答案不够 ADR 门槛，也没有记录把每个已确定答案关联到规格、任务和测试。后续步骤会把精确回答，例如顺序保证、明确不做的要求、默认数字，弱化成含糊文字，结果看似完整，却漏掉你决定的关键内容。暂时保留会话，直接交给 [to-spec](https://aihero.dev/skills-to-spec)，再对照自己回答重读规格，不要默认它全记住了。
+
+**能用在完全没有文档的现有仓库吗？**
+
+可以。没有 ADR、领域语言和设计原则的代码库，正适合。调用后说“help me document my repo”。
+
+中文 Prompt（译注）：
+
+```text
+帮我为仓库补齐文档。
+```
+
+用户常把它与 [improve-codebase-architecture](https://aihero.dev/skills-improve-codebase-architecture) 配合，建立或修复 `GLOSSARY.md`。需要你引导，它会读代码并问发现的问题，由你决定已有词语中哪些正确。
+
+**会话结束后做什么？**
+
+它的结束语经常没有明确下一步，这是已知问题。主要流程中，在同一对话用 [to-spec](https://aihero.dev/skills-to-spec)。改动足够小、可以马上开发，就直接用 [implement](https://aihero.dev/skills-implement)。
+
+**为什么叫这个名字？**
+
+没人满意这个名字。有开放提议改为 `grill-domain-model`，更准确描述行为，但尚无进展。如果改名落地，文档也会移动，URL 会变。
+
+## 出现这些迹象，就说明它在发挥作用
+
+- `GLOSSARY.md` 在会话*中途*逐个词变化，而不是结束后一次出现。
+- 词汇表只有项目词语与准确短定义，不含实现细节或类似规格的文字。
+- 代码库能回答的问题，通过读代码解决，不拿来问你。
+- ADR 很少或没有；写下来的，是你不想再争论一次的决定。
+- 你用的词与已有词汇表定义不一致时，它会质疑。
+
+## 它处在什么位置
+
+`grill-with-docs` 是主要开发流程的起点：
+
+```txt
+grill-with-docs → to-spec → to-tickets → implement → code-review → retro
+```
+
+任何内容写成规格前先运行，产出共同理解和确定词汇，再由 [to-spec](https://aihero.dev/skills-to-spec) 综合，不重开访谈。近邻是 [grill-me](https://aihero.dev/skills-grill-me)，同样访谈但无仓库、无文件；以及 [domain-modeling](https://aihero.dev/skills-domain-modeling)，负责本 Skill 驱动的词汇表与 ADR 约束。两者都用 [grilling](https://aihero.dev/skills-grilling) 基础访谈。上游 [wayfinder](https://aihero.dev/skills-wayfinder) 绘制大工作地图，再把部分工作交下来。不确定路线时，用 [ask-matt](https://aihero.dev/skills-ask-matt)。
+
+译注：相关中文词条：[有状态](/ai-coding-dictionary/stateful)、[上下文窗口](/ai-coding-dictionary/context-window)、[规格](/ai-coding-dictionary/spec)。中文页未接入时会回到原站英文页。

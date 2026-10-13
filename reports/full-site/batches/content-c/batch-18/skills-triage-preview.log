@@ -1,0 +1,88 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-18/configs/skills-triage.json
+
+{
+  "mode": "preview",
+  "route": "/skills-triage",
+  "page": {
+    "title": "/triage Skill",
+    "description": "把原始问题报告整理成别人能接手的工作。",
+    "markdown": "## 它能做什么\n\n`triage` 处理项目任务系统中的 issue，让每项经过一套小型状态机，以**分流角色**表示，一个类别、一个状态。最终成为适合智能体执行的任务说明、发给报告者的具体问题，或附有理由的已关闭 issue。\n\n它只处理**不是你创建的** issue：原始 bug 报告、传入功能请求，或突然提交的外部 PR。也就是别人把工作带进任务系统，报告写成什么样就从什么样开始。[to-tickets](https://aihero.dev/skills-to-tickets) 生成的[任务单](https://www.aihero.dev/ai-coding-dictionary/ticket)已经适合智能体执行，再跑 `triage` 是浪费。规则很简单：`/triage` 只处理收到的 issue，不处理你自己创建的。\n\n它与手动打标签也不同，会先建议再等待。给出类别、状态判断、理由以及代码库发现；你没有指示之前，不应用任何变更。\n\n## 什么时候该用它\n\n输入 `/triage`，再用普通语言描述需求；[智能体](https://www.aihero.dev/ai-coding-dictionary/agent)不会自行调用。例如“Show me anything that needs my attention”“let's look at #42”“move #42 to ready-for-agent”。\n\n中文 Prompt（译注，分别对应三种请求）：\n\n```text\n给我看需要我关注的事项。\n```\n\n中文 Prompt（译注）：\n\n```text\n我们看看 #42。\n```\n\n中文 Prompt（译注）：\n\n```text\n把 #42 移到 ready-for-agent。\n```\n\n| 你有什么 | 去哪里 |\n| --- | --- |\n| 任务系统中有大量别人发来的原始报告 | `/triage` |\n| 自己的模糊想法，尚未记录 | [grill-with-docs](https://aihero.dev/skills-grill-with-docs) |\n| 已谈妥的对话，要变成[规格](https://www.aihero.dev/ai-coding-dictionary/spec) | [to-spec](https://aihero.dev/skills-to-spec) |\n| 规格要拆成适合智能体的任务 | [to-tickets](https://aihero.dev/skills-to-tickets) |\n| 已确认 bug，需要根因而非标签 | [diagnosing-bugs](https://aihero.dev/skills-diagnosing-bugs) |\n\n## 使用前提\n\n`triage` 读写任务系统，所以先用 [setup-matt-pocock-skills](https://aihero.dev/skills-setup-matt-pocock-skills) 配置系统和标签词汇。下文角色名是**标准名**，真实标签可以不同，由设置提供映射。如果系统本来就逐字使用标准名称，则无需映射，也没有这部分设置工作。\n\n任务配置也决定是否把外部 PR 当作请求入口，以及谁算外部。默认关闭，设置流程也不再询问。要纳入 PR，在 `docs/agents/issue-tracker.md` 开启。\n\n## 状态机\n\n每个分流事项最终必须恰有一个类别角色和一个状态角色。类别两种：`bug` 表示坏了，`enhancement` 表示新功能或改进。状态五种：\n\n| 状态 | 含义 |\n| --- | --- |\n| `needs-triage` | 需要你评估，无标签 issue 通常先到这里 |\n| `needs-info` | 等报告者补信息，回复后回到 `needs-triage` |\n| `ready-for-agent` | 规格完整、附有执行说明，[AFK](https://www.aihero.dev/ai-coding-dictionary/afk) 智能体可以领取 |\n| `ready-for-human` | 同样有说明，另写明智能体做不了的原因，例如判断、外部访问或手动测试 |\n| `wontfix` | 关闭并记录理由 |\n\n词汇就这些。每项只有一个状态，让查询简单。这也是 [Skill](https://www.aihero.dev/ai-coding-dictionary/skill) 最常被要求扩充的地方：已写清但被另一任务阻塞、等待未来触发的 `deferred`，以及最终 `implemented` 状态，都有人提，但均未发布，见后文。\n\n`wontfix` 有三种情况，区别很重要，因为只有一种写入知识库：\n\n| 关闭原因 | 处理 |\n| --- | --- |\n| 已实现 | 评论指出功能在哪里；不写 `.out-of-scope/`，因为这是已做功能，不是被拒绝功能，写进去会破坏查重 |\n| 拒绝 bug | 礼貌解释，关闭 |\n| 拒绝功能改进 | 写 `.out-of-scope/` 文件，在关闭评论链接它，再关闭 |\n\n`.out-of-scope/` 每个被拒绝的**概念**一份 Markdown，不是每个 issue 一份。每份是简短设计文档，不是数据库行，记录拒绝什么、为什么，并列出所有提出该要求的 issue。`triage` 评估前读取整个目录，按概念而非关键词匹配，所以“night theme”会匹配 `dark-mode.md`。找到后先展示旧决定，问你是否仍同意，不从头再争一遍。\n\n译注：night theme 指夜间主题，dark-mode.md 是深色模式对应文件名。状态机表示事项可以处于哪些状态、什么时候转换。\n\n## 先验证，再写执行说明\n\n开始任何[追问](https://www.aihero.dev/ai-coding-dictionary/grilling)前，`triage` 先核实主张。bug 按报告步骤复现；PR 切到对应分支、运行相关测试。然后报告三种结果之一：\n\n- 已确认，并给出代码路径\n- 未能复现\n- 细节不足，无法尝试，这是最明确的 `needs-info` 信号\n\n同一轮还做两项代码库检查。**重复功能**检查判断是否已经实现，按领域概念搜索，不只搜报告用词；**曾经拒绝**检查 `.out-of-scope/` 是否已经否决。两项都便宜，命中任一就得到 `wontfix`。\n\n这些工作是为了做好一个产物：**智能体执行说明（agent brief）**。这是 `triage` 在 issue 转为 `ready-for-agent` 时发布的结构化评论。`triage` 发布后，这份说明就是执行约定，原始报告仅供背景。说明追求**耐用**而非定位精细，因为 issue 可能停在 `ready-for-agent` 数周，代码却持续变化。因此写类型、签名和行为约定，绝不写文件路径或行号。经过确认的复现，比猜测能形成更扎实的说明。\n\n## PR 是附带代码的 issue\n\n如果任务系统把外部 PR 视为入口，就走同样的类别、状态与转换。状态作用于 diff：`ready-for-agent` 表示已有说明，应由智能体处理现有代码的下一步；`ready-for-human` 表示人可以合并。PR 说明描述现有 diff 还缺什么，不是从零怎样建。\n\n发现列表只显示*外部* PR，因为协作者正在做的分支不是分流工作。这个过滤仅用于发现；如果明确点名某个 PR，无论谁写，`triage` 都处理。\n\n## 常见问题\n\n**运行了 `/to-spec` 和 `/to-tickets`，任务看起来没分流，要再 `/triage` 吗？**\n\n不要，它们已经准备好。`to-tickets` 发布时会加 `ready-for-agent`，AFK 执行器无需再处理就能领取。遇到问题的用户走完规格流程，却看见 `needs-triage`，于是执行器忽略了所有任务。`triage` 是外部工作的入口，规格流程是自己发起的工作路径。两路在 `ready-for-agent` 汇合，不在更早处汇合。\n\n**`triage` 在已有 `to-spec` → `to-tickets` → `implement` 流程后，还有用吗？**\n\n只有收到外部工作时需要。`triage` 比这条流程更早，职责不同，处理别人提交的报告。任务全来自自己规划，就很少用；维护公开项目或团队向你报 bug 时，它就是入口。主要用途是接收外部贡献者 issue 的开源仓库。\n\n**智能体添加 `ready-for-agent`，`gh` 却说标签不存在。**\n\n这是开放 bug，见 [#616](https://github.com/mattpocock/skills/issues/616)。`setup-matt-pocock-skills` 把词汇写进 `docs/agents/triage-labels.md`，不在任务系统创建标签。用 `gh label create` 或界面，一次性创建五状态、两类别标签，错误就消失。issue 链接一个尚未合入的社区修复分支。\n\n**五个状态不够，blocked、deferred、implemented 呢？**\n\n这是提报最多的缺口，分三类：\n\n- 完整规格已经有了，却要等另一个 issue 关闭，见 [#139](https://github.com/mattpocock/skills/issues/139)。报告者说，`ready-for-agent` 在这里“technically true”，但会误导，智能体接手后卡住。\n- 确实要做，但等待未来触发、眼下不可执行的工作，见 [#297](https://github.com/mattpocock/skills/issues/297)。\n- “已实现，等待验证”的终态；没有它，AFK 执行器会再次排入已完成任务。\n\n中文理解：“technically true”表示字面上成立，却不准确反映能否开工。\n\n阻塞场景已获认可，但名称未定，是 `blocked` 还是 `paused`。这些都未发布。有人在类别旁加仓库自定义标签作为补救，状态槽保留准确值，但 Skill 不认识额外标签。有社区分支再加 `needs-slicing`、`tracking` 和工作量标签，可以用，但属于那个分支，不是本 Skill。\n\n**与 `/diagnosing-bugs` 有何区别？**\n\n这里的验证有意浅一些，只回答“问题真实吗，大致在哪”，不找根因。几分钟内按报告步骤复现不了，就用 `needs-info`；现在想深入调查，则用 [diagnosing-bugs](https://aihero.dev/skills-diagnosing-bugs)。两份 Skill 文本尚未相互提及，用户报告了这个缺口，仍开放。\n\n**能给它整个积压清单，让它自己跑吗？**\n\n可以要求，但要看它读了什么。“show what needs attention”只是低成本列表，用于*选择*。你选一项后，`triage` 才为该项收集完整[上下文](https://www.aihero.dev/ai-coding-dictionary/context)。一次处理二十项，它可能只把列表当证据，却不告诉你。列表返回正文，不返回评论。有用户正好遇到：三项已经有“already fixed, recommend closing”评论，结果仍都新增了智能体执行说明。批量处理时，明确要求逐项读评论。\n\n中文 Prompt（译注，对应 show what needs attention）：\n\n```text\n显示需要关注的事项。\n```\n\n中文理解：“already fixed, recommend closing”是“已经修复，建议关闭”。\n\n**能用 Linear 或 GitHub Issues 之外的系统吗？**\n\n可以，任务系统是配置，不是硬编码。有人通过 `linear` CLI 用 Linear，也有人用 GitLab 或 `.scratch/` 下的 Markdown。常见分工是 Linear 管 issue 和规划，GitHub 管代码和 PR。Skills 提到 issue tracker 就映射到 Linear，提到 PR 就映射到 GitHub。本地 Markdown 模板有开放 bug：生成文件可能顶层一次、执行说明里一次，重复写验收标准，见 [#200](https://github.com/mattpocock/skills/issues/200)。\n\n## 出现这些迹象，就说明它在发挥作用\n\n- 每项最终恰有一个类别、一个状态，不缺，也没有两个冲突状态。\n- 给出建议和理由后停下，不自行重打标签继续。\n- 到 `ready-for-agent` 之前，已复现 bug 或切出并运行 PR。\n- 执行说明写类型和行为，不含路径或行号。\n- 半年前拒绝的要求再出现，会引用旧理由，而非重新分流。\n- 每条评论以 `> *This was generated by AI during triage.*` 开头。\n\n中文理解：上述固定披露语表示“此内容由 AI 在分流过程中生成”。原英文格式保留，方便识别。\n\n## 它处在什么位置\n\n`triage` 是**工作入口**，不是主要链的一步。主流程从自己的想法开始，追问、规格、任务、实现、审阅；`triage` 是别人带来工作的平行路线。两路最终相同：一条附说明、标为 `ready-for-agent` 的 issue。[implement](https://aihero.dev/skills-implement) 像领取 [to-tickets](https://aihero.dev/skills-to-tickets) 的任务一样领取它。当请求信息不足、`triage` 还不能写说明时，`triage` 同时运行 [grilling](https://aihero.dev/skills-grilling) 和 [domain-modeling](https://aihero.dev/skills-domain-modeling)，一轮轮提问，把决定随时记录进 `GLOSSARY.md` 和 ADR。不确定在哪条路上，用 [ask-matt](https://aihero.dev/skills-ask-matt)。\n\n译注：相关中文词条：[任务单](/ai-coding-dictionary/ticket)、[AFK](/ai-coding-dictionary/afk)、[上下文](/ai-coding-dictionary/context)。中文页未接入时会回到原站英文页。本页没有实际发布评论、修改标签或关闭任务。",
+    "sourceUpdatedAt": "2026-08-24T09:14:47.195Z",
+    "sourceUrl": "https://www.aihero.dev/skills-triage",
+    "sourceHash": "52c5c6b3c93fd68b00abfc0f22e51f138afc532852a73ca0122a08addbdd8730"
+  },
+  "manifest": {
+    "route": "/skills-triage",
+    "sourceUrl": "https://www.aihero.dev/skills-triage",
+    "sourceHash": "52c5c6b3c93fd68b00abfc0f22e51f138afc532852a73ca0122a08addbdd8730",
+    "translationPath": "content/zh/skills-triage.md",
+    "translationHash": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T12:19:41.238Z",
+    "assembly": {
+      "configHash": "816569362b685bc66827538c5ad2801bd57de6a7d27fcd3ce39709fc2bba1787",
+      "checkedAt": "2026-10-13T12:19:41.238Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/ticket",
+          "state": "planned-chinese",
+          "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+        },
+        {
+          "route": "/ai-coding-dictionary/afk",
+          "state": "planned-chinese",
+          "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+        },
+        {
+          "route": "/ai-coding-dictionary/context",
+          "state": "planned-chinese",
+          "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+        }
+      ],
+      "staleChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "planned-chinese",
+      "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "planned-chinese",
+      "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "planned-chinese",
+      "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/skills-triage.md",
+      "sha256": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "ce973f5f06c4cdfdcdd2e194d83442d55fc1faeab83197a893f64e994c0c1fc8"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "929f1de898677815d5b7e78aa7903206a15a936fd7018474ef6722868d8cd39a"
+    }
+  ]
+}

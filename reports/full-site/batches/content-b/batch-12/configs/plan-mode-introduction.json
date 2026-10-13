@@ -1,0 +1,15 @@
+{
+  "route": "/plan-mode-introduction",
+  "source": {
+    "path": "content/source/plan-mode-introduction.md",
+    "sha256": "55118fc919229b82366301dd98f0ad9704b528fd1dc2af719ccc6348af81b7d3"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-12/drafts/plan-mode-introduction.md",
+  "translationPath": "content/zh/plan-mode-introduction.md",
+  "linkTargets": [
+    {
+      "route": "/skills-grill-with-docs",
+      "state": "available-chinese"
+    }
+  ]
+}

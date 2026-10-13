@@ -1,0 +1,38 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sourcePath": "content/source/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+      "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+      "chineseFile": "reports/full-site/batches/content-c/batch-21/drafts/skills__skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+      "translationHash": "8bf66826044568d0020958174020a614fac32e70097ea8e4ccd582b68f83d1a1",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对全部8个主体二级节、3表、3项追问修复、5步开发流程、10种代码坏味道、4类wayfinder任务、TDD调整和迁移提示；作者/图像/CTA/分享完整。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "全文自然中文并保留作者第一人称、热情和条件信息；发布中的wayfinder适用建议原样表达，不用后续文档替换历史语气。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "解释纵向切片、前沿、高效工作区及必要代码坏味道；保留原行内指导句、Skill描述引用、3原代码块，所有自然语言Prompt有完整可复制中文。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "全部原命令、路径和行内标识按顺序保留；原图片、标题锚点与分享URL均保留，新增已知中文概念导航。",
+          "originalFencedBlocks": 3,
+          "originalMarkdownResourceOccurrences": 28
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": "课程CTA未含目标/字段已披露；本文是冻结发布说明而非当前状态验证；第五项真实UI待工程。"
+    }
+  ]
+}

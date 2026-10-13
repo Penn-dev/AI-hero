@@ -1,0 +1,195 @@
+{
+  "route": "/",
+  "source": {
+    "path": "content/source/index.md",
+    "sha256": "3942208060725a8c24a3883fd703a9a975c65d0dc9cfc3ea14840001c83d4378"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-16/drafts/home.md",
+  "translationPath": "content/zh/home.md",
+  "linkTargets": [
+    {
+      "route": "/skills/subscribe",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-setup-matt-pocock-skills",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-ask-matt",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-grill-with-docs",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-to-spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-to-tickets",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-implement",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-code-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-retro",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-wayfinder",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-prototype",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-research",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-diagnosing-bugs",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-triage",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-wizard",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-implement-spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-grill-me",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-handoff",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-to-questionnaire",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-teach",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-wait-what",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-writing-for-agents",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-pr",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-codebase-design",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-domain-modeling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-tdd",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/what-is-an-llm",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/what-is-the-context-window",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/what-are-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/a-complete-guide-to-agents-md",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/plan-mode-introduction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/never-run-claude-init",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skill-test-driven-development-claude-code",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/getting-started-with-ralph",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/my-grill-me-skill-has-gone-viral",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/real-world-feature-build-with-claude-code",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/tracer-bullets",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/how-to-make-codebases-ai-agents-love",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "state": "available-chinese"
+    }
+  ]
+}

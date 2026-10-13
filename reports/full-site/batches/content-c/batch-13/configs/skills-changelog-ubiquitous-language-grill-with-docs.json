@@ -1,0 +1,22 @@
+{
+  "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+  "source": {
+    "path": "content/source/skills-changelog-ubiquitous-language-grill-with-docs.md",
+    "sha256": "dff4f6aa67744c44986049e875369fae8501389676d4e005dafc85db057890b4"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-13/drafts/skills-changelog-ubiquitous-language-grill-with-docs.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "route": "/never-run-claude-init",
+  "source": {
+    "path": "content/source/never-run-claude-init.md",
+    "sha256": "8834ce41ac3d5bb27a9ceb4ccc89b7e690e20052fa2c2ebf5de3d2deadbb5e82"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-11/drafts/never-run-claude-init.md",
+  "translationPath": "content/zh/never-run-claude-init.md"
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-13/configs/learn-anything-with-my-teach-skill.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/learn-anything-with-my-teach-skill",
+      "manifest": {
+        "route": "/learn-anything-with-my-teach-skill",
+        "sourceUrl": "https://www.aihero.dev/learn-anything-with-my-teach-skill",
+        "sourceHash": "55c64bc00a5b2704d8b2996c2fb268e9ab31bacde61fce090748e3c6df8b11a3",
+        "translationPath": "content/zh/learn-anything-with-my-teach-skill.md",
+        "translationHash": "1e721a8c2a59f034088be00cfe54e1b11292d389b77b811eebb34f157cdad7ad",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:35.220Z",
+        "assembly": {
+          "configHash": "6e59eee7f98653495d344a6079fd598695d9e81882c6e1ae3013ff1b7e517d61",
+          "checkedAt": "2026-10-13T13:04:35.220Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/learn-anything-with-my-teach-skill.md",
+          "sha256": "1e721a8c2a59f034088be00cfe54e1b11292d389b77b811eebb34f157cdad7ad"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e3cd745973acefe718b4ebde9c084f44700ceb3c1aa66089f9c16677b9e3d8d5"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e50de9ade838175b9d49f2c113d0bcc0f3b808554c62afdd6705796e769fa53e"
+        }
+      ],
+      "rawOutputSha256": "6cf4624cb083b635cdd1e89d34e263f3d2e2fc2efc7f3ad953d6e2d399cc7cf4"
+    },
+    {
+      "mode": "apply",
+      "route": "/learn-anything-with-my-teach-skill",
+      "manifest": {
+        "route": "/learn-anything-with-my-teach-skill",
+        "sourceUrl": "https://www.aihero.dev/learn-anything-with-my-teach-skill",
+        "sourceHash": "55c64bc00a5b2704d8b2996c2fb268e9ab31bacde61fce090748e3c6df8b11a3",
+        "translationPath": "content/zh/learn-anything-with-my-teach-skill.md",
+        "translationHash": "1e721a8c2a59f034088be00cfe54e1b11292d389b77b811eebb34f157cdad7ad",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:35.498Z",
+        "assembly": {
+          "configHash": "6e59eee7f98653495d344a6079fd598695d9e81882c6e1ae3013ff1b7e517d61",
+          "checkedAt": "2026-10-13T13:04:35.498Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/learn-anything-with-my-teach-skill.md",
+          "sha256": "1e721a8c2a59f034088be00cfe54e1b11292d389b77b811eebb34f157cdad7ad"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e3cd745973acefe718b4ebde9c084f44700ceb3c1aa66089f9c16677b9e3d8d5"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f09c29b0e22fbd39e4f32233a168f9013f2c214c0111ec5b494d7c8e1dec9977"
+        }
+      ],
+      "rawOutputSha256": "d0bf8d7a8772e8e57d2ffcf8471af0776d658b650fe02265c1d313afc9d2d52e"
+    }
+  ],
+  "nonTargetPagesPreserved": 182
+}

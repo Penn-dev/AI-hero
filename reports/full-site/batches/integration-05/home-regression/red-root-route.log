@@ -1,0 +1,32 @@
+10:13:32 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ workshop text prompts are not labelled as original code (22.9604ms)
+✔ public articles with an independent glossary retain original resources and Chinese term controls (26.126523ms)
+✔ explicit historical review keeps Chinese-only links and its term controls (12.454313ms)
+✔ explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English (7.842941ms)
+✔ the home page displays the frozen original homepage content instead of historical placeholder statistics (137.96456ms)
+✔ the home page offers a separate directory with every available Chinese deep route (77.097143ms)
+✖ deep-page static routes exclude the separately owned homepage (130.842165ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 6
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1499.41509
+
+✖ failing tests:
+
+test at scripts/localized-article.test.mjs:106:6
+✖ deep-page static routes exclude the separately owned homepage (130.842165ms)
+  AssertionError [ERR_ASSERTION]: The root belongs to app/page, not an empty catch-all slug
+      at TestContext.<anonymous> (file:///workspace/shared/aihero-integration/scripts/localized-article.test.mjs:108:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

@@ -57,6 +57,16 @@ async function check(target, viewport) {
     await expect(original).toHaveAttribute('href', record.sourceUrl);
     await expect(original).toHaveAttribute('target', '_blank');
     result.checks.push('HTTP 200, Chinese title/body and exact original-source entry');
+    if (target.titleWrapRegression) {
+      const measure = () => ({ width: document.documentElement.scrollWidth, client: document.documentElement.clientWidth, headings: [...document.querySelectorAll('.article-title, .markdown-body h1')].map(element => ({ text: element.textContent, width: element.getBoundingClientRect().width, scrollWidth: element.scrollWidth, wrap: getComputedStyle(element).overflowWrap })) });
+      result.titleWrap = { current: await page.evaluate(measure) };
+      await page.locator('.article-title, .markdown-body h1').evaluateAll(elements => elements.forEach(element => { element.style.overflowWrap = 'normal'; }));
+      result.titleWrap.legacyNoWrap = await page.evaluate(measure);
+      await page.locator('.article-title, .markdown-body h1').evaluateAll(elements => elements.forEach(element => element.style.removeProperty('overflow-wrap')));
+      result.titleWrap.restored = await page.evaluate(measure);
+      assert.ok(result.titleWrap.restored.headings.every(heading => heading.wrap === 'anywhere'), 'Real stylesheet wrap must be restored before acceptance');
+      result.checks.push('Recorded long-title geometry with current stylesheet, temporary legacy no-wrap, and restored stylesheet; content unchanged');
+    }
     if (target.captureTop) await screenshot(page, result, 'top');
 
     const figures = page.locator('#reading-body figure.code-frame');
@@ -110,8 +120,9 @@ async function check(target, viewport) {
       await expect(heading).toBeInViewport();
     }
     const width = await page.evaluate(() => ({ scroll: document.documentElement.scrollWidth, client: document.documentElement.clientWidth }));
-    assert.ok(width.scroll <= width.client + 1, 'Document must not overflow horizontally');
     result.width = width;
+    if (width.scroll > width.client + 1) result.overflow = await page.locator('body *').evaluateAll(elements => elements.map(element => ({tag: element.tagName, className: element.className, text: element.textContent?.slice(0, 200), x: element.getBoundingClientRect().x, right: element.getBoundingClientRect().right, width: element.getBoundingClientRect().width})).filter(element => element.right > document.documentElement.clientWidth + 1 && element.width > 0));
+    assert.ok(width.scroll <= width.client + 1, 'Document must not overflow horizontally');
     result.checks.push('All section headings reachable; images loaded; document has no horizontal overflow');
     for (const id of target.anchors ?? []) {
       await page.goto('about:blank');
@@ -131,6 +142,24 @@ async function check(target, viewport) {
         await page.waitForURL(baseUrl + href);
         await expect(page.getByRole('heading', { level: 1 }).first()).toHaveText(index.pages[href].title);
         result.checks.push(`Dictionary term link actually opens its Chinese page: ${href}`);
+        await page.goBack({ waitUntil: 'networkidle' });
+      }
+    }
+    if (target.siteDirectory) {
+      const directory = page.getByRole('navigation', { name: '全部中文页面', exact: true });
+      const details = directory.locator('details');
+      await details.locator('summary').click();
+      const hrefs = await directory.locator('a').evaluateAll(links => links.map(link => link.getAttribute('href')));
+      assert.equal(hrefs.length, target.siteDirectory);
+      assert.deepEqual([...hrefs].sort((a, b) => a.localeCompare(b)), Object.keys(index.pages).filter(route => route !== '/').sort((a, b) => a.localeCompare(b)));
+      await directory.getByRole('heading', { name: '全部中文页面', exact: true }).scrollIntoViewIfNeeded();
+      await screenshot(page, result, 'all-pages-directory');
+      if (viewport.width === 390) for (const href of hrefs) {
+        if (await details.getAttribute('open') === null) await details.locator('summary').click();
+        await directory.locator(`a[href="${href}"]`).click();
+        await page.waitForURL(baseUrl + href);
+        await expect(page.getByRole('heading', { level: 1 }).first()).toHaveText(index.pages[href].title);
+        result.checks.push(`Home directory actually opens Chinese route: ${href}`);
         await page.goBack({ waitUntil: 'networkidle' });
       }
     }

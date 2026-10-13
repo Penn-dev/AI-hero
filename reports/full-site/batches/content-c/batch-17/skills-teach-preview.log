@@ -1,0 +1,88 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-17/configs/skills-teach.json
+
+{
+  "mode": "preview",
+  "route": "/skills-teach",
+  "page": {
+    "title": "/teach Skill",
+    "description": "通过多次互相衔接的会话，持续学习一个主题。",
+    "markdown": "## 它能做什么\n\n`teach` 把运行所在目录变成长期教学工作区，通过简短、自包含的 HTML 课程，在多次[会话](https://www.aihero.dev/ai-coding-dictionary/session)中教你一个主题。\n\n它不直接依据[模型](https://www.aihero.dev/ai-coding-dictionary/model)已有知识教学，而把[参数知识](https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge)视为不可信。授课前先找高可信资源，记录到 `RESOURCES.md`，并在每课引用。它也是[有状态的](https://www.aihero.dev/ai-coding-dictionary/stateful)：学习目标、资源、课程和学习记录都保存在目录文件中。下次会话从文件续接，不靠上次对话残留。\n\n## 什么时候该用它\n\n输入 `/teach`；[智能体](https://www.aihero.dev/ai-coding-dictionary/agent)不会自行调用。\n\n当学习本身就是项目时使用，例如语言、框架、刚加入的代码库、瑜伽、着色器或资格认证。它不适合顺便解释一件事。\n\n| 想做什么 | 使用什么 |\n| --- | --- |\n| 用数周学习主题，让会话逐渐累积 | `teach` |\n| 在当前会话解释一个概念 | 直接在当前会话问 |\n| 智能体上一条消息没说懂，希望重新解释 | [wait-what](https://aihero.dev/skills-wait-what) |\n| 把已有思考理清，而非获得新知识 | [grill-me](https://aihero.dev/skills-grill-me) |\n| 后台智能体读[第一手来源](https://www.aihero.dev/ai-coding-dictionary/primary-source)，留下带引用文档 | [research](https://aihero.dev/skills-research) |\n| 学习追问中出现的陌生内容，不打断原[追问](https://www.aihero.dev/ai-coding-dictionary/grilling) | 用 [handoff](https://aihero.dev/skills-handoff) 转到教学工作区，再在那里 `teach` |\n\n## 使用前提\n\n`teach` 建立一个目录，而非只生成一个文件，默认每个工作区对应一个学习目标。因此选一个愿意留给单一主题的位置，不放进正在开发的项目。独立仓库比全局 `~/.learnings/` 或工作项目更合适，也方便提交课程文件，团队已有这样分享的实践。\n\n目录会积累：\n\n| 路径 | 内容 |\n| --- | --- |\n| `MISSION.md` | 为什么学习，其他文件都依赖它。缺失时，`teach` 先访谈，直到明确 |\n| `RESOURCES.md` | 核验过的教学来源，分 Knowledge，知识，和 Wisdom，实践智慧社区 |\n| `lessons/*.html` | 编号课程，主要教学单位 |\n| `reference/*.html` | 精简速查表、算法、词汇表，供以后查阅 |\n| `learning-records/*.md` | 类似 ADR 的记录，记已用表现证明学会的内容，据此选下一课 |\n| `assets/*` | 可复用组件，首先是共享样式表，让课程看起来属于同一套 |\n| `NOTES.md` | 你明确表达的教学偏好 |\n\n有两点补充。大多数主题适合词汇表，但随 Skill 提供的 `GLOSSARY-FORMAT.md` 已不再由 `SKILL.md` 链接，因此只有明确要求才会得到，见 [issue #559](https://github.com/mattpocock/skills/issues/559)。所有东西都写进运行 `/teach` 的目录。\n\n## 追求长期记忆，不是眼前熟练\n\n核心词是**存储强度**，即长期保留；与之不同的是**熟练感**，阅读时当下能想起来、感觉已掌握，一周后却忘了。`teach` 通过有益难度建立长期记忆：主动回忆、间隔安排、交错练习。先获得知识，这时增加难度反而抢占理解所需的工作记忆；然后 `teach` 用紧凑反馈循环练技能，此时难度才成为工具。\n\n两个因素决定教什么。**学习目标**，也就是现实中为什么需要它，是每课依据。没有目标，课就抽象，也无法决定下一步。从目标和学习记录出发，`teach` 选择处于**最近发展区**的下一课：需要努力，但没有超前到学不会。\n\n长期记忆目标也让它反驳你，而非一味同意。需要**实践智慧**的判断题，它先尝试回答，再指向能检验答案的社区。它不允许跳过测验。有用户说“thanks a lot”，结果被提醒练习还没做完。\n\n中文理解：“thanks a lot”是“非常感谢”，并不意味着已经完成练习。\n\n译注：这里说明原文的教学设计；后文会区分课程中的间隔安排，与真正自动安排复习的功能。\n\n## 课程、参考资料与组件\n\n一**课**是单个自包含 HTML 文件，一次能学完，紧扣目标，带来一项具体收获。它引用来源，推荐一个值得自己读的第一手来源，并链接其他课程及参考文档。\n\n课程很少重读，参考资料却经常回看。因此课程短版，例如语法表、算法、姿势序列、词汇表，应放在 `reference/`，不埋在首次讲它的课程里。\n\n课程由 `assets/` 中的**组件**组成，包括样式表、测验控件、模拟器和图示工具。默认复用。写课前先读 `assets/`，基于已有内容构建。新东西只要第二课也可能用，就写成组件，不直接嵌在一课里。共享样式表是每个工作区第一个组件，让课程像同一套，而非无关页面。\n\n## 常见问题\n\n**文件放哪里？我的跑到 `~/.claude/skills` 了。**\n\n就放在运行 `/teach` 的目录，见 [#377](https://github.com/mattpocock/skills/issues/377)。\n\n**一直用同一会话，还是每课新开？**\n\n三种都行：同会话继续、新会话重新 `/teach`、在同目录新开会话。每课是一次调用，课程状态在目录，不在对话。常见做法是在工作区新开会话，说 `/teach next lesson for <topic>`。\n\n中文 Prompt（译注）：\n\n```text\n/teach 继续 <topic> 的下一课。\n```\n\n**怎么知道它没编造知识？**\n\n仅凭 Skill 的保证，不知道。你需要读第一手来源。`teach` 不可靠到可以不核实，任何建立在 LLM 上的 Skill 都如此。`RESOURCES.md`、逐课引用、每课推荐一个第一手来源，让核查更容易，但不免除核查。曾有学习 2×2 魔方的用户拿到编造且无法还原的转动序列。遇到这种情况，检查模型、执行框架、推理强度和来源。风险在符号精确的步骤型领域最高，在能立即验证的产出上最低，例如可运行代码。\n\n**正确选项总是第一个。**\n\n多人在 Sonnet、Opus 和 GLM 上确认过，仍未修。`SKILL.md` 现在要求每个答案字数一样，去掉了另一条线索，以前正确答案是唯一理由完整的选项，但没有规定位置。一位贡献者试过指令级修复，九课三十三题，正确答案仍三十三次都在 A，见 [#335](https://github.com/mattpocock/skills/issues/335)。真正修法是 `assets/` 里的测验组件随机打乱选项，而非更好措辞。发布前忽略位置线索。`assets/` 是你自己的，可以要求做一个渲染时打乱的组件，作为本地修复。\n\n**它假定我已知道很多事，用了没定义的术语。**\n\n这是最常见的实际抱怨。没有评估步骤。`teach` 从目标和学习记录推断程度，而第一课没有记录。一位在 wayfinder 流程里运行的用户说：“It never did grilling to establish my starting point so it made lots of assumptions of what I already knew.”\n\n中文理解：它没有先追问我的起点，于是对我已经知道什么作了很多假设。\n\n另有人报告，课程使用未定义术语，关于自己的硬件的一课只说能做什么，不说不能做什么。两件事有帮助：首条消息说清已有知识和缺口；课的难度不对时直接纠正，纠正会成为学习记录，引导下一课。显式知识评估仍是请求，见 [#725](https://github.com/mattpocock/skills/issues/725)，不是已发布功能。\n\n**有间隔复习吗？知道什么时候该停吗？**\n\n前者没有，后者不可靠。设计课程会考虑间隔和交错，但没有东西安排复习，也没接 Anki 或日历，用户经常要求这两项。相关缺口是退出条件。一位用户说，`teach` “is good at making the next lesson, but not as good at knowing when to stop and switch to review or real practice.”\n\n中文理解：擅长做下一课，却不擅长判断何时停止讲新内容，改为复习或真正练习。\n\n想复习或操练，而非学新内容，要自己提出，它不会主动建议切换。\n\n**只适合代码吗？**\n\n不是。多数报告来自代码之外：韩语、日语敬语、钢琴、吉他、桌游设计、OpenSCAD、电影情节、Azure 和 CCNA 认证、大学考试，还有八岁、十岁孩子拿到关于密室逃脱与火蝾螈的可打印书。Skill 没有编程专属部分。目标、来源、最近发展区和练习适用于各领域。代码领域里，用户报告熟悉陌生代码库或新团队技术栈，比从零学一门语言更有价值。\n\n**该选哪个模型？**\n\n没有标准答案，报告的差异很大。用户称较高[推理强度](https://www.aihero.dev/ai-coding-dictionary/effort)比 medium 产出更好。一位用户在 Copilot CLI 中用 Codex 跑同一 Skill，只得到三十行 HTML 卡片，而 Claude Code 产出完整课程。如果组织允许添加 Skills，它也能不作修改地在 Claude Cowork 中运行。课程太薄时，重写提示词前先换模型、[执行框架](https://www.aihero.dev/ai-coding-dictionary/harness)或强度。\n\n## 出现这些迹象，就说明它在发挥作用\n\n- 空目录中先问为什么学习，不直接出课。\n- `RESOURCES.md` 先于课程充实，每课推荐一个值得自己读的第一手来源。\n- 课程主张带外链，没有引用就是凭模型记忆教学。\n- 一课一次学完，让你做到先前做不到的一件事。\n- 在同目录新会话说“next lesson”，能续课，不会重启。\n- `learning-records/` 增长，不再重复教你已经表现出掌握的内容。\n- 课程链接 `assets/` 的共享样式表，而非各自带一套。\n- 需要判断力的问题，会指向论坛、subreddit 或课程，而非只给答案。\n\n中文 Prompt（译注，对应 next lesson）：\n\n```text\n下一课。\n```\n\n## 它处在什么位置\n\n`teach` 是**随时可用的独立 Skill**，不是开发链的一步，不与工程流程共享产物。你学习多久，它就在独立目录中持续多久。\n\n唯一真正的邻居是 [handoff](https://aihero.dev/skills-handoff)，一起回答“追问中遇到不理解的东西怎么办”。别停下追问去学，用 `/handoff` 转到教学工作区，以 `/teach` 学会后，再回去继续。另一选择是 [research](https://aihero.dev/skills-research)，适用于要带出处文档，而非课程和长期记忆时。不确定时，用 [ask-matt](https://aihero.dev/skills-ask-matt)。\n\n译注：相关中文词条：[参数知识](/ai-coding-dictionary/parametric-knowledge)、[有状态](/ai-coding-dictionary/stateful)、[第一手来源](/ai-coding-dictionary/primary-source)。中文页未接入时会回到原站英文页。学习效果、模型比较和问题状态均沿用固定来源，未重新实验验证。",
+    "sourceUpdatedAt": "2026-08-24T09:14:47.195Z",
+    "sourceUrl": "https://www.aihero.dev/skills-teach",
+    "sourceHash": "9e15a9c39bccc9bf6ed72085209828712df422d9087aaccc2490fada45c2f71c"
+  },
+  "manifest": {
+    "route": "/skills-teach",
+    "sourceUrl": "https://www.aihero.dev/skills-teach",
+    "sourceHash": "9e15a9c39bccc9bf6ed72085209828712df422d9087aaccc2490fada45c2f71c",
+    "translationPath": "content/zh/skills-teach.md",
+    "translationHash": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T12:14:47.972Z",
+    "assembly": {
+      "configHash": "0fd807a18451e68441d3dd9670eedbbdcb21af66b54e0fa97c65d3f2f58a4d20",
+      "checkedAt": "2026-10-13T12:14:47.972Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/parametric-knowledge",
+          "state": "planned-chinese",
+          "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+        },
+        {
+          "route": "/ai-coding-dictionary/stateful",
+          "state": "planned-chinese",
+          "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+        },
+        {
+          "route": "/ai-coding-dictionary/primary-source",
+          "state": "planned-chinese",
+          "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+        }
+      ],
+      "staleChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "state": "planned-chinese",
+      "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "state": "planned-chinese",
+      "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "planned-chinese",
+      "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/skills-teach.md",
+      "sha256": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "80ded7bf063bdab923d174d09953ef6658301e2927e625137116ec3ed601ea8e"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "34fbe8f14453d916d505c73f447c5f1caeb82437fbd17e3c77575bd9e0a89c39"
+    }
+  ]
+}

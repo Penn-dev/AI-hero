@@ -1,0 +1,22 @@
+{
+  "route": "/skills-grill-with-docs",
+  "source": {
+    "path": "content/source/skills-grill-with-docs.md",
+    "sha256": "7d562414cab61c24ebfed9382dcb18844240e3f30760ef7c3e4865fcff0f1a90"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-16/drafts/skills-grill-with-docs.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    }
+  ]
+}

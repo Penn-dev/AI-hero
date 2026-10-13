@@ -1,0 +1,22 @@
+{
+  "route": "/skills-prototype",
+  "source": {
+    "path": "content/source/skills-prototype.md",
+    "sha256": "2bb059ffc469453c3d98f9f04c1c3928bd020ac999709e20c86df88a95c5e821"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-15/drafts/skills-prototype.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "available-chinese"
+    }
+  ]
+}

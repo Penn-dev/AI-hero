@@ -1,0 +1,22 @@
+{
+  "route": "/skills-tdd",
+  "source": {
+    "path": "content/source/skills-tdd.md",
+    "sha256": "a58850bf7c649639f9bfec97451f07cb8bef87bcefd87d6b0afbfc20e8ed5c08"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-15/drafts/skills-tdd.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "state": "available-chinese"
+    }
+  ]
+}

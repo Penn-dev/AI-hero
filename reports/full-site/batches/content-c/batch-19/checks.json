@@ -1,0 +1,38 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-wayfinder",
+      "sourcePath": "content/source/skills-wayfinder.md",
+      "sourceHash": "b9233cc9fd083cf57da8c98c12179a9da92c005c3153f181782cc69f8b10e793",
+      "chineseFile": "reports/full-site/batches/content-c/batch-19/drafts/skills-wayfinder.md",
+      "translationHash": "98ed068575ccbd2f102864f2e1d42c809af0eeb17f30c1a5cbf376144f4eba48",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对全部8节、2张表、10个常见问题与7项有效迹象；地图四部分、四类任务、先规划后交接、并行限制和失败案例均保留。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读改写为自然中文，保留作者判断、用户报告归属、条件语气；未把当前原文缺口改成已修复，也未缩成摘要。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "解释前沿/迷雾、曳光弹任务与两个 maxxing 说法；原交接请求与完整可复制中文 Prompt 相邻，历史状态明确为冻结原文。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "原行内技术标识、命令、占位符和所有原资源链接保留；增加中文概念导航，不执行示例，也不扩大权限。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 34
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": "无新增正文缺口；真实页面第五项由工程检查，计划中文导航由工程按真实可用状态刷新。"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-15/configs/why-the-anthropic-ralph-plugin-sucks.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/why-the-anthropic-ralph-plugin-sucks",
+      "manifest": {
+        "route": "/why-the-anthropic-ralph-plugin-sucks",
+        "sourceUrl": "https://www.aihero.dev/why-the-anthropic-ralph-plugin-sucks",
+        "sourceHash": "6ed9c1164a965fb931d345309e65cb0f8bbeff0cc7bb5d678a9d08108d6c55b4",
+        "translationPath": "content/zh/why-the-anthropic-ralph-plugin-sucks.md",
+        "translationHash": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:53.016Z",
+        "assembly": {
+          "configHash": "c737e0a5a02f9e2545e2b2e6ecc77f25005042a9173962299d305c30b334a2fa",
+          "checkedAt": "2026-10-13T13:07:53.016Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            },
+            {
+              "route": "/tips-for-ai-coding-with-ralph-wiggum",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            },
+            {
+              "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/why-the-anthropic-ralph-plugin-sucks.md",
+          "sha256": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "92434950a9a295a68117416299c388e9b821919ab61791b424d935325af06071"
+        }
+      ],
+      "rawOutputSha256": "4965644b8f21a2d6566e2499d76ddcc99f27539f096d258f47f07aaa70c1d79f"
+    },
+    {
+      "mode": "apply",
+      "route": "/why-the-anthropic-ralph-plugin-sucks",
+      "manifest": {
+        "route": "/why-the-anthropic-ralph-plugin-sucks",
+        "sourceUrl": "https://www.aihero.dev/why-the-anthropic-ralph-plugin-sucks",
+        "sourceHash": "6ed9c1164a965fb931d345309e65cb0f8bbeff0cc7bb5d678a9d08108d6c55b4",
+        "translationPath": "content/zh/why-the-anthropic-ralph-plugin-sucks.md",
+        "translationHash": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:53.286Z",
+        "assembly": {
+          "configHash": "c737e0a5a02f9e2545e2b2e6ecc77f25005042a9173962299d305c30b334a2fa",
+          "checkedAt": "2026-10-13T13:07:53.286Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            },
+            {
+              "route": "/tips-for-ai-coding-with-ralph-wiggum",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            },
+            {
+              "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/why-the-anthropic-ralph-plugin-sucks.md",
+          "sha256": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e04c599232fb40a129d6acfa16764f363ce08494aed44e064b2955f9dcf0ec64"
+        }
+      ],
+      "rawOutputSha256": "41b28b23387202802bfe48c86b2eb8f0da7949da162959e986284c3ffda18d7b"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

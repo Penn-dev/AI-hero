@@ -1,0 +1,10 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-18/drafts/skills-triage.md",
+      "sha256": "fe3e6bb0831eddc9a3c5e7647a14acc3547d4161c6024b8b3825860d19574d3d",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

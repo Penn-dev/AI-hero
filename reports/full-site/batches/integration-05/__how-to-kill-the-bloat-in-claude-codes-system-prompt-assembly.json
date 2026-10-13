@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-11/configs/how-to-kill-the-bloat-in-claude-codes-system-prompt.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "manifest": {
+        "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+        "sourceUrl": "https://www.aihero.dev/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+        "sourceHash": "1a5db35027068789365ec4ebffa3e451e37b3d9e5aef22ed2c4d55cabe3db4d6",
+        "translationPath": "content/zh/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+        "translationHash": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:30.510Z",
+        "assembly": {
+          "configHash": "8fa6685c8d52b4efb22c12815aa5a3629cc29d3c0ae72ee37c05a3f98ffff8de",
+          "checkedAt": "2026-10-13T13:04:30.510Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills-setup-matt-pocock-skills",
+              "state": "planned-chinese",
+              "reason": "固定范围中文技能目标，工程确认接入后刷新，保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+          "sha256": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "4608e844cee2b48974deae87151131d296d3a86f6703163e3dfb8303867b05fe"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "aea8ff57e5c8635f524d48513354be5eb807992db649d48f82096b7835bf5f2e"
+        }
+      ],
+      "rawOutputSha256": "f9d129bb1503f9d8ecec01b8822d22e09ef0b2d659d8f02f22e2efbf8059275e"
+    },
+    {
+      "mode": "apply",
+      "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+      "manifest": {
+        "route": "/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+        "sourceUrl": "https://www.aihero.dev/how-to-kill-the-bloat-in-claude-codes-system-prompt",
+        "sourceHash": "1a5db35027068789365ec4ebffa3e451e37b3d9e5aef22ed2c4d55cabe3db4d6",
+        "translationPath": "content/zh/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+        "translationHash": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:30.743Z",
+        "assembly": {
+          "configHash": "8fa6685c8d52b4efb22c12815aa5a3629cc29d3c0ae72ee37c05a3f98ffff8de",
+          "checkedAt": "2026-10-13T13:04:30.743Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills-setup-matt-pocock-skills",
+              "state": "planned-chinese",
+              "reason": "固定范围中文技能目标，工程确认接入后刷新，保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-kill-the-bloat-in-claude-codes-system-prompt.md",
+          "sha256": "0c71dc7d209462834f6301286ac9953ccbc28bcf8fb4b360315fbbcdf7ed735e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "4608e844cee2b48974deae87151131d296d3a86f6703163e3dfb8303867b05fe"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8655247ee030b5e1fc96c43b2207cc727e2de56cdce79f643ded6724afe33ee1"
+        }
+      ],
+      "rawOutputSha256": "4d4c81ee6ea147f368e1c6136a83d73b98b78969cd6378de94f4a342efb57efa"
+    }
+  ],
+  "nonTargetPagesPreserved": 174
+}

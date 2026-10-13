@@ -1,0 +1,15 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-16/drafts/skills-grill-with-docs.md",
+      "sha256": "3b8ab7c6c48248fe4e6281efba16f1e3018ec2192225861a116e2867a4b2b860",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-16/drafts/skills-improve-codebase-architecture.md",
+      "sha256": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

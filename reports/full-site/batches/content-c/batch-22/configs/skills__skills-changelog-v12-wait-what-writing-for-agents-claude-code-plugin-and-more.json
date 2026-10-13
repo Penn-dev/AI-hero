@@ -1,0 +1,34 @@
+{
+  "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+  "source": {
+    "path": "content/source/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+    "sha256": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-22/drafts/skills__skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+  "linkTargets": [
+    {
+      "route": "/skills",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    }
+  ]
+}

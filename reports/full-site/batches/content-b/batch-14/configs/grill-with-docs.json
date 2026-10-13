@@ -1,0 +1,83 @@
+{
+  "route": "/grill-with-docs",
+  "source": {
+    "path": "content/source/grill-with-docs.md",
+    "sha256": "b85b3ecda8bfc87b933be848c968dcaf22bbc5fbe75f34e37652bb22f0b2065e"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-14/drafts/grill-with-docs.md",
+  "translationPath": "content/zh/grill-with-docs.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-grill-me",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-wayfinder",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-to-questionnaire",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-domain-modeling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-to-spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-implement",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/skills-ask-matt",
+      "state": "available-chinese"
+    }
+  ]
+}

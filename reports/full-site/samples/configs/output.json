@@ -86,8 +86,7 @@
   "linkTargets": [
     {
       "route": "/workshops/ai-sdk-v6-crash-course",
-      "state": "planned-chinese",
-      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+      "state": "available-chinese"
     },
     {
       "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution",

@@ -16,6 +16,24 @@
       "bytes": 3914521,
       "runId": "38395456927",
       "artifactId": "11812760129"
+    },
+    {
+      "file": "aihero-production-03-incomplete.zip",
+      "version": 0,
+      "sha256": "0bce7ca0eefe2fe77f6e34f56d3b7fa5a172280f9f7daf00a805bd44c04da0c5",
+      "bytes": 16284553,
+      "runId": "38398534538",
+      "artifactId": "11812858630",
+      "status": "Retained initial failure; exact Prompt selector and definition screenshots subsequently repaired."
+    },
+    {
+      "file": "aihero-production-04-incomplete.zip",
+      "version": 0,
+      "sha256": "20cfd1b83d1ce33847e067feedd8bf878577425a4fd2a82e5cb95ee1c339e818",
+      "bytes": 21720515,
+      "runId": "38401367005",
+      "artifactId": "11816301809",
+      "status": "107/120 views passed; 12 missing-h2 test targets and one narrow-screen title overflow require targeted rerun."
     }
   ]
 }

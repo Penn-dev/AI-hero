@@ -1,0 +1,9 @@
+{
+  "route": "/connect-claude-code-to-github",
+  "source": {
+    "path": "content/source/connect-claude-code-to-github.md",
+    "sha256": "19af8b59a3fa6e1ea8578c13b34f32c41c58cd6d4d6f4211356840cc05ebc929"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-10/drafts/connect-claude-code-to-github.md",
+  "translationPath": "content/zh/connect-claude-code-to-github.md"
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-12/configs/tracer-bullets.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/tracer-bullets",
+      "manifest": {
+        "route": "/tracer-bullets",
+        "sourceUrl": "https://www.aihero.dev/tracer-bullets",
+        "sourceHash": "9f19252ea92f8ce0232186eb07224670c9410b9c7fbbfc0bc7bcb12d4267ee57",
+        "translationPath": "content/zh/tracer-bullets.md",
+        "translationHash": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:55.818Z",
+        "assembly": {
+          "configHash": "fb8ceeeb0f15d7e46c8d3c502e457fa495fecd028ea0c17f878058aa234e71ea",
+          "checkedAt": "2026-10-13T13:07:55.818Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/tracer-bullets.md",
+          "sha256": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c3c1a23b4d2d6054ef5fd551d4770bc9b8fb54efe5f7dc535821cbe0a09aea47"
+        }
+      ],
+      "rawOutputSha256": "6d29b7e857260ad68be78df16ff4380f13062026494a4398070770f9062b21e1"
+    },
+    {
+      "mode": "apply",
+      "route": "/tracer-bullets",
+      "manifest": {
+        "route": "/tracer-bullets",
+        "sourceUrl": "https://www.aihero.dev/tracer-bullets",
+        "sourceHash": "9f19252ea92f8ce0232186eb07224670c9410b9c7fbbfc0bc7bcb12d4267ee57",
+        "translationPath": "content/zh/tracer-bullets.md",
+        "translationHash": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:56.086Z",
+        "assembly": {
+          "configHash": "fb8ceeeb0f15d7e46c8d3c502e457fa495fecd028ea0c17f878058aa234e71ea",
+          "checkedAt": "2026-10-13T13:07:56.086Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/tracer-bullets.md",
+          "sha256": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c06f7ff566ebce29f8ddba7d7163892ac9fa5136cb1aa72705ee225bf212ecb4"
+        }
+      ],
+      "rawOutputSha256": "3f228425bd681d6e54168084a00a4b5c171ac1287e33d4476fdce6a2064caf16"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-13/configs/5-agent-skills-i-use-every-day.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/5-agent-skills-i-use-every-day",
+      "manifest": {
+        "route": "/5-agent-skills-i-use-every-day",
+        "sourceUrl": "https://www.aihero.dev/5-agent-skills-i-use-every-day",
+        "sourceHash": "19cb0d155711f123378ecbe5ca2cc33a3b8704ac8399eed68e5c016cc211042b",
+        "translationPath": "content/zh/5-agent-skills-i-use-every-day.md",
+        "translationHash": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:03.304Z",
+        "assembly": {
+          "configHash": "e0256f5a3630589f27212cc2f0d45b2fb40c883234bb06573490aac769b4b0bf",
+          "checkedAt": "2026-10-13T13:08:03.304Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/5-agent-skills-i-use-every-day.md",
+          "sha256": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a7c3b865f79fc933b5aefd030c29510cd67dee1037d9637b4998152038e6dd41"
+        }
+      ],
+      "rawOutputSha256": "4552e71b1e6210f11a7af16e20ce5f6cde6511771c50f144c994b11552f215f3"
+    },
+    {
+      "mode": "apply",
+      "route": "/5-agent-skills-i-use-every-day",
+      "manifest": {
+        "route": "/5-agent-skills-i-use-every-day",
+        "sourceUrl": "https://www.aihero.dev/5-agent-skills-i-use-every-day",
+        "sourceHash": "19cb0d155711f123378ecbe5ca2cc33a3b8704ac8399eed68e5c016cc211042b",
+        "translationPath": "content/zh/5-agent-skills-i-use-every-day.md",
+        "translationHash": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:03.602Z",
+        "assembly": {
+          "configHash": "e0256f5a3630589f27212cc2f0d45b2fb40c883234bb06573490aac769b4b0bf",
+          "checkedAt": "2026-10-13T13:08:03.602Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/5-agent-skills-i-use-every-day.md",
+          "sha256": "51188c68d60fb0778ebf01082ed4efb476da1ad5e1289d5bf1806c9052929930"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "fd2c81b54f26fda268fe9bc1c0f9b4147dc777c9f276e6f773242090e1669ff2"
+        }
+      ],
+      "rawOutputSha256": "b99ff5df09cebcfa3c5c244d5bafd806aa3a7362b9a9a89e0b094745fa931aa2"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

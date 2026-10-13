@@ -1,0 +1,19 @@
+{
+  "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+  "source": {
+    "path": "content/source/heres-how-to-stream-claude-code-with-afk-ralph.md",
+    "sha256": "8a75e0ba6738c7e18f3223d5cbcf26e21a1ad3b32795d4877f3ad8fbe3b501e9"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-15/drafts/heres-how-to-stream-claude-code-with-afk-ralph.md",
+  "translationPath": "content/zh/heres-how-to-stream-claude-code-with-afk-ralph.md",
+  "linkTargets": [
+    {
+      "route": "/getting-started-with-ralph",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "state": "available-chinese"
+    }
+  ]
+}

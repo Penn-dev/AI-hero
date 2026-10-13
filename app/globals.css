@@ -73,6 +73,7 @@ footer { border-top: 1px solid var(--border); background: #efebe0; }
 .footer-inner > a:last-child { justify-self: end; }
 .article-hero { max-width: 1040px; padding: 72px 0 58px; }
 .article-kicker { margin: 0 0 20px; color: var(--primary); font-family: var(--font-geist-mono); font-size: 12px; font-weight: 780; letter-spacing: .1em; text-transform: uppercase; }
+.article-title, .markdown-body h1 { overflow-wrap: anywhere; }
 .article-title { max-width: 920px; margin: 0; font-size: clamp(42px, 5.5vw, 64px); line-height: 1.08; letter-spacing: -.045em; text-wrap: balance; }
 .article-description { max-width: 780px; margin: 24px 0 0; color: #4c4f47; font-size: 19px; line-height: 1.72; }
 .article-byline { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-top: 28px; color: #5b5e55; font-size: 14px; }

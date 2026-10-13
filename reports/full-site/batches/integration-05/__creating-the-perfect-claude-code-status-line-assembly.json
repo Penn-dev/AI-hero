@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-11/configs/creating-the-perfect-claude-code-status-line.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/creating-the-perfect-claude-code-status-line",
+      "manifest": {
+        "route": "/creating-the-perfect-claude-code-status-line",
+        "sourceUrl": "https://www.aihero.dev/creating-the-perfect-claude-code-status-line",
+        "sourceHash": "f0d4b3e3484e695416f26c2f6fe9ebb3562891f350fc0d84d7b3eee615742ba4",
+        "translationPath": "content/zh/creating-the-perfect-claude-code-status-line.md",
+        "translationHash": "c4d73264cfec2f015da8bcb63f78adc3de79cd91b3039f614d833b9d68c6cea6",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:29.979Z",
+        "assembly": {
+          "configHash": "de6353f75dfbaabde827762b5d5463863775fc658142731d5925d3018230d8cd",
+          "checkedAt": "2026-10-13T13:04:29.979Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/creating-the-perfect-claude-code-status-line.md",
+          "sha256": "c4d73264cfec2f015da8bcb63f78adc3de79cd91b3039f614d833b9d68c6cea6"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ef23ab4eb506972a47a2ea1c6b1682913cc4bb5c7f33cce5f30db9540a5d43aa"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "33fc647b5d4ea2026b8643c1ebd7b231a0e44a705d9a63cec568d203fb4b978c"
+        }
+      ],
+      "rawOutputSha256": "3f98b5c421fa84bfdf08cad68b4e3314185a348ca4328b4575829fb536838a00"
+    },
+    {
+      "mode": "apply",
+      "route": "/creating-the-perfect-claude-code-status-line",
+      "manifest": {
+        "route": "/creating-the-perfect-claude-code-status-line",
+        "sourceUrl": "https://www.aihero.dev/creating-the-perfect-claude-code-status-line",
+        "sourceHash": "f0d4b3e3484e695416f26c2f6fe9ebb3562891f350fc0d84d7b3eee615742ba4",
+        "translationPath": "content/zh/creating-the-perfect-claude-code-status-line.md",
+        "translationHash": "c4d73264cfec2f015da8bcb63f78adc3de79cd91b3039f614d833b9d68c6cea6",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:30.228Z",
+        "assembly": {
+          "configHash": "de6353f75dfbaabde827762b5d5463863775fc658142731d5925d3018230d8cd",
+          "checkedAt": "2026-10-13T13:04:30.228Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/creating-the-perfect-claude-code-status-line.md",
+          "sha256": "c4d73264cfec2f015da8bcb63f78adc3de79cd91b3039f614d833b9d68c6cea6"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ef23ab4eb506972a47a2ea1c6b1682913cc4bb5c7f33cce5f30db9540a5d43aa"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b8c4d46a6948ddbd3cd1b40fec29b3c16d3083d28b1b21ba8c33cc6c3779b7d8"
+        }
+      ],
+      "rawOutputSha256": "145cc29215008f98b460fd9392aea87b3f46a228297f431fd8cb462c621512ab"
+    }
+  ],
+  "nonTargetPagesPreserved": 173
+}
