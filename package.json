@@ -16,7 +16,7 @@
     "sync:validate": "node scripts/validate-content.mjs",
     "learning:validate": "node scripts/validate-learning-pages.mjs",
     "page:assemble": "node scripts/assemble-page.mjs",
-    "page:test": "node --test scripts/assemble-page.test.mjs",
+    "page:test": "node --test scripts/assemble-page.test.mjs scripts/localized-article.test.mjs",
     "lint": "oxlint",
     "format": "oxfmt"
   },

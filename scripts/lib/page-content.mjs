@@ -48,11 +48,11 @@ export function markdownResources(tree) {
   }
   return result;
 }
-export function localRoute(href) {
-  const url = new URL(href, 'https://www.aihero.dev');
+export function localRoute(href, baseUrl = 'https://www.aihero.dev') {
+  const url = new URL(href, baseUrl);
   return ['http:', 'https:'].includes(url.protocol) && ['aihero.dev', 'www.aihero.dev'].includes(url.hostname) ? decodeURIComponent(url.pathname) : undefined;
 }
-export function validateArticle(source, candidate) {
+export function validateArticle(source, candidate, sourceUrl) {
   const article = articleParts(candidate);
   assert.ok(article.title?.trim() && article.markdown.trim(), 'Chinese article title/body missing');
   const sourceBody = source.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
@@ -71,12 +71,20 @@ export function validateArticle(source, candidate) {
   assert.ok(containsSequence(levels(tree), levels(original)), 'Heading structure missing or reordered');
   assert.ok(nodes(tree, node => node.type === 'table').length >= nodes(original, node => node.type === 'table').length, 'Table structure missing');
   const canonical = href => {
-    const route = localRoute(href);
-    const url = new URL(href, 'https://www.aihero.dev');
+    const route = localRoute(href, sourceUrl);
+    const url = new URL(href, sourceUrl);
     return route === undefined ? href : `${route}${url.search}${url.hash}`;
   };
-  const resources = markdownResources(tree).map(canonical);
-  for (const href of markdownResources(original)) assert.ok(resources.includes(canonical(href)), `Source resource missing: ${href}`);
+  const candidateResources = markdownResources(tree);
+  for (const href of candidateResources) {
+    assert.ok(/^(?:[a-z][a-z\d+.-]*:|\/|#)/i.test(href), `Bare relative resource URL: ${href}. Use an absolute URL, a root-relative path, or an anchor; resolve source URLs against ${sourceUrl}.`);
+  }
+  const resources = candidateResources.map(canonical);
+  for (const href of markdownResources(original)) {
+    const index = resources.indexOf(canonical(href));
+    assert.ok(index !== -1, `Source resource missing: ${href}`);
+    resources.splice(index, 1);
+  }
   const meta = text => text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n/)?.[1];
   if (meta(source)) {
     const preserved = block => block.split(/\r?\n/).filter(line => !/^(?:title|description):/.test(line)).join('\n');

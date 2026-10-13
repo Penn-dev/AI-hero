@@ -40,7 +40,7 @@ export async function assemblePage({ root = process.cwd(), config, mode = 'previ
   const sourceText = await read(config.source.path);
   assert.equal(sha256(sourceText), config.source.sha256, 'Source hash mismatch: supplied hash');
   assert.equal(sha256(sourceText), source.sourceHash, 'Source hash mismatch: manifest hash');
-  const { article, tree } = validateArticle(sourceText, text);
+  const { article, tree } = validateArticle(sourceText, text, source.url);
   const previousRecord = manifest.pages.find(page => page.route === config.route);
   const requestedPath = config.translationPath ?? previousRecord?.translationPath ?? (config.route === '/' ? 'content/zh/home.md' : `content/zh${config.route}.md`);
   const translationPath = relative(resolve(root), resolve(root, requestedPath)).replaceAll('\\', '/');
@@ -75,7 +75,9 @@ export async function assemblePage({ root = process.cwd(), config, mode = 'previ
     assert.ok(config.learning.profile && typeof config.learning === 'object', 'Invalid learning config');
     for (const [id, source] of Object.entries(config.learning.sources ?? {})) {
       assert.ok(nonempty(source.path) && /^[a-f\d]{64}$/.test(source.sha256), 'Invalid learning source');
-      if (knowledge.sources[id] && JSON.stringify(source) !== JSON.stringify(knowledge.sources[id])) assert.ok(!sharedSource(id), `Shared learning source cannot change: ${id}`);
+      const previous = knowledge.sources[id];
+      // Shared evidence may move, but its hash and other metadata must stay unchanged.
+      if (previous && sharedSource(id)) assert.deepEqual({ ...source, path: previous.path }, previous, `Shared learning source cannot change: ${id}`);
       const bytes = resolve(root, source.path) === resolve(root, translationPath) ? text : await read(source.path);
       assert.equal(sha256(bytes), source.sha256, `Learning source hash mismatch: ${id}`);
     }

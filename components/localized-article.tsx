@@ -48,11 +48,11 @@ export function LocalizedArticle({
   const { articleMarkdown, glossaryMarkdown } = splitGlossary(markdown);
   const article = prepareArticle(articleMarkdown, title);
   const glossary = learningGlossary(learning, glossaryEntries(glossaryMarkdown));
-  const chineseOnlyLinks = Boolean(learning?.glossary);
+  const chineseOnlyLinks = review && Boolean(learning?.glossary);
   const related = (relatedReading ?? learning?.related ?? []).flatMap(item => {
-    if (!chineseOnlyLinks) return [item];
+    if (!learning?.glossary) return [item];
     const link = articleLink(item.href, new Set(Object.keys(contentIndex.pages)));
-    return link.untranslated || link.href?.startsWith('http') ? [] : [{ ...item, href: link.href ?? item.href }];
+    return chineseOnlyLinks && (link.untranslated || link.href?.startsWith('http')) ? [] : [{ ...item, href: link.href ?? item.href }];
   });
   const bodySections = articleSections(article.markdown);
   const CheckList = learning?.kind === 'workshop-lesson' ? 'ol' : 'ul';
@@ -99,7 +99,7 @@ export function LocalizedArticle({
           {learning ? <ArticleLearningGuide profile={learning} glossary={glossary} /> : null}
           <div className="markdown-body" id="reading-body">
             {learning?.bodyTitle ? <h2>{learning.bodyTitle}</h2> : null}
-            <p className="article-reading-hint">{learning?.glossary ? '点击带虚线的术语查看解释；旁边的 ↗ 打开已有中文词条。' : '↗ 表示英文原文链接。'}</p>
+            <p className="article-reading-hint">{learning?.glossary ? '点击带虚线的术语查看解释；旁边的 ↗ 打开对应中文词条或原文资源。' : '↗ 表示英文原文链接。'}</p>
             <LocalizedMarkdown markdown={article.markdown} glossary={glossary} copyLongQuotes exercise={learning?.kind === 'workshop-lesson'} explainLinkedTerms={Boolean(learning?.glossary)} chineseOnlyLinks={chineseOnlyLinks} availableRoutes={Object.keys(contentIndex.pages)} />
           </div>
           {learning?.originalExamples?.length && !learning.originalExamplesInline ? <section className="original-examples" id="original-examples" aria-labelledby="original-examples-title">
