@@ -186,6 +186,41 @@ void test('unfinished batch targets are explicitly recorded while available targ
   assert.deepEqual((await f.get('content/zh/manifest.json')).pages[0].assembly.plannedChineseTargets, f.config.linkTargets);
 });
 
+void test('an actual renderable Chinese target with a stale source version permits assembly and retains the version difference', async t => {
+  const f = await fixture(t);
+  const target = JSON.parse(await readFile(new URL('./fixtures/stale-agent.json', import.meta.url), 'utf8'));
+  const route = target.record.route;
+  const fixedSources = JSON.parse(await readFile(new URL('../content/source/manifest.json', import.meta.url), 'utf8'));
+  const currentSource = fixedSources.pages.find(page => page.route === route);
+  const sources = await f.get('content/source/manifest.json');
+  sources.pages.push(currentSource);
+  await f.put(currentSource.sourcePath, await readFile(new URL(`../${currentSource.sourcePath}`, import.meta.url), 'utf8'));
+  await f.put('content/source/manifest.json', sources);
+  await f.put(target.record.translationPath, target.text);
+  const index = { version: 1, pages: { [route]: target.page } };
+  const manifest = { version: 1, pages: [target.record] };
+  await f.put('content/zh/index.json', index);
+  await f.put('content/zh/manifest.json', manifest);
+  await f.put('draft.md', `${chinese}\n[智能体](${route})\n`);
+  f.config.learning = { profile: { kind: 'guide', sourceIds: [], conceptIds: [], prerequisiteIds: [], start: { title: '开始', cards: [] }, related: [{ title: '智能体', description: '已有中文词条', href: route, format: '词条' }] } };
+  f.config.learning.profile.related.push({ title: '原站课程', description: '显式原资源不要求中文目标', href: 'https://www.aihero.dev/workshops/ai-sdk-v6-crash-course', format: '原站' });
+  const versionErrors = [`Translation source hash mismatch: ${route}`];
+  assert.deepEqual((await validateContent({ root: f.root })).errors, versionErrors);
+  const stale = [{ route, sourceHash: target.record.sourceHash, currentSourceHash: currentSource.sourceHash }];
+  const preview = await assemblePage({ root: f.root, config: f.config, mode: 'preview' });
+  assert.deepEqual(preview.manifest.assembly.staleChineseTargets, stale);
+  assert.deepEqual(await f.get('content/zh/index.json'), index);
+  assert.deepEqual(await f.get('content/zh/manifest.json'), manifest);
+  await assemblePage({ root: f.root, config: f.config, mode: 'apply' });
+  const nextManifest = await f.get('content/zh/manifest.json');
+  assert.deepEqual(nextManifest.pages.find(page => page.route === '/guide').assembly.staleChineseTargets, stale);
+  assert.deepEqual(nextManifest.pages[0], target.record);
+  assert.deepEqual((await f.get('content/zh/index.json')).pages[route], target.page);
+  assert.equal(await readFile(join(f.root, target.record.translationPath), 'utf8'), target.text);
+  assert.deepEqual(await f.get('content/source/manifest.json'), sources);
+  assert.deepEqual((await validateContent({ root: f.root })).errors, versionErrors);
+});
+
 void test('Chinese Prompt can be appended, but changing the English Prompt is rejected without writes', async t => {
   const f = await fixture(t);
   const englishPrompt = '\n```text\nExplain this repository.\n```\n';

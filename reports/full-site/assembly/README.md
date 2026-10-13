@@ -36,3 +36,14 @@
 `npm run page:test` 共 **39 项通过**，其中[接页测试](E:/dev/projects/AIHero/scripts/assemble-page.test.mjs)使用真实固定 Output 来源的临时副本和真实 `assemblePage`，检查 preview/apply、错误无写入、源文与他页保留、同哈希迁址及伪造哈希拒绝；[组件测试](E:/dev/projects/AIHero/scripts/localized-article.test.mjs)由 Vite 编译真实 TSX，渲染 HTML 后检查可点击资源、术语控件、中文目标及显式 review 行为。改动代码文件定向 lint **退出 0、无诊断**；本轮测试注册补充 `void`，处理类型感知 lint 检出的未消费 Promise。
 
 内容检查仍报告固定来源 **195 页**、现有可渲染稿 **17 页**、**10 项旧稿 sourceHash 不匹配**，退出 1；这是已知制作进度，未调整哈希绕过检查。正文、固定来源、知识内容和主进度记录均未改动。未重复全量 build；本轮组件经过真实编译和 HTML 渲染检查，桌面与窄屏的真实浏览器交互验收由内容 A 在三样本接入后完成，本轮不声明浏览器验收通过。
+
+## 分批接页与显式原站入口的后续返修
+
+2026-10-13，在 `1fcf51c` 后接续内容 A 提供的实际阻塞；检查前合入集成提交 `fb314be`，提交前合入 `d14e5b1`（包含来源 A 的离线修正 `aaeebfe`）。仅处理两项已确认问题，证据见[后续定向检查](E:/dev/projects/AIHero/reports/full-site/assembly/batch-followup-check.log)。
+
+- [接页入口](E:/dev/projects/AIHero/scripts/assemble-page.mjs)仍检查中文目标的文件、译稿哈希、索引和可渲染状态。仅来源版本不同的旧目标允许使用，在引用页 `assembly.staleChineseTargets` 中记录 route、真实旧 sourceHash 和 currentSourceHash；不更新目标页或宣称新版制作完成。实际 manifest 在检查完成后序列化，确保待复核事实写入文件。全站校验仍保留版本差异。
+- [链接解析](E:/dev/projects/AIHero/lib/article-links.ts)保留显式绝对 URL 指向原站；根路径优先中文页，缺页回退英文。正文与关联阅读采用同一约定，接页也不再要求显式原站资源已有中文页。概念链接的测试输入改为根路径，不依据文字标签猜测意图。
+
+两项行为均观察到修改前失败、修改后通过。恢复断点后，只运行相关 **5 项定向测试，全部通过**：真实旧版 agent 目标接页及待复核事实、不可用目标拒绝、译稿哈希与索引检查、真实组件渲染中的原站/中文链接区分。旧版 agent 的[测试 fixture](E:/dev/projects/AIHero/scripts/fixtures/stale-agent.json)保留 `1fcf51c` 中的真实译稿、索引及 manifest；临时接页前后，`validateContent` 都报告同一来源版本差异，目标内容与旧 hash 不变。改动文件定向 lint 退出 0、无诊断。
+
+使用本工程入口读取 `E:/dev/projects/AIHero/work/full-site-samples` 的真实 AGENTS.md 配置，**preview 退出 0**；记录 agent、system-prompt、progressive-disclosure 三个旧版本中文目标及双方真实 hash。只预览，未向样本工作树写入。没有重跑此前三项返修验收或全量 build；三样本桌面/窄屏真实验收仍由内容 A 接续，#6 等待依赖。

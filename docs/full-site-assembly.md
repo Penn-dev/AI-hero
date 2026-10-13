@@ -31,11 +31,11 @@ npm run sync:validate
 
 ## 站内链接与分批缺项
 
-原外部资源链接和英文入口必须保留。原站地址可改为相同路径的本地地址。新增本地链接默认要求已有非空页面、可渲染的 manifest 状态、正确文件哈希和一致索引，不能仅凭索引里有键就宣布可用。
+原外部资源链接和英文入口必须保留。正文及 related 中，显式绝对原站 URL（例如 `https://www.aihero.dev/a-complete-guide-to-agents-md`）保留原站入口，用于原站页面、订阅或配套资源；以 `/` 开头的站内根路径用于优先打开已有中文页，缺页时回退英文。不要通过标签文字或查询参数区分这两种意图。新增本地链接默认要求已有非空页面、可渲染的 manifest 状态、正确译稿文件哈希和一致索引，不能仅凭索引里有键就宣布可用。
 
 源文相对资源地址按来源 manifest 的 `url`（原页面地址）解析后核对，重复出现的资源入口也须保留。交付中文稿中的链接、图片及 MDX 资源属性须使用绝对 URL、以 `/` 开头的根路径或 `#` 锚点；裸相对路径会在 preview/apply 写入前被拒绝，并提示如何转换。例如 Output 页的 `generating-objects-via-output~dkm2k/solution` 应改为[完整 Solution 地址](https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution)，不能改成站点根目录下的同名路径。
 
-公开中文页即使使用独立 glossary，也保留导航、页脚的英文原文入口、正文和关联阅读的外部资源。术语按钮继续打开解释，旁边的 ↗ 优先打开已有中文词条，否则保留原文资源。历史审核页显式使用 `review` 时沿用原来的中文链接筛选。
+公开中文页即使使用独立 glossary，也保留导航、页脚的英文原文入口、正文和关联阅读的外部资源。术语按钮继续打开解释，旁边的 ↗ 按上述 URL 约定打开中文词条或原站资源。历史审核页显式使用 `review` 时沿用原来的中文链接筛选。
 
 尚未制作的目标须显式记录状态和原因：
 
@@ -56,6 +56,8 @@ npm run sync:validate
 ```
 
 将此字段加入上述配置。正文中 planned 本地链接由现有 `articleLink` 回退至英文入口，缺项保存在目标的 `assembly.plannedChineseTargets` 中。英文入口不计作中文目标完成；已存在但失效的页面不能借 planned 状态绕过检查。辅助配置的本地 related 链接必须可用，避免直接渲染失效地址。目标完成后对引用它的页面重新预览和接入，核对、移除 planned 记录。
+
+已有中文目标如果译稿文件、文件哈希、索引和可渲染状态均有效，只是旧 `sourceHash` 与当前固定来源不同，允许继续分批接页。preview 的 `manifest.assembly.staleChineseTargets` 和实际写入记录会列出该目标的 `route`、真实旧 `sourceHash`、`currentSourceHash`，表示目标待来源复核；不会修改目标页或宣称其已按新来源完成制作。缺文件、错译稿哈希、无效索引仍拒绝。全站 `validateContent` 继续报告版本差异，直到 #5 实际复核该目标；复核后重新接入引用页，可刷新这项装配事实。
 
 ## 可选页面辅助配置
 

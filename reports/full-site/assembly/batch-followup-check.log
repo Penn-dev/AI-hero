@@ -1,0 +1,54 @@
+2026-10-13 scoped follow-up after 1fcf51c
+Working directory: E:/dev/projects/AIHero/work/full-site-assembly
+Integrated ref at checks: fb314bea6e868ec783abd2eb185733b49fc0cfe6
+
+Command: node --test --test-name-pattern='stale source version|available Chinese|content validation|explicit original-site URLs' scripts/assemble-page.test.mjs scripts/localized-article.test.mjs
+Exit code: 0
+✔ an available Chinese link whose indexed body is empty is rejected before writing (54.4137ms)
+✔ an actual renderable Chinese target with a stale source version permits assembly and retains the version difference (256.8677ms)
+✔ content validation checks every renderable translation status, file hash and indexed body (289.9715ms)
+✔ available Chinese targets are checked against their files and manifest, not just a nonempty index (27.2058ms)
+✔ explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English (32.8237ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1158.6644
+
+Command: E:/dev/projects/AIHero/node_modules/.bin/oxlint.cmd scripts/assemble-page.mjs scripts/assemble-page.test.mjs scripts/localized-article.test.mjs lib/article-links.ts
+Exit code: 0
+Diagnostics: none
+
+Command: assemblePage preview with this worktree implementation, root=E:/dev/projects/AIHero/work/full-site-samples, config=reports/full-site/samples/configs/agents-md.json
+Exit code: 0
+{
+  "mode": "preview",
+  "route": "/a-complete-guide-to-agents-md",
+  "staleChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "sourceHash": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+      "currentSourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91"
+    },
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "sourceHash": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+      "currentSourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a"
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "sourceHash": "572e1cc2312329cd09712c5649c08d41af96c27523965f75932dccba0ebcec45",
+      "currentSourceHash": "5d66bc98fae76fc8d8df7eb8d4b0f6d514832a21b2340a224e8c33b791f3ec73"
+    }
+  ],
+  "plannedChineseTargets": [],
+  "outputs": [
+    "content/learning/agents-md/article.md",
+    "content/zh/index.json",
+    "content/zh/manifest.json",
+    "content/learning/pilot-knowledge.json"
+  ]
+}

@@ -19,7 +19,7 @@ const sourceUrl = 'https://www.aihero.dev/a-complete-guide-to-agents-md';
 const conceptRoute = '/ai-coding-dictionary/agent';
 const props = {
   title: '带独立术语表的中文页', sourceUrl, sourceHash: 'a'.repeat(64),
-  markdown: `## 正文\n\n[智能体](https://www.aihero.dev${conceptRoute})、[Zod](https://zod.dev)、[API 文档](https://ai-sdk.dev/docs/introduction)、[尚未接入的课程](/workshops/not-yet-assembled)。`,
+  markdown: `## 正文\n\n[智能体](${conceptRoute})、[Zod](https://zod.dev)、[API 文档](https://ai-sdk.dev/docs/introduction)、[尚未接入的课程](/workshops/not-yet-assembled)。`,
   learning: {
     kind: 'guide', sourceIds: [], conceptIds: [], prerequisiteIds: [],
     glossary: [
@@ -29,7 +29,7 @@ const props = {
     start: { title: '开始前', cards: [] },
     related: [
       { title: '资源延伸', description: '保留外部入口', href: 'https://example.com/resource', format: '原资源' },
-      { title: '概念延伸', description: '继续阅读', href: `https://www.aihero.dev${conceptRoute}`, format: '中文词条' },
+      { title: '概念延伸', description: '继续阅读', href: conceptRoute, format: '中文词条' },
     ],
   },
 };
@@ -54,4 +54,23 @@ void test('explicit historical review keeps Chinese-only links and its term cont
   }
   assert.ok(html.includes(`href="${conceptRoute}"`));
   assert.match(html, /<button[^>]*data-glossary-id="term-zod"[^>]*>Zod<\/button>/);
+});
+
+void test('explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English', () => {
+  const html = renderToStaticMarkup(createElement(LocalizedArticle, {
+    ...props,
+    markdown: `## 原资源\n\n[原站订阅](${sourceUrl})、[中文同页](/a-complete-guide-to-agents-md)、[未制作课程](/workshops/not-yet-assembled)。`,
+    relatedReading: [
+      { title: '原站页面', description: '保留原入口', href: sourceUrl, format: '原站' },
+      { title: '中文词条', description: '阅读中文', href: conceptRoute, format: '词条' },
+    ],
+  }));
+  const anchors = html.match(/<a\b[^>]*>[\s\S]*?<\/a>/g) ?? [];
+  for (const label of ['原站订阅', '原站页面']) {
+    assert.ok(anchors.some(anchor => anchor.includes(label) && anchor.includes(`href="${sourceUrl}"`) && anchor.includes('target="_blank"')), `${label} retains the explicit original URL`);
+  }
+  for (const [label, route] of [['中文同页', '/a-complete-guide-to-agents-md'], ['中文词条', conceptRoute]]) {
+    assert.ok(anchors.some(anchor => anchor.includes(label) && anchor.includes(`href="${route}"`) && !anchor.includes('target=')), `${label} stays local`);
+  }
+  assert.ok(anchors.some(anchor => anchor.includes('未制作课程') && anchor.includes('href="https://www.aihero.dev/workshops/not-yet-assembled"') && anchor.includes('target="_blank"')));
 });
