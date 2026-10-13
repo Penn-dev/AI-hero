@@ -14,7 +14,7 @@
         "passed": true,
         "evidence": "system-prompt-preview-final.log"
       },
-      "browser": "not-checked",
+      "browser": "passed-desktop-and-mobile",
       "semantic": {
         "completeAccurate": "reviewed",
         "naturalChinese": "read-in-full",
@@ -30,7 +30,8 @@
         "passed": false,
         "error": "Source resource missing: https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/system-prompt?author=Matt"
       },
-      "browserEvidence": "三篇统一入口已成功 preview/apply。本页尚未执行本地浏览器检查；1440/390、术语独立跳转、深链和溢出均待续接。"
+      "browserEvidence": "dot-validation/run-38386427504/browser-results.json",
+      "assemblyEvidence": "dot-validation/system-prompt-apply.log"
     },
     {
       "id": "agents-md",
@@ -44,7 +45,7 @@
         "passed": true,
         "evidence": "agents-md-preview-final.log"
       },
-      "browser": "partial-390",
+      "browser": "passed-desktop-and-mobile",
       "semantic": {
         "completeAccurate": "reviewed",
         "naturalChinese": "read-in-full",
@@ -59,7 +60,8 @@
       "initialStructure": {
         "passed": true
       },
-      "browserEvidence": "390×844：整体宽度 390；术语弹层正常；两处 details 可开关；完整中文五步 Prompt 实际复制且系统剪贴板 514 字符完全相符。1440 仅切换视口，下一条验收语句 SyntaxError 中断；桌面、完整深链/术语跳转尚未验证。390 页首/术语截图已看，折叠/Prompt 截图已保存但未看。"
+      "browserEvidence": "dot-validation/run-38386427504/browser-results.json",
+      "assemblyEvidence": "dot-validation/agents-md-apply.log"
     },
     {
       "id": "output",
@@ -73,7 +75,7 @@
         "passed": true,
         "evidence": "output-preview-final.log"
       },
-      "browser": "partial-1440-before-final-render-repairs",
+      "browser": "passed-desktop-and-mobile",
       "semantic": {
         "completeAccurate": "reviewed",
         "naturalChinese": "read-in-full",
@@ -89,23 +91,26 @@
         "passed": false,
         "error": "Source resource missing: generating-objects-via-output~dkm2k/solution"
       },
-      "browserEvidence": "1440：原站入口及正确 Solution href 存在；整体宽度 1425/1425；终端术语面板正常；原 steps-to-complete 实际 DOM 存在，刷新后标题距顶约29.5px。390、复制、以及4da28cf/b9b70a6修复后空文字稿/代码框标签的实际显示尚未验证。"
+      "browserEvidence": "dot-validation/run-38386427504/browser-results.json",
+      "assemblyEvidence": "dot-validation/output-apply.log"
     }
   ],
-  "updatedAt": "2026-10-13T05:19:19.564Z",
-  "status": "paused-by-user-wip",
-  "issue4Complete": false,
+  "updatedAt": "2026-10-13T11:03:00Z",
+  "status": "sample-acceptance-complete",
+  "issue4Complete": true,
   "integratedEngineeringCommit": "b9b70a6",
   "validation": {
     "content": "8 out-of-scope stale translation source hashes",
     "learning": "passed; sourceFiles=10",
-    "build": "passed after b9b70a6",
-    "browser": "partial; see checkpoint.md",
-    "fullTestOrLintRun": "not run in sample tree this continuation"
+    "build": "passed on 85cbc224 in Actions run38386427504",
+    "browser": "passed six viewport/page groups; affected screenshots inspected; independent review passed",
+    "fullTestOrLintRun": "42 existing tests passed; changed-file lint passed; no full-repository lint-clean claim"
   },
   "previewService": {
     "port": 4322,
     "stopped": true,
     "evidence": "preview-service-stop.json"
-  }
+  },
+  "candidateCommit": "85cbc224c8fd8e6a609112d248cc673b1e79fe90",
+  "independentReview": "dot-validation/independent-review.md"
 }

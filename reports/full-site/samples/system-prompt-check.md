@@ -19,3 +19,7 @@
 三篇统一入口已成功 preview/apply。本页尚未执行本地浏览器检查；1440/390、术语独立跳转、深链和溢出均待续接。
 
 此前初次 preview/工程问题段落保留为历史记录，不代表当前仍被阻断。接页已完成；learning 校验与最新构建通过。#4 尚未完成，详见[暂停检查点](E:/dev/projects/AIHero/reports/full-site/samples/checkpoint.md)。
+
+## dot 接续后的最新页面结果
+
+2026-10-13，准确候选 `85cbc224c8fd8e6a609112d248cc673b1e79fe90` 的 [run38386427504](https://github.com/Penn-dev/AI-hero/actions/runs/38386427504) 已通过1440和390两视口实际页面检查，相关截图已查看。五项中的“页面正常显示”更新为通过；原语义与保真检查、未取得材料披露继续有效。实际交互、剪贴板比对、冷开深链/刷新和目录返修见 [最新汇总](./dot-validation/README.md) 与 [原始结果](./dot-validation/run-38386427504/browser-results.json)。上方暂停状态保留为历史，不代表当前仍未执行。[独立审查](./dot-validation/independent-review.md)通过，GitHub收尾见任务记录。
