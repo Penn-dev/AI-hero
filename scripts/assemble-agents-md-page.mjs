@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFile, writeFile } from 'node:fs/promises';
+import { articleParts, updateIndexedPage } from './lib/page-content.mjs';
 
 const apply = process.argv[2] === 'apply';
 assert.ok(apply || process.argv[2] === 'check', 'Usage: node scripts/assemble-agents-md-page.mjs <apply|check>');
@@ -16,13 +17,6 @@ const read = path => readFile(path, 'utf8');
 const json = async path => JSON.parse(await read(path));
 const hash = value => createHash('sha256').update(value).digest('hex');
 const normalize = value => value.replaceAll('\r\n', '\n').trim();
-
-function articleParts(text) {
-  const match = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
-  assert.ok(match, 'Revised article frontmatter missing');
-  const scalar = name => match[1].split(/\r?\n/).find(line => line.startsWith(`${name}:`))?.slice(name.length + 1).trim().replace(/^"|"$/g, '');
-  return { title: scalar('title'), description: scalar('description'), updatedAt: scalar('updatedAt'), markdown: match[2].trim() };
-}
 
 const [articleText, index, manifest, knowledge, targets, input] = await Promise.all([
   read(articlePath), json(indexPath), json(manifestPath), json(knowledgePath), json(linkTargetsPath), json(inputPath),
@@ -82,16 +76,10 @@ const profile = {
   glossary,
 };
 
-const nextIndex = structuredClone(index);
-nextIndex.pages[route] = {
-  ...nextIndex.pages[route],
-  title: article.title,
-  description: article.description,
-  markdown: article.markdown,
-  sourceUpdatedAt: article.updatedAt,
+const nextIndex = updateIndexedPage(index, route, article, {
   translatedAt: '2026-09-24T00:00:00.000Z',
   readingTime: '18 分钟',
-};
+});
 const nextKnowledge = structuredClone(knowledge);
 nextKnowledge.sources['guide-revised-translation'] = { path: articlePath, sha256: articleHash };
 nextKnowledge.pages[route] = profile;

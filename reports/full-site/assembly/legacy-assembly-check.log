@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "mode": "check",
+  "route": "/a-complete-guide-to-agents-md",
+  "articleHash": "cb1a80668e3dc15eed967e775bca4ec4612c1003ea892025d09d9d5e3ae94ac5",
+  "glossaryTerms": 13,
+  "inlineOriginalExamples": 9,
+  "relatedChinesePages": [
+    "/ai-coding-dictionary/agent",
+    "/ai-coding-dictionary/progressive-disclosure"
+  ]
+}
