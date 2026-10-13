@@ -1,0 +1,145 @@
+{
+  "config": "reports/full-site/content-a/A14/configs/prototyping.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/prototyping",
+      "manifest": {
+        "route": "/ai-coding-dictionary/prototyping",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
+        "sourceHash": "39d3ce1c188317f94c922a30c1652b2ef5ca993d7eb061cbc6d63f7a5543d97f",
+        "translationPath": "content/zh/ai-coding-dictionary/prototyping.md",
+        "translationHash": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:11.507Z",
+        "assembly": {
+          "configHash": "d6c8c86f1f5dc987a4e59dc5a5ce3c3a1fa1657f128f5557fa6da4e3d3745c25",
+          "checkedAt": "2026-10-13T12:19:11.507Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/dx",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/prototyping.md",
+          "sha256": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "162c895148e4980d0191b385fec89e88029a83f868d1acbfe9b99ba1caa5d41d"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f4baffc0c28ff040bec5200ca5fba8b594d119cb0ae834a6fcf7e8aa1b2b22ad"
+        }
+      ],
+      "rawOutputSha256": "0adf8d6ce293660f34f6bd7962cf161184fea36c732fc388213a1876bf95dc0d"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/prototyping",
+      "manifest": {
+        "route": "/ai-coding-dictionary/prototyping",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
+        "sourceHash": "39d3ce1c188317f94c922a30c1652b2ef5ca993d7eb061cbc6d63f7a5543d97f",
+        "translationPath": "content/zh/ai-coding-dictionary/prototyping.md",
+        "translationHash": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:11.702Z",
+        "assembly": {
+          "configHash": "d6c8c86f1f5dc987a4e59dc5a5ce3c3a1fa1657f128f5557fa6da4e3d3745c25",
+          "checkedAt": "2026-10-13T12:19:11.702Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/dx",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/prototyping.md",
+          "sha256": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "162c895148e4980d0191b385fec89e88029a83f868d1acbfe9b99ba1caa5d41d"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1fd2416ba0068a1ef9afb6fbb131229db7f7d73747a79a5fcfa7c712e330eeda"
+        }
+      ],
+      "rawOutputSha256": "289e14d8323004409982d082139f0c1dbb1706b5b250b286e0cbb754b7d77169"
+    }
+  ],
+  "nonTargetPagesPreserved": 86
+}

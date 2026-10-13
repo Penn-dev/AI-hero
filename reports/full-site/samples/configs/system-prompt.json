@@ -276,8 +276,7 @@
   "linkTargets": [
     {
       "route": "/ai-coding-dictionary",
-      "state": "planned-chinese",
-      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/harness",
@@ -285,8 +284,7 @@
     },
     {
       "route": "/ai-coding-dictionary/model-provider-request",
-      "state": "planned-chinese",
-      "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/model",
@@ -298,8 +296,7 @@
     },
     {
       "route": "/ai-coding-dictionary/session",
-      "state": "planned-chinese",
-      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/token",
@@ -307,18 +304,15 @@
     },
     {
       "route": "/ai-coding-dictionary/turn",
-      "state": "planned-chinese",
-      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/input-tokens",
-      "state": "planned-chinese",
-      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/agents-md",
-      "state": "planned-chinese",
-      "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
+      "state": "available-chinese"
     }
   ]
 }

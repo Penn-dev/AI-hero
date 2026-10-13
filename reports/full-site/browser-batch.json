@@ -1,290 +1,206 @@
 {
-  "id": "production-02",
-  "reuse": "Common desktop/mobile layout and unchanged interactions reuse run38391725587 and accepted sample run38386427504; capture current content structures and affected emphasis at both viewports.",
+  "id": "production-03",
+  "reuse": "Unchanged renderer and common desktop/mobile interactions reuse accepted sample run38386427504 and production runs38391725587/38395456927. Each new dictionary page gets actual narrow-screen display/copy/refresh; four-column tables and dictionary root also desktop.",
   "pages": [
     {
-      "id": "ai-coding-dictionary-tool-call",
-      "config": "reports/full-site/content-a/A03/configs/tool-call.json",
-      "features": [
-        {
-          "label": "table",
-          "selector": "table"
-        }
-      ],
-      "chineseLink": "/ai-coding-dictionary/harness"
-    },
-    {
-      "id": "ai-coding-dictionary-tool-result",
-      "config": "reports/full-site/content-a/A03/configs/tool-result.json",
-      "features": [
-        {
-          "label": "table",
-          "selector": "table"
-        }
-      ],
-      "chineseLink": "/ai-coding-dictionary/context"
-    },
-    {
-      "id": "ai-coding-dictionary-tool",
-      "config": "reports/full-site/content-a/A03/configs/tool.json",
-      "features": [
-        {
-          "label": "table",
-          "selector": "table"
-        }
-      ],
-      "chineseLink": "/ai-coding-dictionary/context"
-    },
-    {
-      "id": "ai-coding-dictionary-hallucination",
-      "config": "reports/full-site/content-a/A04/configs/hallucination.json",
-      "features": [
-        {
-          "label": "table",
-          "selector": "table"
-        }
-      ],
-      "viewports": [
-        {
-          "width": 1440,
-          "height": 1000
-        },
-        {
-          "width": 390,
-          "height": 844
-        }
-      ],
-      "chineseLink": "/ai-coding-dictionary/model"
-    },
-    {
-      "id": "ai-coding-dictionary-memory-system",
-      "config": "reports/full-site/content-a/A04/configs/memory-system.json",
-      "features": [
-        {
-          "label": "examples",
-          "selector": "blockquote",
-          "text": "I keep having to re-tell it I'm on Postgres, not M"
-        }
-      ],
-      "chineseLink": "/ai-coding-dictionary/harness"
-    },
-    {
-      "id": "ai-coding-dictionary-prefix-cache",
-      "config": "reports/full-site/content-a/A04/configs/prefix-cache.json",
-      "features": [
-        {
-          "label": "examples",
-          "selector": "blockquote",
-          "text": "Why did the bill spike halfway through the session"
-        }
-      ],
-      "chineseLink": "/ai-coding-dictionary/harness"
-    },
-    {
-      "id": "anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
-      "config": "reports/full-site/batches/content-b/batch-02/configs/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.json",
+      "id": "ai-coding-dictionary-model-provider-request",
+      "config": "reports/full-site/content-a/A05/configs/model-provider-request.json",
       "features": [
         {
           "label": "body",
-          "selector": "p"
-        }
-      ]
-    },
-    {
-      "id": "how-does-the-model-context-protocol-work",
-      "config": "reports/full-site/batches/content-b/batch-02/configs/how-does-the-model-context-protocol-work.json",
-      "features": [
-        {
-          "label": "code",
-          "selector": "figure.code-frame"
-        }
-      ]
-    },
-    {
-      "id": "logging-a-huge-mcp-footgun",
-      "config": "reports/full-site/batches/content-b/batch-02/configs/logging-a-huge-mcp-footgun.json",
-      "features": [
-        {
-          "label": "code",
-          "selector": "figure.code-frame"
-        }
-      ]
-    },
-    {
-      "id": "mcp-server-from-a-single-typescript-file",
-      "config": "reports/full-site/batches/content-b/batch-02/configs/mcp-server-from-a-single-typescript-file.json",
-      "features": [
-        {
-          "label": "steps",
-          "selector": ".scrollycoding-fallback"
-        }
-      ],
-      "viewports": [
-        {
-          "width": 1440,
-          "height": 1000
+          "selector": "h2"
         },
         {
-          "width": 390,
-          "height": 844
-        }
-      ]
-    },
-    {
-      "id": "model-context-protocol-tutorial",
-      "config": "reports/full-site/batches/content-b/batch-02/configs/model-context-protocol-tutorial.json",
-      "features": [
-        {
-          "label": "body",
-          "selector": "p"
-        }
-      ]
-    },
-    {
-      "id": "publish-your-mcp-server-to-npm",
-      "config": "reports/full-site/batches/content-b/batch-02/configs/publish-your-mcp-server-to-npm.json",
-      "features": [
-        {
-          "label": "code",
-          "selector": "figure.code-frame"
-        }
-      ]
-    },
-    {
-      "id": "the-problem-with-mcp-stateful-server",
-      "config": "reports/full-site/batches/content-b/batch-02/configs/the-problem-with-mcp-stateful-server.json",
-      "features": [
-        {
-          "label": "code",
-          "selector": "figure.code-frame"
-        }
-      ]
-    },
-    {
-      "id": "using-mcp-prompts",
-      "config": "reports/full-site/batches/content-b/batch-02/configs/using-mcp-prompts.json",
-      "features": [
-        {
-          "label": "steps",
-          "selector": ".scrollycoding-fallback"
-        }
-      ],
-      "viewports": [
-        {
-          "width": 1440,
-          "height": 1000
-        },
-        {
-          "width": 390,
-          "height": 844
-        }
-      ]
-    },
-    {
-      "id": "skills-catalog",
-      "config": "reports/full-site/batches/content-c/batch-01/configs/skills-catalog.json",
-      "features": [
-        {
-          "label": "code",
-          "selector": "figure.code-frame"
-        }
-      ],
-      "chineseLink": "/ai-coding-dictionary/agent"
-    },
-    {
-      "id": "skills-codebase-design",
-      "config": "reports/full-site/batches/content-c/batch-01/configs/skills-codebase-design.json",
-      "features": [
-        {
-          "label": "intro-emphasis",
-          "selector": "p",
-          "text": "统一了设计模块"
-        },
-        {
-          "label": "depth-emphasis",
+          "label": "table-1",
           "selector": "table",
-          "nth": 1
+          "nth": 0
         },
         {
-          "label": "module-emphasis",
-          "selector": "p",
-          "text": "文件系统当然"
+          "label": "example",
+          "selector": "blockquote"
         }
       ],
-      "viewports": [
-        {
-          "width": 1440,
-          "height": 1000
-        },
-        {
-          "width": 390,
-          "height": 844
-        }
-      ],
-      "chineseLink": "/ai-coding-dictionary/agent"
+      "chineseLink": "/ai-coding-dictionary"
     },
     {
-      "id": "skills-wait-what",
-      "config": "reports/full-site/batches/content-c/batch-02/configs/skills-wait-what.json",
-      "features": [
-        {
-          "label": "code",
-          "selector": "figure.code-frame"
-        }
-      ],
-      "chineseLink": "/ai-coding-dictionary/agent"
-    },
-    {
-      "id": "skills-subscribe",
-      "config": "reports/full-site/batches/content-c/batch-02/configs/skills__subscribe.json",
+      "id": "ai-coding-dictionary-session",
+      "config": "reports/full-site/content-a/A05/configs/session.json",
       "features": [
         {
           "label": "body",
-          "selector": "p"
-        }
-      ]
-    },
-    {
-      "id": "skills-resolving-merge-conflicts",
-      "config": "reports/full-site/batches/content-c/batch-03/configs/skills-resolving-merge-conflicts.json",
-      "features": [
-        {
-          "label": "table",
-          "selector": "table"
-        }
-      ]
-    },
-    {
-      "id": "skills",
-      "config": "reports/full-site/batches/content-c/batch-03/configs/skills.json",
-      "features": [
-        {
-          "label": "code",
-          "selector": "figure.code-frame"
-        }
-      ],
-      "chineseLink": "/ai-coding-dictionary/agent"
-    },
-    {
-      "id": "what-is-an-llm",
-      "config": "reports/full-site/batches/content-b/batch-01/configs/what-is-an-llm.json",
-      "features": [
-        {
-          "label": "model-emphasis",
-          "selector": "p",
-          "text": "巨型压缩文件"
+          "selector": "h2"
         },
         {
-          "label": "inference-emphasis",
-          "selector": "p",
-          "text": "这个过程由"
-        },
-        {
-          "label": "sampling-emphasis",
-          "selector": "p",
-          "text": "具体怎样选择"
+          "label": "example",
+          "selector": "blockquote"
         }
       ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-stateful",
+      "config": "reports/full-site/content-a/A05/configs/stateful.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-stateless",
+      "config": "reports/full-site/content-a/A05/configs/stateless.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-turn",
+      "config": "reports/full-site/content-a/A05/configs/turn.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-agents-md",
+      "config": "reports/full-site/content-a/A06/configs/agents-md.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-context-pointer",
+      "config": "reports/full-site/content-a/A06/configs/context-pointer.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-environment",
+      "config": "reports/full-site/content-a/A06/configs/environment.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-filesystem",
+      "config": "reports/full-site/content-a/A06/configs/filesystem.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-skill",
+      "config": "reports/full-site/content-a/A06/configs/skill.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-ai",
+      "config": "reports/full-site/content-a/A07/configs/ai.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-inference",
+      "config": "reports/full-site/content-a/A07/configs/inference.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary",
       "viewports": [
         {
           "width": 1440,
@@ -297,36 +213,789 @@
       ]
     },
     {
-      "id": "ai-coding-dictionary-agent",
-      "config": "reports/full-site/content-a/A01/configs/agent.json",
+      "id": "ai-coding-dictionary-model-provider",
+      "config": "reports/full-site/content-a/A07/configs/model-provider.json",
       "features": [
         {
-          "label": "agent-emphasis",
-          "selector": "p",
-          "text": "Claude Code 是智能体"
-        }
-      ],
-      "viewports": [
-        {
-          "width": 1440,
-          "height": 1000
+          "label": "body",
+          "selector": "h2"
         },
         {
-          "width": 390,
-          "height": 844
+          "label": "example",
+          "selector": "blockquote"
         }
       ],
-      "chineseLink": "/ai-coding-dictionary/harness"
+      "chineseLink": "/ai-coding-dictionary"
     },
     {
-      "id": "ai-coding-dictionary-context-window",
-      "config": "reports/full-site/content-a/A02/configs/context-window.json",
+      "id": "ai-coding-dictionary-parameters",
+      "config": "reports/full-site/content-a/A07/configs/parameters.json",
       "features": [
         {
-          "label": "window-emphasis",
-          "selector": "p",
-          "text": "处理一项"
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
         }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-training",
+      "config": "reports/full-site/content-a/A07/configs/training.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-cache-tokens",
+      "config": "reports/full-site/content-a/A08/configs/cache-tokens.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-dictionary-effort",
+      "config": "reports/full-site/content-a/A08/configs/effort.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-input-tokens",
+      "config": "reports/full-site/content-a/A08/configs/input-tokens.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-next-token-prediction",
+      "config": "reports/full-site/content-a/A08/configs/next-token-prediction.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-non-determinism",
+      "config": "reports/full-site/content-a/A08/configs/non-determinism.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-output-tokens",
+      "config": "reports/full-site/content-a/A08/configs/output-tokens.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-attention-budget",
+      "config": "reports/full-site/content-a/A09/configs/attention-budget.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-attention-degradation",
+      "config": "reports/full-site/content-a/A09/configs/attention-degradation.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-attention-relationship",
+      "config": "reports/full-site/content-a/A09/configs/attention-relationship.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-smart-zone",
+      "config": "reports/full-site/content-a/A09/configs/smart-zone.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-autocompact",
+      "config": "reports/full-site/content-a/A10/configs/autocompact.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-clearing",
+      "config": "reports/full-site/content-a/A10/configs/clearing.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-compaction",
+      "config": "reports/full-site/content-a/A10/configs/compaction.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-handoff-artifact",
+      "config": "reports/full-site/content-a/A10/configs/handoff-artifact.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-handoff",
+      "config": "reports/full-site/content-a/A10/configs/handoff.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-contextual-knowledge",
+      "config": "reports/full-site/content-a/A11/configs/contextual-knowledge.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-knowledge-cutoff",
+      "config": "reports/full-site/content-a/A11/configs/knowledge-cutoff.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-parametric-knowledge",
+      "config": "reports/full-site/content-a/A11/configs/parametric-knowledge.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-primary-source",
+      "config": "reports/full-site/content-a/A11/configs/primary-source.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-secondary-source",
+      "config": "reports/full-site/content-a/A11/configs/secondary-source.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-sycophancy",
+      "config": "reports/full-site/content-a/A11/configs/sycophancy.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-agent-mode",
+      "config": "reports/full-site/content-a/A12/configs/agent-mode.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-mcp",
+      "config": "reports/full-site/content-a/A12/configs/mcp.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-permission-mode",
+      "config": "reports/full-site/content-a/A12/configs/permission-mode.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary",
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ]
+    },
+    {
+      "id": "ai-coding-dictionary-permission-request",
+      "config": "reports/full-site/content-a/A12/configs/permission-request.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-sandbox",
+      "config": "reports/full-site/content-a/A12/configs/sandbox.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-subagent",
+      "config": "reports/full-site/content-a/A12/configs/subagent.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-afk",
+      "config": "reports/full-site/content-a/A13/configs/afk.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-automated-check",
+      "config": "reports/full-site/content-a/A13/configs/automated-check.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-automated-review",
+      "config": "reports/full-site/content-a/A13/configs/automated-review.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-ax",
+      "config": "reports/full-site/content-a/A13/configs/ax.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-dx",
+      "config": "reports/full-site/content-a/A13/configs/dx.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-human-in-the-loop",
+      "config": "reports/full-site/content-a/A13/configs/human-in-the-loop.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-human-review",
+      "config": "reports/full-site/content-a/A13/configs/human-review.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-grilling",
+      "config": "reports/full-site/content-a/A14/configs/grilling.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-prototyping",
+      "config": "reports/full-site/content-a/A14/configs/prototyping.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-spec",
+      "config": "reports/full-site/content-a/A14/configs/spec.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-ticket",
+      "config": "reports/full-site/content-a/A14/configs/ticket.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-dark-factory",
+      "config": "reports/full-site/content-a/A15/configs/dark-factory.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-design-concept",
+      "config": "reports/full-site/content-a/A15/configs/design-concept.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-software-factory",
+      "config": "reports/full-site/content-a/A15/configs/software-factory.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "table-1",
+          "selector": "table",
+          "nth": 0
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary-vibe-coding",
+      "config": "reports/full-site/content-a/A15/configs/vibe-coding.json",
+      "features": [
+        {
+          "label": "body",
+          "selector": "h2"
+        },
+        {
+          "label": "example",
+          "selector": "blockquote"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary"
+    },
+    {
+      "id": "ai-coding-dictionary",
+      "config": "reports/full-site/content-a/A16/configs/ai-coding-dictionary.json",
+      "features": [
+        {
+          "label": "category-1",
+          "selector": "[id=\"the-model\"]"
+        },
+        {
+          "label": "category-2",
+          "selector": "[id=\"sessions-context-windows-turns\"]"
+        },
+        {
+          "label": "category-3",
+          "selector": "[id=\"tools-environment\"]"
+        },
+        {
+          "label": "category-4",
+          "selector": "[id=\"failure-modes\"]"
+        },
+        {
+          "label": "category-5",
+          "selector": "[id=\"handoffs\"]"
+        },
+        {
+          "label": "category-6",
+          "selector": "[id=\"memory-and-steering\"]"
+        },
+        {
+          "label": "category-7",
+          "selector": "[id=\"patterns-of-work\"]"
+        }
+      ],
+      "chineseLink": "/ai-coding-dictionary/afk",
+      "captureTop": true,
+      "dictionaryTerms": 71,
+      "anchors": [
+        "the-model",
+        "sessions-context-windows-turns",
+        "tools-environment",
+        "failure-modes",
+        "handoffs",
+        "memory-and-steering",
+        "patterns-of-work"
       ],
       "viewports": [
         {
@@ -337,8 +1006,7 @@
           "width": 390,
           "height": 844
         }
-      ],
-      "chineseLink": "/ai-coding-dictionary/context"
+      ]
     }
   ]
 }

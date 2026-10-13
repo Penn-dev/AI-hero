@@ -8,18 +8,15 @@
   "linkTargets": [
     {
       "route": "/ai-coding-dictionary",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/agents-md",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/attention-budget",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/context",
@@ -27,8 +24,7 @@
     },
     {
       "route": "/ai-coding-dictionary/context-pointer",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/harness",
@@ -36,18 +32,15 @@
     },
     {
       "route": "/ai-coding-dictionary/input-tokens",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/session",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/skill",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/token",
@@ -55,8 +48,7 @@
     },
     {
       "route": "/ai-coding-dictionary/turn",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     }
   ]
 }

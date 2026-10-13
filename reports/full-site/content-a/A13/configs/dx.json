@@ -1,0 +1,46 @@
+{
+  "route": "/ai-coding-dictionary/dx",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/dx.md",
+    "sha256": "a7ffc549fb59a5ca758ea9324560f5df91d76eaad3b4766b57cbf77515524fb5"
+  },
+  "chineseFile": "reports/full-site/content-a/A13/drafts/dx.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "state": "available-chinese"
+    }
+  ]
+}

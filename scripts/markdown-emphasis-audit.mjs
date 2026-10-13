@@ -25,7 +25,7 @@ for (const file of files) {
       // Intentional backslash escapes/entities and ordinary identifiers are not markup failures.
       const unescaped = raw.replace(/\\[\\*_]/g, '');
       const withoutIdentifiers = unescaped.replace(/[A-Za-z0-9][A-Za-z0-9_-]*_[A-Za-z0-9_-]+/g, '');
-      if (unescaped.includes('**') || withoutIdentifiers.includes('_')) {
+      if (unescaped.includes('**') || /\*[^*\n]+\*/.test(unescaped) || withoutIdentifiers.includes('_')) {
         findings.push({ kind: 'literal-emphasis-marker', line: node.position.start.line + lineOffset, raw });
       }
     }

@@ -1,0 +1,49 @@
+{
+  "scope": "Review non-code emphasis markers and nested strong nodes. Never auto-replace a finding. Intentional literal prose examples need a recorded human decision. This is not visual or semantic acceptance.",
+  "files": 2,
+  "pagesWithFindings": 1,
+  "findings": 6,
+  "results": [
+    {
+      "file": "reports/full-site/batches/integration-03/emphasis-fixtures/broken.md",
+      "sha256": "b503bd4649e78a3f8e075c1dfd3fc25eb7fd9d291cf2fdfd72a9fd889cd99ba9",
+      "findings": [
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 3,
+          "raw": "模型感知信息的_唯一_入口。"
+        },
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 5,
+          "raw": "由**推理函数（inference function）**完成。"
+        },
+        {
+          "kind": "nested-strong",
+          "line": 7,
+          "raw": "**大致解释到**"
+        },
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 9,
+          "raw": "它是**"
+        },
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 9,
+          "raw": "**。"
+        },
+        {
+          "kind": "literal-emphasis-marker",
+          "line": 11,
+          "raw": "由*推理函数（inference）*完成。"
+        }
+      ]
+    },
+    {
+      "file": "reports/full-site/batches/integration-03/emphasis-fixtures/valid.md",
+      "sha256": "1e0e15bcfa54f1889edbc352a5cafe3df69c88848d1f789d07cab0fde9ad4953",
+      "findings": []
+    }
+  ]
+}

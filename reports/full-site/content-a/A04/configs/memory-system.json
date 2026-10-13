@@ -8,38 +8,31 @@
   "linkTargets": [
     {
       "route": "/ai-coding-dictionary",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/agents-md",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/autocompact",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/clearing",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/context-pointer",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/environment",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/filesystem",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/harness",
@@ -51,28 +44,23 @@
     },
     {
       "route": "/ai-coding-dictionary/secondary-source",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/session",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/stateful",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/stateless",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/turn",
-      "state": "planned-chinese",
-      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+      "state": "available-chinese"
     }
   ]
 }

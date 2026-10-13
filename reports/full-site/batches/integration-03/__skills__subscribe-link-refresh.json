@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-02/configs/skills__subscribe.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills/subscribe",
+      "manifest": {
+        "route": "/skills/subscribe",
+        "sourceUrl": "https://www.aihero.dev/skills/subscribe",
+        "sourceHash": "ff1c20f196e810ce444730c92bc9a3ad90cb81edc29370f212465823da402d1a",
+        "translationPath": "content/zh/skills/subscribe.md",
+        "translationHash": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:16.879Z",
+        "assembly": {
+          "configHash": "b59ac65a355a2cd99d788f85d6ef34135b23038404a09c52a9175ab72ef4e502",
+          "checkedAt": "2026-10-13T12:19:16.879Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/subscribe.md",
+          "sha256": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "75182d9ccf046223fbba1b39366bfe592652fab833d01055d782a5454f84480f"
+        }
+      ],
+      "rawOutputSha256": "c1702fa819d0d02f85a7303c7c008a8ddcb5c12836b7798d9adc23908c625338"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills/subscribe",
+      "manifest": {
+        "route": "/skills/subscribe",
+        "sourceUrl": "https://www.aihero.dev/skills/subscribe",
+        "sourceHash": "ff1c20f196e810ce444730c92bc9a3ad90cb81edc29370f212465823da402d1a",
+        "translationPath": "content/zh/skills/subscribe.md",
+        "translationHash": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:17.097Z",
+        "assembly": {
+          "configHash": "b59ac65a355a2cd99d788f85d6ef34135b23038404a09c52a9175ab72ef4e502",
+          "checkedAt": "2026-10-13T12:19:17.097Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/subscribe.md",
+          "sha256": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "6f80abd30dc49f0efd40bc85a3697540d9f803f51df57d7ca9655d1a7ce2748e"
+        }
+      ],
+      "rawOutputSha256": "08c700c312ff0fa2328ad2e3cf190d5953e730e050f90827797331a506e832a0"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

@@ -1,0 +1,30 @@
+{
+  "route": "/ai-coding-dictionary/sycophancy",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/sycophancy.md",
+    "sha256": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941"
+  },
+  "chineseFile": "reports/full-site/content-a/A11/drafts/sycophancy.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "route": "/ai-coding-dictionary/vibe-coding",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/vibe-coding.md",
+    "sha256": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861"
+  },
+  "chineseFile": "reports/full-site/content-a/A15/drafts/vibe-coding.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "state": "available-chinese"
+    }
+  ]
+}

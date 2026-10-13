@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import path from 'node:path';
+import { articleParts, nodes, parseMarkdown } from './lib/page-content.mjs';
 
 const browserRoot = process.env.DOT_BROWSER_ROOT;
 const evidenceDir = process.env.DOT_EVIDENCE_DIR;
@@ -36,6 +37,7 @@ async function check(target, viewport) {
   assert.ok(record, `Missing assembled page ${config.route}`);
   const body = await readFile(record.translationPath, 'utf8');
   assert.equal(hash(body), record.translationHash);
+  const tree = parseMarkdown(articleParts(body).markdown);
   const result = { id: target.id, route: config.route, viewport, translationHash: record.translationHash, checks: [], clipboard: [], images: [], errors: [], status: 'running' };
   report.pages.push(result);
   const context = await browser.newContext({ viewport, deviceScaleFactor: 1, permissions: ['clipboard-read', 'clipboard-write'] });
@@ -57,7 +59,7 @@ async function check(target, viewport) {
     if (target.captureTop) await screenshot(page, result, 'top');
 
     const figures = page.locator('#reading-body figure.code-frame');
-    const blocks = [...body.matchAll(/```[^\r\n]*\r?\n([\s\S]*?)\r?\n```/g)].map(match => match[1].replace(/\r\n/g, '\n'));
+    const blocks = nodes(tree, node => node.type === 'code').map(node => node.value);
     assert.equal(await figures.count(), blocks.length, 'Every authored fenced block must render');
     for (let i = 0; i < blocks.length; i++) {
       const figure = figures.nth(i);
@@ -67,6 +69,28 @@ async function check(target, viewport) {
       const copied = await page.evaluate(() => navigator.clipboard.readText());
       assert.equal(copied, blocks[i], 'Actual clipboard must equal the complete authored block');
       result.clipboard.push({ block: i + 1, chars: copied.length, sha256: hash(copied), match: true });
+    }
+    const plain = node => node.value ?? (node.children ?? []).map(plain).join('');
+    for (let i = 0; i < tree.children.length - 1; i++) {
+      const label = tree.children[i];
+      const quote = tree.children[i + 1];
+      if (label.type !== 'paragraph' || !/中文(?:版)?\s*Prompt/.test(plain(label)) || quote.type !== 'blockquote') continue;
+      const prompt = plain(quote);
+      const paragraph = page.locator('#reading-body blockquote p').filter({ hasText: prompt }).first();
+      await expect(paragraph).toHaveText(prompt);
+      const rendered = await paragraph.innerText();
+      await paragraph.click();
+      await paragraph.evaluate(element => {
+        const range = document.createRange();
+        range.selectNodeContents(element);
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+      });
+      await page.keyboard.press('Control+c');
+      await expect.poll(() => page.evaluate(() => navigator.clipboard.readText())).toBe(rendered);
+      result.clipboard.push({ kind: 'rendered Chinese Prompt paragraph selected then copied with Control+C', chars: rendered.length, sha256: hash(rendered), match: true });
+      await paragraph.evaluate(() => window.getSelection().removeAllRanges());
     }
     for (const img of await page.locator('#reading-body img').all()) {
       await img.scrollIntoViewIfNeeded();
@@ -88,6 +112,27 @@ async function check(target, viewport) {
     assert.ok(width.scroll <= width.client + 1, 'Document must not overflow horizontally');
     result.width = width;
     result.checks.push('All section headings reachable; images loaded; document has no horizontal overflow');
+    for (const id of target.anchors ?? []) {
+      await page.goto('about:blank');
+      await page.goto(baseUrl + config.route + '#' + id, { waitUntil: 'networkidle' });
+      const heading = page.locator(`[id="${id}"]`).first();
+      await expect(heading).toBeInViewport({ ratio: 1 });
+      await page.reload({ waitUntil: 'networkidle' });
+      await expect(heading).toBeInViewport({ ratio: 1 });
+      assert.equal(new URL(page.url()).hash, '#' + id);
+      result.checks.push(`Cold-open and refresh original anchor: ${id}`);
+    }
+    if (target.dictionaryTerms && viewport.width === 390) {
+      const hrefs = await page.locator('#reading-body a[href^="/ai-coding-dictionary/"]').evaluateAll(links => [...new Set(links.map(link => link.getAttribute('href')))]);
+      assert.equal(hrefs.length, target.dictionaryTerms);
+      for (const href of hrefs) {
+        await page.locator('#reading-body').locator(`a[href="${href}"]`).first().click();
+        await page.waitForURL(baseUrl + href);
+        await expect(page.getByRole('heading', { level: 1 }).first()).toHaveText(index.pages[href].title);
+        result.checks.push(`Dictionary term link actually opens its Chinese page: ${href}`);
+        await page.goBack({ waitUntil: 'networkidle' });
+      }
+    }
     if (target.chineseLink) {
       const link = page.locator('#reading-body').locator(`a[href="${target.chineseLink}"]`).first();
       await link.click();

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A13/configs/automated-review.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/automated-review",
+      "manifest": {
+        "route": "/ai-coding-dictionary/automated-review",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+        "sourceHash": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b",
+        "translationPath": "content/zh/ai-coding-dictionary/automated-review.md",
+        "translationHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:43.555Z",
+        "assembly": {
+          "configHash": "9a1a4dc0ff8e455519194e2c053bfb121a643672b96f2b91420713da91b8f178",
+          "checkedAt": "2026-10-13T12:19:43.555Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/automated-review.md",
+          "sha256": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "906cae01610be744ae97e1139545732c273367e2686ae34a390688faba984e73"
+        }
+      ],
+      "rawOutputSha256": "34b6f39e293ed1b374afe652b7a88d7681ce4e26fab0278a3b2ae7d0c23f86f9"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/automated-review",
+      "manifest": {
+        "route": "/ai-coding-dictionary/automated-review",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+        "sourceHash": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b",
+        "translationPath": "content/zh/ai-coding-dictionary/automated-review.md",
+        "translationHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:43.764Z",
+        "assembly": {
+          "configHash": "9a1a4dc0ff8e455519194e2c053bfb121a643672b96f2b91420713da91b8f178",
+          "checkedAt": "2026-10-13T12:19:43.764Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/automated-review.md",
+          "sha256": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "cfefe416a4c423420f46f9bc02e23c3f199b9b52b5a311c5b8f09445eb10734f"
+        }
+      ],
+      "rawOutputSha256": "cf97971321f6f2e9988bff1760c082ebf9937a0926b7718625f6956984b79eed"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

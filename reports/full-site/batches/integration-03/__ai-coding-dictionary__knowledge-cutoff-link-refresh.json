@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A11/configs/knowledge-cutoff.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "manifest": {
+        "route": "/ai-coding-dictionary/knowledge-cutoff",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+        "sourceHash": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46",
+        "translationPath": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+        "translationHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:47.673Z",
+        "assembly": {
+          "configHash": "86ed61452c1c2bd18a14f09cc4207f7b71e5922bb8da410e3125544babf73c15",
+          "checkedAt": "2026-10-13T12:19:47.673Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+          "sha256": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d1e7a8d407bf8083ce25b428597f005e3c03336e64f5e73a64e4dcf92b139a95"
+        }
+      ],
+      "rawOutputSha256": "d8c49d565c6031d8b32c693d1a566a5f7a71de54d6a81297957fd69e5c30acb8"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "manifest": {
+        "route": "/ai-coding-dictionary/knowledge-cutoff",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+        "sourceHash": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46",
+        "translationPath": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+        "translationHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:47.893Z",
+        "assembly": {
+          "configHash": "86ed61452c1c2bd18a14f09cc4207f7b71e5922bb8da410e3125544babf73c15",
+          "checkedAt": "2026-10-13T12:19:47.893Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+          "sha256": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "507307221374cd7827f7e792472fc7d14d785cbd49676cec2a402e88a7b7818a"
+        }
+      ],
+      "rawOutputSha256": "cd1c4d1e59f2e4b0b4e4456fda73cd91e9c9c380ec195b9f2851fb1c0dacc0cb"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

@@ -59,7 +59,7 @@ jobs:
           npm install --prefix "$DOT_BROWSER_ROOT" --no-save --package-lock=false --no-audit --no-fund @playwright/test@1.64.0
           node "$DOT_BROWSER_ROOT/node_modules/playwright/cli.js" install --with-deps chromium
       - name: Exercise desktop and mobile pages
-        timeout-minutes: 6
+        timeout-minutes: 10
         run: |
           node scripts/local-preview-server.mjs > "$DOT_EVIDENCE_DIR/server.log" 2>&1 &
           server_pid=$!

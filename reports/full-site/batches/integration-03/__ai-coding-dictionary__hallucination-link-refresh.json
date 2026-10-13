@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A04/configs/hallucination.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/hallucination",
+      "manifest": {
+        "route": "/ai-coding-dictionary/hallucination",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
+        "sourceHash": "4b8d0cbe95e6f7c71907613a69a016178a40a5729ec6aff0372dfc12f558640c",
+        "translationPath": "content/zh/ai-coding-dictionary/hallucination.md",
+        "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:27.644Z",
+        "assembly": {
+          "configHash": "61b1bd782e00c277307af24df6cb5f7ba0d10533ec9013eb11e403ca057e402a",
+          "checkedAt": "2026-10-13T12:19:27.644Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/hallucination.md",
+          "sha256": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "eb84fcd5bc33ca489f29bd13ef4f03145b6c4d83d2705b95b9291627ebb1c2c4"
+        }
+      ],
+      "rawOutputSha256": "a6a74e0b0de6c37837a5a9d5bed2fd7b9c9ba31e4da92d7f7e834cf2efa055d1"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/hallucination",
+      "manifest": {
+        "route": "/ai-coding-dictionary/hallucination",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/hallucination",
+        "sourceHash": "4b8d0cbe95e6f7c71907613a69a016178a40a5729ec6aff0372dfc12f558640c",
+        "translationPath": "content/zh/ai-coding-dictionary/hallucination.md",
+        "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:27.888Z",
+        "assembly": {
+          "configHash": "61b1bd782e00c277307af24df6cb5f7ba0d10533ec9013eb11e403ca057e402a",
+          "checkedAt": "2026-10-13T12:19:27.888Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/hallucination.md",
+          "sha256": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "df42858542298d19a3f4ea210a9e5c3ea5eba735cef6c8493497adcbe3e0d91e"
+        }
+      ],
+      "rawOutputSha256": "29c73198639808de7858eb7d37df044a4268f4e4cabbd3a2232019ab8d405e30"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

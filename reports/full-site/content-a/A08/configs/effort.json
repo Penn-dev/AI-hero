@@ -1,0 +1,42 @@
+{
+  "route": "/ai-coding-dictionary/effort",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/effort.md",
+    "sha256": "98354889478936729e33eb954204700f94c7583ee72201e3faca2fca7b3ccec3"
+  },
+  "chineseFile": "reports/full-site/content-a/A08/drafts/effort.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

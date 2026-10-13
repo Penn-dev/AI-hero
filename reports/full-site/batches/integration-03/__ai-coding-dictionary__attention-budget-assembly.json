@@ -1,0 +1,175 @@
+{
+  "config": "reports/full-site/content-a/A09/configs/attention-budget.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/attention-budget",
+      "manifest": {
+        "route": "/ai-coding-dictionary/attention-budget",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
+        "sourceHash": "2ac674af54019c072f89a2f4154c27eab502e0f8e3219d9955d99cdd0fccccc5",
+        "translationPath": "content/zh/ai-coding-dictionary/attention-budget.md",
+        "translationHash": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:18:58.339Z",
+        "assembly": {
+          "configHash": "0dd8aa18652b7fcb5f84ed04e1d135f6e171e8a556f6f66611f16282485060bd",
+          "checkedAt": "2026-10-13T12:18:58.339Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-degradation",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-relationship",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/smart-zone",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/attention-budget.md",
+          "sha256": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ecf3623be59c5887d157f280d200d1318218aca9ef4279936d871297b0423b19"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "55cff123a1f674d992eef60ed6ee60c0efc9d33ae7a8808cdc2aa6542dde6e01"
+        }
+      ],
+      "rawOutputSha256": "be30c0b22e94be868699cde0e08654e9ae5320ee3ba18b672bd2fcc6e2df69a7"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/attention-budget",
+      "manifest": {
+        "route": "/ai-coding-dictionary/attention-budget",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
+        "sourceHash": "2ac674af54019c072f89a2f4154c27eab502e0f8e3219d9955d99cdd0fccccc5",
+        "translationPath": "content/zh/ai-coding-dictionary/attention-budget.md",
+        "translationHash": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:18:58.546Z",
+        "assembly": {
+          "configHash": "0dd8aa18652b7fcb5f84ed04e1d135f6e171e8a556f6f66611f16282485060bd",
+          "checkedAt": "2026-10-13T12:18:58.546Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-degradation",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-relationship",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/smart-zone",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/attention-budget.md",
+          "sha256": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ecf3623be59c5887d157f280d200d1318218aca9ef4279936d871297b0423b19"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "3e2e8d54f20c76342b1a0e5f59198453640d952e1035f92e68e4319150594f87"
+        }
+      ],
+      "rawOutputSha256": "096e9ff3ff91d331a58326ab6ebba88b13296d5de5a74875eb93c4e2d27dbca2"
+    }
+  ],
+  "nonTargetPagesPreserved": 57
+}

@@ -8,8 +8,7 @@
   "linkTargets": [
     {
       "route": "/ai-coding-dictionary/skill",
-      "state": "planned-chinese",
-      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+      "state": "available-chinese"
     },
     {
       "route": "/ai-coding-dictionary/agent",

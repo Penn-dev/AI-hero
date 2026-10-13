@@ -1,0 +1,63 @@
+{
+  "file": "reports/full-site/batches/content-b/batch-10/drafts/how-to-use-claude-code-hooks-to-enforce-the-right-cli.md",
+  "regexCount": 9,
+  "astCount": 7,
+  "comparisons": [
+    {
+      "block": 1,
+      "astChars": 57,
+      "regexChars": 57,
+      "match": true,
+      "astStart": "Use pnpm instead of npm for all package management tasks.",
+      "regexStart": "Use pnpm instead of npm for all package management tasks."
+    },
+    {
+      "block": 2,
+      "astChars": 25,
+      "regexChars": 25,
+      "match": true,
+      "astStart": "所有包管理任务都使用 pnpm，不要使用 npm。",
+      "regexStart": "所有包管理任务都使用 pnpm，不要使用 npm。"
+    },
+    {
+      "block": 3,
+      "astChars": 14,
+      "regexChars": 14,
+      "match": true,
+      "astStart": "不要使用 git push。",
+      "regexStart": "不要使用 git push。"
+    },
+    {
+      "block": 4,
+      "astChars": 228,
+      "regexChars": 228,
+      "match": true,
+      "astStart": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Ba",
+      "regexStart": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Ba"
+    },
+    {
+      "block": 5,
+      "astChars": 190,
+      "regexChars": 190,
+      "match": true,
+      "astStart": "#!/bin/bash\nINPUT=$(cat)\nCOMMAND=$(echo \"$INPUT\" | jq -r '.tool_i",
+      "regexStart": "#!/bin/bash\nINPUT=$(cat)\nCOMMAND=$(echo \"$INPUT\" | jq -r '.tool_i"
+    },
+    {
+      "block": 6,
+      "astChars": 894,
+      "regexChars": 489,
+      "match": false,
+      "astStart": "Take the instructions in your @CLAUDE.md file and turn them into\n",
+      "regexStart": "Take the instructions in your @CLAUDE.md file and turn them into\n"
+    },
+    {
+      "block": 7,
+      "astChars": 517,
+      "regexChars": 192,
+      "match": false,
+      "astStart": "读取 @CLAUDE.md 文件中的指令，把它们转换成当前项目目录中的确定性 Claude Code 钩子。\n\n不是所有指令都能确",
+      "regexStart": "\nFirst, confirm with the user which hooks will be created.\n\nSecon"
+    }
+  ]
+}

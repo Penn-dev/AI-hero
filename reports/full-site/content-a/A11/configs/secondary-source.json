@@ -1,0 +1,42 @@
+{
+  "route": "/ai-coding-dictionary/secondary-source",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/secondary-source.md",
+    "sha256": "b8d494d36341ef070bc29dc1c63b9251275301aa2420f32e661f163929fc971c"
+  },
+  "chineseFile": "reports/full-site/content-a/A11/drafts/secondary-source.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    }
+  ]
+}

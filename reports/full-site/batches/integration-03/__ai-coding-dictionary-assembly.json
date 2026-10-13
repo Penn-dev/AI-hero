@@ -1,0 +1,725 @@
+{
+  "config": "reports/full-site/content-a/A16/configs/ai-coding-dictionary.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary",
+      "manifest": {
+        "route": "/ai-coding-dictionary",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary",
+        "sourceHash": "9389205ef4e97e4330e37e9e577d095775fe3b2b84c647dbf0995fcc9b66d07c",
+        "translationPath": "content/zh/ai-coding-dictionary.md",
+        "translationHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:14.818Z",
+        "assembly": {
+          "configHash": "6db8ae3ef0f652c636fb97376fff1e3d4f993e3a073fa0065aed9e7fcf499c86",
+          "checkedAt": "2026-10-13T12:19:14.818Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agent-mode",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agents-md",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ai",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-budget",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-degradation",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-relationship",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/autocompact",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-review",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ax",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/cache-tokens",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-pointer",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/contextual-knowledge",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/dark-factory",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/design-concept",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/dx",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/effort",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/environment",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/filesystem",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff-artifact",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/harness",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-review",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/inference",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/input-tokens",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/knowledge-cutoff",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/mcp",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider-request",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/next-token-prediction",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/non-determinism",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/output-tokens",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parameters",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parametric-knowledge",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/permission-mode",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/permission-request",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/prototyping",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/sandbox",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/secondary-source",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/smart-zone",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/software-factory",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/stateful",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/stateless",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/sycophancy",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/tool",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/tool-result",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/training",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/turn",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/vibe-coding",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary.md",
+          "sha256": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "291080dc921f71eb81d231fef2f5c64a77a0ef620b6c11ed702e810116f8cd96"
+        }
+      ],
+      "rawOutputSha256": "86c0cf97a1f73973255271af1dcfab3217acbe82e4f7a754bd57ed4240ebf174"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary",
+      "manifest": {
+        "route": "/ai-coding-dictionary",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary",
+        "sourceHash": "9389205ef4e97e4330e37e9e577d095775fe3b2b84c647dbf0995fcc9b66d07c",
+        "translationPath": "content/zh/ai-coding-dictionary.md",
+        "translationHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:15.145Z",
+        "assembly": {
+          "configHash": "6db8ae3ef0f652c636fb97376fff1e3d4f993e3a073fa0065aed9e7fcf499c86",
+          "checkedAt": "2026-10-13T12:19:15.145Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agent-mode",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agents-md",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ai",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-budget",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-degradation",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-relationship",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/autocompact",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-review",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ax",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/cache-tokens",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-pointer",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/contextual-knowledge",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/dark-factory",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/design-concept",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/dx",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/effort",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/environment",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/filesystem",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff-artifact",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/harness",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-review",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/inference",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/input-tokens",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/knowledge-cutoff",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/mcp",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider-request",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/next-token-prediction",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/non-determinism",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/output-tokens",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parameters",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parametric-knowledge",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/permission-mode",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/permission-request",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/prototyping",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/sandbox",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/secondary-source",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/smart-zone",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/software-factory",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/stateful",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/stateless",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/sycophancy",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/tool",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/tool-result",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/training",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/turn",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            },
+            {
+              "route": "/ai-coding-dictionary/vibe-coding",
+              "state": "planned-chinese",
+              "reason": "已有完整中文稿待工程按批次接入；最终中文目标实际状态须在接页时重验。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary.md",
+          "sha256": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7aa9249acbc37dd2d2ca99e5141f8e03fecced474b1284bd8be6d375c6b634d0"
+        }
+      ],
+      "rawOutputSha256": "05f7bac843af3fd25836ab56c3cdf7203bc60760e41351ec35cc271ddb91488e"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

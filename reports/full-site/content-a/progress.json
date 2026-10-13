@@ -48,15 +48,163 @@
       "status": "content-reviewed-awaiting-integration-and-browser",
       "checks": "reports/full-site/content-a/A04/checks.md",
       "structureEvidence": "reports/full-site/content-a/A04/structure-validation.jsonl"
+    },
+    {
+      "id": "A05",
+      "routes": [
+        "/ai-coding-dictionary/session",
+        "/ai-coding-dictionary/turn",
+        "/ai-coding-dictionary/model-provider-request",
+        "/ai-coding-dictionary/stateful",
+        "/ai-coding-dictionary/stateless"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A05/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A05/structure-validation.jsonl"
+    },
+    {
+      "id": "A06",
+      "routes": [
+        "/ai-coding-dictionary/environment",
+        "/ai-coding-dictionary/filesystem",
+        "/ai-coding-dictionary/agents-md",
+        "/ai-coding-dictionary/context-pointer",
+        "/ai-coding-dictionary/skill"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A06/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A06/structure-validation.jsonl"
+    },
+    {
+      "id": "A07",
+      "routes": [
+        "/ai-coding-dictionary/ai",
+        "/ai-coding-dictionary/parameters",
+        "/ai-coding-dictionary/training",
+        "/ai-coding-dictionary/inference",
+        "/ai-coding-dictionary/model-provider"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A07/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A07/structure-validation.jsonl"
+    },
+    {
+      "id": "A08",
+      "routes": [
+        "/ai-coding-dictionary/effort",
+        "/ai-coding-dictionary/next-token-prediction",
+        "/ai-coding-dictionary/non-determinism",
+        "/ai-coding-dictionary/input-tokens",
+        "/ai-coding-dictionary/output-tokens",
+        "/ai-coding-dictionary/cache-tokens"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A08/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A08/structure-validation.jsonl"
+    },
+    {
+      "id": "A09",
+      "routes": [
+        "/ai-coding-dictionary/attention-budget",
+        "/ai-coding-dictionary/attention-degradation",
+        "/ai-coding-dictionary/attention-relationship",
+        "/ai-coding-dictionary/smart-zone"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A09/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A09/structure-validation.jsonl"
+    },
+    {
+      "id": "A10",
+      "routes": [
+        "/ai-coding-dictionary/clearing",
+        "/ai-coding-dictionary/compaction",
+        "/ai-coding-dictionary/autocompact",
+        "/ai-coding-dictionary/handoff",
+        "/ai-coding-dictionary/handoff-artifact"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A10/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A10/structure-validation.jsonl"
+    },
+    {
+      "id": "A11",
+      "routes": [
+        "/ai-coding-dictionary/primary-source",
+        "/ai-coding-dictionary/secondary-source",
+        "/ai-coding-dictionary/parametric-knowledge",
+        "/ai-coding-dictionary/contextual-knowledge",
+        "/ai-coding-dictionary/knowledge-cutoff",
+        "/ai-coding-dictionary/sycophancy"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A11/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A11/structure-validation.jsonl"
+    },
+    {
+      "id": "A12",
+      "routes": [
+        "/ai-coding-dictionary/mcp",
+        "/ai-coding-dictionary/permission-mode",
+        "/ai-coding-dictionary/permission-request",
+        "/ai-coding-dictionary/sandbox",
+        "/ai-coding-dictionary/agent-mode",
+        "/ai-coding-dictionary/subagent"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A12/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A12/structure-validation.jsonl"
+    },
+    {
+      "id": "A13",
+      "routes": [
+        "/ai-coding-dictionary/human-in-the-loop",
+        "/ai-coding-dictionary/human-review",
+        "/ai-coding-dictionary/automated-check",
+        "/ai-coding-dictionary/automated-review",
+        "/ai-coding-dictionary/afk",
+        "/ai-coding-dictionary/ax",
+        "/ai-coding-dictionary/dx"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A13/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A13/structure-validation.jsonl"
+    },
+    {
+      "id": "A14",
+      "routes": [
+        "/ai-coding-dictionary/spec",
+        "/ai-coding-dictionary/ticket",
+        "/ai-coding-dictionary/grilling",
+        "/ai-coding-dictionary/prototyping"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A14/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A14/structure-validation.jsonl"
+    },
+    {
+      "id": "A15",
+      "routes": [
+        "/ai-coding-dictionary/vibe-coding",
+        "/ai-coding-dictionary/design-concept",
+        "/ai-coding-dictionary/software-factory",
+        "/ai-coding-dictionary/dark-factory"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A15/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A15/structure-validation.jsonl"
+    },
+    {
+      "id": "A16",
+      "routes": [
+        "/ai-coding-dictionary"
+      ],
+      "status": "content-reviewed-awaiting-integration-and-browser",
+      "checks": "reports/full-site/content-a/A16/checks.md",
+      "structureEvidence": "reports/full-site/content-a/A16/structure-validation.jsonl"
     }
   ],
-  "next": [
-    "/ai-coding-dictionary/session",
-    "/ai-coding-dictionary/turn",
-    "/ai-coding-dictionary/model-provider-request",
-    "/ai-coding-dictionary/stateful",
-    "/ai-coding-dictionary/stateless"
-  ],
+  "next": [],
   "note": "Preparation and structural validation do not count as completed localized pages. Integration owner maintains runtime index/manifest and final browser results.",
   "scope": "Dictionary landing page and 70 dictionary terms; Skills transferred to content C by the approved updated assignment."
 }

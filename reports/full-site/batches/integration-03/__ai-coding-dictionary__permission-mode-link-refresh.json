@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A12/configs/permission-mode.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/permission-mode",
+      "manifest": {
+        "route": "/ai-coding-dictionary/permission-mode",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
+        "sourceHash": "94dcba8b6b3a5e39bb5d6c646c19bc4b0ca82b5cb4abd1f4733194f53da44293",
+        "translationPath": "content/zh/ai-coding-dictionary/permission-mode.md",
+        "translationHash": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:34.147Z",
+        "assembly": {
+          "configHash": "e058afa4e6874444a4c74bd377fd7083509fee726985a926a7085601584eca3f",
+          "checkedAt": "2026-10-13T12:19:34.147Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/permission-mode.md",
+          "sha256": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f705c4604b440c58b8bbb51f5dad33bb7d4002df1247bbdff5c04cd0e1784f61"
+        }
+      ],
+      "rawOutputSha256": "dd32f7773ae731d62e06673b3b8f4c8b4e73e7d3ffbd1ce671ee3707bdb89487"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/permission-mode",
+      "manifest": {
+        "route": "/ai-coding-dictionary/permission-mode",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
+        "sourceHash": "94dcba8b6b3a5e39bb5d6c646c19bc4b0ca82b5cb4abd1f4733194f53da44293",
+        "translationPath": "content/zh/ai-coding-dictionary/permission-mode.md",
+        "translationHash": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:34.370Z",
+        "assembly": {
+          "configHash": "e058afa4e6874444a4c74bd377fd7083509fee726985a926a7085601584eca3f",
+          "checkedAt": "2026-10-13T12:19:34.370Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/permission-mode.md",
+          "sha256": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "fbcd14252aff0c92bd27caee8be23bf714fd40ca81c41605bfcc50ec5a126117"
+        }
+      ],
+      "rawOutputSha256": "51b81e012250c202b9ecddce43b3e06ac3d7abae1fe358d56be9f925c3a211bd"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

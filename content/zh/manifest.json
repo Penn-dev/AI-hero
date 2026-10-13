@@ -125,10 +125,10 @@
       "translationPath": "content/zh/skills-codebase-design.md",
       "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:29.277Z",
+      "assembledAt": "2026-10-13T12:19:17.610Z",
       "assembly": {
-        "configHash": "574e47cca16f8af530419c154b8928c0b64d1478a5dfb1238d5c5bc1e8a7a679",
-        "checkedAt": "2026-10-13T11:56:29.277Z",
+        "configHash": "a386342059ee7eaa8105eec908b18970266e8aa2e24801fee3f378e3c31f429e",
+        "checkedAt": "2026-10-13T12:19:17.610Z",
         "checks": [
           "source-hash",
           "config",
@@ -138,18 +138,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary/skill",
-            "state": "planned-chinese",
-            "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
-          },
-          {
-            "route": "/ai-coding-dictionary/subagent",
-            "state": "planned-chinese",
-            "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -170,10 +159,10 @@
       "translationPath": "content/learning/system-prompt/article.md",
       "translationHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:27.797Z",
+      "assembledAt": "2026-10-13T12:19:15.672Z",
       "assembly": {
-        "configHash": "2b452bfafe2689170eaec2d9f41915d29ac86fd5853126de0e9ed2989570daff",
-        "checkedAt": "2026-10-13T11:56:27.797Z",
+        "configHash": "1f3c23a3f123e189edbc9111017fdf74630c9e1f63d6063f02374ab446998822",
+        "checkedAt": "2026-10-13T12:19:15.672Z",
         "checks": [
           "source-hash",
           "config",
@@ -183,38 +172,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider-request",
-            "state": "planned-chinese",
-            "reason": "不在本组三篇范围；后续批次核对并制作中文页。"
-          },
-          {
-            "route": "/ai-coding-dictionary/session",
-            "state": "planned-chinese",
-            "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
-          },
-          {
-            "route": "/ai-coding-dictionary/turn",
-            "state": "planned-chinese",
-            "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
-          },
-          {
-            "route": "/ai-coding-dictionary/input-tokens",
-            "state": "planned-chinese",
-            "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
-          },
-          {
-            "route": "/ai-coding-dictionary/agents-md",
-            "state": "planned-chinese",
-            "reason": "本批固定来源已有入口，但中文词条尚未制作；当前保留英文回退，不计为中文完成。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -225,10 +183,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/agent.md",
       "translationHash": "5b44967000bbf20f89eecf21037c35a7428931d8623e0a45912dd63ed15e2a06",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:32.190Z",
+      "assembledAt": "2026-10-13T12:19:32.002Z",
       "assembly": {
-        "configHash": "a5ffd1b1b3a383e8d84f2a6c0b3045bbbee034b5eac261cc5b7d6865b1f7cc3c",
-        "checkedAt": "2026-10-13T11:56:32.190Z",
+        "configHash": "26a88714f69e23a77aa8425a01337ceb074feec0a8809bf2284a3e29d838ae67",
+        "checkedAt": "2026-10-13T12:19:32.002Z",
         "checks": [
           "source-hash",
           "config",
@@ -238,33 +196,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/ai",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/parameters",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/stateful",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/turn",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -275,10 +207,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/context-window.md",
       "translationHash": "c7b7dd9404a5e20e691ba4d9109594987f8be2844d762c08634584b981ba35b1",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:32.614Z",
+      "assembledAt": "2026-10-13T12:19:41.450Z",
       "assembly": {
-        "configHash": "ed269b5a08f0999853c6244fb46c0d92d61d96595d9ac8e2956fca9a725f19c3",
-        "checkedAt": "2026-10-13T11:56:32.614Z",
+        "configHash": "d974d94c365929d6ea86d6f37b4f5d671620cc7bd0ed67717942c6a87f9c6bcc",
+        "checkedAt": "2026-10-13T12:19:41.450Z",
         "checks": [
           "source-hash",
           "config",
@@ -288,43 +220,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/attention-budget",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/clearing",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/compaction",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider-request",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/session",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/stateful",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -335,10 +231,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/tool-call.md",
       "translationHash": "95ec8540dceadb7fac71d6539c17bc2a4acd1ee9354dac8fe994572678413e2a",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:33.947Z",
+      "assembledAt": "2026-10-13T12:19:47.014Z",
       "assembly": {
-        "configHash": "a7b4cb80989794f6c281d362f16c35ec48b3a1383fedf62614bf65d9e54cd629",
-        "checkedAt": "2026-10-13T11:56:33.947Z",
+        "configHash": "fd7c1941bb3c4f5d306ab7a7eb589e6e66c5c8cfb77563dc8701643bb4daa1f2",
+        "checkedAt": "2026-10-13T12:19:47.014Z",
         "checks": [
           "source-hash",
           "config",
@@ -348,33 +244,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider-request",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/next-token-prediction",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/permission-mode",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/turn",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -385,10 +255,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/prefix-cache.md",
       "translationHash": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:30.523Z",
+      "assembledAt": "2026-10-13T12:19:28.361Z",
       "assembly": {
-        "configHash": "30e68558e5b7ff8fef203d7e7d2d8ba62d1dbaa6e10f5446c01ba84f55231a2e",
-        "checkedAt": "2026-10-13T11:56:30.523Z",
+        "configHash": "07d57871ca4603bfe834b5e726e4c140abffc448410fc33c36d4af0b079bd1a8",
+        "checkedAt": "2026-10-13T12:19:28.361Z",
         "checks": [
           "source-hash",
           "config",
@@ -398,48 +268,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/cache-tokens",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/input-tokens",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider-request",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/output-tokens",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/session",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/turn",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -450,10 +279,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/memory-system.md",
       "translationHash": "69475a939a5bcdf64d816a1de64f161f915dc1443ed1e3be6fecaaba23684df9",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:30.959Z",
+      "assembledAt": "2026-10-13T12:19:28.791Z",
       "assembly": {
-        "configHash": "8bb67d41086ae097e57db4b7e3c907dda23e7a09ee7b9b1805741610aeffc800",
-        "checkedAt": "2026-10-13T11:56:30.959Z",
+        "configHash": "fb319d1589cd293939e3004e76517606a93511690749fb4d7d5711a24ba3114e",
+        "checkedAt": "2026-10-13T12:19:28.791Z",
         "checks": [
           "source-hash",
           "config",
@@ -463,68 +292,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/agents-md",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/autocompact",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/clearing",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/context-pointer",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/environment",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/filesystem",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/secondary-source",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/session",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/stateful",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/stateless",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/turn",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -535,10 +303,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/hallucination.md",
       "translationHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:30.108Z",
+      "assembledAt": "2026-10-13T12:19:27.888Z",
       "assembly": {
-        "configHash": "64a846c6d2022f529e4ed35ccc1960a691e9c6f202b280e40c240dd5dcdd76f3",
-        "checkedAt": "2026-10-13T11:56:30.108Z",
+        "configHash": "61b1bd782e00c277307af24df6cb5f7ba0d10533ec9013eb11e403ca057e402a",
+        "checkedAt": "2026-10-13T12:19:27.888Z",
         "checks": [
           "source-hash",
           "config",
@@ -548,63 +316,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/attention-degradation",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/clearing",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/compaction",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/contextual-knowledge",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/knowledge-cutoff",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/next-token-prediction",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/parametric-knowledge",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/smart-zone",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/sycophancy",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/turn",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -615,10 +327,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/progressive-disclosure.md",
       "translationHash": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:15:52.809Z",
+      "assembledAt": "2026-10-13T12:19:41.909Z",
       "assembly": {
-        "configHash": "eabda2213ba37632f0df3f918d4189f004394676d3950356589ef8636e869e70",
-        "checkedAt": "2026-10-13T11:15:52.809Z",
+        "configHash": "e0de7bbeb19298494ae23217fc816e78ce8fe4a94bbffad7f4da9b1edaed53a6",
+        "checkedAt": "2026-10-13T12:19:41.909Z",
         "checks": [
           "source-hash",
           "config",
@@ -628,48 +340,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/agents-md",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/attention-budget",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/context-pointer",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/input-tokens",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/session",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/skill",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/turn",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -744,10 +415,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/model.md",
       "translationHash": "f12f343165c943279cb53b174cad12087ae71f9a19ac811337dba7264ed6e757",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:31.757Z",
+      "assembledAt": "2026-10-13T12:19:31.526Z",
       "assembly": {
-        "configHash": "7d0e78b361d6bfe24ff57abf8e6178a4c3bc7c3d8134f174434f2b407d5fc01b",
-        "checkedAt": "2026-10-13T11:56:31.757Z",
+        "configHash": "8a3f511f3bcd0aa6597923f2db73292be9b865a33dea81e0a7eed703bc8f5161",
+        "checkedAt": "2026-10-13T12:19:31.526Z",
         "checks": [
           "source-hash",
           "config",
@@ -757,48 +428,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/ai",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider-request",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/next-token-prediction",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/parameters",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/session",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/stateless",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -809,10 +439,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/harness.md",
       "translationHash": "4385fb5496325123f5a12485ec6d2d919a00154a663e32ed644e5df636068441",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:31.352Z",
+      "assembledAt": "2026-10-13T12:19:31.068Z",
       "assembly": {
-        "configHash": "637a36928cc9230d19a89486b51730eda4dc6fb212d0fe2dfd3fb585d51bea6e",
-        "checkedAt": "2026-10-13T11:56:31.352Z",
+        "configHash": "177b32a5138166b856d5ffb7797dc5231435e64d107adb17a651398a3ae74247",
+        "checkedAt": "2026-10-13T12:19:31.068Z",
         "checks": [
           "source-hash",
           "config",
@@ -822,48 +452,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/agents-md",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/compaction",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/filesystem",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider-request",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/session",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/turn",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -874,10 +463,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/context.md",
       "translationHash": "4021cb508844311565f8f12a80d102cfd6eddde9d639a682302914901e78941b",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:15:52.363Z",
+      "assembledAt": "2026-10-13T12:19:42.409Z",
       "assembly": {
-        "configHash": "697be4a461f441ecc44c8e5c34d6ed64fde04fce90dfd35011436a599ed85372",
-        "checkedAt": "2026-10-13T11:15:52.363Z",
+        "configHash": "ff213f758ec1cfeb7e68b2d06c2a4cb74f4415ec3e22a300dc00920d4c34f51b",
+        "checkedAt": "2026-10-13T12:19:42.409Z",
         "checks": [
           "source-hash",
           "config",
@@ -887,28 +476,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/attention-degradation",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/session",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/stateless",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -919,10 +487,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/token.md",
       "translationHash": "8898ec3b4ffd54aa9f1cf9ec5588db3f21089e9c632fe2283a1f3de1598af5e3",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:15:53.258Z",
+      "assembledAt": "2026-10-13T12:19:40.976Z",
       "assembly": {
-        "configHash": "cd00d71c36ab9d9655646618ca16d765897837204f432d83764705e45b072a14",
-        "checkedAt": "2026-10-13T11:15:53.258Z",
+        "configHash": "991fae44e0d67c95f4e7c52797dca553c34a448793a90bd001235f979c42e34f",
+        "checkedAt": "2026-10-13T12:19:40.976Z",
         "checks": [
           "source-hash",
           "config",
@@ -932,38 +500,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/effort",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/input-tokens",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/next-token-prediction",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/output-tokens",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/training",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -974,10 +511,10 @@
       "translationPath": "content/zh/skills-catalog.md",
       "translationHash": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:29.656Z",
+      "assembledAt": "2026-10-13T12:19:18.018Z",
       "assembly": {
-        "configHash": "3f8b711464cf618d7eabf5628e75a0e920a8bc70cfcb8db21e6cf2d25b843d95",
-        "checkedAt": "2026-10-13T11:56:29.656Z",
+        "configHash": "4f587050c269667283cfdb4e024dfed5e215201b2332b0f90243837ec21ca3d1",
+        "checkedAt": "2026-10-13T12:19:18.018Z",
         "checks": [
           "source-hash",
           "config",
@@ -987,13 +524,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary/skill",
-            "state": "planned-chinese",
-            "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -1004,10 +535,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/tool-result.md",
       "translationHash": "7574fffe1a0b24a5b25f4213060ea9765833f0d7c84468ae0a3df00772e688a5",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:33.050Z",
+      "assembledAt": "2026-10-13T12:19:46.077Z",
       "assembly": {
-        "configHash": "1c7d3e76ab7ab15d51ba9deca20e8b62b9c7b3624abf17afaf4815a3d82f9fe7",
-        "checkedAt": "2026-10-13T11:56:33.050Z",
+        "configHash": "a4ced73d4710fc55f181913230e9a9781c21680fddfb8e4856da20ecfc29a039",
+        "checkedAt": "2026-10-13T12:19:46.077Z",
         "checks": [
           "source-hash",
           "config",
@@ -1017,38 +548,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/environment",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/mcp",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider-request",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/session",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/turn",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -1059,10 +559,10 @@
       "translationPath": "content/zh/ai-coding-dictionary/tool.md",
       "translationHash": "f094c8573d7307195caf83a27e4eace62fda2af963fcac0adb262e346d1fb4a3",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:33.507Z",
+      "assembledAt": "2026-10-13T12:19:46.551Z",
       "assembly": {
-        "configHash": "a63aa07578aa32b2552bb34daae197eb650f5a0681b49c75b16b520268a6f747",
-        "checkedAt": "2026-10-13T11:56:33.507Z",
+        "configHash": "73c0993ba7aad1ac2e3243cdf88996c1ecb01ebb7421ae7a47dd8dd4f70201a0",
+        "checkedAt": "2026-10-13T12:19:46.551Z",
         "checks": [
           "source-hash",
           "config",
@@ -1072,33 +572,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/environment",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/filesystem",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/mcp",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          },
-          {
-            "route": "/ai-coding-dictionary/model-provider-request",
-            "state": "planned-chinese",
-            "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -1301,10 +775,10 @@
       "translationPath": "content/zh/skills/subscribe.md",
       "translationHash": "4191e41d37437f027c03a728ac5bc1a7e99542c183c8e8741da25abbde8dd08c",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:25.129Z",
+      "assembledAt": "2026-10-13T12:19:17.097Z",
       "assembly": {
-        "configHash": "387c3df1dce8c128099e569b0358fe284a7f9246f4cc7f97f21d8ffb646519b9",
-        "checkedAt": "2026-10-13T11:56:25.129Z",
+        "configHash": "b59ac65a355a2cd99d788f85d6ef34135b23038404a09c52a9175ab72ef4e502",
+        "checkedAt": "2026-10-13T12:19:17.097Z",
         "checks": [
           "source-hash",
           "config",
@@ -1314,18 +788,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary/skill",
-            "state": "planned-chinese",
-            "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
-          },
-          {
-            "route": "/ai-coding-dictionary/afk",
-            "state": "planned-chinese",
-            "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -1336,10 +799,10 @@
       "translationPath": "content/zh/skills-resolving-merge-conflicts.md",
       "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:25.594Z",
+      "assembledAt": "2026-10-13T12:19:16.653Z",
       "assembly": {
-        "configHash": "3bc185e111f1c01c9355dd0babc0c6256945b3290b9aa17f5dd1b42be21add65",
-        "checkedAt": "2026-10-13T11:56:25.594Z",
+        "configHash": "b5474450db3b97d774cc50fd0a6458610ec3eb2baff9ce842af9a63fa7c5ddd0",
+        "checkedAt": "2026-10-13T12:19:16.653Z",
         "checks": [
           "source-hash",
           "config",
@@ -1349,18 +812,7 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary/primary-source",
-            "state": "planned-chinese",
-            "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
-          },
-          {
-            "route": "/ai-coding-dictionary/automated-check",
-            "state": "planned-chinese",
-            "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
-          }
-        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     },
@@ -1371,10 +823,10 @@
       "translationPath": "content/zh/skills.md",
       "translationHash": "da59c01a5d94e48674bb57ff1db84eeafb4a780ad314febfbbaf71404b544dac",
       "status": "assembled",
-      "assembledAt": "2026-10-13T11:56:28.262Z",
+      "assembledAt": "2026-10-13T12:19:16.163Z",
       "assembly": {
-        "configHash": "4cf1099c9bf45fce3b9779d5fe3722a2e55b272fa812b41ef640077042bc8dc6",
-        "checkedAt": "2026-10-13T11:56:28.262Z",
+        "configHash": "1079d3937a59ecf620117d6995f98e041750cddca3be037e6519e327ef412808",
+        "checkedAt": "2026-10-13T12:19:16.163Z",
         "checks": [
           "source-hash",
           "config",
@@ -1384,13 +836,1399 @@
           "source-resources",
           "chinese-targets"
         ],
-        "plannedChineseTargets": [
-          {
-            "route": "/ai-coding-dictionary/skill",
-            "state": "planned-chinese",
-            "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
-          }
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider-request",
+      "sourceHash": "9040123cac6dcfe99a1b6ee685b11fd0768bfe13792421c099b592bd59956888",
+      "translationPath": "content/zh/ai-coding-dictionary/model-provider-request.md",
+      "translationHash": "06d5b7f0fce998498c0f30b8c57f66c88a046ebac6b39bda8b778913f7759561",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:21.770Z",
+      "assembly": {
+        "configHash": "76998f55cdc52863f9467066409e1c2500a09793342cddc791d54d63ac1fcbe7",
+        "checkedAt": "2026-10-13T12:19:21.770Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
         ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/session",
+      "sourceHash": "2ec9d99838359e3762586678be8930cea4457f46c48ab1c085427d0a1b5c9bdc",
+      "translationPath": "content/zh/ai-coding-dictionary/session.md",
+      "translationHash": "0f7b5d79ba37eac31e0a15ec07da91883af8d4ecb1f260b96ab66c0e5df8ce6f",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:21.295Z",
+      "assembly": {
+        "configHash": "867892fd7ca60cea2bcbb8c3cb2748f14262aa804811dc24feacdf09c292fd96",
+        "checkedAt": "2026-10-13T12:19:21.295Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/stateful",
+      "sourceHash": "9b4d2356cc0fa4e0f63f623649506c40e38fe989571365fe7944c0c729a51eb7",
+      "translationPath": "content/zh/ai-coding-dictionary/stateful.md",
+      "translationHash": "bead311e9b537c7253bbd3794a1c8099c51cf280ade409df0b705c384e1c39b5",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:22.231Z",
+      "assembly": {
+        "configHash": "8dee9b2a707428e1ea916d46bddd2e349d66032da77bf8dc7920af9087d03170",
+        "checkedAt": "2026-10-13T12:19:22.231Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/stateless",
+      "sourceHash": "061131442102c1e3677c71d5016077b613c6a6f14d6c860613cbe745d8cd6edd",
+      "translationPath": "content/zh/ai-coding-dictionary/stateless.md",
+      "translationHash": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:22.706Z",
+      "assembly": {
+        "configHash": "b983afd8493d660fa18a1a8ecaa6ed143efa6dcef29eae89ddd9ac77afcdc211",
+        "checkedAt": "2026-10-13T12:19:22.706Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/turn",
+      "sourceHash": "4976a69badb154f1c5412701e7bf657594359cecb204191cb9c273f2e0a79402",
+      "translationPath": "content/zh/ai-coding-dictionary/turn.md",
+      "translationHash": "0c222df5426fe704b42bdf8098d1c312e72dc12151f8782d61353587c51d8bc7",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:23.218Z",
+      "assembly": {
+        "configHash": "e1df57b9c39cfdc4365a253b9380864f00eef4d76ec7b5b8658ed7ec01fcade1",
+        "checkedAt": "2026-10-13T12:19:23.218Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agents-md",
+      "sourceHash": "32af17329c5c6aaddd8964c45094df8b8996c326d0c9d22f1d50639c12fac201",
+      "translationPath": "content/zh/ai-coding-dictionary/agents-md.md",
+      "translationHash": "06897ea09726703625d8aeb5ca76e7dbef1582714e0b9428236eb87699cd1c1c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:25.945Z",
+      "assembly": {
+        "configHash": "0f014a78f56995ed37175092fe01d4c5eed161a1c4277e5806be7899ea548763",
+        "checkedAt": "2026-10-13T12:19:25.945Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/context-pointer",
+      "sourceHash": "0465a48c9ee2d354bfbaa82b071f80b45616e7c8ad588b48f4cd1696786a7283",
+      "translationPath": "content/zh/ai-coding-dictionary/context-pointer.md",
+      "translationHash": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:26.916Z",
+      "assembly": {
+        "configHash": "5f742e24c02f0599b7013c61824d741afbcda69196f60d92e7f858f3076b820d",
+        "checkedAt": "2026-10-13T12:19:26.916Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/environment",
+      "sourceHash": "5e10fc7459a6351d8025c7dabae66cc94ab99be566d27f7bab40fe53b736e342",
+      "translationPath": "content/zh/ai-coding-dictionary/environment.md",
+      "translationHash": "ca9167eddfab6506465946a78ca6814d4467c24cf174a772b09891fb38f35fbc",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:27.396Z",
+      "assembly": {
+        "configHash": "b0f60cb028384190d359a15507a4b5240ca9d421007d85150d0cfb4abbe18ff7",
+        "checkedAt": "2026-10-13T12:19:27.396Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/filesystem",
+      "sourceHash": "02912c45cf8c9b38e23f635fbc55fcaa14691576e5a1220bb78e489ac700a9f7",
+      "translationPath": "content/zh/ai-coding-dictionary/filesystem.md",
+      "translationHash": "4f1f8d28fa461752472c085d5aec6edb91ad260706dab7640727a6340486d445",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:25.492Z",
+      "assembly": {
+        "configHash": "8a4c4424d8ce715b3120e33c3e570e934c3b2e58aaf3e757f071a618744e80a1",
+        "checkedAt": "2026-10-13T12:19:25.492Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/skill",
+      "sourceHash": "f3203e90c41b5e6eb0ed706dd6844860519201f6461484a7686b4e9667d2567a",
+      "translationPath": "content/zh/ai-coding-dictionary/skill.md",
+      "translationHash": "477975137e42e1c36b76997ca56c5c9d998f09f12ec8f2b103bcf3679cfd999c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:26.402Z",
+      "assembly": {
+        "configHash": "530c72f81d4f913f0383c2a7013e307ef452e3bf97c335ab9f2bb263349b9a6a",
+        "checkedAt": "2026-10-13T12:19:26.402Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ai",
+      "sourceHash": "46a2a3be696a87b1059b9ea43819305463ce94a7a5cef23466e9d1824cb57a31",
+      "translationPath": "content/zh/ai-coding-dictionary/ai.md",
+      "translationHash": "f1f4adb1b0b7f859b61ebbb24ea65d8c7a556e7482ef40f9e2aa784ebf35751d",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:38.902Z",
+      "assembly": {
+        "configHash": "b04c6a2bd873f611d0d0e158f79bea71ece73a7e7af89a7b84ccdc1eae224fda",
+        "checkedAt": "2026-10-13T12:19:38.902Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/inference",
+      "sourceHash": "e7c23ce987d5e42225449309294ce00e4b2ee4ab83544f273078c73cdc1982fc",
+      "translationPath": "content/zh/ai-coding-dictionary/inference.md",
+      "translationHash": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:39.364Z",
+      "assembly": {
+        "configHash": "1710a8f292bf246ec3edaf5dcb543738b7acfba10aadcc002f1c36e7a0935fdf",
+        "checkedAt": "2026-10-13T12:19:39.364Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/model-provider",
+      "sourceHash": "de26bad57b92bee22e4c9042fe8262c8095bf44aa3b73fd70f74766bc98e8e0e",
+      "translationPath": "content/zh/ai-coding-dictionary/model-provider.md",
+      "translationHash": "3df57d8c1c992024aba1a9396c3a1f7a00fe29e18f03686e06e3da82d0d1db8e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:38.400Z",
+      "assembly": {
+        "configHash": "39b705b9b0431e7d39a3ffd663b55d55417c1cf44046f4df0fa27343a0f7caf4",
+        "checkedAt": "2026-10-13T12:19:38.400Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/parameters",
+      "sourceHash": "f627cef476d8d54a9829f3c5c90e587ebcf6f73b25c6be5e9b4ef82a79b8e836",
+      "translationPath": "content/zh/ai-coding-dictionary/parameters.md",
+      "translationHash": "a673aba82075efd6e720e571a090d7070869eaf36f462420a737b6a2f3d1d2a7",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:40.419Z",
+      "assembly": {
+        "configHash": "9e23e4aeb4a96cbb2b2f1e95cbd0266c486a8db56b5e2363fa15970444d946ee",
+        "checkedAt": "2026-10-13T12:19:40.419Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/training",
+      "sourceHash": "f962827db48b29c0c8cc4d6f7fdc692ecfdf37c09447acac4cfbecf57887cf15",
+      "translationPath": "content/zh/ai-coding-dictionary/training.md",
+      "translationHash": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:39.911Z",
+      "assembly": {
+        "configHash": "93e76a29797c4e96b37d544628190c690f76a451a853e9e125cea7b93de18864",
+        "checkedAt": "2026-10-13T12:19:39.911Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/cache-tokens",
+      "sourceHash": "c9ef6830b4091bad3c8d788f4637ff40fe4b8a32cd9ab932526b2274174b293d",
+      "translationPath": "content/zh/ai-coding-dictionary/cache-tokens.md",
+      "translationHash": "c55e88c70a1b0d574f50ee19b6374198f94e4f5a9bc218425299ca3a88fe503b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:20.378Z",
+      "assembly": {
+        "configHash": "c640c829b94d941308dd6627c22a1e06e0f9ea6cf386bf510bb47fc350a5316e",
+        "checkedAt": "2026-10-13T12:19:20.378Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/effort",
+      "sourceHash": "98354889478936729e33eb954204700f94c7583ee72201e3faca2fca7b3ccec3",
+      "translationPath": "content/zh/ai-coding-dictionary/effort.md",
+      "translationHash": "d16ab61f90611dae91272fb5ff250fd8ea6fe4480b5797bc599b10ec1e401996",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:20.838Z",
+      "assembly": {
+        "configHash": "7b8d9390af309104379983f7866a3bc4f510ef8b1f320e36bb5137e97fd31e81",
+        "checkedAt": "2026-10-13T12:19:20.838Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/input-tokens",
+      "sourceHash": "e30fae6e5812c5d913a7c5a8d034736e4f94bae6bbf06df20922e438e11c1363",
+      "translationPath": "content/zh/ai-coding-dictionary/input-tokens.md",
+      "translationHash": "abbccee08dfa232adfd8077a718c68cc3dea7a6c7f86283f9a9d3fd59d69242d",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:19.408Z",
+      "assembly": {
+        "configHash": "34d5e9ff821f5cbd67f1bbb40ca0748ec53cf91616689908fabfa430d8da770f",
+        "checkedAt": "2026-10-13T12:19:19.408Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/next-token-prediction",
+      "sourceHash": "2e4540175092bb37efd464961daf8df3e6339d500464e6d16c8b162a247d8ed7",
+      "translationPath": "content/zh/ai-coding-dictionary/next-token-prediction.md",
+      "translationHash": "caf12bccfab0edcf2a2ce9457ba074045692901c6514316e254bec50c5aed686",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:18.468Z",
+      "assembly": {
+        "configHash": "9d67d58aa2329407e5f3d9351658861d46d126041420a980adad256fc27627ff",
+        "checkedAt": "2026-10-13T12:19:18.468Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
+      "sourceHash": "9d6bb88cb4d21da508ef3fb73b56707a9a0eb8d90b8606f470599dd1c14a6a84",
+      "translationPath": "content/zh/ai-coding-dictionary/non-determinism.md",
+      "translationHash": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:18.929Z",
+      "assembly": {
+        "configHash": "a2e729574e88883fc5be3252f94e2b237c26be0e9df1a17203515cf77a515a8a",
+        "checkedAt": "2026-10-13T12:19:18.929Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
+      "sourceHash": "dae408485b46660315f1a08c0ba1454a271460143f3b8ecd9375623acfbfdadf",
+      "translationPath": "content/zh/ai-coding-dictionary/output-tokens.md",
+      "translationHash": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:19.858Z",
+      "assembly": {
+        "configHash": "623caec3c23255ff2288b5874a9fad1f97c80ebe870aea4f018459fa96c21bc2",
+        "checkedAt": "2026-10-13T12:19:19.858Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-budget",
+      "sourceHash": "2ac674af54019c072f89a2f4154c27eab502e0f8e3219d9955d99cdd0fccccc5",
+      "translationPath": "content/zh/ai-coding-dictionary/attention-budget.md",
+      "translationHash": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:23.685Z",
+      "assembly": {
+        "configHash": "7234031dff4d522327d7ad55075641262a3fee5215c34fca2dec31e3703f8401",
+        "checkedAt": "2026-10-13T12:19:23.685Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
+      "sourceHash": "bf7047388ba3589007a6b639945031883d4b4c04fc7b91b616db403e6c8430c3",
+      "translationPath": "content/zh/ai-coding-dictionary/attention-degradation.md",
+      "translationHash": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:25.053Z",
+      "assembly": {
+        "configHash": "d00c9e2cf1cfdde7555ec92b48c26c07fe609f5ae35f3b98e637bfa68f720ad5",
+        "checkedAt": "2026-10-13T12:19:25.053Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-relationship",
+      "sourceHash": "b5563d1488719ae62eb792a3728a5c491e505e4cd9b9a22f0310cf85eb1b8275",
+      "translationPath": "content/zh/ai-coding-dictionary/attention-relationship.md",
+      "translationHash": "26a9bbfe02f92f4f1fa9b481da4dfa7d924e8e5318c1405f64bc657f4e48ed47",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:24.620Z",
+      "assembly": {
+        "configHash": "578295b1f8f91a49195bd6f6bcddc1e8e5ae627f833737c1d0867fbf9f92d3d4",
+        "checkedAt": "2026-10-13T12:19:24.620Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/smart-zone",
+      "sourceHash": "89e7f3a6e7d2660d3305269ad0d1a150a7860cf8987b0c2c79fc5476c0f6fb5f",
+      "translationPath": "content/zh/ai-coding-dictionary/smart-zone.md",
+      "translationHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:24.146Z",
+      "assembly": {
+        "configHash": "3b25420ea2f577912ea48e2a63ae7ab0d3a03e9b26b82808369fd2839f064a18",
+        "checkedAt": "2026-10-13T12:19:24.146Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/autocompact",
+      "sourceHash": "b27637eae07e7f28830ceae01e53d74088b04cf59237e669c5ab7992bb466a28",
+      "translationPath": "content/zh/ai-coding-dictionary/autocompact.md",
+      "translationHash": "6f091d0428d7b4f73fdb429345bd8102710b5f3012a236ea09c37d038019a12b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:37.525Z",
+      "assembly": {
+        "configHash": "8812003a53523cca6c0746b1db960911eb3c0ab7be9a4a1d27d95387c227fa95",
+        "checkedAt": "2026-10-13T12:19:37.525Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/clearing",
+      "sourceHash": "d60dda2558ed3c7b15ef41a8a5dd31d35a6ab8846a77f55aad7e3853682f2346",
+      "translationPath": "content/zh/ai-coding-dictionary/clearing.md",
+      "translationHash": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:37.093Z",
+      "assembly": {
+        "configHash": "ac7a1454a9ddf957963c6e428b32ef305dc6c41437b4178668df1801c0e85e17",
+        "checkedAt": "2026-10-13T12:19:37.093Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/compaction",
+      "sourceHash": "fddd287107216dd4b1936c9f276da01188acdd91e67cec9386d70cae3b85c4f0",
+      "translationPath": "content/zh/ai-coding-dictionary/compaction.md",
+      "translationHash": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:36.607Z",
+      "assembly": {
+        "configHash": "1007d0838fa9874542d6f98ae61ba8b472266254f4368a11baa2eb94cc3e23b7",
+        "checkedAt": "2026-10-13T12:19:36.607Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff-artifact",
+      "sourceHash": "d17dd0c5e14bddea3cfeace1c6071763b6bca069a2d7e75772ace458a353e2d5",
+      "translationPath": "content/zh/ai-coding-dictionary/handoff-artifact.md",
+      "translationHash": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:36.167Z",
+      "assembly": {
+        "configHash": "623306b0e3680904c4382f37fefa3657f637825b1596b6c0b24ed1a3c11d6647",
+        "checkedAt": "2026-10-13T12:19:36.167Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/handoff",
+      "sourceHash": "c3f330ccdd14c2d23d67e1252937ab5379296f8ed8878606dbd0b11d2468e508",
+      "translationPath": "content/zh/ai-coding-dictionary/handoff.md",
+      "translationHash": "4bb16d3c2891a5293d36efd8d754ceedd00abd1500c620ca4bb728975ef308b2",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:37.980Z",
+      "assembly": {
+        "configHash": "e86c885d9a58de49927cacb6c9c94e41921c1b952e7d3c9d0c92a1a1cf2edb80",
+        "checkedAt": "2026-10-13T12:19:37.980Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
+      "sourceHash": "0c15b23805522a808d4403bdf9ab5e696ea027a493dc5c758f343edd2305c811",
+      "translationPath": "content/zh/ai-coding-dictionary/contextual-knowledge.md",
+      "translationHash": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:48.813Z",
+      "assembly": {
+        "configHash": "2c6f8a50acc9cf0466cf74662b0c4e4a3b373f48b6d36e6a53b0c915ec44b999",
+        "checkedAt": "2026-10-13T12:19:48.813Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/knowledge-cutoff",
+      "sourceHash": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46",
+      "translationPath": "content/zh/ai-coding-dictionary/knowledge-cutoff.md",
+      "translationHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:47.893Z",
+      "assembly": {
+        "configHash": "86ed61452c1c2bd18a14f09cc4207f7b71e5922bb8da410e3125544babf73c15",
+        "checkedAt": "2026-10-13T12:19:47.893Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/parametric-knowledge",
+      "sourceHash": "eea5dc47fbe93157d2f9c3447977f19edf5a98ab5e121a6eb1d55d768bd82c60",
+      "translationPath": "content/zh/ai-coding-dictionary/parametric-knowledge.md",
+      "translationHash": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:47.437Z",
+      "assembly": {
+        "configHash": "632f7c0bc49a6950cb22c59713a378a93dc8790cf579078b67f4a046d5bd8e00",
+        "checkedAt": "2026-10-13T12:19:47.437Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/primary-source",
+      "sourceHash": "d7de1ef47f677a3e0fd3ee8303be41617ae850964bb3ef5ce936e007ce8e1c91",
+      "translationPath": "content/zh/ai-coding-dictionary/primary-source.md",
+      "translationHash": "9f9c37d1f3f958191afd1c1ced53e7de63fdac835d120001526459290e709d31",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:49.676Z",
+      "assembly": {
+        "configHash": "425be170a44f9770f844e3eff2232ad1751388f1bf1644be97f3c0d1b625028c",
+        "checkedAt": "2026-10-13T12:19:49.676Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/secondary-source",
+      "sourceHash": "b8d494d36341ef070bc29dc1c63b9251275301aa2420f32e661f163929fc971c",
+      "translationPath": "content/zh/ai-coding-dictionary/secondary-source.md",
+      "translationHash": "885423477c37ba1fb06634c16f587b8d1195c7502b28a2152e705c86f0c31dbf",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:49.250Z",
+      "assembly": {
+        "configHash": "6a1ca49e360908e1e7b95cd72b52e65a5bb62cf32cf9caad822c87b2eed22088",
+        "checkedAt": "2026-10-13T12:19:49.250Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+      "sourceHash": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941",
+      "translationPath": "content/zh/ai-coding-dictionary/sycophancy.md",
+      "translationHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:48.345Z",
+      "assembly": {
+        "configHash": "4e7e9695835113d741a323e6f57d4b776a054b9c0a2369eb375156f202475cf8",
+        "checkedAt": "2026-10-13T12:19:48.345Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
+      "sourceHash": "24f5102fb30d59ebc8947457169dcc9e98583973d2ce5efe1cc44443300ecdc7",
+      "translationPath": "content/zh/ai-coding-dictionary/agent-mode.md",
+      "translationHash": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:33.454Z",
+      "assembly": {
+        "configHash": "b5e6d020de6a799ea50ddda3d5acf10431cd5538fb8aaf6a9eab7a0f47978b21",
+        "checkedAt": "2026-10-13T12:19:33.454Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/mcp",
+      "sourceHash": "dccbfda4cf19b526b54ea7b562903d89a1b7319f1cfc624c88465b82962e305c",
+      "translationPath": "content/zh/ai-coding-dictionary/mcp.md",
+      "translationHash": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:32.980Z",
+      "assembly": {
+        "configHash": "0d3fda143c8d1e02069060d68f754cd3e6198c402f41d24dfab707dbe8e06a9f",
+        "checkedAt": "2026-10-13T12:19:32.980Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-mode",
+      "sourceHash": "94dcba8b6b3a5e39bb5d6c646c19bc4b0ca82b5cb4abd1f4733194f53da44293",
+      "translationPath": "content/zh/ai-coding-dictionary/permission-mode.md",
+      "translationHash": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:34.370Z",
+      "assembly": {
+        "configHash": "e058afa4e6874444a4c74bd377fd7083509fee726985a926a7085601584eca3f",
+        "checkedAt": "2026-10-13T12:19:34.370Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/permission-request",
+      "sourceHash": "5cd646c35915de3e592f69439f459e638ed020068c5e8337c1ba715b5015c9c0",
+      "translationPath": "content/zh/ai-coding-dictionary/permission-request.md",
+      "translationHash": "b0baee76ed0d94d37711c42ed89ffc30f27eb850abfd852df537660b9539bfa2",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:34.887Z",
+      "assembly": {
+        "configHash": "c953090954b5d7b47f4b384c246be5d81afd752144287072ef19d7391a999bf1",
+        "checkedAt": "2026-10-13T12:19:34.887Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/sandbox",
+      "sourceHash": "16a11caf345c12e3be8721de059a4c716dde5fec481256a6c0a833d5e016d751",
+      "translationPath": "content/zh/ai-coding-dictionary/sandbox.md",
+      "translationHash": "f2da4f482d5a0b2fa54bd2b4e6343d6a540d505887d1307f42ae378b9de2f5c8",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:32.516Z",
+      "assembly": {
+        "configHash": "819ff4af6e4d28764ee097c2b58cbb9161463d7e870978aba1cea0eabb4c776f",
+        "checkedAt": "2026-10-13T12:19:32.516Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/subagent",
+      "sourceHash": "50239cd38db25f2b441fda71d5bfca33fa36be01fc50bf07f1f7f10e347159f8",
+      "translationPath": "content/zh/ai-coding-dictionary/subagent.md",
+      "translationHash": "fd3603db152a6d2f867f656a1897c22164fa17320554f62f6996b546fb986ec4",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:33.913Z",
+      "assembly": {
+        "configHash": "1c3d6db1b83a8f40149066fc51eee7dd4663e9e59e423dff3c56ee8da3b3d757",
+        "checkedAt": "2026-10-13T12:19:33.913Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/afk",
+      "sourceHash": "8618b23c4ab823f440ea078191a7345958fcd260c290033141d47847ad6f915a",
+      "translationPath": "content/zh/ai-coding-dictionary/afk.md",
+      "translationHash": "69bd4c8ae6f747c478edb713b8efe67054e3b33250b82777364c9fab1cad5bb0",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:44.708Z",
+      "assembly": {
+        "configHash": "27358304da3289d589b1d0b2c94dc8525a4707d7c8c2a954fa8103255836539b",
+        "checkedAt": "2026-10-13T12:19:44.708Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-check",
+      "sourceHash": "bf3c424b557017b8f77485ddff6e9f842695c7f97e97301775f31022e433d3a6",
+      "translationPath": "content/zh/ai-coding-dictionary/automated-check.md",
+      "translationHash": "2ad1926f1f2876a937a9a95ba672f0d1c1d419bd6cc4e6825558dba75e7b1573",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:43.315Z",
+      "assembly": {
+        "configHash": "7c8296a35bc7b6e26fa837ff4c4b3027d45b95c936ca9a9533545cc9066f029b",
+        "checkedAt": "2026-10-13T12:19:43.315Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/automated-review",
+      "sourceHash": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b",
+      "translationPath": "content/zh/ai-coding-dictionary/automated-review.md",
+      "translationHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:43.764Z",
+      "assembly": {
+        "configHash": "9a1a4dc0ff8e455519194e2c053bfb121a643672b96f2b91420713da91b8f178",
+        "checkedAt": "2026-10-13T12:19:43.764Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ax",
+      "sourceHash": "5e5e09094864e5f7908dc7b6549ef4ecb6e941d382e19c1600b9ae4a33449c2e",
+      "translationPath": "content/zh/ai-coding-dictionary/ax.md",
+      "translationHash": "9f67986cebc45eae52e8fd3eed63e27cf2bd4241c807f32738c4041882ef8084",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:45.172Z",
+      "assembly": {
+        "configHash": "cbfcba05644779f67907c40252d107051124e598788579144da88befad6f37bc",
+        "checkedAt": "2026-10-13T12:19:45.172Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/dx",
+      "sourceHash": "a7ffc549fb59a5ca758ea9324560f5df91d76eaad3b4766b57cbf77515524fb5",
+      "translationPath": "content/zh/ai-coding-dictionary/dx.md",
+      "translationHash": "2b5bcbf713195ef12650d14b795f81d6279ec70918946e8000a97fcaef995ebe",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:42.861Z",
+      "assembly": {
+        "configHash": "5f26481ee14974cb56e98045b74250044cca2162de113e2ac5ec8426e809c420",
+        "checkedAt": "2026-10-13T12:19:42.861Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop",
+      "sourceHash": "6730a600872ddbb9bb705fe5ad8f6ee0218c841576ea7fd3d9e572aedf975a50",
+      "translationPath": "content/zh/ai-coding-dictionary/human-in-the-loop.md",
+      "translationHash": "36a2b738e345d63882ca23f41a1183b128c2a24f0e0c1d05ea283ba6801eed49",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:44.205Z",
+      "assembly": {
+        "configHash": "fc18ec1d87c4759d51a30a871cbecf05a84d50a3cc090c292d350dc9129a7ad4",
+        "checkedAt": "2026-10-13T12:19:44.205Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/human-review",
+      "sourceHash": "dd479f1fd946c437f8660dad8405defd3f5846e2308d5ba59851822bfa4b7633",
+      "translationPath": "content/zh/ai-coding-dictionary/human-review.md",
+      "translationHash": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:45.615Z",
+      "assembly": {
+        "configHash": "6d1ca0cf4561dfb1bdff6fd2b4b94e146f64091cc212a8a0b1c610de499b5497",
+        "checkedAt": "2026-10-13T12:19:45.615Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+      "sourceHash": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc",
+      "translationPath": "content/zh/ai-coding-dictionary/grilling.md",
+      "translationHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:50.989Z",
+      "assembly": {
+        "configHash": "572f3d6bc2f81aab4fcea55e495f9fc54a37a7b2fc2a65e0fa3f95ab07f8673e",
+        "checkedAt": "2026-10-13T12:19:50.989Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/prototyping",
+      "sourceHash": "39d3ce1c188317f94c922a30c1652b2ef5ca993d7eb061cbc6d63f7a5543d97f",
+      "translationPath": "content/zh/ai-coding-dictionary/prototyping.md",
+      "translationHash": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:50.575Z",
+      "assembly": {
+        "configHash": "52cc0d9485adbf49d0f5ff3c19431685571b9cb0ef6827d706c375e389747e98",
+        "checkedAt": "2026-10-13T12:19:50.575Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/spec",
+      "sourceHash": "35400ab72d5c14a63214c73cab00ddf37fd63150cae3ea5fe2ae8b5297df684d",
+      "translationPath": "content/zh/ai-coding-dictionary/spec.md",
+      "translationHash": "cbd2ae4002e6013decb42c3d77303219d796878830a6ad4cc98b23cf5c6d7e22",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:51.433Z",
+      "assembly": {
+        "configHash": "40a0f10a83af67acc475d6f63ec76a30456aa4fb9b18b7e234fc05ddae25af0b",
+        "checkedAt": "2026-10-13T12:19:51.433Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/ticket",
+      "sourceHash": "27a3bc6e5fd813af0d4ee8e5cd6742ef9020dc59693fa3cc3bcbf349a7a13702",
+      "translationPath": "content/zh/ai-coding-dictionary/ticket.md",
+      "translationHash": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:50.138Z",
+      "assembly": {
+        "configHash": "6afe42b8b3bda1a15b075b78a9858ee0ff15fdfc0cd896a24fdcfa71a2f6e9f8",
+        "checkedAt": "2026-10-13T12:19:50.138Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/dark-factory",
+      "sourceHash": "e61c177f6e5426b1315a4390e94104187f012d0c63fdde2b59559c66aac4e4b1",
+      "translationPath": "content/zh/ai-coding-dictionary/dark-factory.md",
+      "translationHash": "b054c4a02ad3061cf79d11070977d95602bce8c83d52950cea589bba7dbeffa9",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:30.161Z",
+      "assembly": {
+        "configHash": "3f2b5373832090d2c7e1ade6123792f08fe62deb45e37c3cd73fa41afc5e74d9",
+        "checkedAt": "2026-10-13T12:19:30.161Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
+      "sourceHash": "41a0e5468e5b07e7ad96e188e82d8fdb8609b5f9068f9417bf6ef851f20f121b",
+      "translationPath": "content/zh/ai-coding-dictionary/design-concept.md",
+      "translationHash": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:30.613Z",
+      "assembly": {
+        "configHash": "245fea967402c4c4a3e55682ded95393f2a99da05602082e23f6b72169407f60",
+        "checkedAt": "2026-10-13T12:19:30.613Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/software-factory",
+      "sourceHash": "78107b16f9f8a4964fb482a016c114a292bfbf5c75ac79b9861a711b4c4a669b",
+      "translationPath": "content/zh/ai-coding-dictionary/software-factory.md",
+      "translationHash": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:29.724Z",
+      "assembly": {
+        "configHash": "289b6035adccda25bc62ebe98f340c5313f269f70b38dc399b3d20821562bffd",
+        "checkedAt": "2026-10-13T12:19:29.724Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/vibe-coding",
+      "sourceHash": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861",
+      "translationPath": "content/zh/ai-coding-dictionary/vibe-coding.md",
+      "translationHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:29.260Z",
+      "assembly": {
+        "configHash": "aefdc7416d88b4c39212d69fb81701690df9c0def9b196526a9a6354a29179e5",
+        "checkedAt": "2026-10-13T12:19:29.260Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
+        "staleChineseTargets": []
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary",
+      "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary",
+      "sourceHash": "9389205ef4e97e4330e37e9e577d095775fe3b2b84c647dbf0995fcc9b66d07c",
+      "translationPath": "content/zh/ai-coding-dictionary.md",
+      "translationHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0",
+      "status": "assembled",
+      "assembledAt": "2026-10-13T12:19:35.591Z",
+      "assembly": {
+        "configHash": "bcb9cead8455e47c32e513b3608141352099783022b6d9eae344963f7d1c992f",
+        "checkedAt": "2026-10-13T12:19:35.591Z",
+        "checks": [
+          "source-hash",
+          "config",
+          "content-structure",
+          "original-blocks",
+          "inline-code",
+          "source-resources",
+          "chinese-targets"
+        ],
+        "plannedChineseTargets": [],
         "staleChineseTargets": []
       }
     }

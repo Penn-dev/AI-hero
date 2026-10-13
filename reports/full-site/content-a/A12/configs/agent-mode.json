@@ -1,0 +1,30 @@
+{
+  "route": "/ai-coding-dictionary/agent-mode",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/agent-mode.md",
+    "sha256": "24f5102fb30d59ebc8947457169dcc9e98583973d2ce5efe1cc44443300ecdc7"
+  },
+  "chineseFile": "reports/full-site/content-a/A12/drafts/agent-mode.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    }
+  ]
+}

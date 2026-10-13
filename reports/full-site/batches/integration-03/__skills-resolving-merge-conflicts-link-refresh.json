@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-03/configs/skills-resolving-merge-conflicts.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-resolving-merge-conflicts",
+      "manifest": {
+        "route": "/skills-resolving-merge-conflicts",
+        "sourceUrl": "https://www.aihero.dev/skills-resolving-merge-conflicts",
+        "sourceHash": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710",
+        "translationPath": "content/zh/skills-resolving-merge-conflicts.md",
+        "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:16.434Z",
+        "assembly": {
+          "configHash": "b5474450db3b97d774cc50fd0a6458610ec3eb2baff9ce842af9a63fa7c5ddd0",
+          "checkedAt": "2026-10-13T12:19:16.434Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-resolving-merge-conflicts.md",
+          "sha256": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0c9dad4d00560bb69862945bc8f8c5500843c88dcd89d9ae7e52991776c592a5"
+        }
+      ],
+      "rawOutputSha256": "594612c00b3188740e4e1a6be5736eb5a11207bcaa74863a112275a144d8e020"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-resolving-merge-conflicts",
+      "manifest": {
+        "route": "/skills-resolving-merge-conflicts",
+        "sourceUrl": "https://www.aihero.dev/skills-resolving-merge-conflicts",
+        "sourceHash": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710",
+        "translationPath": "content/zh/skills-resolving-merge-conflicts.md",
+        "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:16.653Z",
+        "assembly": {
+          "configHash": "b5474450db3b97d774cc50fd0a6458610ec3eb2baff9ce842af9a63fa7c5ddd0",
+          "checkedAt": "2026-10-13T12:19:16.653Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-resolving-merge-conflicts.md",
+          "sha256": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "2e986a0a2b5fa6bfe90d30584bd8247619583f14b94fc6a97382555577ce7548"
+        }
+      ],
+      "rawOutputSha256": "d49b7e6f5a81557d5832fe2d9517068fb8f8272d4f4539f5d5f7b3806700bad5"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

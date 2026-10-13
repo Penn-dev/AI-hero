@@ -1,0 +1,21 @@
+{
+  "storage": "Original ZIPs saved in owner Library and delivered as attachments; no private download URL is committed. Match file/version/sha256 below.",
+  "archives": [
+    {
+      "file": "aihero-production-01.zip",
+      "version": 0,
+      "sha256": "0394b39a09d77aac463767092b43be45a9f71db6e6d8e260293d9e968f3bfff5",
+      "bytes": 5708775,
+      "runId": "38391725587",
+      "artifactId": "11808269892"
+    },
+    {
+      "file": "aihero-production-02.zip",
+      "version": 0,
+      "sha256": "d0e59f33c9a9186882b5f2cbb8c5e63f04bb049e6a75d2e3525e664c9cdeb95f",
+      "bytes": 3914521,
+      "runId": "38395456927",
+      "artifactId": "11812760129"
+    }
+  ]
+}

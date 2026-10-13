@@ -1,0 +1,51 @@
+{
+  "draftPath": "reports/full-site/content-a/A16/drafts/ai-coding-dictionary.md",
+  "draftHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0",
+  "termLinkCount": 71,
+  "uniqueTermLinks": 71,
+  "sourceTermOrder": "matched",
+  "sections": [
+    {
+      "id": "the-model",
+      "label": "模型",
+      "level": 2
+    },
+    {
+      "id": "sessions-context-windows-turns",
+      "label": "会话、上下文窗口与工作轮次",
+      "level": 2
+    },
+    {
+      "id": "tools-environment",
+      "label": "工具与环境",
+      "level": 2
+    },
+    {
+      "id": "failure-modes",
+      "label": "失败模式",
+      "level": 2
+    },
+    {
+      "id": "handoffs",
+      "label": "交接",
+      "level": 2
+    },
+    {
+      "id": "memory-and-steering",
+      "label": "记忆与行为引导",
+      "level": 2
+    },
+    {
+      "id": "patterns-of-work",
+      "label": "工作模式",
+      "level": 2
+    },
+    {
+      "id": "想学的不只是词汇",
+      "label": "想学的不只是词汇？",
+      "level": 2
+    }
+  ],
+  "anchorIds": "matched-original",
+  "browser": "not-run"
+}
