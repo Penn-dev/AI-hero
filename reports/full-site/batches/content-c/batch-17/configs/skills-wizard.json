@@ -1,0 +1,22 @@
+{
+  "route": "/skills-wizard",
+  "source": {
+    "path": "content/source/skills-wizard.md",
+    "sha256": "29ed23c37badfd031173fb113491a8698884d9729aea053518c18ca2694aa8fa"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-17/drafts/skills-wizard.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    }
+  ]
+}

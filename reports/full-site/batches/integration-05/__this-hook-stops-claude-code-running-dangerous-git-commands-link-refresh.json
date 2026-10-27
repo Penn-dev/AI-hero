@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-10/configs/this-hook-stops-claude-code-running-dangerous-git-commands.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "manifest": {
+        "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+        "sourceUrl": "https://www.aihero.dev/this-hook-stops-claude-code-running-dangerous-git-commands",
+        "sourceHash": "d6b944eb7ebee0bf5bda5267f7cd7f7ca5db44f7b1baa7315d467e75dd1a5a87",
+        "translationPath": "content/zh/this-hook-stops-claude-code-running-dangerous-git-commands.md",
+        "translationHash": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:54.770Z",
+        "assembly": {
+          "configHash": "2c0bf8d9b643730c651669e4f01d12fcce060f94966953cfd1c6886ab0d837fb",
+          "checkedAt": "2026-10-13T13:07:54.770Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/this-hook-stops-claude-code-running-dangerous-git-commands.md",
+          "sha256": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "144e7a039365937337efa9028f71e113d180bb68dbcc0a96e2ca29ab322e52a8"
+        }
+      ],
+      "rawOutputSha256": "50100db9e49512c133857c47411388afeba790db5ad8e7c9ff4756435b39cc81"
+    },
+    {
+      "mode": "apply",
+      "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+      "manifest": {
+        "route": "/this-hook-stops-claude-code-running-dangerous-git-commands",
+        "sourceUrl": "https://www.aihero.dev/this-hook-stops-claude-code-running-dangerous-git-commands",
+        "sourceHash": "d6b944eb7ebee0bf5bda5267f7cd7f7ca5db44f7b1baa7315d467e75dd1a5a87",
+        "translationPath": "content/zh/this-hook-stops-claude-code-running-dangerous-git-commands.md",
+        "translationHash": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:55.017Z",
+        "assembly": {
+          "configHash": "2c0bf8d9b643730c651669e4f01d12fcce060f94966953cfd1c6886ab0d837fb",
+          "checkedAt": "2026-10-13T13:07:55.017Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/this-hook-stops-claude-code-running-dangerous-git-commands.md",
+          "sha256": "d8e466e95589e74989a44cd5508e1f8899820a0023f09f371564d0aa11050011"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "680dab559378c6e08b364a3ddfb85eb56261e896bcb0853a0b8ad34e54ec8219"
+        }
+      ],
+      "rawOutputSha256": "99b31db0cd7d27ebf0c4cab41c78540829ca0d61485a6151cf6013ede744239e"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

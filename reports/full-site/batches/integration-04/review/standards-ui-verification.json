@@ -1,0 +1,2711 @@
+{
+  "candidate": "be746642cf69bc9debee85a99d08aafa8b823ee0",
+  "runId": "38401367005",
+  "zipSha256": "20cfd1b83d1ce33847e067feedd8bf878577425a4fd2a82e5cb95ee1c339e818",
+  "viewports": 120,
+  "passedViewports": 107,
+  "passedRoutes": 104,
+  "failedRoutes": 13,
+  "actualCopyMatches": 270,
+  "conceptClicks": 27,
+  "screenshots": [
+    {
+      "file": "how-to-choose-an-llm-390-body.png",
+      "url": "http://127.0.0.1:4321/how-to-choose-an-llm",
+      "sha256": "9c1620a5cb6a200bbfe4a2ac548e732f56fdca19eda97383dce8a401f3e38649",
+      "bytes": 103833,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "how-to-choose-an-llm-390-new-chinese-navigation-1.png",
+      "url": "http://127.0.0.1:4321/how-to-choose-an-llm",
+      "sha256": "02e6f2f7b168765c8fb257a9670c36633560e39b98b68ef4ecad45745db6a2d7",
+      "bytes": 120779,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "llm-fundamentals-390-failure.png",
+      "url": "http://127.0.0.1:4321/llm-fundamentals",
+      "sha256": "b9d30edf90edc6ba9151f49e16546f555dc5d54f033f9ebcb8a9034f573dde9f",
+      "bytes": 134896,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "messages-system-prompts-and-reasoning-tokens-390-body.png",
+      "url": "http://127.0.0.1:4321/messages-system-prompts-and-reasoning-tokens",
+      "sha256": "52f6b926823b9918705fe371ca164958e1954d6df6b71ffabcdf626dedfdd2e4",
+      "bytes": 86966,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "messages-system-prompts-and-reasoning-tokens-390-code-example.png",
+      "url": "http://127.0.0.1:4321/messages-system-prompts-and-reasoning-tokens",
+      "sha256": "06549099e2d35311e6bd16b2b11fe3abdd203006cd86eda6f4fc67e879846005",
+      "bytes": 69348,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "messages-system-prompts-and-reasoning-tokens-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/messages-system-prompts-and-reasoning-tokens",
+      "sha256": "b881bd01cc3fa3160e397e5679de0226a8d79b68dba127c439afa7713c7978d2",
+      "bytes": 84108,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "messages-system-prompts-and-reasoning-tokens-390-image.png",
+      "url": "http://127.0.0.1:4321/messages-system-prompts-and-reasoning-tokens",
+      "sha256": "2f24c2cae9bccdb79851057a49047fbb1e0ac965a2f7a83450a747dc144e734c",
+      "bytes": 76104,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-llms-used-for-390-body.png",
+      "url": "http://127.0.0.1:4321/what-are-llms-used-for",
+      "sha256": "44e79ed730fd6ad0720af299fe0e509f7fa1f482fe24d406a065b9eed9f299ac",
+      "bytes": 106955,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-llms-used-for-390-code-example.png",
+      "url": "http://127.0.0.1:4321/what-are-llms-used-for",
+      "sha256": "713440511912837501d7793f289bec9d4d9bacc93e0e3c0ba8c4609e6e775629",
+      "bytes": 101849,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-llms-used-for-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/what-are-llms-used-for",
+      "sha256": "ab1f92a6ff284279688913e43b438a9b8e5f136e3047127f98a2d4c4e02c99f4",
+      "bytes": 87315,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-llms-used-for-390-image.png",
+      "url": "http://127.0.0.1:4321/what-are-llms-used-for",
+      "sha256": "72595e4ed8233225314f5585ae94706d2b12aad31616e8b51db6dc1545603319",
+      "bytes": 131595,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-llms-used-for-390-new-chinese-navigation-1.png",
+      "url": "http://127.0.0.1:4321/what-are-llms-used-for",
+      "sha256": "367c6808ca24a3fb4b8f07a1ffc16d0fd78e3982005b771d2839f502cc140be6",
+      "bytes": 123734,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-llms-used-for-390-new-chinese-navigation-2.png",
+      "url": "http://127.0.0.1:4321/what-are-llms-used-for",
+      "sha256": "f0e8e98faeadb316697e431e0519e3b9d4b0a28806962d9149dec67fd027380a",
+      "bytes": 119181,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-llms-used-for-390-new-chinese-navigation-3.png",
+      "url": "http://127.0.0.1:4321/what-are-llms-used-for",
+      "sha256": "555808e7320ca90c0b0ec45ffd62eadd4a8754e140898bd73fa7fed09a040652",
+      "bytes": 88913,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-tools-390-body.png",
+      "url": "http://127.0.0.1:4321/what-are-tools",
+      "sha256": "e480176512f44dccf4686ce48d24c37335daa8237435d428d74cfb374edc13ee",
+      "bytes": 98386,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-tools-390-code-example.png",
+      "url": "http://127.0.0.1:4321/what-are-tools",
+      "sha256": "570ebb924fcb30cd98652d8ca694b691ae52c4d19d173b0581e529cb9f83063e",
+      "bytes": 99334,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-tools-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/what-are-tools",
+      "sha256": "f3400903b3e217ab5d31f2ddcbeffe405c6a4cd7906fb232ed280b4b3994878c",
+      "bytes": 71460,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-tools-390-image.png",
+      "url": "http://127.0.0.1:4321/what-are-tools",
+      "sha256": "cf15623ebb442f2db7e85147b2bfb4610f7307525ff57674a60f9fd642b48ca6",
+      "bytes": 102320,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-agent-390-body.png",
+      "url": "http://127.0.0.1:4321/what-is-an-agent",
+      "sha256": "cf60d920d80198eff40d4e2cb0a6c6e6adfb14a5ac8fc6e59047919713489b44",
+      "bytes": 87820,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-agent-390-image.png",
+      "url": "http://127.0.0.1:4321/what-is-an-agent",
+      "sha256": "fd00a28ad7df1483dca68e5d0d7e5e67acfafcb6ca95b79969f2ba08a336cda6",
+      "bytes": 87369,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-engineer-roadmap-1440-body.png",
+      "url": "http://127.0.0.1:4321/ai-engineer-roadmap",
+      "sha256": "03dae0138ef23de8fd0ddb2cb444a26930ca917c2de88661f971e2a1f9f75446",
+      "bytes": 157600,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-engineer-roadmap-1440-image.png",
+      "url": "http://127.0.0.1:4321/ai-engineer-roadmap",
+      "sha256": "03dae0138ef23de8fd0ddb2cb444a26930ca917c2de88661f971e2a1f9f75446",
+      "bytes": 157600,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-engineer-roadmap-1440-new-chinese-navigation-1.png",
+      "url": "http://127.0.0.1:4321/ai-engineer-roadmap",
+      "sha256": "6f0cf110d242c3b739c1d6842770fda8eec16a885cea41ee30042597048fdc05",
+      "bytes": 169852,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-engineer-roadmap-390-body.png",
+      "url": "http://127.0.0.1:4321/ai-engineer-roadmap",
+      "sha256": "ae96aebb6aeaa6223ceaab7983315fded4e012863baf25e6711677dae8bcba92",
+      "bytes": 101769,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-engineer-roadmap-390-image.png",
+      "url": "http://127.0.0.1:4321/ai-engineer-roadmap",
+      "sha256": "ae96aebb6aeaa6223ceaab7983315fded4e012863baf25e6711677dae8bcba92",
+      "bytes": 101769,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-engineer-roadmap-390-new-chinese-navigation-1.png",
+      "url": "http://127.0.0.1:4321/ai-engineer-roadmap",
+      "sha256": "045252af9919a950552c5f5b41c255b0e7b665954d8861d525ebbc4813ce708d",
+      "bytes": 105575,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "building-effective-agents-390-body.png",
+      "url": "http://127.0.0.1:4321/building-effective-agents",
+      "sha256": "5e7b05ad7d8d315ddcd622fa0830d225983dbc4f0857ffb82528e26e6df9dfe2",
+      "bytes": 81081,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "storm-generate-high-quality-articles-based-on-real-research-390-failure.png",
+      "url": "http://127.0.0.1:4321/storm-generate-high-quality-articles-based-on-real-research",
+      "sha256": "a283ba4d20951ca29c64b43001aa3fcecda390ce47c2b3f6d6caf7bb1df50718",
+      "bytes": 62693,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "the-ai-engineer-mindset-390-body.png",
+      "url": "http://127.0.0.1:4321/the-ai-engineer-mindset",
+      "sha256": "54ae97a6c9921e54d1dfe265d487daf712187417ab4b6518257ec50d789a9e26",
+      "bytes": 104004,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "the-ai-engineer-mindset-390-image.png",
+      "url": "http://127.0.0.1:4321/the-ai-engineer-mindset",
+      "sha256": "67139b5cb463a4d090e4915750524258bf63ee3ef76332d0f8881cff6fd85706",
+      "bytes": 103922,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "the-prompt-report-390-failure.png",
+      "url": "http://127.0.0.1:4321/the-prompt-report",
+      "sha256": "7aa6b546af55166307624b79cac4823764ebf9c313c0642ce2b74e76e4f78d61",
+      "bytes": 54927,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "three-types-of-evals-390-body.png",
+      "url": "http://127.0.0.1:4321/three-types-of-evals",
+      "sha256": "190f88ee980ce299521df7095780a8d5c4c309a759d337ec8d40c8fc01297150",
+      "bytes": 73358,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-evals-390-body.png",
+      "url": "http://127.0.0.1:4321/what-are-evals",
+      "sha256": "60f866c764ede2d3584916c083a9a3063447749f712f4e1dda24359b72824fbe",
+      "bytes": 93906,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-evals-390-code-example.png",
+      "url": "http://127.0.0.1:4321/what-are-evals",
+      "sha256": "72bdad0f10192eaf3d2cc42bc8ddb4246870ec46489ec72d6485c637a73ac179",
+      "bytes": 95205,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-evals-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/what-are-evals",
+      "sha256": "4843ab4e1caa20f3bfe093b7bc3c23fd49e2b7ffd8fb269599e5a929e5727846",
+      "bytes": 78645,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-evals-390-image.png",
+      "url": "http://127.0.0.1:4321/what-are-evals",
+      "sha256": "914f30d6780e8a90ca1b5c35fa54d66e50120ebcdc5d864412a4169127d19c18",
+      "bytes": 88812,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-are-evals-390-new-chinese-navigation-1.png",
+      "url": "http://127.0.0.1:4321/what-are-evals",
+      "sha256": "bf1676ec6cd4007e32dd2fd5246b1e21958be368027ec9b26dc33325e2defe23",
+      "bytes": 114038,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-ai-engineer-1440-body.png",
+      "url": "http://127.0.0.1:4321/what-is-an-ai-engineer",
+      "sha256": "b13cae6f173d0d89578cb88e1583bff3d08840c3f55146204ea9a0acc6cca26f",
+      "bytes": 175689,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-ai-engineer-1440-table-1.png",
+      "url": "http://127.0.0.1:4321/what-is-an-ai-engineer",
+      "sha256": "d58817727dae530d1a6512290babcb5ec63552a6f8edc88412a19c4d8db76a87",
+      "bytes": 161848,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-ai-engineer-390-body.png",
+      "url": "http://127.0.0.1:4321/what-is-an-ai-engineer",
+      "sha256": "1efe4f6c8f9874237e7430523ba7a5dca1432f074c3b491e273cf7795f184a3f",
+      "bytes": 109566,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-an-ai-engineer-390-table-1.png",
+      "url": "http://127.0.0.1:4321/what-is-an-ai-engineer",
+      "sha256": "eb9a859ccd5bad14cd5f1671ebc42652da08e124a7ea8e086665244a8ca6e3cb",
+      "bytes": 87352,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-text-with-vercel-ai-sdk-390-failure.png",
+      "url": "http://127.0.0.1:4321/generate-text-with-vercel-ai-sdk",
+      "sha256": "fd8f0ff212e79e7a43e770737060fb83824a972fe68aeb6e99f51ce868c8ce49",
+      "bytes": 54357,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "streaming-text-with-vercel-ai-sdk-390-failure.png",
+      "url": "http://127.0.0.1:4321/streaming-text-with-vercel-ai-sdk",
+      "sha256": "4efc0a01295cc7bec3363691eb19a2b69b6be7787d7d4083e8e367d67a20f7e0",
+      "bytes": 45222,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "structured-data-from-pdfs-with-vercel-ai-sdk-390-body.png",
+      "url": "http://127.0.0.1:4321/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "sha256": "9e13b0d133a2d7c7e89d3a080f59034d7527da11e8d1de72ecfcd1be955ca97c",
+      "bytes": 104779,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "structured-data-from-pdfs-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "sha256": "6efe6ed33d9b09c9e09fa8ac0951619fba5e01ee9d608b8d92f1ea85781efa56",
+      "bytes": 41883,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "structured-data-from-pdfs-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "sha256": "6fe77aa4f45eb2276cd358d96ef5c8601381272e6ead9c23f37bf15708ca0dd3",
+      "bytes": 69461,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "swap-ai-models-with-vercel-ai-sdk-390-failure.png",
+      "url": "http://127.0.0.1:4321/swap-ai-models-with-vercel-ai-sdk",
+      "sha256": "8730254351fd50113d93e44acb05cae08b102726bcf94fa86bc3872ff02b52b3",
+      "bytes": 58930,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "system-prompts-with-vercel-ai-sdk-390-failure.png",
+      "url": "http://127.0.0.1:4321/system-prompts-with-vercel-ai-sdk",
+      "sha256": "9fcb8ba3467ea4d1daf20a748b8b563b84a2ded28a68989f3bd6b90dbd86dd1c",
+      "bytes": 50383,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "vercel-ai-sdk-tutorial-390-failure.png",
+      "url": "http://127.0.0.1:4321/vercel-ai-sdk-tutorial",
+      "sha256": "55c78803552b6b34008e6583b19346c4374a10897ebc71517af5ce4555376ad9",
+      "bytes": 204311,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "vercel-ai-sdk-390-body.png",
+      "url": "http://127.0.0.1:4321/vercel-ai-sdk",
+      "sha256": "2f70e12d0f8be69010dbb456c08235ecf582b52e9f6499b6c84b45378a61f382",
+      "bytes": 109649,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "vercel-ai-sdk-390-table-1.png",
+      "url": "http://127.0.0.1:4321/vercel-ai-sdk",
+      "sha256": "a79a8157c0c35e2967e31eea5d6040d6e24dfc4facaf730ea392217d86a67b82",
+      "bytes": 44283,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/vercel-ai-sdk",
+      "sha256": "92b5e5c51323326f58d1ca88f80a1556c8423410c54fd5dc721428961f569541",
+      "bytes": 49621,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/vercel-ai-sdk",
+      "sha256": "8dbde237cc758eb0aaa7b3b1582f30a601091e9daf229844ae3a7f10acbc0e48",
+      "bytes": 52922,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-the-ai-sdk-1440-body.png",
+      "url": "http://127.0.0.1:4321/what-is-the-ai-sdk",
+      "sha256": "e5b07a56e24d45340aa0ce2c97a9d55c3d8b8c13974e4247f8b3a0ffc99cb7b4",
+      "bytes": 178861,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-the-ai-sdk-1440-code-example.png",
+      "url": "http://127.0.0.1:4321/what-is-the-ai-sdk",
+      "sha256": "2949ea07dd48557918429dd1e9f3b05c32b830d8f5599a17921b5fc37ff4cd73",
+      "bytes": 92740,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-the-ai-sdk-1440-last-code-example.png",
+      "url": "http://127.0.0.1:4321/what-is-the-ai-sdk",
+      "sha256": "2d83384f25f578b77125f8ad6b322cc54628ab051cba05621af71d216fd93b45",
+      "bytes": 103813,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-the-ai-sdk-390-body.png",
+      "url": "http://127.0.0.1:4321/what-is-the-ai-sdk",
+      "sha256": "2ee7649005a4197c1e076a8788cccfe29b68b9b29bd6207b0e7df2b3c533388a",
+      "bytes": 103244,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-the-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/what-is-the-ai-sdk",
+      "sha256": "41b52884f5681a604c682e398a77fd5232557a76dfa9f128c8279973793f1eb5",
+      "bytes": 48346,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "what-is-the-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/what-is-the-ai-sdk",
+      "sha256": "62dc885c96bce68ef05175202fc94069297a3439b204474bd9da8a13e545d6df",
+      "bytes": 60872,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "describe-images-with-vercel-ai-sdk-390-body.png",
+      "url": "http://127.0.0.1:4321/describe-images-with-vercel-ai-sdk",
+      "sha256": "e3c13ba1d2a6969ad5178057414b3fe908eba7d944d8ded63f04795ba2323b0e",
+      "bytes": 66950,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "describe-images-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/describe-images-with-vercel-ai-sdk",
+      "sha256": "1319755c014531fdd54a238ab507456540b9875cc9c9d1942f169e7b56d254f8",
+      "bytes": 70571,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "describe-images-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/describe-images-with-vercel-ai-sdk",
+      "sha256": "e18773cd05117f855f840a785a9dc295a9294277cd0fa1c6d6775f0097fb17c8",
+      "bytes": 67797,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-arrays-with-vercel-ai-sdk-390-body.png",
+      "url": "http://127.0.0.1:4321/generate-arrays-with-vercel-ai-sdk",
+      "sha256": "dd66589725aaae55345f3c0461c0a5f453c75d76a6b7dbf3beda77bc6b20736e",
+      "bytes": 78675,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-arrays-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/generate-arrays-with-vercel-ai-sdk",
+      "sha256": "4eee6c8ab08a12e62487578b6e5035ed463722b6e6ad615052f15aeedb60236f",
+      "bytes": 72203,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-arrays-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/generate-arrays-with-vercel-ai-sdk",
+      "sha256": "cbebba91d226cad2356c269c1c2e00b76ee0ab1f046ac5faa6823952ddb464de",
+      "bytes": 63664,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "generate-enums-with-vercel-ai-sdk-390-failure.png",
+      "url": "http://127.0.0.1:4321/generate-enums-with-vercel-ai-sdk",
+      "sha256": "8435fd382a3d2d6ee895dd2dc3b208357af788b953b377f4aa48e510583c81c9",
+      "bytes": 38967,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "streaming-objects-with-vercel-ai-sdk-390-body.png",
+      "url": "http://127.0.0.1:4321/streaming-objects-with-vercel-ai-sdk",
+      "sha256": "66ebb09eb1aaa76c8b8923238cf0ee7a7020d6ecb51c27c125a4b05a0fcc8429",
+      "bytes": 73714,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "streaming-objects-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/streaming-objects-with-vercel-ai-sdk",
+      "sha256": "72591aa1fcf026898e2ad24392409af5d81737a7f15a40b52db6f2d9039e726d",
+      "bytes": 48156,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "streaming-objects-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/streaming-objects-with-vercel-ai-sdk",
+      "sha256": "742801b0517dc588b2ee04734d2e861a5add76c7e18d72c37fc80e01fc202012",
+      "bytes": 53069,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "structured-outputs-with-vercel-ai-sdk-390-failure.png",
+      "url": "http://127.0.0.1:4321/structured-outputs-with-vercel-ai-sdk",
+      "sha256": "5f51a5788073ffd27704310be855d51f8244c4598af197e14f24a29c6b990b78",
+      "bytes": 48886,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tool-calls-with-vercel-ai-sdk-390-body.png",
+      "url": "http://127.0.0.1:4321/tool-calls-with-vercel-ai-sdk",
+      "sha256": "78009d68386146ca94dbde4e0d3940591571d04cbcad248aee6b692006036532",
+      "bytes": 66908,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tool-calls-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/tool-calls-with-vercel-ai-sdk",
+      "sha256": "c4855981583f3812868b1f1f86de1c5a6399d7d07f0e851a2d8a137015293d25",
+      "bytes": 77324,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "tool-calls-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/tool-calls-with-vercel-ai-sdk",
+      "sha256": "90fcbfdbe84c041c10d7187cc81286587ab1478647ae1e80c9589b1b10017374",
+      "bytes": 68522,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "agents-with-vercel-ai-sdk-390-body.png",
+      "url": "http://127.0.0.1:4321/agents-with-vercel-ai-sdk",
+      "sha256": "dc20ac53da9b0bafc465a382e879c2c6a2958d6577154b5d46328cc1d25baef5",
+      "bytes": 54008,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "agents-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/agents-with-vercel-ai-sdk",
+      "sha256": "a98ca00018fd93b1652e8c41ba2135f52bebdfaac7f6d8f5c27286a79bbd7ac1",
+      "bytes": 62788,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "agents-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/agents-with-vercel-ai-sdk",
+      "sha256": "e7178fa7408ff82830f4fb73babc4630e333b64bb43f2ff7c73dddd62625e06f",
+      "bytes": 71051,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "create-embeddings-with-vercel-ai-sdk-390-body.png",
+      "url": "http://127.0.0.1:4321/create-embeddings-with-vercel-ai-sdk",
+      "sha256": "37937bc1faabbcc8b5fe6edcd67ab39965e123fcd96e1e4d669b691c46c2cc2d",
+      "bytes": 78568,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "create-embeddings-with-vercel-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/create-embeddings-with-vercel-ai-sdk",
+      "sha256": "33e0be0d7e26287bb2b6aa7c33814b3b4fd6713229c3a9f008151693aca30baf",
+      "bytes": 78577,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "create-embeddings-with-vercel-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/create-embeddings-with-vercel-ai-sdk",
+      "sha256": "8629f009371608fb9164bc5c72c03bee67767977abb47e4c239dfb1d7515f4a2",
+      "bytes": 76230,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "implementing-anthropics-think-tool-in-typescript-390-body.png",
+      "url": "http://127.0.0.1:4321/implementing-anthropics-think-tool-in-typescript",
+      "sha256": "24c97f2560cdd8e0139a90f286a3270d0bcb051d0e8cf2183961885a6cba9de8",
+      "bytes": 81887,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "implementing-anthropics-think-tool-in-typescript-390-code-example.png",
+      "url": "http://127.0.0.1:4321/implementing-anthropics-think-tool-in-typescript",
+      "sha256": "37485b105d87a6d138c00a137ede6df2ae1609fad5c62b46fe4fc8f5b869db41",
+      "bytes": 88487,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "implementing-anthropics-think-tool-in-typescript-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/implementing-anthropics-think-tool-in-typescript",
+      "sha256": "ed148d736e2ab3c26c7d06035c2e3d0858f80691e9b87f8b4b06bd9f8693485f",
+      "bytes": 45444,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "streaming-in-next-question-suggestions-with-the-ai-sdk-390-body.png",
+      "url": "http://127.0.0.1:4321/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "sha256": "6b7ef89f054a2d44ce8b119423bc7fb11e79b53e17f930eb584a5756fed00448",
+      "bytes": 102967,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "streaming-in-next-question-suggestions-with-the-ai-sdk-390-code-example.png",
+      "url": "http://127.0.0.1:4321/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "sha256": "291a28ec9791ec76a6063c9de34cceb661f36bd492f96d7bd79276d5a5b1b3e2",
+      "bytes": 70723,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "streaming-in-next-question-suggestions-with-the-ai-sdk-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "sha256": "3919235a397c789b5532893a755ea24d6a4ea5eefed0f66788420e43daf81da0",
+      "bytes": 70264,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "use-local-models-with-vercel-ai-sdk-390-failure.png",
+      "url": "http://127.0.0.1:4321/use-local-models-with-vercel-ai-sdk",
+      "sha256": "66ca1970eac78da2c56d2b5d60d6bd1798243247c2437c8d23fbb2f1d2a0c2f6",
+      "bytes": 49894,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "vercel-ai-sdk-messages-array-390-body.png",
+      "url": "http://127.0.0.1:4321/vercel-ai-sdk-messages-array",
+      "sha256": "5255f66e4e945edfb47a862a866652e8224ea8bf9b2acd0185ebd4805ce24c19",
+      "bytes": 94628,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "vercel-ai-sdk-messages-array-390-code-example.png",
+      "url": "http://127.0.0.1:4321/vercel-ai-sdk-messages-array",
+      "sha256": "578942e124d8a7e6e084c78815f0f24689bd8ac2eb7953f535870cfcdf42782b",
+      "bytes": 84263,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "vercel-ai-sdk-messages-array-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/vercel-ai-sdk-messages-array",
+      "sha256": "64e5cad5ee4ffcd37aa69039e6bd739acff6f5b877a34ca995ce03bf859a769f",
+      "bytes": 56312,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "2025-the-year-building-with-gen-ais-gets-boring~d53hd-390-body.png",
+      "url": "http://127.0.0.1:4321/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "sha256": "f816e82a331e392684d7aa418f4a34958fc96690c1a4b280ce06552469b99378",
+      "bytes": 132066,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "evalite-an-early-preview-390-failure.png",
+      "url": "http://127.0.0.1:4321/evalite-an-early-preview",
+      "sha256": "315deb52ede16a967eb89c60e28bf7b84053b81b8561b7276e87874a34a3bf05",
+      "bytes": 81014,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "evalite-v1-preview-390-body.png",
+      "url": "http://127.0.0.1:4321/evalite-v1-preview",
+      "sha256": "62bdfcbb5f1a9e1212d31dd1e18aaf153d698cfc71c236ae9c413381b0e2e5c6",
+      "bytes": 99743,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "evalite-v1-preview-390-code-example.png",
+      "url": "http://127.0.0.1:4321/evalite-v1-preview",
+      "sha256": "81a545776d101c1fdc5deedf360a9cb3c434411082dd066e6eaa004613cd5fec",
+      "bytes": 75494,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "evalite-v1-preview-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/evalite-v1-preview",
+      "sha256": "0c17371d6e61881c3e866d2e36697ca806cc676aca894101be263d55430c805c",
+      "bytes": 64229,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "google-agents-whitepaper-review-390-body.png",
+      "url": "http://127.0.0.1:4321/google-agents-whitepaper-review",
+      "sha256": "bc4c8012279e5fef0f631b8f65ad8c8ff6fcf2987011017c9c9629e05939ba32",
+      "bytes": 92480,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "personal-software-is-insane-in-the-age-of-ai-u2hx2-390-body.png",
+      "url": "http://127.0.0.1:4321/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "sha256": "3d717265c43fc97a699f75376430a77fd0dcf0b817ecac6351d9ab6fb654f3d3",
+      "bytes": 121161,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "securing-your-ai-app-with-guardrails-390-body.png",
+      "url": "http://127.0.0.1:4321/securing-your-ai-app-with-guardrails",
+      "sha256": "619d49295a64568f03ecebc76dd5087d68e878a4cff70415bba6a0618a498c8d",
+      "bytes": 92047,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "securing-your-ai-app-with-guardrails-390-code-example.png",
+      "url": "http://127.0.0.1:4321/securing-your-ai-app-with-guardrails",
+      "sha256": "bd8f31172f8c97e7ffb4ff70f4c3daf077b22ec455dc8ad7fbb2bc53cf3175e0",
+      "bytes": 52362,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "securing-your-ai-app-with-guardrails-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/securing-your-ai-app-with-guardrails",
+      "sha256": "282fb534276252b9e0e68d8c40bffbed4669befeea0481e9066094c69313de44",
+      "bytes": 54578,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "publish-your-mcp-server-to-npm-390-body.png",
+      "url": "http://127.0.0.1:4321/publish-your-mcp-server-to-npm",
+      "sha256": "f50cafbeed3be4b96a6681f079811c45e83ecb19a168f4b4ab3093417ae5ce20",
+      "bytes": 94536,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "publish-your-mcp-server-to-npm-390-code-example.png",
+      "url": "http://127.0.0.1:4321/publish-your-mcp-server-to-npm",
+      "sha256": "75d5de83e8571c1ea160e0e9637a449c8d4d31da479a51a14d70a174751a8154",
+      "bytes": 95199,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "publish-your-mcp-server-to-npm-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/publish-your-mcp-server-to-npm",
+      "sha256": "9280936835d7fb5b175ebb1a12eec5af1f19aff698ca960bdabbc6d57fac9055",
+      "bytes": 84483,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "publish-your-mcp-server-to-npm-390-new-chinese-navigation-1.png",
+      "url": "http://127.0.0.1:4321/publish-your-mcp-server-to-npm",
+      "sha256": "27624140fa46f3ef2c5cc0fbd435b465e8fbe502bdbafbacc0a744a14616e04b",
+      "bytes": 117717,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "using-mcp-prompts-390-body.png",
+      "url": "http://127.0.0.1:4321/using-mcp-prompts",
+      "sha256": "2c649ba62b76672ed78f75050a66b97b7800a64e9bf83fe7784842d37c3021ca",
+      "bytes": 89006,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "using-mcp-prompts-390-code-example.png",
+      "url": "http://127.0.0.1:4321/using-mcp-prompts",
+      "sha256": "4ff3c44f230bcda2f202269652affe31b0d297b2c5ede1673bf0614d3432e48e",
+      "bytes": 73251,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "using-mcp-prompts-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/using-mcp-prompts",
+      "sha256": "2209e2450997528e3f9b22405108f68ebdfe8d7c9f6092f2f5732c7c4d3ca8d1",
+      "bytes": 59835,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "using-mcp-prompts-390-image.png",
+      "url": "http://127.0.0.1:4321/using-mcp-prompts",
+      "sha256": "43c25fef3cc46e3cc289d674fc780ed317a090b6a8ec7047dabc0dd074e0b1c2",
+      "bytes": 96384,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "using-mcp-prompts-390-new-chinese-navigation-1.png",
+      "url": "http://127.0.0.1:4321/using-mcp-prompts",
+      "sha256": "037837d70206f362d1e025cdf607e746047e9a7ba40677bcdaf98ff7368b5309",
+      "bytes": 96445,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grill-me-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-grill-me",
+      "sha256": "9554f56f1f80b8faa4988d895944dd053163e00129c17ca23230c5727f0b9abe",
+      "bytes": 92137,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grill-me-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-grill-me",
+      "sha256": "990a86de0b2ef191fa72b9e4a7afd73bed628b060ede876a6695648d3406fe09",
+      "bytes": 74888,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grill-me-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-grill-me",
+      "sha256": "5bddc8b585528c9712c1faf87a12f36eaa898adf0789e7d69849c5e5cf2540dc",
+      "bytes": 74265,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-390-body.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "b8ccf249f224ef6eca667b732352630e977b231eae1e1914917ca54e484faf95",
+      "bytes": 106036,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-390-image.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "aa5b52b4ee881007dff5d1180c60410a2b348e638ac4183eda78b20258a339da",
+      "bytes": 112026,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-skills-changelog-handoff-prototype-review-and-writing-390-failure.png",
+      "url": "http://127.0.0.1:4321/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sha256": "2209149a40158ba545541e3a44a2a346117b6b258bde5e78a1f2bf15557fef4d",
+      "bytes": 100654,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-ask-matt-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-ask-matt",
+      "sha256": "d882b717c16766647f8cd67a2091ea25c7df799753645409d9a17f3ae5380ae1",
+      "bytes": 95624,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-ask-matt-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-ask-matt",
+      "sha256": "8c91e6fe7b86ae55887b4937cc2baa09742be36702d6b54a600a309028326504",
+      "bytes": 88846,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-ask-matt-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-ask-matt",
+      "sha256": "69e50b20c135a48abfed7cc284755854f0af34a192b9ee9db2043700931db69a",
+      "bytes": 115232,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-ask-matt-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-ask-matt",
+      "sha256": "92c1b55a4a122116a37983e54eadd28ef4335a092e55f8ec9bda330795f12296",
+      "bytes": 107040,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-writing-for-agents-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-writing-for-agents",
+      "sha256": "ec599bb9a4e1c058375e49aedf804a6b37428c37bb24dc6872574cef2c8fa702",
+      "bytes": 103312,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-writing-for-agents-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-writing-for-agents",
+      "sha256": "a8b8fdf30ebd2d6868106931a081828b232735b4f5e8882484171efd8357d56a",
+      "bytes": 108592,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-handoff-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-handoff",
+      "sha256": "25e950c185adfaaade39c648bd31d1d199754da8f5baf82220ff69ae04d6c97d",
+      "bytes": 99657,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-handoff-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-handoff",
+      "sha256": "185615b9cdf1e930600494f7e036935b89402fa538191a10a1159d1d239237af",
+      "bytes": 85893,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-handoff-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-handoff",
+      "sha256": "8f1f7a8a9523a71d07423446cddec078cdce46a6e43f92a69cb67757ff781ff3",
+      "bytes": 112871,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-questionnaire-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-to-questionnaire",
+      "sha256": "1d0ffde0f4c20ba9b77ef837a8183b68e90fc090c809d8de0c4d77b5ba70fb25",
+      "bytes": 96807,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-questionnaire-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-to-questionnaire",
+      "sha256": "6af361dc89fe5f6c33b1e3c574fe582e53ab6af6c564d3907fdf842cfb01fdda",
+      "bytes": 94623,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-questionnaire-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-to-questionnaire",
+      "sha256": "c300a50bc2610ff7b79cec563281e0507cef77e4749c9f20abed479160d4a29f",
+      "bytes": 103480,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-pr-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-pr",
+      "sha256": "174714c7ce9a4a72dd851b0771b796b93f3e48b6e5a324042f0ace65a451f0ce",
+      "bytes": 75415,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-pr-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-pr",
+      "sha256": "33a953416fbbe8853fca6a875978eb2a8bf43c16133baf3e8c46a15b845fdcd2",
+      "bytes": 86019,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-spec-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-to-spec",
+      "sha256": "9c5dd1e57ec41f536e447dcb4b73f1794a3e8f000f470b6dac66473ca6400a84",
+      "bytes": 77908,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-spec-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-to-spec",
+      "sha256": "e7f8e702073b7502e858fd47cf7dd8a63ec94ee6697ab853f82a2ee27ae947ca",
+      "bytes": 85555,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-spec-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-to-spec",
+      "sha256": "58899544a0dab0063eb62cf0b54f2c12b2bc76fcfb013ce1b859701743d85a46",
+      "bytes": 89976,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-implement-spec-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-implement-spec",
+      "sha256": "fd5caddf608abcb637b455bc109d0eda0ffa5f490c135818ac07a2ab61ccad4a",
+      "bytes": 95400,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-implement-spec-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-implement-spec",
+      "sha256": "8e5f068917c15706297a5b14fc4dd26952c9f3b6cba5d7cce68600fc755341a4",
+      "bytes": 77109,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-implement-spec-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-implement-spec",
+      "sha256": "a8259dadb4b79d27de72966e6e54b2ec09ce8da5b016fa3437d1fd0402c29eb1",
+      "bytes": 95910,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-implement-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-implement",
+      "sha256": "e14d702b85ed3d1e7962f90c3c86f0002ac69b51e7f2c361bc9a9429ef657d93",
+      "bytes": 93893,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-implement-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-implement",
+      "sha256": "197717385aaf0c2865d9cd59e9520b402ea11535084536bf9c116fafd80e251a",
+      "bytes": 102438,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-implement-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-implement",
+      "sha256": "6d5e08853c619f331abf98ab8d278e8a15e9a8ac95c28875e90f2abd2376bdcf",
+      "bytes": 107247,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-implement-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-implement",
+      "sha256": "07a3fb4a50864a06f1dfe9de73de5cdd6d37a1637e6224ba0aae67d1be8ef966",
+      "bytes": 89307,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-research-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-research",
+      "sha256": "fdae8635b47fca3c90617b588f5f6ea663a43aa850712952f02df9f0da0e3593",
+      "bytes": 95710,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-research-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-research",
+      "sha256": "de5fac27b59b35ed326e789ad1ef26d14110d9a7d339b0475cbc45a571b3c9ea",
+      "bytes": 107118,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-research-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-research",
+      "sha256": "b34f4aa2b16958be47f6f1a253193d93a28a1dda8ce680dd5c4e061688ec7a2a",
+      "bytes": 100767,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-tickets-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-to-tickets",
+      "sha256": "5f8289f727f95b8b81b9ef5c280a7545f8bb8c348abb0f1e6d3764fcfa82af2e",
+      "bytes": 95028,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-tickets-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-to-tickets",
+      "sha256": "c6850faa1e4757a7f1aae6b7edbf565828ea9dd6f0bd455d873ffc284cbcb247",
+      "bytes": 77489,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-tickets-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-to-tickets",
+      "sha256": "2ded0eeac994916ec5acd0c8240dfe7790c86b94f31d1bef218109b0764fc9c8",
+      "bytes": 84343,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-tickets-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-to-tickets",
+      "sha256": "8733d5f8d4be31612985d2223b474754b46b6630410840da9292d83c5fab6883",
+      "bytes": 110159,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-to-tickets-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-to-tickets",
+      "sha256": "6036df8bdff1a136b369d3145b39b936b2ccc68d742f910ad32d02f8267ab9ce",
+      "bytes": 90766,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-domain-modeling-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-domain-modeling",
+      "sha256": "c03a0db6d4b292f088b790df77b76170f7fd8bdac31a75b961aca97e77627c9d",
+      "bytes": 97713,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-domain-modeling-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-domain-modeling",
+      "sha256": "772ede7f01c9ae32cf25b2d8db01b3408e59ea12cf4441b46666c653c45c6d07",
+      "bytes": 83918,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-domain-modeling-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-domain-modeling",
+      "sha256": "99c4aabfc24d08628fd3270aeaa5b9b1e2bfe31782614e6b264b47bcc903331d",
+      "bytes": 95290,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-domain-modeling-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-domain-modeling",
+      "sha256": "11f8852ab846be1e6cbabc35fb2139b7afb0f02eb096eea2d08b0bca3ef16ddc",
+      "bytes": 103356,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-domain-modeling-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-domain-modeling",
+      "sha256": "d9bdee7efb038d458fb10ba1a88bf976111620b5be9b6b4914a97740413ab64e",
+      "bytes": 113831,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grilling-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-grilling",
+      "sha256": "a01735dec4e53dbb2548ddc25067fc9ed9dc7c81148b3c9b4a4382af36d53b73",
+      "bytes": 93441,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grilling-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-grilling",
+      "sha256": "88b991ea360969ec5d965cca914ed90111626713d35b7e7e2d99960bc36cce66",
+      "bytes": 93600,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grilling-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-grilling",
+      "sha256": "a164e795d715a7d1ff5330a42b4beca125aff9bca3f83ccc9ec2d6a62dccf527",
+      "bytes": 72392,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grilling-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-grilling",
+      "sha256": "4f7b33307e5efbbe340d3fd35cb0d2235205d244dc52c9e09cbfa705ffdb18af",
+      "bytes": 64725,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-grilling-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-grilling",
+      "sha256": "7b702f0b97d00f619c0cf29174effb9de3a90775ff5fa42b8708f96ca6a26d90",
+      "bytes": 111972,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-code-review-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-code-review",
+      "sha256": "b179f5d9237572f4abe94d96725538b9177cc0dc450d797abbd17c9e38fbc359",
+      "bytes": 98585,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-code-review-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-code-review",
+      "sha256": "f40e144709fa6e3176b9c22f757b166377731687fa12c1168d4ca0152f83b417",
+      "bytes": 95124,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-code-review-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-code-review",
+      "sha256": "a3312c97db648d64136e86d2c2591d86b34acbf235ea3588b2e08258f4b13874",
+      "bytes": 93593,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-code-review-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-code-review",
+      "sha256": "d08a9e83f2bfd8a5bfd57db390100f2f93c38d96a7a5202d17b3aaa1867b6958",
+      "bytes": 104850,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-diagnosing-bugs-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-diagnosing-bugs",
+      "sha256": "f0b392dc650ada8f8a750fda5e18199c3fec1a7a138ece47a8c714f86d6b7a1f",
+      "bytes": 103824,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-diagnosing-bugs-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-diagnosing-bugs",
+      "sha256": "74c7b22bebc5a534c66eaa5a7009c1f0bde81de591506f8017e55bba655e29a8",
+      "bytes": 97461,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-diagnosing-bugs-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-diagnosing-bugs",
+      "sha256": "473c0e8e062085642de81030054c7dd13f8a392416f8b5a3decb4e62a63c616f",
+      "bytes": 101450,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-diagnosing-bugs-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-diagnosing-bugs",
+      "sha256": "1dba9017ea405ee8cfdc23391b87e124d73ff5bbfdab7e3f2cd6f77dc130b2f5",
+      "bytes": 55375,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-diagnosing-bugs-390-last-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-diagnosing-bugs",
+      "sha256": "5056330918d36ea7731240a6226b5611fcfbc33ec01d8b0d95d2d75f4003220e",
+      "bytes": 121875,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-retro-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-retro",
+      "sha256": "67ec0102785adf9ff9b6c8d53233871e126871b30f8cd42e5b346c6e9a5584f4",
+      "bytes": 95603,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-retro-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-retro",
+      "sha256": "8817c1df3c12167951f567f6190620dae5a0fea38bdada06b5679814282f19a3",
+      "bytes": 101190,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-retro-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-retro",
+      "sha256": "149c23ddf069cb5d248a3e73f6911195be24f982cd99028f471da1286be4048f",
+      "bytes": 83405,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-setup-matt-pocock-skills-390-body.png",
+      "url": "http://127.0.0.1:4321/skills-setup-matt-pocock-skills",
+      "sha256": "1a6dfee20584e51f9e48cd1db1289cafcffb1e91f4d343da0b1689eb15c94177",
+      "bytes": 88667,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-setup-matt-pocock-skills-390-table-1.png",
+      "url": "http://127.0.0.1:4321/skills-setup-matt-pocock-skills",
+      "sha256": "d9a7481e24142a277611ce0a2e8778a3f4cde8ab27ee2f80e3ebbef2e6b4e8c0",
+      "bytes": 75635,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-setup-matt-pocock-skills-390-table-2.png",
+      "url": "http://127.0.0.1:4321/skills-setup-matt-pocock-skills",
+      "sha256": "7817ed1c7915263618deaeb73aca11472809822f2de6be5b7e42030e56c39591",
+      "bytes": 71522,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-setup-matt-pocock-skills-390-table-3.png",
+      "url": "http://127.0.0.1:4321/skills-setup-matt-pocock-skills",
+      "sha256": "44ace2e2ed150fc6e0efa5fefe3619f2ff8661018cfb7ceda9ee1bcbd5555afd",
+      "bytes": 68657,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "skills-setup-matt-pocock-skills-390-code-example.png",
+      "url": "http://127.0.0.1:4321/skills-setup-matt-pocock-skills",
+      "sha256": "680f0f9b337de915a48125be0f034c2d4be966259ce9c07b75415977df8def6b",
+      "bytes": 93659,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-model-provider-request-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider-request",
+      "sha256": "a8f28075f381247b604595419c6dbaa50c02314be532ff4aaf0a42e1f3853f05",
+      "bytes": 106311,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-session-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/session",
+      "sha256": "428c6835c0a2d9c695cc49d20b9b4ae9dd6dc7d18c2ab480702e61dd4ec27c36",
+      "bytes": 125863,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-stateful-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateful",
+      "sha256": "b4a8541d7ebc71265810a3cb4b43c8e4998e016e231c3737432b338f35ff593d",
+      "bytes": 117729,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-stateless-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/stateless",
+      "sha256": "3374e6a96a574d39ad9f4513225623786cc462e5046d04196394bb28501eb186",
+      "bytes": 133189,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-turn-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/turn",
+      "sha256": "bd24decaf27a77645b66c5e5667a4535da227867196a23aa773a5eabf80e6b06",
+      "bytes": 139167,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-agents-md-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agents-md",
+      "sha256": "f853ac0c13fbd9a4d2f575009b1e210bcad313eedc0570d3eda876de2e0da902",
+      "bytes": 99967,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-context-pointer-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/context-pointer",
+      "sha256": "9450145d6ebc87950d077baa50178c672acffb83f4c63510c643dd0105c00b90",
+      "bytes": 97708,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-environment-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/environment",
+      "sha256": "99be4a63e9329175773c4a33ddc81ab3e70dfa4cf61d36400fa859b83fbdea42",
+      "bytes": 140992,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-filesystem-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/filesystem",
+      "sha256": "2508b9e6059781c4d8f2ca91fd4abadbb4450635c0d70b98c3e29205586cbb66",
+      "bytes": 136687,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-skill-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/skill",
+      "sha256": "32325f31f8d86d8ffe4e67a39c3a16fbffd155e9032b5c6f7609b150b596fb24",
+      "bytes": 111501,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ai-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ai",
+      "sha256": "d16fb1c63affef993d6f9552faf447debd3b9b8d452e4708a305a7febc12fcf5",
+      "bytes": 92616,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-inference-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/inference",
+      "sha256": "9bf9dc5bdc9e52e74d754e74e503d76f9744c0b281b7d27500785cb4ce77045f",
+      "bytes": 95774,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-model-provider-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/model-provider",
+      "sha256": "4edfc3ba04d9e80585fd15de4c76e8c7955f6b2638b647acabcc6e317b0d8c91",
+      "bytes": 132352,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-parameters-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/parameters",
+      "sha256": "242202e8d28fcc5e5793a2eb8c335c8ec1d081a5179449ff1aa5bc2bc2bd11ef",
+      "bytes": 127189,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-training-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/training",
+      "sha256": "97e949fa49ef8984cd15215ae3b627c0ec3252b0d889c21b7b0a60cbddcb5efe",
+      "bytes": 133611,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-cache-tokens-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/cache-tokens",
+      "sha256": "44a65120112206693fe509f77cb93d33ba6eb5f0dd9c4a63e5b54511fb9b4aa1",
+      "bytes": 136421,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-effort-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/effort",
+      "sha256": "2fc1d94e6dc184bae87093ae2694b0b7d04fddb9ad2b80d657a98d3628c445d5",
+      "bytes": 119308,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-input-tokens-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/input-tokens",
+      "sha256": "5a8fdceede1588f6d57d2b7e4640bf976e3de937b2a97e8d5d1272a6cfbbb04c",
+      "bytes": 123917,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-next-token-prediction-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/next-token-prediction",
+      "sha256": "7387273aa025dead1da9f5ab455139ffe2003c0afe06b793bd1ec5774a3d314a",
+      "bytes": 111922,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-non-determinism-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/non-determinism",
+      "sha256": "dfb408e1097cb03ff28cb851c5e943f74e60b349a13c72a9d32dcc2b02936636",
+      "bytes": 125502,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-output-tokens-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/output-tokens",
+      "sha256": "18fb332798e1e1e49ca290144ba525a9d2f15e11e29d5604bc034f8eeb495dca",
+      "bytes": 115658,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-attention-budget-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-budget",
+      "sha256": "7180a09491a91630756a162c12eea612e0d2afc5d88a547d222bba27a89d5a23",
+      "bytes": 130220,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-attention-degradation-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-degradation",
+      "sha256": "3e7d1efdc71924311db18cac3c86f1ecea5d586eafc9b9acf0370d59ffebb6b9",
+      "bytes": 131488,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-attention-relationship-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/attention-relationship",
+      "sha256": "7436cb624e44592613d73d30d5a425cf33f5797094c8a3b2013409e2930195ff",
+      "bytes": 127647,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-smart-zone-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/smart-zone",
+      "sha256": "d58f3b68deb908df3ef7982f035d33dffabc67845e002120e9e923171668cd24",
+      "bytes": 142552,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-autocompact-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/autocompact",
+      "sha256": "2aed822bf3fe692acdd88085ea5129f72be3513b361abda2ce7b077793a6fd52",
+      "bytes": 113205,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-clearing-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/clearing",
+      "sha256": "11a86303717e434e725cfc6723a0704ccbb63edea7ada47d46e3b49fd3f1144a",
+      "bytes": 116155,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-compaction-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/compaction",
+      "sha256": "71545e41f7a88190720d6f66f83f61e3e879e5aea45dfc17545a31aa6ea78e26",
+      "bytes": 91342,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-artifact-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff-artifact",
+      "sha256": "8476b7a9b8789722637d95ede974ed1f6706bd75bbc754d4ef813498d714fb33",
+      "bytes": 96214,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-handoff-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/handoff",
+      "sha256": "8efd016b64491f7f9765d5c3dc83f100c1791bd17bd238a848fe2a180b3a8fc7",
+      "bytes": 119753,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-contextual-knowledge-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/contextual-knowledge",
+      "sha256": "0964cc75f75ed4c2c49de9eaa640590f484b63643be250b1c6200999c2548b25",
+      "bytes": 123490,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-knowledge-cutoff-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/knowledge-cutoff",
+      "sha256": "7c3012e405cad79c2b19a0628661ffcd2ffdca405ce40fb19bba051276a3e951",
+      "bytes": 123585,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-parametric-knowledge-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/parametric-knowledge",
+      "sha256": "01d92705ab75938e8861c29e0ce6d99e367d3d300388b196f7497c70f5271ef3",
+      "bytes": 136114,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-primary-source-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/primary-source",
+      "sha256": "3cfe3cdd61b9cc01038453de06d2d4667425b0348511e15d9801b4dc42ba36f9",
+      "bytes": 122731,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-secondary-source-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/secondary-source",
+      "sha256": "260a2cf2611909a648cf63485e4bf4a9e80030a4a8959d6bbc5602223b88d3aa",
+      "bytes": 132552,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-sycophancy-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sycophancy",
+      "sha256": "a676d06cf61b1455f58cff84cd27da97f4a717f7b35030363d5d99dae1f5663f",
+      "bytes": 93933,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-agent-mode-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/agent-mode",
+      "sha256": "dd943064a13bd49e7a3f0b9bba38a6c4f260407057ce1bea5f952a39db606342",
+      "bytes": 141701,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-mcp-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/mcp",
+      "sha256": "762638d46962faa73cef2aff25e9afe821815f642b05ba59f6618b033de1a511",
+      "bytes": 120596,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-mode-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-mode",
+      "sha256": "73ad3f5ab59cc7bd3dcf2432ade5e941bab1a4103af2cfcd05c1ea8fa3639807",
+      "bytes": 92821,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-permission-request-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/permission-request",
+      "sha256": "fd723d61ab00a75ef0b51695eb9478147993874c3ed59e6166b5d0e4a0eb4cc3",
+      "bytes": 93268,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-sandbox-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/sandbox",
+      "sha256": "cdde286e3cd443476c709b6ca5e55ecfcf015cff526a2059d38ed66da37b568c",
+      "bytes": 120594,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-subagent-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/subagent",
+      "sha256": "fe497fc211b3cb54e2c610eac0790ef055462cc58a8cf2991c6a3836a9e4cb11",
+      "bytes": 140640,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-afk-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/afk",
+      "sha256": "c515b4e67454de7a4814e84e1059014e9ea31cc9267daf2a1959168fe49ee94c",
+      "bytes": 129558,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-automated-check-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/automated-check",
+      "sha256": "857035aeb1507c754db3b64b85f2a411cd857a4d72547ac8d0e4f163092ba714",
+      "bytes": 141002,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-automated-review-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/automated-review",
+      "sha256": "aabd5eff0ca935530fdc3882a5f61734b7a05cca44add92a5f3db61707f71112",
+      "bytes": 95829,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ax-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ax",
+      "sha256": "78507172d95b1770b18dbaec38b77daf7c040dce500dd076e19083b5f4a25729",
+      "bytes": 93033,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-dx-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/dx",
+      "sha256": "399b3f4c655eec9d5404a01ca9fd59a386add94445c670c9df5f6bbb4b8edad5",
+      "bytes": 135627,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-human-in-the-loop-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/human-in-the-loop",
+      "sha256": "3f886320beda586fcad9071e75e88bc61fae2474b039994e2d9b07ee7d74463d",
+      "bytes": 115851,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-human-review-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/human-review",
+      "sha256": "5179c78b12f81fe72402259fd208b93d02be681894ee042f0c3a1d917f444960",
+      "bytes": 119151,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-grilling-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/grilling",
+      "sha256": "172282c6bdd9b8b2a96bf1387dfcd8410d10ca4f8966e4874ebdf4b3d6b6561a",
+      "bytes": 123417,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-prototyping-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/prototyping",
+      "sha256": "b8b2c5d60ccae8be42807a77b6d62ae32c48ababb7c50a0177ad21ad33d20619",
+      "bytes": 119496,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-spec-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/spec",
+      "sha256": "0644cce02a683b8ee6312cbc132a4b2840981e89abcab250ba0f075861cb8db5",
+      "bytes": 122888,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-ticket-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/ticket",
+      "sha256": "ed8a49d69839d287b3c1ef5932670b3a3549770ad44c1f4555c9b53d1e5ba18d",
+      "bytes": 116861,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-dark-factory-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/dark-factory",
+      "sha256": "52b9485e32d83f78ddd3cfcd90da05f58f06e7c0eb117f3d9b97f28f634bc7a0",
+      "bytes": 118405,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-design-concept-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/design-concept",
+      "sha256": "63a703528cbdc00d3fc9880ba6c62ddaf5b12913228da36085426601e71f8961",
+      "bytes": 139658,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-software-factory-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/software-factory",
+      "sha256": "fa44c9f797a1793cc89395714930cb295cc8ae77cdbe7044c4839cbe21856493",
+      "bytes": 109577,
+      "hashVerified": true,
+      "independentlyViewed": true
+    },
+    {
+      "file": "ai-coding-dictionary-vibe-coding-390-main-definition.png",
+      "url": "http://127.0.0.1:4321/ai-coding-dictionary/vibe-coding",
+      "sha256": "489c6bcd4a96030ace40e42528c13b8c7d2c125122112f090920780fd16ad7bd",
+      "bytes": 123327,
+      "hashVerified": true,
+      "independentlyViewed": true
+    }
+  ],
+  "records": [
+    {
+      "route": "/how-to-choose-an-llm",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/llm-fundamentals",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/messages-system-prompts-and-reasoning-tokens",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/what-are-llms-used-for",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/what-are-tools",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/what-is-an-agent",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-engineer-roadmap",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-engineer-roadmap",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/building-effective-agents",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/storm-generate-high-quality-articles-based-on-real-research",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/the-ai-engineer-mindset",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/the-prompt-report",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/three-types-of-evals",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/what-are-evals",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 9
+    },
+    {
+      "route": "/what-is-an-ai-engineer",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/what-is-an-ai-engineer",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/generate-text-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 6,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 6,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 10
+    },
+    {
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 5,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/system-prompts-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "viewport": 1440,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/describe-images-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 15
+    },
+    {
+      "route": "/generate-arrays-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 6
+    },
+    {
+      "route": "/generate-enums-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 12,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/streaming-objects-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 8
+    },
+    {
+      "route": "/structured-outputs-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 11,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/tool-calls-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 18
+    },
+    {
+      "route": "/agents-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 15
+    },
+    {
+      "route": "/create-embeddings-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 8
+    },
+    {
+      "route": "/implementing-anthropics-think-tool-in-typescript",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 8
+    },
+    {
+      "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 10
+    },
+    {
+      "route": "/use-local-models-with-vercel-ai-sdk",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 6,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/vercel-ai-sdk-messages-array",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 22
+    },
+    {
+      "route": "/2025-the-year-building-with-gen-ais-gets-boring~d53hd",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/evalite-an-early-preview",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0,
+      "error": "locator.scrollIntoViewIfNeeded: Timeout 15000ms exceeded.\nCall log:\n  - waiting for locator('#reading-body').locator('h2').first()\n"
+    },
+    {
+      "route": "/evalite-v1-preview",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 8
+    },
+    {
+      "route": "/google-agents-whitepaper-review",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/securing-your-ai-app-with-guardrails",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 5
+    },
+    {
+      "route": "/publish-your-mcp-server-to-npm",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/using-mcp-prompts",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 7
+    },
+    {
+      "route": "/skills-grill-me",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "viewport": 390,
+      "status": "failed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0,
+      "error": "Document must not overflow horizontally"
+    },
+    {
+      "route": "/skills-ask-matt",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-writing-for-agents",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-handoff",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-to-questionnaire",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-pr",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/skills-to-spec",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-implement-spec",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-implement",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/skills-research",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-to-tickets",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/skills-domain-modeling",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/skills-grilling",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 4
+    },
+    {
+      "route": "/skills-code-review",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-diagnosing-bugs",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 3
+    },
+    {
+      "route": "/skills-retro",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/skills-setup-matt-pocock-skills",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 3
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 2
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 1
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "viewport": 390,
+      "status": "passed",
+      "translationHashVerified": true,
+      "clipboardMatches": 0
+    }
+  ],
+  "conclusion": "All 230 original screenshots independently viewed. No new visual defects in captured areas. 57 third-round definition targets and context-pointer now close prior gaps. Twelve absent-h2 locator failures and one C04 real horizontal overflow remain open pending new UI; do not mark whole run passed.",
+  "copyMatchesPassedViewports": 218,
+  "copyMatchesBeforeLaterViewportFailure": 52
+}

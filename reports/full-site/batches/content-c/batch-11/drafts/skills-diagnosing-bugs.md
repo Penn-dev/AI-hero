@@ -1,0 +1,151 @@
+---
+title: "/diagnosing-bugs Skill"
+slug: "skills-diagnosing-bugs"
+type: "post"
+description: "先得到确实失败的复现，再诊断棘手 bug。"
+updatedAt: "2026-08-24T09:14:47.195Z"
+---
+
+## 它能做什么
+
+`diagnosing-bugs` 对棘手 bug 或性能回退进行六阶段诊断：构建复现、缩小复现、排列假设、添加观测、用回归测试修复、清理。
+
+在建立**紧凑有效的反馈循环**（tight loop）之前，它不允许智能体形成理论。必须有一条已命名、至少运行过一次的命令，能在*这个 bug*存在时失败、修好后通过。编码智能体收到 bug 报告，默认会读代码然后猜，这个 Skill 阻止它这样做。没有能失败的命令，就没有第二阶段。这个关卡就是 Skill 的核心。循环一旦建立，后面的二分定位、假设检验和观测就属于按步骤执行。
+
+译注：“复现”是稳定展示报告中那个问题的方法；回归测试用于防止修好的问题再次出现。性能回退指相比原先版本变慢或耗费更多资源。
+
+## 什么时候该用它
+
+输入 `/diagnosing-bugs`；任务适合时，智能体也会自行调用。它可由模型调用，“diagnose”“debug this”，或对损坏、抛异常、失败、变慢的报告，都可能触发。
+
+英文 Prompt：diagnose
+
+中文 Prompt（译注）：
+
+```text
+诊断一下。
+```
+
+英文 Prompt：debug this
+
+中文 Prompt（译注）：
+
+```text
+调试这个问题。
+```
+
+用在难题上：一眼解决不了的 bug、偶发失败，或在两个已知正常状态之间引入的回退。它有意设计得缓慢而彻底，因此不适合只想用一条消息得到答案的情况。
+
+| 你的情况 | 去哪里 |
+| --- | --- |
+| 能描述症状的具体缺陷 | 本 Skill |
+| 一个慢接口，或有明确前后对比的耗时回退 | 本 Skill，有性能分支：先测基线，再二分定位 |
+| 只问代码库哪里有瓶颈，没有具体症状 | 不适用，它诊断一个已知故障，不做全面审计 |
+| 别人发来的原始 bug 报告，还没确认或整理 | 先用 [triage](https://aihero.dev/skills-triage) |
+| 写可丢弃代码回答设计问题，而非追查缺陷 | [prototype](https://aihero.dev/skills-prototype) |
+| 对已计划好的行为做测试先行开发 | [tdd](https://aihero.dev/skills-tdd) |
+| 修复后追问怎样才能避免这个 bug | 在同一会话运行 [retro](https://aihero.dev/skills-retro) |
+| 没有合适的接缝把 bug 固定在测试里 | 由你主动启动 [improve-codebase-architecture](https://aihero.dev/skills-improve-codebase-architecture) |
+
+## 反馈循环就是核心
+
+第一阶段最费力，因为只有这一阶段真正难。Skill 列出建立循环的方法，大致按偏好排序：
+
+1. 在任何能触及 bug 的接缝上写失败测试。
+2. 对运行中的开发服务器执行 curl 或 HTTP 脚本。
+3. 用固定测试输入调用 CLI，与已知正常快照比较。
+4. 用无界面浏览器脚本断言 DOM、控制台或网络行为。
+5. 回放保存的请求、载荷或事件日志，单独经过对应代码路径。
+6. 写一个可丢弃的测试执行程序，只保留系统最小子集、一次函数调用。
+7. 对“有时输出错误”的情况，运行属性测试或模糊测试循环。
+8. 建立可交给 `git bisect run` 的二分定位程序。
+9. 差分循环：同一输入，比较旧版与新版。
+10. 最后手段是[有人参与的](https://www.aihero.dev/ai-coding-dictionary/human-in-the-loop) bash 脚本。Skill 附带 `scripts/hitl-loop.template.sh`：智能体启动脚本，你在终端按提示操作，回答以可解析的输出返回。
+
+目标不是随便有*一个*循环，而是**紧凑有效**：快，以秒计；确定，每次同一结论；准确，断言的就是你的症状，而非“没有崩溃”；且智能体能自行运行，不需要你。一个耗时三十秒、还时成时败的循环，比没有好不了多少。
+
+对偶发 bug，目标不是一次完美复现，而是**提高复现率**：反复触发、并行执行、增加压力、插入等待，直到失败率高到足以调试。
+
+如果建不出来，Skill 要求停下说明，列出尝试过什么，再向你请求[环境](https://www.aihero.dev/ai-coding-dictionary/environment)访问、已捕获材料，或添加临时观测的许可。不能明知没复现，仍继续提出假设。
+
+## 阶段之间的关卡
+
+阶段不是打勾清单，而是有进入条件的关卡。
+
+| 关卡 | 必须满足什么 |
+| --- | --- |
+| 进入第二阶段 | 一条已命名、实际运行过且展示了输出的命令，能因本 bug 失败 |
+| 进入第三阶段 | 问题既已复现，也已最小化；每个剩余元素都是复现所必需 |
+| 进入第四阶段 | 有 3–5 个按优先级排列、可证伪的假设，每个说明预测，测试前先给你看 |
+| 进入第五阶段 | 每个观测点对应一个具体预测，一次改一个变量；每条调试日志带 `[DEBUG-a4f2]` 这样的标签，清理时一次 grep 就能找到全部 |
+| 完成 | 原复现不再触发，临时观测已移除，提交说明写明最终证实哪个假设 |
+
+第五阶段有一个例外：先写回归测试，再修复，但前提是存在**正确接缝**，让测试能覆盖 bug 在真实调用位置出现的模式。如果现有接缝太浅，Skill 要求说明，而非写一个让人产生虚假信心的测试。缺少接缝本身也是发现，应记录，不应掩盖。
+
+译注：“可证伪”意味着能指出什么观察结果会证明假设错误。grep 是查找文字的命令，这里用统一标签定位临时日志。
+
+## 常见问题
+
+**只是快速提问、想要直接回答，它也触发了。**
+
+这是反馈最多的问题。尤其在 GPT-5.6-Sol 上，用户报告只描述一下问题就触发：“the model triggers the rather formal diagnosing-bugs skill instead. It then goes on to construct a reproduction scenario (often building a mock scenario with limited value) before giving me a response or suggestion. This results in considerable reply delays.”
+
+中文理解：模型触发了相当正式的 diagnosing-bugs 流程，先构建复现场景，往往还是价值有限的模拟场景，之后才回答或建议，造成明显延迟。
+
+四个人在 [issue #578](https://github.com/mattpocock/skills/issues/578) 报告相同问题。已接受的修复方向是先轻量处理，确有必要再完整诊断，但尚未发布。Skill 针对 Claude Code 的调用行为调过，触发阈值更低的[模型](https://www.aihero.dev/ai-coding-dictionary/model)就会过于频繁调用。发布修复前，直接说出要求，例如“just answer this, don't diagnose”，或在[执行框架](https://www.aihero.dev/ai-coding-dictionary/harness)中禁用它的模型自动调用。
+
+中文 Prompt（译注）：
+
+```text
+直接回答这个问题，不要启动诊断流程。
+```
+
+**能让它扫一遍代码库，找性能问题吗？**
+
+不能。它诊断的是已能说清的单个故障。性能分支针对有症状的回退：建立测量基线，再二分定位，先测后修，不做主动全面扫描。主动扫描版 Skill 的提案[已经关闭](https://github.com/mattpocock/skills/issues/431)，目前没有 Skill 做这件事。
+
+**写修复之前，它会停下来问我吗？**
+
+不会。只有第三阶段有人类检查点：测试假设前展示优先级清单，如果你不在，就按它自己的排序继续。观测与修复之间没有确认关卡，因此你还没同意根因判断，它就可能开始写代码。[issue #124](https://github.com/mattpocock/skills/issues/124) 要求增加关卡，仍开放。你需要的话，调用时就说明。
+
+**已经对报告运行了 `/triage`，这不是重复工作吗？**
+
+部分重复，但两个 Skill 都没说明。一位读者说：“Triage's step 3 is essentially a shallow, bounded instance of diagnosing-bugs Phase 1–2, but neither file mentions the other.”
+
+中文理解：triage 第三步本质上是 diagnosing-bugs 第一、二阶段的浅层、限定范围版本，但两份文件都没提及对方。
+
+triage 只做有限的“是不是 bug、问题表现在哪里”检查，本 Skill 做彻底版本。先 triage 不算浪费，因为验证结果通常提供了第一阶段大部分原材料；但要预期这里会完整重做，而且没有相互引用来提醒你。
+
+**粘贴的复现输出会泄漏秘密吗？**
+
+可能。Skill 要求粘贴命令和输出，也要求索取 HAR 文件、日志转储、core dump 等材料，却没有指令要求清理敏感内容。[issue #674](https://github.com/mattpocock/skills/issues/674) 正是针对凭据、令牌、cookie、个人数据被复制到聊天、issue 或 PR 的风险，提议增加脱敏规则，目前开放且未实现。暂时把脱敏当作自己的责任，尤其在公开发布前。
+
+译注：HAR 记录浏览器网络请求，core dump 保存程序崩溃时的内存内容，二者都可能包含敏感数据。不要因为用于诊断就直接公开原文件。
+
+**安全扫描器把这个 Skill 标为高风险。**
+
+Snyk 会标记它，原文认为这是误报。它是这套 Skills 中唯一随说明附带可执行 shell 脚本 `hitl-loop.template.sh`，并要求运行脚本、用 curl 请求开发服务器的 Skill。一个 `.sh` 文件、运行指令，再加出站 HTTP，足以触发静态扫描器。脚本本身大约三十行 `read -r -p` 提示，用来暂停等待人工输入。扫描器评估的是可能做什么，不是已经证实的漏洞利用。
+
+译注：上段保留原文对扫描结果的判断。本次中文化未审计或执行该脚本，不能据此当作对任何安装版本的安全保证。
+
+**`/diagnose` 去哪里了？**
+
+v1.0.0 改名为 `/diagnosing-bugs`，旧名不再存在。你自己的外层 Skill 或保存的提示词，如果仍调用 `/diagnose`，都需要更新。
+
+## 出现这些迹象，就说明它在发挥作用
+
+- 提出任何理论前，先给你命令及失败输出。理论先出现，就没有按 Skill 执行。
+- 复现的是你报告的故障，而非顺路找到的相近问题。
+- 猜测前先缩小复现，并能解释每个剩余部分为何必要。
+- 测试前给出 3–5 个排序假设，每个都有可证伪预测。
+- 每条调试日志带 `[DEBUG-a4f2]` 这样的标签；宣布完成时，搜索标签没有结果。
+- 提交或 PR 说明写明哪个假设正确。
+- 无法用测试准确覆盖 bug 时直说，不写浅层测试充数。
+
+## 它处在什么位置
+
+`diagnosing-bugs` 是随时可用的独立 Skill。有东西坏了就开始，修复和回归测试完成后结束。不保存状态，也不需要事先设置。[ask-matt](https://aihero.dev/skills-ask-matt) 会把“某处坏了”的情况引到这里。
+
+两个邻居很重要。[retro](https://aihero.dev/skills-retro) 在后：修复落地后，在同一会话追问怎样本可避免这个 bug，因为此时比开始时掌握更多信息。`diagnosing-bugs` 不会自行调用 `retro`，因为 `retro` 由用户调用。[triage](https://aihero.dev/skills-triage) 在前，处理他人发来的原始报告，浅层完成同样的前两个阶段。
+
+译注：相关中文词条：[人工参与](/ai-coding-dictionary/human-in-the-loop)、[环境](/ai-coding-dictionary/environment)、[模型](/ai-coding-dictionary/model)。中文页未接入时会回到原站英文页。

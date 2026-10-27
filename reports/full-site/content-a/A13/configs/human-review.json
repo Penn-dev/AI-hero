@@ -1,0 +1,42 @@
+{
+  "route": "/ai-coding-dictionary/human-review",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/human-review.md",
+    "sha256": "dd479f1fd946c437f8660dad8405defd3f5846e2308d5ba59851822bfa4b7633"
+  },
+  "chineseFile": "reports/full-site/content-a/A13/drafts/human-review.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "state": "available-chinese"
+    }
+  ]
+}

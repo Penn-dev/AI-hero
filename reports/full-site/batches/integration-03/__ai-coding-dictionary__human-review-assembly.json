@@ -1,0 +1,175 @@
+{
+  "config": "reports/full-site/content-a/A13/configs/human-review.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/human-review",
+      "manifest": {
+        "route": "/ai-coding-dictionary/human-review",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/human-review",
+        "sourceHash": "dd479f1fd946c437f8660dad8405defd3f5846e2308d5ba59851822bfa4b7633",
+        "translationPath": "content/zh/ai-coding-dictionary/human-review.md",
+        "translationHash": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:10.643Z",
+        "assembly": {
+          "configHash": "c03d224f0978ec465fa60bd49646d77910e5c752615d64037f691b8fe68d0125",
+          "checkedAt": "2026-10-13T12:19:10.643Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-review",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/secondary-source",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/vibe-coding",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/human-review.md",
+          "sha256": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "5a23ade8dabc1843db936e8a5d762cc259ce6650af834f6104377447653c70d7"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7bad52ec9090570fb7c419c77b6e70bbb04a22d63700f3874936210864514ea3"
+        }
+      ],
+      "rawOutputSha256": "3c43924bf7595c696e795cffd970a4fc57f9e8348afe16f96d53c297e43a9b0e"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/human-review",
+      "manifest": {
+        "route": "/ai-coding-dictionary/human-review",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/human-review",
+        "sourceHash": "dd479f1fd946c437f8660dad8405defd3f5846e2308d5ba59851822bfa4b7633",
+        "translationPath": "content/zh/ai-coding-dictionary/human-review.md",
+        "translationHash": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:10.845Z",
+        "assembly": {
+          "configHash": "c03d224f0978ec465fa60bd49646d77910e5c752615d64037f691b8fe68d0125",
+          "checkedAt": "2026-10-13T12:19:10.845Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-review",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/secondary-source",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/vibe-coding",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/human-review.md",
+          "sha256": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "5a23ade8dabc1843db936e8a5d762cc259ce6650af834f6104377447653c70d7"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "49da58f42cb582e72e297fdce58da365193cfa3839d120ad7a4d84dd0f2045ae"
+        }
+      ],
+      "rawOutputSha256": "9cd7b3744a03a51389147c54af86ad84633d724df5b64fa2234ba904452ad39e"
+    }
+  ],
+  "nonTargetPagesPreserved": 84
+}

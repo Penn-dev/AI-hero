@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-13",
+  "reason": "CommonMark underscore emphasis adjacent to Chinese letters was parsed as literal text. Added delimiter spacing only.",
+  "pagesChanged": 19,
+  "pairsFixed": 29,
+  "changes": [
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "file": "reports/full-site/content-a/A01/drafts/agent.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "54608546cf145b084588544561b79a47a461abbbee29cd089532176d050be51a",
+      "afterHash": "5b44967000bbf20f89eecf21037c35a7428931d8623e0a45912dd63ed15e2a06",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "file": "reports/full-site/content-a/A02/drafts/context-window.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "bf76ffb0c5841e2cf70066ff9068c72337cc27e6487e45ef5ead434eaefcb1e5",
+      "afterHash": "c7b7dd9404a5e20e691ba4d9109594987f8be2844d762c08634584b981ba35b1",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "file": "reports/full-site/content-a/A03/drafts/tool-result.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "abc1c035f61f8c3a27d5056c8dd4d9a901f4bcf4701060810a62e03a765ed1b1",
+      "afterHash": "7574fffe1a0b24a5b25f4213060ea9765833f0d7c84468ae0a3df00772e688a5",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "file": "reports/full-site/content-a/A04/drafts/hallucination.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "4971361c64e0987562012b1dc185218d7636a5b1ac9d6f7a852da00d5c2af045",
+      "afterHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "file": "reports/full-site/content-a/A05/drafts/session.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "62aa195088f5c09217f9ca1f596e19ddd48f1afd49d9023805645baa75642ddc",
+      "afterHash": "0f7b5d79ba37eac31e0a15ec07da91883af8d4ecb1f260b96ab66c0e5df8ce6f",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "file": "reports/full-site/content-a/A06/drafts/agents-md.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "e65b2616d7ac38af0a4bb65e84b91f4a72e84ce8c531c1bc6de199c8a349cdab",
+      "afterHash": "06897ea09726703625d8aeb5ca76e7dbef1582714e0b9428236eb87699cd1c1c",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "file": "reports/full-site/content-a/A06/drafts/environment.md",
+      "emphasisPairsFixed": 3,
+      "beforeHash": "5be3c4509b6ab48ae43faaea5aa279d04320e68e42340f22fdb40dda1f0040fc",
+      "afterHash": "ca9167eddfab6506465946a78ca6814d4467c24cf174a772b09891fb38f35fbc",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "file": "reports/full-site/content-a/A06/drafts/skill.md",
+      "emphasisPairsFixed": 2,
+      "beforeHash": "5ea2782afc2d981899e64bf1c7226193a9b17ff2817eb208cdc0eb17a5bfd113",
+      "afterHash": "477975137e42e1c36b76997ca56c5c9d998f09f12ec8f2b103bcf3679cfd999c",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "file": "reports/full-site/content-a/A07/drafts/ai.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "5dc045c8ebdeb7083d1cfc3f39eebf7f2fd6f8a5f0c9792c08673ff6ce9bd9b8",
+      "afterHash": "f1f4adb1b0b7f859b61ebbb24ea65d8c7a556e7482ef40f9e2aa784ebf35751d",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "file": "reports/full-site/content-a/A07/drafts/parameters.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "998c8007c633af27f9e011ef00cdfcc651c23d7dccc91e4e15c3750d2bf649b4",
+      "afterHash": "a673aba82075efd6e720e571a090d7070869eaf36f462420a737b6a2f3d1d2a7",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "file": "reports/full-site/content-a/A08/drafts/next-token-prediction.md",
+      "emphasisPairsFixed": 2,
+      "beforeHash": "6b584d31145b0a5f78cf415727bec1a6faa276d10a90c21e2ff1565c5faac8a5",
+      "afterHash": "caf12bccfab0edcf2a2ce9457ba074045692901c6514316e254bec50c5aed686",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "file": "reports/full-site/content-a/A11/drafts/contextual-knowledge.md",
+      "emphasisPairsFixed": 4,
+      "beforeHash": "83fbb324e6d0494b12e6dc8c4ccd8ca88ae20a02270068a89e0a0885e93ea42d",
+      "afterHash": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "file": "reports/full-site/content-a/A11/drafts/sycophancy.md",
+      "emphasisPairsFixed": 3,
+      "beforeHash": "cdc54dd6b55a50b55a9288db1adea9b837e9519a00dce198ad7a9225ceae32fb",
+      "afterHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "file": "reports/full-site/content-a/A12/drafts/agent-mode.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "3fe4e6bfee95ef9f97510d5123d7238ebe4897023001e76e024f73bcc977ee47",
+      "afterHash": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "file": "reports/full-site/content-a/A13/drafts/automated-check.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "717d223576b070db0f136b4627b806f128342eac24db1ed22e4bb2f760151a78",
+      "afterHash": "2ad1926f1f2876a937a9a95ba672f0d1c1d419bd6cc4e6825558dba75e7b1573",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "file": "reports/full-site/content-a/A13/drafts/automated-review.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "17a1b540660b9a20322ebc1ec0e7031a3e0b6238ad303594d5ced545c9cd22ea",
+      "afterHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "file": "reports/full-site/content-a/A13/drafts/ax.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "5630477cab2ae11641ee143f49460f9c1324f15aee9fc050f1cdfd143be90bb4",
+      "afterHash": "9f67986cebc45eae52e8fd3eed63e27cf2bd4241c807f32738c4041882ef8084",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "file": "reports/full-site/content-a/A13/drafts/human-review.md",
+      "emphasisPairsFixed": 2,
+      "beforeHash": "2bd4e14fb6ad24bf80e64ce7a53a3c06815e16fc7a4c68b2698a4312dfefc906",
+      "afterHash": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "file": "reports/full-site/content-a/A14/drafts/spec.md",
+      "emphasisPairsFixed": 1,
+      "beforeHash": "56ca74e1745c0b15478cdf42f7d99d2eb442b09771a8b9e4213333e86ddf0d2c",
+      "afterHash": "cbd2ae4002e6013decb42c3d77303219d796878830a6ad4cc98b23cf5c6d7e22",
+      "nonWhitespaceUnchanged": true,
+      "englishExamplesUnchanged": true,
+      "structure": "passed"
+    }
+  ]
+}

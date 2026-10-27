@@ -1,0 +1,15 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-13/drafts/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "sha256": "9e0bddfa4a5084074677dd9e87f58194d62c18ad6db338b519e7ecc076741a91",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-13/drafts/skills__skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "sha256": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

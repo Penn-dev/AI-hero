@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
 import contentIndex from '@/content/zh/index.json';
 
@@ -48,11 +47,11 @@ export function LocalizedArticle({
   const { articleMarkdown, glossaryMarkdown } = splitGlossary(markdown);
   const article = prepareArticle(articleMarkdown, title);
   const glossary = learningGlossary(learning, glossaryEntries(glossaryMarkdown));
-  const chineseOnlyLinks = Boolean(learning?.glossary);
+  const chineseOnlyLinks = review && Boolean(learning?.glossary);
   const related = (relatedReading ?? learning?.related ?? []).flatMap(item => {
-    if (!chineseOnlyLinks) return [item];
+    if (!learning?.glossary) return [item];
     const link = articleLink(item.href, new Set(Object.keys(contentIndex.pages)));
-    return link.untranslated || link.href?.startsWith('http') ? [] : [{ ...item, href: link.href ?? item.href }];
+    return chineseOnlyLinks && (link.untranslated || link.href?.startsWith('http')) ? [] : [{ ...item, href: link.href ?? item.href }];
   });
   const bodySections = articleSections(article.markdown);
   const CheckList = learning?.kind === 'workshop-lesson' ? 'ol' : 'ul';
@@ -69,16 +68,16 @@ export function LocalizedArticle({
     <main data-content-kind={learning?.kind ?? 'article'}>
       <div className="announcement">
         <span>{review ? '审核' : '中文'}</span>
-        {review ? '端到端本地化样本' : 'AI Hero 授权中文学习版'}
+        {review ? '端到端本地化样本' : 'AI Hero 中文学习版'}
       </div>
       <header className="site-header shell">
-        <Link className="brand" href="/" prefetch={false}>
+        <a className="brand" href="/">
           AI<span>Hero</span>
-        </Link>
+        </a>
         <nav aria-label="文章导航">
-          <Link href="/" prefetch={false}>首页</Link>
+          <a href="/">首页</a>
           <a href={learning ? '#learning-start' : '#article-content'}>开始阅读</a>
-          {review ? <Link href="/review/a-complete-guide-to-agents-md/compare" prefetch={false}>对比译稿</Link> : null}
+          {review ? <a href="/review/a-complete-guide-to-agents-md/compare">对比译稿</a> : null}
           {!chineseOnlyLinks ? <a href={sourceUrl} target="_blank" rel="noreferrer">英文原文</a> : null}
         </nav>
         {!chineseOnlyLinks ? <a className="search-link" href={sourceUrl} target="_blank" rel="noreferrer">
@@ -99,7 +98,7 @@ export function LocalizedArticle({
           {learning ? <ArticleLearningGuide profile={learning} glossary={glossary} /> : null}
           <div className="markdown-body" id="reading-body">
             {learning?.bodyTitle ? <h2>{learning.bodyTitle}</h2> : null}
-            <p className="article-reading-hint">{learning?.glossary ? '点击带虚线的术语查看解释；旁边的 ↗ 打开已有中文词条。' : '↗ 表示英文原文链接。'}</p>
+            <p className="article-reading-hint">{learning?.glossary ? '点击带虚线的术语查看解释；旁边的 ↗ 打开对应中文词条或原文资源。' : '↗ 表示英文原文链接。'}</p>
             <LocalizedMarkdown markdown={article.markdown} glossary={glossary} copyLongQuotes exercise={learning?.kind === 'workshop-lesson'} explainLinkedTerms={Boolean(learning?.glossary)} chineseOnlyLinks={chineseOnlyLinks} availableRoutes={Object.keys(contentIndex.pages)} />
           </div>
           {learning?.originalExamples?.length && !learning.originalExamplesInline ? <section className="original-examples" id="original-examples" aria-labelledby="original-examples-title">

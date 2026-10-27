@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-12/configs/my-claude-code-cohort-a-teaser.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/my-claude-code-cohort-a-teaser",
+      "manifest": {
+        "route": "/my-claude-code-cohort-a-teaser",
+        "sourceUrl": "https://www.aihero.dev/my-claude-code-cohort-a-teaser",
+        "sourceHash": "b3eaacc416b712a5a3c39d98481113511f241a93a0fea931bbd37860f3a04d37",
+        "translationPath": "content/zh/my-claude-code-cohort-a-teaser.md",
+        "translationHash": "355b49e0ca5dd58b6cc838e10e0f9f4bababe81544fd65158051af234884d545",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:32.565Z",
+        "assembly": {
+          "configHash": "d353191eed1ec231a596a2eebb8d134d9cdddc7310a58c24bb97977058fa9af0",
+          "checkedAt": "2026-10-13T13:04:32.565Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-claude-code-cohort-a-teaser.md",
+          "sha256": "355b49e0ca5dd58b6cc838e10e0f9f4bababe81544fd65158051af234884d545"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "65f836c408b245e9582daf33ee49b92d139f4709452273315c83ea88401177ab"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "9578477495782be1d11dde59b897ac1ef19881241639444ebdbf5053e3e9fddb"
+        }
+      ],
+      "rawOutputSha256": "8bf06173e97f310e1cee28571c039036cd629383c5ea113e514a851c01b2277a"
+    },
+    {
+      "mode": "apply",
+      "route": "/my-claude-code-cohort-a-teaser",
+      "manifest": {
+        "route": "/my-claude-code-cohort-a-teaser",
+        "sourceUrl": "https://www.aihero.dev/my-claude-code-cohort-a-teaser",
+        "sourceHash": "b3eaacc416b712a5a3c39d98481113511f241a93a0fea931bbd37860f3a04d37",
+        "translationPath": "content/zh/my-claude-code-cohort-a-teaser.md",
+        "translationHash": "355b49e0ca5dd58b6cc838e10e0f9f4bababe81544fd65158051af234884d545",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:32.789Z",
+        "assembly": {
+          "configHash": "d353191eed1ec231a596a2eebb8d134d9cdddc7310a58c24bb97977058fa9af0",
+          "checkedAt": "2026-10-13T13:04:32.789Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-claude-code-cohort-a-teaser.md",
+          "sha256": "355b49e0ca5dd58b6cc838e10e0f9f4bababe81544fd65158051af234884d545"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "65f836c408b245e9582daf33ee49b92d139f4709452273315c83ea88401177ab"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c507e8fcb28c51092971e4c2c83f196fe79fe3d87a1450d747b76f2c9833f734"
+        }
+      ],
+      "rawOutputSha256": "30e9ec865a8d1b92f30294dd2f16d36c719dcdd88aeb86eb510ace8a34b31486"
+    }
+  ],
+  "nonTargetPagesPreserved": 178
+}

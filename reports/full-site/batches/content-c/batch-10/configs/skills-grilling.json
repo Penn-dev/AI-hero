@@ -1,0 +1,22 @@
+{
+  "route": "/skills-grilling",
+  "source": {
+    "path": "content/source/skills-grilling.md",
+    "sha256": "bf9046e1748f5473f2d5c843f7464289ccae5795560279208c2a53fabdc6396d"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-10/drafts/skills-grilling.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    }
+  ]
+}

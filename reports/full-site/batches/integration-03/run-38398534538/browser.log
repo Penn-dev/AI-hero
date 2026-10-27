@@ -1,0 +1,507 @@
+{
+  "status": "failed",
+  "commit": "d41b9a8703917c0eef4c0891703ad70e97e2e46a",
+  "pages": [
+    {
+      "id": "ai-coding-dictionary-model-provider-request",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-session",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-stateful",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-stateless",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-turn",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-agents-md",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-context-pointer",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toHaveText(expected) failed\n\nLocator:  locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first()\nExpected: \"请查看 internal/deploy.md\"\nReceived: \"部署流程：请查看 internal/deploy.md\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveText\" locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first() with timeout 5000ms\n  - waiting for locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first()\n    14 × locator resolved to <p>…</p>\n       - unexpected value \"部署流程：请查看 internal/deploy.md\"\n",
+        "stack": "Error: expect(locator).toHaveText(expected) failed\n\nLocator:  locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first()\nExpected: \"请查看 internal/deploy.md\"\nReceived: \"部署流程：请查看 internal/deploy.md\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveText\" locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first() with timeout 5000ms\n  - waiting for locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first()\n    14 × locator resolved to <p>…</p>\n       - unexpected value \"部署流程：请查看 internal/deploy.md\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveText (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:80:31)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:161:79"
+      }
+    },
+    {
+      "id": "ai-coding-dictionary-environment",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-filesystem",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-skill",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-ai",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-inference",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-inference",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-model-provider",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-parameters",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-training",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-cache-tokens",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-cache-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-effort",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-input-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-next-token-prediction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-non-determinism",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-output-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-attention-budget",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-attention-degradation",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-attention-relationship",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-smart-zone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-autocompact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-clearing",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-compaction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-handoff-artifact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-handoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-contextual-knowledge",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-knowledge-cutoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-parametric-knowledge",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-primary-source",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-secondary-source",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-sycophancy",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-agent-mode",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-mcp",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-permission-mode",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-permission-mode",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-permission-request",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-sandbox",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-subagent",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-afk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-automated-check",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-automated-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-ax",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-dx",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-human-in-the-loop",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-human-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-grilling",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-prototyping",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-spec",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-ticket",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-dark-factory",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-design-concept",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-software-factory",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary-vibe-coding",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "ai-coding-dictionary",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    }
+  ]
+}

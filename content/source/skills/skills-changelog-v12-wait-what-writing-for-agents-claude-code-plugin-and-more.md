@@ -1,10 +1,20 @@
 ---
 title: "v1.2: /wait-what, /writing-for-agents, Claude Code Plugin, and more"
 slug: "skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more"
-type: "post"
-description: "Explore Matt Pocock's Skills v1.2.0: new documentation, Claude Code integration, the Wait What skill for Opus verbosity, and more."
+type: "page"
 updatedAt: "2026-08-05T15:43:10.190Z"
 ---
+
+[AI Skills Changelog](/skills)
+
+# v1.2: /wait-what, /writing-for-agents, Claude Code Plugin, and more
+
+![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)
+
+Matt Pocock
+
+Share
+
 Version 1.2 of my skills is out. It ships the skills as a Claude Code plugin, adds Codex metadata to every skill, and puts the whole set behind a documentation site at [aihero.dev/skills](/skills). Three skills are new to the plugin, one is renamed, and six are gone.
 
 The full changeset is in the [v1.2.0 release](https://github.com/mattpocock/skills/releases/tag/v1.2.0). This page covers what changes for you.
@@ -135,3 +145,15 @@ None of the six was in the Claude Code plugin, but all six were installable thro
 Two were only ever mine, tied to my own machine. The `personal/` bucket goes with them: **`/edit-article`** and **`/obsidian-vault`**.
 
 `skills/deprecated/` stays as an empty bucket. `skills/in-progress/` is unchanged, and is now described for what it is: a beta channel, published on purpose, installable one skill at a time through skills.sh.
+
+AI Hero · Free email course
+
+### AI Skills for Real Engineers
+
+Build a repeatable workflow for coding agents without giving up your engineering standards.
+
+**Share**
+
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-morev1.2%3A%20%2Fwait-what%2C%20%2Fwriting-for-agents%2C%20Claude%20Code%20Plugin%2C%20and%20more%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=v1.2%3A%20%2Fwait-what%2C%20%2Fwriting-for-agents%2C%20Claude%20Code%20Plugin%2C%20and%20more%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more)[](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more?author=Matt Pocock>)
+
+Copy URL

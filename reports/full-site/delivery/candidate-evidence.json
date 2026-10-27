@@ -1,0 +1,31 @@
+{
+  "codeCandidate": "1e86ac0caad08a7da54d57a9a473a5b6ef909450",
+  "runId": 38413956876,
+  "runUrl": "https://github.com/Penn-dev/AI-hero/actions/runs/38413956876",
+  "scope": "Windows project-specific lifecycle and shared neutral banner. Full unchanged content/UI evidence remains bound by each accepted body hash.",
+  "jobs": [
+    {
+      "id": 115353284203,
+      "name": "verify",
+      "status": "success"
+    },
+    {
+      "id": 115353284433,
+      "name": "windows-preview",
+      "status": "success"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 11823945710,
+      "file": "aihero-delivery-ui.zip",
+      "sha256": "6ca3aeed4dc7854388a4b8746c0e810b0c8adba2917dcc0c3241e2e0d928e836"
+    },
+    {
+      "id": 11822579277,
+      "file": "aihero-windows-lifecycle.zip",
+      "sha256": "2490b013572032e56a4db6d92cb0757b46180188e88a605066325deb47e10fcc"
+    }
+  ],
+  "onsiteWindows": "pending"
+}

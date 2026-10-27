@@ -1,0 +1,74 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-handoff",
+      "sourcePath": "content/source/skills-handoff.md",
+      "sourceHash": "f66de1f26fc55ee3263e5b3cdf4a5a96a3b26344c834cc918a930391f797a448",
+      "chineseFile": "reports/full-site/batches/content-c/batch-06/drafts/skills-handoff.md",
+      "translationHash": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对 7 节及 9 个常见问题，保留四种且仅四种迁移触发、分叉往返、引用而不复制、脱敏、临时文件风险、一个小时情景、shell 插值截断及事实/假设区分。原文有争议的宿主描述按固定来源保留。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，可迁移性与压缩的区别表达清楚，保留第一手/第二手来源比较及作者直接建议，不新增自动交接或持久性保证。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近解释临时目录和接收方路径、shell 语法风险；明确示例命令是警示而非运行建议。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "无源围栏代码；所有文件名、命令和参数逐项保留。X isn't built/Y is done 原断言例附中文理解。全部原资源 URL 保留。 真实 UI 审查发现的加粗边界已定点修正，仅移动标记或去除链接外层加粗；原文案、代码和 URL 不变。后续 AST 扫描无字面双星号/嵌套 strong，真实 UI 仍待工程重验。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 12
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "没有执行交接或确认任何宿主临时目录清理行为；页末明确未做运行验证。"
+      ]
+    },
+    {
+      "route": "/skills-to-questionnaire",
+      "sourcePath": "content/source/skills-to-questionnaire.md",
+      "sourceHash": "c051d0d023f88945c673d7b0490c66e2786dd42702cbab363d3f542e5a4f6933",
+      "chineseFile": "reports/full-site/batches/content-c/batch-06/drafts/skills-to-questionnaire.md",
+      "translationHash": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "核对全部七节、一张表及七个常见问题，保留只问接收者/需要答案、两次交流后起草、单人静态问卷、无自动发送、同会话而非独立 ingest、分支方案未发布等边界。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，send 翻译为接收者及回收信息，gap 为信息缺口，避免让读者误以为 Skill 负责实际发送。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近译注解释异步与仅生成文件，正文明确如何带回回答，不增加不必要的流程。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "全部源行内标识、文件名与 URL 保留；I don't know/what do you need back/give me all the questions at once 原英文例附中文理解，最后一条另有可复制中文 Prompt。无源围栏代码。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 13
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未生成或发送实际问卷，本页为 Skill 文档中文化。"
+      ]
+    }
+  ]
+}

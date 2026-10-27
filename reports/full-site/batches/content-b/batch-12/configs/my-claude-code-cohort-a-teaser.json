@@ -1,0 +1,9 @@
+{
+  "route": "/my-claude-code-cohort-a-teaser",
+  "source": {
+    "path": "content/source/my-claude-code-cohort-a-teaser.md",
+    "sha256": "b3eaacc416b712a5a3c39d98481113511f241a93a0fea931bbd37860f3a04d37"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-12/drafts/my-claude-code-cohort-a-teaser.md",
+  "translationPath": "content/zh/my-claude-code-cohort-a-teaser.md"
+}

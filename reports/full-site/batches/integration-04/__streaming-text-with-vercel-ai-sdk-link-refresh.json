@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-05/configs/streaming-text-with-vercel-ai-sdk.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/streaming-text-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/streaming-text-with-vercel-ai-sdk",
+        "sourceHash": "b7be79753832f1d6087f99f18cee294aff7541ddf54407e1c087d1f437a334cf",
+        "translationPath": "content/zh/streaming-text-with-vercel-ai-sdk.md",
+        "translationHash": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:11.729Z",
+        "assembly": {
+          "configHash": "6e2537332e08aa1007ff4170a093992b53d44ff9f9e748319b6cf38a94f72703",
+          "checkedAt": "2026-10-13T12:38:11.729Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/streaming-text-with-vercel-ai-sdk.md",
+          "sha256": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "6279e42b8402cfb4c479402d64e3572976d8fe40db1ae7c6bb2b1ef30b451ecf"
+        }
+      ],
+      "rawOutputSha256": "b54c69b6bdb4894271416a0c368375177bd24a1ba8182530fe5a2341cc484a47"
+    },
+    {
+      "mode": "apply",
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/streaming-text-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/streaming-text-with-vercel-ai-sdk",
+        "sourceHash": "b7be79753832f1d6087f99f18cee294aff7541ddf54407e1c087d1f437a334cf",
+        "translationPath": "content/zh/streaming-text-with-vercel-ai-sdk.md",
+        "translationHash": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:11.950Z",
+        "assembly": {
+          "configHash": "6e2537332e08aa1007ff4170a093992b53d44ff9f9e748319b6cf38a94f72703",
+          "checkedAt": "2026-10-13T12:38:11.950Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/streaming-text-with-vercel-ai-sdk.md",
+          "sha256": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "9d50dd49bee8c0ceded8e55683f52dc701b76b032a219196dc517cc26c1995df"
+        }
+      ],
+      "rawOutputSha256": "06e9237e5e67f2d1df8cd8b614382735723b29fc0d3748ddfa55c27b200d34a6"
+    }
+  ],
+  "nonTargetPagesPreserved": 150
+}

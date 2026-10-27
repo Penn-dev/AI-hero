@@ -1,0 +1,22 @@
+{
+  "route": "/skills-setup-matt-pocock-skills",
+  "source": {
+    "path": "content/source/skills-setup-matt-pocock-skills.md",
+    "sha256": "195b930507929eb63fbdc2adf3fa38f50945ed4ceaee9bcf8cfdda9d352c2495"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-12/drafts/skills-setup-matt-pocock-skills.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    }
+  ]
+}

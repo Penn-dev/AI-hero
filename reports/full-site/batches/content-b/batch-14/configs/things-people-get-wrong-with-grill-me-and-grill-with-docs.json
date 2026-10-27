@@ -1,0 +1,15 @@
+{
+  "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+  "source": {
+    "path": "content/source/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+    "sha256": "438655d047ea192d772e9ca192cf522dcb01cd6c3b3a7a3f27a97c69b168ccb3"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-14/drafts/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+  "translationPath": "content/zh/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+  "linkTargets": [
+    {
+      "route": "/grill-with-docs",
+      "state": "available-chinese"
+    }
+  ]
+}

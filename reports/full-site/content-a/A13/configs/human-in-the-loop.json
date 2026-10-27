@@ -1,0 +1,46 @@
+{
+  "route": "/ai-coding-dictionary/human-in-the-loop",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/human-in-the-loop.md",
+    "sha256": "6730a600872ddbb9bb705fe5ad8f6ee0218c841576ea7fd3d9e572aedf975a50"
+  },
+  "chineseFile": "reports/full-site/content-a/A13/drafts/human-in-the-loop.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    }
+  ]
+}

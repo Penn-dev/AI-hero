@@ -1,0 +1,46 @@
+{
+  "route": "/ai-coding-dictionary/ticket",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/ticket.md",
+    "sha256": "27a3bc6e5fd813af0d4ee8e5cd6742ef9020dc59693fa3cc3bcbf349a7a13702"
+  },
+  "chineseFile": "reports/full-site/content-a/A14/drafts/ticket.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    }
+  ]
+}

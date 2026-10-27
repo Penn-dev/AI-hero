@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-09/configs/skills-research.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-research",
+      "manifest": {
+        "route": "/skills-research",
+        "sourceUrl": "https://www.aihero.dev/skills-research",
+        "sourceHash": "e91acc488a8e63d892982474c3c105793b4be460d72260c7662d2f6aab341874",
+        "translationPath": "content/zh/skills-research.md",
+        "translationHash": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:45.014Z",
+        "assembly": {
+          "configHash": "5438fb3374615d9379e835260327b211939b64eb80776b7d25ef6b5d82d417a4",
+          "checkedAt": "2026-10-13T12:37:45.014Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-research.md",
+          "sha256": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0122e7eaa41680ddab01e8fb2fcc72c76f14dbe6b28d077d0e3b163381dccb4a"
+        }
+      ],
+      "rawOutputSha256": "d0579a494901dc8f3d677c36935263173f93b6681d4278292b0c504b2c42d318"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-research",
+      "manifest": {
+        "route": "/skills-research",
+        "sourceUrl": "https://www.aihero.dev/skills-research",
+        "sourceHash": "e91acc488a8e63d892982474c3c105793b4be460d72260c7662d2f6aab341874",
+        "translationPath": "content/zh/skills-research.md",
+        "translationHash": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:45.220Z",
+        "assembly": {
+          "configHash": "5438fb3374615d9379e835260327b211939b64eb80776b7d25ef6b5d82d417a4",
+          "checkedAt": "2026-10-13T12:37:45.220Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-research.md",
+          "sha256": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0821088792201784c00622c0e7239175d815a669af8cd99e1b44cf8ce0af6128"
+        }
+      ],
+      "rawOutputSha256": "62b414112927ac92b732d2e4d8610355574aea6dc18f5e2d015cab65c8c29976"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

@@ -1,0 +1,75 @@
+{
+  "storage": "Original ZIPs saved in owner Library for attachment delivery; no private download URL is committed. Match file/version/sha256 below.",
+  "archives": [
+    {
+      "file": "aihero-production-01.zip",
+      "version": 0,
+      "sha256": "0394b39a09d77aac463767092b43be45a9f71db6e6d8e260293d9e968f3bfff5",
+      "bytes": 5708775,
+      "runId": "38391725587",
+      "artifactId": "11808269892"
+    },
+    {
+      "file": "aihero-production-02.zip",
+      "version": 0,
+      "sha256": "d0e59f33c9a9186882b5f2cbb8c5e63f04bb049e6a75d2e3525e664c9cdeb95f",
+      "bytes": 3914521,
+      "runId": "38395456927",
+      "artifactId": "11812760129"
+    },
+    {
+      "file": "aihero-production-03-incomplete.zip",
+      "version": 0,
+      "sha256": "0bce7ca0eefe2fe77f6e34f56d3b7fa5a172280f9f7daf00a805bd44c04da0c5",
+      "bytes": 16284553,
+      "runId": "38398534538",
+      "artifactId": "11812858630",
+      "status": "Retained initial failure; exact Prompt selector and definition screenshots subsequently repaired."
+    },
+    {
+      "file": "aihero-production-04-incomplete.zip",
+      "version": 0,
+      "sha256": "20cfd1b83d1ce33847e067feedd8bf878577425a4fd2a82e5cb95ee1c339e818",
+      "bytes": 21720515,
+      "runId": "38401367005",
+      "artifactId": "11816301809",
+      "status": "107/120 views passed; 12 missing-h2 test targets and one narrow-screen title overflow require targeted rerun."
+    },
+    {
+      "file": "aihero-production-05-incomplete.zip",
+      "version": 0,
+      "sha256": "3c451cb124bca8b5d520c1fc06250761714bcd71bbd6a4ff8d655110bd89340a",
+      "bytes": 28958332,
+      "runId": "38405473150",
+      "artifactId": "11818713407",
+      "status": "Retained partial run; failures and subsequent targeted repairs remain recorded."
+    },
+    {
+      "file": "aihero-production-06-incomplete.zip",
+      "sha256": "6a915965c4e57e8a22b2eba44008cb867d16947f2459c22af162184c746b2278",
+      "bytes": 4334631,
+      "version": 0,
+      "runId": "38407427014",
+      "artifactId": "11819239134",
+      "status": "Retained partial run; failures and subsequent targeted repairs remain recorded."
+    },
+    {
+      "file": "aihero-production-07-incomplete.zip",
+      "sha256": "0affe1dddbc8b1b86a20171c543fbd12a86c6350f11f5acbd8b78e461048a12a",
+      "bytes": 4399272,
+      "version": 0,
+      "runId": "38408576892",
+      "artifactId": "11819847316",
+      "status": "Retained partial run; failures and subsequent targeted repairs remain recorded."
+    },
+    {
+      "file": "aihero-production-08.zip",
+      "version": 0,
+      "sha256": "8d5d0662b7ff08b695c8b5205c5b9e0d646013074debd8b016c546c7732fa263",
+      "bytes": 4327216,
+      "runId": "38409450389",
+      "artifactId": "11820059177",
+      "status": "Passed: four viewports; all194 deep routes clicked from home; home/brand navigation repaired and independently reviewed."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-10/configs/skills-domain-modeling.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-domain-modeling",
+      "manifest": {
+        "route": "/skills-domain-modeling",
+        "sourceUrl": "https://www.aihero.dev/skills-domain-modeling",
+        "sourceHash": "9bb43ffb7d51e3f9357442a54fa0f516da2d7009709f955504c7bfadd4d4fb62",
+        "translationPath": "content/zh/skills-domain-modeling.md",
+        "translationHash": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:37.820Z",
+        "assembly": {
+          "configHash": "4f01278abeb6826f180ee81ab5138342ba1a8f1464a496ef275c28744376bbd6",
+          "checkedAt": "2026-10-13T12:37:37.820Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-domain-modeling.md",
+          "sha256": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "789be86b20d5136191cc6ad6d1e884554836891b274dd7ae199dd7a17d30ce04"
+        }
+      ],
+      "rawOutputSha256": "3acbc75729f578ceb03e8d2afe23c49d2e083093ed523b02bb6d11ca1025cb8d"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-domain-modeling",
+      "manifest": {
+        "route": "/skills-domain-modeling",
+        "sourceUrl": "https://www.aihero.dev/skills-domain-modeling",
+        "sourceHash": "9bb43ffb7d51e3f9357442a54fa0f516da2d7009709f955504c7bfadd4d4fb62",
+        "translationPath": "content/zh/skills-domain-modeling.md",
+        "translationHash": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:38.059Z",
+        "assembly": {
+          "configHash": "4f01278abeb6826f180ee81ab5138342ba1a8f1464a496ef275c28744376bbd6",
+          "checkedAt": "2026-10-13T12:37:38.059Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-domain-modeling.md",
+          "sha256": "f2116386f2f0ca8654b47919f44cd95eca89f65f253f934120a38f61078c1690"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8e6dbe32b254dfd604c0ee0e1268236bfb0f9297eab0f4bf8cf79fac9c303a14"
+        }
+      ],
+      "rawOutputSha256": "77a40b6ec65d914a5f7be9f6613393d10bf5d4ee26cae28535309ca6c95f833b"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

@@ -8,15 +8,21 @@ updatedAt: "2026-08-24T09:14:47.195Z"
 
 ## 它能做什么
 
-`codebase-design` 统一了设计模块时所用的词汇：**模块（module）**、**接口（interface）**、**深度（depth）**、**接缝（seam）**、**适配器（adapter）**、**杠杆效应（leverage）**和**局部性（locality）**。它会精确定义每个词，禁止使用含义宽泛的替代说法（如“组件”“服务”“API”“边界”），并给出由这些定义推导出的几条原则。
+`codebase-design` 统一了设计模块时所用的词汇：**模块**（module）、**接口**（interface）、**深度**（depth）、**接缝**（seam）、**适配器**（adapter）、**杠杆效应**（leverage）和**局部性**（locality）。它会精确定义每个词，禁止使用含义宽泛的替代说法（如“组件”“服务”“API”“边界”），并给出由这些定义推导出的几条原则。
 
-它是一份参考资料，不是一套执行流程：没有要反复运行的步骤，不会产出特定文档，也不会在检查点向你提问。其他涉及设计的 Skill 都会借用它的词汇；单独使用时，它只负责提供这套语言，到此为止。调用前一定要明白这一点，因为如果你把一个[会话](https://www.aihero.dev/ai-coding-dictionary/session)交给没有流程和停止规则的 Skill，然后只说 “go”（中文理解版：开始执行），它很可能自行编出一套流程。下文的常见问题会说明实际可能发生什么。
+它是一份参考资料，不是一套执行流程：没有要反复运行的步骤，不会产出特定文档，也不会在检查点向你提问。其他涉及设计的 Skill 都会借用它的词汇；单独使用时，它只负责提供这套语言，到此为止。调用前一定要明白这一点，因为如果你把一个[会话](https://www.aihero.dev/ai-coding-dictionary/session)交给没有流程和停止规则的 Skill，然后只说 “go”（中文理解版：开始执行），智能体就会自行编出一套流程。下文的常见问题会说明实际可能发生什么。
+
+中文 Prompt（译注）：
+
+```text
+开始执行。
+```
 
 ## 什么时候该用它
 
 输入 `/codebase-design`；当设计任务符合条件时，智能体也会自动选用它。
 
-当你已经知道要重新设计哪部分代码，需要思考它应该呈现什么结构时，就该使用它：接缝应该放在哪里、接口能缩小到什么程度、把代码提取成独立模块是否真的值得。它也能用来解决团队对某个设计术语含义不一致的问题。
+当你已经知道要重新设计哪部分代码，需要思考它应该呈现什么结构时，就该使用它：接缝应该放在哪里、接口能缩小到什么程度、把代码提取成独立模块后，是否减轻了调用方需要处理的复杂性。它也能用来解决团队对某个设计术语含义不一致的问题。
 
 有几个 Skill 与它相近。该选哪一个，取决于你真正要解决的问题：
 
@@ -36,7 +42,7 @@ updatedAt: "2026-08-24T09:14:47.195Z"
 |---|---|---|
 | **模块（Module）** | 任何同时具有接口和实现的东西。这个定义刻意不限定规模：模块可以是函数、类、软件包，也可以是跨越多个技术层的一组功能。 | 单元、组件、服务 |
 | **接口（Interface）** | 调用方要正确使用模块所必须知道的一切：除了类型签名，还包括不变量、调用顺序限制、错误模式、必要配置和性能特征。 | API、签名 |
-| **深度（Depth）** | 接口所带来的杠杆效应：调用方或测试每学习一单位接口，能够使用或验证多少行为。**深层（Deep）**模块用小接口提供大量行为；**浅层（Shallow）**模块的接口几乎和内部实现一样复杂。 | — |
+| **深度（Depth）** | 接口所带来的杠杆效应：调用方或测试每学习一单位接口，能够使用或验证多少行为。**深层**（Deep）模块用小接口提供大量行为；**浅层**（Shallow）模块的接口几乎和内部实现一样复杂。 | — |
 | **接缝（Seam）** | Michael Feathers 提出的术语：无需直接修改某处代码，就能改变该处行为的位置。接缝是接口所在的*位置*；接缝放在哪里，与接口背后放什么是两个不同的设计决定。 | 边界 |
 | **适配器（Adapter）** | 在某个接缝处满足接口要求的具体实现。这个词描述的是角色，而不是实现所用的材料或技术：内存中的测试替身和 Postgres 数据存储实现都可以是适配器。 | — |
 | **杠杆效应（Leverage）** | 调用方从深度中得到的收益：只需学习少量接口，就能获得更多能力。 | — |
@@ -61,13 +67,19 @@ updatedAt: "2026-08-24T09:14:47.195Z"
 
 中文理解版（学习辅助）：假设我们已经认可这个接口，它也确实隐藏了实现细节。但怎样强制所有人遵守它？如果没有 lint（代码静态检查）或明确的约束，无论人还是大语言模型，时间一长都可能把代码弄乱。
 
-Matt 在该讨论中给出三种选择：用类或 IIFE 包住模块，并接受这个类会变得非常庞大；在 monorepo 中把模块做成独立软件包，并接受 monorepo 带来的工具链；或者使用 [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) 之类的 linter，禁止任何绕过接口的 import。他还在别处表示，Effect 是最佳机制，dependency-cruiser 位居第二。仓库的 `setup-ts-deep-modules` Skill 位于 `in-progress/` 分类中，它会建立 `src/packages/<name>/index.ts` 这一目录约定；但它仍是 beta 渠道的 Skill，没有独立文档页，也没有附带 lint 规则。
+该讨论中的答复给出了三种选择：用类或 IIFE 包住模块，并接受这个类会变得非常庞大；在 monorepo 中把模块做成独立软件包，并接受 monorepo 带来的工具链；或者使用 [dependency-cruiser](https://github.com/sverweij/dependency-cruiser) 之类的 linter，禁止任何绕过接口的 import。这些机制中，Effect 最好，dependency-cruiser 次之。仓库的 `setup-ts-deep-modules` Skill 位于 `in-progress/` 分类中，它会建立 `src/packages/<name>/index.ts` 这一目录约定；但它仍是 beta 渠道的 Skill，没有独立文档页，也没有附带 lint 规则。
 
 **我让一个会话使用它，结果它花了 100k [Token](https://www.aihero.dev/ai-coding-dictionary/token)，重新设计了一堆我根本没要求修改的东西。**
 
-这是一个已知问题，记录在 [issue #449](https://github.com/mattpocock/skills/issues/449)。该 Skill 由模型自动调用，并把自己描述为一份词汇参考；但其中没有规则硬性阻止智能体把它当作可执行流程。如果收到 “resume in /codebase-design and drive the open decisions” 这样的要求，智能体就会选择它能找到的、最像具体行动的内容：`DESIGN-IT-TWICE.md` 中的并行子智能体。它会重新探索上一个会话已经梳理过的代码，并在真正提问前一路运行很久。驱动型 Skill 通常具备检查点、一次只问一个问题、不自动进入下一步等护栏；这里都没有，因为参考资料本来就不包含这些流程规则。解决办法是明确指定一个驱动型 Skill，让本 Skill 只在底层提供词汇，例如 `/grill-with-docs`、`/improve-codebase-architecture`，或使用 `/tdd` 并把 `codebase-design` 作为词汇基础。这个 issue 目前仍未关闭。
+这是一个已知问题，记录在 [issue #449](https://github.com/mattpocock/skills/issues/449)。该 Skill 由模型自动调用，并把自己描述为一份词汇参考；但其中没有规则硬性阻止智能体把它当作可执行流程。在一个案例中，智能体收到 “resume in /codebase-design and drive the open decisions” 这条要求后，选择了 Skill 中最像执行流程的部分：`DESIGN-IT-TWICE.md` 中的并行子智能体。它重新探索了上一个会话已经梳理过的代码，工作了很久才开始提问。驱动型 Skill 通常具备检查点、一次只问一个问题、不自动进入下一步等护栏；这里都没有，因为参考资料本来就不包含这些流程规则。解决办法是明确指定一个驱动型 Skill，让本 Skill 只在底层提供词汇，例如 `/grill-with-docs`、`/improve-codebase-architecture`，或使用 `/tdd` 并把 `codebase-design` 作为词汇基础。这个 issue 仍未关闭。
 
 中文理解版（学习辅助）：“resume in /codebase-design and drive the open decisions” 的意思是“回到 /codebase-design，主动推进尚未决定的问题”。这是一条要求智能体继续行动的英文指令，并非普通的背景说明。
+
+中文 Prompt（译注）：
+
+```text
+回到 /codebase-design，主动推进尚未决定的问题。
+```
 
 **`design-an-interface` 去哪里了？有 `/interface-design` 这个 Skill 吗？**
 
@@ -81,17 +93,21 @@ Matt 在该讨论中给出三种选择：用类或 IIFE 包住模块，并接受
 
 #458 中也出现了同样的讨论："I think you might be tying the concept of modules too closely to the file system. The file system can certainly be a useful hint to the shape of modules, but there's no need to use the file system in the construction of deep modules."
 
-中文理解版（学习辅助）：你可能把“模块”与文件系统联系得太紧了。文件系统当然可以帮助我们看出模块的大致形状，但构建深层模块并不要求采用某种特定的文件系统结构。词汇表正是出于这个原因，才刻意把**模块（module）**定义成与规模和文件结构无关的概念。
+中文理解版（学习辅助）：你可能把“模块”与文件系统联系得太紧了。文件系统当然可以帮助我们看出模块的大致形状，但构建深层模块并不要求采用某种特定的文件系统结构。词汇表正是出于这个原因，才刻意把**模块**（module）定义成与规模和文件结构无关的概念。
 
 **`tdd` 真的使用这套词汇吗？**
 
-现在会用，但过去很长一段时间并不会。原先写在 `tdd` 内部的深层模块说明在 v1.0 中被移除，改为采用这份共享 Skill；然而替代说明的链接一直没有补上，导致 `tdd` 仍自行定义“接缝”，却没有引用本 Skill。这个缺口现已补齐：当尚待解决的问题是接口应该是什么形状，而不是测试应该怎么写时，就会跳转到本 Skill。`tdd` 仍负责把“接缝”定义为测试所跨越的边界；本 Skill 则负责接缝背后的模块结构。
+现在会用，但过去很长一段时间并不会。原先写在 `tdd` 内部的深层模块说明在 v1.0 中被移除，改为采用这份共享 Skill；然而替代说明的链接一直没有补上，导致 `tdd` 仍自行定义“接缝”，却没有引用本 Skill。`tdd` 现在已补上指向本 Skill 的入口。当尚待解决的问题是接口应该是什么形状，而不是测试应该怎么写时，就会跳转到本 Skill。`tdd` 仍负责把“接缝”定义为测试所跨越的边界；本 Skill 则负责接缝背后的模块结构。
 
 **“设计两次”模式能在 Claude Code 之外正常工作吗？**
 
 不能完全顺畅地工作。`DESIGN-IT-TWICE.md` 写的是 “spawn 3+ sub-agents in parallel using the Agent tool”。
 
-中文理解版（学习辅助）：使用 Agent 工具，并行启动至少 3 个子智能体。
+中文 Prompt（译注）：
+
+```text
+使用 Agent 工具，并行启动至少 3 个子智能体。
+```
 
 这里的 Agent tool 是 Claude Code 对其[工具](https://www.aihero.dev/ai-coding-dictionary/tool)的命名。该仓库也为 Codex 等其他[智能体执行框架](https://www.aihero.dev/ai-coding-dictionary/harness)提供元数据，但这些框架不一定存在这个名称的工具。因此，“并行设计”阶段的可移植性不如 Skill 元数据所暗示的那样好。这个问题记录在尚未关闭的 [issue #564](https://github.com/mattpocock/skills/issues/564) 中。
 
@@ -109,22 +125,24 @@ Matt 在该讨论中给出三种选择：用类或 IIFE 包住模块，并接受
 
 ## 它处在什么位置
 
-`codebase-design` 是一个**随时可以选用的独立 Skill**，也是位于各类工程 Skill 底层的词汇层，并不是某条流程链中的一个步骤。与它最接近的是 [domain-modeling](https://aihero.dev/skills-domain-modeling)：后者同样是一份参考资料，但关注的是*问题领域*的词汇，而不是模块应有的结构。两者通常需要配合使用，因为要恰当地命名一个深层模块，既要理解模块设计，也要理解业务领域。另一个相关 Skill 是 [improve-codebase-architecture](https://aihero.dev/skills-improve-codebase-architecture)：它会检查代码库，找出适合加深的候选模块，并使用本词汇表描述每个候选对象。也就是说，它负责找到模块，本 Skill 则像一张设计工作台，供你推敲模块的结构。不确定应该选用哪个 Skill 或流程时，可以让 [ask-matt](https://aihero.dev/skills-ask-matt) 帮你分流。
+`codebase-design` 是一个**随时可以选用的独立 Skill**，也是位于各类工程 Skill 底层的词汇层，并不是某条流程链中的一个步骤。与它最接近的是 [domain-modeling](https://aihero.dev/skills-domain-modeling)：后者同样是一份参考资料，但关注的是*问题领域*的词汇，而不是模块应有的结构。两者通常需要配合使用，因为要恰当地命名一个深层模块，既要理解模块设计，也要理解业务领域。另一个相关 Skill 是 [improve-codebase-architecture](https://aihero.dev/skills-improve-codebase-architecture)：它会检查代码库，找出适合加深的候选模块，并使用本词汇表描述每个候选对象。它负责找到模块，你再使用本 Skill 的词汇设计模块。不确定应该选用哪个 Skill 或流程时，可以让 [ask-matt](https://aihero.dev/skills-ask-matt) 帮你分流。
 
-## 中文学习辅助：术语小词典
+## 译注：本页涉及的背景术语
 
 - **Skill**：一组提供给 AI 编码智能体的专门说明，帮助它按特定方法处理某类任务。
 - **代码库（codebase）**：一个软件项目中源代码、配置及相关文件的集合。
-- **模块（module）**：把一部分功能封装起来，并通过明确接口供其他代码使用的单位；它不一定对应某个文件夹或文件。
-- **接口（interface）**：调用方正确使用模块所需遵守的完整约定，不只包括函数或类型长什么样。
+- **模块**（module）：把一部分功能封装起来，并通过明确接口供其他代码使用的单位；它不一定对应某个文件夹或文件。
+- **接口**（interface）：调用方正确使用模块所需遵守的完整约定，不只包括函数或类型长什么样。
 - **深层模块（deep module）**：通过较小的接口提供大量能力、隐藏内部复杂性的模块。
-- **接缝（seam）**：无需直接修改使用方，就能替换实现或改变行为的位置，常用于隔离依赖和测试。
-- **适配器（adapter）**：放在接缝处、遵循同一接口的具体实现，例如真实数据库实现与测试用内存实现。
-- **杠杆效应（leverage）**：学习少量接口便能使用较多功能的收益。
-- **局部性（locality）**：让改动、缺陷和验证集中在一处，避免同一个问题散落到许多调用方。
+- **接缝**（seam）：无需直接修改使用方，就能替换实现或改变行为的位置，常用于隔离依赖和测试。
+- **适配器**（adapter）：放在接缝处、遵循同一接口的具体实现，例如真实数据库实现与测试用内存实现。
+- **杠杆效应**（leverage）：学习少量接口便能使用较多功能的收益。
+- **局部性**（locality）：让改动、缺陷和验证集中在一处，避免同一个问题散落到许多调用方。
 - **monorepo**：把多个相关项目或软件包放在同一个代码仓库中统一管理的方式。
 - **IIFE**：立即调用函数表达式；函数定义完成后立刻执行，常用于限制变量的可见范围。
 - **linter**：在代码运行前进行静态检查的工具，可用于发现违规引用等问题。
 - **barrel file**：集中重新导出同一目录中多个模块的文件，调用方可以从一个入口导入它们。
 - **Token**：大语言模型拆分和计量文本的基本单位；它不等同于一个汉字或一个英文单词。
 - **智能体执行框架（harness）**：为 AI 智能体提供上下文、工具和运行机制的软件环境。
+
+译注：本页相关中文词条：[Skill](/ai-coding-dictionary/skill)、[智能体](/ai-coding-dictionary/agent)、[子智能体](/ai-coding-dictionary/subagent)。链接优先打开已接入的中文页；尚未接入时会回到原站英文页。

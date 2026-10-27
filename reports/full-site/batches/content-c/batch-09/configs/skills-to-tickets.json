@@ -1,0 +1,22 @@
+{
+  "route": "/skills-to-tickets",
+  "source": {
+    "path": "content/source/skills-to-tickets.md",
+    "sha256": "90f8541cdf7a61504214d902b96602523da84f4cf9fc3ce6d09709be5e3aface"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-09/drafts/skills-to-tickets.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-09/configs/how-to-improve-your-llm-powered-app.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/how-to-improve-your-llm-powered-app",
+      "manifest": {
+        "route": "/how-to-improve-your-llm-powered-app",
+        "sourceUrl": "https://www.aihero.dev/how-to-improve-your-llm-powered-app",
+        "sourceHash": "638af6b5b111de1fa8219209d191a708a37eb67bb3e38efca0008c3a60c61f80",
+        "translationPath": "content/zh/how-to-improve-your-llm-powered-app.md",
+        "translationHash": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:05.039Z",
+        "assembly": {
+          "configHash": "5f534b5c3d72afeb733320fb53ebcb19822b258598bf0fc3d4f42855fdd4f0ca",
+          "checkedAt": "2026-10-13T13:08:05.039Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-improve-your-llm-powered-app.md",
+          "sha256": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c5c8fb8b95604c10a3e4f3e84307cdb60669b96c4f1545134457d4de1d84e488"
+        }
+      ],
+      "rawOutputSha256": "371914848abc6be7e77caede1c840f3499e2943925dac75bdad5c3775c58e7f3"
+    },
+    {
+      "mode": "apply",
+      "route": "/how-to-improve-your-llm-powered-app",
+      "manifest": {
+        "route": "/how-to-improve-your-llm-powered-app",
+        "sourceUrl": "https://www.aihero.dev/how-to-improve-your-llm-powered-app",
+        "sourceHash": "638af6b5b111de1fa8219209d191a708a37eb67bb3e38efca0008c3a60c61f80",
+        "translationPath": "content/zh/how-to-improve-your-llm-powered-app.md",
+        "translationHash": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:05.407Z",
+        "assembly": {
+          "configHash": "5f534b5c3d72afeb733320fb53ebcb19822b258598bf0fc3d4f42855fdd4f0ca",
+          "checkedAt": "2026-10-13T13:08:05.407Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-improve-your-llm-powered-app.md",
+          "sha256": "28f8a10b4200ff918e54e80f7e82c2aac2054b1c926d3493fb89dc084949d120"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "2c1c063619ec883d9a19ab68a9094df4dd312459a84606027ed668ba2b893999"
+        }
+      ],
+      "rawOutputSha256": "10f8f1c354cae58f5eb01a72de53c544cc0849a708967e11e349ac4875cb66f1"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

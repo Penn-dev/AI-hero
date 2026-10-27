@@ -1,0 +1,75 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-code-review",
+      "sourcePath": "content/source/skills-code-review.md",
+      "sourceHash": "9aaa71a213cec3a4531edf9bce8cc39f0bf2ffe734f850753b2699da7e6302d7",
+      "chineseFile": "reports/full-site/batches/content-c/batch-11/drafts/skills-code-review.md",
+      "translationHash": "9748862e5a248ec9f08121a1b77c3669084c3801d7e0d72724f10a83cb40cb9c",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "全文逐节核对两维度独立、固定起点、规格四级查找、十二种异味、仓库优先、命名冲突/递归/确认偏误/不审未提交改动等限制，完整保留各适用场景和问答。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，两维度保留 Standards/Spec 标题名并配中文，不把假设当证据，不将异味提升为硬性违规；原英文用户引用均附中文理解。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近解释 HEAD、diff、代码异味与 linter，末尾附 subagent/spec/primary-source 中文入口。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "所有行内命令、路径、固定点、报告标题、原 URL 完整保留；禁止再委派的原英文 Prompt 完整保留并附完整可复制中文。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 21
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "没有执行审阅或修改宿主配置，来源缺陷状态未经实时核查；导航 planned 待工程刷新。"
+      ]
+    },
+    {
+      "route": "/skills-diagnosing-bugs",
+      "sourcePath": "content/source/skills-diagnosing-bugs.md",
+      "sourceHash": "ef9ccd225e1b9caf5c2522174ffaf45e7a849490bbfbffc1e6d2dcd94020aca8",
+      "chineseFile": "reports/full-site/batches/content-c/batch-11/drafts/skills-diagnosing-bugs.md",
+      "translationHash": "d8fca4b57d9eb9be49a24220a051bdf232c7dc21b7fbc894740bd32be56b6f90",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对六阶段、十种复现手段、阶段门槛表及全部问答，保留失败命令先于假设、偶发提高复现率、用户离开可继续的原文行为、浅接缝例外、泄密风险及扫描器观点。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "全文通读，tight loop 译为紧凑有效反馈循环，可证伪/二分定位/最小化含义明确；作者安全判断保留归属，未作为本次安全审计结论。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "译注解释复现/回归/性能回退、可证伪/grep、HAR/core dump，危险材料提醒贴近原段，不编造脚本已验证。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "源文无围栏代码；全部脚本路径、命令、调试标签和原资源 URL 保留；diagnose/debug this/just answer this don't diagnose 英文指令附完整中文 Prompt，用户英文引文附中文理解。 真实 UI 审查发现的加粗边界已定点修正，仅移动标记或去除链接外层加粗；原文案、代码和 URL 不变。后续 AST 扫描无字面双星号/嵌套 strong，真实 UI 仍待工程重验。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 16
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未运行脚本、诊断或安全扫描；明确源文误报判断不构成本次安全保证。",
+        "中文导航 planned 待工程按实际状态刷新。"
+      ]
+    }
+  ]
+}

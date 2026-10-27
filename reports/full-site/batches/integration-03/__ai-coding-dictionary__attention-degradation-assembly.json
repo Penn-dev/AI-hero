@@ -1,0 +1,225 @@
+{
+  "config": "reports/full-site/content-a/A09/configs/attention-degradation.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "manifest": {
+        "route": "/ai-coding-dictionary/attention-degradation",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
+        "sourceHash": "bf7047388ba3589007a6b639945031883d4b4c04fc7b91b616db403e6c8430c3",
+        "translationPath": "content/zh/ai-coding-dictionary/attention-degradation.md",
+        "translationHash": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:18:58.763Z",
+        "assembly": {
+          "configHash": "57eaf105ec57fcef19f380a18644dacf63732eef30879678117495abe260e2d9",
+          "checkedAt": "2026-10-13T12:18:58.763Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-budget",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-relationship",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parameters",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/smart-zone",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/turn",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/attention-degradation.md",
+          "sha256": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "645bba926f1468af1e5d403f6aa8dc7ac517faf9cf519c9e77c7e229dd40c729"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4ae9a2b0774cd7223895fac6ab9e07b5baef76c04e410293daa509410675dbec"
+        }
+      ],
+      "rawOutputSha256": "283c44bd53268f8d6fe31ae795c57756ebf4ffc1b5e268227deae7c1de82ea47"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "manifest": {
+        "route": "/ai-coding-dictionary/attention-degradation",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/attention-degradation",
+        "sourceHash": "bf7047388ba3589007a6b639945031883d4b4c04fc7b91b616db403e6c8430c3",
+        "translationPath": "content/zh/ai-coding-dictionary/attention-degradation.md",
+        "translationHash": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:18:58.961Z",
+        "assembly": {
+          "configHash": "57eaf105ec57fcef19f380a18644dacf63732eef30879678117495abe260e2d9",
+          "checkedAt": "2026-10-13T12:18:58.961Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-budget",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/attention-relationship",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/compaction",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/parameters",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/smart-zone",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/turn",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/attention-degradation.md",
+          "sha256": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "645bba926f1468af1e5d403f6aa8dc7ac517faf9cf519c9e77c7e229dd40c729"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "439ff2054acedb2be18a94338fa768a13c82beb08ca5d6d8316236292f433576"
+        }
+      ],
+      "rawOutputSha256": "65c5649fc77aa058d94ff62426ca33870674f67f0cb168594657ce568a9778d6"
+    }
+  ],
+  "nonTargetPagesPreserved": 58
+}

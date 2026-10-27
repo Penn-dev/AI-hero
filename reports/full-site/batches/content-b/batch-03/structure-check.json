@@ -1,0 +1,114 @@
+{
+  "batch": "batch-03",
+  "results": [
+    {
+      "route": "/how-to-choose-an-llm",
+      "sourceHash": "25b8b5bb3ebbe1fe88f002c69da7119362f3584029f07dbde2e6bd11070d09e5",
+      "translationHash": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 16,
+      "resources": [
+        "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/",
+        "https://lmarena.ai/?leaderboard",
+        "https://www.helicone.ai/llm-cost",
+        "https://lmarena.ai/?leaderboard",
+        "/what-are-evals",
+        "https://aihero.dev/what-are-evals"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/llm-fundamentals",
+      "sourceHash": "9a6205dcc625fe5356f4c303a3993bbb547760c6a77bd0c2bd098a3bff38693d",
+      "translationHash": "a89ce1b9aa7a7be217c28cb3bd8ae4ee4ce9f281c4f8a1623658ca66249140c6",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 0,
+      "resources": [
+        "https://image.mux.com/gL4LhjWghmYEdDOI402Z6KUXkPdwhwNAtO52EF6DHkcw/thumbnail.webp?time=0&width=698",
+        "https://www.aihero.dev/llm-fundamentals"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/messages-system-prompts-and-reasoning-tokens",
+      "sourceHash": "6bdc0dcd24d6ccf1ee01d8cc799c13380cf647b668d2298676a07e970e7c2296",
+      "translationHash": "ff9940e3b294e84041d8c30b3dc0ecf791e24d94817de3bb9addc9240887dbbb",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 2,
+      "headings": 4,
+      "resources": [
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759237356/ai-hero-images/aovt6xmhs2av24q1zzzv.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759237357/ai-hero-images/dcmloydcwhmhneyqybgs.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759237358/ai-hero-images/pr2deu4owgqdygndbkrx.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759237359/ai-hero-images/wgx9n1uobwgugln1xg0d.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759237360/ai-hero-images/at8gx2zr54m1ff1bbxyf.png"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/what-are-llms-used-for",
+      "sourceHash": "7596c6c7d39b9b2c24b7dd6ae66a05bbad002c19e572fa20711594078b53a4a0",
+      "translationHash": "43fab88e8d6d71fb6a6c85739d6085818c83a0f9c18af69d9c5beefbd890cd27",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 4,
+      "headings": 9,
+      "resources": [
+        "/the-prompt-report",
+        "https://www.aihero.dev/the-prompt-report",
+        "https://www.reddit.com/r/SuicideWatch/",
+        "/generate-enums-with-vercel-ai-sdk?list=vercel-ai-sdk-tutorial",
+        "https://www.aihero.dev/generate-enums-with-vercel-ai-sdk?list=vercel-ai-sdk-tutorial",
+        "/tool-calls-with-vercel-ai-sdk",
+        "https://www.aihero.dev/tool-calls-with-vercel-ai-sdk",
+        "https://devin.ai/",
+        "http://res.cloudinary.com/total-typescript/image/upload/v1742294305/posts/post_6i95p/tcvbxazoszifwqcdyh0h.jpg"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/what-are-tools",
+      "sourceHash": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049",
+      "translationHash": "e9e2d1d0795a237f8758217329dfd7f34abe6719fe4f647ac229e6c883a0e006",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 2,
+      "headings": 6,
+      "resources": [
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238358/ai-hero-images/xz3u7aekdbu6ujesvyup.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238359/ai-hero-images/vddikzdxcgwyvkoya6fr.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238360/ai-hero-images/qwhklgwzspsr9rkcwzum.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238361/ai-hero-images/vzn6tizkcivlmflel9ug.png"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/what-is-an-agent",
+      "sourceHash": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c",
+      "translationHash": "81ad23f66a99b7cd40ba3c465bb6a4d193f4e6f4c5c0d2c2d730f7bb458fceeb",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 4,
+      "resources": [
+        "https://www.anthropic.com/research/building-effective-agents",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238361/ai-hero-images/v2mivewubig8dr4i33y2.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238362/ai-hero-images/ca7dpsp72hqizufpeaxc.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238363/ai-hero-images/aeurhj5uzlcy4rkng3w0.png",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1759238364/ai-hero-images/l9gjjbzjqjxhxylvbjdy.png"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

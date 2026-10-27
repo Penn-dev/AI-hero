@@ -1,0 +1,9 @@
+{
+  "route": "/what-is-an-ai-engineer",
+  "source": {
+    "path": "content/source/what-is-an-ai-engineer.md",
+    "sha256": "77b72306faee34d21bef05d7f0ecb6b3cc4a4a015a7a84e4a62e721eac0b6484"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-04/drafts/what-is-an-ai-engineer.md",
+  "translationPath": "content/zh/what-is-an-ai-engineer.md"
+}

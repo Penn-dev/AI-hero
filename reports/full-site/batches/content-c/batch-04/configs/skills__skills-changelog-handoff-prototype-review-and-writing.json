@@ -1,0 +1,30 @@
+{
+  "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+  "source": {
+    "path": "content/source/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+    "sha256": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-04/drafts/skills__skills-changelog-handoff-prototype-review-and-writing.md",
+  "linkTargets": [
+    {
+      "route": "/skills",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    }
+  ]
+}

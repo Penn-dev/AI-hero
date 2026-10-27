@@ -1,0 +1,21 @@
+{
+  "/skills-codebase-design": {
+    "information": "逐节核对 7 节正文、两张表和 7 个常见问题。保留原有完整稿，修正 extraction 的含义为减轻调用方复杂性；删除原文没有的 Matt/别处归因；已发生的 issue 449 案例改回过去事实叙述，没有把单个案例泛化为必然行为。",
+    "naturalChinese": "通读完整旧稿并作局部修订，统一模块、接口、接缝、深度、适配器、局部性；删除设计工作台的新增比喻。",
+    "necessaryConcepts": "保留已有中文背景术语，标题明确改为译注，解释 Skill、模块、monorepo、IIFE、linter 和 harness。原文时效性观点与 issue 状态按固定来源保留，不作为实时核验结论。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。",
+    "codeAndLinks": "源文无围栏代码。所有原行内技术标识与原资源 URL 保留。go、resume in /codebase-design and drive the open decisions、spawn 3+ sub-agents in parallel using the Agent tool 保留英文，并增加完整可复制中文 Prompt。原讨论引文保留英文并有中文理解。 真实 UI 审查发现的加粗边界已定点修正，仅移动标记或去除链接外层加粗；原文案、代码和 URL 不变。后续 AST 扫描无字面双星号/嵌套 strong，真实 UI 仍待工程重验。",
+    "gaps": [
+      "外部 issue 状态未重新查询，不将来源中的开放状态写作本次实时验证。"
+    ]
+  },
+  "/skills-catalog": {
+    "information": "逐段核对引言与 Skill 定义、安装、使用方式、开源四节；保留第一人称、全局/项目安装差别、单个安装选项及贡献邀请。",
+    "naturalChinese": "完整中文通读，拆开安装说明与背景解释，保留作者强调个人判断与质量标准的语气。",
+    "necessaryConcepts": "译注解释仓库、fork、PR、主目录和安装准备，正文说明 PRD 为产品需求文档，不补写不存在的 Skill 列表。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。",
+    "codeAndLinks": "唯一 shell 安装命令逐字保留，-g 与 ~/.claude/skills 技术值保留；两处 GitHub 入口及位置均保留。源文没有自然语言 Prompt 或对话。",
+    "gaps": [
+      "固定来源文字提及下方 Skills，但没有取得逐项列表，页末译注已披露。",
+      "安装命令未执行，未验证用户机器 Node.js/npm 条件。"
+    ]
+  }
+}

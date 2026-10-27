@@ -1,0 +1,37 @@
+{
+  "candidate": "1e86ac0caad08a7da54d57a9a473a5b6ef909450",
+  "scope": "Exact fixed acquireStartLock function, two real concurrent Node processes on the reviewer Linux filesystem; not a replacement for public Windows CLI integration.",
+  "scenarios": [
+    {
+      "preexisting": true,
+      "results": [
+        {
+          "id": "A",
+          "acquired": false,
+          "error": "已存在启动锁，未修改它。请确认其他启动窗口已结束，再按使用说明将旧锁改名保留后重试。"
+        },
+        {
+          "id": "B",
+          "acquired": false,
+          "error": "已存在启动锁，未修改它。请确认其他启动窗口已结束，再按使用说明将旧锁改名保留后重试。"
+        }
+      ],
+      "final": "{\"processId\":999999999,\"note\":\"preserve original bytes\"}\n"
+    },
+    {
+      "preexisting": false,
+      "results": [
+        {
+          "id": "A",
+          "acquired": false,
+          "error": "已存在启动锁，未修改它。请确认其他启动窗口已结束，再按使用说明将旧锁改名保留后重试。"
+        },
+        {
+          "id": "B",
+          "acquired": true
+        }
+      ],
+      "final": "{\"owner\":\"B\"}"
+    }
+  ]
+}

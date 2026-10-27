@@ -1,0 +1,13 @@
+{
+  "port": 4322,
+  "verifiedCommandLine": "node.exe scripts/local-preview-server.mjs",
+  "verifiedPidBeforeStop": 17664,
+  "checkedAt": "2026-10-13T05:17:18.7895068Z",
+  "remainingListeners": 0,
+  "browserTabs": "left open",
+  "stopMethod": "Ctrl+C to this task retained exec session",
+  "createdAt": "2026-10-13T13:14:42.738822+08:00",
+  "ownedExecSession": 23378,
+  "browserSession": "aihero-local-delivery",
+  "stopped": true
+}

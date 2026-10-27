@@ -1,0 +1,34 @@
+{
+  "route": "/ai-coding-dictionary/grilling",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/grilling.md",
+    "sha256": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc"
+  },
+  "chineseFile": "reports/full-site/content-a/A14/drafts/grilling.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    }
+  ]
+}

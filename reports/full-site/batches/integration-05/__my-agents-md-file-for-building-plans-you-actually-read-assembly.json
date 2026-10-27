@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-10/configs/my-agents-md-file-for-building-plans-you-actually-read.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+      "manifest": {
+        "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+        "sourceUrl": "https://www.aihero.dev/my-agents-md-file-for-building-plans-you-actually-read",
+        "sourceHash": "205716a0696332278a24c19c46539f26559bd3589c3835bfae83f52885b31693",
+        "translationPath": "content/zh/my-agents-md-file-for-building-plans-you-actually-read.md",
+        "translationHash": "a3ea323132daa07be646f4a6807739a548b12fd693262d2e2569534544d02e30",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:29.031Z",
+        "assembly": {
+          "configHash": "975622d2d9f8a722acf7836b0e171d61e02f4c14c3da08c564e1ca3238d7ad34",
+          "checkedAt": "2026-10-13T13:04:29.031Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-agents-md-file-for-building-plans-you-actually-read.md",
+          "sha256": "a3ea323132daa07be646f4a6807739a548b12fd693262d2e2569534544d02e30"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "aefd851af74da9378ffa1480f45deb26805137ea0169cf2a76f6324714603990"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1ff66ca23ab61b5c9392480d82c387ee431b5b84c67c0e9cbde1571583c5d72f"
+        }
+      ],
+      "rawOutputSha256": "6d7a7df2863f20719899ee63682f789cbe20e5a585f9df1aa6ced8ffb0a2d399"
+    },
+    {
+      "mode": "apply",
+      "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+      "manifest": {
+        "route": "/my-agents-md-file-for-building-plans-you-actually-read",
+        "sourceUrl": "https://www.aihero.dev/my-agents-md-file-for-building-plans-you-actually-read",
+        "sourceHash": "205716a0696332278a24c19c46539f26559bd3589c3835bfae83f52885b31693",
+        "translationPath": "content/zh/my-agents-md-file-for-building-plans-you-actually-read.md",
+        "translationHash": "a3ea323132daa07be646f4a6807739a548b12fd693262d2e2569534544d02e30",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:29.246Z",
+        "assembly": {
+          "configHash": "975622d2d9f8a722acf7836b0e171d61e02f4c14c3da08c564e1ca3238d7ad34",
+          "checkedAt": "2026-10-13T13:04:29.246Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-agents-md-file-for-building-plans-you-actually-read.md",
+          "sha256": "a3ea323132daa07be646f4a6807739a548b12fd693262d2e2569534544d02e30"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "aefd851af74da9378ffa1480f45deb26805137ea0169cf2a76f6324714603990"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d8938988f40ca67f1e4b050bdff7c242a2a5a481bb7c895b1665b1356e3236b5"
+        }
+      ],
+      "rawOutputSha256": "7c9761f7564a8c10627a71f161cea7d7a3462fa3568ac5255f5772c27dc0c1dd"
+    }
+  ],
+  "nonTargetPagesPreserved": 171
+}

@@ -1,0 +1,195 @@
+{
+  "config": "reports/full-site/content-a/A04/configs/prefix-cache.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "manifest": {
+        "route": "/ai-coding-dictionary/prefix-cache",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
+        "sourceHash": "9101031d9fd11f9e7f593a8ec5038ad595d6f0bda46622f0cb8ebe5634d3a295",
+        "translationPath": "content/zh/ai-coding-dictionary/prefix-cache.md",
+        "translationHash": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:19.675Z",
+        "assembly": {
+          "configHash": "5aa0f8e03326a8ea6a19871f713fbc93bb714a679d371047d4453f6ef384a87f",
+          "checkedAt": "2026-10-13T11:56:19.675Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/cache-tokens",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/harness",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/input-tokens",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider-request",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/output-tokens",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/turn",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/prefix-cache.md",
+          "sha256": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a10d2b5b7f5618df7339c90496faacc8a3864b70f431f1e6c09980413810402"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8a183fa2a2b6c690f570038bd64d0904ef0cea508aa744c0481446376e8750ff"
+        }
+      ],
+      "rawOutputSha256": "06e5d6af23afe9860b83d21c34b34aed2ef9e62b304c5d713f780939d9b54c38"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "manifest": {
+        "route": "/ai-coding-dictionary/prefix-cache",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/prefix-cache",
+        "sourceHash": "9101031d9fd11f9e7f593a8ec5038ad595d6f0bda46622f0cb8ebe5634d3a295",
+        "translationPath": "content/zh/ai-coding-dictionary/prefix-cache.md",
+        "translationHash": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:19.880Z",
+        "assembly": {
+          "configHash": "5aa0f8e03326a8ea6a19871f713fbc93bb714a679d371047d4453f6ef384a87f",
+          "checkedAt": "2026-10-13T11:56:19.880Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/cache-tokens",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/harness",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/input-tokens",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider-request",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/output-tokens",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/turn",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/prefix-cache.md",
+          "sha256": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a10d2b5b7f5618df7339c90496faacc8a3864b70f431f1e6c09980413810402"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0754b476471377d190a87ccb59b7d555e5cad9e0abd01fa72d60edf87c2e6082"
+        }
+      ],
+      "rawOutputSha256": "305cacb327e89353ab9c127562e56637ff5d5e38673ce66639e7431cf2932f5d"
+    }
+  ],
+  "nonTargetPagesPreserved": 24
+}

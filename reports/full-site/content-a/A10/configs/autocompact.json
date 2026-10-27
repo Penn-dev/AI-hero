@@ -1,0 +1,38 @@
+{
+  "route": "/ai-coding-dictionary/autocompact",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/autocompact.md",
+    "sha256": "b27637eae07e7f28830ceae01e53d74088b04cf59237e669c5ab7992bb466a28"
+  },
+  "chineseFile": "reports/full-site/content-a/A10/drafts/autocompact.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    }
+  ]
+}

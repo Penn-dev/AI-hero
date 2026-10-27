@@ -1,0 +1,118 @@
+{
+  "batch": "integration-06-targeted-home-and-chinese-anchors",
+  "commit": "f5d86e68cfbd48fb66e91245ffcdf1db7a746066",
+  "runId": "38407427014",
+  "scope": "Actual assembled production pages and content-specific structures; reuses unchanged sample interaction evidence. Not semantic review or tutorial execution.",
+  "startedAt": "2026-10-13T13:45:30.714Z",
+  "pages": [
+    {
+      "id": "home",
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
+      "checks": [
+        "HTTP 200, Chinese title/body and exact original-source entry",
+        "Visible content-specific structure: main-body",
+        "Visible content-specific structure: image",
+        "All section headings reachable; images loaded; document has no horizontal overflow"
+      ],
+      "clipboard": [],
+      "images": [
+        {
+          "src": "https://www.aihero.dev/_next/image?url=%2Flanding%2Fmatt-pocock-left%402x.png&w=3840&q=75",
+          "width": 698,
+          "alt": "Matt Pocock"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_3840/f_auto/q_auto/v1789463139/aihero.dev/spot-illos/todo?_a=BAVMn6DY0",
+          "width": 630,
+          "alt": "待办事项主题插图。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Ftotal-typescript%2Fimage%2Fupload%2Fv1791799196%2Fcohorts%2Fpbqmeemewqbfeqxomwj6.jpg&w=3840&q=75",
+          "width": 960,
+          "alt": "软件工厂训练营原页面配图。"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1737463838/workshops/page-6z2ir/qxwhr72flnhn571y4cvg?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Guillermo Rauch"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1785230951/aihero/testimonials/shadcn?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "shadcn"
+        },
+        {
+          "src": "https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1785230951/aihero/testimonials/mario-zechner?_a=BAVMn6DY0",
+          "width": 96,
+          "alt": "Mario Zechner"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FXRbEUN5ae2CycFv0065CZXI6EpQwtwIDjoZuchtGPLUE%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop&w=3840&q=75",
+          "width": 720,
+          "alt": "技能更新：通用语言转向 /grill-with-docs。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FPQ8mrDluvN2qGZqOMMSrtfYgWme9C02t7hkxJuNgTxwI%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop%26time%3D0&w=3840&q=75",
+          "width": 720,
+          "alt": "我的 Grill Me 技能火了。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FAksaBDlT0001loUMjyBi3teicuK5slmZhHK4UJr2ff9gM%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop%26time%3D364.590515&w=3840&q=75",
+          "width": 720,
+          "alt": "用 Claude Code 构建真实功能，逐步讲解全过程。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Ftotal-typescript%2Fimage%2Fupload%2Fv1777894781%2Fpost-artwork%2Fpost_post_isvzd_batch_80cf5ec4-93e9-4a19-ae3e-6b6395a0e529_v3.jpg&w=3840&q=75",
+          "width": 1536,
+          "alt": "曳光弹：控制 AI 生成代码的质量。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fimage.mux.com%2FXMsKVcxDpYYuQzkAkYBZGEuLC6JuS8Z02Fhq023Mlm4ZM%2Fthumbnail.jpg%3Fwidth%3D720%26height%3D405%26fit_mode%3Dsmartcrop%26time%3D301.723828&w=3840&q=75",
+          "width": 720,
+          "alt": "怎样打造 AI 智能体容易上手的代码库。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Ftotal-typescript%2Fimage%2Fupload%2Fv1779727224%2Fpost-artwork%2Fpost_post_zacoz_batch_a59880a2-a2fa-465f-be20-f53e115b2213_v0.png&w=3840&q=75",
+          "width": 1536,
+          "alt": "使用 grill-me 和 grill-with-docs 容易弄错的九件事。"
+        },
+        {
+          "src": "https://www.aihero.dev/_next/image?url=%2Flanding%2Fmatt-pocock%402x.png&w=3840&q=75",
+          "width": 698,
+          "alt": "Matt Pocock"
+        }
+      ],
+      "errors": [],
+      "status": "failed",
+      "width": {
+        "scroll": 390,
+        "client": 390
+      },
+      "error": {
+        "name": "TimeoutError",
+        "message": "locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('navigation', { name: '全部中文页面', exact: true }).locator('details').locator('summary')\n    - locator resolved to <summary>…</summary>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    29 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n",
+        "stack": "locator.click: Timeout 15000ms exceeded.\nCall log:\n  - waiting for getByRole('navigation', { name: '全部中文页面', exact: true }).locator('details').locator('summary')\n    - locator resolved to <summary>…</summary>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    29 × waiting for element to be visible, enabled and stable\n       - element is visible, enabled and stable\n       - scrolling into view if needed\n       - done scrolling\n       - <button tabindex=\"0\" type=\"button\" aria-expanded=\"false\" aria-haspopup=\"dialog\" data-slot=\"sheet-trigger\" class=\"mobile-tool-button\" id=\"mobile-glossary-trigger\" data-base-ui-click-trigger=\"\">…</button> from <main data-content-kind=\"article\">…</main> subtree intercepts pointer events\n     - retrying click action\n       - waiting 500ms\n\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:151:40)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:194:79"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "home-390-failure.png",
+      "url": "http://127.0.0.1:4321/",
+      "sha256": "36e4f3defe8f434f24cf05b7c59ba1f641dfe1be792076700f9db07b2f46240c",
+      "bytes": 56781
+    }
+  ],
+  "status": "failed",
+  "browser": {
+    "name": "Chromium",
+    "version": "156.0.8078.4",
+    "playwright": "1.64.0"
+  },
+  "finishedAt": "2026-10-13T13:46:57.579Z"
+}

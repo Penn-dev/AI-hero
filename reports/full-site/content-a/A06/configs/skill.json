@@ -1,0 +1,54 @@
+{
+  "route": "/ai-coding-dictionary/skill",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/skill.md",
+    "sha256": "f3203e90c41b5e6eb0ed706dd6844860519201f6461484a7686b4e9667d2567a"
+  },
+  "chineseFile": "reports/full-site/content-a/A06/drafts/skill.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,18 +1,23 @@
 ---
 title: "通过 Output 生成对象"
 slug: "generating-objects-via-output~dkm2k"
-type: "workshop-lesson"
-description: "使用 AI SDK 生成结构化输出：借助 Zod schema（数据结构规则）生成符合类型要求的对象、验证 LLM 的回答，并可靠地提取数据。"
+type: "page"
 updatedAt: "2025-09-09T14:47:27.928Z"
 ---
 
 # 通过 Output 生成对象
 
-大多数时候，你希望大语言模型（LLM）返回的不只是一段文字，还要让这些文字按照明确的结构排列。比如，可以先让模型编一个发生在虚构星球上的故事，再从故事中提取事实，整理成清晰的字符串数组。
+[获取完整课程访问权限（原站）](https://www.aihero.dev/workshops/ai-sdk-v6-crash-course)
 
-[AI SDK](https://ai-sdk.dev/docs/introduction) 让这件事变得非常简单。你不必先让模型生成文字，然后自己解析内容（或者使用 [Zod](https://zod.dev) 之类的库验证结果），而是可以直接使用框架内置的结构化输出功能。
+[解答入口（原站，未取得正文）](https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution)
 
-在 AI SDK 中，这件事其实有两种实现方式：一种更符合第 5 版的用法，另一种更符合第 6 版的用法，但两种都可以在第 6 版中运行。本练习需要你实现结构化输出。
+大多数时候，你希望大语言模型（LLM）返回的不只是一段文字，还要让这些文字按照明确的结构排列。比如，可以先生成一个发生在虚构星球上的故事，再从故事中提取事实，整理成清晰的字符串数组。
+
+[AI SDK](https://ai-sdk.dev/docs/introduction) 让这件事变得非常简单。你不必先让模型生成文字，再自己解析内容（或者使用 [Zod](https://zod.dev) 之类的库验证结果），而是可以直接使用框架内置的结构化输出功能。
+
+在 AI SDK 中，这件事其实有两种实现方式：一种更符合第 5 版的用法，另一种更符合第 6 版的用法，但两种都可以在第 6 版中运行。你的任务是实现结构化输出。
+
+> **译注：本页取得了什么。** 2026-10-13 固定的公开来源包含以下练习说明、两个代码片段和课程、解答入口。没有取得课程视频、项目准备材料或解答正文，也没有取得视频文字稿内容。动手需要已有课程项目、可用的模型配置，以及运行项目命令的基础；本页没有提供安装、导入、模型初始化、依赖锁定版本或完整运行环境。以下片段不是可独立运行的程序，本次也未运行课程代码。
 
 ## [需要完成的步骤](#steps-to-complete)
 
@@ -34,7 +39,13 @@ for await (const chunk of stream.textStream) {
 const finalText = await stream.text;
 ```
 
-中文理解版（学习辅助）：这段英文提示词要求模型“写出一个虚构星球故事的第一段”。故事不会等到全部生成完才一次性显示，而是生成一小段就显示一小段；最后，程序还会保存完整的故事文本，供下一步使用。
+中文版 Prompt（译注）：
+
+```text
+请写出一个发生在虚构星球上的故事的第一段。
+```
+
+> **译注：这段代码做什么。** 故事生成一点，就在终端显示一点；结束后，程序把完整文字保存到 `finalText`，供下一步提取事实时使用。英文 Prompt 保留在原代码中，上面另附完整中文版。
 
 - 调用支持结构化输出的 [`generateText()`](https://ai-sdk.dev/docs/reference/ai-sdk-core/generate-text)
 
@@ -52,37 +63,25 @@ const finalText = await stream.text;
 const factsResult = TODO;
 ```
 
-中文理解版（学习辅助）：把占位内容 TODO 替换为一次函数调用。调用时需要传入与上一步相同的模型、要求模型总结虚构星球事实的提示词，以及上一步得到的完整故事。还要通过指定的数据结构规则，要求结果中包含一组事实，并让这些事实采用科学家的写作口吻。
+中文理解（学习辅助，译注）：把 `TODO` 替换为一次 `generateText` 调用。传入与上一步相同的模型、要求提取虚构星球事实的提示词，并把 `finalText` 作为故事传入。`output` 使用 `Output.object({})`，其中的 `schema` 使用注释中给出的 Zod 对象规则：`facts` 是字符串数组。这里保留的是待你完成的练习，没有补写函数调用或答案。
+
+中文版 Prompt（译注，对应 `.describe()` 中的完整英文指令）：
+
+```text
+关于这个虚构星球的事实。请用科学家的口吻写。
+```
 
 你还需要从 AI SDK 导入 [`Output`](https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data)，并与 `generateText` 配合使用。
 
 - 使用 [`Output.object()`](https://ai-sdk.dev/docs/ai-sdk-core/generating-structured-data) 方法定义结构化输出
 
-第三步，向这个方法传入一个带有 `schema` 属性的对象。这里的 schema 是一份“结果格式说明”：它应当是一个 [Zod](https://zod.dev) 对象，并规定 `facts` 字段必须是字符串数组，也就是由多段文字组成的一组数据。
-
-```typescript
-output: Output.object({
-  schema: z.object({
-    facts: z
-      .array(z.string())
-      .describe(
-        'The facts about the imaginary planet. Write as if you are a scientist.',
-      ),
-  }),
-});
-```
-
-中文理解版（学习辅助）：这里的英文描述是在告诉模型：“写出这个虚构星球的事实，行文要像科学家一样。”生成的多条事实会放在 facts 数组中。
+第三步，向这个方法传入一个带有 `schema` 属性的对象。这里的 schema 是一份结果格式说明：它应当是一个 [Zod](https://zod.dev) 对象，并规定 `facts` 字段必须是字符串数组。
 
 记得在字段上使用 [`.describe()`](https://zod.dev/metadata)，用文字说明字段应当包含什么，从而引导模型生成更符合要求的结果。
 
 - 输出结构化结果
 
 第四步，从结果对象中取得结构化输出，并将它显示在终端中。
-
-```typescript
-console.log(factsResult.output);
-```
 
 - 运行你的解决方案
 
@@ -94,9 +93,19 @@ console.log(factsResult.output);
 
 - （可选）尝试另一种做法
 
-完成练习后，可以再试着用 [`generateObject()`](https://ai-sdk.dev/docs/reference/ai-sdk-core/generate-object) 实现第 6 版方案，而不使用 `generateText()` 与 `Output.object()` 的组合。两种方式都能使用，不过其中一种是较新的模式。
+完成练习后，看看你能否用 [`generateObject()`](https://ai-sdk.dev/docs/reference/ai-sdk-core/generate-object) 实现第 6 版方案，而不使用 `generateText()` 与 `Output.object()` 的组合。两种方式都能使用，不过其中一种是较新的模式。
+
+> **更新说明（2026-10-13）：版本表述有差异。** 上一段保留了原文对“第 6 版方案”的说法。AI SDK 官方的 [5.x → 6.0 迁移指南](https://ai-sdk.dev/docs/migration-guides/migration-guide-6-0)说明：第 6 版已弃用 `generateObject` 和 `streamObject`，建议改用带 `output` 设置的 `generateText` 或 `streamText`。因此，不能把上一段理解为“`generateObject()` 是第 6 版较新的推荐模式”。“弃用”表示不再推荐继续采用，并不等于在第 6 版立即不可用。这里没有替换原例，也没有补写解答；实际练习仍需核对课程项目的依赖版本。
 
 ### 视频文字稿
+
+## 查看 Matt 的解答：
+
+- [通过 Output 生成对象：解答入口（原站）](https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution)
+
+[登录原站](https://www.aihero.dev/login)以保存课程进度。
+
+> **译注：材料缺口。** 本次来源只有“视频文字稿”标题，没有取得文字稿内容；不据此判断原站是否另有文字稿。以上课程访问、解答和登录均为原站入口，本地页不提供视频、答案或保存学习进度的功能。
 
 ## 中文学习辅助：术语小词典
 

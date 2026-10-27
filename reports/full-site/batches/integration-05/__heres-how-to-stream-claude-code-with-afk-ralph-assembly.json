@@ -1,0 +1,115 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-15/configs/heres-how-to-stream-claude-code-with-afk-ralph.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "manifest": {
+        "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+        "sourceUrl": "https://www.aihero.dev/heres-how-to-stream-claude-code-with-afk-ralph",
+        "sourceHash": "8a75e0ba6738c7e18f3223d5cbcf26e21a1ad3b32795d4877f3ad8fbe3b501e9",
+        "translationPath": "content/zh/heres-how-to-stream-claude-code-with-afk-ralph.md",
+        "translationHash": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:51.653Z",
+        "assembly": {
+          "configHash": "d3a0087c1184e94d1712d82877a49db0b0435aad4a17bd727742082ccf1b9798",
+          "checkedAt": "2026-10-13T13:07:51.653Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            },
+            {
+              "route": "/tips-for-ai-coding-with-ralph-wiggum",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/heres-how-to-stream-claude-code-with-afk-ralph.md",
+          "sha256": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "98c34a6695602d61295d77d24b31ad2a1003343794d9a574feaba64ccb095df0"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "58333085aadf7b9028f0d69dbd2e784917c183a9c9f4ff63243c56c85732de76"
+        }
+      ],
+      "rawOutputSha256": "29aaebe23925ba02d84e494c918e2eba2a6a31ba39b1d4e28362bfd83c946380"
+    },
+    {
+      "mode": "apply",
+      "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+      "manifest": {
+        "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+        "sourceUrl": "https://www.aihero.dev/heres-how-to-stream-claude-code-with-afk-ralph",
+        "sourceHash": "8a75e0ba6738c7e18f3223d5cbcf26e21a1ad3b32795d4877f3ad8fbe3b501e9",
+        "translationPath": "content/zh/heres-how-to-stream-claude-code-with-afk-ralph.md",
+        "translationHash": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:51.894Z",
+        "assembly": {
+          "configHash": "d3a0087c1184e94d1712d82877a49db0b0435aad4a17bd727742082ccf1b9798",
+          "checkedAt": "2026-10-13T13:07:51.894Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            },
+            {
+              "route": "/tips-for-ai-coding-with-ralph-wiggum",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，工程确认接入后刷新，保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/heres-how-to-stream-claude-code-with-afk-ralph.md",
+          "sha256": "562a1ff6dd6280c4b9fb7c0b855954f394a9219548951d8b1883e29b4e28e11e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "98c34a6695602d61295d77d24b31ad2a1003343794d9a574feaba64ccb095df0"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "261f7dcda5451f6b90488d7061cefe84bb599b895b5de558f4fd6d31e24a3af7"
+        }
+      ],
+      "rawOutputSha256": "6a4a831d386715d903fffda8f2bf2c974848ab52c4e2b9cf100882b7f1780558"
+    }
+  ],
+  "nonTargetPagesPreserved": 193
+}

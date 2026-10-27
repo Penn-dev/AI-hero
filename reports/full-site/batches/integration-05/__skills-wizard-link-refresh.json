@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-17/configs/skills-wizard.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-wizard",
+      "manifest": {
+        "route": "/skills-wizard",
+        "sourceUrl": "https://www.aihero.dev/skills-wizard",
+        "sourceHash": "29ed23c37badfd031173fb113491a8698884d9729aea053518c18ca2694aa8fa",
+        "translationPath": "content/zh/skills-wizard.md",
+        "translationHash": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:40.384Z",
+        "assembly": {
+          "configHash": "0c2a634fd73349009b53746fc1c3bad5b149196bb0b1a8420b020b55ed6e0393",
+          "checkedAt": "2026-10-13T13:02:40.384Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-wizard.md",
+          "sha256": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0fae91df8dddc476c572640e01388d5d9322012d542dcadd141c537a0da45ec9"
+        }
+      ],
+      "rawOutputSha256": "16c7fe0072a3b2ac73d0cf5ddb5a368dc85acbe368696e0b94eb8ea1697efaa7"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-wizard",
+      "manifest": {
+        "route": "/skills-wizard",
+        "sourceUrl": "https://www.aihero.dev/skills-wizard",
+        "sourceHash": "29ed23c37badfd031173fb113491a8698884d9729aea053518c18ca2694aa8fa",
+        "translationPath": "content/zh/skills-wizard.md",
+        "translationHash": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:40.637Z",
+        "assembly": {
+          "configHash": "0c2a634fd73349009b53746fc1c3bad5b149196bb0b1a8420b020b55ed6e0393",
+          "checkedAt": "2026-10-13T13:02:40.637Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-wizard.md",
+          "sha256": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c3fac4e91192805aee1fbcc7bb2bd0d4d9fa528031953bb7ee6af6b2b4a0e5be"
+        }
+      ],
+      "rawOutputSha256": "689b85acd09e58da89f42080c71a259c8fc4adc98ef565de74dd574894cc8602"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

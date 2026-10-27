@@ -1,0 +1,75 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sourcePath": "content/source/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "sourceHash": "dff4f6aa67744c44986049e875369fae8501389676d4e005dafc85db057890b4",
+      "chineseFile": "reports/full-site/batches/content-c/batch-13/drafts/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "translationHash": "9e0bddfa4a5084074677dd9e87f58194d62c18ad6db338b519e7ecc076741a91",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对完整更新日志、两张表和三个原围栏，保留仓库五类、旧命令/文件名、ADR 三条件、架构词汇定义、配置方式、诊断五步、triage 两类别五状态及第一人称结语。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "全文通读，保留历史发布语境与作者语气。词汇定义、流程和配置理解完整，没有把旧名称静默升级。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "译注解释限界上下文、状态机、AFK及历史版本，补 Skill/渐进披露/AFK 中文入口；配置登录文字明确只是原例。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "三个围栏按该页固定源文原字节抽取并保持 md/无语言标签；每段自然语言原文附完整中文可复制块。全部原行内技术值及原 URL 保留。",
+          "originalFencedBlocks": 3,
+          "originalMarkdownResourceOccurrences": 18
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "历史命令与登录示例未执行；中文导航 planned 待工程刷新。"
+      ]
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sourcePath": "content/source/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+      "chineseFile": "reports/full-site/batches/content-c/batch-13/drafts/skills__skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "与同题 post 共享正文逐段核对后，单独核 page 版本：作者头像、H1、十处自锚点、/skills 两处、课程 CTA、三个分享入口及 Copy URL 都保留；两张表完整呈现，不伪造 View Table 控件。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "正文与对应 post 保持一致，页面外壳可见文字完整中文化，历史语境不变。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "同正文解释与中文导航；额外说明课程 CTA 无源入口，View Table 包装转换为直接显示表格。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "单独从 page 源文抽取三个围栏，保持 markdown/txt/txt 原标签；原链接和图片/分享查询参数全保留，中文 Prompt 完整。锚点通过标题自链保留。",
+          "originalFencedBlocks": 3,
+          "originalMarkdownResourceOccurrences": 33
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "课程推广缺少来源入口，页面已披露；命令/登录未执行。",
+        "/skills 及中文概念导航 planned，工程按最终接页状态刷新。"
+      ]
+    }
+  ]
+}

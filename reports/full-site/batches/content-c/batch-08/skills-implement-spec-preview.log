@@ -1,0 +1,88 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-08/configs/skills-implement-spec.json
+
+{
+  "mode": "preview",
+  "route": "/skills-implement-spec",
+  "page": {
+    "title": "/implement-spec Skill",
+    "description": "让并行子智能体一次实现整份规格。",
+    "markdown": "## 它能做什么\n\n`implement-spec` 接收一份[规格](https://www.aihero.dev/ai-coding-dictionary/spec)及其[任务单](https://www.aihero.dev/ai-coding-dictionary/ticket)，在一次执行中把整项工作完成。负责协调的[智能体](https://www.aihero.dev/ai-coding-dictionary/agent)把每张任务单交给实现[子智能体](https://www.aihero.dev/ai-coding-dictionary/subagent)，各自在独立的 Git worktree 中工作；再把完成的分支合入一条**整合分支**，对结果运行 [code-review](https://aihero.dev/skills-code-review)，最后完成任务单的收尾。\n\n它把任务单读成**任务依赖图**，而非清单。阻塞关系决定哪些任务可以开始，因此任何时刻都有一组**已就绪任务（frontier）**，它们的前置任务都已落地；这组任务会同时执行。这与按顺序逐张处理不同。决定进度的是依赖图的形状，而非任务系统中的排列顺序。\n\n译注：worktree 是同一仓库的独立工作目录，可以让不同分支分别修改文件。整合分支集中收纳各任务成果，但这不等于把它合并到主分支。\n\n## 什么时候该用它\n\n输入 `/implement-spec` 来调用；智能体不会自行选用。\n\n| 你的情况 | 使用什么 |\n| --- | --- |\n| 规格已拆成带阻塞关系的任务单，希望一次完成 | `/implement-spec` |\n| 在自己的[上下文窗口](https://www.aihero.dev/ai-coding-dictionary/context-window)中一次做一张，任务之间[清空上下文](https://www.aihero.dev/ai-coding-dictionary/clearing) | [implement](https://aihero.dev/skills-implement) |\n| 规格还没拆任务 | 先用 [to-tickets](https://aihero.dev/skills-to-tickets) |\n| 一小块工作，没有真正的任务依赖图 | 直接用 [implement](https://aihero.dev/skills-implement) |\n\n## 使用前提\n\n- **任务跟踪系统。** Skill 从 [setup-matt-pocock-skills](https://aihero.dev/skills-setup-matt-pocock-skills) 配置的系统读取任务，并在那里完成收尾。如果尚未配置，它会停下，要求先运行设置，而不是猜测。\n- **带阻塞关系的任务单**，例如 [to-tickets](https://aihero.dev/skills-to-tickets) 生成的任务。没有依赖边，图就是平的，所有任务都会同时开始。\n- **能在后台运行子智能体，并给每个子智能体分配 Git worktree 的[执行框架](https://www.aihero.dev/ai-coding-dictionary/harness)。** 这个 Skill 的目的就是并行做任务；如果框架一次只能运行一个子智能体，它就只是更慢的 `implement`。\n\n## 整合分支\n\n所有成果都汇入同一条分支。每个实现者都会：\n\n1. 开始前确认自己的 worktree 基于整合分支。\n2. 用 [tdd](https://aihero.dev/skills-tdd) 实现任务，一次一个切片，先红后绿。\n3. 报告完成前，把整合分支的最新提交合入自己的分支，让后续接入可以快进完成。\n\n译注：“红”指测试先失败，“绿”指实现后测试通过。快进合并意味着目标分支能直接向前移动到已有提交，不必另行解决分叉。\n\n是否创建 PR 由任务跟踪方式决定。如果跟踪系统通过 PR 关闭任务，或你要求 PR，Skill 会在第一次合入后创建草稿 PR，并在结束时标记为可审阅。否则，执行就停在整合分支，按任务系统的惯例完成每张任务单。使用本地 Markdown 跟踪系统时，这套过程可以完全离线进行。\n\n实现者通过[上下文指针](https://www.aihero.dev/ai-coding-dictionary/context-pointer)与协调者沟通，例如规格、任务单、共享探索笔记和先前提交，而不是粘贴摘要。这样每个子智能体的提示词更小，协调者的窗口也能留下空间处理依赖图。\n\n## 常见问题\n\n**这与我自己对每张任务单运行 `/implement` 有什么区别？**\n\n这正是本 Skill 要回答的问题。发布前，人们一直在自己制作类似工具。有位用户说，他们想要“subagents implement the tickets”，而不想“to individually create new session and tell them to implement a ticket one by one, when a spec may contain over 5 tickets.”\n\n中文理解：希望子智能体实现任务单，而不是一张张另开会话再让它们实现，因为一份规格可能有五张以上任务。\n\n使用 `implement` 时，你就是调度者：每张任务一个[会话](https://www.aihero.dev/ai-coding-dictionary/session)，中间清空上下文，自己跟踪哪些任务已解除阻塞。`implement-spec` 把这项工作交给一个协调会话。代价是，你不再逐张阅读刚完成的任务，而是在最后审阅整合分支。开始时先清空上下文，再输入 `/implement-spec`，附上规格入口，可以是 issue 编号或文件路径。小改动没有真正的依赖图，就跳过它，直接用 `implement`。\n\n**必须用 GitHub 吗？我希望只做到分支为止。**\n\n现在不需要了。一位喜欢开发中版本的用户曾提出相同意见：“it creates a PR at the end, which requires an online repository like GitHub. I wish it could do the same work offline and stop at the branch where all the work is merged.”\n\n中文理解：它最后会创建 PR，需要 GitHub 这样的在线仓库；希望它能离线完成同样的工作，停在已经汇总所有修改的分支上。\n\n现在执行结束于整合分支。只有已配置的任务系统通过 PR 关闭工作，或你明确要求时，才创建 PR。因此，用本地 Markdown 系统时，结束状态就是每张任务已收尾，工作已合入分支。\n\n**审阅与修复循环跑了好几个小时，或者一直“修复”还没实现的任务。**\n\n只要 `code-review` 不在 Skill 指定的那个时点运行，就可能发生这两种情况。它把代码与整份规格比较，因此只有全部任务落地后才有意义。中途运行时，每个尚未实现的任务都会被看作失败；智能体补做该任务，又触发下一次审阅。Skill 在最后只运行一次 `code-review`，把全部发现交给一个修复子智能体，但尚未说明修复后何时停止。有用户报告，一项包含五张任务的功能，“the review and fix loop took roughly four hours”。\n\n中文理解：审阅和修复循环大约花了四个小时。\n\n如果看到第二次全面审阅开始，就要求它针对已修复的发现做定点检查，然后停止。应当预期第一次审阅会发现真实问题。实现阶段的结果是需要由审阅补完的初稿，不是可直接交付的成品。\n\n**它像 implement 一样执行 tdd 吗？**\n\n现在会，最初不会。使用开发中版本的用户注意到，“the implementer subagents don't inherit the /tdd directive”。\n\n中文理解：实现子智能体没有继承 /tdd 指令。\n\n因此，一旦从单任务扩展到整份规格，红绿循环就停止了。现在每个实现者都会用 `tdd` 做任务。但仍没有像 `implement` 会话那样，与你交互确认接缝的步骤。如果要固定接缝，请在规格或任务单中写明。\n\n**两个并行实现者撞了同一文件，或者给同一个东西起了不同名字。**\n\nworktree 不会消除冲突，只会把冲突推迟到合并时。根据任务文字写出的阻塞关系，只是对将触及哪些文件的猜测。两个任务即使位于“代码库的不同部分”，仍可能共享消息目录、配置注册表或类型。每个实现者只看到自己的任务和共享笔记，看不到另一个正在进行的工作。因此有用户的网页端与移动端任务，把同一个字符串分别命名为 `blockedSince` 和 `blockedOn`。两个已就绪任务涉及同一共享文件时，要么加一条阻塞关系，让它们先后执行；要么在探索笔记中固定各自新增的准确名称。\n\n**前置任务已合入，被阻塞的任务却一直不开始。**\n\n这是 GitHub 上的已知问题。任务系统的 blocked-by 计数只有在阻塞任务*关闭*后才会减少，而任务通常要等 PR 合并才关闭，那已经是整轮执行结束时了。任务系统适合作为初始依赖图来源，但中途状态可能滞后。请让协调者自己跟踪哪些任务已经合入整合分支，并据此计算已就绪任务。\n\n**它能替代 Sandcastle 或 AFK 脚本吗？**\n\n不能。Skills 现在也涉及实现，所以有人问：“is Sandcastle still relevant? Your skills now seem to be able to handle implementation as well.”\n\n中文理解：Sandcastle 还有用吗？你的 Skills 现在看起来也能负责实现了。\n\n`implement-spec` 让智能体在一次执行框架会话内负责协调，无需额外基础设施，你也可以旁观和引导。如果是真正的 [AFK](https://www.aihero.dev/ai-coding-dictionary/afk) 工作，确定性的循环，例如 [Sandcastle](https://github.com/mattpocock/sandcastle)、shell 脚本或 CI 任务，更快、更便宜、更可靠，因为调度决定不由智能体作出。\n\n**任务的关键测试在 worktree 中跳过了，它却报告通过。**\n\nworktree 只包含 Git 跟踪的内容。依赖被 gitignore 排除的测试材料、本地数据库或凭据的测试，可能在这里悄悄跳过。如果某张任务的验证依赖未跟踪资料，请让协调者在主检出目录中运行验证。\n\n## 出现这些迹象，就说明它在发挥作用\n\n- 只要依赖图允许，就有多个实现者同时运行，而非一个接一个。\n- 最后一项前置任务合入整合分支后，任务立即开始，不等整轮结束。\n- 每个任务的记录里都有运行 `tdd` 的过程，先有失败测试，再有代码。\n- 合入整合分支时是快进，而非现场解决冲突。\n- 最终停在一条分支上，每张任务都已收尾；只有任务系统需要时才有 PR。\n\n## 它处在什么位置\n\n`implement-spec` 是主要流程中的开发步骤，是逐张运行 [implement](https://aihero.dev/skills-implement) 的并行替代方案：\n\n```txt\ngrill-with-docs → to-spec → to-tickets → implement-spec → retro\n```\n\n相邻的是 [to-tickets](https://aihero.dev/skills-to-tickets)，它声明阻塞关系，供本 Skill 读取为依赖图；以及 [code-review](https://aihero.dev/skills-code-review)，本 Skill 会在收尾前用它审阅整合分支。不确定自己在哪条流程中时，[ask-matt](https://aihero.dev/skills-ask-matt) 提供整套 Skills 的路线选择。\n\n译注：本页介绍固定来源中的工作方式，未实际运行并行实现或验证各宿主的支持情况；涉及文件和凭据时，仍须遵守所在环境的权限。\n\n译注：本页相关中文词条：[子智能体](/ai-coding-dictionary/subagent)、[任务单](/ai-coding-dictionary/ticket)、[环境](/ai-coding-dictionary/environment)。链接优先打开已接入的中文页；尚未接入时会回到原站英文页。",
+    "sourceUpdatedAt": "2026-10-05T08:28:27.923Z",
+    "sourceUrl": "https://www.aihero.dev/skills-implement-spec",
+    "sourceHash": "5dbd4d76095c9dc54b60a9c89c453d74e2f2ab6f788250dd3d26ce6b74c75152"
+  },
+  "manifest": {
+    "route": "/skills-implement-spec",
+    "sourceUrl": "https://www.aihero.dev/skills-implement-spec",
+    "sourceHash": "5dbd4d76095c9dc54b60a9c89c453d74e2f2ab6f788250dd3d26ce6b74c75152",
+    "translationPath": "content/zh/skills-implement-spec.md",
+    "translationHash": "d3ca6a52c97daaf7161c2cfb98a8501d43a8d805cf0f820e5f9f0bb8b797c30f",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T11:40:17.245Z",
+    "assembly": {
+      "configHash": "44fdbd51bcc28bb65a368757234dffc9a93c539d8379f6331216f797f1e0d050",
+      "checkedAt": "2026-10-13T11:40:17.245Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/subagent",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/ticket",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/environment",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        }
+      ],
+      "staleChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/skills-implement-spec.md",
+      "sha256": "d3ca6a52c97daaf7161c2cfb98a8501d43a8d805cf0f820e5f9f0bb8b797c30f"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "e5c7985520facffe759b061a96f836b1c2d00b17f745e471aa65a570cfc5c3ed"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "635ccdf9ac336b320aa49b1af257933fdddda7e2f8824995d6494d0aa929edd1"
+    }
+  ]
+}

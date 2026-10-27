@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-12/configs/tracer-bullets.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/tracer-bullets",
+      "manifest": {
+        "route": "/tracer-bullets",
+        "sourceUrl": "https://www.aihero.dev/tracer-bullets",
+        "sourceHash": "9f19252ea92f8ce0232186eb07224670c9410b9c7fbbfc0bc7bcb12d4267ee57",
+        "translationPath": "content/zh/tracer-bullets.md",
+        "translationHash": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:33.601Z",
+        "assembly": {
+          "configHash": "789405ca43a73594f2b07a180c7e566f90ec7794eb1ab6fdca66eefedc6abf13",
+          "checkedAt": "2026-10-13T13:04:33.601Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills-prototype",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/tracer-bullets.md",
+          "sha256": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "784a998e6b05168ddc92a125f7cc515896cc6d3bca473e4f02267a998778e576"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "3a6c5d909aff5248d1af0defd6c7de42b941278fc81f220ea93aa75a64aa5090"
+        }
+      ],
+      "rawOutputSha256": "22f402c1c870e2b668cc3bf2cbfe7c6ff2b796efb0bb153b1d7685160f63df3f"
+    },
+    {
+      "mode": "apply",
+      "route": "/tracer-bullets",
+      "manifest": {
+        "route": "/tracer-bullets",
+        "sourceUrl": "https://www.aihero.dev/tracer-bullets",
+        "sourceHash": "9f19252ea92f8ce0232186eb07224670c9410b9c7fbbfc0bc7bcb12d4267ee57",
+        "translationPath": "content/zh/tracer-bullets.md",
+        "translationHash": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:33.827Z",
+        "assembly": {
+          "configHash": "789405ca43a73594f2b07a180c7e566f90ec7794eb1ab6fdca66eefedc6abf13",
+          "checkedAt": "2026-10-13T13:04:33.827Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills-prototype",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/tracer-bullets.md",
+          "sha256": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "784a998e6b05168ddc92a125f7cc515896cc6d3bca473e4f02267a998778e576"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "95595b254b6f0f2776be2a398ae63b75e2f42332aba3a85ab653af3ae99363db"
+        }
+      ],
+      "rawOutputSha256": "a14e0e2edc78f86b1e2218de516e8e37afc46419d7d143c8e7a3955f75ed6f84"
+    }
+  ],
+  "nonTargetPagesPreserved": 180
+}

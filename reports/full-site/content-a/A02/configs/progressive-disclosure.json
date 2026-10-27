@@ -1,0 +1,54 @@
+{
+  "route": "/ai-coding-dictionary/progressive-disclosure",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/progressive-disclosure.md",
+    "sha256": "5d66bc98fae76fc8d8df7eb8d4b0f6d514832a21b2340a224e8c33b791f3ec73"
+  },
+  "chineseFile": "reports/full-site/content-a/A02/drafts/progressive-disclosure.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    }
+  ]
+}

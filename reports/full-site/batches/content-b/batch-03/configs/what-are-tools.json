@@ -1,0 +1,9 @@
+{
+  "route": "/what-are-tools",
+  "source": {
+    "path": "content/source/what-are-tools.md",
+    "sha256": "8aa9eb57d66d6af4781f5bfeb862aaaada652f168faaeb46b8dfe0c5d6ae1049"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-03/drafts/what-are-tools.md",
+  "translationPath": "content/zh/what-are-tools.md"
+}

@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-12/configs/my-7-phases-of-ai-development.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/my-7-phases-of-ai-development",
+      "manifest": {
+        "route": "/my-7-phases-of-ai-development",
+        "sourceUrl": "https://www.aihero.dev/my-7-phases-of-ai-development",
+        "sourceHash": "276360ca1eb6c2a68ab7889498ad2351d9c355620f510ce7a73f1dcb1c251e6d",
+        "translationPath": "content/zh/my-7-phases-of-ai-development.md",
+        "translationHash": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:32.023Z",
+        "assembly": {
+          "configHash": "b68df70d87c919662b05f6e36a7ead836c42a687d23803a3db1eac954c77f13d",
+          "checkedAt": "2026-10-13T13:04:32.023Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-7-phases-of-ai-development.md",
+          "sha256": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "44c00747725a567be88d5bf0961365106826f45493714476366b8c76423af0be"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "962f7473f663ce17fb736f4b2d275bf16fb830ce6c4e900e955b892740a08fe6"
+        }
+      ],
+      "rawOutputSha256": "f45b5ee1d650a94f372404ab1f9aecef095e4791641c9a3500d6cfd97ff81f26"
+    },
+    {
+      "mode": "apply",
+      "route": "/my-7-phases-of-ai-development",
+      "manifest": {
+        "route": "/my-7-phases-of-ai-development",
+        "sourceUrl": "https://www.aihero.dev/my-7-phases-of-ai-development",
+        "sourceHash": "276360ca1eb6c2a68ab7889498ad2351d9c355620f510ce7a73f1dcb1c251e6d",
+        "translationPath": "content/zh/my-7-phases-of-ai-development.md",
+        "translationHash": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:32.292Z",
+        "assembly": {
+          "configHash": "b68df70d87c919662b05f6e36a7ead836c42a687d23803a3db1eac954c77f13d",
+          "checkedAt": "2026-10-13T13:04:32.292Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-7-phases-of-ai-development.md",
+          "sha256": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "44c00747725a567be88d5bf0961365106826f45493714476366b8c76423af0be"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8e40adde98cd5c0591f6636a22792f2a2f2efd44db263f297edd726b4b7e361c"
+        }
+      ],
+      "rawOutputSha256": "02997248a662c276d865acdc17a7dfb739545adf997149582fbb34a86c69c386"
+    }
+  ],
+  "nonTargetPagesPreserved": 177
+}

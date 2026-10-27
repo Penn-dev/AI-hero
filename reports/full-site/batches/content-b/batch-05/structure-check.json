@@ -1,0 +1,108 @@
+{
+  "batch": "batch-05",
+  "results": [
+    {
+      "route": "/generate-text-with-vercel-ai-sdk",
+      "sourceHash": "ffb189c870c13f28284adc1898731ac1280cc663c8202a368ad6db94922341ea",
+      "translationHash": "efbcbe5f795191c368068df43b0b6b230212014b2860305cfc47bee294320c06",
+      "structuralValidation": "passed",
+      "fencedBlocks": 6,
+      "headings": 4,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/streaming-text-with-vercel-ai-sdk",
+      "sourceHash": "b7be79753832f1d6087f99f18cee294aff7541ddf54407e1c087d1f437a334cf",
+      "translationHash": "9f150625c4771d43309dd88d2eac522f49d3f6e2a0137d7db8b374857e00a95c",
+      "structuralValidation": "passed",
+      "fencedBlocks": 6,
+      "headings": 5,
+      "resources": [
+        "/generate-text-with-vercel-ai-sdk",
+        "https://www.aihero.dev/generate-text-with-vercel-ai-sdk"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/structured-data-from-pdfs-with-vercel-ai-sdk",
+      "sourceHash": "f277e10827d20b167361744d27da8236be850b5652548b53e0ff36d3a1a73461",
+      "translationHash": "ecbb7283113651d9d4dae74453cf99e12fd1ef8cc3d05f7d4a387768c3ad0282",
+      "structuralValidation": "passed",
+      "fencedBlocks": 10,
+      "headings": 8,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "sourceHash": "aac3e780421568244954473c45d09d24ba5acd4f4dbcd63a3937aede0a1e89b4",
+      "translationHash": "971ab2c8677e624acfdbee607f50e6a15cb6fd1fd661a8ca400794a20cfced7a",
+      "structuralValidation": "passed",
+      "fencedBlocks": 5,
+      "headings": 3,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/system-prompts-with-vercel-ai-sdk",
+      "sourceHash": "04ce96d05f56845bc10365c233094b95ebc9fd237d25dc5631042bc712b17c8f",
+      "translationHash": "98ae9e5576b442883f073dfdc1fa99cd87ab857affef849dd178cb435376c592",
+      "structuralValidation": "passed",
+      "fencedBlocks": 4,
+      "headings": 2,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "sourceHash": "8f6395c1abdb055ef0c11102cf0363582a69f1439baef4e91ca29e358b3545e7",
+      "translationHash": "5ac4b8d2978128fa71304222dbbd3410dbcbf0d5d999d0172121052bdcd432b5",
+      "structuralValidation": "passed",
+      "fencedBlocks": 0,
+      "headings": 0,
+      "resources": [
+        "http://res.cloudinary.com/total-typescript/image/upload/v1737461573/posts/list-40v10/sopfsrvcgstoclcusbui.jpg",
+        "https://github.com/ai-hero-dev/ai-hero/"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/vercel-ai-sdk",
+      "sourceHash": "9308ba148cf300569b21c782c6682fd9f38228470e38f3932cb7a18de907a674",
+      "translationHash": "1ef05776dea15bb2d16c958e952a7755adb2be4cc3e23d12e47d280a05440dbc",
+      "structuralValidation": "passed",
+      "fencedBlocks": 7,
+      "headings": 6,
+      "resources": [
+        "https://sdk.vercel.ai/docs/introduction",
+        "https://sdk.vercel.ai/providers/ai-sdk-providers",
+        "https://github.com/openai/openai-node",
+        "https://github.com/anthropics/anthropic-sdk-typescript",
+        "https://sdk.vercel.ai/docs/introduction"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/what-is-the-ai-sdk",
+      "sourceHash": "860e5626279ac355abdcbf46c85c6c1a495441fd723493cb1c5b4502c3141605",
+      "translationHash": "1bde538f091511230c638d91171a2e9ed534eb35f8b5282472a868058616feca",
+      "structuralValidation": "passed",
+      "fencedBlocks": 4,
+      "headings": 6,
+      "resources": [
+        "/workshops/ai-sdk-v6-crash-course",
+        "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

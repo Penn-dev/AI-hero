@@ -1,0 +1,24 @@
+
+> sites-project@0.1.0 learning:validate
+> node scripts/validate-learning-pages.mjs
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Knowledge source changed: content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md
++ actual - expected
+
++ 'c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5'
+- 'df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54'
+
+    at file:///E:/dev/projects/AIHero/work/full-site-samples/scripts/validate-learning-pages.mjs:13:10 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 'c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5',
+  expected: 'df70b6e09ddcc802b545ad14e7df6f0bcb22c703b8cca5486ee3b9eac5565e54',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.14.0

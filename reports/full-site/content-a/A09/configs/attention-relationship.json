@@ -1,0 +1,46 @@
+{
+  "route": "/ai-coding-dictionary/attention-relationship",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/attention-relationship.md",
+    "sha256": "b5563d1488719ae62eb792a3728a5c491e505e4cd9b9a22f0310cf85eb1b8275"
+  },
+  "chineseFile": "reports/full-site/content-a/A09/drafts/attention-relationship.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

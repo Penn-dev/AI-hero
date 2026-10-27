@@ -1,0 +1,88 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-06/configs/skills-to-questionnaire.json
+
+{
+  "mode": "preview",
+  "route": "/skills-to-questionnaire",
+  "page": {
+    "title": "/to-questionnaire Skill",
+    "description": "把尚未回答的问题整理成一份请别人填写的文档。",
+    "markdown": "## 它能做什么\n\n`to-questionnaire` 把你无法独自作出的决定，整理成一份**问卷**：一个 Markdown 文档，交给那位掌握缺失信息的人，让对方异步填写，或让你们在会议上一起逐项讨论。\n\n它追问的是**发给谁、要拿回什么**，从不追问主题本身。围绕主题采访你没有意义，因为你不了解主题，才需要去问别人。因此，它只问你一定能回答的两件事：文档给谁，以及希望对方提供什么。文档里的每个问题，都指向这两者之间的**信息缺口**。\n\n## 什么时候该用它\n\n输入 `/to-questionnaire` 来调用；[智能体](https://www.aihero.dev/ai-coding-dictionary/agent)不会自行选用。\n\n当一项决定卡在另一个人掌握的知识上时使用：客户、领域专家、掌握业务规则的高管，或其他团队的同事。该用哪个 Skill，取决于答案在哪里：\n\n| 答案在哪里 | 使用哪个 Skill |\n| --- | --- |\n| 在你脑中，还没理清 | [grill-me](https://aihero.dev/skills-grill-me) |\n| 在代码库中 | [grill-with-docs](https://aihero.dev/skills-grill-with-docs) |\n| 在另一个人脑中 | `to-questionnaire` |\n| 还没人知道，需要先看到一个东西才能判断 | [prototype](https://aihero.dev/skills-prototype) |\n\n最常见的情况是，一次[追问讨论](https://www.aihero.dev/ai-coding-dictionary/grilling)卡住了，因为其中一些问题不该由你回答。在同一段对话中运行 `/to-questionnaire`，把这些问题带出去问，拿回答案再继续。\n\n译注：“异步”意味着对方不必与你同时在线，可以在方便时填写。Skill 生成问卷文件，不会替你发送。\n\n## 问交付对象，不问主题本身\n\n访谈只进行两轮交流，然后停止：\n\n- **给谁？** 对方的角色、专业知识，以及与你的关系。这决定语气和文档需要带上多少背景。外部客户需要说明来龙去脉，同组同事则不必。\n- **你需要对方给回什么？** 你无法独自确定的具体决定或事实。这会成为成稿的检查清单，每个事项都会对应一个问题。\n\n之后全部是撰写工作。Skill 把文件保存到当前目录的 `to-questionnaire-<slug>.md`。无需设置、专用工作区或配置。\n\n## 问卷文档\n\n这是一份**探索性问卷**，因为你缺少背景，而接收者掌握背景。这决定了它的结构：\n\n- 开头用一句话说明哪项决定依赖这份问卷，并附上一小段背景，照顾完全不了解你情况的接收者。\n- 按主题分组，**最重要的问题在前**，因为异步交流可能只有一轮机会。\n- 每题只问一件事，不把多个问题捆在一起；下方留填写位置。只有问题可能被误解时，才加一句*为什么要问*。\n- 明确允许回答“I don't know”。标明不确定性很有用，装成事实的自信猜测没有用。\n- 最后留一道兜底题：有没有我们没问、但应该知道的事情？\n\n中文理解：“I don't know”就是“我不知道”。\n\n这份文档刻意不做两件事。它**没有分支逻辑**：问题是按主题分组的平铺清单，不会因为 A 题的答案而跳过 D 节。它也**不面向多位接收者**：一次运行只为一个人生成一份文档。\n\n## 常见问题\n\n**它会读取追问会话，抽取其中的问题吗？**\n\n这不是一个独立步骤。Skill 没有资料导入阶段；它先问接收者和所需回答，然后起草。之所以能在追问会话后使用，是因为你在**同一段对话**中运行，[会话](https://www.aihero.dev/ai-coding-dictionary/session)已经在[上下文](https://www.aihero.dev/ai-coding-dictionary/context)中，起草时可以直接利用。另开新会话，它就完全不知道前面的讨论；回答“what do you need back?”时，你得自己重新提供主题。\n\n中文理解：“what do you need back?”是“你需要对方给回什么？”\n\n**缺失答案不全在同一个人手里，能按接收者拆分吗？**\n\n不能。第一步询问的是单数的*接收者*，整份文档的语气和背景都针对这个人。三个人各掌握一部分答案，就分别运行三次。有人要求生成一份按专业或角色分发问题的文档，但这个功能没有发布。\n\n**题目有依赖关系吗？会根据前面的答案跳过某些部分吗？**\n\n不会。有依赖关系的问卷设计曾被探索过，但没有发布。输出是静态文档：主题分组、重要优先、所有题目都需要面对。反对这种分支问卷的理由是成立的：[模型](https://www.aihero.dev/ai-coding-dictionary/model)如果在没听到真实答案前，就往后规划超过两三个问题，往往规划不好；分支文档却要求它在任何答案出现前，就规划完所有问题。\n\n**对方也不知道怎么办？**\n\n文档会告诉对方直说，明确鼓励“I don't know”和不完整的回答。标明不确定性比猜测更有价值，因为回到你的上下文里时，模糊回答与自信但错误的回答看起来并无区别。\n\n中文理解：“I don't know”就是“我不知道”；掌握一部分信息，也可以只回答知道的部分。\n\n**它会发到哪里，比如 Slack、任务跟踪系统或邮箱吗？**\n\n不会。它在当前目录写一个 Markdown 文件，然后告诉你路径。发送由你负责：粘贴到[任务单](https://www.aihero.dev/ai-coding-dictionary/ticket)，放进 Slack 讨论串，作为邮件附件，或在共享屏幕上打开并当面讨论。这四种方式都有人手动用过。\n\n**这不就是批量版 `/grill-me` 吗？**\n\n不是。`grill-me` 本来就按**轮次**提问。它一次提出当前所有前提已满足的未决问题，再根据你的回答重新计算，所以已经满足“give me all the questions at once”的需求。\n\n中文理解：“give me all the questions at once”是“一次把所有问题给我”。\n\n中文 Prompt（译注）：\n\n```text\n一次把所有问题给我。\n```\n\n`to-questionnaire` 的区别在另一个维度：答案在谁脑中，而不是问题怎样送达。想让自己回答得更快，用 `grill-me`；想向别人取得答案，用这个 Skill。\n\n**不用 Skill，直接让智能体写，不也可以吗？**\n\n可以。它出现之前，许多人已经这么做了：`OPEN_QUESTIONS.md` 文件、发给客户的表格，或每个未回答问题建一张“需要更多信息”的任务单。Skill 带来两点：访谈不会跑偏去追问主题本身，文档也会以非技术接收者能填写的形式写出来。如果你已经有好用的内部格式，就不需要它。\n\n## 出现这些迹象，就说明它在发挥作用\n\n- 它问清接收者和你需要的回答后就不再提问。如果继续追问主题本身，说明执行偏了。\n- 每项“我需要拿回的信息”，都能对应到文件中的一道题。\n- 问题针对的是*接收者*知道什么，而非逐字复制你自己悬而未决的问题。\n- 没参加原对话的人拿到文件，也知道为什么收到、何时需要回复。\n- 拿回来的答案能直接用于下一轮追问，而不是又变成一组新问题。\n\n## 它处在什么位置\n\n`to-questionnaire` 是一个随时可用的独立 Skill。当自己的知识到头，下一步需要问另一个人，而不是运行另一个 Skill 时，就用它。通常发生在流程中途：规划卡在某个不该由你决定的问题上。\n\n它与 [grill-me](https://aihero.dev/skills-grill-me) 相近，区别是答案在哪里。追问从你这里取得答案，问卷从别人那里取得答案。拿回来的信息可以送进新一轮追问；如果工作将进入开发，也可以交给 [grill-with-docs](https://aihero.dev/skills-grill-with-docs) 或 [to-spec](https://aihero.dev/skills-to-spec)。不确定该用哪个 Skill 时，[ask-matt](https://aihero.dev/skills-ask-matt) 可以帮你选择。\n\n译注：本页相关中文词条：[追问讨论](/ai-coding-dictionary/grilling)、[上下文](/ai-coding-dictionary/context)、[Skill](/ai-coding-dictionary/skill)。链接优先打开已接入的中文页；尚未接入时会回到原站英文页。",
+    "sourceUpdatedAt": "2026-08-24T09:14:47.195Z",
+    "sourceUrl": "https://www.aihero.dev/skills-to-questionnaire",
+    "sourceHash": "c051d0d023f88945c673d7b0490c66e2786dd42702cbab363d3f542e5a4f6933"
+  },
+  "manifest": {
+    "route": "/skills-to-questionnaire",
+    "sourceUrl": "https://www.aihero.dev/skills-to-questionnaire",
+    "sourceHash": "c051d0d023f88945c673d7b0490c66e2786dd42702cbab363d3f542e5a4f6933",
+    "translationPath": "content/zh/skills-to-questionnaire.md",
+    "translationHash": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T11:49:27.817Z",
+    "assembly": {
+      "configHash": "9488ba8571c05f64f1c33c75aaf30a2d44a543e00ac481c6e1101672511c52a8",
+      "checkedAt": "2026-10-13T11:49:27.817Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/grilling",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/context",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        },
+        {
+          "route": "/ai-coding-dictionary/skill",
+          "state": "planned-chinese",
+          "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+        }
+      ],
+      "staleChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "planned-chinese",
+      "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/skills-to-questionnaire.md",
+      "sha256": "7eb63f25b0d5637f650435109e1e9ad4840b625e0ae7c7308feac2bb625f7941"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "d5e005ed24c63c312e2a00e5876bb93a9e57f45fe77aa1ef169c169ec1f3944a"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "7b8f66bc8a1989f36de579abd169c9528cc56309aa0554c96d05ec5684e8ca2a"
+    }
+  ]
+}

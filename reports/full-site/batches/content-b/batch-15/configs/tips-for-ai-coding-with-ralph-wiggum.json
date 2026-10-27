@@ -1,0 +1,19 @@
+{
+  "route": "/tips-for-ai-coding-with-ralph-wiggum",
+  "source": {
+    "path": "content/source/tips-for-ai-coding-with-ralph-wiggum.md",
+    "sha256": "6c2eac9161d4a74ab6239dfbacbde674ccfbf328486f177444fa359f59137462"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-15/drafts/tips-for-ai-coding-with-ralph-wiggum.md",
+  "translationPath": "content/zh/tips-for-ai-coding-with-ralph-wiggum.md",
+  "linkTargets": [
+    {
+      "route": "/getting-started-with-ralph",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/newsletter",
+      "state": "available-chinese"
+    }
+  ]
+}

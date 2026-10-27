@@ -1,0 +1,37 @@
+{
+  "id": "delivery-preview-smoke",
+  "reuse": "195-page body UI and 194 directory clicks remain independently accepted at c9545805/run38409450389. Windows launcher safety changes and removal of an unsupported authorisation claim are verified here; desktop/mobile homepage top screenshots and an exact banner assertion cover the shared wording change.",
+  "pages": [
+    {
+      "id": "home",
+      "config": "reports/full-site/batches/content-b/batch-16/configs/home.json",
+      "features": [
+        {
+          "label": "main-body",
+          "selector": "p",
+          "exactText": "它们正是你最大的优势。AI Hero 提供一套与编程智能体协作的工程流程，从一个想法，一直走到经过审查、正式交付的代码。",
+          "nth": 0
+        },
+        {
+          "label": "image",
+          "selector": "img"
+        }
+      ],
+      "chineseLinks": [
+        "/skills/subscribe",
+        "/skills"
+      ],
+      "captureTop": true,
+      "viewports": [
+        {
+          "width": 1440,
+          "height": 1000
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ]
+    }
+  ]
+}

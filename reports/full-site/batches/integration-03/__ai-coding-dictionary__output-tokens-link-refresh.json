@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A08/configs/output-tokens.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/output-tokens",
+      "manifest": {
+        "route": "/ai-coding-dictionary/output-tokens",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
+        "sourceHash": "dae408485b46660315f1a08c0ba1454a271460143f3b8ecd9375623acfbfdadf",
+        "translationPath": "content/zh/ai-coding-dictionary/output-tokens.md",
+        "translationHash": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:19.648Z",
+        "assembly": {
+          "configHash": "623caec3c23255ff2288b5874a9fad1f97c80ebe870aea4f018459fa96c21bc2",
+          "checkedAt": "2026-10-13T12:19:19.648Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/output-tokens.md",
+          "sha256": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "535dcd7342d7ae362ae9a7c5dbc41b558d9b05b589585045943ca3b8597d8494"
+        }
+      ],
+      "rawOutputSha256": "cda054e3dcd5edf46eefe1c6c14a38e306dedfafc7d06b867b61a5e0ab272dbe"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/output-tokens",
+      "manifest": {
+        "route": "/ai-coding-dictionary/output-tokens",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/output-tokens",
+        "sourceHash": "dae408485b46660315f1a08c0ba1454a271460143f3b8ecd9375623acfbfdadf",
+        "translationPath": "content/zh/ai-coding-dictionary/output-tokens.md",
+        "translationHash": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:19.858Z",
+        "assembly": {
+          "configHash": "623caec3c23255ff2288b5874a9fad1f97c80ebe870aea4f018459fa96c21bc2",
+          "checkedAt": "2026-10-13T12:19:19.858Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/output-tokens.md",
+          "sha256": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4f3b1bae738f0cf8d580d109c0f33c14f81fe0dd75f1cd22e93c21525c11d2a1"
+        }
+      ],
+      "rawOutputSha256": "6bf6a36ed6c10146f00217c469bdc0908cdc4e21c604aeabca259179d16b01a1"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

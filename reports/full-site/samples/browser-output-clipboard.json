@@ -1,0 +1,23 @@
+[
+  {
+    "action": "cdp",
+    "args": {
+      "method": "Browser.grantPermissions",
+      "params": {
+        "origin": "http://127.0.0.1:4322",
+        "permissions": [
+          "clipboardReadWrite",
+          "clipboardSanitizedWrite"
+        ]
+      }
+    },
+    "checkedAt": "2026-10-13T05:08:52.226Z",
+    "result": {
+      "ok": false,
+      "error": {
+        "code": "extension_error",
+        "message": "{\"code\":-32601,\"message\":\"'Browser.grantPermissions' wasn't found\"}"
+      }
+    }
+  }
+]

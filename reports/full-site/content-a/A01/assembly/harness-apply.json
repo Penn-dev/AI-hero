@@ -1,0 +1,188 @@
+{
+  "mode": "apply",
+  "route": "/ai-coding-dictionary/harness",
+  "page": {
+    "title": "智能体执行框架",
+    "markdown": "[AI 编码词典](/ai-coding-dictionary)\n\n模型\n\n# 智能体执行框架\n\n围绕模型、让它成为智能体的一整套东西：工具、系统提示词、上下文窗口管理、权限和钩子。\n\n![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)\n\nMatt Pocock\n\n围绕[模型](/ai-coding-dictionary/model)、让它成为[智能体](/ai-coding-dictionary/agent)的一整套东西：[工具](/ai-coding-dictionary/tool)、[系统提示词](/ai-coding-dictionary/system-prompt)、[上下文窗口管理](/ai-coding-dictionary/context-window)、权限和钩子。这就是智能体执行框架（harness）。**Claude.ai** 和 **Claude Code** 使用同一个模型，表现却不同，原因就在于它们的执行框架不同。\n\n> **译注：这里的工具和钩子。** 工具是软件提供的具体功能，例如读取文件或运行命令；钩子是特定事件发生时触发的处理步骤。系统提示词提供基础工作指令，上下文窗口则容纳模型在一次请求中收到的信息。\n\n模型本身只做一件事：接收文本，再输出文本。它不能读取文件、运行命令，也不能记住上一个[工作轮次](/ai-coding-dictionary/turn)。这些都由执行框架提供。它为每次[模型提供商请求](/ai-coding-dictionary/model-provider-request)组织[上下文](/ai-coding-dictionary/context)，执行模型提出的[工具调用](/ai-coding-dictionary/tool-call)，把[工具结果](/ai-coding-dictionary/tool-result)送回模型，保存[会话](/ai-coding-dictionary/session)记录，在有风险的操作前征求你的许可，并决定何时[压缩上下文](/ai-coding-dictionary/compaction)。智能体的循环，也就是模型提出操作、执行框架执行、再重复这一过程，由执行框架运行。\n\n这对诊断问题很重要。当两个产品的行为不同，或者同一产品今天和昨天的行为不同时，变化的往往不是模型，而是执行框架。不同的系统提示词、不同的工具集、变化的默认权限，或者新的上下文管理策略，都能在模型不变的情况下改变行为。这也意味着，大多数配置都在执行框架这一层：[AGENTS.md](/ai-coding-dictionary/agents-md) 文件、权限设置和钩子，都是给执行框架的指令，而不是给模型的指令。\n\n例如 Claude Code、Cursor、Codex CLI，还有 Claude.ai。Claude.ai 是聊天类执行框架，而不是编程类执行框架。\n\n_用法：_\n\n**英文原例**\n\n> Same model, why is Claude Code editing files and Claude.ai just answering questions?\n\n**中文理解**\n\n“同一个模型，为什么 Claude Code 会编辑文件，Claude.ai 却只回答问题？”\n\n**英文原例**\n\n> Different harnesses — Claude Code has [filesystem](/ai-coding-dictionary/filesystem) tools, a different system prompt, and a permission layer. The model isn't the variable here.\n\n**中文理解**\n\n“因为执行框架不同。Claude Code 有[文件系统](/ai-coding-dictionary/filesystem)工具、不同的系统提示词，还有一层权限控制。这里的变量不是模型。”\n\n> **译注：理解本文的分工。** 文件系统是保存和组织文件的位置；工具让软件能够访问它。一个工作轮次从你发来一条消息开始，到智能体交回本次结果为止，期间可能包含多次模型请求。执行框架负责加载 AGENTS.md 等规则，其中的文字仍可能随请求交给模型；本文是在区分谁负责组织和执行这些机制。\n\n[上一个词条：模型提供商](/ai-coding-dictionary/model-provider) · [下一个词条：模型提供商请求](/ai-coding-dictionary/model-provider-request)\n\n## 想学的不只是词汇？\n\n加入 AI Hero，获取实用技能、关于 AI 工程的思考，以及帮助你走在前面的资源。\n\n> **译注：原站订阅入口。** 这一部分是原页面的订阅区，不是上面的教学正文。原站表单包含“名字”和“电子邮箱（必填）”，按钮为“获取 AI Hero 更新”，并说明“不会发送垃圾邮件，随时可以退订”。需要订阅时，请打开[原站页面](https://www.aihero.dev/ai-coding-dictionary/harness)使用其表单；本页不提供订阅服务。\n\n**分享（原站入口）**\n\n[分享到 X](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2FharnessHarness%20%20by%20%40mattpocockuk) · [分享到 Bluesky](https://bsky.app/intent/compose?text=Harness%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fai-coding-dictionary%2Fharness) · [分享到 LinkedIn](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/harness?author=Matt Pocock>)\n\n“复制网址”是原站的分享控件；需要分享原文时可从[原文页面](https://www.aihero.dev/ai-coding-dictionary/harness)复制地址。",
+    "sourceUpdatedAt": "2026-09-24T11:59:36.000Z",
+    "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/harness",
+    "sourceHash": "e8fca4c2ddffb9f121b5f57f5721c3c06d941bf8c545c23ebdc5d70b727032f2"
+  },
+  "manifest": {
+    "route": "/ai-coding-dictionary/harness",
+    "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/harness",
+    "sourceHash": "e8fca4c2ddffb9f121b5f57f5721c3c06d941bf8c545c23ebdc5d70b727032f2",
+    "translationPath": "content/zh/ai-coding-dictionary/harness.md",
+    "translationHash": "4385fb5496325123f5a12485ec6d2d919a00154a663e32ed644e5df636068441",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T11:12:32.510Z",
+    "assembly": {
+      "configHash": "a11066d4692af109f8b5ab0acb9c06b2c33916ab497ef03820d331d3867d1f0d",
+      "checkedAt": "2026-10-13T11:12:32.510Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/agents-md",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/compaction",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/context",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/filesystem",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/model",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/model-provider",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/model-provider-request",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/session",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/tool",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/tool-result",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        },
+        {
+          "route": "/ai-coding-dictionary/turn",
+          "state": "planned-chinese",
+          "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+        }
+      ],
+      "staleChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/agent",
+          "sourceHash": "225c1eda0c5ccb319ac742875e074b771daa5054f352381c834ab23296599e7d",
+          "currentSourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91"
+        },
+        {
+          "route": "/ai-coding-dictionary/context-window",
+          "sourceHash": "d22fa20fbdd104a47630b117561f77337520a2c6206f530afba71e1c439a7af0",
+          "currentSourceHash": "2a5b63536a30a69e910c5bd6180ba6e19492e759b20b38bcdcff060983442deb"
+        },
+        {
+          "route": "/ai-coding-dictionary/tool-call",
+          "sourceHash": "dd5366630d7a0f4590bb53294974757a8e8918d457eac986a8e92d7f0d9a65ec",
+          "currentSourceHash": "81172bf1e6f56b678163d6c9b2875043918ca48e19e96ecd87640271f9d84692"
+        }
+      ]
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "planned-chinese",
+      "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/ai-coding-dictionary/harness.md",
+      "sha256": "4385fb5496325123f5a12485ec6d2d919a00154a663e32ed644e5df636068441"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "23b85fc3baf6c7625488a57049e4a9905c2eee8d6e9082cab6d60fc9a449e50b"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "7aae8c22903062a2d7a7475ffed750107c25c8051d7eb124d7ff9e709500922d"
+    }
+  ]
+}

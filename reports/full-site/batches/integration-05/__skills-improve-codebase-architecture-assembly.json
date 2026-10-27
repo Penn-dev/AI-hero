@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-16/configs/skills-improve-codebase-architecture.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-improve-codebase-architecture",
+      "manifest": {
+        "route": "/skills-improve-codebase-architecture",
+        "sourceUrl": "https://www.aihero.dev/skills-improve-codebase-architecture",
+        "sourceHash": "5215a048953e975ddf53527ed489c4d395ef8fc1558ac005f37f80175e90b6d0",
+        "translationPath": "content/zh/skills-improve-codebase-architecture.md",
+        "translationHash": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:32.338Z",
+        "assembly": {
+          "configHash": "f4b27456cecfae637d85b2a73066eb24f1f35efc26ada3fb4a7120b3a98738bc",
+          "checkedAt": "2026-10-13T13:02:32.338Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/harness",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-improve-codebase-architecture.md",
+          "sha256": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "db53f82790baf6ee22f372111598665535210e3f57ec2a25c358a3ee10cea5b7"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e095955945487ca8ad371b3ef58c52fcd81589ff814edf9b59c63be5e2144ab0"
+        }
+      ],
+      "rawOutputSha256": "95f6ff0be787a99449edc950d321beb7fd80d1bb64198c9bdc0200b19b1aec95"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-improve-codebase-architecture",
+      "manifest": {
+        "route": "/skills-improve-codebase-architecture",
+        "sourceUrl": "https://www.aihero.dev/skills-improve-codebase-architecture",
+        "sourceHash": "5215a048953e975ddf53527ed489c4d395ef8fc1558ac005f37f80175e90b6d0",
+        "translationPath": "content/zh/skills-improve-codebase-architecture.md",
+        "translationHash": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:32.583Z",
+        "assembly": {
+          "configHash": "f4b27456cecfae637d85b2a73066eb24f1f35efc26ada3fb4a7120b3a98738bc",
+          "checkedAt": "2026-10-13T13:02:32.583Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/harness",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-improve-codebase-architecture.md",
+          "sha256": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "db53f82790baf6ee22f372111598665535210e3f57ec2a25c358a3ee10cea5b7"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0599a6d6e9f95402b7dd62db4de266d2318f71c2809b1c3f8fee06650f376f1f"
+        }
+      ],
+      "rawOutputSha256": "f869ac04443916924bd86a0293c7faafc5794189f3a37e94a85e2aecb7669663"
+    }
+  ],
+  "nonTargetPagesPreserved": 158
+}

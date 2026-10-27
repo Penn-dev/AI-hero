@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-08/configs/google-agents-whitepaper-review.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/google-agents-whitepaper-review",
+      "manifest": {
+        "route": "/google-agents-whitepaper-review",
+        "sourceUrl": "https://www.aihero.dev/google-agents-whitepaper-review",
+        "sourceHash": "569198702f52ca381d64e9f611feee8294585f6ebe087802f1ea9e6f52b73a8f",
+        "translationPath": "content/zh/google-agents-whitepaper-review.md",
+        "translationHash": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:08.938Z",
+        "assembly": {
+          "configHash": "899618be22455ccd5697b675f1fc1b0d2868080ac550cf8155ae0ed184d81af1",
+          "checkedAt": "2026-10-13T12:38:08.938Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/agents-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "已交对应完整中文批次，待工程确认接入后刷新；保留原站资源入口。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/google-agents-whitepaper-review.md",
+          "sha256": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3c25a267a2b6fb7029498be08a408b63b8b58b5d2097faa0a74a82495422d4b1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "2f45cda5633b41798e20524179d00ca5017004cbe753c88776ed43fe70e1e052"
+        }
+      ],
+      "rawOutputSha256": "ebab253b577715db1db75529c7672af2ad10124720a2cc86e0d8c632917c0039"
+    },
+    {
+      "mode": "apply",
+      "route": "/google-agents-whitepaper-review",
+      "manifest": {
+        "route": "/google-agents-whitepaper-review",
+        "sourceUrl": "https://www.aihero.dev/google-agents-whitepaper-review",
+        "sourceHash": "569198702f52ca381d64e9f611feee8294585f6ebe087802f1ea9e6f52b73a8f",
+        "translationPath": "content/zh/google-agents-whitepaper-review.md",
+        "translationHash": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:09.157Z",
+        "assembly": {
+          "configHash": "899618be22455ccd5697b675f1fc1b0d2868080ac550cf8155ae0ed184d81af1",
+          "checkedAt": "2026-10-13T12:38:09.157Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/agents-with-vercel-ai-sdk",
+              "state": "planned-chinese",
+              "reason": "已交对应完整中文批次，待工程确认接入后刷新；保留原站资源入口。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/google-agents-whitepaper-review.md",
+          "sha256": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3c25a267a2b6fb7029498be08a408b63b8b58b5d2097faa0a74a82495422d4b1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7539c2b6ac848360af00629c873aa0d1a673097f98b26dbf5119ce6d71f6ba3e"
+        }
+      ],
+      "rawOutputSha256": "3c58f0fcd7c3800d30bf028ee1c95251e719dc19c62f517705163ed057983c01"
+    }
+  ],
+  "nonTargetPagesPreserved": 148
+}

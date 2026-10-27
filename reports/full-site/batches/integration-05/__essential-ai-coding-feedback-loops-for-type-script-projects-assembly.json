@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-10/configs/essential-ai-coding-feedback-loops-for-type-script-projects.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "manifest": {
+        "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+        "sourceUrl": "https://www.aihero.dev/essential-ai-coding-feedback-loops-for-type-script-projects",
+        "sourceHash": "a40c2bb8ea0b2642d26f46d1263d8b42f69060efeabd09f7b61b77af5169b75f",
+        "translationPath": "content/zh/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+        "translationHash": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:27.580Z",
+        "assembly": {
+          "configHash": "215bfbf8140b613daf6df84d77b84a458cf01bcf63df29de3fb9cdd574f01ce2",
+          "checkedAt": "2026-10-13T13:04:27.580Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/tips-for-ai-coding-with-ralph-wiggum",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，待工程确认接入后刷新；保留英文原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+          "sha256": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e659187cfbdf3036715574ac50caad9a65fcd908fc007b8ab655eb630e4f8cbe"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "9645af3715b2532d4aadfe93de7b66e46e17c51eb60f7a6deb8b61ddfd8dd7b7"
+        }
+      ],
+      "rawOutputSha256": "f609a5a61cece242187b75e891115ee78ad937ca32cb6a0ee130158a1f155e05"
+    },
+    {
+      "mode": "apply",
+      "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+      "manifest": {
+        "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+        "sourceUrl": "https://www.aihero.dev/essential-ai-coding-feedback-loops-for-type-script-projects",
+        "sourceHash": "a40c2bb8ea0b2642d26f46d1263d8b42f69060efeabd09f7b61b77af5169b75f",
+        "translationPath": "content/zh/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+        "translationHash": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:27.812Z",
+        "assembly": {
+          "configHash": "215bfbf8140b613daf6df84d77b84a458cf01bcf63df29de3fb9cdd574f01ce2",
+          "checkedAt": "2026-10-13T13:04:27.812Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/tips-for-ai-coding-with-ralph-wiggum",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，待工程确认接入后刷新；保留英文原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/essential-ai-coding-feedback-loops-for-type-script-projects.md",
+          "sha256": "934b11e519dd03e509abadfb9b5d1de94834de8d379a7657a02a56e13c4096ec"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e659187cfbdf3036715574ac50caad9a65fcd908fc007b8ab655eb630e4f8cbe"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7dd5ec981b2b0d367b87aa81edaf4e8e07255a28c1b2d703ac97b4d335860ac8"
+        }
+      ],
+      "rawOutputSha256": "3b836f5058eddced65eb665fbccf1928819cfa9980d131a7d259365fc633134e"
+    }
+  ],
+  "nonTargetPagesPreserved": 168
+}

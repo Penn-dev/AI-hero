@@ -1,0 +1,15 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-17/drafts/skills-teach.md",
+      "sha256": "0aebac1bf58d1940c308e98387aa3eea69d4448de7783987cf4b99271b61587a",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-17/drafts/skills-wizard.md",
+      "sha256": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

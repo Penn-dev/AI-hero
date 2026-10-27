@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-01/configs/what-is-an-llm.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/what-is-an-llm",
+      "manifest": {
+        "route": "/what-is-an-llm",
+        "sourceUrl": "https://www.aihero.dev/what-is-an-llm",
+        "sourceHash": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
+        "translationPath": "content/zh/what-is-an-llm.md",
+        "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:26.249Z",
+        "assembly": {
+          "configHash": "05e9093e4c56dcf3497d65bc6b3e5234e9f229fb4847b14a0e4643d87a88205b",
+          "checkedAt": "2026-10-13T11:56:26.249Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-is-an-llm.md",
+          "sha256": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a85f126e334fa46dea0d336ea1328cdafac8011890b37a43b7e500f2d07fbe82"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f3c0bfbaf0d805761cc02a0a61a7e3a8c5b0873a976263a7cba45fbfb2d13e12"
+        }
+      ],
+      "rawOutputSha256": "d64d1015e7ac04ada9c7a3e27ab6007ad02422d1f1a5b01a02e06969b18717bd"
+    },
+    {
+      "mode": "apply",
+      "route": "/what-is-an-llm",
+      "manifest": {
+        "route": "/what-is-an-llm",
+        "sourceUrl": "https://www.aihero.dev/what-is-an-llm",
+        "sourceHash": "ce95c7646853a1f1fe1a40a333a97acb494bb24c824aa93bfa81bf80553fec1e",
+        "translationPath": "content/zh/what-is-an-llm.md",
+        "translationHash": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:26.470Z",
+        "assembly": {
+          "configHash": "05e9093e4c56dcf3497d65bc6b3e5234e9f229fb4847b14a0e4643d87a88205b",
+          "checkedAt": "2026-10-13T11:56:26.470Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-is-an-llm.md",
+          "sha256": "a801df804c771db89db4fb00cb0cf8910d5344809e103033d15100312506d5eb"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a85f126e334fa46dea0d336ea1328cdafac8011890b37a43b7e500f2d07fbe82"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "25f3c654d665be1b0ea60487707b82e96aff6d662fefac19df23fef1d86ac4e1"
+        }
+      ],
+      "rawOutputSha256": "8dae8f4f1f957cb69dd6c163593611820844b4c743d508186d75804b23c852e0"
+    }
+  ],
+  "nonTargetPagesPreserved": 35
+}

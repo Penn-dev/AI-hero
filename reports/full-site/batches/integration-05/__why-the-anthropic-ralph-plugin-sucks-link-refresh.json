@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-15/configs/why-the-anthropic-ralph-plugin-sucks.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/why-the-anthropic-ralph-plugin-sucks",
+      "manifest": {
+        "route": "/why-the-anthropic-ralph-plugin-sucks",
+        "sourceUrl": "https://www.aihero.dev/why-the-anthropic-ralph-plugin-sucks",
+        "sourceHash": "6ed9c1164a965fb931d345309e65cb0f8bbeff0cc7bb5d678a9d08108d6c55b4",
+        "translationPath": "content/zh/why-the-anthropic-ralph-plugin-sucks.md",
+        "translationHash": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:59.535Z",
+        "assembly": {
+          "configHash": "0681939ec327099638881e676fe9fd3cbd4bc9439abdd8347036910dae1b0f78",
+          "checkedAt": "2026-10-13T13:07:59.535Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/why-the-anthropic-ralph-plugin-sucks.md",
+          "sha256": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "47a8311bb1a66417c0a7cd0b367e5611a9f44e6eee5ac380a43038bee9ff2d92"
+        }
+      ],
+      "rawOutputSha256": "4af7af9a8b20ce062780238641286db0af73f40ba63267bf41e7a2467073abcc"
+    },
+    {
+      "mode": "apply",
+      "route": "/why-the-anthropic-ralph-plugin-sucks",
+      "manifest": {
+        "route": "/why-the-anthropic-ralph-plugin-sucks",
+        "sourceUrl": "https://www.aihero.dev/why-the-anthropic-ralph-plugin-sucks",
+        "sourceHash": "6ed9c1164a965fb931d345309e65cb0f8bbeff0cc7bb5d678a9d08108d6c55b4",
+        "translationPath": "content/zh/why-the-anthropic-ralph-plugin-sucks.md",
+        "translationHash": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:59.803Z",
+        "assembly": {
+          "configHash": "0681939ec327099638881e676fe9fd3cbd4bc9439abdd8347036910dae1b0f78",
+          "checkedAt": "2026-10-13T13:07:59.803Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/why-the-anthropic-ralph-plugin-sucks.md",
+          "sha256": "8cdafa7a0a07bf2bea821a8666bc096a32e618311a29b1f7e0da98f6cb750420"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7c4e15ff2133cc8326709d7ad48355a163ed623b1d429d62686b01d9beef30c7"
+        }
+      ],
+      "rawOutputSha256": "8388ac39c058dff62e079b72ae94caab0163e5102c18f9ece844d8fe2c7d5207"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

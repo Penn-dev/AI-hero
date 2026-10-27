@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A10/configs/clearing.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/clearing",
+      "manifest": {
+        "route": "/ai-coding-dictionary/clearing",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/clearing",
+        "sourceHash": "d60dda2558ed3c7b15ef41a8a5dd31d35a6ab8846a77f55aad7e3853682f2346",
+        "translationPath": "content/zh/ai-coding-dictionary/clearing.md",
+        "translationHash": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:36.868Z",
+        "assembly": {
+          "configHash": "ac7a1454a9ddf957963c6e428b32ef305dc6c41437b4178668df1801c0e85e17",
+          "checkedAt": "2026-10-13T12:19:36.868Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/clearing.md",
+          "sha256": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "54357ad065406f3b6b416f97b59ada5ee6223ff9097495e66f0aea9165f49a4d"
+        }
+      ],
+      "rawOutputSha256": "d67ddbf0ff82d384e277ae534dcb70e8466e6d8d22528642f53fb351bbdf0ede"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/clearing",
+      "manifest": {
+        "route": "/ai-coding-dictionary/clearing",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/clearing",
+        "sourceHash": "d60dda2558ed3c7b15ef41a8a5dd31d35a6ab8846a77f55aad7e3853682f2346",
+        "translationPath": "content/zh/ai-coding-dictionary/clearing.md",
+        "translationHash": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:37.093Z",
+        "assembly": {
+          "configHash": "ac7a1454a9ddf957963c6e428b32ef305dc6c41437b4178668df1801c0e85e17",
+          "checkedAt": "2026-10-13T12:19:37.093Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/clearing.md",
+          "sha256": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "890a2644038e6eba3170041b5068eb1fbc6678e5a08f46b28baf0c0e67eaf7d7"
+        }
+      ],
+      "rawOutputSha256": "c29b061cc4f480daef57f406a0ed2bbc008f9538327095e49354084e8f4c494d"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

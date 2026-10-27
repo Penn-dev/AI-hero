@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-06/configs/skills-handoff.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-handoff",
+      "manifest": {
+        "route": "/skills-handoff",
+        "sourceUrl": "https://www.aihero.dev/skills-handoff",
+        "sourceHash": "f66de1f26fc55ee3263e5b3cdf4a5a96a3b26344c834cc918a930391f797a448",
+        "translationPath": "content/zh/skills-handoff.md",
+        "translationHash": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:45.472Z",
+        "assembly": {
+          "configHash": "e7f2836abd3b52319d8656d14ce4f75bda4f0c375a55f8b03c07e514c7e20f38",
+          "checkedAt": "2026-10-13T12:37:45.472Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-handoff.md",
+          "sha256": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "812832c14b42fe2a2f03ed524391896db22824024d9fb2d04d0a12aa9208c8ac"
+        }
+      ],
+      "rawOutputSha256": "383e87a67c8567d94b6f91f7ff9af8651e5e4ea9c8aa52757c3fcbc115e798ef"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-handoff",
+      "manifest": {
+        "route": "/skills-handoff",
+        "sourceUrl": "https://www.aihero.dev/skills-handoff",
+        "sourceHash": "f66de1f26fc55ee3263e5b3cdf4a5a96a3b26344c834cc918a930391f797a448",
+        "translationPath": "content/zh/skills-handoff.md",
+        "translationHash": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:45.714Z",
+        "assembly": {
+          "configHash": "e7f2836abd3b52319d8656d14ce4f75bda4f0c375a55f8b03c07e514c7e20f38",
+          "checkedAt": "2026-10-13T12:37:45.714Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-handoff.md",
+          "sha256": "9bda4d6c6ed059fc9d488075ea691ce7f27e7ea0bbc3960956d3769eaf9b5c3c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8c662e016d84eaf4af9ab1df1b8c6e7fbc331ccd4564e52b191f6677bcca38a6"
+        }
+      ],
+      "rawOutputSha256": "4b23cf830b663521bdd1ad61461dff270b52d9b582c87f97e1d3b097261fe156"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

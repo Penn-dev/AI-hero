@@ -1,0 +1,18 @@
+TAP version 13
+2026-10-13T13:59:20.4682904Z # {"stopExitCode":1,"stdout":"","stderr":"\\u001b[31;1mException: \\u001b[0mD:\\\\a\\\\AI-hero\\\\AI-hero\\\\.preview-test-qNnuNs\\\\scripts\\\\preview-stop.ps1:31\\u001b[0m\\r\\n\\u001b[31;1m\\u001b[0m\\u001b[36;1mLine |\\u001b[0m\\r\\n\\u001b[31;1m\\u001b[0m\\u001b[36;1m\\u001b[36;1m  31 | \\u001b[0m       \\u001b[36;1mthrow '预览进程身份不匹配 (identity mismatch)，已拒绝停止；没有结束任何其他程序。'\\u001b[0m\\r\\n\\u001b[31;1m\\u001b[0m\\u001b[36;1m\\u001b[36;1m\\u001b[0m\\u001b[36;1m\\u001b[0m\\u001b[36;1m     | \\u001b[31;1m       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\\u001b[0m\\r\\n\\u001b[31;1m\\u001b[0m\\u001b[36;1m\\u001b[36;1m\\u001b[0m\\u001b[36;1m\\u001b[0m\\u001b[36;1m\\u001b[31;1m\\u001b[31;1m\\u001b[36;1m     | \\u001b[31;1m预览进程身份不匹配 (identity mismatch)，已拒绝停止；没有结束任何其他程序。\\u001b[0m\\r\\n","survivor":true}
+2026-10-13T13:59:20.4715370Z # Subtest: stopping a stale preview state leaves the unrelated live process untouched
+2026-10-13T13:59:20.4723388Z ok 1 - stopping a stale preview state leaves the unrelated live process untouched
+2026-10-13T13:59:20.4725186Z   ---
+2026-10-13T13:59:20.4728112Z   duration_ms: 629.1226
+2026-10-13T13:59:20.4730158Z   type: 'test'
+2026-10-13T13:59:20.4732074Z   ...
+2026-10-13T13:59:20.4809936Z 1..1
+2026-10-13T13:59:20.4811917Z # tests 1
+2026-10-13T13:59:20.4813651Z # suites 0
+2026-10-13T13:59:20.4815702Z # pass 1
+2026-10-13T13:59:20.4817412Z # fail 0
+2026-10-13T13:59:20.4819145Z # cancelled 0
+2026-10-13T13:59:20.4820953Z # skipped 0
+2026-10-13T13:59:20.4822858Z # todo 0
+2026-10-13T13:59:20.4824694Z # duration_ms 909.307
+2026-10-13T13:59:20.5488641Z 

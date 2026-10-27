@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-09/configs/skills-research.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-research",
+      "manifest": {
+        "route": "/skills-research",
+        "sourceUrl": "https://www.aihero.dev/skills-research",
+        "sourceHash": "e91acc488a8e63d892982474c3c105793b4be460d72260c7662d2f6aab341874",
+        "translationPath": "content/zh/skills-research.md",
+        "translationHash": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:32.810Z",
+        "assembly": {
+          "configHash": "e93fdd535ba092e7e8c66839fdfe63f8e58adbe30ac5b5d7bb6d96d7ad3aaf9f",
+          "checkedAt": "2026-10-13T12:37:32.810Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/secondary-source",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-pointer",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-research.md",
+          "sha256": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "049ed84d7598e4ae930ded2a9c8f2f0defe236b5348317db87b3887d90bb2773"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4185d8a52ae2d0ef5f1996fe36648a8a07bbf20e25a78c5986d23e57a7f5c987"
+        }
+      ],
+      "rawOutputSha256": "b7bca334c92f818edd6a5d8e9ebafea7dd06185685e4e94dc7347fc7f9fde10e"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-research",
+      "manifest": {
+        "route": "/skills-research",
+        "sourceUrl": "https://www.aihero.dev/skills-research",
+        "sourceHash": "e91acc488a8e63d892982474c3c105793b4be460d72260c7662d2f6aab341874",
+        "translationPath": "content/zh/skills-research.md",
+        "translationHash": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:33.067Z",
+        "assembly": {
+          "configHash": "e93fdd535ba092e7e8c66839fdfe63f8e58adbe30ac5b5d7bb6d96d7ad3aaf9f",
+          "checkedAt": "2026-10-13T12:37:33.067Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/secondary-source",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-pointer",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-research.md",
+          "sha256": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "049ed84d7598e4ae930ded2a9c8f2f0defe236b5348317db87b3887d90bb2773"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c38d36866f09118d222012e7fbbbd21765dfd4f239bce77a47aa8e261cbd30e3"
+        }
+      ],
+      "rawOutputSha256": "586907014da90a7a59c1e9bc3a3a8c0625a95e4b83518c1f36329e4e3b0a874d"
+    }
+  ],
+  "nonTargetPagesPreserved": 104
+}

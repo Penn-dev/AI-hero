@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-08/configs/personal-software-is-insane-in-the-age-of-ai-u2hx2.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "manifest": {
+        "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+        "sourceUrl": "https://www.aihero.dev/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+        "sourceHash": "e72a837798d7079016531aea98e8b27b2ae0d7cc3e5b2e74ada212b2dfcabaee",
+        "translationPath": "content/zh/personal-software-is-insane-in-the-age-of-ai-u2hx2.md",
+        "translationHash": "fc7017f1939b17c4010116206b793478d0a84ef450853a8c669f199690be6e3b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:09.369Z",
+        "assembly": {
+          "configHash": "9b4285f562b9769628ea0061d00f467f1b200f01c556591bd1403022d5387d5c",
+          "checkedAt": "2026-10-13T12:38:09.369Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/personal-software-is-insane-in-the-age-of-ai-u2hx2.md",
+          "sha256": "fc7017f1939b17c4010116206b793478d0a84ef450853a8c669f199690be6e3b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "7e7e7b9f21db3506b68eeea9e935856c361c7794539c4e68a8a5754d5e9e0baf"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e8632d6cb638ddb19e52eb21696a28f8340b4178d8ad2bcbae1981825b284df1"
+        }
+      ],
+      "rawOutputSha256": "d7f5aee38c6ca9f0c51711ae3c2799714d9cfb2b8cc8488384d1911298994a30"
+    },
+    {
+      "mode": "apply",
+      "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+      "manifest": {
+        "route": "/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+        "sourceUrl": "https://www.aihero.dev/personal-software-is-insane-in-the-age-of-ai-u2hx2",
+        "sourceHash": "e72a837798d7079016531aea98e8b27b2ae0d7cc3e5b2e74ada212b2dfcabaee",
+        "translationPath": "content/zh/personal-software-is-insane-in-the-age-of-ai-u2hx2.md",
+        "translationHash": "fc7017f1939b17c4010116206b793478d0a84ef450853a8c669f199690be6e3b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:09.563Z",
+        "assembly": {
+          "configHash": "9b4285f562b9769628ea0061d00f467f1b200f01c556591bd1403022d5387d5c",
+          "checkedAt": "2026-10-13T12:38:09.563Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/personal-software-is-insane-in-the-age-of-ai-u2hx2.md",
+          "sha256": "fc7017f1939b17c4010116206b793478d0a84ef450853a8c669f199690be6e3b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "7e7e7b9f21db3506b68eeea9e935856c361c7794539c4e68a8a5754d5e9e0baf"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a322945fe54be6b5428d90cbaba0dd9215fa57782fac50b70cbd650992769575"
+        }
+      ],
+      "rawOutputSha256": "72982661d15e99e7cc406c3293661e9398cdc76e13794fb9d3d30b0db1b25aef"
+    }
+  ],
+  "nonTargetPagesPreserved": 149
+}

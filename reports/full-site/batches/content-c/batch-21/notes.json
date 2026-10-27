@@ -1,0 +1,9 @@
+{
+  "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements": {
+    "information": "逐节核对全部8个主体二级节、3表、3项追问修复、5步开发流程、10种代码坏味道、4类wayfinder任务、TDD调整和迁移提示；作者/图像/CTA/分享完整。",
+    "naturalChinese": "全文自然中文并保留作者第一人称、热情和条件信息；发布中的wayfinder适用建议原样表达，不用后续文档替换历史语气。",
+    "necessaryConcepts": "解释纵向切片、前沿、高效工作区及必要代码坏味道；保留原行内指导句、Skill描述引用、3原代码块，所有自然语言Prompt有完整可复制中文。",
+    "codeAndLinks": "全部原命令、路径和行内标识按顺序保留；原图片、标题锚点与分享URL均保留，新增已知中文概念导航。",
+    "gaps": "课程CTA未含目标/字段已披露；本文是冻结发布说明而非当前状态验证；第五项真实UI待工程。"
+  }
+}

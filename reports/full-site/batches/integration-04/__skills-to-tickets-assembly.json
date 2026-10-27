@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-09/configs/skills-to-tickets.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-to-tickets",
+      "manifest": {
+        "route": "/skills-to-tickets",
+        "sourceUrl": "https://www.aihero.dev/skills-to-tickets",
+        "sourceHash": "90f8541cdf7a61504214d902b96602523da84f4cf9fc3ce6d09709be5e3aface",
+        "translationPath": "content/zh/skills-to-tickets.md",
+        "translationHash": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:33.355Z",
+        "assembly": {
+          "configHash": "30b7f17264514bdf0e686a2a857298c261e5134a0184a090cb06a657587add72",
+          "checkedAt": "2026-10-13T12:37:33.355Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-to-tickets.md",
+          "sha256": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "4ef735b8dd0482328217cb4737e57c0a3cadac61a0dda0f3c53403632a12393c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e60ffd44b8cf61559fa4a84c3e18927493ab4f8c4ccae27e5e84d64cf765406f"
+        }
+      ],
+      "rawOutputSha256": "f8b788e9969b7981db9e4968edda5c3838206934b1b83372d50ea2240e13ad74"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-to-tickets",
+      "manifest": {
+        "route": "/skills-to-tickets",
+        "sourceUrl": "https://www.aihero.dev/skills-to-tickets",
+        "sourceHash": "90f8541cdf7a61504214d902b96602523da84f4cf9fc3ce6d09709be5e3aface",
+        "translationPath": "content/zh/skills-to-tickets.md",
+        "translationHash": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:33.634Z",
+        "assembly": {
+          "configHash": "30b7f17264514bdf0e686a2a857298c261e5134a0184a090cb06a657587add72",
+          "checkedAt": "2026-10-13T12:37:33.634Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-to-tickets.md",
+          "sha256": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "4ef735b8dd0482328217cb4737e57c0a3cadac61a0dda0f3c53403632a12393c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "84e5017d4a065c5227d9473e8a7c12e31c277c963c5a6566cbf73ff2e6e2fae6"
+        }
+      ],
+      "rawOutputSha256": "806bc5bb58caea020b25638e819435b048d7d98cf9a9a40c65b23be79b49e437"
+    }
+  ],
+  "nonTargetPagesPreserved": 105
+}

@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-12/configs/plan-mode-introduction.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/plan-mode-introduction",
+      "manifest": {
+        "route": "/plan-mode-introduction",
+        "sourceUrl": "https://www.aihero.dev/plan-mode-introduction",
+        "sourceHash": "55118fc919229b82366301dd98f0ad9704b528fd1dc2af719ccc6348af81b7d3",
+        "translationPath": "content/zh/plan-mode-introduction.md",
+        "translationHash": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:33.062Z",
+        "assembly": {
+          "configHash": "cfa7d28e8e04d28ee9789816f325eee80af8091ea05743f9c7dfe343cf9955cc",
+          "checkedAt": "2026-10-13T13:04:33.062Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills-grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/plan-mode-introduction.md",
+          "sha256": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3a16f4f53f0792cc8f5611e68ae3a0b69382918d8474bf98bc8aa54486279520"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "07435e497826fe3d67453547d2d0fa384f6321046e7bef4bcdecb8583aed814d"
+        }
+      ],
+      "rawOutputSha256": "7485f5ad1be3009518d34a9a0ac7551803d3b34702ae738c4d1e5bd9c66cc82c"
+    },
+    {
+      "mode": "apply",
+      "route": "/plan-mode-introduction",
+      "manifest": {
+        "route": "/plan-mode-introduction",
+        "sourceUrl": "https://www.aihero.dev/plan-mode-introduction",
+        "sourceHash": "55118fc919229b82366301dd98f0ad9704b528fd1dc2af719ccc6348af81b7d3",
+        "translationPath": "content/zh/plan-mode-introduction.md",
+        "translationHash": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:33.306Z",
+        "assembly": {
+          "configHash": "cfa7d28e8e04d28ee9789816f325eee80af8091ea05743f9c7dfe343cf9955cc",
+          "checkedAt": "2026-10-13T13:04:33.306Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills-grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "固定范围中文目标，工程确认接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/plan-mode-introduction.md",
+          "sha256": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3a16f4f53f0792cc8f5611e68ae3a0b69382918d8474bf98bc8aa54486279520"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "9b58b4498605f98844b179516ad4dd9941268ffc277b4d0d40764c63bb79d8d1"
+        }
+      ],
+      "rawOutputSha256": "2fc496a48b4361d321be151ca40f234b11883b3435c2951cead6963589f423df"
+    }
+  ],
+  "nonTargetPagesPreserved": 179
+}

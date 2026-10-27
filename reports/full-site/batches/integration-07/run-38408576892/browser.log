@@ -1,0 +1,43 @@
+{
+  "status": "failed",
+  "commit": "65b9e5269e0a55af6c88dfb4f80ab34fd7f1b660",
+  "pages": [
+    {
+      "id": "tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "home",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "home",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "TimeoutError",
+        "message": "page.waitForURL: Timeout 15000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"http://127.0.0.1:4321/\" until \"load\"\n============================================================",
+        "stack": "page.waitForURL: Timeout 15000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation to \"http://127.0.0.1:4321/\" until \"load\"\n============================================================\n    at check (/home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:167:22)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-production-acceptance.mjs:199:79"
+      }
+    }
+  ]
+}

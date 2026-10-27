@@ -1,0 +1,74 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-ask-matt",
+      "sourcePath": "content/source/skills-ask-matt.md",
+      "sourceHash": "96bab3a7d613c26b18cc940b64f1bd5155cb03e30f4bfa9fc5ccc121d5516685",
+      "chineseFile": "reports/full-site/batches/content-c/batch-05/drafts/skills-ask-matt.md",
+      "translationHash": "f5b7697cd71163144e434fb1243b098e6c5bb26aaae6af5e7a503f255891008e",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对八节、两张表、七个常见问题，完整保留推荐即停止、不安装/不扫描、五类流程、五项阶段决策顺序及两种未修复问题。版本/16 of 27/退役与改名信息未改成实时结论。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "完整通读，router 以路线选择表达，phase boundary 统一为阶段交界处；保留原文批评和条件，未简化成固定单线执行清单。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近说明任务跟踪系统和宿主上下文命令，明确旧问题状态与固定来源时点；没有新增执行流程。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "源文无围栏代码，全部行内技术值与原 URL 保留；just give me the sequence 保留英文并紧邻完整可复制中文 Prompt。静态路线原例保留整条命令序列。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 30
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未重查外部 issue 或当前 Skill 安装状态；网页忠实保留固定来源叙述。"
+      ]
+    },
+    {
+      "route": "/skills-writing-for-agents",
+      "sourcePath": "content/source/skills-writing-for-agents.md",
+      "sourceHash": "d830a22e3f1590c7a8daa55e69dc85b938f1995097056eb3625abb3ecd8a0544",
+      "chineseFile": "reports/full-site/batches/content-c/batch-05/drafts/skills-writing-for-agents.md",
+      "translationHash": "fe3d815203042fef68e4b14e1a6addc45fef2a0ab84d731d43fc3135b2a85631",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节对照七节、五项写作手段与九个问答。保留过程而非相同输出、默认删除、两种负担、人承担认知成本、行为无变化整句删除、人工运行而无自动 eval 等关键含义。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，no-op 明确为不改变行为的无效指令；对 leading words、pruning、sediment 采用稳定中文，保留作者强烈主张。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近译注解释 frontmatter/智能体说明文件，原文 tight/red/tracer bullet 以示例身份保留并说明领域含义。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "原文无围栏代码，所有文件名、调用名与链接保留；streamline 原英文指令紧邻完整可复制中文 Prompt。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 14
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未执行文档或测量模型行为，本文不据此宣称某种指令效果已运行验证。"
+      ]
+    }
+  ]
+}

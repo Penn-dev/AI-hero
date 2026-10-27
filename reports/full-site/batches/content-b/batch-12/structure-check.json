@@ -1,0 +1,93 @@
+{
+  "batch": "batch-12",
+  "results": [
+    {
+      "route": "/my-7-phases-of-ai-development",
+      "sourceHash": "276360ca1eb6c2a68ab7889498ad2351d9c355620f510ce7a73f1dcb1c251e6d",
+      "translationHash": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 12,
+      "resources": [
+        "https://www.aihero.dev/getting-started-with-ralph",
+        "https://github.com/gsd-build/get-shit-done",
+        "https://github.com/github/spec-kit",
+        "/getting-started-with-ralph",
+        "https://github.com/mattpocock/skills",
+        "https://github.com/mattpocock/skills",
+        "https://www.aihero.dev/my-7-phases-of-ai-development",
+        "https://github.com/mattpocock/skills",
+        "https://linear.app",
+        "https://www.aihero.dev/getting-started-with-ralph",
+        "/getting-started-with-ralph"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/my-claude-code-cohort-a-teaser",
+      "sourceHash": "b3eaacc416b712a5a3c39d98481113511f241a93a0fea931bbd37860f3a04d37",
+      "translationHash": "355b49e0ca5dd58b6cc838e10e0f9f4bababe81544fd65158051af234884d545",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 9,
+      "resources": [
+        "https://www.aihero.dev/cohorts/claude-code-for-real-engineers-2026-04",
+        "https://res.cloudinary.com/total-typescript/image/upload/v1773381499/claude-code-for-real-engineers-cohort_2x.jpg"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/plan-mode-introduction",
+      "sourceHash": "55118fc919229b82366301dd98f0ad9704b528fd1dc2af719ccc6348af81b7d3",
+      "translationHash": "08e4426f79f52af3da0eb9fc772e8aa23da3e0b46c86c99defbc1631ff008670",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 8,
+      "headings": 11,
+      "resources": [
+        "https://www.aihero.dev/skills-grill-with-docs",
+        "/skills-grill-with-docs",
+        "https://docs.anthropic.com/en/docs/claude-code/overview",
+        "https://wisprflow.ai/",
+        "https://superwhisper.com/",
+        "https://agents.md"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/tracer-bullets",
+      "sourceHash": "9f19252ea92f8ce0232186eb07224670c9410b9c7fbbfc0bc7bcb12d4267ee57",
+      "translationHash": "25469bce2ba1eba5f3ca7bcdd5f680655c8faec1b9a897fa66f47db575057ad7",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 4,
+      "headings": 7,
+      "resources": [
+        "/skills-prototype",
+        "https://www.aihero.dev/skills-prototype"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/ways-ai-coding-has-rewired-my-brain",
+      "sourceHash": "c2c308cd0fdadada333cff3518d313a5f6fa5fb349b60fc38816bca99f6a1b0b",
+      "translationHash": "8203ac436a73d722dbb5ed631cd55e82071d48eb82e2c74869fecbc8b22f522b",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 0,
+      "headings": 9,
+      "resources": [
+        "https://x.com/mattpocockuk/status/2024049581529460839",
+        "https://effect.website/docs/requirements-management/services/"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

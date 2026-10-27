@@ -1,0 +1,42 @@
+{
+  "route": "/ai-coding-dictionary/subagent",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/subagent.md",
+    "sha256": "50239cd38db25f2b441fda71d5bfca33fa36be01fc50bf07f1f7f10e347159f8"
+  },
+  "chineseFile": "reports/full-site/content-a/A12/drafts/subagent.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "state": "available-chinese"
+    }
+  ]
+}

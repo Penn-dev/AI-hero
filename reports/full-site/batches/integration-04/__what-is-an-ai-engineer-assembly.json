@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-04/configs/what-is-an-ai-engineer.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/what-is-an-ai-engineer",
+      "manifest": {
+        "route": "/what-is-an-ai-engineer",
+        "sourceUrl": "https://www.aihero.dev/what-is-an-ai-engineer",
+        "sourceHash": "77b72306faee34d21bef05d7f0ecb6b3cc4a4a015a7a84e4a62e721eac0b6484",
+        "translationPath": "content/zh/what-is-an-ai-engineer.md",
+        "translationHash": "f9cccdd3fc4d0bdf75404cfb90e92323e755f8791c98bbf10d8f81f378ba833e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:57.690Z",
+        "assembly": {
+          "configHash": "05cfb5605aca47cc7fa385127b5fe5c52448716a4b34f7020fa93dd177a0250d",
+          "checkedAt": "2026-10-13T12:37:57.690Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-is-an-ai-engineer.md",
+          "sha256": "f9cccdd3fc4d0bdf75404cfb90e92323e755f8791c98bbf10d8f81f378ba833e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50c29460cb5a13a624082c590d89c4f0eda02fa54e265d8f05d7f9bd6d9b3c78"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ee9460856f29b7101c2abe03aeb6ea927cf618fef761e5b51da767ec730c87c1"
+        }
+      ],
+      "rawOutputSha256": "369b6406f948012698bf3c3c9919233fffc7fc3656059cb9f81d5beb3d3af47c"
+    },
+    {
+      "mode": "apply",
+      "route": "/what-is-an-ai-engineer",
+      "manifest": {
+        "route": "/what-is-an-ai-engineer",
+        "sourceUrl": "https://www.aihero.dev/what-is-an-ai-engineer",
+        "sourceHash": "77b72306faee34d21bef05d7f0ecb6b3cc4a4a015a7a84e4a62e721eac0b6484",
+        "translationPath": "content/zh/what-is-an-ai-engineer.md",
+        "translationHash": "f9cccdd3fc4d0bdf75404cfb90e92323e755f8791c98bbf10d8f81f378ba833e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:57.922Z",
+        "assembly": {
+          "configHash": "05cfb5605aca47cc7fa385127b5fe5c52448716a4b34f7020fa93dd177a0250d",
+          "checkedAt": "2026-10-13T12:37:57.922Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/what-is-an-ai-engineer.md",
+          "sha256": "f9cccdd3fc4d0bdf75404cfb90e92323e755f8791c98bbf10d8f81f378ba833e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50c29460cb5a13a624082c590d89c4f0eda02fa54e265d8f05d7f9bd6d9b3c78"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e081cf2561593645e89ad89dc1b8a23b40852c97c056e7266042c4e2299ef419"
+        }
+      ],
+      "rawOutputSha256": "43b9a5bcacf891620e18580b8265a0be7aa828c9bf26315803a8a309da5a9e37"
+    }
+  ],
+  "nonTargetPagesPreserved": 125
+}

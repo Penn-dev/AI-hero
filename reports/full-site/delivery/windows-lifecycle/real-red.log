@@ -1,0 +1,35 @@
+TAP version 13
+2026-10-13T13:55:52.3692736Z # {"stopExitCode":0,"stdout":"正在停止 AI Hero 中文预览……\\r\\n预览已停止。\\r\\n","stderr":"","survivor":false}
+2026-10-13T13:55:52.3804657Z # Subtest: stopping a stale preview state leaves the unrelated live process untouched
+2026-10-13T13:55:52.3813967Z not ok 1 - stopping a stale preview state leaves the unrelated live process untouched
+2026-10-13T13:55:52.3816465Z   ---
+2026-10-13T13:55:52.3819409Z   duration_ms: 2769.3227
+2026-10-13T13:55:52.3822530Z   type: 'test'
+2026-10-13T13:55:52.3826479Z   location: 'D:\\a\\AI-hero\\AI-hero\\scripts\\preview-lifecycle.test.mjs:15:6'
+2026-10-13T13:55:52.3828997Z   failureType: 'testCodeFailure'
+2026-10-13T13:55:52.3832068Z   error: |-
+2026-10-13T13:55:52.3833646Z     The stale PID belongs to our unrelated fixture process and must survive.
+2026-10-13T13:55:52.3835630Z     正在停止 AI Hero 中文预览……
+2026-10-13T13:55:52.3837294Z     预览已停止。
+2026-10-13T13:55:52.3839161Z     
+2026-10-13T13:55:52.3841428Z     
+2026-10-13T13:55:52.3844007Z   code: 'ERR_ASSERTION'
+2026-10-13T13:55:52.3846891Z   name: 'AssertionError'
+2026-10-13T13:55:52.3854282Z   expected: true
+2026-10-13T13:55:52.3858635Z   actual: false
+2026-10-13T13:55:52.3859194Z   operator: '=='
+2026-10-13T13:55:52.3862610Z   stack: |-
+2026-10-13T13:55:52.3865222Z     TestContext.<anonymous> (file:///D:/a/AI-hero/AI-hero/scripts/preview-lifecycle.test.mjs:28:12)
+2026-10-13T13:55:52.3867363Z     async Test.run (node:internal/test_runner/test:1054:7)
+2026-10-13T13:55:52.3869239Z     async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+2026-10-13T13:55:52.3871655Z   ...
+2026-10-13T13:55:52.3928449Z 1..1
+2026-10-13T13:55:52.3931234Z # tests 1
+2026-10-13T13:55:52.3933590Z # suites 0
+2026-10-13T13:55:52.3935913Z # pass 0
+2026-10-13T13:55:52.3938231Z # fail 1
+2026-10-13T13:55:52.3940711Z # cancelled 0
+2026-10-13T13:55:52.3942949Z # skipped 0
+2026-10-13T13:55:52.3944911Z # todo 0
+2026-10-13T13:55:52.3946806Z # duration_ms 2897.9407
+2026-10-13T13:55:52.4532650Z 

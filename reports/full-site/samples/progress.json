@@ -1,0 +1,116 @@
+{
+  "startedAt": "2026-10-13T04:28:55.676Z",
+  "baseCommit": "81cc249411827dafba454f405f2af3cfe5c6ad2b",
+  "pages": [
+    {
+      "id": "system-prompt",
+      "route": "/ai-coding-dictionary/system-prompt",
+      "sourcePath": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
+      "sourceBytesMatch": true,
+      "chineseDraft": "reports/full-site/samples/drafts/system-prompt.md",
+      "draftHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+      "structure": {
+        "passed": true,
+        "evidence": "system-prompt-preview-final.log"
+      },
+      "browser": "passed-desktop-and-mobile",
+      "semantic": {
+        "completeAccurate": "reviewed",
+        "naturalChinese": "read-in-full",
+        "necessaryConcepts": "reviewed"
+      },
+      "codePreservation": {
+        "passed": true,
+        "sourceBlocks": 0
+      },
+      "assembly": "applied",
+      "chinesePath": "content/learning/system-prompt/article.md",
+      "initialStructure": {
+        "passed": false,
+        "error": "Source resource missing: https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/system-prompt?author=Matt"
+      },
+      "browserEvidence": "dot-validation/run-38386427504/browser-results.json",
+      "assemblyEvidence": "dot-validation/system-prompt-apply.log"
+    },
+    {
+      "id": "agents-md",
+      "route": "/a-complete-guide-to-agents-md",
+      "sourcePath": "content/source/a-complete-guide-to-agents-md.md",
+      "sourceHash": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5",
+      "sourceBytesMatch": true,
+      "chineseDraft": "reports/full-site/samples/drafts/agents-md.md",
+      "draftHash": "bf2c149382aada03300b6dacac483d315a148867fc0acc5f2abf43b6f4463562",
+      "structure": {
+        "passed": true,
+        "evidence": "agents-md-preview-final.log"
+      },
+      "browser": "passed-desktop-and-mobile",
+      "semantic": {
+        "completeAccurate": "reviewed",
+        "naturalChinese": "read-in-full",
+        "necessaryConcepts": "reviewed"
+      },
+      "codePreservation": {
+        "passed": true,
+        "sourceBlocks": 9
+      },
+      "assembly": "applied",
+      "chinesePath": "content/learning/agents-md/article.md",
+      "initialStructure": {
+        "passed": true
+      },
+      "browserEvidence": "dot-validation/run-38386427504/browser-results.json",
+      "assemblyEvidence": "dot-validation/agents-md-apply.log"
+    },
+    {
+      "id": "output",
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "sourcePath": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5",
+      "sourceBytesMatch": true,
+      "chineseDraft": "reports/full-site/samples/drafts/output.md",
+      "draftHash": "d32f5e6439e3ef635d1c4a0147a284caa646cc784fed702a132e32b90abbddbf",
+      "structure": {
+        "passed": true,
+        "evidence": "output-preview-final.log"
+      },
+      "browser": "passed-desktop-and-mobile",
+      "semantic": {
+        "completeAccurate": "reviewed",
+        "naturalChinese": "read-in-full",
+        "necessaryConcepts": "reviewed"
+      },
+      "codePreservation": {
+        "passed": true,
+        "sourceBlocks": 2
+      },
+      "assembly": "applied",
+      "chinesePath": "content/zh/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "initialStructure": {
+        "passed": false,
+        "error": "Source resource missing: generating-objects-via-output~dkm2k/solution"
+      },
+      "browserEvidence": "dot-validation/run-38386427504/browser-results.json",
+      "assemblyEvidence": "dot-validation/output-apply.log"
+    }
+  ],
+  "updatedAt": "2026-10-13T11:03:00Z",
+  "status": "sample-acceptance-complete",
+  "issue4Complete": true,
+  "integratedEngineeringCommit": "b9b70a6",
+  "validation": {
+    "content": "8 out-of-scope stale translation source hashes",
+    "learning": "passed; sourceFiles=10",
+    "build": "passed on 85cbc224 in Actions run38386427504",
+    "browser": "passed six viewport/page groups; affected screenshots inspected; independent review passed",
+    "fullTestOrLintRun": "42 existing tests passed; changed-file lint passed; no full-repository lint-clean claim"
+  },
+  "previewService": {
+    "port": 4322,
+    "stopped": true,
+    "evidence": "preview-service-stop.json"
+  },
+  "candidateCommit": "85cbc224c8fd8e6a609112d248cc673b1e79fe90",
+  "independentReview": "dot-validation/independent-review.md"
+}

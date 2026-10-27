@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-12/configs/my-7-phases-of-ai-development.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/my-7-phases-of-ai-development",
+      "manifest": {
+        "route": "/my-7-phases-of-ai-development",
+        "sourceUrl": "https://www.aihero.dev/my-7-phases-of-ai-development",
+        "sourceHash": "276360ca1eb6c2a68ab7889498ad2351d9c355620f510ce7a73f1dcb1c251e6d",
+        "translationPath": "content/zh/my-7-phases-of-ai-development.md",
+        "translationHash": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:56.990Z",
+        "assembly": {
+          "configHash": "f133ed210223babfdd14ccac1bf459eb5b6158ca0032434335192e83d9838eeb",
+          "checkedAt": "2026-10-13T13:07:56.990Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-7-phases-of-ai-development.md",
+          "sha256": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "85402c90f4decd5eb840ccf817dadb2f3a06e9ecf9e6c1bb7ebf25a479711d1a"
+        }
+      ],
+      "rawOutputSha256": "659242aa2889cd45d97a7150e8c54404b7356d4766f3186c76ccc2e1181064e9"
+    },
+    {
+      "mode": "apply",
+      "route": "/my-7-phases-of-ai-development",
+      "manifest": {
+        "route": "/my-7-phases-of-ai-development",
+        "sourceUrl": "https://www.aihero.dev/my-7-phases-of-ai-development",
+        "sourceHash": "276360ca1eb6c2a68ab7889498ad2351d9c355620f510ce7a73f1dcb1c251e6d",
+        "translationPath": "content/zh/my-7-phases-of-ai-development.md",
+        "translationHash": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:57.263Z",
+        "assembly": {
+          "configHash": "f133ed210223babfdd14ccac1bf459eb5b6158ca0032434335192e83d9838eeb",
+          "checkedAt": "2026-10-13T13:07:57.263Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/my-7-phases-of-ai-development.md",
+          "sha256": "cf5f1e1b6363e6d2e78ceeedce50efab182b5d5afa6d01e9356934c23ca74a1f"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "2d218d17edd15f7ce9ed77e85174b8eb864b0409cfb09d65a335ac485cb748c2"
+        }
+      ],
+      "rawOutputSha256": "5d4fe0371955042dd498798e422217637655de5f30131b565b62e3f704decf8a"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

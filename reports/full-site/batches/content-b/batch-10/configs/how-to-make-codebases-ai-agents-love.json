@@ -1,0 +1,15 @@
+{
+  "route": "/how-to-make-codebases-ai-agents-love",
+  "source": {
+    "path": "content/source/how-to-make-codebases-ai-agents-love.md",
+    "sha256": "40a7ff2177718517f985097be09c6ea0be58f54b2d0b7eccdb10009edcbad2a7"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-10/drafts/how-to-make-codebases-ai-agents-love.md",
+  "translationPath": "content/zh/how-to-make-codebases-ai-agents-love.md",
+  "linkTargets": [
+    {
+      "route": "/skills-improve-codebase-architecture",
+      "state": "available-chinese"
+    }
+  ]
+}

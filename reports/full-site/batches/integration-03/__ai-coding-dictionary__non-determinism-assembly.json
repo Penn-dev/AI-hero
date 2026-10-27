@@ -1,0 +1,185 @@
+{
+  "config": "reports/full-site/content-a/A08/configs/non-determinism.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/non-determinism",
+      "manifest": {
+        "route": "/ai-coding-dictionary/non-determinism",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
+        "sourceHash": "9d6bb88cb4d21da508ef3fb73b56707a9a0eb8d90b8606f470599dd1c14a6a84",
+        "translationPath": "content/zh/ai-coding-dictionary/non-determinism.md",
+        "translationHash": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:18:57.473Z",
+        "assembly": {
+          "configHash": "815f3dd97116dcd8491a974cab94311e87d71eec890b72eb956bf07c86a04234",
+          "checkedAt": "2026-10-13T12:18:57.473Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/inference",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider-request",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/next-token-prediction",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/non-determinism.md",
+          "sha256": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "918b27ca7b92371d5ec6c5c412d1154f7f6716e0d1670427701e018468bab05b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "646a82cd8f246b15456bc44720b443b5930796acdf4c78dbd35eb048d93b7510"
+        }
+      ],
+      "rawOutputSha256": "00f8133810b81ac5410e258aa3b13de2e7be064fabe7796f2f21e2e94b513932"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/non-determinism",
+      "manifest": {
+        "route": "/ai-coding-dictionary/non-determinism",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/non-determinism",
+        "sourceHash": "9d6bb88cb4d21da508ef3fb73b56707a9a0eb8d90b8606f470599dd1c14a6a84",
+        "translationPath": "content/zh/ai-coding-dictionary/non-determinism.md",
+        "translationHash": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:18:57.685Z",
+        "assembly": {
+          "configHash": "815f3dd97116dcd8491a974cab94311e87d71eec890b72eb956bf07c86a04234",
+          "checkedAt": "2026-10-13T12:18:57.685Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/inference",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model-provider-request",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/next-token-prediction",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/non-determinism.md",
+          "sha256": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "918b27ca7b92371d5ec6c5c412d1154f7f6716e0d1670427701e018468bab05b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "cf75947b03c7a3257b5a863a20ecb5cf17b510aa5e8b79117d75a5ab298654cd"
+        }
+      ],
+      "rawOutputSha256": "d681271f7be730b2c9c8ac3732a440278568324217b049c1246d48bf7d9be047"
+    }
+  ],
+  "nonTargetPagesPreserved": 55
+}

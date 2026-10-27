@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-14/configs/burn-through-your-backlog-with-my-triage-skill.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/burn-through-your-backlog-with-my-triage-skill",
+      "manifest": {
+        "route": "/burn-through-your-backlog-with-my-triage-skill",
+        "sourceUrl": "https://www.aihero.dev/burn-through-your-backlog-with-my-triage-skill",
+        "sourceHash": "62b670caa860ccda0ca82c683536c48c6969dccc89770da11d06f8d8fdf948de",
+        "translationPath": "content/zh/burn-through-your-backlog-with-my-triage-skill.md",
+        "translationHash": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:01.296Z",
+        "assembly": {
+          "configHash": "e92c6c8591ff35ca85e9133949115406be672e4a1106094ae288aa75ff13348f",
+          "checkedAt": "2026-10-13T13:08:01.296Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/burn-through-your-backlog-with-my-triage-skill.md",
+          "sha256": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "bdf0d154c163f6ad7cc723facc918f307c86a2cbc90f48c518d89f9fddb4234d"
+        }
+      ],
+      "rawOutputSha256": "8dad49145bad46ea739cf79d4363dd6e8011f9c64e99e83401e8cc02e393eb29"
+    },
+    {
+      "mode": "apply",
+      "route": "/burn-through-your-backlog-with-my-triage-skill",
+      "manifest": {
+        "route": "/burn-through-your-backlog-with-my-triage-skill",
+        "sourceUrl": "https://www.aihero.dev/burn-through-your-backlog-with-my-triage-skill",
+        "sourceHash": "62b670caa860ccda0ca82c683536c48c6969dccc89770da11d06f8d8fdf948de",
+        "translationPath": "content/zh/burn-through-your-backlog-with-my-triage-skill.md",
+        "translationHash": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:01.612Z",
+        "assembly": {
+          "configHash": "e92c6c8591ff35ca85e9133949115406be672e4a1106094ae288aa75ff13348f",
+          "checkedAt": "2026-10-13T13:08:01.612Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/burn-through-your-backlog-with-my-triage-skill.md",
+          "sha256": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a0bb0d8003f520765967b0792c3b69f60dc8a835b02995bc30ee2328d49d5346"
+        }
+      ],
+      "rawOutputSha256": "814fe699597e9ca6b6034ce5f0a73f9a83041fffb8cb0bec5a69d2fa79115a43"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

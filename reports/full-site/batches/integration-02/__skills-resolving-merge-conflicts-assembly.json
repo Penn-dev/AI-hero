@@ -1,0 +1,115 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-03/configs/skills-resolving-merge-conflicts.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-resolving-merge-conflicts",
+      "manifest": {
+        "route": "/skills-resolving-merge-conflicts",
+        "sourceUrl": "https://www.aihero.dev/skills-resolving-merge-conflicts",
+        "sourceHash": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710",
+        "translationPath": "content/zh/skills-resolving-merge-conflicts.md",
+        "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:25.377Z",
+        "assembly": {
+          "configHash": "3bc185e111f1c01c9355dd0babc0c6256945b3290b9aa17f5dd1b42be21add65",
+          "checkedAt": "2026-10-13T11:56:25.377Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-resolving-merge-conflicts.md",
+          "sha256": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "1efca359fecc22bfc84f00384c52e55e4c51e16618541a580a85939294a60549"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c8d72726c93bf6fadfc772f2aba231952071791de4446889e60d11321b7d9aa4"
+        }
+      ],
+      "rawOutputSha256": "50d71351759dcc13d89ae6f31a8e967752509db8e0026870619e4f43a99f1c66"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-resolving-merge-conflicts",
+      "manifest": {
+        "route": "/skills-resolving-merge-conflicts",
+        "sourceUrl": "https://www.aihero.dev/skills-resolving-merge-conflicts",
+        "sourceHash": "4707354035a2a598592c184f05fcee70001312026dea1ce9f0750ab218888710",
+        "translationPath": "content/zh/skills-resolving-merge-conflicts.md",
+        "translationHash": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:25.594Z",
+        "assembly": {
+          "configHash": "3bc185e111f1c01c9355dd0babc0c6256945b3290b9aa17f5dd1b42be21add65",
+          "checkedAt": "2026-10-13T11:56:25.594Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/primary-source",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/automated-check",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-resolving-merge-conflicts.md",
+          "sha256": "13ef6f55e61af4a3c9137a5783b8f37ab4082a291bb86f3fb18d26d7588b1528"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "1efca359fecc22bfc84f00384c52e55e4c51e16618541a580a85939294a60549"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "65949b08257186845b540d28f1b53d7208ee80f11feeeea4cd5caeb492d946f8"
+        }
+      ],
+      "rawOutputSha256": "8b4a5475c7d70413234640175146fcdc7fbbdebc68e559e30e4e6e2d08a137a7"
+    }
+  ],
+  "nonTargetPagesPreserved": 34
+}

@@ -1,0 +1,26 @@
+{
+  "route": "/skills/skills-changelog-v1-announcement",
+  "source": {
+    "path": "content/source/skills/skills-changelog-v1-announcement.md",
+    "sha256": "c143f5999fd0b1e9dbcf0c9c9df0b9cb8a15731acc400fdaf2786f05de2b24b1"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-20/drafts/skills__skills-changelog-v1-announcement.md",
+  "linkTargets": [
+    {
+      "route": "/skills",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    }
+  ]
+}

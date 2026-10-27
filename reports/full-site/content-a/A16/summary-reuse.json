@@ -1,0 +1,583 @@
+{
+  "sourceEntryCount": 71,
+  "sectionCounts": [
+    16,
+    8,
+    10,
+    9,
+    9,
+    6,
+    13
+  ],
+  "uniqueTermRoutes": 71,
+  "entries": [
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A07/drafts/ai.md",
+      "chineseSummaryBasisHash": "f1f4adb1b0b7f859b61ebbb24ea65d8c7a556e7482ef40f9e2aa784ebf35751d",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A01/drafts/model.md",
+      "chineseSummaryBasisHash": "f12f343165c943279cb53b174cad12087ae71f9a19ac811337dba7264ed6e757",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A07/drafts/parameters.md",
+      "chineseSummaryBasisHash": "a673aba82075efd6e720e571a090d7070869eaf36f462420a737b6a2f3d1d2a7",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A07/drafts/training.md",
+      "chineseSummaryBasisHash": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A07/drafts/inference.md",
+      "chineseSummaryBasisHash": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A08/drafts/effort.md",
+      "chineseSummaryBasisHash": "d16ab61f90611dae91272fb5ff250fd8ea6fe4480b5797bc599b10ec1e401996",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A02/drafts/token.md",
+      "chineseSummaryBasisHash": "8898ec3b4ffd54aa9f1cf9ec5588db3f21089e9c632fe2283a1f3de1598af5e3",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A08/drafts/next-token-prediction.md",
+      "chineseSummaryBasisHash": "caf12bccfab0edcf2a2ce9457ba074045692901c6514316e254bec50c5aed686",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A08/drafts/non-determinism.md",
+      "chineseSummaryBasisHash": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A07/drafts/model-provider.md",
+      "chineseSummaryBasisHash": "3df57d8c1c992024aba1a9396c3a1f7a00fe29e18f03686e06e3da82d0d1db8e",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A01/drafts/harness.md",
+      "chineseSummaryBasisHash": "4385fb5496325123f5a12485ec6d2d919a00154a663e32ed644e5df636068441",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A05/drafts/model-provider-request.md",
+      "chineseSummaryBasisHash": "06d5b7f0fce998498c0f30b8c57f66c88a046ebac6b39bda8b778913f7759561",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A08/drafts/input-tokens.md",
+      "chineseSummaryBasisHash": "abbccee08dfa232adfd8077a718c68cc3dea7a6c7f86283f9a9d3fd59d69242d",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A08/drafts/output-tokens.md",
+      "chineseSummaryBasisHash": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A04/drafts/prefix-cache.md",
+      "chineseSummaryBasisHash": "819ba0566d11e1239fee44dc0b7e47f1194b3eba2271bde7d2a9799ba2e25d33",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "section": "the-model",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A08/drafts/cache-tokens.md",
+      "chineseSummaryBasisHash": "c55e88c70a1b0d574f50ee19b6374198f94e4f5a9bc218425299ca3a88fe503b",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "section": "sessions-context-windows-turns",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A05/drafts/stateless.md",
+      "chineseSummaryBasisHash": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "section": "sessions-context-windows-turns",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A02/drafts/context.md",
+      "chineseSummaryBasisHash": "4021cb508844311565f8f12a80d102cfd6eddde9d639a682302914901e78941b",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "section": "sessions-context-windows-turns",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A02/drafts/context-window.md",
+      "chineseSummaryBasisHash": "c7b7dd9404a5e20e691ba4d9109594987f8be2844d762c08634584b981ba35b1",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "section": "sessions-context-windows-turns",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A05/drafts/stateful.md",
+      "chineseSummaryBasisHash": "bead311e9b537c7253bbd3794a1c8099c51cf280ade409df0b705c384e1c39b5",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "section": "sessions-context-windows-turns",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A01/drafts/agent.md",
+      "chineseSummaryBasisHash": "5b44967000bbf20f89eecf21037c35a7428931d8623e0a45912dd63ed15e2a06",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "section": "sessions-context-windows-turns",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "content/learning/system-prompt/article.md",
+      "chineseSummaryBasisHash": "9b149ee53ea78cedb27ae8ab30f05a02abd5c81dbd561b6ef099fc738c1e9d99",
+      "summaryEditorialChange": "Equivalent punctuation and sentence split only"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "section": "sessions-context-windows-turns",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A05/drafts/session.md",
+      "chineseSummaryBasisHash": "0f7b5d79ba37eac31e0a15ec07da91883af8d4ecb1f260b96ab66c0e5df8ce6f",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "section": "sessions-context-windows-turns",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A05/drafts/turn.md",
+      "chineseSummaryBasisHash": "0c222df5426fe704b42bdf8098d1c312e72dc12151f8782d61353587c51d8bc7",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "section": "tools-environment",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A06/drafts/environment.md",
+      "chineseSummaryBasisHash": "ca9167eddfab6506465946a78ca6814d4467c24cf174a772b09891fb38f35fbc",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "section": "tools-environment",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A06/drafts/filesystem.md",
+      "chineseSummaryBasisHash": "4f1f8d28fa461752472c085d5aec6edb91ad260706dab7640727a6340486d445",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "section": "tools-environment",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A03/drafts/tool.md",
+      "chineseSummaryBasisHash": "f094c8573d7307195caf83a27e4eace62fda2af963fcac0adb262e346d1fb4a3",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-call",
+      "section": "tools-environment",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A03/drafts/tool-call.md",
+      "chineseSummaryBasisHash": "95ec8540dceadb7fac71d6539c17bc2a4acd1ee9354dac8fe994572678413e2a",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "section": "tools-environment",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A03/drafts/tool-result.md",
+      "chineseSummaryBasisHash": "7574fffe1a0b24a5b25f4213060ea9765833f0d7c84468ae0a3df00772e688a5",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "section": "tools-environment",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A12/drafts/mcp.md",
+      "chineseSummaryBasisHash": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "section": "tools-environment",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A12/drafts/permission-request.md",
+      "chineseSummaryBasisHash": "b0baee76ed0d94d37711c42ed89ffc30f27eb850abfd852df537660b9539bfa2",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "section": "tools-environment",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A12/drafts/permission-mode.md",
+      "chineseSummaryBasisHash": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "section": "tools-environment",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A12/drafts/agent-mode.md",
+      "chineseSummaryBasisHash": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "section": "tools-environment",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A12/drafts/sandbox.md",
+      "chineseSummaryBasisHash": "f2da4f482d5a0b2fa54bd2b4e6343d6a540d505887d1307f42ae378b9de2f5c8",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "section": "failure-modes",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A11/drafts/sycophancy.md",
+      "chineseSummaryBasisHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "section": "failure-modes",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A04/drafts/hallucination.md",
+      "chineseSummaryBasisHash": "cb0b42d2ea97b726aea109e3efd893511218a08b209441a8905c92de5d04c3c3",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "section": "failure-modes",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A11/drafts/parametric-knowledge.md",
+      "chineseSummaryBasisHash": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "section": "failure-modes",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A11/drafts/knowledge-cutoff.md",
+      "chineseSummaryBasisHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "section": "failure-modes",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A11/drafts/contextual-knowledge.md",
+      "chineseSummaryBasisHash": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "section": "failure-modes",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A09/drafts/attention-relationship.md",
+      "chineseSummaryBasisHash": "26a9bbfe02f92f4f1fa9b481da4dfa7d924e8e5318c1405f64bc657f4e48ed47",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "section": "failure-modes",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A09/drafts/attention-budget.md",
+      "chineseSummaryBasisHash": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "section": "failure-modes",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A09/drafts/attention-degradation.md",
+      "chineseSummaryBasisHash": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "section": "failure-modes",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A09/drafts/smart-zone.md",
+      "chineseSummaryBasisHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "section": "handoffs",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A10/drafts/clearing.md",
+      "chineseSummaryBasisHash": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "section": "handoffs",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A10/drafts/handoff.md",
+      "chineseSummaryBasisHash": "4bb16d3c2891a5293d36efd8d754ceedd00abd1500c620ca4bb728975ef308b2",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "section": "handoffs",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A11/drafts/primary-source.md",
+      "chineseSummaryBasisHash": "9f9c37d1f3f958191afd1c1ced53e7de63fdac835d120001526459290e709d31",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "section": "handoffs",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A11/drafts/secondary-source.md",
+      "chineseSummaryBasisHash": "885423477c37ba1fb06634c16f587b8d1195c7502b28a2152e705c86f0c31dbf",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "section": "handoffs",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A10/drafts/handoff-artifact.md",
+      "chineseSummaryBasisHash": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "section": "handoffs",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A14/drafts/spec.md",
+      "chineseSummaryBasisHash": "cbd2ae4002e6013decb42c3d77303219d796878830a6ad4cc98b23cf5c6d7e22",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "section": "handoffs",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A14/drafts/ticket.md",
+      "chineseSummaryBasisHash": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "section": "handoffs",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A10/drafts/compaction.md",
+      "chineseSummaryBasisHash": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "section": "handoffs",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A10/drafts/autocompact.md",
+      "chineseSummaryBasisHash": "6f091d0428d7b4f73fdb429345bd8102710b5f3012a236ea09c37d038019a12b",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/memory-system",
+      "section": "memory-and-steering",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A04/drafts/memory-system.md",
+      "chineseSummaryBasisHash": "69475a939a5bcdf64d816a1de64f161f915dc1443ed1e3be6fecaaba23684df9",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "section": "memory-and-steering",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A06/drafts/agents-md.md",
+      "chineseSummaryBasisHash": "06897ea09726703625d8aeb5ca76e7dbef1582714e0b9428236eb87699cd1c1c",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "section": "memory-and-steering",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A02/drafts/progressive-disclosure.md",
+      "chineseSummaryBasisHash": "28746a8a24087a5222b3bcaf0c6e01cc61591432439e59df22254f28615d9621",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "section": "memory-and-steering",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A06/drafts/context-pointer.md",
+      "chineseSummaryBasisHash": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "section": "memory-and-steering",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A06/drafts/skill.md",
+      "chineseSummaryBasisHash": "477975137e42e1c36b76997ca56c5c9d998f09f12ec8f2b103bcf3679cfd999c",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "section": "memory-and-steering",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A12/drafts/subagent.md",
+      "chineseSummaryBasisHash": "fd3603db152a6d2f867f656a1897c22164fa17320554f62f6996b546fb986ec4",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A13/drafts/human-in-the-loop.md",
+      "chineseSummaryBasisHash": "36a2b738e345d63882ca23f41a1183b128c2a24f0e0c1d05ea283ba6801eed49",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A13/drafts/afk.md",
+      "chineseSummaryBasisHash": "69bd4c8ae6f747c478edb713b8efe67054e3b33250b82777364c9fab1cad5bb0",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A13/drafts/automated-check.md",
+      "chineseSummaryBasisHash": "2ad1926f1f2876a937a9a95ba672f0d1c1d419bd6cc4e6825558dba75e7b1573",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A13/drafts/automated-review.md",
+      "chineseSummaryBasisHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A13/drafts/human-review.md",
+      "chineseSummaryBasisHash": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A15/drafts/vibe-coding.md",
+      "chineseSummaryBasisHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A15/drafts/design-concept.md",
+      "chineseSummaryBasisHash": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A14/drafts/grilling.md",
+      "chineseSummaryBasisHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A14/drafts/prototyping.md",
+      "chineseSummaryBasisHash": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A13/drafts/dx.md",
+      "chineseSummaryBasisHash": "2b5bcbf713195ef12650d14b795f81d6279ec70918946e8000a97fcaef995ebe",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A13/drafts/ax.md",
+      "chineseSummaryBasisHash": "9f67986cebc45eae52e8fd3eed63e27cf2bd4241c807f32738c4041882ef8084",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A15/drafts/software-factory.md",
+      "chineseSummaryBasisHash": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "section": "patterns-of-work",
+      "sourceSummaryMatchesTermPage": true,
+      "chineseSummaryBasis": "reports/full-site/content-a/A15/drafts/dark-factory.md",
+      "chineseSummaryBasisHash": "b054c4a02ad3061cf79d11070977d95602bce8c83d52950cea589bba7dbeffa9",
+      "summaryEditorialChange": "Reused complete reviewed Chinese summary"
+    }
+  ]
+}

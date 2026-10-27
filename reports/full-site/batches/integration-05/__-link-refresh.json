@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-16/configs/home.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/",
+      "manifest": {
+        "route": "/",
+        "sourceUrl": "https://www.aihero.dev/",
+        "sourceHash": "3942208060725a8c24a3883fd703a9a975c65d0dc9cfc3ea14840001c83d4378",
+        "translationPath": "content/zh/home.md",
+        "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:19:27.362Z",
+        "assembly": {
+          "configHash": "668662ef16378bd42d1e1e6e55fc770d8492051d166a5765110ae96ac8c0fe5b",
+          "checkedAt": "2026-10-13T13:19:27.362Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/home.md",
+          "sha256": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "b25fe2fd63cc6d61972c4017249e67366f15f589c13524434e5669cc37393a80"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0e9f351dabeec9e77a8179284d59eb4934f2cf45184ba4f1fca6bafefd00251a"
+        }
+      ],
+      "rawOutputSha256": "e9648a5008d78a18af8aff27fa27e62fc91908c1da2a65505c367fdc5ad6f791"
+    },
+    {
+      "mode": "apply",
+      "route": "/",
+      "manifest": {
+        "route": "/",
+        "sourceUrl": "https://www.aihero.dev/",
+        "sourceHash": "3942208060725a8c24a3883fd703a9a975c65d0dc9cfc3ea14840001c83d4378",
+        "translationPath": "content/zh/home.md",
+        "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:19:27.728Z",
+        "assembly": {
+          "configHash": "668662ef16378bd42d1e1e6e55fc770d8492051d166a5765110ae96ac8c0fe5b",
+          "checkedAt": "2026-10-13T13:19:27.728Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/home.md",
+          "sha256": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "b25fe2fd63cc6d61972c4017249e67366f15f589c13524434e5669cc37393a80"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d33a64aeb26c268855365c51cb8171f238a57cae5bec15603ea1893aee0ffc01"
+        }
+      ],
+      "rawOutputSha256": "b0cb9bd55a3e64603201f33025fe471a10533b980c45cdd652fcd4ed76aa7352"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

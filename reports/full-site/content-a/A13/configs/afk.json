@@ -1,0 +1,66 @@
+{
+  "route": "/ai-coding-dictionary/afk",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/afk.md",
+    "sha256": "8618b23c4ab823f440ea078191a7345958fcd260c290033141d47847ad6f915a"
+  },
+  "chineseFile": "reports/full-site/content-a/A13/drafts/afk.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-15/configs/skills-prototype.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-prototype",
+      "manifest": {
+        "route": "/skills-prototype",
+        "sourceUrl": "https://www.aihero.dev/skills-prototype",
+        "sourceHash": "2bb059ffc469453c3d98f9f04c1c3928bd020ac999709e20c86df88a95c5e821",
+        "translationPath": "content/zh/skills-prototype.md",
+        "translationHash": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:37.104Z",
+        "assembly": {
+          "configHash": "39e008e2dce29691f6ec3a85dacd403f4e5d24bdf669574c9957b3b116304f62",
+          "checkedAt": "2026-10-13T13:02:37.104Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-prototype.md",
+          "sha256": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "fc9520cde81e3da4bb11607615873e16402d2396360fc4b8e3cfa42331a2fe2f"
+        }
+      ],
+      "rawOutputSha256": "23eed7dc6e671818ce1fea3c2dc6d80e84e4423aaf3f53ab4b8ac19b43ceb6b4"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-prototype",
+      "manifest": {
+        "route": "/skills-prototype",
+        "sourceUrl": "https://www.aihero.dev/skills-prototype",
+        "sourceHash": "2bb059ffc469453c3d98f9f04c1c3928bd020ac999709e20c86df88a95c5e821",
+        "translationPath": "content/zh/skills-prototype.md",
+        "translationHash": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:37.369Z",
+        "assembly": {
+          "configHash": "39e008e2dce29691f6ec3a85dacd403f4e5d24bdf669574c9957b3b116304f62",
+          "checkedAt": "2026-10-13T13:02:37.369Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-prototype.md",
+          "sha256": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f51ba3525c17cfc57b033b572fde70d554ec89d11872747d760bf6281066e00d"
+        }
+      ],
+      "rawOutputSha256": "73878954240c20792bd0a14d3e6ed5bdf1cce4bc3dd0a4054a69821d2c15a816"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

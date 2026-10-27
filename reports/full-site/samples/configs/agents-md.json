@@ -1,0 +1,246 @@
+{
+  "route": "/a-complete-guide-to-agents-md",
+  "source": {
+    "path": "content/source/a-complete-guide-to-agents-md.md",
+    "sha256": "eea031fa3bb5804320bd25fcd0b89035ef503b2afeb1c69aeade63e1d05b5ee5"
+  },
+  "chineseFile": "content/learning/agents-md/article.md",
+  "learning": {
+    "sources": {},
+    "profile": {
+      "kind": "guide",
+      "sourceIds": [
+        "guide-source",
+        "guide-revised-translation",
+        "guide-translation"
+      ],
+      "conceptIds": [
+        "git",
+        "markdown",
+        "agent",
+        "harness",
+        "system-prompt",
+        "prompt",
+        "token",
+        "context",
+        "progressive-disclosure",
+        "monorepo",
+        "package-manager",
+        "skill",
+        "symbolic-link"
+      ],
+      "prerequisiteIds": [
+        "markdown",
+        "agent"
+      ],
+      "start": {
+        "title": "开始前，先知道三件事",
+        "cards": [
+          {
+            "title": "学完能做什么",
+            "text": "判断哪些规则该留在根目录，并写出一份简洁、不会拖累 AI 的 AGENTS.md。"
+          },
+          {
+            "title": "需要准备什么",
+            "text": "无需编程基础。只要能找到项目文件夹，并能用文本编辑器或 AI 编码工具创建文件即可。"
+          },
+          {
+            "title": "遇到陌生词怎么办",
+            "text": "点击正文中带虚线的术语，或随时使用右侧／底部的术语速查。"
+          }
+        ],
+        "example": {
+          "text": "This project is a web application.\nUse npm for dependencies.\nRun npm test before submitting changes.",
+          "explanation": "译注：这三句依次表示“这是一个 Web 应用程序项目；使用 npm 管理依赖；提交更改前运行 npm test”。这是中文学习辅助示例，不是英文原文中的示例，也不要求你现在执行这些命令。"
+        }
+      },
+      "check": {
+        "title": "学完后，用一分钟自检",
+        "items": [
+          "我能解释为什么 AGENTS.md 不是越长越好。",
+          "我能找出只在特定任务中使用的规则，并把它们移到单独文档。",
+          "我能写出一份包含项目说明、必要工具和检查命令的最小文件。"
+        ]
+      },
+      "originalExamples": [
+        {
+          "sourceId": "guide-source",
+          "text": "```bash\n# Create a symlink from AGENTS.md to CLAUDE.md\nln -s AGENTS.md CLAUDE.md\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nThis is a React component library for accessible data visualization.\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nThis project uses pnpm workspaces.\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nAlways use const instead of let.\nNever use var.\nUse interface instead of type when possible.\nUse strict null checks.\n...\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nFor TypeScript conventions, see docs/TYPESCRIPT.md"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```\ndocs/\n├── TYPESCRIPT.md\n│   └── references TESTING.md\n├── TESTING.md\n│   └── references specific test runners\n└── BUILD.md\n    └── references esbuild configuration\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nThis is a monorepo containing web services and CLI tools.\nUse pnpm workspaces to manage dependencies.\nSee each package's AGENTS.md for specific guidelines.\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```markdown\nThis package is a Node.js GraphQL API using Prisma.\nFollow docs/API_CONVENTIONS.md for API design patterns.\n```"
+        },
+        {
+          "sourceId": "guide-source",
+          "text": "```txt\nI want you to refactor my AGENTS.md file to follow progressive disclosure principles.\n\nFollow these steps:\n\n1. **Find contradictions**: Identify any instructions that conflict with each other. For each contradiction, ask me which version I want to keep.\n\n2. **Identify the essentials**: Extract only what belongs in the root AGENTS.md:\n   - One-sentence project description\n   - Package manager (if not npm)\n   - Non-standard build/typecheck commands\n   - Anything truly relevant to every single task\n\n3. **Group the rest**: Organize remaining instructions into logical categories (e.g., TypeScript conventions, testing patterns, API design, Git workflow). For each group, create a separate markdown file.\n\n4. **Create the file structure**: Output:\n   - A minimal root AGENTS.md with markdown links to the separate files\n   - Each separate file with its relevant instructions\n   - A suggested docs/ folder structure\n\n5. **Flag for deletion**: Identify any instructions that are:\n   - Redundant (the agent already knows this)\n   - Too vague to be actionable\n   - Overly obvious (like \"write clean code\")\n```"
+        }
+      ],
+      "originalExamplesInline": true,
+      "related": [
+        {
+          "format": "中文词条",
+          "title": "智能体（agent）",
+          "description": "先理解是谁读取项目规则、调用工具并完成任务。",
+          "href": "/ai-coding-dictionary/agent"
+        },
+        {
+          "format": "中文词条",
+          "title": "渐进式披露",
+          "description": "继续理解怎样只在需要时提供专用规则与资料。",
+          "href": "/ai-coding-dictionary/progressive-disclosure"
+        }
+      ],
+      "glossary": [
+        {
+          "id": "term-git",
+          "term": "Git",
+          "aliases": [
+            "Git"
+          ],
+          "definition": "记录和管理文件版本变化的工具。"
+        },
+        {
+          "id": "term-markdown",
+          "term": "Markdown",
+          "aliases": [
+            "Markdown"
+          ],
+          "definition": "用简单文字标记表示标题、列表和链接等格式的写法。"
+        },
+        {
+          "id": "term-agent",
+          "term": "智能体（agent）",
+          "aliases": [
+            "智能体",
+            "agent",
+            "AI 编码智能体",
+            "AI coding agent"
+          ],
+          "definition": "由模型和执行框架等组合而成、可以接收任务并使用工具开展工作的 AI 助手。"
+        },
+        {
+          "id": "term-harness",
+          "term": "智能体执行框架（harness）",
+          "aliases": [
+            "智能体执行框架",
+            "harness",
+            "执行框架"
+          ],
+          "definition": "围绕模型运行的软件，负责组织输入、提供工具、执行调用并管理交互过程。"
+        },
+        {
+          "id": "term-system-prompt",
+          "term": "系统提示词（system prompt）",
+          "aliases": [
+            "系统提示词",
+            "system prompt"
+          ],
+          "definition": "随模型请求提供的基础指令，用来约定角色和行为等要求。"
+        },
+        {
+          "id": "term-prompt",
+          "term": "提示词（Prompt）",
+          "aliases": [
+            "提示词",
+            "prompt",
+            "Prompt 文本"
+          ],
+          "definition": "交给 AI 的任务说明、指令或输入文本。"
+        },
+        {
+          "id": "term-token",
+          "term": "Token",
+          "aliases": [
+            "Token",
+            "token",
+            "词元"
+          ],
+          "definition": "模型读取和生成文本时使用的基本计量单位，不等同于一个汉字或一个英文单词。"
+        },
+        {
+          "id": "term-context",
+          "term": "上下文（context）",
+          "aliases": [
+            "上下文",
+            "context"
+          ],
+          "definition": "广义上指当前任务已提供给助手使用的信息；本文讨论 Token 和“每次请求”时，特指某一次模型请求中实际附带的信息。"
+        },
+        {
+          "id": "term-progressive-disclosure",
+          "term": "渐进式披露",
+          "aliases": [
+            "渐进式披露",
+            "progressive disclosure",
+            "按需展开信息"
+          ],
+          "definition": "先提供完成当前步骤所需的信息，再通过清楚的入口按需展开细节。"
+        },
+        {
+          "id": "term-monorepo",
+          "term": "多项目单仓库（monorepo）",
+          "aliases": [
+            "多项目单仓库",
+            "monorepo"
+          ],
+          "definition": "把多个相关项目或软件包放在同一个代码仓库中统一管理的方式。"
+        },
+        {
+          "id": "term-package-manager",
+          "term": "包管理器",
+          "aliases": [
+            "包管理器",
+            "package manager"
+          ],
+          "definition": "安装、更新并记录项目依赖的工具；npm 和 pnpm 是 JavaScript 生态中的例子。"
+        },
+        {
+          "id": "term-skill",
+          "term": "Skill",
+          "aliases": [
+            "Skill",
+            "skill",
+            "智能体技能",
+            "Agent Skill"
+          ],
+          "definition": "部分智能体工具提供的专用指令或工作流单元；名称和加载方式取决于具体产品。"
+        },
+        {
+          "id": "term-symbolic-link",
+          "term": "符号链接",
+          "aliases": [
+            "符号链接",
+            "symlink"
+          ],
+          "definition": "让一个路径指向另一个文件或目录的文件系统机制；创建方式受操作系统、权限和命令环境影响。"
+        }
+      ]
+    }
+  },
+  "linkTargets": []
+}

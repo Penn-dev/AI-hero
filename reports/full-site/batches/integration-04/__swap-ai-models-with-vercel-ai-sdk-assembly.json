@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-05/configs/swap-ai-models-with-vercel-ai-sdk.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/swap-ai-models-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/swap-ai-models-with-vercel-ai-sdk",
+        "sourceHash": "aac3e780421568244954473c45d09d24ba5acd4f4dbcd63a3937aede0a1e89b4",
+        "translationPath": "content/zh/swap-ai-models-with-vercel-ai-sdk.md",
+        "translationHash": "971ab2c8677e624acfdbee607f50e6a15cb6fd1fd661a8ca400794a20cfced7a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:59.600Z",
+        "assembly": {
+          "configHash": "292eb0644baedf0ddf84c772b7a03738450849f462897c28fa15650ecc1bc7ae",
+          "checkedAt": "2026-10-13T12:37:59.600Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/swap-ai-models-with-vercel-ai-sdk.md",
+          "sha256": "971ab2c8677e624acfdbee607f50e6a15cb6fd1fd661a8ca400794a20cfced7a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "92daa10774c4926f8359ebf877521a1ba2de798d346219d6fdfc4eb1eea2da5d"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "35d46c0a9b5e5076159cd202ba44c43ce6a5a7889c839d9308deca4017e8e8dc"
+        }
+      ],
+      "rawOutputSha256": "b8b80b3f8e02ff9e27dc366898c12b9649c49489f79b87bb9f7d18532479cab8"
+    },
+    {
+      "mode": "apply",
+      "route": "/swap-ai-models-with-vercel-ai-sdk",
+      "manifest": {
+        "route": "/swap-ai-models-with-vercel-ai-sdk",
+        "sourceUrl": "https://www.aihero.dev/swap-ai-models-with-vercel-ai-sdk",
+        "sourceHash": "aac3e780421568244954473c45d09d24ba5acd4f4dbcd63a3937aede0a1e89b4",
+        "translationPath": "content/zh/swap-ai-models-with-vercel-ai-sdk.md",
+        "translationHash": "971ab2c8677e624acfdbee607f50e6a15cb6fd1fd661a8ca400794a20cfced7a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:59.821Z",
+        "assembly": {
+          "configHash": "292eb0644baedf0ddf84c772b7a03738450849f462897c28fa15650ecc1bc7ae",
+          "checkedAt": "2026-10-13T12:37:59.821Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/swap-ai-models-with-vercel-ai-sdk.md",
+          "sha256": "971ab2c8677e624acfdbee607f50e6a15cb6fd1fd661a8ca400794a20cfced7a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "92daa10774c4926f8359ebf877521a1ba2de798d346219d6fdfc4eb1eea2da5d"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ec9cd71050727f5fa34fc5b69b5dc44d9190736a5cf2fb52530c73af34a20665"
+        }
+      ],
+      "rawOutputSha256": "4e65454b197415bb2430ac8d8138ac7747e65733d14657a603c15a6916c45199"
+    }
+  ],
+  "nonTargetPagesPreserved": 128
+}

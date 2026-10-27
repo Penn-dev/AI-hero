@@ -1,0 +1,88 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:assemble
+> node scripts/assemble-page.mjs preview reports/full-site/batches/content-c/batch-17/configs/skills-wizard.json
+
+{
+  "mode": "preview",
+  "route": "/skills-wizard",
+  "page": {
+    "title": "/wizard Skill",
+    "description": "生成脚本，一步步引导人完成设置。",
+    "markdown": "## 它能做什么\n\n`wizard` 生成交互式 bash 脚本，引导人逐步完成手动流程，例如配置第三方服务、一次性迁移，或把项目从状态 A 变到 B。它逐个打开 URL，说明点击、复制什么，接收返回值，再写进 `.env` 和 GitHub Actions secrets。\n\n[智能体](https://www.aihero.dev/ai-coding-dictionary/agent)只写脚本，绝不运行；由你在自己的电脑运行。向导是程序，不是说明清单。它依次执行步骤，保存输入值；你负责点击、粘贴、按 Enter。\n\n## 什么时候该用它\n\n输入 `/wizard`，智能体也可以自行调用。遇到必须由你完成的步骤，例如它无法创建的密钥、无法点击的控制台，就写向导，而不是把说明塞进很快滚走的聊天。\n\n下一项阻碍需要去控制台操作时使用：\n\n| 情况 | 向导做什么 |\n| --- | --- |\n| 新开发者需要配置六个服务，应用才能启动 | 依次开控制台，接收密钥，写入 `.env` 和 CI |\n| 一次性迁移要求按特定顺序切换选项 | 把不可逆步骤按序放在确认关卡后 |\n| 项目要一次性从 A 转为 B | 引导转换，报告未能完成的部分 |\n| 准备把这些步骤写进 README | 改写为可执行版本，步骤过时会明确失败 |\n\n不要用它*决定*要建什么；那是 [grill-with-docs](https://aihero.dev/skills-grill-with-docs) 和 [to-spec](https://aihero.dev/skills-to-spec) 的工作。\n\n## 使用前提\n\n生成脚本没有前提。产出的向导运行于 bash，需要设置 GitHub secret 或 variable 的阶段会用 `gh`。没有 `gh`，或尚未认证，不会让整次运行失败：该阶段警告，最终摘要说明哪些要手动设置。\n\n译注：`.env` 常用于保存本地环境变量；GitHub secret 保存敏感配置，variable 保存普通配置。本文介绍生成模式，没有创建或输入任何密钥。\n\n## 阶段\n\n一个**阶段**就是一屏完成的一项集中任务。阶段间清空终端，因此内容超过屏幕，会丢掉已滚出的部分。编写时按依赖顺序排列，设置 `TOTAL_STAGES` 来控制进度显示。\n\n写脚本前，[Skill](https://www.aihero.dev/ai-coding-dictionary/skill) 先界定流程。它不空口问，而读仓库：`.env*`、`docker-compose*`、框架配置，以及每个 `secrets.*` / `vars.*` 引用，它们位于 `.github/workflows/` 中。每个引用都是向导应产出的值。然后展示有序阶段清单供你确认。确认后，才把每步映射为人实际点击的路径，例如“Dashboard → Developers → API keys → Reveal test key → copy”。不知道当前界面，就问你或查文档，不编造点击位置。\n\n中文理解：控制台 → 开发者 → API 密钥 → 显示测试密钥 → 复制。原标签供你在英文界面中辨认。\n\n确定范围时，也决定每个输入值去哪：\n\n| 去向 | 何时 |\n| --- | --- |\n| 只写 `.env` | 本地开发需要，CI 不需要 |\n| GitHub secret | CI 需要，且敏感 |\n| GitHub variable | CI 需要，且公开 |\n| 同时写 `.env` 和 secret | 本地与 CI 都需要 |\n| 不保存值 | 阶段只有动作，例如切开关、升级套餐 |\n\n## 模板已处理交互体验\n\n[模板](https://github.com/mattpocock/skills/blob/main/skills/engineering/wizard/template.sh) 提供完整体验：进度与剩余时间、确认关卡、含 WSL 的跨平台 URL 打开、秘密输入不回显、幂等的 `.env` 新增或更新、`gh secret` / `gh variable` 写入，以及最后说明所有跳过事项。`STAGES` 标记前都是固定函数库，每个向导相同，绝不手动改。库不变，向导行为就一致。每次只需确定流程并编写阶段。\n\n写向导的智能体从不端到端运行，因为它会开浏览器、等待人工输入。改为静态检查：`bash -n`，有条件时用 `shellcheck`，再追踪每个值是否去到约定位置、每个 `set_secret` 名称是否对应 CI 中真实的 `secrets.*` 引用。因此首次运行由你执行，那次运行才是实际测试。\n\n译注：幂等意味着重复执行不会不断新增重复配置。静态检查能发现部分脚本问题，不能证明第三方控制台或真实写入已通过测试。\n\n## 默认只短期使用\n\n| 情况 | 脚本怎样处理 |\n| --- | --- |\n| 一次性迁移、个人设置、不会重做的转换 | 放临时工作位置或 `scripts/`，运行后删除 |\n| 下一个仓库使用者也会需要的设置 | 提交脚本，在 README 链接，让对方运行而非重新询问智能体 |\n\n## 常见问题\n\n**API 密钥会进入模型上下文吗？**\n\n不会。智能体写脚本，不运行。你自己运行，脚本通过终端隐藏输入接收密钥，直接写 `.env` 或 `gh secret`。向导是 CLI，模型没接到它。只有运行时接收的值才符合这项说明。如果确定流程时把密钥贴进聊天，它就像其他粘贴文字一样进入[上下文](https://www.aihero.dev/ai-coding-dictionary/context)。\n\n**输入错了，能退回修改吗？**\n\n运行中不能，没有返回按钮。阶段向前走，第三步错了就 Ctrl-C 后重跑。重跑成本低，已写进 `.env` 的值会作为默认值，让你对正确项直接 Enter，只重填错误项。发布当周就有人问，仍未解决：“loved it! One thing though, is there a way to go back and correct what you've entered?”\n\n中文理解：很喜欢，不过能不能回到前面，改正已经输入的内容？\n\n**它知道哪些已设置过吗？**\n\n部分知道，没发布时大家想象得那么多。提问前读仓库中的 `.env`、`docker-compose`、框架配置和 CI 的 `secrets.*` 引用，因此只针对缺少值，不像 README 从零开始。但它不查第三方服务。`.env` 已有密钥，就提供默认值，Enter 保留；Stripe 账号已建但没保存密钥，仍会送你到控制台获取。\n\n**流程中该放哪，追问和规格之后吗？**\n\n没有固定位置，是独立工具。常见猜测 `/grill-with-docs → /to-spec → /wizard` 没问题，但真正触发条件是出现手动流程，可能在开始前、开发中或上线很久后。它也能帮助发现前提：确定流程时，会在你决定投入之前找出没想到的三个 API 密钥等隐藏依赖。\n\n**Claude Code 之外能用吗？**\n\n脚本可以，普通 bash 不受生成它的[执行框架](https://www.aihero.dev/ai-coding-dictionary/harness)影响。Skill 本身可由模型调用，因此会出现在各处清单：Claude Code 输入 `/wizard`，Codex 输入 `$wizard`，或直接描述卡住的设置。可由模型调用也避开了 [#693](https://github.com/mattpocock/skills/issues/693)：Claude 桌面与网页版会把*用户调用型* Skills 从[模型](https://www.aihero.dev/ai-coding-dictionary/model)清单移除，误报未安装。\n\n**以前不是用户调用型吗？**\n\n是，现在改为模型调用型，遇到必须由你操作的步骤，会主动选用。旧功能没失效，模型调用只是让智能体也能调用，因此 `/wizard` 仍照旧工作。这修复了一种失败：过去开发途中遇到凭据障碍，就往聊天丢六条步骤，让你自己照做；现在会写向导。\n\n**以前在 `in-progress/`，现在在哪？**\n\n从 v1.2 起在 `engineering/`。它从 beta 分类毕业，进入插件，随其他正式 Skills 一起安装，不必单独装。转正式时行为没有变化。\n\n## 出现这些迹象，就说明它在发挥作用\n\n- 脚本出现前，先展示有序阶段及各自产出的值，要求确认。\n- 先打开 URL，再索取该页的值，不会没告诉你去哪找就让你粘贴。\n- 秘密输入不回显，敏感内容不出现在终端滚动记录里。\n- 每阶段一屏，仍需要的信息没有滚走。\n- Ctrl-C 后重跑，已保存值作为默认，能接着进行。\n- 最后一屏说明写入了什么，另列无法完成、需你手动补的内容。\n\n## 它处在什么位置\n\n`wizard` 是随时可用的独立 Skill，位于自动化停止、需要人点击的地方。最相近的是 [setup-matt-pocock-skills](https://aihero.dev/skills-setup-matt-pocock-skills)，两者都让仓库进入可工作状态。后者配置这套 Skills，`wizard` 则为其他设置生成操作路线。它也配合 [implement](https://aihero.dev/skills-implement)：功能需要凭据或人工切换时，向导覆盖只有人能完成的步骤。不确定时，用 [ask-matt](https://aihero.dev/skills-ask-matt)。\n\n译注：相关中文词条：[Skill](/ai-coding-dictionary/skill)、[上下文](/ai-coding-dictionary/context)、[智能体执行框架](/ai-coding-dictionary/harness)。中文页未接入时会回到原站英文页。这里未生成或运行实际向导，关于秘密输入和配置写入的行为仍须对具体脚本检查。",
+    "sourceUpdatedAt": "2026-08-24T09:14:47.195Z",
+    "sourceUrl": "https://www.aihero.dev/skills-wizard",
+    "sourceHash": "29ed23c37badfd031173fb113491a8698884d9729aea053518c18ca2694aa8fa"
+  },
+  "manifest": {
+    "route": "/skills-wizard",
+    "sourceUrl": "https://www.aihero.dev/skills-wizard",
+    "sourceHash": "29ed23c37badfd031173fb113491a8698884d9729aea053518c18ca2694aa8fa",
+    "translationPath": "content/zh/skills-wizard.md",
+    "translationHash": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T12:14:48.422Z",
+    "assembly": {
+      "configHash": "780caca876587e88d34f4bd9f6ca2b136244a33740fc19a8616a3487c712afb2",
+      "checkedAt": "2026-10-13T12:14:48.422Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": [
+        {
+          "route": "/ai-coding-dictionary/skill",
+          "state": "planned-chinese",
+          "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+        },
+        {
+          "route": "/ai-coding-dictionary/context",
+          "state": "planned-chinese",
+          "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+        },
+        {
+          "route": "/ai-coding-dictionary/harness",
+          "state": "planned-chinese",
+          "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+        }
+      ],
+      "staleChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "planned-chinese",
+      "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "planned-chinese",
+      "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "planned-chinese",
+      "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "content/zh/skills-wizard.md",
+      "sha256": "2bf4ae898b701f029cfb2186c5b8a967d68dc03b83a173ee400f3179c0bb3bf8"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "624543808f5aaf2d1ff9f2672e73becee4d40606466a5c93544146fac816610e"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "3c24858d2e1939fdaa87f8e55e18abe09e8850d0a02508b06fee2146310e88d0"
+    }
+  ]
+}

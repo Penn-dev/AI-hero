@@ -1,0 +1,723 @@
+{
+  "correctedAt": "2026-10-13T04:42:41.916Z",
+  "acquisitionReport": "reports/full-site/source-html-2026-10-13.json",
+  "networkRequests": 0,
+  "htmlArchivesChanged": 0,
+  "sourceFilesChanged": 77,
+  "unaffectedHtmlOutputs": 5,
+  "sourceChangesSameHash": 80,
+  "sourceChangesChangedHash": 106,
+  "originalCodeBlocksCompared": 14,
+  "originalCodeBlocksUnchanged": true,
+  "pages": [
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "sourcePath": "content/source/ai-coding-dictionary/ai.md",
+      "previousSourceHash": "081592c539577cc153acefa12df0b6adf0c162378c2feea6ff688528ee79b2be",
+      "sourceHash": "46a2a3be696a87b1059b9ea43819305463ce94a7a5cef23466e9d1824cb57a31",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "ff3dc2457d19e6f4e8f69bcf23e57c0ba57461bdaa247d7cd02444493c6adc58",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "sourcePath": "content/source/ai-coding-dictionary/model.md",
+      "previousSourceHash": "7d701ec4df061c1cad9eba30f71cc11ad1aefd36f6d71804bfc87ee60c93b826",
+      "sourceHash": "bda0dd8f7209f591b4d3e8169d0e40365130327004b73195c87df731b1a517a5",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "734033b9f1d047903df0619afdda0d8b1775bb6836522203c5cce5d75dcc3456",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "sourcePath": "content/source/ai-coding-dictionary/parameters.md",
+      "previousSourceHash": "1b7a7336a5613f763d515b6d5267c83ed249efb385600c5e8e5c19d30b6b5da1",
+      "sourceHash": "f627cef476d8d54a9829f3c5c90e587ebcf6f73b25c6be5e9b4ef82a79b8e836",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "a4f124bca34cc2866a02d594c5c12f1cb90a3741f8924489de0c248bfc7204bc",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "sourcePath": "content/source/ai-coding-dictionary/training.md",
+      "previousSourceHash": "2e5949672cb447893c27a82832fb0e4324de9a1c8b4310caf75322d01c6e4188",
+      "sourceHash": "f962827db48b29c0c8cc4d6f7fdc692ecfdf37c09447acac4cfbecf57887cf15",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "009bbc803a39656b33aa0df1433b646877339118d128ba33ae2fa34c7906a2c3",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "sourcePath": "content/source/ai-coding-dictionary/inference.md",
+      "previousSourceHash": "6aa691b881a14c5674cbd70c7780f8a398119ed42df5b38b0af0a53e88048bf1",
+      "sourceHash": "e7c23ce987d5e42225449309294ce00e4b2ee4ab83544f273078c73cdc1982fc",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "6d75a920fd7ac04ba4d5d23e22a20f737725b361f93a3bdff8b1dc0c3da61cd0",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "sourcePath": "content/source/ai-coding-dictionary/effort.md",
+      "previousSourceHash": "adce7a2256dcdb202df0e571540a868e36ce9edad28de9841576cc6466aefb22",
+      "sourceHash": "98354889478936729e33eb954204700f94c7583ee72201e3faca2fca7b3ccec3",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "6b3eba2fbb89340ccb514dc6b6fd4ecf32f26b10c1cb316bb7e5513da332d85e",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "sourcePath": "content/source/ai-coding-dictionary/token.md",
+      "previousSourceHash": "76d8d5da4d354a10ccb0374e613f637981ca03dd36346d432cbb97c608de7a9e",
+      "sourceHash": "d561b6c8ced690f7e6fdbfa8435342dfcc9cba275d1c4e0a8ddfd803571c27f1",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "0b18bfcb248e59c2aef1cfa30dbb6ee5b2e006f120a607ee8b7f1658e04560e3",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "sourcePath": "content/source/ai-coding-dictionary/next-token-prediction.md",
+      "previousSourceHash": "e5096ab8d6812f3362a935a4702d829a726c6475b7218f56f3530315d3d1b4cb",
+      "sourceHash": "2e4540175092bb37efd464961daf8df3e6339d500464e6d16c8b162a247d8ed7",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "42ebbb63927cee2f7ec3a9eec57a7bf06612db5dac0c4ca52c3d2607bb33f9e3",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "sourcePath": "content/source/ai-coding-dictionary/non-determinism.md",
+      "previousSourceHash": "e9ac75ea3ee89681d112a03f33be777ff1941566706e55cf48ca1ee339e9cac9",
+      "sourceHash": "9d6bb88cb4d21da508ef3fb73b56707a9a0eb8d90b8606f470599dd1c14a6a84",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "dc23d3e2ca13cb268507252b16d9051372b31c4ab6caf2e0b1e61c7f49dac5dd",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "sourcePath": "content/source/ai-coding-dictionary/model-provider.md",
+      "previousSourceHash": "5b24d071a02565638a3f92ef5a89b75de6829c517a642cf166b12585f8db5a0a",
+      "sourceHash": "de26bad57b92bee22e4c9042fe8262c8095bf44aa3b73fd70f74766bc98e8e0e",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "60fd3e923cb48826627a030b47e7d5d8a7401d56b6c5cd3ffeb41f7d500cc918",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "sourcePath": "content/source/ai-coding-dictionary/harness.md",
+      "previousSourceHash": "b51de762045f5db093a3872076f47e4b8728d09dbfcb09d6c373f55b294fe819",
+      "sourceHash": "e8fca4c2ddffb9f121b5f57f5721c3c06d941bf8c545c23ebdc5d70b727032f2",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "1f15b30ba4b8047d6644ca1ea99571e6ce77ba755bafed9447815a406c35fa4c",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "sourcePath": "content/source/ai-coding-dictionary/model-provider-request.md",
+      "previousSourceHash": "7adeaf3c819f9808362776018d9f0c5b0aa2ebfc102411002b0d46a23e0f2705",
+      "sourceHash": "9040123cac6dcfe99a1b6ee685b11fd0768bfe13792421c099b592bd59956888",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "73a2db4de253eab8c4fa518e807ec184181d431e906531358b311a8a98989cae",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/input-tokens.md",
+      "previousSourceHash": "0a48f68d83f49bef2a4399b6eb8c39865eb838ea971c35a58236d1faa0d5b5ba",
+      "sourceHash": "e30fae6e5812c5d913a7c5a8d034736e4f94bae6bbf06df20922e438e11c1363",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "17dced42ef90e9bb0cb179fbacb32fc29b4183a87fed667db094db16d75bc26e",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/output-tokens.md",
+      "previousSourceHash": "a894b348d02c1434dfe9b3922d196a360fb8804fc53c298f049faf48dbea2e7b",
+      "sourceHash": "dae408485b46660315f1a08c0ba1454a271460143f3b8ecd9375623acfbfdadf",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "d084ee22e95e9f840cda7bfa86edc86b9481bacf70a6a5c3fe93a3d66f3bf4eb",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "sourcePath": "content/source/ai-coding-dictionary/prefix-cache.md",
+      "previousSourceHash": "6584039cb2e3668b8260f737995fce0818e21038f8998d6e7b11a1ec66404c3a",
+      "sourceHash": "9101031d9fd11f9e7f593a8ec5038ad595d6f0bda46622f0cb8ebe5634d3a295",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "aa7acd6adc6363b98f75b34e2055b493c90679403cc4c00d9e93d73dcc5ffb1a",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/cache-tokens.md",
+      "previousSourceHash": "eeb1beee00f437f666dec5c2ba453325b233169d04d40ab88d395b04de7b04d3",
+      "sourceHash": "c9ef6830b4091bad3c8d788f4637ff40fe4b8a32cd9ab932526b2274174b293d",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "4ef115ca970e9bdae3ecf131638936c6f736a45e914a0a42e5f929e01f0f850a",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "sourcePath": "content/source/ai-coding-dictionary/stateless.md",
+      "previousSourceHash": "cd63a6e1c04ee8db6e9d07ec33c822395a6b2e5841a2948fcc5a8e8cc3a264cc",
+      "sourceHash": "061131442102c1e3677c71d5016077b613c6a6f14d6c860613cbe745d8cd6edd",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "d93efce669d33b7969ac839c9d0c5cf8f13c6b79e6b182755e78370bad2d99d4",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "sourcePath": "content/source/ai-coding-dictionary/context.md",
+      "previousSourceHash": "5da380211dc9b5a4e2339c47530444f99555d62643675a25a701d6fdba568bfe",
+      "sourceHash": "3a76ec521a78bd5050d60981b4fd1acad50e4cc607681de34db826270b43804d",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "ba3c441931ace7373f23be29dddcae5b13215a81d6509d73b402181710203858",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "sourcePath": "content/source/ai-coding-dictionary/context-window.md",
+      "previousSourceHash": "de09f4f1d82bc4265af5b592073ab0c561740e521e1c2d15b6323ebde8ada1e1",
+      "sourceHash": "2a5b63536a30a69e910c5bd6180ba6e19492e759b20b38bcdcff060983442deb",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "96cdfe2f072a3a43214f77a2ec31310a4137a68ca0d3de4ab7f0e1ab7a329c34",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "sourcePath": "content/source/ai-coding-dictionary/stateful.md",
+      "previousSourceHash": "e8ba5ca2a97af8cbfd5edd4d2fba2bccab7dbfe86c5253f408c7ad011b9a47ff",
+      "sourceHash": "9b4d2356cc0fa4e0f63f623649506c40e38fe989571365fe7944c0c729a51eb7",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "54916e514b3f1c482f1701d0a3618898bbbff22b210ecf2373f9e8c2bb378703",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "sourcePath": "content/source/ai-coding-dictionary/agent.md",
+      "previousSourceHash": "1dbd38a917e264d5f744e58c29ee094783f4a8083a5668ab05204c8c605e394b",
+      "sourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "ddd705a758b331603cd7daf74a639d58d30e370dee37720e593b3667fd37dbe6",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "sourcePath": "content/source/ai-coding-dictionary/system-prompt.md",
+      "previousSourceHash": "4c0625b324b0a92f31e5ae0ea0aa0df6e95d4150555c76881b807b63e00c3d31",
+      "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "8f265a20022d1c9b9bf0f08a1bb23d767b77df719cd97198b58db7a507d90c87",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "sourcePath": "content/source/ai-coding-dictionary/session.md",
+      "previousSourceHash": "b790940ce5d4ca13c531f8244aa02e20bfc80c7b032a43c5fc6bd13909be88db",
+      "sourceHash": "2ec9d99838359e3762586678be8930cea4457f46c48ab1c085427d0a1b5c9bdc",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "5b1c6f2576d1694cd8442a73d6d8d131a9228ac2f7ff2095cdafb65d48fbe2a5",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "sourcePath": "content/source/ai-coding-dictionary/turn.md",
+      "previousSourceHash": "fb4f5269389421d18e7c76e79bbbfb797dd67cb11e11b1947d0275080e63ab67",
+      "sourceHash": "4976a69badb154f1c5412701e7bf657594359cecb204191cb9c273f2e0a79402",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "0f9d36a473609f6bdb17bd83386edc18180419e6955c3a5cd5d7d28f8ef7653e",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "sourcePath": "content/source/ai-coding-dictionary/environment.md",
+      "previousSourceHash": "d89dc72c84a7016da026b1581a1f80bc9c49a52dea41529f4dc83853a531336d",
+      "sourceHash": "5e10fc7459a6351d8025c7dabae66cc94ab99be566d27f7bab40fe53b736e342",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "92e0853d798a137258b3faa5d8c98dca31b813aef6ec1eda43fcfdc8a1265754",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "sourcePath": "content/source/ai-coding-dictionary/filesystem.md",
+      "previousSourceHash": "fd9e5b79e9b82745e298953ab8e32e99905537a82608326f7768edcbcff9c5a7",
+      "sourceHash": "02912c45cf8c9b38e23f635fbc55fcaa14691576e5a1220bb78e489ac700a9f7",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "25b1f869873c9b78f610f0ccd9731ad3bb3b4e1aadc3dcb2f882821318e0422d",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "sourcePath": "content/source/ai-coding-dictionary/tool.md",
+      "previousSourceHash": "e3fb776ffb3cc457abc7c36b089ae0a3fa3532f4b8b0b6cf2d46335644876692",
+      "sourceHash": "e40188419e080e42d781f684089b90456382657e37f0d3ba2100cb92a6540763",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "7104cf39dfdff6ad3d897254cc688d2b0c2384b9144d2b6d705bbff6f3b63bc4",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-call",
+      "sourcePath": "content/source/ai-coding-dictionary/tool-call.md",
+      "previousSourceHash": "d56ca4fa43944adfe43928d6cfbfa4ccee1ecbc198c434f2c794e672b672899c",
+      "sourceHash": "81172bf1e6f56b678163d6c9b2875043918ca48e19e96ecd87640271f9d84692",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "715750f477766e590cd9cb4bd7cedcead892c54aefd260718c4aa158de3d08a0",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "sourcePath": "content/source/ai-coding-dictionary/tool-result.md",
+      "previousSourceHash": "b78d3af564d5171ec1901865ac7af025a99019266c0e4bf19b083a51df0fc6d2",
+      "sourceHash": "d86d038892bf2d6363762dbfc6a23ff563a3abe3aa08bbb1e6c9f8a935584f66",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "5188474f9e4264cf48338176e201a31bb95326015123176ccd883421a61248a9",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "sourcePath": "content/source/ai-coding-dictionary/mcp.md",
+      "previousSourceHash": "8f1ad1c0d5910af58ae01294abdb93a5cb95b48e71215b819acc12deb2798178",
+      "sourceHash": "dccbfda4cf19b526b54ea7b562903d89a1b7319f1cfc624c88465b82962e305c",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "1ac893427bdae13755f8a2369a214a327b8f1fbf669789c3c0aaf14a537a31ff",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "sourcePath": "content/source/ai-coding-dictionary/permission-request.md",
+      "previousSourceHash": "3e670ac52537f5a5e8a03400c1c17db85514797d6a75ba2bc7616f99c3da551b",
+      "sourceHash": "5cd646c35915de3e592f69439f459e638ed020068c5e8337c1ba715b5015c9c0",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "86d254ccffa1172bbe54eb4a978d2c6ab4c4a7f803faeda8bafc091e83fd484b",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "sourcePath": "content/source/ai-coding-dictionary/permission-mode.md",
+      "previousSourceHash": "0c0283688d98fb6b9961ccd8ede5ad2d54952037f2ebdf22378a36bbf67e685f",
+      "sourceHash": "94dcba8b6b3a5e39bb5d6c646c19bc4b0ca82b5cb4abd1f4733194f53da44293",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "49c19024f46127ba599e6e865a07bf2391e230227f28f2d437d3a940799eb8e8",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "sourcePath": "content/source/ai-coding-dictionary/agent-mode.md",
+      "previousSourceHash": "89a0f73c76a3d875e9a3846144e8ea677e84fc5d87de1db5db0d389892f3e661",
+      "sourceHash": "24f5102fb30d59ebc8947457169dcc9e98583973d2ce5efe1cc44443300ecdc7",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "3ca6507da2de5ee329ba2dbb3b04de372dec4c845bc78f057c57a426e4355534",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "sourcePath": "content/source/ai-coding-dictionary/sandbox.md",
+      "previousSourceHash": "e80dcf9eefd3c4b348dab4e3b17d0ae3d40dd5e6d074b54d29049e2c23664636",
+      "sourceHash": "16a11caf345c12e3be8721de059a4c716dde5fec481256a6c0a833d5e016d751",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "d070e32cb38ec4ec510007c5efbcc9d606b839d140f7aa6adea34d3e53f860e1",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "sourcePath": "content/source/ai-coding-dictionary/sycophancy.md",
+      "previousSourceHash": "6c18e4a2c8c9bbd9e85e599aef854269714411bc6f88ba120d059c7a0d1aaf89",
+      "sourceHash": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "b61d8a8083f0df5631db619b1e9db7b00dfa0e9c569fcb09a29eca8ece651de2",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "sourcePath": "content/source/ai-coding-dictionary/hallucination.md",
+      "previousSourceHash": "a7d3ea346e26b0536fc5ca9a56085b392f2a8681cd8d5eed877b09e8a6538b8c",
+      "sourceHash": "4b8d0cbe95e6f7c71907613a69a016178a40a5729ec6aff0372dfc12f558640c",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "4b02ded26230852a66031484672f613f495fbda7c6be356c8f941aa5f3c2e370",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "sourcePath": "content/source/ai-coding-dictionary/parametric-knowledge.md",
+      "previousSourceHash": "d6a28ab81bd95b1a9db2cf11364a4a5064d344ce719df0372b5424e82cf8c6b8",
+      "sourceHash": "eea5dc47fbe93157d2f9c3447977f19edf5a98ab5e121a6eb1d55d768bd82c60",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "060894178dbb8524a8807160683aea1dd580cdf9a2714ff0931f225cb76cbe34",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "sourcePath": "content/source/ai-coding-dictionary/knowledge-cutoff.md",
+      "previousSourceHash": "9cf10c7102f9934e3cf45ad85506710a8172fb97368287f2e33caef905bdf688",
+      "sourceHash": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "20c9eae1a3f03fc3c514240fc4ba61f732b068083aa2b9b4c5827547a6fd782e",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "sourcePath": "content/source/ai-coding-dictionary/contextual-knowledge.md",
+      "previousSourceHash": "c3109b52aa9cc80d36202a9d27189f1fcd8daf1a7ac8f8ef6845aee64e7f389d",
+      "sourceHash": "0c15b23805522a808d4403bdf9ab5e696ea027a493dc5c758f343edd2305c811",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "944faaa18daf05ec6ed938c7d43c361856206928bceb2e6f664bfd9ad1877d81",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-relationship.md",
+      "previousSourceHash": "fce54533f6bc0dfda8e9d39dd664b12263e3db276af9c96f623530ecb21cc5ee",
+      "sourceHash": "b5563d1488719ae62eb792a3728a5c491e505e4cd9b9a22f0310cf85eb1b8275",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "3c01d5188dec9c33e599c68f214739accd039b2cbac70162fb248226c90bf80b",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-budget.md",
+      "previousSourceHash": "a261d140d7ee5c1cce7de2308a00fac6ffa5b9bb23ee524da7544b438e886148",
+      "sourceHash": "2ac674af54019c072f89a2f4154c27eab502e0f8e3219d9955d99cdd0fccccc5",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "0fa0a9d2ef13df89f797033ea0ae784e6a42ae1f64dd540facb2342ca24688ca",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-degradation.md",
+      "previousSourceHash": "1c12842e7cbe0025c0d533a2f00458e8f87c5cecf90a94ea9c62b54bbe963c54",
+      "sourceHash": "bf7047388ba3589007a6b639945031883d4b4c04fc7b91b616db403e6c8430c3",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "6a830ae4c9d6ff7100041aa6a20c2ad3deed8a00d34e85ca3f3414ca8b3a7dd2",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "sourcePath": "content/source/ai-coding-dictionary/smart-zone.md",
+      "previousSourceHash": "940f95e4d4521ad9cc048dcfa165dfca1eb17d361054978cd347fccb0e73ce30",
+      "sourceHash": "89e7f3a6e7d2660d3305269ad0d1a150a7860cf8987b0c2c79fc5476c0f6fb5f",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "dcaf942f57df2c1aab7547fb926d2fa611fa178b754fbcb913e2961fde37922f",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "sourcePath": "content/source/ai-coding-dictionary/clearing.md",
+      "previousSourceHash": "1636567ae3c72e752d9719fd96ff3fe6afc8848d1e6dce0ecd3720773ffa7efb",
+      "sourceHash": "d60dda2558ed3c7b15ef41a8a5dd31d35a6ab8846a77f55aad7e3853682f2346",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "c2c251ac7284ec8bcaaea35f5f040d3baba14ea8b73b29d2d15529a68555b8f7",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "sourcePath": "content/source/ai-coding-dictionary/handoff.md",
+      "previousSourceHash": "52983b26f3079cd027a3d7393d09cbf14e4aee53c7a26886376870dd09e33a5f",
+      "sourceHash": "c3f330ccdd14c2d23d67e1252937ab5379296f8ed8878606dbd0b11d2468e508",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "68438a3a3f4e1953d77e9b4158f03c0fc32021739bfbdde43fe0f37cdfb2a639",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "sourcePath": "content/source/ai-coding-dictionary/primary-source.md",
+      "previousSourceHash": "09b5d6e1c25b2d16f357d2db0a80963beb67503aba686afa8dd5c8a618046a52",
+      "sourceHash": "d7de1ef47f677a3e0fd3ee8303be41617ae850964bb3ef5ce936e007ce8e1c91",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "41211aaa6d5702fb447b5b846a7097bb19a97bb999584b1409f29e7d4cfb51cc",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "sourcePath": "content/source/ai-coding-dictionary/secondary-source.md",
+      "previousSourceHash": "2ebef252eed26fc6a7f97a9c7e2c766480f45e1baa6e6a6b310d5cd170f4db55",
+      "sourceHash": "b8d494d36341ef070bc29dc1c63b9251275301aa2420f32e661f163929fc971c",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "12b835e11a31a333c9f4caf68b19ae67be411b478134c957041de3e8cce89eb0",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "sourcePath": "content/source/ai-coding-dictionary/handoff-artifact.md",
+      "previousSourceHash": "6ad75d6ac4c4efd12177435901738bc66a277714a356862b559dc90aae3a9aa7",
+      "sourceHash": "d17dd0c5e14bddea3cfeace1c6071763b6bca069a2d7e75772ace458a353e2d5",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "62d83cd43eea3ff66bef1fc7fc8ff9906332cbbf71cc4ea94d4fd12041128821",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "sourcePath": "content/source/ai-coding-dictionary/spec.md",
+      "previousSourceHash": "ab7023817d93f94b330c9e7c1e726845f8b7655a15e65e8eb3cdb79c7c6efc48",
+      "sourceHash": "35400ab72d5c14a63214c73cab00ddf37fd63150cae3ea5fe2ae8b5297df684d",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "b752ead2997c48191ade02ec16cbcda3f9b7f753beb5365bb092aee47928e736",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "sourcePath": "content/source/ai-coding-dictionary/ticket.md",
+      "previousSourceHash": "eab78b5cf183f3669e2160ccf84e541d1f3dfd62217ff18f8cefb82478bf6a2a",
+      "sourceHash": "27a3bc6e5fd813af0d4ee8e5cd6742ef9020dc59693fa3cc3bcbf349a7a13702",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "7fbc57892e6bb275476522ab8747999af487dac15ac1974dd7f5971253d1a7e9",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "sourcePath": "content/source/ai-coding-dictionary/compaction.md",
+      "previousSourceHash": "bd58f341bcff62dc9c9969c44ef45318aa6ef46e76300cb81466d85fccf61fda",
+      "sourceHash": "fddd287107216dd4b1936c9f276da01188acdd91e67cec9386d70cae3b85c4f0",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "04cb6298cae2834ab4ed5dafd7dcc6dfd5989e0f97328ecfa0e9f420680dae9e",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "sourcePath": "content/source/ai-coding-dictionary/autocompact.md",
+      "previousSourceHash": "05abe20e755f0c71f461eb78865fe4fb6f84383bd9976adcb0bcf733977a0665",
+      "sourceHash": "b27637eae07e7f28830ceae01e53d74088b04cf59237e669c5ab7992bb466a28",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "8e8d0a75c0f821f5a39d0ac531deb04a0916dd4411db372b98abfb3582a1fe5c",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/memory-system",
+      "sourcePath": "content/source/ai-coding-dictionary/memory-system.md",
+      "previousSourceHash": "6598554fe2baa4377c46c4badbcf769206b5924f40161898e39445da0be7a20d",
+      "sourceHash": "231f7764fd14458de5108a21924637c522c92c650b5c81dfbe77d29af2597258",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "d3f918683b2ab918111a638f05010ae0a6323ada66d1e7c14262b937e6ec8353",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "sourcePath": "content/source/ai-coding-dictionary/agents-md.md",
+      "previousSourceHash": "eb1611f497cf14a65b48ad31acbf26abdcee80bb083ec7628c427dbde1072379",
+      "sourceHash": "32af17329c5c6aaddd8964c45094df8b8996c326d0c9d22f1d50639c12fac201",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "57f0d74adced4a63818c348720f803424fc2949cd99ed1af14baba22b8a8f80e",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "sourcePath": "content/source/ai-coding-dictionary/progressive-disclosure.md",
+      "previousSourceHash": "971ce0b4e04eab4d2f0acc160516900661838b57caac60291ecfb0dd4ff95553",
+      "sourceHash": "5d66bc98fae76fc8d8df7eb8d4b0f6d514832a21b2340a224e8c33b791f3ec73",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "2ca334b3afd54a9e27a97392bb6437ac04e97df7ae418ef59f7d8edde2073424",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "sourcePath": "content/source/ai-coding-dictionary/context-pointer.md",
+      "previousSourceHash": "0ab6d547ff0f513d7b2a1df86c05af55e67bd246942d146b8c49ea9befe7638c",
+      "sourceHash": "0465a48c9ee2d354bfbaa82b071f80b45616e7c8ad588b48f4cd1696786a7283",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "b2fd836bfb270b62fba3fd655286bd86effefc5c91c5644d33a9b89b11a9d44a",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "sourcePath": "content/source/ai-coding-dictionary/skill.md",
+      "previousSourceHash": "e217aff8ce39a4f30c61f02de9824423adf0839d54a25012e5438b1f50a573f1",
+      "sourceHash": "f3203e90c41b5e6eb0ed706dd6844860519201f6461484a7686b4e9667d2567a",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "a38a2647c6af73c8494ee5bbf2ec3850d85c0d65c2ff9458b9712a0c5d72e444",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "sourcePath": "content/source/ai-coding-dictionary/subagent.md",
+      "previousSourceHash": "91ae5b7985f203d87841041bd57aaae7777112d8c8498d81ed70bf53f8e4fd34",
+      "sourceHash": "50239cd38db25f2b441fda71d5bfca33fa36be01fc50bf07f1f7f10e347159f8",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "c95ed928d71664611e76be204ac61eb72d7993b95ebbb02de964706318949dc9",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "sourcePath": "content/source/ai-coding-dictionary/human-in-the-loop.md",
+      "previousSourceHash": "52447a75eb5a74986e9de03e0b7e70d99cd25f760533c7580524f800930b1f62",
+      "sourceHash": "6730a600872ddbb9bb705fe5ad8f6ee0218c841576ea7fd3d9e572aedf975a50",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "f7b36db59fd3cf29c03afde26450f34ce7b6484901d5d2deb768305c344ffdd5",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "sourcePath": "content/source/ai-coding-dictionary/afk.md",
+      "previousSourceHash": "d43a82ec07c359a55b7cb30f1f7c72f7393a9638a17d2edd2fb5285ac3481b66",
+      "sourceHash": "8618b23c4ab823f440ea078191a7345958fcd260c290033141d47847ad6f915a",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "daed02703d26c26b741410c4825c6eb84743878f3d3df582fc2c4eb67e40dff8",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "sourcePath": "content/source/ai-coding-dictionary/automated-check.md",
+      "previousSourceHash": "20470abb36546a203ee21d817fd23dd6f07fb72ce0a149a4379da87023382143",
+      "sourceHash": "bf3c424b557017b8f77485ddff6e9f842695c7f97e97301775f31022e433d3a6",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "7d19199af1e347372868438f2b0e0a505f680337806529b14798d82716258bdb",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "sourcePath": "content/source/ai-coding-dictionary/automated-review.md",
+      "previousSourceHash": "f728adbd0e4aaf56df66c3f9b7f68ba8a0ffdf39f53a8396ca283eacea0d1803",
+      "sourceHash": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "a7c3d2d97cb1977f9660fa77d5016af61b5bb47aef3cbb6b79245525d640ba0d",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "sourcePath": "content/source/ai-coding-dictionary/human-review.md",
+      "previousSourceHash": "c5881bfa5f9598231ac1104a835f4505be9c1fcf942757a326c4d8fef9aaf112",
+      "sourceHash": "dd479f1fd946c437f8660dad8405defd3f5846e2308d5ba59851822bfa4b7633",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "c0ba86b19783c1099c28237990af461f420d1fa854e7a7699a7ac77f268d5cea",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "sourcePath": "content/source/ai-coding-dictionary/vibe-coding.md",
+      "previousSourceHash": "ea55209e4bc359e3fa588694d7568616f1266b0aa34a73e8ca0bba6d887b1e46",
+      "sourceHash": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "5a3e5bdec3fec26d7842e350f1053a3d9d5c9e2856cbcbf9fcdf8b74c7aa482a",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "sourcePath": "content/source/ai-coding-dictionary/design-concept.md",
+      "previousSourceHash": "456b4ad512b770cc06e3865307fa5b0c27e58eb8fe8193d9b6462c3ac96abd81",
+      "sourceHash": "41a0e5468e5b07e7ad96e188e82d8fdb8609b5f9068f9417bf6ef851f20f121b",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "cece01addb1488839f1c1ace9938fa58f98ec6b7dabe61671cb3628a08605bce",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "sourcePath": "content/source/ai-coding-dictionary/grilling.md",
+      "previousSourceHash": "7b95bba865f2416f619051621c0446757b28efa92abb3317ee0ef7f485e9d9d4",
+      "sourceHash": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "bbebb28f63e3c5d8ce26df9aea8c7d92514975095d33abb8d1bbed1a1a7fb2ac",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "sourcePath": "content/source/ai-coding-dictionary/prototyping.md",
+      "previousSourceHash": "3b341c7b53d70878153bc9b552772fcd742adde39284b85cb5c713c4f76fb96f",
+      "sourceHash": "39d3ce1c188317f94c922a30c1652b2ef5ca993d7eb061cbc6d63f7a5543d97f",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "1792d0c2e2e76ac14f32a014a12b6c2f4270d2be010dc1c3164956f9ef67d9cd",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "sourcePath": "content/source/ai-coding-dictionary/dx.md",
+      "previousSourceHash": "06d4401c1f2eb83cd8c569431c9f1ec7a07326c28e4723d709cd44c1d88884c4",
+      "sourceHash": "a7ffc549fb59a5ca758ea9324560f5df91d76eaad3b4766b57cbf77515524fb5",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "b77167586d3cf0466cbb9215f06c5671c76080351e4fb409995a6c3a6754c1da",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "sourcePath": "content/source/ai-coding-dictionary/ax.md",
+      "previousSourceHash": "fd1e64c6dfd20d3319d1337911275f8e98b867003a6cf438aab4f8c303061c8a",
+      "sourceHash": "5e5e09094864e5f7908dc7b6549ef4ecb6e941d382e19c1600b9ae4a33449c2e",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "b507d2d17917fa9836f9d9ae26f72075e0b2d5be09e8339c23b699a21f7d14d7",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "sourcePath": "content/source/ai-coding-dictionary/software-factory.md",
+      "previousSourceHash": "c83329f7ae0231b83cee9bc5272e5215482cbc98b822f006ebde1789249a41b1",
+      "sourceHash": "78107b16f9f8a4964fb482a016c114a292bfbf5c75ac79b9861a711b4c4a669b",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "977bdbd4ae4c49d5ddcb37925376a0971f6507cac044ab49d9331558b10ebc5c",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "sourcePath": "content/source/ai-coding-dictionary/dark-factory.md",
+      "previousSourceHash": "f95001a6f8956db8bc5cf893f8e1e449389d9faafd1e41a274ab5a616e4552d2",
+      "sourceHash": "e61c177f6e5426b1315a4390e94104187f012d0c63fdde2b59559c66aac4e4b1",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "79806615528e123f6ddd0adf9fbfc9ffb3565a3df09a388d3d81b61b9617522e",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "sourcePath": "content/source/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "previousSourceHash": "33f46f838c2315ce654d38d168977c1bab6f12fbb2b70d8546e26d3da77ee273",
+      "sourceHash": "8f5dd02a02e0f99c1764faeeadee072c5b492794819cc1cfe575d21f4761d9d0",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "cdf3b381b9e3bf7b568ca4e2f451da718979cf879981250247a0631eaa098128",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "sourcePath": "content/source/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+      "previousSourceHash": "f139d5b48dbd08c4d3babb246c57a1569dc5ce69ef4298a2402fb02b8153e291",
+      "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "6954daad0959dd76191393edcb189b4acb1fddc6009cdefd7cbd13f5d5d5d3ad",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "sourcePath": "content/source/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+      "previousSourceHash": "59a691f1e95e2b59f47a44e26fca1e1de6a74609c550a21b663aced4407c9730",
+      "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "8c96fb57dc097fa3b9d3f94b6afd7e7ffe0be3f5774b3e1338aa59bbe4d7e900",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "sourcePath": "content/source/skills/skills-changelog-v1-announcement.md",
+      "previousSourceHash": "60e5fb40d047324858f758ac330495320f57fb87ea1eb1605ca95cef89027d5e",
+      "sourceHash": "c143f5999fd0b1e9dbcf0c9c9df0b9cb8a15731acc400fdaf2786f05de2b24b1",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "f078c66ce46a158a95714133bf9eb07503bc675ea271701fdce5775bbc38f3b6",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "sourcePath": "content/source/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+      "previousSourceHash": "0cc9b4ef24d22704542d39504d4ec44ef398c40f0ba6849a18864595a0b808d1",
+      "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "e0b835e7a009056a552f0cfd666ebb500efeb6880372ffa20027e01658b0badf",
+      "onlyUrlWrappingChanged": true
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "sourcePath": "content/source/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "previousSourceHash": "1205274d4b0e7e633970ce661afbd8aa3c78c1da30864912a6ba7d3a3ab0cae4",
+      "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "htmlBodyHash": "510cef6f4eea5e0e4b7f139109a485150f92793ce1f63a788ea1472685731420",
+      "onlyUrlWrappingChanged": true
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-10-13T04:43:14.083Z",
+    "sourceFilesChecked": 195,
+    "sourceHashesMatch": true,
+    "scopeAndExtractionHashesMatch": true,
+    "fullSpacedHrefsChecked": 77,
+    "fullSpacedHrefsPreserved": true,
+    "errors": []
+  },
+  "stagedVerification": {
+    "checkedAt": "2026-10-13T04:44:43.965Z",
+    "sourceFilesChecked": 195,
+    "stagedSourceHashesMatch": true,
+    "stagedFiles": 88,
+    "unexpectedStagedPaths": 0
+  }
+}

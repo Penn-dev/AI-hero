@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-09/configs/skills-to-tickets.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-to-tickets",
+      "manifest": {
+        "route": "/skills-to-tickets",
+        "sourceUrl": "https://www.aihero.dev/skills-to-tickets",
+        "sourceHash": "90f8541cdf7a61504214d902b96602523da84f4cf9fc3ce6d09709be5e3aface",
+        "translationPath": "content/zh/skills-to-tickets.md",
+        "translationHash": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:44.490Z",
+        "assembly": {
+          "configHash": "59cd6568ba50910968bb753e57e4b2551e6d720611daf181b1d752c76f72cc5e",
+          "checkedAt": "2026-10-13T12:37:44.490Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-to-tickets.md",
+          "sha256": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "a676100eaa84200c1de6c2294994e25c6e37085aff13e5756f1ca945b4d93576"
+        }
+      ],
+      "rawOutputSha256": "e7eecb21eaf3525180aca66b1d81e8496ad28a0a8bcd42dc7cb6b9fc90caffb0"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-to-tickets",
+      "manifest": {
+        "route": "/skills-to-tickets",
+        "sourceUrl": "https://www.aihero.dev/skills-to-tickets",
+        "sourceHash": "90f8541cdf7a61504214d902b96602523da84f4cf9fc3ce6d09709be5e3aface",
+        "translationPath": "content/zh/skills-to-tickets.md",
+        "translationHash": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:44.770Z",
+        "assembly": {
+          "configHash": "59cd6568ba50910968bb753e57e4b2551e6d720611daf181b1d752c76f72cc5e",
+          "checkedAt": "2026-10-13T12:37:44.770Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-to-tickets.md",
+          "sha256": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0e3ed1cfd90880207787073a646817308b68eb2e92a25dd9e942ec300d59e4db"
+        }
+      ],
+      "rawOutputSha256": "d035b3cf6c5a48c4eb2d3bb0a9d3973d0db66924a92c035aed1fc98ed38cb29e"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

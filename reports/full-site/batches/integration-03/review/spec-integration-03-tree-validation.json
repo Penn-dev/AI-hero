@@ -1,0 +1,530 @@
+{
+  "baseline": "68c107143560cf63017411e604c06ba8e599fc51",
+  "candidate": "ddf4f4e17a61b98d9d5dbe95776d38afca042bd1",
+  "scope": "production-03",
+  "pageCount": 58,
+  "results": [
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "06d5b7f0fce998498c0f30b8c57f66c88a046ebac6b39bda8b778913f7759561",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "0f7b5d79ba37eac31e0a15ec07da91883af8d4ecb1f260b96ab66c0e5df8ce6f",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "bead311e9b537c7253bbd3794a1c8099c51cf280ade409df0b705c384e1c39b5",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "29d25c8f3e22b57d87ed202c81e098241218ef1d349f396edd2a1a53479e8829",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "0c222df5426fe704b42bdf8098d1c312e72dc12151f8782d61353587c51d8bc7",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "06897ea09726703625d8aeb5ca76e7dbef1582714e0b9428236eb87699cd1c1c",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "ca9167eddfab6506465946a78ca6814d4467c24cf174a772b09891fb38f35fbc",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "4f1f8d28fa461752472c085d5aec6edb91ad260706dab7640727a6340486d445",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "477975137e42e1c36b76997ca56c5c9d998f09f12ec8f2b103bcf3679cfd999c",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "f1f4adb1b0b7f859b61ebbb24ea65d8c7a556e7482ef40f9e2aa784ebf35751d",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "9201291ab3c5580fc0ca6e79ff8406c6f44b2371a4c7100a4bb4dd90044631c4",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "3df57d8c1c992024aba1a9396c3a1f7a00fe29e18f03686e06e3da82d0d1db8e",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "a673aba82075efd6e720e571a090d7070869eaf36f462420a737b6a2f3d1d2a7",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "0394fa7a8a1faf5053380160233bd4e04f07d3dfc39596b4a857239186ae8aa9",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "c55e88c70a1b0d574f50ee19b6374198f94e4f5a9bc218425299ca3a88fe503b",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "d16ab61f90611dae91272fb5ff250fd8ea6fe4480b5797bc599b10ec1e401996",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "abbccee08dfa232adfd8077a718c68cc3dea7a6c7f86283f9a9d3fd59d69242d",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "caf12bccfab0edcf2a2ce9457ba074045692901c6514316e254bec50c5aed686",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "8964f28119d91a4e5a91c6d49b6ac1ac24a80e40cf4a4fcd99186a443ca7069e",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "08e51d83865be5e233653c8915de6ed5e0392643a1d30371de93a4846a228420",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "a415a1669c1d15b75f8e6d4e1f89bf0c512cc6070f6844468d51bd4558a5e70a",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "84482346c3a89e449bcfaf17b41b0c6fdbce87908ce7db0703e99d9dd5372c48",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "26a9bbfe02f92f4f1fa9b481da4dfa7d924e8e5318c1405f64bc657f4e48ed47",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "a7a62e7c38a57f443314aa59d4b0b2374f23149d35b2df8f1b7a1961513db4c2",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "6f091d0428d7b4f73fdb429345bd8102710b5f3012a236ea09c37d038019a12b",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "bda57cfb365c71b2cbb7a070a6f929b448acd599c91fe4475ea7db85bbcb0a40",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "4073dc8a7e46a884dcbf606e4da5df3a743b4703820832f70ef5070fa3ec871a",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "9949c3b7b142fc353a38ea7bb3d1ec92f615e4b60235a5c55f9b781a65d0176e",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "4bb16d3c2891a5293d36efd8d754ceedd00abd1500c620ca4bb728975ef308b2",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "f213e4311c7e69211f5bee1a100991e630452af767754a73a758e7b22592e186",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "f5325a72bef641cb47686f2e8da100cf74fdf9304958437d90f02466f30777f7",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "9f9c37d1f3f958191afd1c1ced53e7de63fdac835d120001526459290e709d31",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "885423477c37ba1fb06634c16f587b8d1195c7502b28a2152e705c86f0c31dbf",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "d6a9b330a5d0e25e030c743ba36d510f0b3079c306590b9dbde629eac448c8f0",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "e2ebf3055e7883b37a20f100c24625af115eab9a7ef73e43293e88a8abcd1914",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "b0baee76ed0d94d37711c42ed89ffc30f27eb850abfd852df537660b9539bfa2",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "f2da4f482d5a0b2fa54bd2b4e6343d6a540d505887d1307f42ae378b9de2f5c8",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "fd3603db152a6d2f867f656a1897c22164fa17320554f62f6996b546fb986ec4",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "69bd4c8ae6f747c478edb713b8efe67054e3b33250b82777364c9fab1cad5bb0",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "2ad1926f1f2876a937a9a95ba672f0d1c1d419bd6cc4e6825558dba75e7b1573",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "bd9ebb294a0feb2129ec0a6bfcf6b36189c4d071837e206780a9e63d25ddeee1",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "9f67986cebc45eae52e8fd3eed63e27cf2bd4241c807f32738c4041882ef8084",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "2b5bcbf713195ef12650d14b795f81d6279ec70918946e8000a97fcaef995ebe",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "36a2b738e345d63882ca23f41a1183b128c2a24f0e0c1d05ea283ba6801eed49",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "authorCommit": "cf5db2b374caa8894e52804cdd6a4cfe9ba85065",
+      "translationHash": "54e1307ba45b2963f9c06d3e2dbd0ab5da202ff26166fd72de3c4ea18215cd1c",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "authorCommit": "41178f90e890b16d81e6af874433c4f7658508f6",
+      "translationHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "authorCommit": "41178f90e890b16d81e6af874433c4f7658508f6",
+      "translationHash": "19f54bbeb075ce644f95161e1cc35468fa8b1e53075f04e0675dcb57d7cb9269",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "authorCommit": "41178f90e890b16d81e6af874433c4f7658508f6",
+      "translationHash": "cbd2ae4002e6013decb42c3d77303219d796878830a6ad4cc98b23cf5c6d7e22",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "authorCommit": "41178f90e890b16d81e6af874433c4f7658508f6",
+      "translationHash": "9ba11bfbd37d1c7fdf46cf52b2cdfc60eb7c5b6ac2c012e3535e88451f14b1bf",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "authorCommit": "ace7c9258de2324da97eee66eb9877f8c5541063",
+      "translationHash": "b054c4a02ad3061cf79d11070977d95602bce8c83d52950cea589bba7dbeffa9",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "authorCommit": "ace7c9258de2324da97eee66eb9877f8c5541063",
+      "translationHash": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "authorCommit": "ace7c9258de2324da97eee66eb9877f8c5541063",
+      "translationHash": "3d24248582363d24c5e37f2e10a5c4d0574d75ef54bd311ac79c4903752e4b83",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "authorCommit": "ace7c9258de2324da97eee66eb9877f8c5541063",
+      "translationHash": "372b19dc20e4edd5e97a85b79a7853a70b02ccfa71cfb84969a98e61353e2953",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    },
+    {
+      "route": "/ai-coding-dictionary",
+      "authorCommit": "0a2d5631a2cbfd47aee9262bdbe0fcd7c01daf23",
+      "translationHash": "fb84c3db89299e7fc1b6ecb8353677682a2a455c192e262d6c39940890718bf0",
+      "sameAsReviewed": true,
+      "manifestStatus": "assembled",
+      "planned": [],
+      "stale": []
+    }
+  ]
+}

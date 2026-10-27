@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-14/configs/things-people-get-wrong-with-grill-me-and-grill-with-docs.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "manifest": {
+        "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+        "sourceHash": "438655d047ea192d772e9ca192cf522dcb01cd6c3b3a7a3f27a97c69b168ccb3",
+        "translationPath": "content/zh/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+        "translationHash": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:00.688Z",
+        "assembly": {
+          "configHash": "7417950d8c90e739382da86043a6a72e7421b35ae09ce368d9394c954a5f5e47",
+          "checkedAt": "2026-10-13T13:08:00.688Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+          "sha256": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8941ae1bdfde67d7d899836da62f158dce62e976f44bbca3666543eec8cc5842"
+        }
+      ],
+      "rawOutputSha256": "72a0dc83ee2c3c64dd0164e6ee9f70036cbe4a5e42ab6a5b390a137e6854b09e"
+    },
+    {
+      "mode": "apply",
+      "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+      "manifest": {
+        "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+        "sourceHash": "438655d047ea192d772e9ca192cf522dcb01cd6c3b3a7a3f27a97c69b168ccb3",
+        "translationPath": "content/zh/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+        "translationHash": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:00.975Z",
+        "assembly": {
+          "configHash": "7417950d8c90e739382da86043a6a72e7421b35ae09ce368d9394c954a5f5e47",
+          "checkedAt": "2026-10-13T13:08:00.975Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/things-people-get-wrong-with-grill-me-and-grill-with-docs.md",
+          "sha256": "d95352d60bf2b360d306881d07b93a184bbc03a1f655b564a9654a99b2f0bb3c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "40054f0fa20a15175cde244a571d7ed60f1c36c3b6d31aae1e4aa6f5ba491815"
+        }
+      ],
+      "rawOutputSha256": "5b4a1e98333cec7df9525e88317a9aee2fb34f5f690179f94c7f60873d41fc36"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

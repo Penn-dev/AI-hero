@@ -1,0 +1,34 @@
+{
+  "route": "/skills-wayfinder",
+  "source": {
+    "path": "content/source/skills-wayfinder.md",
+    "sha256": "b9233cc9fd083cf57da8c98c12179a9da92c005c3153f181782cc69f8b10e793"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-19/drafts/skills-wayfinder.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "state": "available-chinese"
+    }
+  ]
+}

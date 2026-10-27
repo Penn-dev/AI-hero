@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-04/configs/skills-grill-me.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-grill-me",
+      "manifest": {
+        "route": "/skills-grill-me",
+        "sourceUrl": "https://www.aihero.dev/skills-grill-me",
+        "sourceHash": "d2f506fbfc88d0110f67f2f74f3a6f9e48eba43e36a574d66b2c983f5c3bff91",
+        "translationPath": "content/zh/skills-grill-me.md",
+        "translationHash": "78f5a226289261163ef62d3bc4931aa3c55c5010ba2b9c7570694759e69a8e23",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:41.872Z",
+        "assembly": {
+          "configHash": "b3d20c43ff698df1486cdfc440e32b8f13ae505ccd62139de8e4557208f50a01",
+          "checkedAt": "2026-10-13T12:37:41.872Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-grill-me.md",
+          "sha256": "78f5a226289261163ef62d3bc4931aa3c55c5010ba2b9c7570694759e69a8e23"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d1914b17813dacc4887caf820363a5d6ad303c84c9053bcc07be9eebe84ba6b0"
+        }
+      ],
+      "rawOutputSha256": "d592d49abc812ecae014efe0b22903ae82a881224e57537a4a289e15326395be"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-grill-me",
+      "manifest": {
+        "route": "/skills-grill-me",
+        "sourceUrl": "https://www.aihero.dev/skills-grill-me",
+        "sourceHash": "d2f506fbfc88d0110f67f2f74f3a6f9e48eba43e36a574d66b2c983f5c3bff91",
+        "translationPath": "content/zh/skills-grill-me.md",
+        "translationHash": "78f5a226289261163ef62d3bc4931aa3c55c5010ba2b9c7570694759e69a8e23",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:42.096Z",
+        "assembly": {
+          "configHash": "b3d20c43ff698df1486cdfc440e32b8f13ae505ccd62139de8e4557208f50a01",
+          "checkedAt": "2026-10-13T12:37:42.096Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-grill-me.md",
+          "sha256": "78f5a226289261163ef62d3bc4931aa3c55c5010ba2b9c7570694759e69a8e23"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "268cec05fe3c8a857d98e04d2dbcff4a348f937539a5241bedc747670dc632d7"
+        }
+      ],
+      "rawOutputSha256": "d2eb183d44b3b3b460f3c6a3a01f3bc463901709a95dfc491ac390fe077b2c17"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

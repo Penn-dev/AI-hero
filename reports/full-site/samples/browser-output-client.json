@@ -1,0 +1,31 @@
+[
+  {
+    "action": "click",
+    "args": {
+      "selector": "@e170"
+    },
+    "checkedAt": "2026-10-13T05:08:28.439Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "success": true,
+        "tag": "BUTTON",
+        "text": "术语速查 · 10"
+      }
+    }
+  },
+  {
+    "action": "evaluate",
+    "args": {
+      "code": "(()=>JSON.stringify({focus:document.hasFocus(),secure:isSecureContext,panel:document.querySelector('.desktop-glossary')?.textContent,button:document.querySelector('button.copy-code')?.outerHTML,reactKeys:Object.keys(document.querySelector('button.copy-code')||{}),scripts:[...document.scripts].map(s=>s.src).filter(Boolean),resources:performance.getEntriesByType('resource').filter(r=>r.initiatorType==='script').map(r=>({name:r.name,status:r.responseStatus,duration:r.duration}))}))()"
+    },
+    "checkedAt": "2026-10-13T05:08:28.479Z",
+    "result": {
+      "ok": true,
+      "data": {
+        "type": "string",
+        "value": "{\"focus\":true,\"secure\":true,\"panel\":\"点击正文中的术语，右侧只显示这个词的解释。搜索术语大语言模型（LLM）能够理解和生成文字的AI模型。结构化输出（structured output）让模型按预先规定的格式返回信息，而不是只返回一段自由文本。流式输出（stream）内容生成一点就显示一点，不必等到全部生成完成。终端（terminal）输入命令和查看程序输出的文字窗口。对象（object）按字段组织数据的形式；本练习用facts字段存放提取出的事实。数组（array）把多项数据按顺序放在一起的形式。字符串数组就是把多项文字放在一起。字符串（string）程序中用来表示文字的数据类型。数据结构规则（schema）规定结果中应当有哪些字段，以及每个字段的数据形式。ZodJavaScript和TypeScript常用的数据验证库，用来描述并检查数据是否符合规则。提示词（Prompt）交给AI的任务说明或指令文本。\",\"button\":\"<button class=\\\"copy-code\\\" type=\\\"button\\\" aria-label=\\\"复制代码\\\"><svg xmlns=\\\"http://www.w3.org/2000/svg\\\" width=\\\"24\\\" height=\\\"24\\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"2\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" class=\\\"lucide lucide-copy\\\" aria-hidden=\\\"true\\\"><rect width=\\\"14\\\" height=\\\"14\\\" x=\\\"8\\\" y=\\\"8\\\" rx=\\\"2\\\" ry=\\\"2\\\"></rect><path d=\\\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\\\"></path></svg>复制</button>\",\"reactKeys\":[\"__reactFiber$tpbmw5oslhg\",\"__reactProps$tpbmw5oslhg\"],\"scripts\":[\"http://127.0.0.1:4322/_next/static/chunks/rolldown-runtime-C60lm6uB.js\",\"http://127.0.0.1:4322/_next/static/chunks/framework-D_rUT4EX.js\",\"http://127.0.0.1:4322/_next/static/chunks/app-elements-H_Dr48wG.js\",\"http://127.0.0.1:4322/_next/static/chunks/hash-Cp347hhd.js\",\"http://127.0.0.1:4322/_next/static/chunks/record-uXSNv6cl.js\",\"http://127.0.0.1:4322/_next/static/chunks/app-rsc-cache-busting-D5QUXrqF.js\",\"http://127.0.0.1:4322/_next/static/chunks/app-rsc-render-mode-CvTCGruk.js\",\"http://127.0.0.1:4322/_next/static/chunks/headers-C_MtfdF4.js\",\"http://127.0.0.1:4322/_next/static/chunks/protocol-headers-B9-bVeat.js\",\"http://127.0.0.1:4322/_next/static/chunks/deployment-id-DFhHa9wO.js\",\"http://127.0.0.1:4322/_next/static/chunks/navigation-errors-D5LMQqDL.js\",\"http://127.0.0.1:4322/_next/static/chunks/index-C3L7BXWD.js\"],\"resources\":[{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/rolldown-runtime-C60lm6uB.js\",\"status\":200,\"duration\":82.29999999701977},{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/framework-D_rUT4EX.js\",\"status\":200,\"duration\":85.09999999403954},{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/app-elements-H_Dr48wG.js\",\"status\":200,\"duration\":132},{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/record-uXSNv6cl.js\",\"status\":200,\"duration\":133.90000000596046},{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/hash-Cp347hhd.js\",\"status\":200,\"duration\":133.40000000596046},{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/app-rsc-render-mode-CvTCGruk.js\",\"status\":200,\"duration\":149.3999999910593},{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/headers-C_MtfdF4.js\",\"status\":200,\"duration\":154.3999999910593},{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/app-rsc-cache-busting-D5QUXrqF.js\",\"status\":200,\"duration\":149.69999998807907},{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/protocol-headers-B9-bVeat.js\",\"status\":200,\"duration\":170.09999999403954},{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/deployment-id-DFhHa9wO.js\",\"status\":200,\"duration\":173.5},{\"name\":\"http://127.0.0.1:4322/_next/static/chunks/navigation-errors-D5LMQqDL.js\",\"status\":200,\"duration\":173.70000000298023}]}"
+      }
+    }
+  }
+]

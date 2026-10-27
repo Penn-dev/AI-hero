@@ -1,0 +1,105 @@
+{
+  "candidate": "f5d86e68cfbd48fb66e91245ffcdf1db7a746066",
+  "runId": "38407427014",
+  "viewports": 2,
+  "uniqueRoutes": 1,
+  "screenshots": 30,
+  "screenshotHashesPassed": true,
+  "manuallyViewedScreenshotFiles": [
+    "tips-for-ai-coding-with-ralph-wiggum-1440-main-body.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-1.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-2.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-3.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-4.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-5.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-6.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-7.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-table-8.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-code-example.png",
+    "tips-for-ai-coding-with-ralph-wiggum-1440-last-code-example.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-main-body.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-1.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-2.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-3.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-4.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-5.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-6.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-7.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-table-8.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-code-example.png",
+    "tips-for-ai-coding-with-ralph-wiggum-390-last-code-example.png",
+    "home-1440-top.png",
+    "home-1440-main-body.png",
+    "home-1440-image.png",
+    "home-1440-all-pages-directory.png",
+    "home-390-top.png",
+    "home-390-main-body.png",
+    "home-390-image.png",
+    "home-390-failure.png"
+  ],
+  "manuallyViewedAll": true,
+  "clipboardMatches": 66,
+  "fencedClipboardMatches": 66,
+  "selectedParagraphClipboardMatches": 0,
+  "actualChineseLinkClicks": 4,
+  "dictionaryTermClicks": 0,
+  "originalAnchorChecks": 22,
+  "homeDirectoryClicks": 0,
+  "titleWrapRegressions": 0,
+  "uiSpecFindings": [
+    {
+      "route": "/",
+      "issue": "Narrow directory summary obscured by fixed toolbar; home withheld"
+    }
+  ],
+  "excluded": [
+    {
+      "route": "/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed",
+      "errors": [],
+      "reason": "Homepage directory summary occluded; verdict withheld pending next candidate"
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "errors": [],
+      "reason": "Homepage directory summary occluded; verdict withheld pending next candidate"
+    }
+  ],
+  "pages": [
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 33,
+      "chineseTargets": [
+        "/getting-started-with-ralph",
+        "/newsletter"
+      ]
+    },
+    {
+      "route": "/tips-for-ai-coding-with-ralph-wiggum",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 33,
+      "chineseTargets": [
+        "/getting-started-with-ralph",
+        "/newsletter"
+      ]
+    }
+  ]
+}

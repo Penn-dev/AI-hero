@@ -1,0 +1,18 @@
+{
+  "head": "aaeebfef0fadfea8e5567aa59c2f728086599905",
+  "draftsAndConfigsPreserved": true,
+  "allThreeDraftHashesMatchProgress": true,
+  "allThreeSourceHashesMatchProgressAndConfigs": true,
+  "historicalSourceHash": "3afe0ee860b06c6ccb0531bec7dbc5b5b3f1a8fcc723a9b40bc80d1b437a07f0",
+  "previewPort4322": "No listener at recovery check; no old process was stopped",
+  "browserBridge": {
+    "initialState": "Connection refused on 127.0.0.1:10086",
+    "recovery": "Existing Kimi daemon started with its supported start command",
+    "pid": 38800,
+    "version": "2.0.22",
+    "session": "aihero-local-delivery",
+    "sessionTabsAtRecovery": 0,
+    "inventoryEvidence": "reports/full-site/samples/browser-recovery-inventory.json"
+  },
+  "remaining": "Wait for integrated engineering fixes, then assemble, build, serve own preview on 4322 and check real browser at 1440 and 390."
+}

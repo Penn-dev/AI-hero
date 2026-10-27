@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-11/configs/real-world-feature-build-with-claude-code.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/real-world-feature-build-with-claude-code",
+      "manifest": {
+        "route": "/real-world-feature-build-with-claude-code",
+        "sourceUrl": "https://www.aihero.dev/real-world-feature-build-with-claude-code",
+        "sourceHash": "d754b4f9de4b334c03a3b9704b333d5f1d610487703e487dbdab841a820f1cfc",
+        "translationPath": "content/zh/real-world-feature-build-with-claude-code.md",
+        "translationHash": "4e9c84ff5e367d8c2101004197cd86f40939a6f2824aa3c5d25c4a5797b930a8",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:31.519Z",
+        "assembly": {
+          "configHash": "25feee496c0db489977d8cace44475b6eb56a4f99da31092e3d4279eb52fd9f2",
+          "checkedAt": "2026-10-13T13:04:31.519Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/real-world-feature-build-with-claude-code.md",
+          "sha256": "4e9c84ff5e367d8c2101004197cd86f40939a6f2824aa3c5d25c4a5797b930a8"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "4d5eec629e6ab9d5c68c126691612fc8087f4f89b55929b28eb89b27594f2950"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "223ae5a83c116de9e7e715c48f6461ec44c73f2ac4cbb4100499932c74e77732"
+        }
+      ],
+      "rawOutputSha256": "878f16274f3aee56701fd545242a3030e97053a6dcb0e3a0cd7d36bcc2909d1a"
+    },
+    {
+      "mode": "apply",
+      "route": "/real-world-feature-build-with-claude-code",
+      "manifest": {
+        "route": "/real-world-feature-build-with-claude-code",
+        "sourceUrl": "https://www.aihero.dev/real-world-feature-build-with-claude-code",
+        "sourceHash": "d754b4f9de4b334c03a3b9704b333d5f1d610487703e487dbdab841a820f1cfc",
+        "translationPath": "content/zh/real-world-feature-build-with-claude-code.md",
+        "translationHash": "4e9c84ff5e367d8c2101004197cd86f40939a6f2824aa3c5d25c4a5797b930a8",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:31.736Z",
+        "assembly": {
+          "configHash": "25feee496c0db489977d8cace44475b6eb56a4f99da31092e3d4279eb52fd9f2",
+          "checkedAt": "2026-10-13T13:04:31.736Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/real-world-feature-build-with-claude-code.md",
+          "sha256": "4e9c84ff5e367d8c2101004197cd86f40939a6f2824aa3c5d25c4a5797b930a8"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "4d5eec629e6ab9d5c68c126691612fc8087f4f89b55929b28eb89b27594f2950"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "eca7acc732604a54e64e72f5a50ac7d27eeb05cb98c86014d1101235a177297f"
+        }
+      ],
+      "rawOutputSha256": "5b10120443ea19bb57f04836adf98b9437bcec7a1ea0625323a0b78ad4d7f15d"
+    }
+  ],
+  "nonTargetPagesPreserved": 176
+}

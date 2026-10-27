@@ -1,0 +1,85 @@
+{
+  "batch": "batch-07",
+  "results": [
+    {
+      "route": "/agents-with-vercel-ai-sdk",
+      "sourceHash": "9e004adff22f10204d7f6439510872e0490888d1363426a013cd8457395014c1",
+      "translationHash": "847e8de8d3bcd998dd94153d104112f7c717fb1634e6d75277f689c55c519222",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 15,
+      "headings": 9,
+      "resources": [
+        "https://gist.github.com/mattpocock/c6146afc3e910538eccbbefd4ee5df0f",
+        "https://gist.github.com/mattpocock/5f1bfb6edabad7249fccbb9ee61fdae9",
+        "https://gist.github.com/mattpocock/0095de3f5ff1ceed130db9e950ca35cd"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/create-embeddings-with-vercel-ai-sdk",
+      "sourceHash": "1c9f4d39abbacb0ea4b57cab0d1aa3997ff33d722a93c55af33e9a5330fa08d0",
+      "translationHash": "346d21f2db7f47ec9ca64d78420e51a9b1e438e88d0a76418cfc60cf7cc61a0f",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 8,
+      "headings": 8,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/implementing-anthropics-think-tool-in-typescript",
+      "sourceHash": "a854a81f6be2e647cb0140560a2e4e197094fb272c83133b111488d58a65bd4f",
+      "translationHash": "26f7cdef40a212741333d383766e20c6bf4be8b3957afd642ab3490c2be08f98",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 8,
+      "headings": 8,
+      "resources": [
+        "https://www.anthropic.com/engineering/claude-think-tool",
+        "/vercel-ai-sdk-tutorial",
+        "https://www.aihero.dev/vercel-ai-sdk-tutorial"
+      ],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/streaming-in-next-question-suggestions-with-the-ai-sdk",
+      "sourceHash": "ee57548775269cf7d533ea7b81c1f11dea24ee991d2d33f808174bb5bd8e1f4c",
+      "translationHash": "b432198df9c4b14ea9650e92872cf954fc232fc8a42c031fca912f438a3e3f0d",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 10,
+      "headings": 7,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/use-local-models-with-vercel-ai-sdk",
+      "sourceHash": "d3ee1fa746d5efb78938ca0539547b3ecf8db1fbfd0a5431f68620868d809b40",
+      "translationHash": "95e2cc953ba638f9117410ff649dbd1ade87877919753449b0656d129dc3c554",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 6,
+      "headings": 5,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    },
+    {
+      "route": "/vercel-ai-sdk-messages-array",
+      "sourceHash": "73638ad959ce7e2179ac53ba3359e7fd62bba68424239e38bc0c6773596bab96",
+      "translationHash": "1fcd69e0fb88b7f08e13a8356a8365f520927e21e39c774a193341e0ffa107a9",
+      "structuralValidation": "passed",
+      "emphasisAst": "no literal double-asterisk text or nested strong nodes",
+      "fencedBlocks": 22,
+      "headings": 20,
+      "resources": [],
+      "assembly": "not run; integration owner only",
+      "browser": "not run"
+    }
+  ]
+}

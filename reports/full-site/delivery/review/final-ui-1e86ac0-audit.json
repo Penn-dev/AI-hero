@@ -1,0 +1,54 @@
+{
+  "candidate": "1e86ac0caad08a7da54d57a9a473a5b6ef909450",
+  "runId": "38413956876",
+  "viewports": 2,
+  "uniqueRoutes": 1,
+  "screenshots": 6,
+  "screenshotHashesPassed": true,
+  "manuallyViewedScreenshotFiles": [
+    "home-1440-top.png",
+    "home-1440-main-body.png",
+    "home-1440-image.png",
+    "home-390-top.png",
+    "home-390-main-body.png",
+    "home-390-image.png"
+  ],
+  "manuallyViewedAll": true,
+  "clipboardMatches": 0,
+  "fencedClipboardMatches": 0,
+  "selectedParagraphClipboardMatches": 0,
+  "actualChineseLinkClicks": 4,
+  "dictionaryTermClicks": 0,
+  "originalAnchorChecks": 0,
+  "homeDirectoryClicks": 0,
+  "titleWrapRegressions": 0,
+  "uiSpecFindings": [],
+  "pages": [
+    {
+      "route": "/",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/skills/subscribe",
+        "/skills"
+      ]
+    },
+    {
+      "route": "/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/skills/subscribe",
+        "/skills"
+      ]
+    }
+  ]
+}

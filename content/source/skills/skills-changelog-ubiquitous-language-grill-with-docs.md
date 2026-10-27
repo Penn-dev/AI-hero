@@ -1,10 +1,20 @@
 ---
 title: "Skills Changelog: Ubiquitous Language -> /grill-with-docs"
 slug: "skills-changelog-ubiquitous-language-grill-with-docs"
-type: "post"
-description: "Skills repo changelog: /grill-with-docs, ADRs, improved architecture language, multi-tracker support & new debugging skills. Updates inside."
+type: "page"
 updatedAt: "2026-04-30T10:36:43.176Z"
 ---
+
+[AI Skills Changelog](/skills)
+
+# Skills Changelog: Ubiquitous Language -> /grill-with-docs
+
+![Matt Pocock](https://res.cloudinary.com/total-typescript/image/upload/c_limit,w_96/f_auto/q_auto/v1728059672/matt-pocock_eyjjli?_a=BAVMn6DY0)
+
+Matt Pocock
+
+Share
+
 With over 46.6k stars, my [skills repo](https://github.com/mattpocock/skills) has become a collection of my distilled thinking about engineering. What I'm doing now is posting regular updates about changes to the skills, and these videos act like a changelog so you can keep up to date with what's changing.
 
 These skills are designed for you to download into your setups and start using immediately. They represent the approaches and techniques I use daily in my own work.
@@ -20,6 +30,8 @@ The first major change is the repository structure. Skills are now organized int
 | [**Misc Skills**](https://github.com/mattpocock/skills/tree/main/skills/misc) | Occasional-use skills; uncertain about their permanent place in the repo |
 | [**Deprecated**](https://github.com/mattpocock/skills/tree/main/skills/deprecated) | Skills being phased out or replaced by newer alternatives |
 | [**Personal Skills**](https://github.com/mattpocock/skills/tree/main/skills/personal) | Skills I use personally, shared for inspiration rather than core usage |
+
+View Table
 
 You can safely ignore the `misc` and `deprecated` folders for now.
 
@@ -48,6 +60,8 @@ This means you can have:
 | **Best for** | Codebases | General use (life, work, creative projects) |
 | **Output** | `context.md`, ADRs | Flexible documentation |
 | **Location** | Engineering folder | Productivity folder |
+
+View Table
 
 [`/grill-me`](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) is totally unchanged, it's just been reorganized. Someone even used it to create a eulogy for their mum, and it worked wonderfully.
 
@@ -163,3 +177,15 @@ Every triaged issue gets exactly one category role and one state role. I use thi
 All skill updates and tips for getting the most out of agents are posted at [aihero.dev/skills](/skills). It's a tailored newsletter just for skills.
 
 Thanks for following along. I hope you're enjoying these updates as much as I'm enjoying creating them. See you soon!
+
+AI Hero · Free email course
+
+### AI Skills for Real Engineers
+
+Build a repeatable workflow for coding agents without giving up your engineering standards.
+
+**Share**
+
+[](https://x.com/intent/tweet?text=https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-ubiquitous-language-grill-with-docsSkills%20Changelog%3A%20Ubiquitous%20Language%20-%3E%20%2Fgrill-with-docs%20%20by%20%40mattpocockuk)[](https://bsky.app/intent/compose?text=Skills%20Changelog%3A%20Ubiquitous%20Language%20-%3E%20%2Fgrill-with-docs%20%20by%20%40mattpocock.com%0A%0A%20%20%20%20%20%20%20%20https%3A%2F%2Fwww.aihero.dev%2Fskills%2Fskills-changelog-ubiquitous-language-grill-with-docs)[](<https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs?author=Matt Pocock>)
+
+Copy URL

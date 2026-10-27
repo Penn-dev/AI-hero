@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-01/configs/skills-catalog.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-catalog",
+      "manifest": {
+        "route": "/skills-catalog",
+        "sourceUrl": "https://www.aihero.dev/skills-catalog",
+        "sourceHash": "3a8fda750dd040ae3c135a509a6f2778fd306b3217ab3ff0b1d112ad051076f1",
+        "translationPath": "content/zh/skills-catalog.md",
+        "translationHash": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:17.825Z",
+        "assembly": {
+          "configHash": "4f587050c269667283cfdb4e024dfed5e215201b2332b0f90243837ec21ca3d1",
+          "checkedAt": "2026-10-13T12:19:17.825Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-catalog.md",
+          "sha256": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1309e3f4b2a94b31952b18d1a46e29f6db556f3052fede44f52c1beada3b1bd5"
+        }
+      ],
+      "rawOutputSha256": "f51ff68b9427d10a7ef436335518087266e2fc7c575a070d95847edd5cd03008"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-catalog",
+      "manifest": {
+        "route": "/skills-catalog",
+        "sourceUrl": "https://www.aihero.dev/skills-catalog",
+        "sourceHash": "3a8fda750dd040ae3c135a509a6f2778fd306b3217ab3ff0b1d112ad051076f1",
+        "translationPath": "content/zh/skills-catalog.md",
+        "translationHash": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:18.018Z",
+        "assembly": {
+          "configHash": "4f587050c269667283cfdb4e024dfed5e215201b2332b0f90243837ec21ca3d1",
+          "checkedAt": "2026-10-13T12:19:18.018Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-catalog.md",
+          "sha256": "a14e68caf26b97d396f9d5e9f86829236e580b336ceb56513c6cba02f5adba34"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "fcc27c214d0e426db251616ff3ff27c65b35ad79ce48b535d99e9f26daab5b84"
+        }
+      ],
+      "rawOutputSha256": "76144c2f84ef1fa2dc13cf66af7f66c6053733e1efe3f12c8d6c6dc18eb3598e"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

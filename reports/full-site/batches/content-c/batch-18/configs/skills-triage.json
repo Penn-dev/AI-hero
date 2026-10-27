@@ -1,0 +1,22 @@
+{
+  "route": "/skills-triage",
+  "source": {
+    "path": "content/source/skills-triage.md",
+    "sha256": "52c5c6b3c93fd68b00abfc0f22e51f138afc532852a73ca0122a08addbdd8730"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-18/drafts/skills-triage.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    }
+  ]
+}

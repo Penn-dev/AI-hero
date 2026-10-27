@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-14/configs/grill-with-docs.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/grill-with-docs",
+      "manifest": {
+        "route": "/grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/grill-with-docs",
+        "sourceHash": "b85b3ecda8bfc87b933be848c968dcaf22bbc5fbe75f34e37652bb22f0b2065e",
+        "translationPath": "content/zh/grill-with-docs.md",
+        "translationHash": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:01.957Z",
+        "assembly": {
+          "configHash": "d3e4bb5e3f0bb88ec4b8315f97b5bf1b3f91ba59377296e35aaa1dbaca402ab4",
+          "checkedAt": "2026-10-13T13:08:01.957Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/grill-with-docs.md",
+          "sha256": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f626ff2418c70e68564b42aa205fe0a1f78552347b5a45b0ebc8ddfe8999e6dd"
+        }
+      ],
+      "rawOutputSha256": "b51d8d404728e04c0b56a5a126be55ca8003a42c39ad472f00efaaacaaf2a57f"
+    },
+    {
+      "mode": "apply",
+      "route": "/grill-with-docs",
+      "manifest": {
+        "route": "/grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/grill-with-docs",
+        "sourceHash": "b85b3ecda8bfc87b933be848c968dcaf22bbc5fbe75f34e37652bb22f0b2065e",
+        "translationPath": "content/zh/grill-with-docs.md",
+        "translationHash": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:08:02.245Z",
+        "assembly": {
+          "configHash": "d3e4bb5e3f0bb88ec4b8315f97b5bf1b3f91ba59377296e35aaa1dbaca402ab4",
+          "checkedAt": "2026-10-13T13:08:02.245Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/grill-with-docs.md",
+          "sha256": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "10a8419c90bc76b86492628717b9626793ea55cb54b9c777175021c6e5b19ef9"
+        }
+      ],
+      "rawOutputSha256": "779714605a6daa85be13f342b07c228b371cf889931513e90cb9561a3ffaa7f8"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

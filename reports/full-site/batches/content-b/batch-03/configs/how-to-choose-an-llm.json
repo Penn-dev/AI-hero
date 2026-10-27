@@ -1,0 +1,15 @@
+{
+  "route": "/how-to-choose-an-llm",
+  "source": {
+    "path": "content/source/how-to-choose-an-llm.md",
+    "sha256": "25b8b5bb3ebbe1fe88f002c69da7119362f3584029f07dbde2e6bd11070d09e5"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-03/drafts/how-to-choose-an-llm.md",
+  "translationPath": "content/zh/how-to-choose-an-llm.md",
+  "linkTargets": [
+    {
+      "route": "/what-are-evals",
+      "state": "available-chinese"
+    }
+  ]
+}

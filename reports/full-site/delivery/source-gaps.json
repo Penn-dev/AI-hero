@@ -1,0 +1,53 @@
+{
+  "scope": "Fixed 195 public text pages; missing resources are not fabricated or counted as acquired.",
+  "fixedScopeResourceGaps": [
+    {
+      "kind": "email-course",
+      "status": "not-acquired",
+      "sourceRoutes": [
+        "/skills/subscribe",
+        "/newsletter"
+      ],
+      "evidence": "公开介绍写明七封课程邮件，课程正文在邮件内；本次取得订阅介绍与表单文案，没有订阅或取得邮件课正文。"
+    },
+    {
+      "kind": "enrolled-course-materials",
+      "status": "not-acquired",
+      "sourceRoutes": [
+        "/workshops/ai-sdk-v6-crash-course",
+        "/workshops/ai-coding-crash-course"
+      ],
+      "evidence": "已取得公开课程介绍；未取得完整报名后课程视频、环境材料、练习及答案，不以介绍页代替整套课程。"
+    },
+    {
+      "kind": "login-personal-progress",
+      "status": "not-acquired",
+      "sourceRoutes": [
+        "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+      ],
+      "evidence": "正文有 Log in to save progress 入口；登录流程与个人进度不在公开文字采集范围，未登录或提交表单。"
+    },
+    {
+      "kind": "output-video-transcript",
+      "status": "not-acquired",
+      "sourceRoutes": [
+        "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+      ],
+      "evidence": "提取正文有 Video Transcript 标题，未提取到文字稿正文；保留原页面视频入口，不生成稿件，也不据此断言原站没有文字稿。"
+    },
+    {
+      "kind": "output-solution-and-runtime",
+      "status": "not-verified",
+      "sourceRoutes": [
+        "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+      ],
+      "evidence": "已有完整公开步骤、原代码、Solution 及登录入口；Solution 目标不在此次 Sitemap，未另取答案，教程环境和代码运行未验证。"
+    }
+  ],
+  "outsideScopeRoutes": [
+    "/login",
+    "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k/solution"
+  ],
+  "tutorialRuntime": "not-verified",
+  "onsiteWindows": "passed; see onsite-acceptance.md"
+}

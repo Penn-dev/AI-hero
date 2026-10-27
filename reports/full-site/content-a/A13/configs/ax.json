@@ -1,0 +1,58 @@
+{
+  "route": "/ai-coding-dictionary/ax",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/ax.md",
+    "sha256": "5e5e09094864e5f7908dc7b6549ef4ecb6e941d382e19c1600b9ae4a33449c2e"
+  },
+  "chineseFile": "reports/full-site/content-a/A13/drafts/ax.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "state": "available-chinese"
+    }
+  ]
+}

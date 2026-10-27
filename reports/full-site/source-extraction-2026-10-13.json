@@ -1,0 +1,976 @@
+{
+  "inputPath": "reports/full-site/source-html-2026-10-13.json",
+  "pages": [
+    {
+      "route": "/",
+      "status": "extracted",
+      "title": "Engineering fundamentals aren't obsolete.",
+      "sourcePath": "content/source/index.md",
+      "sourceHash": "3942208060725a8c24a3883fd703a9a975c65d0dc9cfc3ea14840001c83d4378"
+    },
+    {
+      "route": "/newsletter",
+      "status": "extracted",
+      "title": "Join over 128,900+ Developers Becoming AI Heroes",
+      "sourcePath": "content/source/newsletter.md",
+      "sourceHash": "78254990f49b4c6626cb9c51b5195593ebce145071f8ee5970829f8ebe941f4d"
+    },
+    {
+      "route": "/skills/subscribe",
+      "status": "extracted",
+      "title": "AI Skills for Real Engineers",
+      "sourcePath": "content/source/skills/subscribe.md",
+      "sourceHash": "ff1c20f196e810ce444730c92bc9a3ad90cb81edc29370f212465823da402d1a"
+    },
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k",
+      "status": "extracted",
+      "title": "Generating Objects via Output",
+      "sourcePath": "content/source/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k.md",
+      "sourceHash": "c098f9cf144ff3b8663f35e39f19ed607904fd5f8095db40391e1066f3818dc5"
+    },
+    {
+      "route": "/ai-coding-dictionary",
+      "status": "extracted",
+      "title": "The vocabulary of AI coding, in plain English.",
+      "sourcePath": "content/source/ai-coding-dictionary.md",
+      "sourceHash": "9389205ef4e97e4330e37e9e577d095775fe3b2b84c647dbf0995fcc9b66d07c"
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "status": "extracted",
+      "title": "AI",
+      "sourcePath": "content/source/ai-coding-dictionary/ai.md",
+      "sourceHash": "46a2a3be696a87b1059b9ea43819305463ce94a7a5cef23466e9d1824cb57a31",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "081592c539577cc153acefa12df0b6adf0c162378c2feea6ff688528ee79b2be",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "status": "extracted",
+      "title": "Model",
+      "sourcePath": "content/source/ai-coding-dictionary/model.md",
+      "sourceHash": "bda0dd8f7209f591b4d3e8169d0e40365130327004b73195c87df731b1a517a5",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "7d701ec4df061c1cad9eba30f71cc11ad1aefd36f6d71804bfc87ee60c93b826",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "status": "extracted",
+      "title": "Parameters",
+      "sourcePath": "content/source/ai-coding-dictionary/parameters.md",
+      "sourceHash": "f627cef476d8d54a9829f3c5c90e587ebcf6f73b25c6be5e9b4ef82a79b8e836",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "1b7a7336a5613f763d515b6d5267c83ed249efb385600c5e8e5c19d30b6b5da1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "status": "extracted",
+      "title": "Training",
+      "sourcePath": "content/source/ai-coding-dictionary/training.md",
+      "sourceHash": "f962827db48b29c0c8cc4d6f7fdc692ecfdf37c09447acac4cfbecf57887cf15",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "2e5949672cb447893c27a82832fb0e4324de9a1c8b4310caf75322d01c6e4188",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "status": "extracted",
+      "title": "Inference",
+      "sourcePath": "content/source/ai-coding-dictionary/inference.md",
+      "sourceHash": "e7c23ce987d5e42225449309294ce00e4b2ee4ab83544f273078c73cdc1982fc",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "6aa691b881a14c5674cbd70c7780f8a398119ed42df5b38b0af0a53e88048bf1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "status": "extracted",
+      "title": "Effort",
+      "sourcePath": "content/source/ai-coding-dictionary/effort.md",
+      "sourceHash": "98354889478936729e33eb954204700f94c7583ee72201e3faca2fca7b3ccec3",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "adce7a2256dcdb202df0e571540a868e36ce9edad28de9841576cc6466aefb22",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "status": "extracted",
+      "title": "Token",
+      "sourcePath": "content/source/ai-coding-dictionary/token.md",
+      "sourceHash": "d561b6c8ced690f7e6fdbfa8435342dfcc9cba275d1c4e0a8ddfd803571c27f1",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "76d8d5da4d354a10ccb0374e613f637981ca03dd36346d432cbb97c608de7a9e",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "status": "extracted",
+      "title": "Next-token prediction",
+      "sourcePath": "content/source/ai-coding-dictionary/next-token-prediction.md",
+      "sourceHash": "2e4540175092bb37efd464961daf8df3e6339d500464e6d16c8b162a247d8ed7",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e5096ab8d6812f3362a935a4702d829a726c6475b7218f56f3530315d3d1b4cb",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "status": "extracted",
+      "title": "Non-determinism",
+      "sourcePath": "content/source/ai-coding-dictionary/non-determinism.md",
+      "sourceHash": "9d6bb88cb4d21da508ef3fb73b56707a9a0eb8d90b8606f470599dd1c14a6a84",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e9ac75ea3ee89681d112a03f33be777ff1941566706e55cf48ca1ee339e9cac9",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "status": "extracted",
+      "title": "Model provider",
+      "sourcePath": "content/source/ai-coding-dictionary/model-provider.md",
+      "sourceHash": "de26bad57b92bee22e4c9042fe8262c8095bf44aa3b73fd70f74766bc98e8e0e",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "5b24d071a02565638a3f92ef5a89b75de6829c517a642cf166b12585f8db5a0a",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "status": "extracted",
+      "title": "Harness",
+      "sourcePath": "content/source/ai-coding-dictionary/harness.md",
+      "sourceHash": "e8fca4c2ddffb9f121b5f57f5721c3c06d941bf8c545c23ebdc5d70b727032f2",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "b51de762045f5db093a3872076f47e4b8728d09dbfcb09d6c373f55b294fe819",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "status": "extracted",
+      "title": "Model provider request",
+      "sourcePath": "content/source/ai-coding-dictionary/model-provider-request.md",
+      "sourceHash": "9040123cac6dcfe99a1b6ee685b11fd0768bfe13792421c099b592bd59956888",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "7adeaf3c819f9808362776018d9f0c5b0aa2ebfc102411002b0d46a23e0f2705",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "status": "extracted",
+      "title": "Input tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/input-tokens.md",
+      "sourceHash": "e30fae6e5812c5d913a7c5a8d034736e4f94bae6bbf06df20922e438e11c1363",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "0a48f68d83f49bef2a4399b6eb8c39865eb838ea971c35a58236d1faa0d5b5ba",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "status": "extracted",
+      "title": "Output tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/output-tokens.md",
+      "sourceHash": "dae408485b46660315f1a08c0ba1454a271460143f3b8ecd9375623acfbfdadf",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "a894b348d02c1434dfe9b3922d196a360fb8804fc53c298f049faf48dbea2e7b",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "status": "extracted",
+      "title": "Prefix cache",
+      "sourcePath": "content/source/ai-coding-dictionary/prefix-cache.md",
+      "sourceHash": "9101031d9fd11f9e7f593a8ec5038ad595d6f0bda46622f0cb8ebe5634d3a295",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "6584039cb2e3668b8260f737995fce0818e21038f8998d6e7b11a1ec66404c3a",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "status": "extracted",
+      "title": "Cache tokens",
+      "sourcePath": "content/source/ai-coding-dictionary/cache-tokens.md",
+      "sourceHash": "c9ef6830b4091bad3c8d788f4637ff40fe4b8a32cd9ab932526b2274174b293d",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "eeb1beee00f437f666dec5c2ba453325b233169d04d40ab88d395b04de7b04d3",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "status": "extracted",
+      "title": "Stateless",
+      "sourcePath": "content/source/ai-coding-dictionary/stateless.md",
+      "sourceHash": "061131442102c1e3677c71d5016077b613c6a6f14d6c860613cbe745d8cd6edd",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "cd63a6e1c04ee8db6e9d07ec33c822395a6b2e5841a2948fcc5a8e8cc3a264cc",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "status": "extracted",
+      "title": "Context",
+      "sourcePath": "content/source/ai-coding-dictionary/context.md",
+      "sourceHash": "3a76ec521a78bd5050d60981b4fd1acad50e4cc607681de34db826270b43804d",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "5da380211dc9b5a4e2339c47530444f99555d62643675a25a701d6fdba568bfe",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "status": "extracted",
+      "title": "Context window",
+      "sourcePath": "content/source/ai-coding-dictionary/context-window.md",
+      "sourceHash": "2a5b63536a30a69e910c5bd6180ba6e19492e759b20b38bcdcff060983442deb",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "de09f4f1d82bc4265af5b592073ab0c561740e521e1c2d15b6323ebde8ada1e1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "status": "extracted",
+      "title": "Stateful",
+      "sourcePath": "content/source/ai-coding-dictionary/stateful.md",
+      "sourceHash": "9b4d2356cc0fa4e0f63f623649506c40e38fe989571365fe7944c0c729a51eb7",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e8ba5ca2a97af8cbfd5edd4d2fba2bccab7dbfe86c5253f408c7ad011b9a47ff",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "status": "extracted",
+      "title": "Agent",
+      "sourcePath": "content/source/ai-coding-dictionary/agent.md",
+      "sourceHash": "a319408825b241cc95d5f1d74f0f7b686ae29b8ebaea5984261fce3eef453f91",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "1dbd38a917e264d5f744e58c29ee094783f4a8083a5668ab05204c8c605e394b",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/system-prompt",
+      "status": "extracted",
+      "title": "System prompt",
+      "sourcePath": "content/source/ai-coding-dictionary/system-prompt.md",
+      "sourceHash": "280e76f1e360a136463e07681767779189f0487d1d7e94096153600571e3bc9a",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "4c0625b324b0a92f31e5ae0ea0aa0df6e95d4150555c76881b807b63e00c3d31",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "status": "extracted",
+      "title": "Session",
+      "sourcePath": "content/source/ai-coding-dictionary/session.md",
+      "sourceHash": "2ec9d99838359e3762586678be8930cea4457f46c48ab1c085427d0a1b5c9bdc",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "b790940ce5d4ca13c531f8244aa02e20bfc80c7b032a43c5fc6bd13909be88db",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "status": "extracted",
+      "title": "Turn",
+      "sourcePath": "content/source/ai-coding-dictionary/turn.md",
+      "sourceHash": "4976a69badb154f1c5412701e7bf657594359cecb204191cb9c273f2e0a79402",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "fb4f5269389421d18e7c76e79bbbfb797dd67cb11e11b1947d0275080e63ab67",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "status": "extracted",
+      "title": "Environment",
+      "sourcePath": "content/source/ai-coding-dictionary/environment.md",
+      "sourceHash": "5e10fc7459a6351d8025c7dabae66cc94ab99be566d27f7bab40fe53b736e342",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "d89dc72c84a7016da026b1581a1f80bc9c49a52dea41529f4dc83853a531336d",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "status": "extracted",
+      "title": "Filesystem",
+      "sourcePath": "content/source/ai-coding-dictionary/filesystem.md",
+      "sourceHash": "02912c45cf8c9b38e23f635fbc55fcaa14691576e5a1220bb78e489ac700a9f7",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "fd9e5b79e9b82745e298953ab8e32e99905537a82608326f7768edcbcff9c5a7",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "status": "extracted",
+      "title": "Tool",
+      "sourcePath": "content/source/ai-coding-dictionary/tool.md",
+      "sourceHash": "e40188419e080e42d781f684089b90456382657e37f0d3ba2100cb92a6540763",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e3fb776ffb3cc457abc7c36b089ae0a3fa3532f4b8b0b6cf2d46335644876692",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-call",
+      "status": "extracted",
+      "title": "Tool call",
+      "sourcePath": "content/source/ai-coding-dictionary/tool-call.md",
+      "sourceHash": "81172bf1e6f56b678163d6c9b2875043918ca48e19e96ecd87640271f9d84692",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "d56ca4fa43944adfe43928d6cfbfa4ccee1ecbc198c434f2c794e672b672899c",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "status": "extracted",
+      "title": "Tool result",
+      "sourcePath": "content/source/ai-coding-dictionary/tool-result.md",
+      "sourceHash": "d86d038892bf2d6363762dbfc6a23ff563a3abe3aa08bbb1e6c9f8a935584f66",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "b78d3af564d5171ec1901865ac7af025a99019266c0e4bf19b083a51df0fc6d2",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "status": "extracted",
+      "title": "MCP",
+      "sourcePath": "content/source/ai-coding-dictionary/mcp.md",
+      "sourceHash": "dccbfda4cf19b526b54ea7b562903d89a1b7319f1cfc624c88465b82962e305c",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "8f1ad1c0d5910af58ae01294abdb93a5cb95b48e71215b819acc12deb2798178",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "status": "extracted",
+      "title": "Permission request",
+      "sourcePath": "content/source/ai-coding-dictionary/permission-request.md",
+      "sourceHash": "5cd646c35915de3e592f69439f459e638ed020068c5e8337c1ba715b5015c9c0",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "3e670ac52537f5a5e8a03400c1c17db85514797d6a75ba2bc7616f99c3da551b",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "status": "extracted",
+      "title": "Permission mode",
+      "sourcePath": "content/source/ai-coding-dictionary/permission-mode.md",
+      "sourceHash": "94dcba8b6b3a5e39bb5d6c646c19bc4b0ca82b5cb4abd1f4733194f53da44293",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "0c0283688d98fb6b9961ccd8ede5ad2d54952037f2ebdf22378a36bbf67e685f",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "status": "extracted",
+      "title": "Agent mode",
+      "sourcePath": "content/source/ai-coding-dictionary/agent-mode.md",
+      "sourceHash": "24f5102fb30d59ebc8947457169dcc9e98583973d2ce5efe1cc44443300ecdc7",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "89a0f73c76a3d875e9a3846144e8ea677e84fc5d87de1db5db0d389892f3e661",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "status": "extracted",
+      "title": "Sandbox",
+      "sourcePath": "content/source/ai-coding-dictionary/sandbox.md",
+      "sourceHash": "16a11caf345c12e3be8721de059a4c716dde5fec481256a6c0a833d5e016d751",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e80dcf9eefd3c4b348dab4e3b17d0ae3d40dd5e6d074b54d29049e2c23664636",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "status": "extracted",
+      "title": "Sycophancy",
+      "sourcePath": "content/source/ai-coding-dictionary/sycophancy.md",
+      "sourceHash": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "6c18e4a2c8c9bbd9e85e599aef854269714411bc6f88ba120d059c7a0d1aaf89",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "status": "extracted",
+      "title": "Hallucination",
+      "sourcePath": "content/source/ai-coding-dictionary/hallucination.md",
+      "sourceHash": "4b8d0cbe95e6f7c71907613a69a016178a40a5729ec6aff0372dfc12f558640c",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "a7d3ea346e26b0536fc5ca9a56085b392f2a8681cd8d5eed877b09e8a6538b8c",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "status": "extracted",
+      "title": "Parametric knowledge",
+      "sourcePath": "content/source/ai-coding-dictionary/parametric-knowledge.md",
+      "sourceHash": "eea5dc47fbe93157d2f9c3447977f19edf5a98ab5e121a6eb1d55d768bd82c60",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "d6a28ab81bd95b1a9db2cf11364a4a5064d344ce719df0372b5424e82cf8c6b8",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "status": "extracted",
+      "title": "Knowledge cutoff",
+      "sourcePath": "content/source/ai-coding-dictionary/knowledge-cutoff.md",
+      "sourceHash": "da63fd7e5d918ce5bed090cd67bebc51a51b47a9737144e318261c9792c84f46",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "9cf10c7102f9934e3cf45ad85506710a8172fb97368287f2e33caef905bdf688",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "status": "extracted",
+      "title": "Contextual knowledge",
+      "sourcePath": "content/source/ai-coding-dictionary/contextual-knowledge.md",
+      "sourceHash": "0c15b23805522a808d4403bdf9ab5e696ea027a493dc5c758f343edd2305c811",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "c3109b52aa9cc80d36202a9d27189f1fcd8daf1a7ac8f8ef6845aee64e7f389d",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "status": "extracted",
+      "title": "Attention relationship",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-relationship.md",
+      "sourceHash": "b5563d1488719ae62eb792a3728a5c491e505e4cd9b9a22f0310cf85eb1b8275",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "fce54533f6bc0dfda8e9d39dd664b12263e3db276af9c96f623530ecb21cc5ee",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "status": "extracted",
+      "title": "Attention budget",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-budget.md",
+      "sourceHash": "2ac674af54019c072f89a2f4154c27eab502e0f8e3219d9955d99cdd0fccccc5",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "a261d140d7ee5c1cce7de2308a00fac6ffa5b9bb23ee524da7544b438e886148",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "status": "extracted",
+      "title": "Attention degradation",
+      "sourcePath": "content/source/ai-coding-dictionary/attention-degradation.md",
+      "sourceHash": "bf7047388ba3589007a6b639945031883d4b4c04fc7b91b616db403e6c8430c3",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "1c12842e7cbe0025c0d533a2f00458e8f87c5cecf90a94ea9c62b54bbe963c54",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "status": "extracted",
+      "title": "Smart zone",
+      "sourcePath": "content/source/ai-coding-dictionary/smart-zone.md",
+      "sourceHash": "89e7f3a6e7d2660d3305269ad0d1a150a7860cf8987b0c2c79fc5476c0f6fb5f",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "940f95e4d4521ad9cc048dcfa165dfca1eb17d361054978cd347fccb0e73ce30",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "status": "extracted",
+      "title": "Clearing",
+      "sourcePath": "content/source/ai-coding-dictionary/clearing.md",
+      "sourceHash": "d60dda2558ed3c7b15ef41a8a5dd31d35a6ab8846a77f55aad7e3853682f2346",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "1636567ae3c72e752d9719fd96ff3fe6afc8848d1e6dce0ecd3720773ffa7efb",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "status": "extracted",
+      "title": "Handoff",
+      "sourcePath": "content/source/ai-coding-dictionary/handoff.md",
+      "sourceHash": "c3f330ccdd14c2d23d67e1252937ab5379296f8ed8878606dbd0b11d2468e508",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "52983b26f3079cd027a3d7393d09cbf14e4aee53c7a26886376870dd09e33a5f",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "status": "extracted",
+      "title": "Primary source",
+      "sourcePath": "content/source/ai-coding-dictionary/primary-source.md",
+      "sourceHash": "d7de1ef47f677a3e0fd3ee8303be41617ae850964bb3ef5ce936e007ce8e1c91",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "09b5d6e1c25b2d16f357d2db0a80963beb67503aba686afa8dd5c8a618046a52",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "status": "extracted",
+      "title": "Secondary source",
+      "sourcePath": "content/source/ai-coding-dictionary/secondary-source.md",
+      "sourceHash": "b8d494d36341ef070bc29dc1c63b9251275301aa2420f32e661f163929fc971c",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "2ebef252eed26fc6a7f97a9c7e2c766480f45e1baa6e6a6b310d5cd170f4db55",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "status": "extracted",
+      "title": "Handoff artifact",
+      "sourcePath": "content/source/ai-coding-dictionary/handoff-artifact.md",
+      "sourceHash": "d17dd0c5e14bddea3cfeace1c6071763b6bca069a2d7e75772ace458a353e2d5",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "6ad75d6ac4c4efd12177435901738bc66a277714a356862b559dc90aae3a9aa7",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "status": "extracted",
+      "title": "Spec",
+      "sourcePath": "content/source/ai-coding-dictionary/spec.md",
+      "sourceHash": "35400ab72d5c14a63214c73cab00ddf37fd63150cae3ea5fe2ae8b5297df684d",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "ab7023817d93f94b330c9e7c1e726845f8b7655a15e65e8eb3cdb79c7c6efc48",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "status": "extracted",
+      "title": "Ticket",
+      "sourcePath": "content/source/ai-coding-dictionary/ticket.md",
+      "sourceHash": "27a3bc6e5fd813af0d4ee8e5cd6742ef9020dc59693fa3cc3bcbf349a7a13702",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "eab78b5cf183f3669e2160ccf84e541d1f3dfd62217ff18f8cefb82478bf6a2a",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "status": "extracted",
+      "title": "Compaction",
+      "sourcePath": "content/source/ai-coding-dictionary/compaction.md",
+      "sourceHash": "fddd287107216dd4b1936c9f276da01188acdd91e67cec9386d70cae3b85c4f0",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "bd58f341bcff62dc9c9969c44ef45318aa6ef46e76300cb81466d85fccf61fda",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "status": "extracted",
+      "title": "Autocompact",
+      "sourcePath": "content/source/ai-coding-dictionary/autocompact.md",
+      "sourceHash": "b27637eae07e7f28830ceae01e53d74088b04cf59237e669c5ab7992bb466a28",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "05abe20e755f0c71f461eb78865fe4fb6f84383bd9976adcb0bcf733977a0665",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/memory-system",
+      "status": "extracted",
+      "title": "Memory system",
+      "sourcePath": "content/source/ai-coding-dictionary/memory-system.md",
+      "sourceHash": "231f7764fd14458de5108a21924637c522c92c650b5c81dfbe77d29af2597258",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "6598554fe2baa4377c46c4badbcf769206b5924f40161898e39445da0be7a20d",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "status": "extracted",
+      "title": "AGENTS.md",
+      "sourcePath": "content/source/ai-coding-dictionary/agents-md.md",
+      "sourceHash": "32af17329c5c6aaddd8964c45094df8b8996c326d0c9d22f1d50639c12fac201",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "eb1611f497cf14a65b48ad31acbf26abdcee80bb083ec7628c427dbde1072379",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "status": "extracted",
+      "title": "Progressive disclosure",
+      "sourcePath": "content/source/ai-coding-dictionary/progressive-disclosure.md",
+      "sourceHash": "5d66bc98fae76fc8d8df7eb8d4b0f6d514832a21b2340a224e8c33b791f3ec73",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "971ce0b4e04eab4d2f0acc160516900661838b57caac60291ecfb0dd4ff95553",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "status": "extracted",
+      "title": "Context pointer",
+      "sourcePath": "content/source/ai-coding-dictionary/context-pointer.md",
+      "sourceHash": "0465a48c9ee2d354bfbaa82b071f80b45616e7c8ad588b48f4cd1696786a7283",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "0ab6d547ff0f513d7b2a1df86c05af55e67bd246942d146b8c49ea9befe7638c",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "status": "extracted",
+      "title": "Skill",
+      "sourcePath": "content/source/ai-coding-dictionary/skill.md",
+      "sourceHash": "f3203e90c41b5e6eb0ed706dd6844860519201f6461484a7686b4e9667d2567a",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "e217aff8ce39a4f30c61f02de9824423adf0839d54a25012e5438b1f50a573f1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "status": "extracted",
+      "title": "Subagent",
+      "sourcePath": "content/source/ai-coding-dictionary/subagent.md",
+      "sourceHash": "50239cd38db25f2b441fda71d5bfca33fa36be01fc50bf07f1f7f10e347159f8",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "91ae5b7985f203d87841041bd57aaae7777112d8c8498d81ed70bf53f8e4fd34",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "status": "extracted",
+      "title": "Human-in-the-loop",
+      "sourcePath": "content/source/ai-coding-dictionary/human-in-the-loop.md",
+      "sourceHash": "6730a600872ddbb9bb705fe5ad8f6ee0218c841576ea7fd3d9e572aedf975a50",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "52447a75eb5a74986e9de03e0b7e70d99cd25f760533c7580524f800930b1f62",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "status": "extracted",
+      "title": "AFK",
+      "sourcePath": "content/source/ai-coding-dictionary/afk.md",
+      "sourceHash": "8618b23c4ab823f440ea078191a7345958fcd260c290033141d47847ad6f915a",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "d43a82ec07c359a55b7cb30f1f7c72f7393a9638a17d2edd2fb5285ac3481b66",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "status": "extracted",
+      "title": "Automated check",
+      "sourcePath": "content/source/ai-coding-dictionary/automated-check.md",
+      "sourceHash": "bf3c424b557017b8f77485ddff6e9f842695c7f97e97301775f31022e433d3a6",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "20470abb36546a203ee21d817fd23dd6f07fb72ce0a149a4379da87023382143",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "status": "extracted",
+      "title": "Automated review",
+      "sourcePath": "content/source/ai-coding-dictionary/automated-review.md",
+      "sourceHash": "69b555e353474f03157a498cbf3629dc79fdc079a163845f2178701b52f9700b",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "f728adbd0e4aaf56df66c3f9b7f68ba8a0ffdf39f53a8396ca283eacea0d1803",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "status": "extracted",
+      "title": "Human review",
+      "sourcePath": "content/source/ai-coding-dictionary/human-review.md",
+      "sourceHash": "dd479f1fd946c437f8660dad8405defd3f5846e2308d5ba59851822bfa4b7633",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "c5881bfa5f9598231ac1104a835f4505be9c1fcf942757a326c4d8fef9aaf112",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "status": "extracted",
+      "title": "Vibe coding",
+      "sourcePath": "content/source/ai-coding-dictionary/vibe-coding.md",
+      "sourceHash": "28fd21c17a0bbcad249fb27d24978c9e952780d0251947cebe180cf864092861",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "ea55209e4bc359e3fa588694d7568616f1266b0aa34a73e8ca0bba6d887b1e46",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "status": "extracted",
+      "title": "Design concept",
+      "sourcePath": "content/source/ai-coding-dictionary/design-concept.md",
+      "sourceHash": "41a0e5468e5b07e7ad96e188e82d8fdb8609b5f9068f9417bf6ef851f20f121b",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "456b4ad512b770cc06e3865307fa5b0c27e58eb8fe8193d9b6462c3ac96abd81",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "status": "extracted",
+      "title": "Grilling",
+      "sourcePath": "content/source/ai-coding-dictionary/grilling.md",
+      "sourceHash": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "7b95bba865f2416f619051621c0446757b28efa92abb3317ee0ef7f485e9d9d4",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "status": "extracted",
+      "title": "Prototyping",
+      "sourcePath": "content/source/ai-coding-dictionary/prototyping.md",
+      "sourceHash": "39d3ce1c188317f94c922a30c1652b2ef5ca993d7eb061cbc6d63f7a5543d97f",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "3b341c7b53d70878153bc9b552772fcd742adde39284b85cb5c713c4f76fb96f",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "status": "extracted",
+      "title": "DX",
+      "sourcePath": "content/source/ai-coding-dictionary/dx.md",
+      "sourceHash": "a7ffc549fb59a5ca758ea9324560f5df91d76eaad3b4766b57cbf77515524fb5",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "06d4401c1f2eb83cd8c569431c9f1ec7a07326c28e4723d709cd44c1d88884c4",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "status": "extracted",
+      "title": "AX",
+      "sourcePath": "content/source/ai-coding-dictionary/ax.md",
+      "sourceHash": "5e5e09094864e5f7908dc7b6549ef4ecb6e941d382e19c1600b9ae4a33449c2e",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "fd1e64c6dfd20d3319d1337911275f8e98b867003a6cf438aab4f8c303061c8a",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "status": "extracted",
+      "title": "Software factory",
+      "sourcePath": "content/source/ai-coding-dictionary/software-factory.md",
+      "sourceHash": "78107b16f9f8a4964fb482a016c114a292bfbf5c75ac79b9861a711b4c4a669b",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "c83329f7ae0231b83cee9bc5272e5215482cbc98b822f006ebde1789249a41b1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "status": "extracted",
+      "title": "Dark factory",
+      "sourcePath": "content/source/ai-coding-dictionary/dark-factory.md",
+      "sourceHash": "e61c177f6e5426b1315a4390e94104187f012d0c63fdde2b59559c66aac4e4b1",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "f95001a6f8956db8bc5cf893f8e1e449389d9faafd1e41a274ab5a616e4552d2",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md",
+      "status": "extracted",
+      "title": "v1.3: /implement-spec, /pr, /retro, and GLOSSARY.md",
+      "sourcePath": "content/source/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md.md",
+      "sourceHash": "8f5dd02a02e0f99c1764faeeadee072c5b492794819cc1cfe575d21f4761d9d0",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "33f46f838c2315ce654d38d168977c1bab6f12fbb2b70d8546e26d3da77ee273",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more",
+      "status": "extracted",
+      "title": "v1.2: /wait-what, /writing-for-agents, Claude Code Plugin, and more",
+      "sourcePath": "content/source/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more.md",
+      "sourceHash": "3d225365f094bfa0548e2c84a76eaee714b201388ffed6d64584ba01d4781f71",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "f139d5b48dbd08c4d3babb246c57a1569dc5ce69ef4298a2402fb02b8153e291",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements",
+      "status": "extracted",
+      "title": "v1.1: /wayfinder, /to-spec, /to-tickets, /grilling improvements, and much more",
+      "sourcePath": "content/source/skills/skills-changelog-v1-1-wayfinder-to-spec-to-tickets-grilling-improvements.md",
+      "sourceHash": "7ef85d59d6c4eb4dd6a6d790403ece3845720b9c954d7c6593d8d1e1f4a62b0e",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "59a691f1e95e2b59f47a44e26fca1e1de6a74609c550a21b663aced4407c9730",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-v1-announcement",
+      "status": "extracted",
+      "title": "v1: 63% Token Reduction, /ask-matt, /writing-great-skills",
+      "sourcePath": "content/source/skills/skills-changelog-v1-announcement.md",
+      "sourceHash": "c143f5999fd0b1e9dbcf0c9c9df0b9cb8a15731acc400fdaf2786f05de2b24b1",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "60e5fb40d047324858f758ac330495320f57fb87ea1eb1605ca95cef89027d5e",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "status": "extracted",
+      "title": "Skills Changelog: /handoff, /prototype, /review and /writing",
+      "sourcePath": "content/source/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+      "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "0cc9b4ef24d22704542d39504d4ec44ef398c40f0ba6849a18864595a0b808d1",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    },
+    {
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "status": "extracted",
+      "title": "Skills Changelog: Ubiquitous Language -> /grill-with-docs",
+      "sourcePath": "content/source/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+      "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+      "extractionCorrection": {
+        "correctedAt": "2026-10-13T04:42:41.916Z",
+        "previousSourceHash": "1205274d4b0e7e633970ce661afbd8aa3c78c1da30864912a6ba7d3a3ab0cae4",
+        "reason": "Same acquired HTML; wrap link destinations containing whitespace so Markdown keeps the complete href."
+      }
+    }
+  ],
+  "extractionCorrections": [
+    {
+      "correctedAt": "2026-10-13T04:42:41.916Z",
+      "reason": "Offline extraction correction for whitespace in original hrefs; no fetch, scope or acquisition time change.",
+      "htmlPagesCompared": 82,
+      "sourceFilesChanged": 77,
+      "originalCodeBlocksCompared": 14,
+      "originalCodeBlocksUnchanged": true,
+      "onlyUrlWrappingChanged": true,
+      "evidencePath": "reports/full-site/source-url-extraction-correction-2026-10-13.json"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "route": "/skills-implement-spec",
+  "source": {
+    "path": "content/source/skills-implement-spec.md",
+    "sha256": "5dbd4d76095c9dc54b60a9c89c453d74e2f2ab6f788250dd3d26ce6b74c75152"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-08/drafts/skills-implement-spec.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "route": "/what-is-the-ai-sdk",
+  "source": {
+    "path": "content/source/what-is-the-ai-sdk.md",
+    "sha256": "860e5626279ac355abdcbf46c85c6c1a495441fd723493cb1c5b4502c3141605"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-05/drafts/what-is-the-ai-sdk.md",
+  "translationPath": "content/zh/what-is-the-ai-sdk.md",
+  "linkTargets": [
+    {
+      "route": "/workshops/ai-sdk-v6-crash-course",
+      "state": "available-chinese"
+    }
+  ]
+}

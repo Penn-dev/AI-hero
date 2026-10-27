@@ -1,0 +1,17 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Source resource missing: https://linkedin.com/shareArticle?mini=true&url=https://www.aihero.dev/ai-coding-dictionary/system-prompt?author=Matt
+    at validateArticle (file:///E:/dev/projects/AIHero/work/full-site-samples/scripts/lib/page-content.mjs:79:58)
+    at assemblePage (file:///E:/dev/projects/AIHero/work/full-site-samples/scripts/assemble-page.mjs:43:29)
+    at async file:///E:/dev/projects/AIHero/work/full-site-samples/scripts/assemble-page.mjs:124:32 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.14.0

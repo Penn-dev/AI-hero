@@ -1,0 +1,145 @@
+{
+  "config": "reports/full-site/content-a/A15/configs/design-concept.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/design-concept",
+      "manifest": {
+        "route": "/ai-coding-dictionary/design-concept",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
+        "sourceHash": "41a0e5468e5b07e7ad96e188e82d8fdb8609b5f9068f9417bf6ef851f20f121b",
+        "translationPath": "content/zh/ai-coding-dictionary/design-concept.md",
+        "translationHash": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:13.284Z",
+        "assembly": {
+          "configHash": "84166a50c7321990e415eac9b1527c0259623ec0e9125a33fb64b37ca93f9da0",
+          "checkedAt": "2026-10-13T12:19:13.284Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff-artifact",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/vibe-coding",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/design-concept.md",
+          "sha256": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e208ba15a028d10bbcaba2775cd37a4bb469ff47e41f3ce125f601e0e106d371"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8878d6d305ddab5ed08981d44d7bd2888e6ac7d411e471fef0843e278198de12"
+        }
+      ],
+      "rawOutputSha256": "a27a2b73504842a58a45b8acdcb9fce90b5fcc080d75be403c8034920e9c9ca0"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/design-concept",
+      "manifest": {
+        "route": "/ai-coding-dictionary/design-concept",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/design-concept",
+        "sourceHash": "41a0e5468e5b07e7ad96e188e82d8fdb8609b5f9068f9417bf6ef851f20f121b",
+        "translationPath": "content/zh/ai-coding-dictionary/design-concept.md",
+        "translationHash": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:13.490Z",
+        "assembly": {
+          "configHash": "84166a50c7321990e415eac9b1527c0259623ec0e9125a33fb64b37ca93f9da0",
+          "checkedAt": "2026-10-13T12:19:13.490Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff-artifact",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/vibe-coding",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/design-concept.md",
+          "sha256": "0fdd4c0885931a96a7e177e124611f3a0424c1485b25adeca4e3e225dbfe5330"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e208ba15a028d10bbcaba2775cd37a4bb469ff47e41f3ce125f601e0e106d371"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d60161a0d744cd5c4b4d2bc26af3b979650055e53123c290f3bf78dc4e32d7e1"
+        }
+      ],
+      "rawOutputSha256": "d6bca2d77d7c9088eef76549c8b174cab8a0f6b7cfbe58fdb9b2af1aff8401cb"
+    }
+  ],
+  "nonTargetPagesPreserved": 90
+}

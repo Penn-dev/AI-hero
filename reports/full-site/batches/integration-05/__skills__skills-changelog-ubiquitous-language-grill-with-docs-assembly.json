@@ -1,0 +1,135 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-13/configs/skills__skills-changelog-ubiquitous-language-grill-with-docs.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "manifest": {
+        "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+        "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+        "translationPath": "content/zh/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+        "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:29.051Z",
+        "assembly": {
+          "configHash": "b8bf7dbd6b601efb9b9a35c15ed90a73fcf1905820c57f7be44672440dcd2dd2",
+          "checkedAt": "2026-10-13T13:02:29.051Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/progressive-disclosure",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+          "sha256": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "c62e653930317ace905323fdcd9e41b31a8a87014da7d6cfacf0dac5a867f848"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4df1846b87953efa360faee8412906dc4e44aa04560df695d3dbd87e1278d263"
+        }
+      ],
+      "rawOutputSha256": "3665ca48d93e650f084dba2c172ade773fdd676c30ed601807bc99c4318ce474"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+      "manifest": {
+        "route": "/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-ubiquitous-language-grill-with-docs",
+        "sourceHash": "08f076322a9f1a8149add0d63884787eaa02e948a6598c2ab189c87bcb1eb70e",
+        "translationPath": "content/zh/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+        "translationHash": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:29.315Z",
+        "assembly": {
+          "configHash": "b8bf7dbd6b601efb9b9a35c15ed90a73fcf1905820c57f7be44672440dcd2dd2",
+          "checkedAt": "2026-10-13T13:02:29.315Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/progressive-disclosure",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "其他批次分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-ubiquitous-language-grill-with-docs.md",
+          "sha256": "fe38b4e42abe8f2bfce3fa531368245d41e0854a8e2486a5e175a523d8c4cf9c"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "c62e653930317ace905323fdcd9e41b31a8a87014da7d6cfacf0dac5a867f848"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "82e6905ec48716bfa8dc70a8f911b02d6a05bb2d9e5cc90cac06424b1cb0d099"
+        }
+      ],
+      "rawOutputSha256": "0594d7517a49418b53d7de82af55c8d95e36bc86fb5f5ca0a4b7ab51fe1e48ab"
+    }
+  ],
+  "nonTargetPagesPreserved": 152
+}

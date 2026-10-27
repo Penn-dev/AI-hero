@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-08/configs/google-agents-whitepaper-review.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/google-agents-whitepaper-review",
+      "manifest": {
+        "route": "/google-agents-whitepaper-review",
+        "sourceUrl": "https://www.aihero.dev/google-agents-whitepaper-review",
+        "sourceHash": "569198702f52ca381d64e9f611feee8294585f6ebe087802f1ea9e6f52b73a8f",
+        "translationPath": "content/zh/google-agents-whitepaper-review.md",
+        "translationHash": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:13.765Z",
+        "assembly": {
+          "configHash": "52b08539c73ddcbde0aa4f2b398ebe4744d60e0ca941cac896a7f40b90504886",
+          "checkedAt": "2026-10-13T12:38:13.765Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/google-agents-whitepaper-review.md",
+          "sha256": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "48f64a91808b22e1f54d6886fb5f67f6b4114a6d7ebda1685c9cc272a300fd1a"
+        }
+      ],
+      "rawOutputSha256": "8e7d30cdef2e704c9ddb941c61fb38edb10e25f165121f71dfb041fca2f2eeec"
+    },
+    {
+      "mode": "apply",
+      "route": "/google-agents-whitepaper-review",
+      "manifest": {
+        "route": "/google-agents-whitepaper-review",
+        "sourceUrl": "https://www.aihero.dev/google-agents-whitepaper-review",
+        "sourceHash": "569198702f52ca381d64e9f611feee8294585f6ebe087802f1ea9e6f52b73a8f",
+        "translationPath": "content/zh/google-agents-whitepaper-review.md",
+        "translationHash": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:14.009Z",
+        "assembly": {
+          "configHash": "52b08539c73ddcbde0aa4f2b398ebe4744d60e0ca941cac896a7f40b90504886",
+          "checkedAt": "2026-10-13T12:38:14.009Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/google-agents-whitepaper-review.md",
+          "sha256": "7ef884884d59c8dbee96d393a2080574490f9f6164151fdc1b1b8a4ac9fa66f9"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8c0d3d5d91ab68f54426296a3d094e8fd3a10fc3ede54a232f0f74a27f006213"
+        }
+      ],
+      "rawOutputSha256": "e99b57c85ca44acc891003611c9e02db3be48a9f38dbeb160501af91c2b5dd7a"
+    }
+  ],
+  "nonTargetPagesPreserved": 150
+}

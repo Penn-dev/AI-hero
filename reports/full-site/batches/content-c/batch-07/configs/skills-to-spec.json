@@ -1,0 +1,22 @@
+{
+  "route": "/skills-to-spec",
+  "source": {
+    "path": "content/source/skills-to-spec.md",
+    "sha256": "1fb8c8987fc9548957d28253c6ac865de82519bf55b0ab757c3feedeb6274a53"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-07/drafts/skills-to-spec.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-04/configs/skills__skills-changelog-handoff-prototype-review-and-writing.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "manifest": {
+        "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+        "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+        "translationPath": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+        "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:27.966Z",
+        "assembly": {
+          "configHash": "550de0f557f2e1659bb7d614f4eaf48670e948acf753e3ea9a7cc12d0dc1b1f8",
+          "checkedAt": "2026-10-13T12:37:27.966Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "C03 已交稿，工程先接页后复核此引用"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+          "sha256": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a6aa57e132b6e9c3606f23fbdfd5ce2ffa499d915f8b53ccf52be8a0080cbff5"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "4c1f47ea9dae5f8b2f455f5cea9717fd236fc20326a5b276353c230ea9fdbdaf"
+        }
+      ],
+      "rawOutputSha256": "54a892430670c3fe5dc055ada116ca337d4775c8b63a1dbe8d2c366f27c7ea9b"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+      "manifest": {
+        "route": "/skills/skills-changelog-handoff-prototype-review-and-writing",
+        "sourceUrl": "https://www.aihero.dev/skills/skills-changelog-handoff-prototype-review-and-writing",
+        "sourceHash": "6a9a351c202fea05dc4e9615a207878fa760b6a87fd74c94b4bbab32a0f6ac2b",
+        "translationPath": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+        "translationHash": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:28.177Z",
+        "assembly": {
+          "configHash": "550de0f557f2e1659bb7d614f4eaf48670e948acf753e3ea9a7cc12d0dc1b1f8",
+          "checkedAt": "2026-10-13T12:37:28.177Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "C03 已交稿，工程先接页后复核此引用"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/token",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills/skills-changelog-handoff-prototype-review-and-writing.md",
+          "sha256": "67ec57353bf8a11aec4255f7290b750c45e0f2a30695e7a20b19f14ce4b02bb3"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "a6aa57e132b6e9c3606f23fbdfd5ce2ffa499d915f8b53ccf52be8a0080cbff5"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1d1bab4a0a3f6a90d045da822cd273d9a7b2ce38cc4920bd22bfc90a6a064380"
+        }
+      ],
+      "rawOutputSha256": "4addaf08ccf6202b561d2ddd2e1a1f2536208f52789eb80f94dbe7ca19197d14"
+    }
+  ],
+  "nonTargetPagesPreserved": 95
+}

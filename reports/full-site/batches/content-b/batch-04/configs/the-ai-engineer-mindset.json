@@ -1,0 +1,9 @@
+{
+  "route": "/the-ai-engineer-mindset",
+  "source": {
+    "path": "content/source/the-ai-engineer-mindset.md",
+    "sha256": "a38cc64310d21a913dac5ba1a74ce926de8e691ab59888a0638452c1d48ce8ac"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-04/drafts/the-ai-engineer-mindset.md",
+  "translationPath": "content/zh/the-ai-engineer-mindset.md"
+}

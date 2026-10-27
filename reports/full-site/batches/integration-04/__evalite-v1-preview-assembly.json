@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-08/configs/evalite-v1-preview.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/evalite-v1-preview",
+      "manifest": {
+        "route": "/evalite-v1-preview",
+        "sourceUrl": "https://www.aihero.dev/evalite-v1-preview",
+        "sourceHash": "04424e7ff64a038df7cd73e3c57dee01fbaf4619c848aaaf6afd8f7362fcaf68",
+        "translationPath": "content/zh/evalite-v1-preview.md",
+        "translationHash": "eceab41967b6c9c4e4b84a4d4bca70610b6c67bfa8af4bd395cb801f3e896cfc",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:08.460Z",
+        "assembly": {
+          "configHash": "2de71a36d785c8ae3870ef7c872adc7f8345b2d4e3f9cab2c8bbb2db0ca8c1b8",
+          "checkedAt": "2026-10-13T12:38:08.460Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/evalite-v1-preview.md",
+          "sha256": "eceab41967b6c9c4e4b84a4d4bca70610b6c67bfa8af4bd395cb801f3e896cfc"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "eabd24e4c709b1e533afde0a1c9151fdefc0c65e4bf06ddf728bdee762340c01"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "51159458f6b1fe9c5bd29e7dc8af2706d8902cc993e760f071c07933cfee09fd"
+        }
+      ],
+      "rawOutputSha256": "320fc7f27ee95d70a1bef1e902de4fb5ed59c8c8cdf97383921eba7215463021"
+    },
+    {
+      "mode": "apply",
+      "route": "/evalite-v1-preview",
+      "manifest": {
+        "route": "/evalite-v1-preview",
+        "sourceUrl": "https://www.aihero.dev/evalite-v1-preview",
+        "sourceHash": "04424e7ff64a038df7cd73e3c57dee01fbaf4619c848aaaf6afd8f7362fcaf68",
+        "translationPath": "content/zh/evalite-v1-preview.md",
+        "translationHash": "eceab41967b6c9c4e4b84a4d4bca70610b6c67bfa8af4bd395cb801f3e896cfc",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:08.691Z",
+        "assembly": {
+          "configHash": "2de71a36d785c8ae3870ef7c872adc7f8345b2d4e3f9cab2c8bbb2db0ca8c1b8",
+          "checkedAt": "2026-10-13T12:38:08.691Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/evalite-v1-preview.md",
+          "sha256": "eceab41967b6c9c4e4b84a4d4bca70610b6c67bfa8af4bd395cb801f3e896cfc"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "eabd24e4c709b1e533afde0a1c9151fdefc0c65e4bf06ddf728bdee762340c01"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "b6d93405004f00a9612e354c1a9f1b75ef47813807f1e5c7226c7fc9d6d58092"
+        }
+      ],
+      "rawOutputSha256": "cf999309f8358bd537dc47be8ed017bb953d1d7e82a207f86d69ed349beb7029"
+    }
+  ],
+  "nonTargetPagesPreserved": 147
+}

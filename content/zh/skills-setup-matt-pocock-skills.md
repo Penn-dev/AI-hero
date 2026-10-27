@@ -1,0 +1,124 @@
+---
+title: "/setup-matt-pocock-skills Skill"
+slug: "skills-setup-matt-pocock-skills"
+type: "post"
+description: "为一个仓库完成设置，让其他 Skills 知道它怎样运作。"
+updatedAt: "2026-08-24T09:14:47.195Z"
+---
+
+## 它能做什么
+
+`setup-matt-pocock-skills` 回答一个仓库的三个问题：issue 存哪里、分流标签叫什么、领域文档放哪里。答案记录为 `docs/agents/` 下的 Markdown 文件。
+
+只有这些文件因仓库而异，Skills 本身在各处相同。运行时读取 `docs/agents/issue-tracker.md`，按其中说明执行。因此整套工具不绑定 GitHub，换任务系统也不应修改 Skill 文件。调用时说“link the skills to a custom issue tracker”，只要系统能通过程序连接，就可以使用，无需改 Skills。
+
+中文 Prompt（译注）：
+
+```text
+把这些 Skills 连接到自定义任务跟踪系统。
+```
+
+它由提示词驱动，不是确定性脚本。会读取 `git remote`、`CLAUDE.md` 和 `GLOSSARY.md`，提出发现的配置，在你确认前不写任何东西。
+
+## 什么时候该用它
+
+输入 `/setup-matt-pocock-skills`；[智能体](https://www.aihero.dev/ai-coding-dictionary/agent)不会自行选用。元数据有意禁止模型自动调用，所以其他 Skill 也不能替你启动。
+
+每个仓库做一次，在首次使用其他工程 Skills 之前。如果 [triage](https://aihero.dev/skills-triage)、[to-spec](https://aihero.dev/skills-to-spec)、[to-tickets](https://aihero.dev/skills-to-tickets) 或 [wayfinder](https://aihero.dev/skills-wayfinder) 开始猜 issue 位置，或使用系统没有的标签，说明仓库尚未设置。项目做到一半也能运行，它会读取已有内容，不会丢掉之前的工作。
+
+## 使用前提
+
+它写入你运行它的仓库：
+
+| 写什么 | 写到哪里 |
+| --- | --- |
+| `issue-tracker.md` | `docs/agents/` |
+| `domain.md` | `docs/agents/` |
+| `triage-labels.md` | `docs/agents/`，仅安装 `triage` Skill 时 |
+| 一个 `## Agent skills` 区块 | 已存在的 `CLAUDE.md` 或 `AGENTS.md` |
+
+全部作为 Markdown 提交。没有用户级或全局模式；配置在仓库中，每个仓库各有一份。
+
+译注：这些是让智能体理解项目约定的文件，不等于自动开通外部账号或创建访问凭据。
+
+## 三个决定
+
+每一部分先给推荐答案，探索已经回答的问题就跳过。多数运行只需两次确认。
+
+| 决定 | 推荐什么 | 什么时候问 |
+| --- | --- | --- |
+| **任务跟踪系统** | 与 `git remote` 对应的系统 | 总会问，这是一个真正需要选择的事项 |
+| **分流标签** | 保留五个标准名称：`needs-triage`、`needs-info`、`ready-for-agent`、`ready-for-human`、`wontfix` | 仅已安装 `triage` Skill 时 |
+| **领域文档** | 单领域，在根目录放一份 `GLOSSARY.md` 和 `docs/adr/` | 仅发现 monorepo 迹象时询问，届时提供多领域 `GLOSSARY-MAP.md` 方案 |
+
+任务系统选项：
+
+| 选项 | issue 存哪里 | 需要什么 |
+| --- | --- | --- |
+| **GitHub** | 仓库的 GitHub Issues | `gh` CLI |
+| **GitLab** | 仓库的 GitLab Issues | `glab` CLI |
+| **本地 Markdown** | 仓库的 `.scratch/<feature>/` 文件 | 什么都不需要，连远程仓库也不用 |
+| **其他** | 你指定的位置 | 你用一段话说明工作方式 |
+
+前三种在 Skill 中附有模板，开箱即用。本地 Markdown 是完整选项，不是后备方案，可以支持没有远程仓库的个人项目。但有一条注意事项：用了 GitHub，就不要同时用本地 Markdown。它们是替代选项，选一个。
+
+“其他”同样是完整选项，Jira、Linear、Azure DevOps、Beads 都通过它接入。你描述流程，Skill 把文字记录在 `docs/agents/issue-tracker.md`，下游按文字执行。用户已有实践：通过 [MCP](https://www.aihero.dev/ai-coding-dictionary/mcp) 接 Jira、形似 `gh` 的 Gitea CLI，以及手工做的本地看板。
+
+译注：monorepo 是把多个相关项目或软件包放在同一仓库；多领域映射用于指向各自词汇表。CLI 是命令行工具。
+
+## 常见问题
+
+**必须用 GitHub 吗？**
+
+不。GitHub、GitLab 和 `.scratch/` 下的本地 Markdown 都有现成模板，其他系统走“其他”路径。人们反复问“hard locked to github”“can I use GitLab / Jira”“what about Azure DevOps”。
+
+中文理解：是不是只能用 GitHub？能用 GitLab 或 Jira 吗？Azure DevOps 呢？
+
+答案始终相同：设置决定任务系统，Skill 本身不限定。
+
+**更新 Skills 后，需要重新跑吗？**
+
+v1.1 之后的直接答复是需要。Skill 自己的结束提示却更温和，只说切换系统或重新开始时再运行。两种说法都有道理。初始模板会随版本变化，旧版 `docs/agents/issue-tracker.md` 可能不再匹配现在读取它的 Skills。如果下游行为与文档描述不一致，就重跑设置，成本很低。
+
+**它写进 `CLAUDE.md`，但我用的是 Codex。**
+
+这是已知且仍开放的缺口。文件选择规则是：如果 `CLAUDE.md` 存在就编辑，否则编辑 `AGENTS.md`。它检查文件是否存在，不检查当前[执行框架](https://www.aihero.dev/ai-coding-dictionary/harness)。仓库留着以前 Claude Code 的 `CLAUDE.md` 时，Skill 就把 `## Agent skills` 写进 Codex 根本不读的文件。
+
+用户有两个办法：手动把区块移到 `AGENTS.md`；或以 `AGENTS.md` 为权威版本，让 `CLAUDE.md` 只保留一行指向它。如果两个都不存在，Skill 会问创建哪一个，不自行选。这也让原本期待它直接决定的人困惑。
+
+**它没创建分流标签。**
+
+它本来就不创建。`docs/agents/triage-labels.md` 是一张*映射表*，告诉 `/triage` 任务系统中哪些字符串对应五种标准角色。它不会运行 `gh label create`。新 GitHub 仓库还没有这些标签，用户不止一次把这当 bug 报告。有两个后果：
+
+- 系统本来就用标准名称时，映射只是同名对应，无需配置。这是预期常见情况，不是漏了步骤。
+- 它也不创建 [wayfinder](https://aihero.dev/skills-wayfinder) 的 `wayfinder:map` 和 `wayfinder:<type>` 标签。`gh issue create --label <missing>` 会失败，不会顺便创建标签。首次在 GitHub 仓库运行 wayfinder 前，请手动创建。
+
+**能在这里配置其他 Skill 的行为，例如[追问](https://www.aihero.dev/ai-coding-dictionary/grilling)频率、问题格式、语气吗？**
+
+不能。它只配置三项：任务系统、标签、文档布局。用户曾要求在这里保存个人偏好，得到的答复是 Skills 保留自己的明确主张，不提供按用户配置。偏好写成普通指令，放进 `CLAUDE.md`，所有 Skills 原本都会读取。
+
+**能把配置放在 `~/.claude`，不在每个仓库都提交吗？**
+
+目前不能。有一位在很多仓库中使用 Skills 的用户提出开放请求，但还没有用户级模式。每个仓库都保存自己的 `docs/agents/`。
+
+**用一个 Skill 配置其他 Skills，不奇怪吗？**
+
+一个长期存在的意见认为奇怪：“having a skill to set up the other skill does not feel right to me: that means the LLM is configuring its own skills.”
+
+中文理解：用 Skill 设置其他 Skill，让我感觉不对，因为这意味着 LLM 在配置自己的 Skills。
+
+取舍确实存在。没有设置步骤，每个涉及 issue 的 Skill 都得复制一套任务系统说明。输出是可读、可编辑的 Markdown，这限制了风险。你可以逐个检查生成文件，手动修改。日常调整就这样做，不必再运行一遍。
+
+## 出现这些迹象，就说明它在发挥作用
+
+- `docs/agents/issue-tracker.md` 和 `docs/agents/domain.md` 存在；还应有 `triage-labels.md`，前提是安装了 `triage`。
+- 执行框架实际读取的指令文件出现 `## Agent skills`，用各一行摘要指向这些文件。
+- 推荐的任务系统与远程仓库一致，标签字符串与真实已有标签一致。
+- 之后 `/to-tickets` 发布时不再问 issue 放哪，`/triage` 使用真实标签，不编造。
+- Skill 文件本身没有修改。如果设置改了 `SKILL.md`，就出问题了。
+
+## 它处在什么位置
+
+`setup-matt-pocock-skills` 是工程流程**每仓库一次的设置**，属于其他工作默认满足的前提，而非流程链的一步。邻居就是读取者：[triage](https://aihero.dev/skills-triage) 使用标签词汇；[to-spec](https://aihero.dev/skills-to-spec) 和 [to-tickets](https://aihero.dev/skills-to-tickets) 发布到这里指定的系统；[wayfinder](https://aihero.dev/skills-wayfinder) 读取同一任务系统文件的“Wayfinding operations”部分，学习如何存路线图和子[任务单](https://www.aihero.dev/ai-coding-dictionary/ticket)。[domain-modeling](https://aihero.dev/skills-domain-modeling) 随后填充这里记录的领域文档布局，只在术语或决定确定时创建 `GLOSSARY.md` 和 ADR，所以设置完还没有领域文档很正常。下一步选什么，问 [ask-matt](https://aihero.dev/skills-ask-matt)。
+
+译注：相关中文词条：[智能体执行框架](/ai-coding-dictionary/harness)、[MCP](/ai-coding-dictionary/mcp)、[任务单](/ai-coding-dictionary/ticket)。中文页未接入时会回到原站英文页。本文未实际配置仓库或执行外部系统命令。

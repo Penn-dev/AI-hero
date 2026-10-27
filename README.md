@@ -1,57 +1,36 @@
 # AI Hero 中文学习版
 
-这是 AI Hero 的授权本地中文学习镜像。它保留原站 URL 层级，以官方 Sitemap 和 Markdown twin 为内容来源，只显示中文，并保留视频及外部资源链接。
+以固定公开来源制作的本地中文阅读版本，保留原作者归属、原站 URL 层级、代码、英文示例和资源入口。当前固定 195 页已完成中文制作与逐页检查；不作未经核实的原作者授权声明。
 
-## 本地运行
+## 使用与交付状态
+
+先读[准确候选和证据入口](reports/handoffs/dot-delivery-candidate.md)，再按 [Windows 使用说明](docs/local-preview.md)启动和停止。目标Windows现场验收及独立复核已通过，详见[现场归档与固定GD交接盘](reports/full-site/delivery/onsite-acceptance.md)。本地交付已满足完成条件，PR供审，不自动合并或部署。
+
+依赖已准备后，在项目根目录：
 
 ```powershell
-npm install
-npm run dev
+node scripts/preview-start.mjs
+pwsh -NoLogo -NoProfile -ExecutionPolicy Bypass -File scripts/preview-stop.ps1
 ```
 
-## 同步公开源文
+第一条启动并打开 `http://127.0.0.1:4321/`；第二条在阅读结束后停止本项目。需要 Windows、Node.js ≥22.13、PowerShell 7。首次安装、取得候选、端口占用和遗留状态处理都见使用说明。
 
-完整发现与同步：
+## 内容、检查与维护
 
-```powershell
-npm run sync:source
-```
+- [固定来源范围](reports/full-site/source-scope-2026-10-13.md)与[未取得材料](reports/full-site/delivery/source-gaps.md)
+- [195 页五项验收](reports/full-site/acceptance-status.json)
+- [制作规范](docs/localization.md)与[安全接页 preview/apply](docs/full-site-assembly.md)
+- `content/source/manifest.json`：固定来源及哈希
+- `content/zh/manifest.json`：当前译稿及来源绑定
+- `content/zh/index.json`：实际页面索引
 
-只同步一个页面用于检查：
-
-```powershell
-npm run sync:source -- --url https://www.aihero.dev/what-is-an-llm
-```
-
-## 检查待翻译内容
-
-该命令不调用模型，也不产生 API 费用：
+常用离线检查：
 
 ```powershell
-npm run sync:check
-```
-
-校验 manifest、文件存在性、哈希和实际可渲染覆盖：
-
-```powershell
+npm run page:test
 npm run sync:validate
+npm run learning:validate
+npm run build
 ```
 
-## 执行翻译
-
-密钥只通过环境变量提供，不要写入仓库：
-
-```powershell
-$env:OPENAI_API_KEY = '<由用户在本机设置>'
-$env:AIHERO_TRANSLATION_MODEL = '<用户明确选择的模型>'
-npm run sync:translate
-```
-
-翻译器逐页处理，默认不并发。只有通过代码块与 URL 保真检查的页面才会进入 `content/zh/index.json`，并成为站点实际可访问内容。更新时，源文哈希未变化的页面不会重复翻译。
-
-## 覆盖率边界
-
-- `content/source/manifest.json`：Sitemap 候选、公开 Markdown 下载状态和源文哈希。
-- `content/zh/manifest.json`：翻译状态、模型和译文哈希。
-- `content/zh/index.json`：当前站点实际渲染的中文页面。
-- 登录态内容不会读取或导出浏览器 Cookie。它需要通过已登录浏览器单独盘点，或在站方提供受支持的内容 API 凭据后纳入自动同步。
+本轮不重新全量同步，也不使用 API 翻译器覆盖人工核对的195页。历史同步/翻译脚本保留供追溯，不是当前交付启动流程。后续只按明确变更的页面核对源文差异、重新接页和检查；教程运行、登录与报名等缺口不宣称已完成。

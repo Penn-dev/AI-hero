@@ -1,0 +1,54 @@
+{
+  "route": "/ai-coding-dictionary/mcp",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/mcp.md",
+    "sha256": "dccbfda4cf19b526b54ea7b562903d89a1b7319f1cfc624c88465b82962e305c"
+  },
+  "chineseFile": "reports/full-site/content-a/A12/drafts/mcp.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "state": "available-chinese"
+    }
+  ]
+}

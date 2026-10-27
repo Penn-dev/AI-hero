@@ -1,0 +1,42 @@
+{
+  "route": "/ai-coding-dictionary/attention-budget",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/attention-budget.md",
+    "sha256": "2ac674af54019c072f89a2f4154c27eab502e0f8e3219d9955d99cdd0fccccc5"
+  },
+  "chineseFile": "reports/full-site/content-a/A09/drafts/attention-budget.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

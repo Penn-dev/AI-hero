@@ -1,0 +1,15 @@
+{
+  "route": "/tracer-bullets",
+  "source": {
+    "path": "content/source/tracer-bullets.md",
+    "sha256": "9f19252ea92f8ce0232186eb07224670c9410b9c7fbbfc0bc7bcb12d4267ee57"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-12/drafts/tracer-bullets.md",
+  "translationPath": "content/zh/tracer-bullets.md",
+  "linkTargets": [
+    {
+      "route": "/skills-prototype",
+      "state": "available-chinese"
+    }
+  ]
+}

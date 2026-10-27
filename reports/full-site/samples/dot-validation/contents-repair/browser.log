@@ -1,0 +1,74 @@
+{
+  "status": "failed",
+  "commit": "cb30755c92ba6d332fce983936dda53703ab9beb",
+  "pages": [
+    {
+      "id": "system-prompt",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "passed"
+    },
+    {
+      "id": "system-prompt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "passed"
+    },
+    {
+      "id": "agents-md",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "failed",
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#什么是-agents-md\"\nReceived: \"#为什么超大的-agents-md-文件是个问题\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" aria-current=\"location\" href=\"#为什么超大的-agents-md-文件是个问题\">为什么超大的 AGENTS.md 文件是个问题</a>\n       - unexpected value \"#为什么超大的-agents-md-文件是个问题\"\n",
+        "stack": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#什么是-agents-md\"\nReceived: \"#为什么超大的-agents-md-文件是个问题\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" aria-current=\"location\" href=\"#为什么超大的-agents-md-文件是个问题\">为什么超大的 AGENTS.md 文件是个问题</a>\n       - unexpected value \"#为什么超大的-agents-md-文件是个问题\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveAttribute (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at currentOutline (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:77:85)\n    at anchorAndRefresh (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:93:9)\n    at async checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:163:7)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:208:5"
+      }
+    },
+    {
+      "id": "agents-md",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#什么是-agents-md\"\nReceived: \"#为什么超大的-agents-md-文件是个问题\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" aria-current=\"location\" href=\"#为什么超大的-agents-md-文件是个问题\">为什么超大的 AGENTS.md 文件是个问题</a>\n       - unexpected value \"#为什么超大的-agents-md-文件是个问题\"\n",
+        "stack": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#什么是-agents-md\"\nReceived: \"#为什么超大的-agents-md-文件是个问题\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" aria-current=\"location\" href=\"#为什么超大的-agents-md-文件是个问题\">为什么超大的 AGENTS.md 文件是个问题</a>\n       - unexpected value \"#为什么超大的-agents-md-文件是个问题\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveAttribute (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at currentOutline (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:77:85)\n    at async anchorAndRefresh (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:93:3)\n    at async checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:163:7)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:209:5"
+      }
+    },
+    {
+      "id": "output",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": "failed",
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#steps-to-complete\"\nReceived: \"#learning-start\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" href=\"#learning-start\" aria-current=\"location\">学习起点</a>\n       - unexpected value \"#learning-start\"\n",
+        "stack": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#steps-to-complete\"\nReceived: \"#learning-start\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" href=\"#learning-start\" aria-current=\"location\">学习起点</a>\n       - unexpected value \"#learning-start\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveAttribute (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at currentOutline (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:77:85)\n    at anchorAndRefresh (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:93:9)\n    at async checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:191:7)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:208:5"
+      }
+    },
+    {
+      "id": "output",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "failed",
+      "error": {
+        "name": "Error",
+        "message": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#steps-to-complete\"\nReceived: \"#learning-start\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" href=\"#learning-start\" aria-current=\"location\">学习起点</a>\n       - unexpected value \"#learning-start\"\n",
+        "stack": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.article-outline:visible a[aria-current=\"location\"]')\nExpected: \"#steps-to-complete\"\nReceived: \"#learning-start\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.article-outline:visible a[aria-current=\"location\"]') with timeout 5000ms\n  - waiting for locator('.article-outline:visible a[aria-current=\"location\"]')\n    14 × locator resolved to <a data-level=\"2\" class=\"is-active\" href=\"#learning-start\" aria-current=\"location\">学习起点</a>\n       - unexpected value \"#learning-start\"\n\n    at captureRawStack (/home/runner/work/_temp/dot-browser/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveAttribute (/home/runner/work/_temp/dot-browser/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at currentOutline (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:77:85)\n    at async anchorAndRefresh (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:93:3)\n    at async checkSample (/home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:191:7)\n    at async file:///home/runner/work/AI-hero/AI-hero/scripts/dot-sample-acceptance.mjs:209:5"
+      }
+    }
+  ]
+}

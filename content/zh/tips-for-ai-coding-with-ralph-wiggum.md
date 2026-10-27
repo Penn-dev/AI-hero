@@ -14,23 +14,25 @@ updatedAt: "2026-01-08T12:25:29.414Z"
 
 但现在有一种名为 [Ralph Wiggum](https://ghuntley.com/ralph/) 的新方法。Ralph 会循环运行你的 AI 编码 CLI，让它自主处理一组任务。你负责定义要完成什么；Ralph 负责找出实现方法，并持续推进到全部完成。换句话说，这是一种长时间运行、自主执行、无人看守的离开键盘（AFK）编码方式。
 
-这不是一篇快速上手指南。如果你想尽快跑起来，请阅读 [Ralph 入门](https://www.aihero.dev/getting-started-with-ralph)。
+> 译注：本文以旧合格译稿为基础保留正文，完整补齐原英文 Prompt 的中文可复制版本、推广文字和资源入口。下面的命令会涉及安装、文件修改、代码提交或长时间模型调用；本次均未执行。费用、模型能力、覆盖率与沙盒行为保留作者写作时点，不是当前报价、性能测量或安全保证。
+
+这不是一篇快速上手指南。如果你想尽快跑起来，请阅读 [Ralph 入门（中文）](/getting-started-with-ralph)（[英文原文](https://www.aihero.dev/getting-started-with-ralph)）。
 
 ### 11 条建议
 
 | #   | 建议                                                                         | 摘要                                  |
 | --- | --------------------------------------------------------------------------- | ------------------------------------- |
-| 1   | [Ralph 本质上是一个循环](#1-ralph-本质上是一个循环)                         | Ralph 是什么，以及它为何有效          |
-| 2   | [先用 HITL，再转 AFK](#2-先用-hitl-再转-afk)                                | 运行 Ralph 的两种模式                 |
-| 3   | [界定范围](#3-界定范围)                                                     | 如何说明“完成”应当是什么样子          |
-| 4   | [追踪 Ralph 的进度](#4-追踪-ralph-的进度)                                  | 在各轮迭代之间使用进度文件            |
-| 5   | [使用反馈循环](#5-使用反馈循环)                                             | 用类型、测试和 lint 作为护栏          |
-| 6   | [小步推进](#6-小步推进)                                                     | 为什么较小的任务会产出更好的代码      |
-| 7   | [优先处理高风险任务](#7-优先处理高风险任务)                                 | 先解决难题                            |
-| 8   | [明确软件质量标准](#8-明确软件质量标准)                                     | 不要让 Ralph 为赶进度而走捷径         |
-| 9   | [使用 Docker 沙箱](#9-使用-docker-沙箱)                                     | 隔离 AFK Ralph，提升安全性            |
-| 10  | [为能力付费](#10-为能力付费)                                                | 成本考量与取舍                        |
-| 11  | [按自己的方式改造](#11-按自己的方式改造)                                    | 其他循环类型与定制方法                |
+| 1   | [Ralph 本质上是一个循环](#1-ralph-本质上是一个循环) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#1-ralph-is-a-loop) | Ralph 是什么，以及它为何有效          |
+| 2   | [先用 HITL，再转 AFK](#2-先用-hitl-再转-afk) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#2-start-with-hitl-then-go-afk) | 运行 Ralph 的两种模式                 |
+| 3   | [界定范围](#3-界定范围) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#3-define-the-scope) | 如何说明“完成”应当是什么样子          |
+| 4   | [追踪 Ralph 的进度](#4-追踪-ralph-的进度) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#4-track-ralphs-progress) | 在各轮迭代之间使用进度文件            |
+| 5   | [使用反馈循环](#5-使用反馈循环) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#5-use-feedback-loops) | 用类型、测试和 lint 作为护栏          |
+| 6   | [小步推进](#6-小步推进) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#6-take-small-steps) | 为什么较小的任务会产出更好的代码      |
+| 7   | [优先处理高风险任务](#7-优先处理高风险任务) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#7-prioritize-risky-tasks) | 先解决难题                            |
+| 8   | [明确软件质量标准](#8-明确软件质量标准) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#8-explicitly-define-software-quality) | 不要让 Ralph 为赶进度而走捷径         |
+| 9   | [使用 Docker 沙箱](#9-使用-docker-沙箱) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#9-use-docker-sandboxes) | 隔离 AFK Ralph，提升安全性            |
+| 10  | [为能力付费](#10-为能力付费) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#10-pay-to-play) | 成本考量与取舍                        |
+| 11  | [按自己的方式改造](#11-按自己的方式改造) · [原文章节](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum#11-make-it-your-own) | 其他循环类型与定制方法                |
 
 ## 1. Ralph 本质上是一个循环
 
@@ -40,7 +42,25 @@ updatedAt: "2026-01-08T12:25:29.414Z"
 
 **规划**，就是让 AI 在写代码前先制定计划。在 [Claude Code](https://code.claude.com/docs/en/overview) 中，你可以进入[计划模式](https://code.claude.com/docs/en/common-workflows#use-plan-mode-for-safe-code-analysis)，让 AI 探索你的代码库并在动手前创建计划。这样能提高质量，但仍受限于单个上下文窗口能容纳的内容。
 
-**多阶段计划**，会把大型功能拆成多个阶段，每个阶段放在独立的上下文窗口中处理。你要为每个阶段写不同的提示词：先“实现数据库结构”，再“添加 API 端点”，然后“构建 UI”。这种方式更适合大型任务，但需要人持续参与，为每个阶段编写提示词。
+**多阶段计划**，会把大型功能拆成多个阶段，每个阶段放在独立的上下文窗口中处理。你要为每个阶段写不同的提示词：先 “Implement the database schema”（实现数据库结构），再 “Add the API endpoints”（添加 API 端点），然后 “Build the UI”（构建 UI）。这种方式更适合大型任务，但需要人持续参与，为每个阶段编写提示词。
+
+中文版 Prompt（学习辅助，第一个阶段）：
+
+```text
+实现数据库结构。
+```
+
+中文版 Prompt（学习辅助，第二个阶段）：
+
+```text
+添加 API 端点。
+```
+
+中文版 Prompt（学习辅助，第三个阶段）：
+
+```text
+构建 UI。
+```
 
 **Ralph** 把事情简化了。你不必为每个阶段写新提示词，而是把同一条提示词放进循环里反复运行：
 
@@ -81,7 +101,18 @@ done
 
 ```
 
-中文理解版（学习辅助）：这个脚本会重复启动 Claude Code。每一轮都读取计划文件和进度文件，由 AI 自己挑选优先级最高的一项工作、检查测试等反馈、记录进度并提交一次代码。若它确认全部工作已经完成，就输出 `COMPLETE` 并退出循环。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+@some-plan-file.md @progress.txt
+1. 决定接下来处理哪项任务。
+应该选择你判断优先级最高的任务，不一定是列表第一项。
+2. 检查类型、测试等反馈循环。
+3. 把进度追加到 progress.txt 文件。
+4. 为该功能创建一次 Git 提交。
+只处理一个功能。
+如果在实现过程中发现所有工作都已完成，输出 <promise>COMPLETE</promise>。
+```
 
 每一轮迭代会：
 
@@ -153,19 +184,38 @@ HITL Ralph 很像结对编程：你和 AI 一起工作，在代码生成过程�
 }
 ```
 
-中文理解版（学习辅助）：这是一条功能需求。它要求“新建聊天”按钮创建一个新的对话，并列出三步验收动作。`passes: false` 表示尚未通过；完成并验证后，Ralph 会把它改为 `true`。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+{
+  "category": "functional",
+  "description": "新建聊天按钮会创建一场新对话",
+  "steps": [
+    "点击“New Chat”按钮",
+    "确认已创建一场新对话",
+    "检查聊天区域是否显示欢迎状态"
+  ],
+  "passes": false
+}
+```
 
 Ralph 完成后会把 `passes` 设为 `true`。这样一来，PRD 既用来定义范围，也用来追踪进度——它是一份会持续更新的待办清单，而不是按瀑布式流程写完后便不再变化的文档。
 
 ### 为什么范围很重要
 
-你**不一定**要准备结构化待办清单。你可以给 Ralph 一个模糊任务，例如“改进这个代码库”，让它自行追踪进度。
+你**不一定**要准备结构化待办清单。你可以给 Ralph 一个模糊任务，例如 “improve this codebase”（改进这个代码库），让它自行追踪进度。
+
+中文版 Prompt（学习辅助）：
+
+```text
+改进这个代码库。
+```
 
 但任务越模糊，风险越大。Ralph 可能永远循环下去，不断找到改进点；也可能抄近路，在你认为工作还没结束时就宣布胜利：
 
 我曾让 Ralph 提升 [AI Hero CLI](https://github.com/mattpocock/ai-hero-cli) 的测试覆盖率。仓库中有一些标为内部使用、但实际上仍面向用户的命令（我自己会使用它们）。我希望所有命令都有测试。
 
-三轮之后，Ralph 报告：“所有面向用户的命令均已完成。”但它完全跳过了那些内部命令。它认定这些命令不面向用户，并把它们标记为不计入测试覆盖率。
+三轮之后，Ralph 报告：“Done with all user-facing commands.”（所有面向用户的命令均已完成。）但它完全跳过了那些内部命令。它认定这些命令不面向用户，并把它们标记为不计入测试覆盖率。
 
 解决办法是什么？精确说明你希望覆盖什么：
 
@@ -196,7 +246,13 @@ Each item should have: category, description, steps to verify, and passes: false
 Format as JSON. Be specific about acceptance criteria.
 ```
 
-中文理解版（学习辅助）：把我的功能需求转换成结构化 PRD 条目。每个条目应包含：类别、描述、验证步骤，以及 `passes: false`。请用 JSON 格式，并明确写出验收标准。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+把我的功能需求转换成结构化 PRD 条目。
+每个条目都应包含：category、description、用于验证的 steps，以及 passes: false。
+使用 JSON 格式，明确写出验收标准。
+```
 
 ## 4. 追踪 Ralph 的进度
 
@@ -244,7 +300,24 @@ After completing each task, append to progress.txt:
 Keep entries concise. Sacrifice grammar for the sake of concision. This file helps future iterations skip exploration.
 ```
 
-中文理解版（学习辅助）：每完成一项任务，就往 `progress.txt` 追加：完成的任务及对应 PRD 条目、关键决定和理由、改动过的文件，以及下一轮需要知道的阻塞或备注。内容应尽量简短；为了简洁，可以牺牲语法完整性。这个文件能帮助后续迭代跳过重复探索。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+每完成一项任务，就向 progress.txt 追加：
+- 已完成的任务和对应 PRD 条目
+- 作出的关键决定及理由
+- 修改的文件
+- 给下一轮迭代的阻塞信息或说明
+内容保持简洁。为了简洁，可以牺牲语法完整性。这个文件帮助后续迭代跳过探索。
+```
+
+**11 条建议，一整套系统**
+
+这些技能把 Ralph 循环组织起来，帮助它真正交付。
+
+[查看技能组合：前往英文原文入口](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum)
+
+> 译注：上面保留原 SkillsCta 的标题、副标题和按钮文案；固定来源未给独立按钮目标，因此回到原页面。
 
 ## 5. 使用反馈循环
 
@@ -282,7 +355,15 @@ Before committing, run ALL feedback loops:
 Do NOT commit if any feedback loop fails. Fix issues first.
 ```
 
-中文理解版（学习辅助）：提交前必须运行全部反馈循环：TypeScript 类型检查、测试和 lint，而且每项都必须通过。只要有一项失败，就不要提交；先修复问题。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+提交之前，运行所有反馈循环：
+1. TypeScript：npm run typecheck，必须无错误通过
+2. 测试：npm run test，必须通过
+3. Lint：npm run lint，必须通过
+任何反馈循环失败，都不要提交。先修复问题。
+```
 
 ## 6. 小步推进
 
@@ -308,7 +389,13 @@ Ralph 也一样，但还有一个额外限制：上下文窗口有限，而且�
 
 对于 HITL Ralph，可以把条目稍微放大一点，以便更快看到进展。但即使如此，也应倾向于小任务。
 
-一个重构条目可以简单到：“修改一个函数的参数，并确认测试和类型检查通过。”
+一个重构条目可以简单到：“Change one function's parameters. Verify tests and types pass.”
+
+中文版 Prompt（学习辅助）：
+
+```text
+修改一个函数的参数。确认测试和类型检查通过。
+```
 
 在提示词中引导 Ralph 控制步幅。我的倾向是：小步推进。代码质量优先于速度——尤其在 AFK 场景中，速度本来也没那么重要。
 
@@ -325,7 +412,16 @@ Keep changes small and focused:
 Quality over speed. Small steps compound into big progress.
 ```
 
-中文理解版（学习辅助）：让改动小而聚焦：每次提交只做一个逻辑改动；任务太大就拆成子任务；多个小提交优于一个大提交；每次改动后就运行反馈循环，不要等到最后。质量优先于速度，小步骤会累积成大进展。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+让改动小而聚焦：
+- 每次提交只做一个逻辑改动
+- 任务太大时，拆成子任务
+- 宁可做多个小提交，也不要一个大提交
+- 每次改动后就运行反馈循环，不要等到最后
+质量优先于速度。小步骤会累积成大进展。
+```
 
 ## 7. 优先处理高风险任务
 
@@ -367,7 +463,17 @@ When choosing the next task, prioritize in this order:
 Fail fast on risky work. Save easy wins for later.
 ```
 
-中文理解版（学习辅助）：选择下一项任务时，请依次优先处理：架构决策和核心抽象、模块间集成点、未知问题和探索性验证、常规功能实现、打磨清理和容易见效的任务。高风险工作要尽早暴露失败，容易的工作留到以后。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+选择下一项任务时，按以下顺序决定优先级：
+1. 架构决策和核心抽象
+2. 模块之间的集成点
+3. 未知的未知问题与探索性验证
+4. 常规功能与实现
+5. 打磨、清理以及容易见效的任务
+高风险工作要尽早暴露失败。容易的成果留到后面。
+```
 
 ## 8. 明确软件质量标准
 
@@ -379,9 +485,27 @@ Fail fast on risky work. Save easy wins for later.
 
 | 代码库类型 | 应该怎么说                                   | 预期行为                         |
 | ---------- | -------------------------------------------- | -------------------------------- |
-| 原型       | “这是原型，速度优先于完美。”                 | 允许走捷径，跳过边缘情况         |
-| 生产代码   | “这是生产代码，必须易于维护。”               | 遵循最佳实践，补充测试           |
-| 公共库     | “这是公开 API，向后兼容很重要。”             | 谨慎对待破坏性变更               |
+| 原型       | “This is a prototype. Speed over perfection.”（这是原型，速度优先于完美。）                 | 允许走捷径，跳过边缘情况         |
+| 生产代码   | “Production code. Must be maintainable.”（这是生产代码，必须易于维护。）               | 遵循最佳实践，补充测试           |
+| 公共库     | “Public API. Backward compatibility matters.”（这是公开 API，向后兼容很重要。）             | 谨慎对待破坏性变更               |
+
+中文版 Prompt（学习辅助，原型项目）：
+
+```text
+这是原型。速度优先于完美。
+```
+
+中文版 Prompt（学习辅助，生产项目）：
+
+```text
+这是生产代码。必须易于维护。
+```
+
+中文版 Prompt（学习辅助，公共库）：
+
+```text
+这是公开 API。向后兼容很重要。
+```
 
 把这些写进 [AGENTS.md](https://agents.md) 文件、你的 Skill，或直接写进提示词中。
 
@@ -389,7 +513,13 @@ Fail fast on risky work. Save easy wins for later.
 
 你的指令会与代码库本身竞争。当 Ralph 探索代码库时，它会看到两种事实来源：一是你告诉它要做什么，二是你实际上已经怎么做。前者只有几行指令，后者却是数千行证据。
 
-你可以在提示词里写“永远不要使用 `any` 类型”。但如果 Ralph 在现有代码中到处看到 `any`，它会效仿代码库，而不是遵守你的指令。
+你可以在提示词里写 “never use `any` types”（永远不要使用 any 类型）。但如果 Ralph 在现有代码中到处看到 `any`，它会效仿代码库，而不是遵守你的指令。
+
+中文版 Prompt（学习辅助）：
+
+```text
+永远不要使用 any 类型。
+```
 
 智能体会放大它看到的模式。糟糕的代码会带来更糟的代码，低质量测试会形成不可靠的反馈循环。
 
@@ -417,7 +547,15 @@ you cut will be cut again.
 Fight entropy. Leave the codebase better than you found it.
 ```
 
-中文理解版（学习辅助）：这个代码库的生命周期会比你参与它的时间更长。每次走捷径都会成为别人的负担，每个临时补丁都会累积为拖慢团队的技术债。你不只是在写代码，也是在塑造项目的未来；你建立的模式会被复制，今天走过的捷径以后还会有人再走。请对抗熵，让代码库比你接手时更好。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+这个代码库的生命周期会比你更长。你走的每条捷径，都会成为别人的负担。每个临时凑合的办法，都会累积成拖慢整个团队的技术债。
+
+你不只是在写代码，也是在塑造这个项目的未来。你建立的模式会被复制，你省掉的步骤也会被别人再次省掉。
+
+对抗熵。离开时，让代码库比你接手时更好。
+```
 
 ## 9. 使用 Docker 沙箱
 
@@ -432,6 +570,8 @@ docker sandbox run claude
 这会在容器内运行 [Claude Code](https://code.claude.com/docs/en/overview)。你的当前目录会挂载到容器中，但其他内容不会。Ralph 可以编辑项目文件并提交代码，却无法接触你的主目录、SSH 密钥或系统文件。
 
 代价是：你的全局 [AGENTS.md](https://agents.md) 和用户级 Skill 不会被加载。对大多数 Ralph 循环来说，这并无大碍。
+
+> 译注：原文关于“只能访问当前目录”的说法是其配置语境下的概述。实际边界取决于沙盒版本、挂载、网络与凭据设置，项目目录内仍可能发生破坏性操作；不能仅凭这段描述认定数据绝对安全。本次没有测试隔离效果。
 
 对于 HITL Ralph，沙箱是可选项，因为你正看着它运行。对于 AFK Ralph，尤其是夜间运行的循环，它是防止智能体失控的重要保险。
 
@@ -451,11 +591,11 @@ docker sandbox run claude
 | HITL Ralph   | 重跑同一提示词   | 学习、打磨         |
 | AFK Ralph    | 设置后不再操心   | 批量工作、自动化   |
 
-我使用的是 Anthropic 5x Max 计划，每月大约 £90。我运行过几次 AFK Ralph，但大部分使用仍是 HITL。
+按原文时点，我使用的是 Anthropic 5x Max 计划，每月大约 £90。我运行过几次 AFK Ralph，但大部分使用仍是 HITL。
 
 ### 为什么不用本地模型？
 
-我认为，目前能在笔记本电脑上运行的开源模型还不足以胜任 Ralph。它们需要强大的 GPU，输出质量也还不够好。在 AI 编码领域，你确实需要为能力付费。
+在原文写作时，我认为能在笔记本电脑上运行的开源模型还不足以胜任 Ralph。它们需要强大的 GPU，输出质量也还不够好。在 AI 编码领域，你确实需要为能力付费。
 
 ### 黄金时代
 
@@ -501,7 +641,15 @@ Ralph 不必处理功能待办列表。以下是我最近一直在尝试的一�
 
 **熵循环**：Ralph 扫描代码坏味道，例如未使用的导出、死代码和不一致的模式，然后清理它们。这相当于让软件熵倒退。
 
-任何能描述成“查看代码库、改进某件事、报告发现”的任务，都符合 Ralph 模式。循环不变，变化的只有提示词。
+任何能描述成 “look at repo, improve something, report findings” 的任务，都符合 Ralph 模式。
+
+中文版 Prompt（学习辅助）：
+
+```text
+查看代码库，改进某件事，报告发现。
+```
+
+循环不变，变化的只有提示词。
 
 ### 动手试试
 
@@ -516,7 +664,16 @@ Run coverage again and update coverage-report.txt.
 Target: 80% coverage minimum.
 ```
 
-中文理解版（学习辅助）：读取 `coverage-report.txt` 中的覆盖率报告，找出未覆盖的代码行；为最关键的未覆盖代码路径编写测试；再次运行覆盖率检查并更新报告。目标是覆盖率至少达到 80%。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+# 测试覆盖率循环
+@coverage-report.txt
+找出覆盖率报告中尚未覆盖的代码行。
+为最关键的未覆盖代码路径编写测试。
+再次运行覆盖率检查，并更新 coverage-report.txt。
+目标：覆盖率至少达到 80%。
+```
 
 ```txt
 # Linting Loop
@@ -526,7 +683,15 @@ Run lint again to verify the fix.
 Repeat until no errors remain.
 ```
 
-中文理解版（学习辅助）：运行 `npm run lint`，每次只修复一个 lint 错误；再次运行 lint 验证修复；重复这些步骤，直到没有错误。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+# Lint 循环
+运行：npm run lint
+每次只修复一个 lint 错误。
+再次运行 lint，验证修复。
+重复，直到没有任何错误。
+```
 
 ```txt
 # Entropy Loop
@@ -535,13 +700,30 @@ Fix ONE issue per iteration.
 Document what you changed in progress.txt.
 ```
 
-中文理解版（学习辅助）：扫描代码坏味道，包括未使用的导出、死代码和不一致的模式。每轮只修复一个问题，并把改动记录在 `progress.txt` 中。
+中文版 Prompt（学习辅助，完整对应上方英文提示或任务示例）：
+
+```text
+# 熵循环
+扫描代码坏味道：未使用的导出、死代码、不一致的模式。
+每轮只修复一个问题。
+把改动记录在 progress.txt 中。
+```
+
+**更多 Ralph 技巧，直接送到你的邮箱**
+
+随着 Matt 不断打磨循环，接收技能文章与更新记录。
+
+[前往英文原文查看订阅入口](https://www.aihero.dev/tips-for-ai-coding-with-ralph-wiggum)
+
+> 译注：以上完整保留原订阅组件可见文字，不模拟表单提交。
 
 我期待看到你自己的 Ralph Wiggum：手指插在鼻孔里、撞破窗户飞出去、吃着胶水，同时还能交付代码。
 
 ---
 
-## 中文学习辅助：术语小词典
+想进一步了解 Ralph？我会在[邮件通讯（中文）](/newsletter)（[英文原文](https://aihero.dev/newsletter)）发布更多自主 AI 编程内容，订阅后可在新文章发布时收到通知。
+
+**译注：中文学习辅助术语小词典（保留旧稿辅助内容，非原文章节）**
 
 - **AFK（away from keyboard）**：离开键盘、暂时无人盯着电脑时运行的自动化工作模式。
 - **AGENTS.md**：供 AI 编码智能体阅读的项目说明文件，通常写有项目规则、结构和质量要求。

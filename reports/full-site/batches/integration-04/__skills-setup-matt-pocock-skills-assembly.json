@@ -1,0 +1,125 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-12/configs/skills-setup-matt-pocock-skills.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-setup-matt-pocock-skills",
+      "manifest": {
+        "route": "/skills-setup-matt-pocock-skills",
+        "sourceUrl": "https://www.aihero.dev/skills-setup-matt-pocock-skills",
+        "sourceHash": "195b930507929eb63fbdc2adf3fa38f50945ed4ceaee9bcf8cfdda9d352c2495",
+        "translationPath": "content/zh/skills-setup-matt-pocock-skills.md",
+        "translationHash": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:36.787Z",
+        "assembly": {
+          "configHash": "eb4843bd38ba8c0798bf0dc4984949cd6278f3832c7a0becc2ded2c4547038f0",
+          "checkedAt": "2026-10-13T12:37:36.787Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/harness",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/mcp",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-setup-matt-pocock-skills.md",
+          "sha256": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "03bb43d8807080a7d956d796092c38ca2a052d5eae315398627eff85ef9f7e17"
+        }
+      ],
+      "rawOutputSha256": "d247b73245cf2a6a397c6a338b820aa93767ac8bdb4efca28fc185d43393d4d2"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-setup-matt-pocock-skills",
+      "manifest": {
+        "route": "/skills-setup-matt-pocock-skills",
+        "sourceUrl": "https://www.aihero.dev/skills-setup-matt-pocock-skills",
+        "sourceHash": "195b930507929eb63fbdc2adf3fa38f50945ed4ceaee9bcf8cfdda9d352c2495",
+        "translationPath": "content/zh/skills-setup-matt-pocock-skills.md",
+        "translationHash": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:37.025Z",
+        "assembly": {
+          "configHash": "eb4843bd38ba8c0798bf0dc4984949cd6278f3832c7a0becc2ded2c4547038f0",
+          "checkedAt": "2026-10-13T12:37:37.025Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/harness",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/mcp",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-setup-matt-pocock-skills.md",
+          "sha256": "684ced36a6019153e437df81d55a6e79dc4d04692ca2008e6ac07d797a628ab7"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "50d35f76795d2b0bc1e2b6c68bc73d2fc3f108d0079d640b30111fbd9b4c2a3c"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e816e49603500105864203f483939637971595c131e12443cfcf4e8e0d6ac459"
+        }
+      ],
+      "rawOutputSha256": "f1816500027ed0efc7c079aef3a6c2a1f6309eb5ed58a429d90ac8224d212080"
+    }
+  ],
+  "nonTargetPagesPreserved": 111
+}

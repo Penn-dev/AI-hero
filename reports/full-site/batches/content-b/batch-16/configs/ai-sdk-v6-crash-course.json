@@ -1,0 +1,9 @@
+{
+  "route": "/workshops/ai-sdk-v6-crash-course",
+  "source": {
+    "path": "content/source/workshops/ai-sdk-v6-crash-course.md",
+    "sha256": "b643005004e2b1c97e7a7a37f36f1208d37c93264b82c685dc2eddc3950a2b4c"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-16/drafts/ai-sdk-v6-crash-course.md",
+  "translationPath": "content/zh/workshops/ai-sdk-v6-crash-course.md"
+}

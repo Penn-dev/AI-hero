@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A12/configs/agent-mode.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/agent-mode",
+      "manifest": {
+        "route": "/ai-coding-dictionary/agent-mode",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
+        "sourceHash": "24f5102fb30d59ebc8947457169dcc9e98583973d2ce5efe1cc44443300ecdc7",
+        "translationPath": "content/zh/ai-coding-dictionary/agent-mode.md",
+        "translationHash": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:33.222Z",
+        "assembly": {
+          "configHash": "b5e6d020de6a799ea50ddda3d5acf10431cd5538fb8aaf6a9eab7a0f47978b21",
+          "checkedAt": "2026-10-13T12:19:33.222Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/agent-mode.md",
+          "sha256": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0000fa72c920203c76b7e3fb578d581be03bbe022edf2a0e8a6ac7eb8653f2ec"
+        }
+      ],
+      "rawOutputSha256": "3f548c11c9c9997535b1dd0c8cb5f628bec58ef0117db0913ef1add4786b90bc"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/agent-mode",
+      "manifest": {
+        "route": "/ai-coding-dictionary/agent-mode",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/agent-mode",
+        "sourceHash": "24f5102fb30d59ebc8947457169dcc9e98583973d2ce5efe1cc44443300ecdc7",
+        "translationPath": "content/zh/ai-coding-dictionary/agent-mode.md",
+        "translationHash": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:33.454Z",
+        "assembly": {
+          "configHash": "b5e6d020de6a799ea50ddda3d5acf10431cd5538fb8aaf6a9eab7a0f47978b21",
+          "checkedAt": "2026-10-13T12:19:33.454Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/agent-mode.md",
+          "sha256": "0ab2f764642a63e1173b5a60c8b218f3ea5092e41d4248fd12183b7356b5d86b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "55d69172a9ca9544202ce53c9c1ea3514f1d859cc6c2f3dd27a00c5116fdb3ff"
+        }
+      ],
+      "rawOutputSha256": "b3ad3d6d3968f21cafd41a7f317738112e63d2d29346a22f7c95eb85ea737999"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

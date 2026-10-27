@@ -1,0 +1,11 @@
+{
+  "file": "reports/full-site/content-a/A06/drafts/context-pointer.md",
+  "oldSubstringMatches": [
+    "部署流程：请查看 internal/deploy.md",
+    "请查看 internal/deploy.md"
+  ],
+  "exactMatches": [
+    "请查看 internal/deploy.md"
+  ],
+  "status": "passed; browser rerun pending"
+}

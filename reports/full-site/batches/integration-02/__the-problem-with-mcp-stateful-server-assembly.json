@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-02/configs/the-problem-with-mcp-stateful-server.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/the-problem-with-mcp-stateful-server",
+      "manifest": {
+        "route": "/the-problem-with-mcp-stateful-server",
+        "sourceUrl": "https://www.aihero.dev/the-problem-with-mcp-stateful-server",
+        "sourceHash": "c507dad06f3bc0d72d9a5c1c60af59882d5c63fe7264b2106491f9ca0d6fe8aa",
+        "translationPath": "content/zh/the-problem-with-mcp-stateful-server.md",
+        "translationHash": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:22.622Z",
+        "assembly": {
+          "configHash": "78c3a93c78781415f3940d761eb3c2f1146bac1fedc66d2ed453b8c0859b0b71",
+          "checkedAt": "2026-10-13T11:56:22.622Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/the-problem-with-mcp-stateful-server.md",
+          "sha256": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "582d612552d5aba8a6359f4ac727e67b8d95229ecf1a5d41907b3e308eb96942"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "5e17826ce0d8ac56ac132640b3ebba8be42b0cde2a9c06e455161fbea63d1dbc"
+        }
+      ],
+      "rawOutputSha256": "561492ce46691ec0ca33334531577b69980acc4cf24b9c2ca4894f6a9cf7c911"
+    },
+    {
+      "mode": "apply",
+      "route": "/the-problem-with-mcp-stateful-server",
+      "manifest": {
+        "route": "/the-problem-with-mcp-stateful-server",
+        "sourceUrl": "https://www.aihero.dev/the-problem-with-mcp-stateful-server",
+        "sourceHash": "c507dad06f3bc0d72d9a5c1c60af59882d5c63fe7264b2106491f9ca0d6fe8aa",
+        "translationPath": "content/zh/the-problem-with-mcp-stateful-server.md",
+        "translationHash": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:22.824Z",
+        "assembly": {
+          "configHash": "78c3a93c78781415f3940d761eb3c2f1146bac1fedc66d2ed453b8c0859b0b71",
+          "checkedAt": "2026-10-13T11:56:22.824Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/the-problem-with-mcp-stateful-server.md",
+          "sha256": "6c4466f165de71d199f6392d247e2b955c1b5be0c12041629c48162c5d080f8b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "582d612552d5aba8a6359f4ac727e67b8d95229ecf1a5d41907b3e308eb96942"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "dec9a75b4674c82609987f0b3d3ed3a772e35c6ad9bd179483c6fe2d3960135c"
+        }
+      ],
+      "rawOutputSha256": "fb03e8ea17b6b889727051bda1c658bb445f9982ff155521f14658cd48798820"
+    }
+  ],
+  "nonTargetPagesPreserved": 30
+}

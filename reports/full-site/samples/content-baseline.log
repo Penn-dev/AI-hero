@@ -1,0 +1,24 @@
+
+> sites-project@0.1.0 sync:validate
+> node scripts/validate-content.mjs
+
+{
+  "sitemapCandidates": 196,
+  "uniqueSourceRoutes": 195,
+  "downloaded": 195,
+  "noMarkdown": 0,
+  "translated": 17,
+  "renderable": 17,
+  "errors": [
+    "Translation source hash mismatch: /skills-codebase-design",
+    "Translation source hash mismatch: /ai-coding-dictionary/system-prompt",
+    "Translation source hash mismatch: /ai-coding-dictionary/agent",
+    "Translation source hash mismatch: /ai-coding-dictionary/context-window",
+    "Translation source hash mismatch: /ai-coding-dictionary/tool-call",
+    "Translation source hash mismatch: /ai-coding-dictionary/prefix-cache",
+    "Translation source hash mismatch: /ai-coding-dictionary/memory-system",
+    "Translation source hash mismatch: /ai-coding-dictionary/hallucination",
+    "Translation source hash mismatch: /ai-coding-dictionary/progressive-disclosure",
+    "Translation source hash mismatch: /workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-11/configs/never-run-claude-init.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/never-run-claude-init",
+      "manifest": {
+        "route": "/never-run-claude-init",
+        "sourceUrl": "https://www.aihero.dev/never-run-claude-init",
+        "sourceHash": "8834ce41ac3d5bb27a9ceb4ccc89b7e690e20052fa2c2ebf5de3d2deadbb5e82",
+        "translationPath": "content/zh/never-run-claude-init.md",
+        "translationHash": "f79fd9a8e8f3985d66b4c05c0a0533e0d8c3ec5f734fca58046232320582e09d",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:31.020Z",
+        "assembly": {
+          "configHash": "959052bb40a2fc6983de0483eb7d80cdf5bcb6065bd94fe34e8cd36d035bfcde",
+          "checkedAt": "2026-10-13T13:04:31.020Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/never-run-claude-init.md",
+          "sha256": "f79fd9a8e8f3985d66b4c05c0a0533e0d8c3ec5f734fca58046232320582e09d"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ec577173ef4e0becf11bf0fafced11c09afae6f09aeedd797cb0dddfe5b3fd51"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "3781656096ed77b6a2f524ac3aaa10b8350072457539e90b8ccd05c531e4cbf0"
+        }
+      ],
+      "rawOutputSha256": "6704e11a9ac8f48f18bb23a42ca17c7b4a5126d5bb2adf6b9e53db3eb675b947"
+    },
+    {
+      "mode": "apply",
+      "route": "/never-run-claude-init",
+      "manifest": {
+        "route": "/never-run-claude-init",
+        "sourceUrl": "https://www.aihero.dev/never-run-claude-init",
+        "sourceHash": "8834ce41ac3d5bb27a9ceb4ccc89b7e690e20052fa2c2ebf5de3d2deadbb5e82",
+        "translationPath": "content/zh/never-run-claude-init.md",
+        "translationHash": "f79fd9a8e8f3985d66b4c05c0a0533e0d8c3ec5f734fca58046232320582e09d",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:31.280Z",
+        "assembly": {
+          "configHash": "959052bb40a2fc6983de0483eb7d80cdf5bcb6065bd94fe34e8cd36d035bfcde",
+          "checkedAt": "2026-10-13T13:04:31.280Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/never-run-claude-init.md",
+          "sha256": "f79fd9a8e8f3985d66b4c05c0a0533e0d8c3ec5f734fca58046232320582e09d"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ec577173ef4e0becf11bf0fafced11c09afae6f09aeedd797cb0dddfe5b3fd51"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1f7cf1746962813d7f7a04447af0a14a50307ed9a04c3875900e662628e1cec1"
+        }
+      ],
+      "rawOutputSha256": "c8ce96ce5556d3e13f84aa7e22a137ad3c2aa901249453e3dd2ffde15d66708e"
+    }
+  ],
+  "nonTargetPagesPreserved": 175
+}

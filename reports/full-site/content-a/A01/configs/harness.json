@@ -1,0 +1,58 @@
+{
+  "route": "/ai-coding-dictionary/harness",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/harness.md",
+    "sha256": "e8fca4c2ddffb9f121b5f57f5721c3c06d941bf8c545c23ebdc5d70b727032f2"
+  },
+  "chineseFile": "reports/full-site/content-a/A01/drafts/harness.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    }
+  ]
+}

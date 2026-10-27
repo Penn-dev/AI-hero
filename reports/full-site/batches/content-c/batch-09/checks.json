@@ -1,0 +1,74 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-to-tickets",
+      "sourcePath": "content/source/skills-to-tickets.md",
+      "sourceHash": "90f8541cdf7a61504214d902b96602523da84f4cf9fc3ce6d09709be5e3aface",
+      "chineseFile": "reports/full-site/batches/content-c/batch-09/drafts/skills-to-tickets.md",
+      "translationHash": "ec3331efe04ef2ed9ec6ba6fabcb5c497a64163d6ef0877613b36718c33c4172",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节对照全文、两表和所有问答，完整保留纵向切片、一次窗口、发布前用户确认、阻塞边、预备重构、大范围 expand/migrate/contract 例外、原生链接与本地单文件任务差别及验收可失败要求。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，tracer bullet 首次双语并紧邻解释，后文用完整小功能/纵向切片；保留作者 26 项案例及原有版本主张，不自作实时结论。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "译注解释端到端小切片、CI，例外仍明确最终验证；原文不同来源状态不混同当前实现。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "所有行内 gh 命令、版本、路径、标签、唯一流程围栏和原 URL 保留；what can I demo when this is done 原英文保留并附完整可复制中文 Prompt。 真实 UI 审查发现的加粗边界已定点修正，仅移动标记或去除链接外层加粗；原文案、代码和 URL 不变。后续 AST 扫描无字面双星号/嵌套 strong，真实 UI 仍待工程重验。",
+          "originalFencedBlocks": 1,
+          "originalMarkdownResourceOccurrences": 27
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未执行 gh 或验证第三方当前版本/接口支持，页面已披露。"
+      ]
+    },
+    {
+      "route": "/skills-research",
+      "sourcePath": "content/source/skills-research.md",
+      "sourceHash": "e91acc488a8e63d892982474c3c105793b4be460d72260c7662d2f6aab341874",
+      "chineseFile": "reports/full-site/batches/content-c/batch-09/drafts/skills-research.md",
+      "translationHash": "c8ff57ff6853d91dd61949d4ca24a65d7384b66c0b4fe4e7bb02c1fb276f82b0",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节对照全文及全部问答，保留仅第一手来源、文件输出、后台执行、递归/禁止再委派两种失败、无来源白名单、无自动加载、无停止标准、wayfinder 未发布状态与删分支断引用等边界。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "全文通读，区分事实与决定、资料查阅与人的思考，保留作者对时效性、研究文件存放及质量检查的直接观点。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "译注解释 ADR 和 GLOSSARY，原文数字/模型/缺陷状态与本次任务明确区分。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "源文无围栏代码；全部行内工具/类型/分支标识和原 URL 保留。四段用户英文引文完整保留并有中文理解，research X 附完整可复制中文 Prompt。 真实 UI 审查发现的加粗边界已定点修正，仅移动标记或去除链接外层加粗；原文案、代码和 URL 不变。后续 AST 扫描无字面双星号/嵌套 strong，真实 UI 仍待工程重验。",
+          "originalFencedBlocks": 0,
+          "originalMarkdownResourceOccurrences": 22
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "没有执行递归研究或外部调查，未实时核对 bug/未发布功能状态。"
+      ]
+    }
+  ]
+}

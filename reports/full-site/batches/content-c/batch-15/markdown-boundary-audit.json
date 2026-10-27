@@ -1,0 +1,15 @@
+{
+  "scope": "Non-code Markdown AST only; not browser verification",
+  "pages": [
+    {
+      "file": "reports/full-site/batches/content-c/batch-15/drafts/skills-prototype.md",
+      "sha256": "dfc15bd42e4d02037ba9d1c9a0320be09d0282b1a9fee1c471d96192522ee76b",
+      "unparsedStrongOrNestedStrong": 0
+    },
+    {
+      "file": "reports/full-site/batches/content-c/batch-15/drafts/skills-tdd.md",
+      "sha256": "a94f3ecb86031db38e16d1d1ca04a95a6e7469a41bf4508c25622b836fba2305",
+      "unparsedStrongOrNestedStrong": 0
+    }
+  ]
+}

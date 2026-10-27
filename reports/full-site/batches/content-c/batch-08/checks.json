@@ -1,0 +1,74 @@
+{
+  "sourceScope": "reports/full-site/source-scope-2026-10-13.json",
+  "sourceManifestHash": "be5473a11fda0ec0af7157f0709f6b7ac1edb99534dc0ec11b76a2b8e498f557",
+  "pages": [
+    {
+      "route": "/skills-implement-spec",
+      "sourcePath": "content/source/skills-implement-spec.md",
+      "sourceHash": "5dbd4d76095c9dc54b60a9c89c453d74e2f2ab6f788250dd3d26ce6b74c75152",
+      "chineseFile": "reports/full-site/batches/content-c/batch-08/drafts/skills-implement-spec.md",
+      "translationHash": "d3ca6a52c97daaf7161c2cfb98a8501d43a8d805cf0f820e5f9f0bb8b797c30f",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对全文、情景表、三个前提和全部问答，保留 frontier、单整合分支、tdd、按需 draft PR、一次末尾总审、共享文件冲突、GitHub closed/merged 滞后、未跟踪测试材料跳过等事实和限制。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，frontier 统一为已就绪任务，区分整合分支与主分支、来源的操作主张与当前执行状态；保留用户引用的条件和具体示例。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "就近译注解释 worktree、快进合并、红绿测试；没有将原文并行能力或权限变成此网页的运行保证。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "保留唯一流程围栏与全部行内调用/变量名/命令，原英文用户引用附中文理解，所有资源 URL 包括 Sandcastle 保留。没有新增实际可执行代码或测试。",
+          "originalFencedBlocks": 1,
+          "originalMarkdownResourceOccurrences": 22
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "未在任何宿主实际执行工作流，未查询来源中缺陷的最新状态。"
+      ]
+    },
+    {
+      "route": "/skills-implement",
+      "sourcePath": "content/source/skills-implement.md",
+      "sourceHash": "42d4734446309c8658183428de2abda11f0239276f0b34016c5cb6d8c7b69a3b",
+      "chineseFile": "reports/full-site/batches/content-c/batch-08/drafts/skills-implement.md",
+      "translationHash": "f59c4fb6b637dc36349f7db0cc8303fec60e1172f620a2fa88146717cf988cc6",
+      "checks": {
+        "information": {
+          "status": "passed",
+          "evidence": "逐节核对全文与场景表、五步流程和全部问答。保留不重开规划、不建分支、不关闭任务、不处理审阅发现、提交前审阅看不到工作树、共享 stash 风险及准确 issue 定位等限制。"
+        },
+        "naturalChinese": {
+          "status": "passed",
+          "evidence": "通读全文，区分任务完成实现与任务系统收尾，明确单任务和整份规格的适用边界，没有把风险原文改成已解决。"
+        },
+        "necessaryConcepts": {
+          "status": "passed",
+          "evidence": "接缝、纵向切片按原文解释，译注补 index/HEAD/stash；150k/100k 保留为作者场景描述，不当成本次消耗。 已补简短中文词条导航，保留原资源入口；导航目标在配置中明确登记，工程接页时按实际可用状态刷新。"
+        },
+        "codeAndLinks": {
+          "status": "passed",
+          "evidence": "唯一流程围栏、全部命令/参数/文件标识与资源 URL 原样保留；build this、just write the code、commit to a branch and open a PR 完整英文保留并分别附可复制中文 Prompt。",
+          "originalFencedBlocks": 1,
+          "originalMarkdownResourceOccurrences": 34
+        },
+        "pageDisplay": {
+          "status": "unverified",
+          "reason": "交工程在最终接页后检查真实页面；正文制作不代替 UI 验收。"
+        }
+      },
+      "gaps": [
+        "没有实际运行 Skill 或提交业务修改，页末明确没有运行验证和实时缺陷核查。"
+      ]
+    }
+  ]
+}

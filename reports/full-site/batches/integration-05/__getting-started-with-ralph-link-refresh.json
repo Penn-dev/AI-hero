@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-15/configs/getting-started-with-ralph.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/getting-started-with-ralph",
+      "manifest": {
+        "route": "/getting-started-with-ralph",
+        "sourceUrl": "https://www.aihero.dev/getting-started-with-ralph",
+        "sourceHash": "a4245d94257f1bd1dded562a619df5fd963c5cdc38590b6b027466f3a87fab13",
+        "translationPath": "content/zh/getting-started-with-ralph.md",
+        "translationHash": "654b5e428cf88d5fe1744c6490775a42f403fb6d55087d4be577caf50c1af24a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:58.140Z",
+        "assembly": {
+          "configHash": "834af3d6c9e18f5fd1eb0f1033a8ce1ba5eefd043a5d03879ea4f343b98089c3",
+          "checkedAt": "2026-10-13T13:07:58.140Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/getting-started-with-ralph.md",
+          "sha256": "654b5e428cf88d5fe1744c6490775a42f403fb6d55087d4be577caf50c1af24a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c3085d0dd45a9558c5bc5a359c8053aae3717610c6bb9c8ef5de704ecf4da9fd"
+        }
+      ],
+      "rawOutputSha256": "85bbb7a5b11f91eb48acd3b0a2e5eb2582037309c4346a840182abff86d714f1"
+    },
+    {
+      "mode": "apply",
+      "route": "/getting-started-with-ralph",
+      "manifest": {
+        "route": "/getting-started-with-ralph",
+        "sourceUrl": "https://www.aihero.dev/getting-started-with-ralph",
+        "sourceHash": "a4245d94257f1bd1dded562a619df5fd963c5cdc38590b6b027466f3a87fab13",
+        "translationPath": "content/zh/getting-started-with-ralph.md",
+        "translationHash": "654b5e428cf88d5fe1744c6490775a42f403fb6d55087d4be577caf50c1af24a",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:58.418Z",
+        "assembly": {
+          "configHash": "834af3d6c9e18f5fd1eb0f1033a8ce1ba5eefd043a5d03879ea4f343b98089c3",
+          "checkedAt": "2026-10-13T13:07:58.418Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/getting-started-with-ralph.md",
+          "sha256": "654b5e428cf88d5fe1744c6490775a42f403fb6d55087d4be577caf50c1af24a"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1f6f87fc0984141bfcfcde44bdc1cee646108325257da15cfdfa5e788b5268d0"
+        }
+      ],
+      "rawOutputSha256": "6688d982c9b970c93ba72d3a02404ba5b491506ccc024accfa1f6a247b1ebe63"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

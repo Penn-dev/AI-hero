@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-10/configs/how-to-make-codebases-ai-agents-love.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/how-to-make-codebases-ai-agents-love",
+      "manifest": {
+        "route": "/how-to-make-codebases-ai-agents-love",
+        "sourceUrl": "https://www.aihero.dev/how-to-make-codebases-ai-agents-love",
+        "sourceHash": "40a7ff2177718517f985097be09c6ea0be58f54b2d0b7eccdb10009edcbad2a7",
+        "translationPath": "content/zh/how-to-make-codebases-ai-agents-love.md",
+        "translationHash": "7e5a3b8105bf097b71431b3f0950fff11f6292970f68ea60985b2ed8a6a8cd33",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:55.292Z",
+        "assembly": {
+          "configHash": "2208be9e32bd2a1c45c4ab7a779dcc24c2787feff9b3cdb05012a33720a6bd1a",
+          "checkedAt": "2026-10-13T13:07:55.292Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-make-codebases-ai-agents-love.md",
+          "sha256": "7e5a3b8105bf097b71431b3f0950fff11f6292970f68ea60985b2ed8a6a8cd33"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8ea4e2c7978004c9034373e8383cc0609562bf24bfd2dac55efb21206133545d"
+        }
+      ],
+      "rawOutputSha256": "f276ad0f0ee7e961384b04580c132001763f13a49f0b96b5efe271c16e57486e"
+    },
+    {
+      "mode": "apply",
+      "route": "/how-to-make-codebases-ai-agents-love",
+      "manifest": {
+        "route": "/how-to-make-codebases-ai-agents-love",
+        "sourceUrl": "https://www.aihero.dev/how-to-make-codebases-ai-agents-love",
+        "sourceHash": "40a7ff2177718517f985097be09c6ea0be58f54b2d0b7eccdb10009edcbad2a7",
+        "translationPath": "content/zh/how-to-make-codebases-ai-agents-love.md",
+        "translationHash": "7e5a3b8105bf097b71431b3f0950fff11f6292970f68ea60985b2ed8a6a8cd33",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:07:55.535Z",
+        "assembly": {
+          "configHash": "2208be9e32bd2a1c45c4ab7a779dcc24c2787feff9b3cdb05012a33720a6bd1a",
+          "checkedAt": "2026-10-13T13:07:55.535Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-make-codebases-ai-agents-love.md",
+          "sha256": "7e5a3b8105bf097b71431b3f0950fff11f6292970f68ea60985b2ed8a6a8cd33"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "e5a202943a50f31e1057f0bfc3f3021dac1a9e208027a47229c5c682b9764aec"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "dd39fc84abf2b00f62aa600e180c74586261fa2ba1d8b56d31f7da2af7522ae2"
+        }
+      ],
+      "rawOutputSha256": "19fce84916d2965a82b6b5e7e9f8a7badfb81f776183b85a7c481872e16e265e"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

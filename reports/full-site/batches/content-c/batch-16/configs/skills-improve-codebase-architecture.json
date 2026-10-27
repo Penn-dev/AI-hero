@@ -1,0 +1,22 @@
+{
+  "route": "/skills-improve-codebase-architecture",
+  "source": {
+    "path": "content/source/skills-improve-codebase-architecture.md",
+    "sha256": "5215a048953e975ddf53527ed489c4d395ef8fc1558ac005f37f80175e90b6d0"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-16/drafts/skills-improve-codebase-architecture.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    }
+  ]
+}

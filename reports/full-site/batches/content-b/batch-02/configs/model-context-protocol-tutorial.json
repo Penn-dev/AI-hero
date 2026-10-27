@@ -1,0 +1,9 @@
+{
+  "route": "/model-context-protocol-tutorial",
+  "source": {
+    "path": "content/source/model-context-protocol-tutorial.md",
+    "sha256": "47c89dd78f37236aa983545d5f1440f11ebd3c56b7c05ad9ad8044df6bde0b94"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-02/drafts/model-context-protocol-tutorial.md",
+  "translationPath": "content/zh/model-context-protocol-tutorial.md"
+}

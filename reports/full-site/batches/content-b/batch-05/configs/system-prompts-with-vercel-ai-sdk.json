@@ -1,0 +1,9 @@
+{
+  "route": "/system-prompts-with-vercel-ai-sdk",
+  "source": {
+    "path": "content/source/system-prompts-with-vercel-ai-sdk.md",
+    "sha256": "04ce96d05f56845bc10365c233094b95ebc9fd237d25dc5631042bc712b17c8f"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-05/drafts/system-prompts-with-vercel-ai-sdk.md",
+  "translationPath": "content/zh/system-prompts-with-vercel-ai-sdk.md"
+}

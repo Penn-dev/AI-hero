@@ -1,0 +1,9 @@
+{
+  "route": "/what-is-an-agent",
+  "source": {
+    "path": "content/source/what-is-an-agent.md",
+    "sha256": "3c06e4e3ae4468032bb7bbe80aa70bfe6a8574ead2fa4b707fadd16c6e0b121c"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-03/drafts/what-is-an-agent.md",
+  "translationPath": "content/zh/what-is-an-agent.md"
+}

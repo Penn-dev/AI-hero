@@ -1,0 +1,98 @@
+{
+  "candidate": "E:\\dev\\projects\\AIHero\\work\\full-site-assembly\\content\\pilots\\v2\\sol-medium\\a-complete-guide-to-agents-md.md",
+  "checks": [
+    {
+      "name": "original fenced code and English Prompt preserved; labelled Chinese Prompt allowed",
+      "passed": true
+    },
+    {
+      "name": "source inline code preserved in order",
+      "passed": true
+    },
+    {
+      "name": "source URLs preserved in order",
+      "passed": true
+    },
+    {
+      "name": "main heading levels preserved",
+      "passed": true
+    },
+    {
+      "name": "table count preserved",
+      "passed": true
+    },
+    {
+      "name": "details blocks preserved",
+      "passed": true
+    },
+    {
+      "name": "promotional MDX removed from localized copy",
+      "passed": true
+    },
+    {
+      "name": "main section count preserved",
+      "passed": true
+    },
+    {
+      "name": "each translated section has substantial content",
+      "passed": true
+    },
+    {
+      "name": "frontmatter slug preserved",
+      "passed": true
+    },
+    {
+      "name": "frontmatter type preserved",
+      "passed": true
+    },
+    {
+      "name": "frontmatter tags preserved",
+      "passed": true
+    },
+    {
+      "name": "frontmatter updatedAt preserved",
+      "passed": true
+    },
+    {
+      "name": "contains 术语小词典",
+      "passed": true
+    },
+    {
+      "name": "contains 中文理解版（学习辅助）",
+      "passed": true
+    },
+    {
+      "name": "contains **Prompt**：",
+      "passed": true
+    },
+    {
+      "name": "contains **monorepo**：",
+      "passed": true
+    },
+    {
+      "name": "contains **React**：",
+      "passed": true
+    },
+    {
+      "name": "contains **TypeScript**：",
+      "passed": true
+    },
+    {
+      "name": "contains **Node.js**：",
+      "passed": true
+    },
+    {
+      "name": "contains https://www.aihero.dev/ai-coding-dictionary/system-prompt",
+      "passed": true
+    },
+    {
+      "name": "contains https://www.aihero.dev/ai-coding-dictionary/progressive-disclosure",
+      "passed": true
+    },
+    {
+      "name": "contains 上面四条分别表示",
+      "passed": true
+    }
+  ],
+  "failed": 0
+}

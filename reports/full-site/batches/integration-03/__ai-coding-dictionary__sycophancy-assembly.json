@@ -1,0 +1,145 @@
+{
+  "config": "reports/full-site/content-a/A11/configs/sycophancy.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/sycophancy",
+      "manifest": {
+        "route": "/ai-coding-dictionary/sycophancy",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+        "sourceHash": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941",
+        "translationPath": "content/zh/ai-coding-dictionary/sycophancy.md",
+        "translationHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:04.682Z",
+        "assembly": {
+          "configHash": "58e1461e8562d021ec11e17241e4aa0d999dac4273bd8b8de5a8b83e32cea30d",
+          "checkedAt": "2026-10-13T12:19:04.682Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/sandbox",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/training",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/sycophancy.md",
+          "sha256": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3b19309295ab4cbdc7dccf66cd3355eb7843f7a35a969c1759fc1e4904db9813"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "76c4da378cbc623b5ea8aa48de8858731f507f9ab9880e44504f6d52d47ce4e1"
+        }
+      ],
+      "rawOutputSha256": "91b457f13ea5e33d13f2c0a3dc09a3c0c56db76c70e255f21199b4fb0e9a2a0b"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/sycophancy",
+      "manifest": {
+        "route": "/ai-coding-dictionary/sycophancy",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+        "sourceHash": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941",
+        "translationPath": "content/zh/ai-coding-dictionary/sycophancy.md",
+        "translationHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:04.911Z",
+        "assembly": {
+          "configHash": "58e1461e8562d021ec11e17241e4aa0d999dac4273bd8b8de5a8b83e32cea30d",
+          "checkedAt": "2026-10-13T12:19:04.911Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/sandbox",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/training",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/sycophancy.md",
+          "sha256": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "3b19309295ab4cbdc7dccf66cd3355eb7843f7a35a969c1759fc1e4904db9813"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "2adb2054668ef9df5837ce04bc41f6e54366a973ceddd1f84dd09c009a00fafc"
+        }
+      ],
+      "rawOutputSha256": "91e160c6adb0e60ba3bae6b33c54a55be96601b276564c14a4fcb9e96df3e884"
+    }
+  ],
+  "nonTargetPagesPreserved": 71
+}

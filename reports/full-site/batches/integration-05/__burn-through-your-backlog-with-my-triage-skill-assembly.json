@@ -1,0 +1,255 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-14/configs/burn-through-your-backlog-with-my-triage-skill.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/burn-through-your-backlog-with-my-triage-skill",
+      "manifest": {
+        "route": "/burn-through-your-backlog-with-my-triage-skill",
+        "sourceUrl": "https://www.aihero.dev/burn-through-your-backlog-with-my-triage-skill",
+        "sourceHash": "62b670caa860ccda0ca82c683536c48c6969dccc89770da11d06f8d8fdf948de",
+        "translationPath": "content/zh/burn-through-your-backlog-with-my-triage-skill.md",
+        "translationHash": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:36.863Z",
+        "assembly": {
+          "configHash": "cec9cd1272b61e94890d93fe0cabf71b8ac9e0f2e93a6691bce55606f646ba76",
+          "checkedAt": "2026-10-13T13:04:36.863Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills-to-tickets",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agent",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-diagnosing-bugs",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-setup-matt-pocock-skills",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-implement",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grilling",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-domain-modeling",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-ask-matt",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/burn-through-your-backlog-with-my-triage-skill.md",
+          "sha256": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "49b09865f5868e7dc0b594302eb2ed382e5f2e98218774453cf591d1b616053b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "f9bd9ce601776d58204c184c8d6e4a54472be169373b0626468975d2783f19aa"
+        }
+      ],
+      "rawOutputSha256": "4f71b9807d696e36e1018acb3edcb5a9b32dac41ff6cf454253533f446036659"
+    },
+    {
+      "mode": "apply",
+      "route": "/burn-through-your-backlog-with-my-triage-skill",
+      "manifest": {
+        "route": "/burn-through-your-backlog-with-my-triage-skill",
+        "sourceUrl": "https://www.aihero.dev/burn-through-your-backlog-with-my-triage-skill",
+        "sourceHash": "62b670caa860ccda0ca82c683536c48c6969dccc89770da11d06f8d8fdf948de",
+        "translationPath": "content/zh/burn-through-your-backlog-with-my-triage-skill.md",
+        "translationHash": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:37.159Z",
+        "assembly": {
+          "configHash": "cec9cd1272b61e94890d93fe0cabf71b8ac9e0f2e93a6691bce55606f646ba76",
+          "checkedAt": "2026-10-13T13:04:37.159Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills-to-tickets",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/agent",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-diagnosing-bugs",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-setup-matt-pocock-skills",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/afk",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/grilling",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-implement",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grilling",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-domain-modeling",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-ask-matt",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/burn-through-your-backlog-with-my-triage-skill.md",
+          "sha256": "bfe7b76b6c6bf6bcb2acbb3488b0a57eb52f2892f5e8b1458cdab4795d12d0cc"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "49b09865f5868e7dc0b594302eb2ed382e5f2e98218774453cf591d1b616053b"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1e7f383aee73b5c10e6835499c4bd19f7eca910243fd6103558c07e9bfe00e92"
+        }
+      ],
+      "rawOutputSha256": "f2164e1c8b454ecb8127f37203a082a6acdc30f9f601d59a96b34779b6f5e007"
+    }
+  ],
+  "nonTargetPagesPreserved": 185
+}

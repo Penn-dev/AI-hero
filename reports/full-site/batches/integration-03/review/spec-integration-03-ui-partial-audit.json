@@ -1,0 +1,918 @@
+{
+  "candidate": "d41b9a8703917c0eef4c0891703ad70e97e2e46a",
+  "runId": "38398534538",
+  "reportedStatus": "failed",
+  "reportedViewports": 62,
+  "fullyVerifiedSuccessfulViewports": 61,
+  "failed": [
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "error": "expect(locator).toHaveText(expected) failed\n\nLocator:  locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first()\nExpected: \"请查看 internal/deploy.md\"\nReceived: \"部署流程：请查看 internal/deploy.md\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveText\" locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first() with timeout 5000ms\n  - waiting for locator('#reading-body blockquote p').filter({ hasText: '请查看 internal/deploy.md' }).first()\n    14 × locator resolved to <p>…</p>\n       - unexpected value \"部署流程：请查看 internal/deploy.md\"\n",
+      "verifiedBodyHash": "3544c2e583924d29d06849ba585229917de23d1ad4ebcff71e9b612575aa541b"
+    }
+  ],
+  "uniqueRoutes": 57,
+  "screenshots": 151,
+  "screenshotHashesPassed": true,
+  "manuallyViewedScreenshotFiles": [
+    "ai-coding-dictionary-model-provider-request-390-body.png",
+    "ai-coding-dictionary-model-provider-request-390-table-1.png",
+    "ai-coding-dictionary-model-provider-request-390-example.png",
+    "ai-coding-dictionary-session-390-body.png",
+    "ai-coding-dictionary-session-390-example.png",
+    "ai-coding-dictionary-stateful-390-body.png",
+    "ai-coding-dictionary-stateful-390-table-1.png",
+    "ai-coding-dictionary-stateful-390-example.png",
+    "ai-coding-dictionary-stateless-390-body.png",
+    "ai-coding-dictionary-stateless-390-example.png",
+    "ai-coding-dictionary-turn-390-body.png",
+    "ai-coding-dictionary-turn-390-example.png",
+    "ai-coding-dictionary-agents-md-390-body.png",
+    "ai-coding-dictionary-agents-md-390-example.png",
+    "ai-coding-dictionary-context-pointer-390-failure.png",
+    "ai-coding-dictionary-environment-390-body.png",
+    "ai-coding-dictionary-environment-390-example.png",
+    "ai-coding-dictionary-filesystem-390-body.png",
+    "ai-coding-dictionary-filesystem-390-example.png",
+    "ai-coding-dictionary-skill-390-body.png",
+    "ai-coding-dictionary-skill-390-example.png",
+    "ai-coding-dictionary-ai-390-body.png",
+    "ai-coding-dictionary-ai-390-table-1.png",
+    "ai-coding-dictionary-ai-390-example.png",
+    "ai-coding-dictionary-inference-1440-body.png",
+    "ai-coding-dictionary-inference-1440-table-1.png",
+    "ai-coding-dictionary-inference-1440-example.png",
+    "ai-coding-dictionary-inference-390-body.png",
+    "ai-coding-dictionary-inference-390-table-1.png",
+    "ai-coding-dictionary-inference-390-example.png",
+    "ai-coding-dictionary-model-provider-390-body.png",
+    "ai-coding-dictionary-model-provider-390-example.png",
+    "ai-coding-dictionary-parameters-390-body.png",
+    "ai-coding-dictionary-parameters-390-example.png",
+    "ai-coding-dictionary-training-390-body.png",
+    "ai-coding-dictionary-training-390-example.png",
+    "ai-coding-dictionary-cache-tokens-1440-body.png",
+    "ai-coding-dictionary-cache-tokens-1440-table-1.png",
+    "ai-coding-dictionary-cache-tokens-1440-example.png",
+    "ai-coding-dictionary-cache-tokens-390-body.png",
+    "ai-coding-dictionary-cache-tokens-390-table-1.png",
+    "ai-coding-dictionary-cache-tokens-390-example.png",
+    "ai-coding-dictionary-effort-390-body.png",
+    "ai-coding-dictionary-effort-390-table-1.png",
+    "ai-coding-dictionary-effort-390-example.png",
+    "ai-coding-dictionary-input-tokens-390-body.png",
+    "ai-coding-dictionary-input-tokens-390-example.png",
+    "ai-coding-dictionary-next-token-prediction-390-body.png",
+    "ai-coding-dictionary-next-token-prediction-390-example.png",
+    "ai-coding-dictionary-non-determinism-390-body.png",
+    "ai-coding-dictionary-non-determinism-390-example.png",
+    "ai-coding-dictionary-output-tokens-390-body.png",
+    "ai-coding-dictionary-output-tokens-390-example.png",
+    "ai-coding-dictionary-attention-budget-390-body.png",
+    "ai-coding-dictionary-attention-budget-390-example.png",
+    "ai-coding-dictionary-attention-degradation-390-body.png",
+    "ai-coding-dictionary-attention-degradation-390-example.png",
+    "ai-coding-dictionary-attention-relationship-390-body.png",
+    "ai-coding-dictionary-attention-relationship-390-table-1.png",
+    "ai-coding-dictionary-attention-relationship-390-example.png",
+    "ai-coding-dictionary-smart-zone-390-body.png",
+    "ai-coding-dictionary-smart-zone-390-example.png",
+    "ai-coding-dictionary-autocompact-390-body.png",
+    "ai-coding-dictionary-autocompact-390-example.png",
+    "ai-coding-dictionary-clearing-390-body.png",
+    "ai-coding-dictionary-clearing-390-example.png",
+    "ai-coding-dictionary-compaction-390-body.png",
+    "ai-coding-dictionary-compaction-390-example.png",
+    "ai-coding-dictionary-handoff-artifact-390-body.png",
+    "ai-coding-dictionary-handoff-artifact-390-example.png",
+    "ai-coding-dictionary-handoff-390-body.png",
+    "ai-coding-dictionary-handoff-390-table-1.png",
+    "ai-coding-dictionary-handoff-390-example.png",
+    "ai-coding-dictionary-contextual-knowledge-390-body.png",
+    "ai-coding-dictionary-contextual-knowledge-390-example.png",
+    "ai-coding-dictionary-knowledge-cutoff-390-body.png",
+    "ai-coding-dictionary-knowledge-cutoff-390-example.png",
+    "ai-coding-dictionary-parametric-knowledge-390-body.png",
+    "ai-coding-dictionary-parametric-knowledge-390-example.png",
+    "ai-coding-dictionary-primary-source-390-body.png",
+    "ai-coding-dictionary-primary-source-390-example.png",
+    "ai-coding-dictionary-secondary-source-390-body.png",
+    "ai-coding-dictionary-secondary-source-390-example.png",
+    "ai-coding-dictionary-sycophancy-390-body.png",
+    "ai-coding-dictionary-sycophancy-390-example.png",
+    "ai-coding-dictionary-agent-mode-390-body.png",
+    "ai-coding-dictionary-agent-mode-390-example.png",
+    "ai-coding-dictionary-mcp-390-body.png",
+    "ai-coding-dictionary-mcp-390-example.png",
+    "ai-coding-dictionary-permission-mode-1440-body.png",
+    "ai-coding-dictionary-permission-mode-1440-table-1.png",
+    "ai-coding-dictionary-permission-mode-1440-example.png",
+    "ai-coding-dictionary-permission-mode-390-body.png",
+    "ai-coding-dictionary-permission-mode-390-table-1.png",
+    "ai-coding-dictionary-permission-mode-390-example.png",
+    "ai-coding-dictionary-permission-request-390-body.png",
+    "ai-coding-dictionary-permission-request-390-table-1.png",
+    "ai-coding-dictionary-permission-request-390-example.png",
+    "ai-coding-dictionary-sandbox-390-body.png",
+    "ai-coding-dictionary-sandbox-390-table-1.png",
+    "ai-coding-dictionary-sandbox-390-example.png",
+    "ai-coding-dictionary-subagent-390-body.png",
+    "ai-coding-dictionary-subagent-390-example.png",
+    "ai-coding-dictionary-afk-390-body.png",
+    "ai-coding-dictionary-afk-390-example.png",
+    "ai-coding-dictionary-automated-check-390-body.png",
+    "ai-coding-dictionary-automated-check-390-example.png",
+    "ai-coding-dictionary-automated-review-390-body.png",
+    "ai-coding-dictionary-automated-review-390-example.png",
+    "ai-coding-dictionary-ax-390-body.png",
+    "ai-coding-dictionary-ax-390-table-1.png",
+    "ai-coding-dictionary-ax-390-example.png",
+    "ai-coding-dictionary-dx-390-body.png",
+    "ai-coding-dictionary-dx-390-example.png",
+    "ai-coding-dictionary-human-in-the-loop-390-body.png",
+    "ai-coding-dictionary-human-in-the-loop-390-example.png",
+    "ai-coding-dictionary-human-review-390-body.png",
+    "ai-coding-dictionary-human-review-390-example.png",
+    "ai-coding-dictionary-grilling-390-body.png",
+    "ai-coding-dictionary-grilling-390-example.png",
+    "ai-coding-dictionary-prototyping-390-body.png",
+    "ai-coding-dictionary-prototyping-390-example.png",
+    "ai-coding-dictionary-spec-390-body.png",
+    "ai-coding-dictionary-spec-390-example.png",
+    "ai-coding-dictionary-ticket-390-body.png",
+    "ai-coding-dictionary-ticket-390-example.png",
+    "ai-coding-dictionary-dark-factory-390-body.png",
+    "ai-coding-dictionary-dark-factory-390-example.png",
+    "ai-coding-dictionary-design-concept-390-body.png",
+    "ai-coding-dictionary-design-concept-390-example.png",
+    "ai-coding-dictionary-software-factory-390-body.png",
+    "ai-coding-dictionary-software-factory-390-table-1.png",
+    "ai-coding-dictionary-software-factory-390-example.png",
+    "ai-coding-dictionary-vibe-coding-390-body.png",
+    "ai-coding-dictionary-vibe-coding-390-example.png",
+    "ai-coding-dictionary-1440-top.png",
+    "ai-coding-dictionary-1440-category-1.png",
+    "ai-coding-dictionary-1440-category-2.png",
+    "ai-coding-dictionary-1440-category-3.png",
+    "ai-coding-dictionary-1440-category-4.png",
+    "ai-coding-dictionary-1440-category-5.png",
+    "ai-coding-dictionary-1440-category-6.png",
+    "ai-coding-dictionary-1440-category-7.png",
+    "ai-coding-dictionary-390-top.png",
+    "ai-coding-dictionary-390-category-1.png",
+    "ai-coding-dictionary-390-category-2.png",
+    "ai-coding-dictionary-390-category-3.png",
+    "ai-coding-dictionary-390-category-4.png",
+    "ai-coding-dictionary-390-category-5.png",
+    "ai-coding-dictionary-390-category-6.png",
+    "ai-coding-dictionary-390-category-7.png"
+  ],
+  "manuallyViewedAll": true,
+  "clipboardMatches": 9,
+  "fencedClipboardMatches": 0,
+  "selectedParagraphClipboardMatches": 9,
+  "actualChineseLinkClicks": 61,
+  "dictionaryTermClicks": 71,
+  "originalAnchorChecks": 14,
+  "uiSpecFindings": [
+    "57 term pages require main-definition screenshot coverage; current body captures mostly show subscription footer",
+    "Context-pointer copy selector matched a containing paragraph and must be revalidated"
+  ],
+  "uiSpecApprovedRoutes": [
+    "/ai-coding-dictionary"
+  ],
+  "pages": [
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/stateful",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/stateless",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/agents-md",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/environment",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/filesystem",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/ai",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/inference",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/effort",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/next-token-prediction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-degradation",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-relationship",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/smart-zone",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/autocompact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/clearing",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/compaction",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff-artifact",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/parametric-knowledge",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/primary-source",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/sycophancy",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/agent-mode",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/mcp",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-mode",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/permission-request",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/sandbox",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/afk",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-check",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/automated-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/ax",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/dx",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/human-in-the-loop",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/human-review",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/grilling",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/prototyping",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/spec",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/ticket",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/dark-factory",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/design-concept",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/software-factory",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary/vibe-coding",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary/afk"
+      ]
+    },
+    {
+      "route": "/ai-coding-dictionary",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTargets": [
+        "/ai-coding-dictionary/afk"
+      ]
+    }
+  ]
+}

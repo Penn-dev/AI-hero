@@ -1,0 +1,286 @@
+
+> sites-project@0.1.0 page:test
+> node --test scripts/assemble-page.test.mjs scripts/localized-article.test.mjs
+
+TAP version 13
+# Subtest: Output source-relative Solution accepts the correct absolute URL without changing sources or other pages
+ok 1 - Output source-relative Solution accepts the correct absolute URL without changing sources or other pages
+  ---
+  duration_ms: 353.786552
+  type: 'test'
+  ...
+# Subtest: Output rejects a wrong root Solution even when its later correct link remains, without writing
+ok 2 - Output rejects a wrong root Solution even when its later correct link remains, without writing
+  ---
+  duration_ms: 138.070424
+  type: 'test'
+  ...
+# Subtest: Output rejects bare relative URLs with an actionable message before writing
+ok 3 - Output rejects bare relative URLs with an actionable message before writing
+  ---
+  duration_ms: 145.872738
+  type: 'test'
+  ...
+# Subtest: ordinary article previews without writing, then assembles through the existing index
+ok 4 - ordinary article previews without writing, then assembles through the existing index
+  ---
+  duration_ms: 64.576735
+  type: 'test'
+  ...
+# Subtest: optional learning profile uses the current knowledge file without replacing shared records
+ok 5 - optional learning profile uses the current knowledge file without replacing shared records
+  ---
+  duration_ms: 88.730158
+  type: 'test'
+  ...
+# Subtest: incorrect source hash fails before any write in preview and apply
+ok 6 - incorrect source hash fails before any write in preview and apply
+  ---
+  duration_ms: 19.164269
+  type: 'test'
+  ...
+# Subtest: invalid route, source path, output path and learning config fail without writes
+    # Subtest: source route mismatch
+    ok 1 - source route mismatch
+      ---
+      duration_ms: 13.984346
+      type: 'test'
+      ...
+    # Subtest: unsafe route
+    ok 2 - unsafe route
+      ---
+      duration_ms: 6.873831
+      type: 'test'
+      ...
+    # Subtest: unsafe output
+    ok 3 - unsafe output
+      ---
+      duration_ms: 20.23956
+      type: 'test'
+      ...
+    # Subtest: unknown config field
+    ok 4 - unknown config field
+      ---
+      duration_ms: 9.837497
+      type: 'test'
+      ...
+    # Subtest: invalid learning kind
+    ok 5 - invalid learning kind
+      ---
+      duration_ms: 42.97691
+      type: 'test'
+      ...
+    # Subtest: invalid learning cards
+    ok 6 - invalid learning cards
+      ---
+      duration_ms: 17.80772
+      type: 'test'
+      ...
+    1..6
+ok 7 - invalid route, source path, output path and learning config fail without writes
+  ---
+  duration_ms: 113.468484
+  type: 'test'
+  ...
+# Subtest: an available Chinese link whose indexed body is empty is rejected before writing
+ok 8 - an available Chinese link whose indexed body is empty is rejected before writing
+  ---
+  duration_ms: 37.846532
+  type: 'test'
+  ...
+# Subtest: unfinished batch targets are explicitly recorded while available targets must still be valid
+ok 9 - unfinished batch targets are explicitly recorded while available targets must still be valid
+  ---
+  duration_ms: 29.068277
+  type: 'test'
+  ...
+# Subtest: an actual renderable Chinese target with a stale source version permits assembly and retains the version difference
+ok 10 - an actual renderable Chinese target with a stale source version permits assembly and retains the version difference
+  ---
+  duration_ms: 39.630478
+  type: 'test'
+  ...
+# Subtest: Chinese Prompt can be appended, but changing the English Prompt is rejected without writes
+ok 11 - Chinese Prompt can be appended, but changing the English Prompt is rejected without writes
+  ---
+  duration_ms: 33.11224
+  type: 'test'
+  ...
+# Subtest: content structure, original inline code, resources and renderer support are checked before writes
+    # Subtest: missing heading
+    ok 1 - missing heading
+      ---
+      duration_ms: 30.28591
+      type: 'test'
+      ...
+    # Subtest: missing inline code
+    ok 2 - missing inline code
+      ---
+      duration_ms: 16.323135
+      type: 'test'
+      ...
+    # Subtest: missing resource
+    ok 3 - missing resource
+      ---
+      duration_ms: 19.033634
+      type: 'test'
+      ...
+    # Subtest: unknown MDX
+    ok 4 - unknown MDX
+      ---
+      duration_ms: 18.231976
+      type: 'test'
+      ...
+    # Subtest: JavaScript expression
+    ok 5 - JavaScript expression
+      ---
+      duration_ms: 27.960166
+      type: 'test'
+      ...
+    # Subtest: unmarked new code
+    ok 6 - unmarked new code
+      ---
+      duration_ms: 19.776
+      type: 'test'
+      ...
+    1..6
+ok 12 - content structure, original inline code, resources and renderer support are checked before writes
+  ---
+  duration_ms: 133.138244
+  type: 'test'
+  ...
+# Subtest: a filesystem failure after target replacement restores every file, including the previous translation
+ok 13 - a filesystem failure after target replacement restores every file, including the previous translation
+  ---
+  duration_ms: 28.468228
+  type: 'test'
+  ...
+# Subtest: a target cannot overwrite another page translation or shared knowledge source
+ok 14 - a target cannot overwrite another page translation or shared knowledge source
+  ---
+  duration_ms: 17.936721
+  type: 'test'
+  ...
+# Subtest: updating one of seventeen pages preserves the other sixteen pages and refreshes only its translation source
+ok 15 - updating one of seventeen pages preserves the other sixteen pages and refreshes only its translation source
+  ---
+  duration_ms: 32.249086
+  type: 'test'
+  ...
+# Subtest: content validation checks every renderable translation status, file hash and indexed body
+ok 16 - content validation checks every renderable translation status, file hash and indexed body
+  ---
+  duration_ms: 46.508998
+  type: 'test'
+  ...
+# Subtest: available Chinese targets are checked against their files and manifest, not just a nonempty index
+ok 17 - available Chinese targets are checked against their files and manifest, not just a nonempty index
+  ---
+  duration_ms: 20.781192
+  type: 'test'
+  ...
+# Subtest: unsafe symlink destinations fail during preview as well as apply
+ok 18 - unsafe symlink destinations fail during preview as well as apply
+  ---
+  duration_ms: 15.332238
+  type: 'test'
+  ...
+# Subtest: invalid auxiliary source hashes and changes to another page source are refused
+ok 19 - invalid auxiliary source hashes and changes to another page source are refused
+  ---
+  duration_ms: 20.096526
+  type: 'test'
+  ...
+# Subtest: interrupted writes keep a recovery journal and can restore the original files explicitly
+ok 20 - interrupted writes keep a recovery journal and can restore the original files explicitly
+  ---
+  duration_ms: 46.981656
+  type: 'test'
+  ...
+# Subtest: a symlink within the workspace cannot redirect translation writes into source files
+ok 21 - a symlink within the workspace cannot redirect translation writes into source files
+  ---
+  duration_ms: 15.372327
+  type: 'test'
+  ...
+# Subtest: the actual existing site index and all seventeen manifest records survive adding an ordinary fixture page
+ok 22 - the actual existing site index and all seventeen manifest records survive adding an ordinary fixture page
+  ---
+  duration_ms: 123.274558
+  type: 'test'
+  ...
+# Subtest: shared records changed during preparation are preserved instead of overwritten by a stale plan
+ok 23 - shared records changed during preparation are preserved instead of overwritten by a stale plan
+  ---
+  duration_ms: 33.382372
+  type: 'test'
+  ...
+# Subtest: an auxiliary source used by another page cannot be silently replaced
+ok 24 - an auxiliary source used by another page cannot be silently replaced
+  ---
+  duration_ms: 31.894169
+  type: 'test'
+  ...
+# Subtest: shared evidence can move to a verified same-hash snapshot while other records and pages stay unchanged
+ok 25 - shared evidence can move to a verified same-hash snapshot while other records and pages stay unchanged
+  ---
+  duration_ms: 70.476496
+  type: 'test'
+  ...
+# Subtest: changing the target translation path keeps its existing profile pointed at the newly assembled file
+ok 26 - changing the target translation path keeps its existing profile pointed at the newly assembled file
+  ---
+  duration_ms: 54.277109
+  type: 'test'
+  ...
+# Subtest: workshop text prompts are not labelled as original code
+ok 27 - workshop text prompts are not labelled as original code
+  ---
+  duration_ms: 29.357484
+  type: 'test'
+  ...
+# Subtest: public articles with an independent glossary retain original resources and Chinese term controls
+ok 28 - public articles with an independent glossary retain original resources and Chinese term controls
+  ---
+  duration_ms: 39.265692
+  type: 'test'
+  ...
+# Subtest: explicit historical review keeps Chinese-only links and its term controls
+ok 29 - explicit historical review keeps Chinese-only links and its term controls
+  ---
+  duration_ms: 13.946865
+  type: 'test'
+  ...
+# Subtest: explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English
+ok 30 - explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English
+  ---
+  duration_ms: 14.206323
+  type: 'test'
+  ...
+# Subtest: the home page displays the frozen original homepage content instead of historical placeholder statistics
+ok 31 - the home page displays the frozen original homepage content instead of historical placeholder statistics
+  ---
+  duration_ms: 198.987405
+  type: 'test'
+  ...
+# Subtest: the home page offers a separate directory with every available Chinese deep route
+ok 32 - the home page offers a separate directory with every available Chinese deep route
+  ---
+  duration_ms: 124.904961
+  type: 'test'
+  ...
+# Subtest: deep-page static routes exclude the separately owned homepage
+ok 33 - deep-page static routes exclude the separately owned homepage
+  ---
+  duration_ms: 160.284546
+  type: 'test'
+  ...
+1..33
+# tests 45
+# suites 0
+# pass 45
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2272.830545

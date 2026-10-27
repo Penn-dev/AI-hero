@@ -1,0 +1,50 @@
+{
+  "route": "/ai-coding-dictionary/prefix-cache",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/prefix-cache.md",
+    "sha256": "9101031d9fd11f9e7f593a8ec5038ad595d6f0bda46622f0cb8ebe5634d3a295"
+  },
+  "chineseFile": "reports/full-site/content-a/A04/drafts/prefix-cache.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/cache-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model-provider-request",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/session",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/turn",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "route": "/ai-coding-dictionary/next-token-prediction",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/next-token-prediction.md",
+    "sha256": "2e4540175092bb37efd464961daf8df3e6339d500464e6d16c8b162a247d8ed7"
+  },
+  "chineseFile": "reports/full-site/content-a/A08/drafts/next-token-prediction.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/non-determinism",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/output-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

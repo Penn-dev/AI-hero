@@ -1,0 +1,9 @@
+{
+  "route": "/what-are-tokens",
+  "source": {
+    "path": "content/source/what-are-tokens.md",
+    "sha256": "2a64fce2291858c58f05526228e575cd323663e0ca3a2dfbaed87ce3fe591013"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-01/drafts/what-are-tokens.md",
+  "translationPath": "content/zh/what-are-tokens.md"
+}

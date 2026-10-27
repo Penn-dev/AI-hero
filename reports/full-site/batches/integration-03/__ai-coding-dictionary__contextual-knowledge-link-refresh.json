@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A11/configs/contextual-knowledge.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "manifest": {
+        "route": "/ai-coding-dictionary/contextual-knowledge",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
+        "sourceHash": "0c15b23805522a808d4403bdf9ab5e696ea027a493dc5c758f343edd2305c811",
+        "translationPath": "content/zh/ai-coding-dictionary/contextual-knowledge.md",
+        "translationHash": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:48.580Z",
+        "assembly": {
+          "configHash": "2c6f8a50acc9cf0466cf74662b0c4e4a3b373f48b6d36e6a53b0c915ec44b999",
+          "checkedAt": "2026-10-13T12:19:48.580Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/contextual-knowledge.md",
+          "sha256": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "5f4d04ee0cf7f21db722f073b4a5a74d3896c139897d83618df6ffb08e19d6a9"
+        }
+      ],
+      "rawOutputSha256": "6ec97e91ccc163e54221ab15478ce76a6b8610b0bce98f07b905ca31235b7ad4"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "manifest": {
+        "route": "/ai-coding-dictionary/contextual-knowledge",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/contextual-knowledge",
+        "sourceHash": "0c15b23805522a808d4403bdf9ab5e696ea027a493dc5c758f343edd2305c811",
+        "translationPath": "content/zh/ai-coding-dictionary/contextual-knowledge.md",
+        "translationHash": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:48.813Z",
+        "assembly": {
+          "configHash": "2c6f8a50acc9cf0466cf74662b0c4e4a3b373f48b6d36e6a53b0c915ec44b999",
+          "checkedAt": "2026-10-13T12:19:48.813Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/contextual-knowledge.md",
+          "sha256": "3771db974cfc10e0dc495f5b9dbada281b3243a31b204b6deb42f75e3f9f5396"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "7a4c88cbb7effbd75fb06041f38f39265027313394c82f412223e7348bea9299"
+        }
+      ],
+      "rawOutputSha256": "2f193e5e7de725b4701b31387f627a61c668a8ceb1707402e5c3f0f846972025"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

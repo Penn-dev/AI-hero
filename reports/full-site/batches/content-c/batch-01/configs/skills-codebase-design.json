@@ -1,0 +1,22 @@
+{
+  "route": "/skills-codebase-design",
+  "source": {
+    "path": "content/source/skills-codebase-design.md",
+    "sha256": "db0ebbfc7918a688024c4c080dbbd8220fcd440948b50d82b672e214f6ff3996"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-01/drafts/skills-codebase-design.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/skill",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/subagent",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "route": "/skills-writing-for-agents",
+  "source": {
+    "path": "content/source/skills-writing-for-agents.md",
+    "sha256": "d830a22e3f1590c7a8daa55e69dc85b938f1995097056eb3625abb3ecd8a0544"
+  },
+  "chineseFile": "reports/full-site/batches/content-c/batch-05/drafts/skills-writing-for-agents.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary/context-pointer",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/progressive-disclosure",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

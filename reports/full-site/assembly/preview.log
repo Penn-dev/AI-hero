@@ -1,0 +1,52 @@
+{
+  "mode": "preview",
+  "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+  "page": {
+    "title": "2 分钟了解 Anthropic 新发布的模型上下文协议",
+    "description": "通过基于 JSON-RPC 的开放协议，以及 TypeScript 和 Python SDK，将 AI 助手轻松连接到数据系统。",
+    "markdown": "Anthropic [发布了一项新的开放标准](https://www.anthropic.com/news/model-context-protocol)，用于连接“AI 助手与存放数据的系统”。这项标准名为模型上下文协议（Model Context Protocol，MCP）。\n\nMCP 是一种基于 JSON-RPC 的协议，可以让大语言模型（LLM；本文指 Claude）与持续运行的服务器通信。Claude 可以先询问服务器提供了哪些工具，再选择并调用所需的工具。\n\n官方还提供了 TypeScript 和 Python SDK，方便你创建自己的 MCP 服务器，将 AI 助手接入自己的数据源，或让它执行自定义操作。\n\n## 中文学习辅助：术语小词典\n\n- **模型上下文协议（Model Context Protocol，MCP）**：一套开放的通用规则，让 AI 助手能够以统一方式连接外部系统，并使用其中的数据和工具。\n- **JSON-RPC**：一种用 JSON 格式传递请求和响应的通信规范，可以简单理解为两个程序之间“互相发指令、回结果”的约定。\n- **大语言模型（LLM）**：能够理解和生成自然语言的 AI 模型，Claude 就是其中一种。\n- **服务器（server）**：持续运行并等待请求的程序，可以向其他程序提供数据或功能。\n- **SDK**：软件开发工具包，通常包含现成代码和使用说明，帮助开发者更快接入某项技术。\n- **TypeScript**：一种在 JavaScript 基础上加入类型检查的编程语言，常用于开发网页和服务端程序。\n- **Python**：一种语法相对易读的编程语言，广泛用于 AI、数据处理和服务端开发。",
+    "sourceUrl": "https://www.aihero.dev/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+    "sourceHash": "c5585ac7cfc22c4a4c40941343ac04119a28e962bb3f086dd351a95e689f64c6",
+    "sourceUpdatedAt": "2024-11-25T19:29:39.269Z",
+    "translatedAt": "2026-09-14T10:26:47.492Z",
+    "readingTime": "2 分钟"
+  },
+  "manifest": {
+    "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+    "sourceUrl": "https://www.aihero.dev/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+    "sourceHash": "c5585ac7cfc22c4a4c40941343ac04119a28e962bb3f086dd351a95e689f64c6",
+    "translationPath": "content/zh/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
+    "translationHash": "9c6dc1734116231cceaaf9c29da3b9c1dc08e19faf0a85e3cb8c4a559f2323ec",
+    "status": "assembled",
+    "assembledAt": "2026-10-13T04:05:04.894Z",
+    "assembly": {
+      "configHash": "02f1ebc1c80cb5a5b552a7e3c7a8d0acd4e56b2681635223f25e7355fcc67957",
+      "checkedAt": "2026-10-13T04:05:04.894Z",
+      "checks": [
+        "source-hash",
+        "config",
+        "content-structure",
+        "original-blocks",
+        "inline-code",
+        "source-resources",
+        "chinese-targets"
+      ],
+      "plannedChineseTargets": []
+    }
+  },
+  "plannedChineseTargets": [],
+  "outputs": [
+    {
+      "path": "content/zh/anthropics-new-model-context-protocol-in-2-minutes~hc0tx.md",
+      "sha256": "9c6dc1734116231cceaaf9c29da3b9c1dc08e19faf0a85e3cb8c4a559f2323ec"
+    },
+    {
+      "path": "content/zh/index.json",
+      "sha256": "c788006831b86e49545250dba9bc212b0cc1bca709b3b59238aaf2c552ab8186"
+    },
+    {
+      "path": "content/zh/manifest.json",
+      "sha256": "5facd8cd3157991ffb928716e3dd6aa6e5b210a2110b63ca93f3c58b10f9265b"
+    }
+  ]
+}

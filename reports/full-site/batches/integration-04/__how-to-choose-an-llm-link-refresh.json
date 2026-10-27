@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-03/configs/how-to-choose-an-llm.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/how-to-choose-an-llm",
+      "manifest": {
+        "route": "/how-to-choose-an-llm",
+        "sourceUrl": "https://www.aihero.dev/how-to-choose-an-llm",
+        "sourceHash": "25b8b5bb3ebbe1fe88f002c69da7119362f3584029f07dbde2e6bd11070d09e5",
+        "translationPath": "content/zh/how-to-choose-an-llm.md",
+        "translationHash": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:14.837Z",
+        "assembly": {
+          "configHash": "01a41f9610e9a972bb25dfdf3d793f0b11dadcab85cfcd58d0710a64d904e607",
+          "checkedAt": "2026-10-13T12:38:14.837Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-choose-an-llm.md",
+          "sha256": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "3e31ada26e7dafef039a33d0ec7d1f3982f3b49aa51489efe42867303356caff"
+        }
+      ],
+      "rawOutputSha256": "d8dbb717c34de2ca331ce2de6e2037f1dc7c177c2d906882924e086538b20439"
+    },
+    {
+      "mode": "apply",
+      "route": "/how-to-choose-an-llm",
+      "manifest": {
+        "route": "/how-to-choose-an-llm",
+        "sourceUrl": "https://www.aihero.dev/how-to-choose-an-llm",
+        "sourceHash": "25b8b5bb3ebbe1fe88f002c69da7119362f3584029f07dbde2e6bd11070d09e5",
+        "translationPath": "content/zh/how-to-choose-an-llm.md",
+        "translationHash": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:38:15.074Z",
+        "assembly": {
+          "configHash": "01a41f9610e9a972bb25dfdf3d793f0b11dadcab85cfcd58d0710a64d904e607",
+          "checkedAt": "2026-10-13T12:38:15.074Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/how-to-choose-an-llm.md",
+          "sha256": "22392dedfab7ae49f190d8cd6427fdb3728ea95eade38a8105f11068f9fd4612"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "91fc59917fb0375d0c38f7978f1dbb222494f60561dc37493a9fc79a3dd84ab1"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "0a1b4ca157ac85ceae1cc55be9a7a3b84ced60e05ec9129e5c4dc2f913260964"
+        }
+      ],
+      "rawOutputSha256": "21dd3f949e46666a53c3a74a03b4aa294aa3b449b291bf6523cc063fa10852bd"
+    }
+  ],
+  "nonTargetPagesPreserved": 150
+}

@@ -1,0 +1,30 @@
+{
+  "route": "/ai-coding-dictionary/ai",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/ai.md",
+    "sha256": "46a2a3be696a87b1059b9ea43819305463ce94a7a5cef23466e9d1824cb57a31"
+  },
+  "chineseFile": "reports/full-site/content-a/A07/drafts/ai.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/harness",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "sitemapCandidates": 196,
+  "uniqueSourceRoutes": 195,
+  "downloaded": 195,
+  "noMarkdown": 0,
+  "translated": 18,
+  "renderable": 18,
+  "errors": [
+    "Translation source hash mismatch: /skills-codebase-design",
+    "Translation source hash mismatch: /ai-coding-dictionary/agent",
+    "Translation source hash mismatch: /ai-coding-dictionary/context-window",
+    "Translation source hash mismatch: /ai-coding-dictionary/tool-call",
+    "Translation source hash mismatch: /ai-coding-dictionary/prefix-cache",
+    "Translation source hash mismatch: /ai-coding-dictionary/memory-system",
+    "Translation source hash mismatch: /ai-coding-dictionary/hallucination",
+    "Translation source hash mismatch: /ai-coding-dictionary/progressive-disclosure"
+  ]
+}

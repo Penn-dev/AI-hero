@@ -1,0 +1,555 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-16/configs/home.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/",
+      "manifest": {
+        "route": "/",
+        "sourceUrl": "https://www.aihero.dev/",
+        "sourceHash": "3942208060725a8c24a3883fd703a9a975c65d0dc9cfc3ea14840001c83d4378",
+        "translationPath": "content/zh/home.md",
+        "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:13:31.513Z",
+        "assembly": {
+          "configHash": "326479bca4ab3d1741da5e205b9b9b8322a707660739ff69f7020cc3629b6c3a",
+          "checkedAt": "2026-10-13T13:13:31.513Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills/subscribe",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-setup-matt-pocock-skills",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-ask-matt",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-tickets",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-implement",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-code-review",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-retro",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-wayfinder",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-prototype",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-research",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-improve-codebase-architecture",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-diagnosing-bugs",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-triage",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-wizard",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-implement-spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grill-me",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-handoff",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-questionnaire",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-teach",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-wait-what",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-writing-for-agents",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-pr",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-codebase-design",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-domain-modeling",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grilling",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-tdd",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/what-is-an-llm",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/what-is-the-context-window",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/what-are-tokens",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/a-complete-guide-to-agents-md",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/plan-mode-introduction",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/never-run-claude-init",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skill-test-driven-development-claude-code",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/tips-for-ai-coding-with-ralph-wiggum",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/my-grill-me-skill-has-gone-viral",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/real-world-feature-build-with-claude-code",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/tracer-bullets",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/how-to-make-codebases-ai-agents-love",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/home.md",
+          "sha256": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "b25fe2fd63cc6d61972c4017249e67366f15f589c13524434e5669cc37393a80"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c433c3bdccb39f8c0c7e0664186c7e61b864d171a243ea097b4639fa426b0026"
+        }
+      ],
+      "rawOutputSha256": "797100d11feb5deefa991ed733dd78adc954cc7c1373fb8dc5f575f545f0e6b0"
+    },
+    {
+      "mode": "apply",
+      "route": "/",
+      "manifest": {
+        "route": "/",
+        "sourceUrl": "https://www.aihero.dev/",
+        "sourceHash": "3942208060725a8c24a3883fd703a9a975c65d0dc9cfc3ea14840001c83d4378",
+        "translationPath": "content/zh/home.md",
+        "translationHash": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:13:31.844Z",
+        "assembly": {
+          "configHash": "326479bca4ab3d1741da5e205b9b9b8322a707660739ff69f7020cc3629b6c3a",
+          "checkedAt": "2026-10-13T13:13:31.844Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/skills/subscribe",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-setup-matt-pocock-skills",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-ask-matt",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-tickets",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-implement",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-code-review",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-retro",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-wayfinder",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-prototype",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-research",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-improve-codebase-architecture",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-diagnosing-bugs",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-triage",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-wizard",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-implement-spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grill-me",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-handoff",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-questionnaire",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-teach",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-wait-what",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-writing-for-agents",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-pr",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-codebase-design",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-domain-modeling",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grilling",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-tdd",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/what-is-an-llm",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/what-is-the-context-window",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/what-are-tokens",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/a-complete-guide-to-agents-md",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/plan-mode-introduction",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/never-run-claude-init",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skill-test-driven-development-claude-code",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/essential-ai-coding-feedback-loops-for-type-script-projects",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/getting-started-with-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/heres-how-to-stream-claude-code-with-afk-ralph",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/tips-for-ai-coding-with-ralph-wiggum",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-changelog-ubiquitous-language-grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/my-grill-me-skill-has-gone-viral",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/real-world-feature-build-with-claude-code",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/tracer-bullets",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/how-to-make-codebases-ai-agents-love",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            },
+            {
+              "route": "/things-people-get-wrong-with-grill-me-and-grill-with-docs",
+              "state": "planned-chinese",
+              "reason": "固定195范围中文目标，待工程接入确认后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/home.md",
+          "sha256": "a8851902e12f390f10b9fc704a6e28906d442f51d2f465e8dbe18993d9576163"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "b25fe2fd63cc6d61972c4017249e67366f15f589c13524434e5669cc37393a80"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "31d077511384cbc546f234991535519b1214a711ca363f4def08e86445660e2f"
+        }
+      ],
+      "rawOutputSha256": "20c09457e3e310a74fa521b474d6ac3a9af0fd731df9d61368fad4108c4292b7"
+    }
+  ],
+  "nonTargetPagesPreserved": 194
+}

@@ -1,0 +1,354 @@
+{
+  "candidate": "829a10e7eebcc6fc935e82a385e5b72e60a125a0",
+  "runId": "38395456927",
+  "viewports": 30,
+  "uniqueRoutes": 23,
+  "screenshots": 38,
+  "screenshotHashesPassed": true,
+  "manuallyViewedScreenshotFiles": [
+    "ai-coding-dictionary-tool-call-390-table.png",
+    "ai-coding-dictionary-tool-result-390-table.png",
+    "ai-coding-dictionary-tool-390-table.png",
+    "ai-coding-dictionary-hallucination-1440-table.png",
+    "ai-coding-dictionary-hallucination-390-table.png",
+    "ai-coding-dictionary-memory-system-390-examples.png",
+    "ai-coding-dictionary-prefix-cache-390-examples.png",
+    "anthropics-new-model-context-protocol-in-2-minutes~hc0tx-390-body.png",
+    "how-does-the-model-context-protocol-work-390-code.png",
+    "logging-a-huge-mcp-footgun-390-code.png",
+    "mcp-server-from-a-single-typescript-file-1440-steps.png",
+    "mcp-server-from-a-single-typescript-file-390-steps.png",
+    "model-context-protocol-tutorial-390-body.png",
+    "publish-your-mcp-server-to-npm-390-code.png",
+    "the-problem-with-mcp-stateful-server-390-code.png",
+    "using-mcp-prompts-1440-steps.png",
+    "using-mcp-prompts-390-steps.png",
+    "skills-catalog-390-code.png",
+    "skills-codebase-design-1440-intro-emphasis.png",
+    "skills-codebase-design-1440-depth-emphasis.png",
+    "skills-codebase-design-1440-module-emphasis.png",
+    "skills-codebase-design-390-intro-emphasis.png",
+    "skills-codebase-design-390-depth-emphasis.png",
+    "skills-codebase-design-390-module-emphasis.png",
+    "skills-wait-what-390-code.png",
+    "skills-subscribe-390-body.png",
+    "skills-resolving-merge-conflicts-390-table.png",
+    "skills-390-code.png",
+    "what-is-an-llm-1440-model-emphasis.png",
+    "what-is-an-llm-1440-inference-emphasis.png",
+    "what-is-an-llm-1440-sampling-emphasis.png",
+    "what-is-an-llm-390-model-emphasis.png",
+    "what-is-an-llm-390-inference-emphasis.png",
+    "what-is-an-llm-390-sampling-emphasis.png",
+    "ai-coding-dictionary-agent-1440-agent-emphasis.png",
+    "ai-coding-dictionary-agent-390-agent-emphasis.png",
+    "ai-coding-dictionary-context-window-1440-window-emphasis.png",
+    "ai-coding-dictionary-context-window-390-window-emphasis.png"
+  ],
+  "manuallyViewedAll": true,
+  "clipboardMatches": 77,
+  "actualChineseLinkClicks": 16,
+  "uiSpecFindings": [],
+  "pages": [
+    {
+      "route": "/ai-coding-dictionary/tool-call",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/harness"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool-result",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/context"
+    },
+    {
+      "route": "/ai-coding-dictionary/tool",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/context"
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/model"
+    },
+    {
+      "route": "/ai-coding-dictionary/hallucination",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/model"
+    },
+    {
+      "route": "/ai-coding-dictionary/memory-system",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/harness"
+    },
+    {
+      "route": "/ai-coding-dictionary/prefix-cache",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/harness"
+    },
+    {
+      "route": "/anthropics-new-model-context-protocol-in-2-minutes~hc0tx",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": null
+    },
+    {
+      "route": "/how-does-the-model-context-protocol-work",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 9,
+      "chineseTarget": null
+    },
+    {
+      "route": "/logging-a-huge-mcp-footgun",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 4,
+      "chineseTarget": null
+    },
+    {
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 6,
+      "chineseTarget": null
+    },
+    {
+      "route": "/mcp-server-from-a-single-typescript-file",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 6,
+      "chineseTarget": null
+    },
+    {
+      "route": "/model-context-protocol-tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": null
+    },
+    {
+      "route": "/publish-your-mcp-server-to-npm",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTarget": null
+    },
+    {
+      "route": "/the-problem-with-mcp-stateful-server",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 3,
+      "chineseTarget": null
+    },
+    {
+      "route": "/using-mcp-prompts",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTarget": null
+    },
+    {
+      "route": "/using-mcp-prompts",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 7,
+      "chineseTarget": null
+    },
+    {
+      "route": "/skills-catalog",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 1,
+      "chineseTarget": "/ai-coding-dictionary/agent"
+    },
+    {
+      "route": "/skills-codebase-design",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 3,
+      "chineseTarget": "/ai-coding-dictionary/agent"
+    },
+    {
+      "route": "/skills-codebase-design",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 3,
+      "chineseTarget": "/ai-coding-dictionary/agent"
+    },
+    {
+      "route": "/skills-wait-what",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 3,
+      "chineseTarget": "/ai-coding-dictionary/agent"
+    },
+    {
+      "route": "/skills/subscribe",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": null
+    },
+    {
+      "route": "/skills-resolving-merge-conflicts",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": null
+    },
+    {
+      "route": "/skills",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 2,
+      "chineseTarget": "/ai-coding-dictionary/agent"
+    },
+    {
+      "route": "/what-is-an-llm",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 8,
+      "chineseTarget": null
+    },
+    {
+      "route": "/what-is-an-llm",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 8,
+      "chineseTarget": null
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/harness"
+    },
+    {
+      "route": "/ai-coding-dictionary/agent",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/harness"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/context"
+    },
+    {
+      "route": "/ai-coding-dictionary/context-window",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyMatchesReviewedCandidate": true,
+      "clipboardVerified": 0,
+      "chineseTarget": "/ai-coding-dictionary/context"
+    }
+  ]
+}

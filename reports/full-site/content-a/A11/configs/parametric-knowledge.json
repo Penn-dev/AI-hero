@@ -1,0 +1,38 @@
+{
+  "route": "/ai-coding-dictionary/parametric-knowledge",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/parametric-knowledge.md",
+    "sha256": "eea5dc47fbe93157d2f9c3447977f19edf5a98ab5e121a6eb1d55d768bd82c60"
+  },
+  "chineseFile": "reports/full-site/content-a/A11/drafts/parametric-knowledge.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/contextual-knowledge",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/knowledge-cutoff",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/model",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/parameters",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/training",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-01/configs/skills-codebase-design.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-codebase-design",
+      "manifest": {
+        "route": "/skills-codebase-design",
+        "sourceUrl": "https://www.aihero.dev/skills-codebase-design",
+        "sourceHash": "db0ebbfc7918a688024c4c080dbbd8220fcd440948b50d82b672e214f6ff3996",
+        "translationPath": "content/zh/skills-codebase-design.md",
+        "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:28.973Z",
+        "assembly": {
+          "configHash": "574e47cca16f8af530419c154b8928c0b64d1478a5dfb1238d5c5bc1e8a7a679",
+          "checkedAt": "2026-10-13T11:56:28.973Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-codebase-design.md",
+          "sha256": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "fd7fe3d2481662b9242f89c190e8f8370f945f4106516002b7e8cf6714ca9a17"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "35b6b6200d011b16a3fec7718fdb98a5b433e0d9bf1d145c1e79ed988ad48cd8"
+        }
+      ],
+      "rawOutputSha256": "b931f1f4126f3b7e0c1382f35a12c959442251289ffb86c4f7587730252e8b6c"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-codebase-design",
+      "manifest": {
+        "route": "/skills-codebase-design",
+        "sourceUrl": "https://www.aihero.dev/skills-codebase-design",
+        "sourceHash": "db0ebbfc7918a688024c4c080dbbd8220fcd440948b50d82b672e214f6ff3996",
+        "translationPath": "content/zh/skills-codebase-design.md",
+        "translationHash": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T11:56:29.277Z",
+        "assembly": {
+          "configHash": "574e47cca16f8af530419c154b8928c0b64d1478a5dfb1238d5c5bc1e8a7a679",
+          "checkedAt": "2026-10-13T11:56:29.277Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/skill",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            },
+            {
+              "route": "/ai-coding-dictionary/subagent",
+              "state": "planned-chinese",
+              "reason": "内容 A 分批接入；工程按最终中文页实际状态刷新此引用。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-codebase-design.md",
+          "sha256": "f92a90f5a1a44414e54de782affc7d6f1b311a668f8f520da4be4c2b12b93579"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "fd7fe3d2481662b9242f89c190e8f8370f945f4106516002b7e8cf6714ca9a17"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d01adafd4f018e3a0c24366c2a1dd20787482ecb2cde518073deb94331eaee52"
+        }
+      ],
+      "rawOutputSha256": "ca56de66ec0ae5e2ec73ad30acb1bcce2274ae7b4a944c0c311405f0d1f36e79"
+    }
+  ],
+  "nonTargetPagesPreserved": 35
+}

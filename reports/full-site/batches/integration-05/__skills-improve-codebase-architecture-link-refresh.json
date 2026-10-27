@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-c/batch-16/configs/skills-improve-codebase-architecture.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/skills-improve-codebase-architecture",
+      "manifest": {
+        "route": "/skills-improve-codebase-architecture",
+        "sourceUrl": "https://www.aihero.dev/skills-improve-codebase-architecture",
+        "sourceHash": "5215a048953e975ddf53527ed489c4d395ef8fc1558ac005f37f80175e90b6d0",
+        "translationPath": "content/zh/skills-improve-codebase-architecture.md",
+        "translationHash": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:41.637Z",
+        "assembly": {
+          "configHash": "1e846de097b9828174b96cb7e4cec454d3eec2821baddff782ff19dc0d04f836",
+          "checkedAt": "2026-10-13T13:02:41.637Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-improve-codebase-architecture.md",
+          "sha256": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "c620a2cdd66938a428d69f2cf44260efddc09017d75f9d49b1ca7ced7f6dcc5b"
+        }
+      ],
+      "rawOutputSha256": "9333707925adad33fac3a488f093666cf921167f86bcb146124569f34db95b8d"
+    },
+    {
+      "mode": "apply",
+      "route": "/skills-improve-codebase-architecture",
+      "manifest": {
+        "route": "/skills-improve-codebase-architecture",
+        "sourceUrl": "https://www.aihero.dev/skills-improve-codebase-architecture",
+        "sourceHash": "5215a048953e975ddf53527ed489c4d395ef8fc1558ac005f37f80175e90b6d0",
+        "translationPath": "content/zh/skills-improve-codebase-architecture.md",
+        "translationHash": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:02:41.875Z",
+        "assembly": {
+          "configHash": "1e846de097b9828174b96cb7e4cec454d3eec2821baddff782ff19dc0d04f836",
+          "checkedAt": "2026-10-13T13:02:41.875Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/skills-improve-codebase-architecture.md",
+          "sha256": "b79b6fd384b30ced903a972311294d644025348c4199bc6120627c976ef09956"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "226741d421f6bc4c33b2d0d0c00b970cbf1cd35cf183788db0b9e16db8407000"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "e979c88e02f6c2ccab8d1dfd80e72d99d253d3cd3d8bfb4ccc9522371ee56657"
+        }
+      ],
+      "rawOutputSha256": "6ff1ec0e983b01942963ccf094753180decba0b5a41dbd9a2626eef79fba2958"
+    }
+  ],
+  "nonTargetPagesPreserved": 165
+}

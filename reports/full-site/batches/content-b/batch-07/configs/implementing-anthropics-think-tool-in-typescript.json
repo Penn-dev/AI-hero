@@ -1,0 +1,15 @@
+{
+  "route": "/implementing-anthropics-think-tool-in-typescript",
+  "source": {
+    "path": "content/source/implementing-anthropics-think-tool-in-typescript.md",
+    "sha256": "a854a81f6be2e647cb0140560a2e4e197094fb272c83133b111488d58a65bd4f"
+  },
+  "chineseFile": "reports/full-site/batches/content-b/batch-07/drafts/implementing-anthropics-think-tool-in-typescript.md",
+  "translationPath": "content/zh/implementing-anthropics-think-tool-in-typescript.md",
+  "linkTargets": [
+    {
+      "route": "/vercel-ai-sdk-tutorial",
+      "state": "available-chinese"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "candidate": "a367047032f52e36047f58d64fb2f394450a1c21",
+  "method": "Exact fixed acquireStartLock function in two actual Node processes. Filesystem rmSync is paused at deterministic barriers solely to expose the valid A/B interleaving; no application process was started or killed.",
+  "results": [
+    {
+      "id": "A",
+      "code": 0,
+      "stdout": "{\"owner\":\"A\",\"acquireReturned\":true}\n",
+      "stderr": ""
+    },
+    {
+      "id": "B",
+      "code": 0,
+      "stdout": "{\"owner\":\"B\",\"acquireReturned\":true}\n",
+      "stderr": ""
+    }
+  ],
+  "finalLock": {
+    "processId": 16,
+    "owner": "B"
+  },
+  "problem": "Both processes returned ownsLock=true; B removed the live lock A had just acquired."
+}

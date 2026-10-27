@@ -1,0 +1,38 @@
+{
+  "route": "/ai-coding-dictionary/primary-source",
+  "source": {
+    "path": "content/source/ai-coding-dictionary/primary-source.md",
+    "sha256": "d7de1ef47f677a3e0fd3ee8303be41617ae850964bb3ef5ce936e007ce8e1c91"
+  },
+  "chineseFile": "reports/full-site/content-a/A11/drafts/primary-source.md",
+  "linkTargets": [
+    {
+      "route": "/ai-coding-dictionary",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/attention-budget",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/context",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/handoff",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/input-tokens",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/secondary-source",
+      "state": "available-chinese"
+    },
+    {
+      "route": "/ai-coding-dictionary/token",
+      "state": "available-chinese"
+    }
+  ]
+}

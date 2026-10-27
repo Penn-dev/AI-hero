@@ -1,0 +1,275 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-14/configs/grill-with-docs.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/grill-with-docs",
+      "manifest": {
+        "route": "/grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/grill-with-docs",
+        "sourceHash": "b85b3ecda8bfc87b933be848c968dcaf22bbc5fbe75f34e37652bb22f0b2065e",
+        "translationPath": "content/zh/grill-with-docs.md",
+        "translationHash": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:37.427Z",
+        "assembly": {
+          "configHash": "fe53eabdcd8a04840f51593a7a10665ef81c11e52a53acbcd8a611b9615ea2d0",
+          "checkedAt": "2026-10-13T13:04:37.427Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/agent",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grill-me",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/stateful",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-wayfinder",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-questionnaire",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grilling",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-domain-modeling",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/effort",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-improve-codebase-architecture",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-implement",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-ask-matt",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/grill-with-docs.md",
+          "sha256": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "39adb47280fe46a6590790e6121b9af31ed83469e2a996add0471feb11bdc829"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "bb988e3dc5da3e9c02c106f845ff95a4a66f1d7a7e701f1a9e7daad62f49b8bb"
+        }
+      ],
+      "rawOutputSha256": "de83c5420d98f3dd9944826716bbc5877e0a572b94017c726cb243c5972de198"
+    },
+    {
+      "mode": "apply",
+      "route": "/grill-with-docs",
+      "manifest": {
+        "route": "/grill-with-docs",
+        "sourceUrl": "https://www.aihero.dev/grill-with-docs",
+        "sourceHash": "b85b3ecda8bfc87b933be848c968dcaf22bbc5fbe75f34e37652bb22f0b2065e",
+        "translationPath": "content/zh/grill-with-docs.md",
+        "translationHash": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T13:04:37.712Z",
+        "assembly": {
+          "configHash": "fe53eabdcd8a04840f51593a7a10665ef81c11e52a53acbcd8a611b9615ea2d0",
+          "checkedAt": "2026-10-13T13:04:37.712Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary/agent",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grill-me",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/stateful",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/session",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-wayfinder",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-questionnaire",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-grilling",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-domain-modeling",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/context-window",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-to-spec",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/clearing",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/model",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/ticket",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/ai-coding-dictionary/effort",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-improve-codebase-architecture",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-implement",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            },
+            {
+              "route": "/skills-ask-matt",
+              "state": "planned-chinese",
+              "reason": "固定195范围目标，待工程确认中文接入后刷新；保留原站。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/grill-with-docs.md",
+          "sha256": "12027ecba459b83a92c1bb97f860cf7f30c1b7330228d59407ad421ddb7baf48"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "39adb47280fe46a6590790e6121b9af31ed83469e2a996add0471feb11bdc829"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "1dd8a12fd0d3dcc9d2cb72c56c67d32992f34cca619921bc4feea30aea771f7f"
+        }
+      ],
+      "rawOutputSha256": "25248c68cdd3ef31e615375657718bf1030cac1b87213df2fa960e89cd275d53"
+    }
+  ],
+  "nonTargetPagesPreserved": 186
+}

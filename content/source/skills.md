@@ -5,7 +5,7 @@ url: "https://www.aihero.dev/skills"
 rss: "https://www.aihero.dev/skills/rss.xml"
 page: 1
 totalPages: 1
-totalChangelogEntries: 5
+totalChangelogEntries: 6
 ---
 
 # AI Skills for Real Engineers
@@ -66,11 +66,11 @@ Explore an open question and produce a decision/answer that feeds the flow.
 
 Markdown: https://www.aihero.dev/shaping-we1mv.md
 
-### [Upkeep](https://www.aihero.dev/upkeep-6heor)
+### [Engineering](https://www.aihero.dev/upkeep~6heor)
 
 Keep the codebase and issue list healthy; generates work for the flow.
 
-Markdown: https://www.aihero.dev/upkeep-6heor.md
+Markdown: https://www.aihero.dev/upkeep~6heor.md
 
 ### [Productivity Skills](https://www.aihero.dev/productivity-skills~3cn9f)
 
@@ -91,6 +91,12 @@ Markdown: https://www.aihero.dev/reference-skills-fshcd.md
 - **In the wild** — [My Grill Me skill has gone viral](https://www.aihero.dev/my-grill-me-skill-has-gone-viral)
 
 ## Changelog (page 1 of 1)
+
+### [v1.3: /implement-spec, /pr, /retro, and GLOSSARY.md](https://www.aihero.dev/skills/skills-changelog-v13-implement-spec-pr-retro-and-glossary-md)
+
+_Oct 5, 2026_
+
+Skills v1.3: /implement-spec builds a whole spec, /pr writes reviewable PR bodies, /retro improves your agent's environment, and CONTEXT.md becomes GLOSSARY.md.
 
 ### [v1.2: /wait-what, /writing-for-agents, Claude Code Plugin, and more](https://www.aihero.dev/skills/skills-changelog-v12-wait-what-writing-for-agents-claude-code-plugin-and-more)
 

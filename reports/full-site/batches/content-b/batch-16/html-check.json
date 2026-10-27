@@ -1,0 +1,18 @@
+[
+  {
+    "route": "/",
+    "savedHtml": "reports/full-site/source-html-2026-10-13.json.responses/a17063002c5a3e4a5c56e871f51d22ddfb41f6b125ceb49e43279204e77d53f4.html.gz",
+    "decompressedSha256": "87680cfeabb371249b17945b0f5696d88b5642b94093ff501280c518af97fee9",
+    "expectedSha256": "87680cfeabb371249b17945b0f5696d88b5642b94093ff501280c518af97fee9",
+    "status": "matched; parsed saved main content only; no new network source",
+    "notes": "已核保存HTML主内容，企业SVG无可读品牌名不猜测，动态候补未伪造；人数与署名为快照。"
+  },
+  {
+    "route": "/newsletter",
+    "savedHtml": "reports/full-site/source-html-probe-newsletter.html.gz",
+    "decompressedSha256": "e300435513ff7edb3b2a7be291c74a53c58a33c126f2fd99bbe847681664967d",
+    "expectedSha256": "e300435513ff7edb3b2a7be291c74a53c58a33c126f2fd99bbe847681664967d",
+    "status": "matched; parsed saved main content only; no new network source",
+    "notes": "核保存HTML有first_name/email及required，没有表单action，明确静态说明、不采集/发送信息、不声称订阅成功。"
+  }
+]

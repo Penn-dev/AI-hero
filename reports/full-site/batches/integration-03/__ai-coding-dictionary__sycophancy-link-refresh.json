@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/content-a/A11/configs/sycophancy.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/sycophancy",
+      "manifest": {
+        "route": "/ai-coding-dictionary/sycophancy",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+        "sourceHash": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941",
+        "translationPath": "content/zh/ai-coding-dictionary/sycophancy.md",
+        "translationHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:48.144Z",
+        "assembly": {
+          "configHash": "4e7e9695835113d741a323e6f57d4b776a054b9c0a2369eb375156f202475cf8",
+          "checkedAt": "2026-10-13T12:19:48.144Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/sycophancy.md",
+          "sha256": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "3f5722ce0acbac11e65673ca97b450d91e6a20ca2dfabba8e90fd0f198f6ad29"
+        }
+      ],
+      "rawOutputSha256": "baf25309d10f577e85ae1318d0ffca1a9205bbfa2c227dc232253a65c8cfeaf0"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/sycophancy",
+      "manifest": {
+        "route": "/ai-coding-dictionary/sycophancy",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/sycophancy",
+        "sourceHash": "414d64cc614ae104dc4fcc3dc49ad56b5e7cdd9de068030e58f3550e84933941",
+        "translationPath": "content/zh/ai-coding-dictionary/sycophancy.md",
+        "translationHash": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:48.345Z",
+        "assembly": {
+          "configHash": "4e7e9695835113d741a323e6f57d4b776a054b9c0a2369eb375156f202475cf8",
+          "checkedAt": "2026-10-13T12:19:48.345Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/sycophancy.md",
+          "sha256": "86f91570ee84bc72bcd1c78eefc72e3a44bcf7858885a6772b0a1dd310a89f37"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "0a43c0988c2b4dcb82db9693e12c6619bb493d748903f991b065917802b83766"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8b96f499e3e9a236ee3351e7cb5fe66672de7513a3185ab1027b55167fb63c60"
+        }
+      ],
+      "rawOutputSha256": "79ce469d6723aaad644c366136641db7de31b613f31f9303bb2b1c02c95ae789"
+    }
+  ],
+  "nonTargetPagesPreserved": 93
+}

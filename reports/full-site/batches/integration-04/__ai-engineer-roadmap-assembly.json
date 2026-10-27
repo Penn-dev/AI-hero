@@ -1,0 +1,105 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-04/configs/ai-engineer-roadmap.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-engineer-roadmap",
+      "manifest": {
+        "route": "/ai-engineer-roadmap",
+        "sourceUrl": "https://www.aihero.dev/ai-engineer-roadmap",
+        "sourceHash": "32552be89fe5159b367e64dc20745e0caa30180b9b3293594e7aacf28a73ec19",
+        "translationPath": "content/zh/ai-engineer-roadmap.md",
+        "translationHash": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:54.444Z",
+        "assembly": {
+          "configHash": "8de7fa545a163c0cd19a1fee4f6b7f2e06bfae44f913bc5a7eb8cd76d3564156",
+          "checkedAt": "2026-10-13T12:37:54.444Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/vercel-ai-sdk-tutorial",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-engineer-roadmap.md",
+          "sha256": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "90a24ea6272453af43782711519a4273f3c12376899c66f9407ea401c663c85f"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "8d3a33dd562bd498c60d6b4ba3644a0e95e1909b84105324d01dde5672fbe36d"
+        }
+      ],
+      "rawOutputSha256": "c0001ee16165d3437de37d183605b714679abc795805bcae2be938c09ba66cfc"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-engineer-roadmap",
+      "manifest": {
+        "route": "/ai-engineer-roadmap",
+        "sourceUrl": "https://www.aihero.dev/ai-engineer-roadmap",
+        "sourceHash": "32552be89fe5159b367e64dc20745e0caa30180b9b3293594e7aacf28a73ec19",
+        "translationPath": "content/zh/ai-engineer-roadmap.md",
+        "translationHash": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:54.689Z",
+        "assembly": {
+          "configHash": "8de7fa545a163c0cd19a1fee4f6b7f2e06bfae44f913bc5a7eb8cd76d3564156",
+          "checkedAt": "2026-10-13T12:37:54.689Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/vercel-ai-sdk-tutorial",
+              "state": "planned-chinese",
+              "reason": "对应完整中文批次已交，待工程确认接入后刷新；保留原站URL。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-engineer-roadmap.md",
+          "sha256": "8f7828af0b30e152f544e32cb2f4e11419c96a1e4d02bf0c9a221b44117410c2"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "90a24ea6272453af43782711519a4273f3c12376899c66f9407ea401c663c85f"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "441e068261d8d1e57d6a0693cbf926d68220d4a30a0b87298a5ee2496bff888c"
+        }
+      ],
+      "rawOutputSha256": "3ce518095a3f1a969501759e7145f0cd1a7203593a8c25d53820031c53223681"
+    }
+  ],
+  "nonTargetPagesPreserved": 118
+}

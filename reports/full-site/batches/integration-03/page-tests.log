@@ -1,0 +1,58 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> sites-project@0.1.0 page:test
+> node --test scripts/assemble-page.test.mjs scripts/localized-article.test.mjs
+
+✔ Output source-relative Solution accepts the correct absolute URL without changing sources or other pages (113.12694ms)
+✔ Output rejects a wrong root Solution even when its later correct link remains, without writing (53.884482ms)
+✔ Output rejects bare relative URLs with an actionable message before writing (59.040794ms)
+✔ ordinary article previews without writing, then assembles through the existing index (23.196308ms)
+✔ optional learning profile uses the current knowledge file without replacing shared records (19.3927ms)
+✔ incorrect source hash fails before any write in preview and apply (7.992669ms)
+▶ invalid route, source path, output path and learning config fail without writes
+  ✔ source route mismatch (6.820074ms)
+  ✔ unsafe route (3.668755ms)
+  ✔ unsafe output (15.216244ms)
+  ✔ unknown config field (4.551214ms)
+  ✔ invalid learning kind (10.916472ms)
+  ✔ invalid learning cards (11.411929ms)
+✔ invalid route, source path, output path and learning config fail without writes (53.940281ms)
+✔ an available Chinese link whose indexed body is empty is rejected before writing (10.592375ms)
+✔ unfinished batch targets are explicitly recorded while available targets must still be valid (18.697978ms)
+✔ an actual renderable Chinese target with a stale source version permits assembly and retains the version difference (33.595132ms)
+✔ Chinese Prompt can be appended, but changing the English Prompt is rejected without writes (19.326546ms)
+▶ content structure, original inline code, resources and renderer support are checked before writes
+  ✔ missing heading (8.130651ms)
+  ✔ missing inline code (11.688659ms)
+  ✔ missing resource (9.92295ms)
+  ✔ unknown MDX (12.118084ms)
+  ✔ JavaScript expression (18.917177ms)
+  ✔ unmarked new code (11.987719ms)
+✔ content structure, original inline code, resources and renderer support are checked before writes (74.016838ms)
+✔ a filesystem failure after target replacement restores every file, including the previous translation (13.383928ms)
+✔ a target cannot overwrite another page translation or shared knowledge source (9.370932ms)
+✔ updating one of seventeen pages preserves the other sixteen pages and refreshes only its translation source (18.910146ms)
+✔ content validation checks every renderable translation status, file hash and indexed body (23.024019ms)
+✔ available Chinese targets are checked against their files and manifest, not just a nonempty index (14.363779ms)
+✔ unsafe symlink destinations fail during preview as well as apply (9.778904ms)
+✔ invalid auxiliary source hashes and changes to another page source are refused (12.034399ms)
+✔ interrupted writes keep a recovery journal and can restore the original files explicitly (27.3566ms)
+✔ a symlink within the workspace cannot redirect translation writes into source files (13.59456ms)
+✔ the actual existing site index and all seventeen manifest records survive adding an ordinary fixture page (37.589556ms)
+✔ shared records changed during preparation are preserved instead of overwritten by a stale plan (10.498524ms)
+✔ an auxiliary source used by another page cannot be silently replaced (14.876263ms)
+✔ shared evidence can move to a verified same-hash snapshot while other records and pages stay unchanged (32.966148ms)
+✔ changing the target translation path keeps its existing profile pointed at the newly assembled file (22.530968ms)
+9:19:52 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ workshop text prompts are not labelled as original code (18.589495ms)
+✔ public articles with an independent glossary retain original resources and Chinese term controls (31.480149ms)
+✔ explicit historical review keeps Chinese-only links and its term controls (11.996882ms)
+✔ explicit original-site URLs stay external while root paths prefer Chinese pages or fall back to English (8.923411ms)
+ℹ tests 42
+ℹ suites 0
+ℹ pass 42
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1066.710342

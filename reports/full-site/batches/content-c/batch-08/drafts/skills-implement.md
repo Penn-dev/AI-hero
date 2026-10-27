@@ -1,0 +1,133 @@
+---
+title: "/implement Skill"
+slug: "skills-implement"
+type: "post"
+description: "先写测试，把已定稿的规格实现成代码。"
+updatedAt: "2026-08-24T09:14:47.195Z"
+---
+
+## 它能做什么
+
+`implement` 实现已经决定好的工作。你给它一张[任务单](https://www.aihero.dev/ai-coding-dictionary/ticket)、一份[规格](https://www.aihero.dev/ai-coding-dictionary/spec)，或刚在对话中确认的计划，它就会写代码，在接缝处运行 [tdd](https://aihero.dev/skills-tdd)，过程中做类型检查，最后运行 [code-review](https://aihero.dev/skills-code-review)，并提交到当前分支。
+
+它不会重新讨论计划。没有访谈，没有澄清轮次，也不提另一套方案。上游确定的内容就是输入，整个 Skill 的工作是把它变成一次提交。这与向一个新的[智能体](https://www.aihero.dev/ai-coding-dictionary/agent)只说“build this”不同，后者经常一边开发，一边重新设计任务。
+
+中文 Prompt（译注）：
+
+```text
+把这个做出来。
+```
+
+## 什么时候该用它
+
+由你输入 `/implement`；智能体不会自行使用。它设置了 `disable-model-invocation: true`，因此其他 Skill 也不能调用。无论 [ask-matt](https://aihero.dev/skills-ask-matt) 还是 [to-tickets](https://aihero.dev/skills-to-tickets) 说“接着对每张任务运行 `/implement`”，都是给你的指示，不是智能体会主动做的事。
+
+是否选它，取决于工作目前写在哪里：
+
+| 工作的状态 | 使用什么 |
+| --- | --- |
+| 跟踪系统里的一张任务单 | `/implement #42`，每个[会话](https://www.aihero.dev/ai-coding-dictionary/session)一张，任务之间[清空上下文](https://www.aihero.dev/ai-coding-dictionary/clearing) |
+| 已有规格，尚未拆分，开发会跨会话 | 先用 [to-tickets](https://aihero.dev/skills-to-tickets)，再逐张 `/implement` |
+| 已有规格，工作很小 | 直接对规格用 `/implement` |
+| 只在刚刚的对话中，且仍很小 | 在同一窗口直接 `/implement` |
+| 还没在任何地方写清 | 用 [grill-with-docs](https://aihero.dev/skills-grill-with-docs)，没有代码库则用 [grill-me](https://aihero.dev/skills-grill-me) |
+| 一个明确行为，希望测试先行，没有规格 | 直接用 [tdd](https://aihero.dev/skills-tdd) |
+| 已实现，只想检查 | 直接用 [code-review](https://aihero.dev/skills-code-review) |
+
+同会话的情况值得单独说明，因为 Skill 第一行没有覆盖它。`SKILL.md` 写的是“规格或任务单”，会让[模型](https://www.aihero.dev/ai-coding-dictionary/model)去找一个不存在的文件。如果计划只在对话中，调用时请明确说明。
+
+## 使用前提
+
+`implement` 会提交到当前分支。它不新建分支，也不询问。开始前，先确认当前分支正是你希望落地工作的分支。
+
+如果任务来自 [to-tickets](https://aihero.dev/skills-to-tickets)，它所在的任务跟踪系统已经由 [setup-matt-pocock-skills](https://aihero.dev/skills-setup-matt-pocock-skills) 配置。`code-review` 会读取同一配置，在收尾时找到原始规格。
+
+## 一次执行会做什么
+
+一次执行按顺序分五步：
+
+1. 读取任务单或规格，确定接缝。
+2. 在预先确认的接缝上运行 [tdd](https://aihero.dev/skills-tdd)，一次一个切片，先让测试失败，再让它通过。
+3. 经常做类型检查，过程中逐个运行测试文件。
+4. 最后运行一次完整测试集。
+5. 运行 [code-review](https://aihero.dev/skills-code-review)，再提交到当前分支。
+
+一次只做一张任务。[to-tickets](https://aihero.dev/skills-to-tickets) 生成的是能贯通各层的纵向小切片，大小适合一个新的[上下文窗口](https://www.aihero.dev/ai-coding-dictionary/context-window)。预期节奏是：清空上下文、实现一张、提交、再次清空。每张任务都能独立理解，因此可以丢弃前一张的上下文。
+
+## 预先确认的接缝
+
+核心概念是**接缝**：一个公开边界，让你不必伸进内部就能观察行为。测试写在接缝上。代码出现前就商定接缝，测试才能长期有效，即使重写底层实现，也不需要改测试。
+
+“预先确认”很重要，也是这个 Skill 最薄弱的地方。`implement` 内部没有确认接缝的步骤。会提问的是 `tdd`，它拒绝在未经确认的接缝上写测试。因此，实际确认要么发生在上游规格中，要么发生在执行开始后的第一轮交流里。如果哪里都没确认，执行就会变成“just write the code”，也没有提醒。把接缝写进规格，才能防止这种情况。
+
+中文理解：“just write the code”是“直接写代码就行”。
+
+中文 Prompt（译注）：
+
+```text
+直接写代码就行。
+```
+
+## 常见问题
+
+**执行结束了，但任务单还开着，验收项也没勾。**
+
+没错，这是预期行为。`implement` 没有任务收尾步骤。提交后就结束，不会修改工作项。GitHub Issues 和本地 Markdown 系统都一样，因此不是集成故障。它也不会处理 `code-review` 的发现，不会勾选原 issue 的 `- [ ]`。关闭任务、核对验收项，都要由你完成。在依赖链中尤其重要，因为 `to-tickets` 把已就绪任务定义为前置阻塞任务全部关闭的任务。没有任务关闭，就不会显示后续任务已解除阻塞。
+
+**能一次给它所有任务，或并行运行几张吗？**
+
+`/implement` 不行，一次调用只做一张。要一轮实现整份规格，用 [implement-spec](https://aihero.dev/skills-implement-spec)。它把每张已就绪任务交给独立 worktree 中的[子智能体](https://www.aihero.dev/ai-coding-dictionary/subagent)，再把结果合入一条整合分支。在同一检出目录里并排运行多个 `/implement` 会话，比“不支持”更糟。有一份现场报告说，三个 issue 的工作在一个下午发生了这些事：某会话的 `git commit --amend` 改到了另一个会话的提交；暂存记录从 `refs/stash` 消失；提交落到错误分支。会话共享一个工作目录、一个 Git index 和一个 HEAD。用户用 Git worktree 绕开这些问题，但 `refs/stash` 在 worktree 之间也共享，所以它不能单独解决 stash 问题。
+
+译注：index 是 Git 的提交暂存区，HEAD 指当前检出位置；stash 临时收起未提交修改。多个会话共享这些状态，会互相干扰。
+
+**能创建 PR，而不是直接提交吗？**
+
+没有内置功能。它直接提交到当前分支。有些人觉得这太急，因为还没来得及验证，代码就提交了。没有配置开关，也没有 PR 模式。有人在调用时覆盖要求，例如“commit to a branch and open a PR”，或修改自己的 Skill 副本。
+
+中文 Prompt（译注）：
+
+```text
+提交到一个分支，并创建 PR。
+```
+
+智能体真正撰写 PR 时，[pr](https://aihero.dev/skills-pr) 会规定正文结构。
+
+**`code-review` 说看不到我的修改。**
+
+`code-review` 审阅的是 `git diff <fixed-point>...HEAD`，不包含暂存区和工作树的修改。`implement` 在提交前运行它，所以如果没有中间提交，diff 中就没有可审阅内容。多人报告过这个问题，两边都还没修复。先提交，再相对于分支分出的起点审阅。
+
+另外，有些人根本不想在同一执行中审阅，因为智能体审阅自己刚写的代码，会偏向自己的方案。另开新会话，对固定起点运行 [code-review](https://aihero.dev/skills-code-review)，是合理替代方案。同样的偏见，也是该 Skill 把两个审阅维度交给独立子智能体的原因。
+
+**一张任务用了 150k Token，是用错了吗？**
+
+很可能没有，更可能是任务太大。一次执行包含代码库探索、每个接缝的红绿循环、完整测试和审阅，所以一项不简单的任务超过 100k [Token](https://www.aihero.dev/ai-coding-dictionary/token) 很正常，不代表哪里坏了。修法在上游：用 [to-tickets](https://aihero.dev/skills-to-tickets) 把每张任务调整到一个新窗口能容纳的大小。如果总超出，就拆任务，而不是提高[推理强度](https://www.aihero.dev/ai-coding-dictionary/effort)。
+
+**新会话里执行 `/implement #2`，却做了完全无关的事。**
+
+智能体把 `#2` 解析成上下文中另一张编号清单，例如待办文件或检查清单，而非已配置的任务系统。现在 `implement` 会先从任务系统取得传入的引用，开始前报出标题，引用有歧义时询问。请确认标题对应你想做的任务；传入 issue URL 或 `owner/repo#2`，就能消除歧义。
+
+## 出现这些迹象，就说明它在发挥作用
+
+- 开头先读任务或规格，复述将实现什么，而不是问你要做什么。
+- 记录里能看到实际的 `tdd` Skill 调用，不只是 diff 中出现了测试。
+- 类型检查和单个测试文件在过程中反复运行，完整测试集在临近结束时运行一次。
+- 无需你催促继续，它就完成了当前分支上的提交。
+- diff 对应一张任务，是贯通各层的纵向切片，不是把多张任务一并做了。
+
+## 它处在什么位置
+
+`implement` 是主要流程中的开发步骤：
+
+```txt
+grill-with-docs → to-spec → to-tickets → implement → code-review → retro
+```
+
+相邻的 [to-tickets](https://aihero.dev/skills-to-tickets) 生成它接收的任务，并声明决定顺序的阻塞关系；[tdd](https://aihero.dev/skills-tdd) 在每个接缝内部运行；[code-review](https://aihero.dev/skills-code-review) 在提交前运行。它处于规划 Skills 的下游，并信任它们，不会重新验证输入的结构。因此，结构不好的路线图或按水平技术层拆分的任务，也会被照原样实现。
+
+这种信任，就是 [wayfinder](https://aihero.dev/skills-wayfinder) 从 [to-spec](https://aihero.dev/skills-to-spec) 接入主要流程，而不是把路线图直接送入 `implement` 的原因。只有最终发现工作很小时，才从路线图直接进入 `implement`。
+
+不确定自己在哪条流程中时，[ask-matt](https://aihero.dev/skills-ask-matt) 提供整套 Skills 的路线选择。
+
+译注：本页保留固定来源所描述的行为与限制，没有实际运行实现、提交或审阅，也没有实时确认缺陷是否已修复。
+
+译注：本页相关中文词条：[任务单](/ai-coding-dictionary/ticket)、[自动检查](/ai-coding-dictionary/automated-check)、[上下文窗口](/ai-coding-dictionary/context-window)。链接优先打开已接入的中文页；尚未接入时会回到原站英文页。

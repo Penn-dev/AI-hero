@@ -1,0 +1,155 @@
+{
+  "config": "reports/full-site/content-a/A14/configs/grilling.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/ai-coding-dictionary/grilling",
+      "manifest": {
+        "route": "/ai-coding-dictionary/grilling",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+        "sourceHash": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc",
+        "translationPath": "content/zh/ai-coding-dictionary/grilling.md",
+        "translationHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:11.078Z",
+        "assembly": {
+          "configHash": "dce889469348ddccc3ee2c6d06d324100965af76af6113f399814ecf936d16e3",
+          "checkedAt": "2026-10-13T12:19:11.078Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/design-concept",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff-artifact",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/prototyping",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/grilling.md",
+          "sha256": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "d94fee4d6556fceaee6bed5efc73ac78b5614cb7d008520cfa8d915716be37e5"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "dcd6ecddbdb5948644024265343df8090564bdb49146950c70097725f790974d"
+        }
+      ],
+      "rawOutputSha256": "0362bc83feca238b7d02d2917ff978e998b2f361398c4ee23881dd543db51fb8"
+    },
+    {
+      "mode": "apply",
+      "route": "/ai-coding-dictionary/grilling",
+      "manifest": {
+        "route": "/ai-coding-dictionary/grilling",
+        "sourceUrl": "https://www.aihero.dev/ai-coding-dictionary/grilling",
+        "sourceHash": "0f6cd2f69d547f2dee90b4af18f57c0f16da208e970324d729bb2c6273d8f7cc",
+        "translationPath": "content/zh/ai-coding-dictionary/grilling.md",
+        "translationHash": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:19:11.288Z",
+        "assembly": {
+          "configHash": "dce889469348ddccc3ee2c6d06d324100965af76af6113f399814ecf936d16e3",
+          "checkedAt": "2026-10-13T12:19:11.288Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [
+            {
+              "route": "/ai-coding-dictionary",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/design-concept",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/handoff-artifact",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/human-in-the-loop",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/prototyping",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            },
+            {
+              "route": "/ai-coding-dictionary/spec",
+              "state": "planned-chinese",
+              "reason": "固定来源范围内的后续中文目标；当前尚未完成本轮制作，接页时记录实际可用或待复核状态。"
+            }
+          ],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/ai-coding-dictionary/grilling.md",
+          "sha256": "34814d7eb6201c48d26e3c85a707e4ded8fe47a847827bd97a649df7f3d97e2e"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "d94fee4d6556fceaee6bed5efc73ac78b5614cb7d008520cfa8d915716be37e5"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "6e5abe8c1efe5bc38dd9851e6f90de69390dcdde2404f27eb23c95728072bffa"
+        }
+      ],
+      "rawOutputSha256": "5de86e754a336e9674b8a4f82790d7362cddadbd9c93087a9458c17d79aaa96f"
+    }
+  ],
+  "nonTargetPagesPreserved": 85
+}

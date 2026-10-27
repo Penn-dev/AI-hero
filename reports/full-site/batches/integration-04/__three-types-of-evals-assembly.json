@@ -1,0 +1,93 @@
+{
+  "config": "reports/full-site/batches/content-b/batch-04/configs/three-types-of-evals.json",
+  "recordFormat": "Actual CLI outputs reduced to manifest/write hashes; article bytes are preserved at translationPath.",
+  "calls": [
+    {
+      "mode": "preview",
+      "route": "/three-types-of-evals",
+      "manifest": {
+        "route": "/three-types-of-evals",
+        "sourceUrl": "https://www.aihero.dev/three-types-of-evals",
+        "sourceHash": "daed9213d7e4da9e384ec039e35080fe75ffeccd9f8d8a02860e3f0b7472d992",
+        "translationPath": "content/zh/three-types-of-evals.md",
+        "translationHash": "38579d6eed8a95d702e79a8871aab78b62a6a4bd58ef320481398b8d3b19eb7b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:56.704Z",
+        "assembly": {
+          "configHash": "63d2a1e629d6fffc1274f3cb1b7842bd9102823391fb9c1c2d7a1d225e568ed6",
+          "checkedAt": "2026-10-13T12:37:56.704Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/three-types-of-evals.md",
+          "sha256": "38579d6eed8a95d702e79a8871aab78b62a6a4bd58ef320481398b8d3b19eb7b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ff5f7899f0db49587b910f17f78b4af2aedaef06ed5063880481c9de1d804f16"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "ef8463a810490a23691de4e04839ecce512765f98c3db4e99843bb6de7ca9dc0"
+        }
+      ],
+      "rawOutputSha256": "0df54bb7746523312d4579aff0f04909ede540be8e0c15c058e7bc81a03e105a"
+    },
+    {
+      "mode": "apply",
+      "route": "/three-types-of-evals",
+      "manifest": {
+        "route": "/three-types-of-evals",
+        "sourceUrl": "https://www.aihero.dev/three-types-of-evals",
+        "sourceHash": "daed9213d7e4da9e384ec039e35080fe75ffeccd9f8d8a02860e3f0b7472d992",
+        "translationPath": "content/zh/three-types-of-evals.md",
+        "translationHash": "38579d6eed8a95d702e79a8871aab78b62a6a4bd58ef320481398b8d3b19eb7b",
+        "status": "assembled",
+        "assembledAt": "2026-10-13T12:37:56.914Z",
+        "assembly": {
+          "configHash": "63d2a1e629d6fffc1274f3cb1b7842bd9102823391fb9c1c2d7a1d225e568ed6",
+          "checkedAt": "2026-10-13T12:37:56.914Z",
+          "checks": [
+            "source-hash",
+            "config",
+            "content-structure",
+            "original-blocks",
+            "inline-code",
+            "source-resources",
+            "chinese-targets"
+          ],
+          "plannedChineseTargets": [],
+          "staleChineseTargets": []
+        }
+      },
+      "outputs": [
+        {
+          "path": "content/zh/three-types-of-evals.md",
+          "sha256": "38579d6eed8a95d702e79a8871aab78b62a6a4bd58ef320481398b8d3b19eb7b"
+        },
+        {
+          "path": "content/zh/index.json",
+          "sha256": "ff5f7899f0db49587b910f17f78b4af2aedaef06ed5063880481c9de1d804f16"
+        },
+        {
+          "path": "content/zh/manifest.json",
+          "sha256": "d28c35228fbac1352dbd8068b112624504bdf2ea3ad9d889d925b765cb32d5cd"
+        }
+      ],
+      "rawOutputSha256": "457e2e6c7940bcd6662a7f0ab42133780df70b3d090710673ca13a43ffc9a171"
+    }
+  ],
+  "nonTargetPagesPreserved": 123
+}
