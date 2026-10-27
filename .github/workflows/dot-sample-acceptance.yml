@@ -4,7 +4,6 @@ on:
     branches:
       - codex/full-site-chinese
     paths-ignore:
-      - reports/**
       - docs/**
 permissions:
   contents: read
