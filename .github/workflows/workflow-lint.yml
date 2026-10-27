@@ -1,0 +1,47 @@
+name: Workflow syntax validation
+
+on:
+  pull_request:
+    branches:
+      - codex/full-site-chinese
+    paths:
+      - '.github/workflows/**'
+  push:
+    branches:
+      - codex/full-site-chinese
+    paths:
+      - '.github/workflows/**'
+
+permissions:
+  contents: read
+
+jobs:
+  workflow-lint:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check out the candidate
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Verify pinned actionlint and check workflow files
+        shell: bash
+        run: |
+          set -euo pipefail
+          tool_dir=$(mktemp -d "$RUNNER_TEMP/actionlint.XXXXXX")
+          archive=actionlint_1.7.12_linux_amd64.tar.gz
+          curl --fail --location --proto '=https' --tlsv1.2 --retry 2 --max-time 90 \
+            --output "$tool_dir/$archive" \
+            "https://github.com/rhysd/actionlint/releases/download/v1.7.12/$archive"
+          # Official v1.7.12 checksums.txt, independently verified before this candidate.
+          printf '%s  %s\n' \
+            '8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8' \
+            "$tool_dir/$archive" | sha256sum --check --strict -
+          tar -xzf "$tool_dir/$archive" -C "$tool_dir" actionlint
+          "$tool_dir/actionlint" -version
+          mapfile -d '' workflows < <(find .github/workflows -type f \( -name '*.yml' -o -name '*.yaml' \) -print0)
+          if [ "${#workflows[@]}" -eq 0 ]; then
+            echo 'No workflow files found' >&2
+            exit 1
+          fi
+          "$tool_dir/actionlint" -shellcheck= -pyflakes= "${workflows[@]}"
